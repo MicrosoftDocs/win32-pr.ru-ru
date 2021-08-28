@@ -4,12 +4,12 @@ ms.assetid: 1acd6f98-af59-47fd-9a3e-38a668fb6acf
 title: Пример Симплеплай
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e02fee507ffed7bd91664f67ffb725565f47c721
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 331d91032931b26f7a0d9bd3938bcf484e09ee0794202048069213379d5ed51c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112924"
 ---
 # <a name="simpleplay-sample"></a>Пример Симплеплай
 
@@ -42,9 +42,9 @@ ms.locfileid: "105711393"
 
 ## <a name="downloading-the-sample"></a>Загрузка образца
 
-Этот пример доступен в [репозитории GitHub с классическими примерами Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/SimplePlay).
+этот пример доступен в [репозитории github для классических примеров Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/SimplePlay).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

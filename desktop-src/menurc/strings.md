@@ -1,5 +1,5 @@
 ---
-title: Строки
+title: строк
 description: В этом разделе обсуждаются строковые функции.
 ms.assetid: vs|winui|~\winui\windowsuserinterface\resources\strings.htm
 keywords:
@@ -8,18 +8,18 @@ keywords:
 - строковые функции
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3231006de2dfe6ed611b58e5b511819a40c21e8b
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: a3799c151b828dba1d687068da6f7f5924aded09
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "103795223"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478900"
 ---
 # <a name="strings"></a>Строки
 
 В этом разделе описываются строковые функции и объясняется, как использовать их в приложениях.
 
-### <a name="in-this-section"></a>в этом разделе
+### <a name="in-this-section"></a>В этом разделе
 
 
 
@@ -37,149 +37,41 @@ ms.locfileid: "103795223"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Имя</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-charlowera"><strong>чарловер</strong></a></td>
-<td>Преобразует строку символов или один символ в нижний регистр. Если операнд является символьной строкой, функция преобразует символы на месте. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-charlowerbuffa"><strong>чарловербуфф</strong></a></td>
-<td>Преобразует символы верхнего регистра в буфере в символы нижнего регистра. Функция преобразует символы на месте. <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-charnexta"><strong>чарнекст</strong></a></td>
-<td>Извлекает указатель на следующий символ в строке. Эта функция может выполнять обработку строк, состоящих из однобайтовых символов или из одного или нескольких байтов.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-charnextexa"><strong>чарнекстекса</strong></a></td>
-<td>Получает указатель на следующий символ в строке. Эта функция может выполнять обработку строк, состоящих из однобайтовых символов или из одного или нескольких байтов.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-charpreva"><strong>чарпрев</strong></a></td>
-<td>Извлекает указатель на предшествующий символ в строке. Эта функция может выполнять обработку строк, состоящих из однобайтовых символов или из одного или нескольких байтов.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-charprevexa"><strong>чарпревекса</strong></a></td>
-<td>Получает указатель на предшествующий символ в строке. Эта функция может выполнять обработку строк, состоящих из однобайтовых символов или из одного или нескольких байтов.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-chartooema"><strong>чартуем</strong></a></td>
-<td>Преобразует строку в набор символов, определяемый изготовителем оборудования.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-chartooembuffa"><strong>чартуембуфф</strong></a></td>
-<td>Преобразует указанное число символов в строке в набор символов, определенный изготовителем оборудования.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-charuppera"><strong>чаруппер</strong></a></td>
-<td>Преобразует строку символов или один символ в верхний регистр. Если операнд является символьной строкой, функция преобразует символы на месте. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-charupperbuffa"><strong>чаруппербуфф</strong></a></td>
-<td>Преобразует символы нижнего регистра в буфере в символы верхнего регистра. Функция преобразует символы на месте. <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw"><strong>CompareString</strong></a></td>
-<td>Сравнивает две символьные строки, используя заданный языковой стандарт.
-<blockquote>
-[!Note]<br />
-Для совместимости с Юникодом используйте <a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex"><strong>компарестринжекс</strong></a> или версию <a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw"><strong>API CompareString</strong></a>с поддержкой Юникода.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex"><strong>компарестринжекс</strong></a></td>
-<td>Сравнивает два строки Юникода (расширенных символов) с использованием указанного языкового стандарта.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/stringapiset/nf-stringapiset-foldstringw"><strong>FoldString</strong></a></td>
-<td>Сопоставляет одну строку с другой, выполняя указанный параметр преобразования. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/winnls/nf-winnls-getstringtypea"><strong>жетстрингтипеа</strong></a></td>
-<td>Извлекает сведения о символьном типе для символов в указанной исходной строке. Для каждого символа в строке функция задает один или несколько битов в соответствующем 16-разрядном элементе выходного массива. Каждый бит определяет заданный символьный тип, например, является ли символ буквой, цифрой или ни одной.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/stringapiset/nf-stringapiset-getstringtypeexw"><strong>жетстрингтипикс</strong></a></td>
-<td>Извлекает сведения о символьном типе для символов в указанной исходной строке. Для каждого символа в строке функция задает один или несколько битов в соответствующем 16-разрядном элементе выходного массива. Каждый бит определяет заданный символьный тип, например, является ли символ буквой, цифрой или ни одной. <br/> В отличие от его близких родственников <a href="/windows/desktop/api/winnls/nf-winnls-getstringtypea"><strong>жетстрингтипеа</strong></a> и <a href="/windows/desktop/api/stringapiset/nf-stringapiset-getstringtypew"><strong>жетстрингтипев</strong></a>, <a href="/windows/win32/api/stringapiset/nf-stringapiset-getstringtypeexw"><strong>жетстрингтипикс</strong></a> по-разному покрывает стандартное поведение с помощью параметра <strong> # define Юникода</strong> . Это рекомендуемая функция.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/stringapiset/nf-stringapiset-getstringtypew"><strong>жетстрингтипев</strong></a></td>
-<td>Извлекает сведения о символьном типе для символов в указанной исходной строке. Для каждого символа в строке функция задает один или несколько битов в соответствующем 16-разрядном элементе выходного массива. Каждый бит определяет заданный символьный тип, например, является ли символ буквой, цифрой или ни одной.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-ischaralphaa"><strong>исчаралфа</strong></a></td>
-<td>Определяет, является ли символ буквенно-знакомым. Это определение основано на семантике языка, выбранного пользователем во время установки или с помощью панели управления. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-ischaralphanumerica"><strong>исчаралфанумерик</strong></a></td>
-<td>Определяет, является ли символ алфавитным или цифровым символом. Это определение основано на семантике языка, выбранного пользователем во время установки или с помощью панели управления. <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-ischarlowera"><strong>исчарловер</strong></a></td>
-<td>Определяет, является ли символ строчным. Это определение основано на семантике языка, выбранного пользователем во время установки или с помощью панели управления. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-ischaruppera"><strong>исчаруппер</strong></a></td>
-<td>Определяет, является ли символ прописным. Это определение основано на семантике языка, выбранного пользователем во время установки или с помощью панели управления. <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-loadstringa"><strong>лоадстринг</strong></a></td>
-<td>Загружает строковый ресурс из исполняемого файла, связанного с указанным модулем, копирует строку в буфер и добавляет завершающий нуль-символ.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winbase/nf-winbase-lstrcata"><strong>лстркат</strong></a></td>
-<td>Добавляет одну строку в другую.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winbase/nf-winbase-lstrcmpa"><strong>лстркмп</strong></a></td>
-<td>Сравнивает две символьные строки. При сравнении учитывается регистр.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winbase/nf-winbase-lstrcmpia"><strong>лстркмпи</strong></a></td>
-<td>Сравнивает две символьные строки. Сравнение выполняется без учета регистра.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winbase/nf-winbase-lstrcpya"><strong>лстркпи</strong></a></td>
-<td>Копирует строку в буфер.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winbase/nf-winbase-lstrcpyna"><strong>лстркпин</strong></a></td>
-<td>Копирует указанное число символов из исходной строки в буфер. <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winbase/nf-winbase-lstrlena"><strong>lstrlen</strong></a></td>
-<td>Определяет длину указанной строки (не включая завершающий нуль-символ).<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-oemtochara"><strong>оемточар</strong></a></td>
-<td>Преобразует строку из кодировки, определенной изготовителем оборудования, в строку в кодировке ANSI или в расширенных символах.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-oemtocharbuffa"><strong>оемточарбуфф</strong></a></td>
-<td>Преобразует указанное число символов в строке из набора, заданного изготовителем оборудования, в строку в кодировке ANSI или в расширенных символах.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-wsprintfa"><strong>вспринтф</strong></a></td>
-<td>Записывает форматированные данные в указанный буфер.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-wvsprintfa"><strong>ввспринтф</strong></a></td>
-<td>Записывает форматированные данные в указанный буфер с помощью указателя на список аргументов.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Имя | Описание | 
+|------|-------------|
+| <a href="/windows/desktop/api/Winuser/nf-winuser-charlowera"><strong>чарловер</strong></a> | Преобразует строку символов или один символ в нижний регистр. Если операнд является символьной строкой, функция преобразует символы на месте. <br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-charlowerbuffa"><strong>чарловербуфф</strong></a> | Преобразует символы верхнего регистра в буфере в символы нижнего регистра. Функция преобразует символы на месте. <br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-charnexta"><strong>чарнекст</strong></a> | Извлекает указатель на следующий символ в строке. Эта функция может выполнять обработку строк, состоящих из однобайтовых символов или из одного или нескольких байтов.<br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-charnextexa"><strong>чарнекстекса</strong></a> | Получает указатель на следующий символ в строке. Эта функция может выполнять обработку строк, состоящих из однобайтовых символов или из одного или нескольких байтов.<br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-charpreva"><strong>чарпрев</strong></a> | Извлекает указатель на предшествующий символ в строке. Эта функция может выполнять обработку строк, состоящих из однобайтовых символов или из одного или нескольких байтов.<br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-charprevexa"><strong>чарпревекса</strong></a> | Получает указатель на предшествующий символ в строке. Эта функция может выполнять обработку строк, состоящих из однобайтовых символов или из одного или нескольких байтов.<br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-chartooema"><strong>чартуем</strong></a> | Преобразует строку в набор символов, определяемый изготовителем оборудования.<br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-chartooembuffa"><strong>чартуембуфф</strong></a> | Преобразует указанное число символов в строке в набор символов, определенный изготовителем оборудования.<br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-charuppera"><strong>чаруппер</strong></a> | Преобразует строку символов или один символ в верхний регистр. Если операнд является символьной строкой, функция преобразует символы на месте. <br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-charupperbuffa"><strong>чаруппербуфф</strong></a> | Преобразует символы нижнего регистра в буфере в символы верхнего регистра. Функция преобразует символы на месте. <br /> | 
+| <a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw"><strong>CompareString</strong></a> | Сравнивает две символьные строки, используя заданный языковой стандарт.<blockquote>[!Note]<br />Для совместимости с Юникодом используйте <a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex"><strong>компарестринжекс</strong></a> или версию <a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw"><strong>API CompareString</strong></a>с поддержкой Юникода.</blockquote><br /><br /> | 
+| <a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex"><strong>компарестринжекс</strong></a> | Сравнивает два строки Юникода (расширенных символов) с использованием указанного языкового стандарта.<br /> | 
+| <a href="/windows/desktop/api/stringapiset/nf-stringapiset-foldstringw"><strong>FoldString</strong></a> | Карты одну строку в другую, выполняя указанный параметр преобразования. <br /> | 
+| <a href="/windows/desktop/api/winnls/nf-winnls-getstringtypea"><strong>жетстрингтипеа</strong></a> | Извлекает сведения о символьном типе для символов в указанной исходной строке. Для каждого символа в строке функция задает один или несколько битов в соответствующем 16-разрядном элементе выходного массива. Каждый бит определяет заданный символьный тип, например, является ли символ буквой, цифрой или ни одной.<br /> | 
+| <a href="/windows/win32/api/stringapiset/nf-stringapiset-getstringtypeexw"><strong>жетстрингтипикс</strong></a> | Извлекает сведения о символьном типе для символов в указанной исходной строке. Для каждого символа в строке функция задает один или несколько битов в соответствующем 16-разрядном элементе выходного массива. Каждый бит определяет заданный символьный тип, например, является ли символ буквой, цифрой или ни одной. <br /> В отличие от его близких родственников <a href="/windows/desktop/api/winnls/nf-winnls-getstringtypea"><strong>жетстрингтипеа</strong></a> и <a href="/windows/desktop/api/stringapiset/nf-stringapiset-getstringtypew"><strong>жетстрингтипев</strong></a>, <a href="/windows/win32/api/stringapiset/nf-stringapiset-getstringtypeexw"><strong>жетстрингтипикси</strong></a> работают со стандартным поведением с помощью параметра <strong>#define Unicode</strong> . Это рекомендуемая функция.<br /> | 
+| <a href="/windows/desktop/api/stringapiset/nf-stringapiset-getstringtypew"><strong>жетстрингтипев</strong></a> | Извлекает сведения о символьном типе для символов в указанной исходной строке. Для каждого символа в строке функция задает один или несколько битов в соответствующем 16-разрядном элементе выходного массива. Каждый бит определяет заданный символьный тип, например, является ли символ буквой, цифрой или ни одной.<br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-ischaralphaa"><strong>исчаралфа</strong></a> | Определяет, является ли символ буквенно-знакомым. Это определение основано на семантике языка, выбранного пользователем во время установки или с помощью панели управления. <br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-ischaralphanumerica"><strong>исчаралфанумерик</strong></a> | Определяет, является ли символ алфавитным или цифровым символом. Это определение основано на семантике языка, выбранного пользователем во время установки или с помощью панели управления. <br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-ischarlowera"><strong>исчарловер</strong></a> | Определяет, является ли символ строчным. Это определение основано на семантике языка, выбранного пользователем во время установки или с помощью панели управления. <br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-ischaruppera"><strong>исчаруппер</strong></a> | Определяет, является ли символ прописным. Это определение основано на семантике языка, выбранного пользователем во время установки или с помощью панели управления. <br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-loadstringa"><strong>лоадстринг</strong></a> | Загружает строковый ресурс из исполняемого файла, связанного с указанным модулем, копирует строку в буфер и добавляет завершающий нуль-символ.<br /> | 
+| <a href="/windows/desktop/api/Winbase/nf-winbase-lstrcata"><strong>лстркат</strong></a> | Добавляет одну строку в другую.<br /> | 
+| <a href="/windows/desktop/api/Winbase/nf-winbase-lstrcmpa"><strong>лстркмп</strong></a> | Сравнивает две символьные строки. При сравнении учитывается регистр.<br /> | 
+| <a href="/windows/desktop/api/Winbase/nf-winbase-lstrcmpia"><strong>лстркмпи</strong></a> | Сравнивает две символьные строки. Сравнение выполняется без учета регистра.<br /> | 
+| <a href="/windows/desktop/api/Winbase/nf-winbase-lstrcpya"><strong>лстркпи</strong></a> | Копирует строку в буфер.<br /> | 
+| <a href="/windows/desktop/api/Winbase/nf-winbase-lstrcpyna"><strong>лстркпин</strong></a> | Копирует указанное число символов из исходной строки в буфер. <br /> | 
+| <a href="/windows/desktop/api/Winbase/nf-winbase-lstrlena"><strong>lstrlen</strong></a> | Определяет длину указанной строки (не включая завершающий нуль-символ).<br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-oemtochara"><strong>оемточар</strong></a> | Преобразует строку из кодировки, определенной изготовителем оборудования, в строку в кодировке ANSI или в расширенных символах.<br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-oemtocharbuffa"><strong>оемточарбуфф</strong></a> | Преобразует указанное число символов в строке из набора, заданного изготовителем оборудования, в строку в кодировке ANSI или в расширенных символах.<br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-wsprintfa"><strong>вспринтф</strong></a> | Записывает форматированные данные в указанный буфер.<br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-wvsprintfa"><strong>ввспринтф</strong></a> | Записывает форматированные данные в указанный буфер с помощью указателя на список аргументов.<br /> | 
+
 
 
 

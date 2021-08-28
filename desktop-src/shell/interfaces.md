@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 8bf8a0669666ae45ba79fda014a8b3b92b57a974b6f72e06303c6c8a2e368bba
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9c5599c08471f29758276bf70ebbecc5d60fa28e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119032372"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473340"
 ---
 # <a name="shell-interfaces"></a>Интерфейсы оболочки 
 
@@ -24,1375 +24,344 @@ ms.locfileid: "119032372"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Раздел</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iaccessibleobject"><strong>иакцессиблеобжект</strong></a><br/></td>
-<td>Предоставляет метод, который может использоваться приложением со специальными возможностями.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/previous-versions/windows/desktop/legacy/hh448546(v=vs.85)"><strong>иакцессибилитидоккингсервице</strong></a><br/></td>
-<td>Закрепляет одно окно приложения с поддержкой специальных возможностей в нижней части экрана.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/previous-versions/windows/desktop/legacy/hh448547(v=vs.85)"><strong>иакцессибилитидоккингсервицекаллбакк</strong></a><br/></td>
-<td>Информирует приложение о специальных возможностях о том, что его окно было отброшено.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="iaclcustommru.md"><strong>иаклкустоммру</strong></a><br/></td>
-<td>Предоставляет методы, используемые для инициализации списка недавно использовавшихся (MRU) для объекта автозавершения.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iaclist"><strong>иаклист</strong></a><br/></td>
-<td>Предоставляет метод, повышающий эффективность <a href="/windows/desktop/api/Shldisp/nn-shldisp-iautocomplete"><strong>автозаполнения</strong></a> при упорядочении строк кандидатов в иерархии.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iaclist2"><strong>IACList2</strong></a><br/></td>
-<td>Расширяет интерфейс <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iaclist"><strong>иаклист</strong></a> , позволяя клиентам объекта автозаполнения получать и задавать флаги параметров.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress"><strong>иактионпрогресс</strong></a><br/></td>
-<td>Представляет абстрактный базовый класс, от которого могут наследоваться операции, управляемые ходом выполнения.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogressdialog"><strong>иактионпрогрессдиалог</strong></a><br/></td>
-<td>Предоставляет методы, которые инициализируют и останавливают диалоговое окно хода выполнения.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationactivationmanager"><strong>иаппликатионактиватионманажер</strong></a><br/></td>
-<td>предоставляет методы, которые активируют приложения Windows Store для <a href="/previous-versions/windows/apps/hh464906(v=win.10)">расширений</a>запуска, файлов и протоколов. Обычно этот интерфейс будет использоваться в отладчиках и средствах проектирования.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration"><strong>иаппликатионассоЦиатионрегистратион</strong></a><br/></td>
-<td>Предоставляет методы, которые запрашивают и устанавливают приложения по умолчанию для конкретного <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationtype"><strong>типа сопоставления</strong></a>файлов и протоколов на определенном <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationlevel"><strong>уровне взаимосвязей</strong></a>. <br/>
-<blockquote>
-[!Note]<br />
-начиная с Windows 8, поддерживаются только функции этого интерфейса <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationassociationregistration-querycurrentdefault"><strong>куерикуррентдефаулт</strong></a>.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iapplicationassociationregistrationui"><strong>иаппликатионассоЦиатионрегистратионуи</strong></a><br/></td>
-<td>Предоставляет метод, запускающий диалоговое окно расширенной ассоциации, с помощью которого пользователь может настроить свои ассоциации.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings"><strong>иаппликатиондесигнмодесеттингс</strong></a><br/></td>
-<td>позволяет приложениям средств разработки динамически подделывать системные и пользовательские состояния, такие как собственное разрешение экрана, коэффициент масштабирования устройства и состояние представления приложения, в целях тестирования Windows приложений магазина, работающих в режиме конструктора, для широкого спектра форм-факторов без необходимости реального оборудования. также позволяет тестировать изменения в обычном управляемом пользователем состоянии для тестирования Windows приложений магазина в различных сценариях.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings2"><strong>IApplicationDesignModeSettings2</strong></a><br/></td>
-<td>позволяет приложениям средств разработки динамически управлять состояниями системы и пользователями, такими как собственное разрешение экрана, коэффициент масштабирования устройства и макет представления приложений, о которых передается в Windows приложения магазина для тестирования Windows приложений магазина, работающих в режиме разработки, для широкого спектра форм-факторов без необходимости в фактическом оборудовании. также позволяет тестировать изменения в обычном управляемом пользователем состоянии для тестирования Windows приложений магазина в различных сценариях.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdestinations"><strong>иаппликатиондестинатионс</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие приложению удалить одно или все назначения из <strong>последних</strong> или <strong>часто используемых</strong> категорий в списке переходов.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdocumentlists"><strong>иаппликатиондокументлистс</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие приложению получать содержимое <strong>последних</strong> или <strong>часто встречающихся</strong> категорий в списке переходов.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shappmgr/nn-shappmgr-iapppublisher"><strong>иапппублишер</strong></a><br/></td>
-<td>Предоставляет методы для публикации приложений с помощью компонента « <strong>Установка и удаление программ</strong> » на панели управления. Это основной интерфейс, реализованный для этой цели.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibility"><strong>иаппвисибилити</strong></a><br/></td>
-<td>предоставляет функциональные возможности для определения того, отображается ли дисплей Windows приложений магазина.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibilityevents"><strong>иаппвисибилитевентс</strong></a><br/></td>
-<td>Позволяет приложениям получать уведомления об изменениях состояния при отображении и изменениях на начальном экране.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iassochandler"><strong>иассочандлер</strong></a><br/></td>
-<td>Предоставляет методы для операций с диалоговым окном или меню "сопоставление файлов".<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iassochandlerinvoker"><strong>иассочандлеринвокер</strong></a><br/></td>
-<td>Предоставляет методы, которые вызывают связанный обработчик приложения.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iattachmentexecute"><strong>иаттачментексекуте</strong></a><br/></td>
-<td>Предоставляет методы, которые работают с клиентскими приложениями для предоставления среды пользователя, которая обеспечивает безопасность загрузки и обмена файлами по электронной почте и вложениям в сообщения.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shldisp/nn-shldisp-iautocomplete"><strong>иаутокомплете</strong></a><br/></td>
-<td>Предоставляется объектом автозаполнения (CLSID_AutoComplete). Этот интерфейс позволяет приложениям инициализировать, включать и отключать объект.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shldisp/nn-shldisp-iautocomplete2"><strong>IAutoComplete2</strong></a><br/></td>
-<td>Расширяет <a href="/windows/desktop/api/Shldisp/nn-shldisp-iautocomplete"><strong>иаутокомплете</strong></a>. Этот интерфейс позволяет клиентам объекта автозаполнения извлекать и задавать ряд параметров, управляющих работой автозаполнения.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iautocompletedropdown"><strong>иаутокомплетедропдовн</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие клиентам сбрасывать или запрашивать состояние отображения раскрывающегося списка автозаполнения, который содержит возможные варианты завершения строки, указанной пользователем в элементе управления "поле ввода".<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ibandhost"><strong>ибандхост</strong></a><br/></td>
-<td>Предоставляет методы, создающие и удаляющие полосы и задающих их доступность.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ibandsite"><strong>ибандсите</strong></a><br/></td>
-<td>Предоставляет методы, управляющие объектами с диапазонами.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ibrowserframeoptions"><strong>ибровсерфрамеоптионс</strong></a><br/></td>
-<td>Позволяет браузеру или узлу запрашивать <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>ишеллвиев</strong></a> , какие виды поведения представления поддерживаются.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icategorizer"><strong>икатегоризер</strong></a><br/></td>
-<td>Предоставляет методы, используемые для получения сведений о списках идентификаторов элементов.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icategoryprovider"><strong>икатегорипровидер</strong></a><br/></td>
-<td>Предоставляет список классификаторов, зарегистрированных в <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>ишеллфолдер</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-icdburn"><strong>икдбурн</strong></a><br/></td>
-<td>Предоставляет методы, которые определяют, имеет ли система оборудование для записи на компакт-диск, букву диска устройства записи компакт-дисков и программно инициирует сеанс записи компакт-диска. <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icolumnmanager"><strong>иколумнманажер</strong></a><br/></td>
-<td>предоставляет методы, обеспечивающие проверку и обработку столбцов в представлении сведений обозревателя Windows. На каждый столбец ссылается структура <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey"><strong>PROPERTYKEY</strong></a> , которая именует свойство.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser"><strong>икоммдлгбровсер</strong></a><br/></td>
-<td>Предоставляется общими диалоговыми окнами файла, которые используются при размещении обозревателя оболочки. Если поддерживается, <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser"><strong>икоммдлгбровсер</strong></a> предоставляет методы, позволяющие представлению оболочки работать с несколькими случаями, требующими другого поведения в диалоговом окне, чем в обычном представлении оболочки. Вы получаете указатель интерфейса <strong>икоммдлгбровсер</strong> , вызывая <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)"><strong>QueryInterface</strong></a> для объекта <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser"><strong>ишеллбровсер</strong></a> . <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2"><strong>ICommDlgBrowser2</strong></a><br/></td>
-<td>Расширяет возможности <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser"><strong>икоммдлгбровсер</strong></a>. Этот интерфейс предоставляется обычными диалоговыми окнами, когда они размещаются в браузере оболочки. Указатель на <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2"><strong>ICommDlgBrowser2</strong></a> можно получить путем вызова <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)"><strong>QueryInterface</strong></a> для объекта <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser"><strong>ишеллбровсер</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-icommdlgbrowser3"><strong>ICommDlgBrowser3</strong></a><br/></td>
-<td>Расширяет возможности <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2"><strong>ICommDlgBrowser2</strong></a>и используется общими диалоговыми окнами файла при размещении обозревателя оболочки.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl/nn-shobjidl-icomputerinfochangenotify"><strong>икомпутеринфочанженотифи</strong></a><br/></td>
-<td>Этот интерфейс может отсутствовать в более поздних версиях Windows.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-iconnectablecredentialprovidercredential"><strong>иконнектаблекредентиалпровидеркредентиал</strong></a><br/></td>
-<td>Предоставляет методы для подключения и отключения объектов <a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-iconnectablecredentialprovidercredential"><strong>иконнектаблекредентиалпровидеркредентиал</strong></a> .<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-icontactmanagerinterop"><strong>иконтактманажеринтероп</strong></a><br/></td>
-<td>Обеспечивает доступ к методам <a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-icontactmanagerinterop"><strong>ContactManager</strong></a> в приложении, которое управляет несколькими окнами.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu"><strong>IContextMenu</strong></a><br/></td>
-<td>Предоставляет методы, которые либо создают, либо объединяют контекстное меню, связанное с объектом Shell.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu2"><strong>IContextMenu2</strong></a><br/></td>
-<td>Предоставляет методы, которые либо создают, либо объединяют контекстное меню (контекст), связанное с объектом Shell. Расширяет <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu"><strong>IContextMenu</strong></a> , добавляя метод, который позволяет клиентским объектам работать с сообщениями, связанными с элементами меню, рисуемыми владельцем.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu3"><strong>IContextMenu3</strong></a><br/></td>
-<td>Предоставляет методы, которые либо создают, либо объединяют контекстное меню, связанное с объектом Shell. Позволяет клиентским объектам обрабатывать сообщения, связанные с элементами меню, рисуемыми владельцем, и расширяет <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu2"><strong>IContextMenu2</strong></a> , принимая возвращаемое значение из этой обработки сообщений.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenucb"><strong>иконтекстменукб</strong></a><br/></td>
-<td>Предоставляет метод, который обеспечивает обратный вызов контекстного меню. Например, чтобы добавить значок щита к элементу <strong>menuItem</strong> , требующему повышения прав.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/previous-versions/windows/desktop/legacy/bb776063(v=vs.85)"><strong>иконтролмаркуп</strong></a><br/></td>
 
-</tr>
-<tr class="odd">
-<td><a href="/previous-versions/windows/desktop/legacy/bb776049(v=vs.85)"><strong>икопихук</strong></a><br/></td>
-<td>Предоставляет метод, создающий <em>обработчик события копирования</em>. Обработчик ловушки копирования — это расширение оболочки, которое определяет, можно ли перемещать, копировать, переименовывать или удалять объекты оболочки или принтеров. Оболочка вызывает метод <a href="/previous-versions/windows/desktop/legacy/bb776048(v=vs.85)"><strong>икопихук:: копикаллбакк</strong></a> перед выполнением одной из этих операций.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Propsys/nn-propsys-icreateobject"><strong>икреатеобжект</strong></a><br/></td>
-<td>Предоставляет метод, создающий объект указанного класса.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icreatingprocess"><strong>икреатингпроцесс</strong></a><br/></td>
-<td>Используется <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> и <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu"><strong>IContextMenu</strong></a> для разрешения вызывающей стороне изменять некоторые параметры создаваемого процесса.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icreateprocessinputs"><strong>икреатепроцессинпутс</strong></a><br/></td>
-<td>Используется интерфейсом <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icreatingprocess"><strong>икреатингпроцесс</strong></a> для изменения некоторых параметров создаваемого процесса.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialprovider"><strong>икредентиалпровидер</strong></a><br/></td>
-<td>Предоставляет методы, используемые при установке и управлении поставщиком учетных данных. Все поставщики учетных данных должны реализовывать этот интерфейс.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialprovidercredential"><strong>ICredentialProviderCredential</strong></a><br/></td>
-<td>Предоставляет методы, обеспечивающие обработку учетных данных.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/CredentialProvider/nn-credentialprovider-icredentialprovidercredential2"><strong>ICredentialProviderCredential2</strong></a><br/></td>
-<td>Расширяет интерфейс <a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialprovidercredential"><strong>ICredentialProviderCredential</strong></a> путем добавления метода, который получает идентификатор безопасности (SID) пользователя. Учетные данные связаны с этим пользователем и могут быть сгруппированы под плиткой пользователя.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialprovidercredentialevents"><strong>ICredentialProviderCredentialEvents</strong></a><br/></td>
-<td>Предоставляет механизм асинхронного обратного вызова, используемый учетными данными для уведомления о событиях изменения состояния или текста в пользовательском интерфейсе входа или пользовательском интерфейсе учетных данных.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/CredentialProvider/nn-credentialprovider-icredentialprovidercredentialevents2"><strong>ICredentialProviderCredentialEvents2</strong></a><br/></td>
-<td>Расширяет интерфейс <a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialprovidercredentialevents"><strong>ICredentialProviderCredentialEvents</strong></a> путем добавления методов, позволяющих пакетно обновлять поля в пользовательском интерфейсе селогон или пользовательском интерфейсе учетных данных.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/CredentialProvider/nn-credentialprovider-icredentialprovidercredentialwithfieldoptions"><strong>икредентиалпровидеркредентиалвисфиелдоптионс</strong></a><br/></td>
-<td>Предоставляет метод, который позволяет платформе поставщика учетных данных определить, была ли сделана настройка для параметра поля в пользовательском интерфейсе входа или учетных данных.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialproviderevents"><strong>ICredentialProviderEvents</strong></a><br/></td>
-<td>Предоставляет механизм асинхронного обратного вызова, используемый поставщиком учетных данных для уведомления об изменениях в списке учетных данных или их полях.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialproviderfilter"><strong>икредентиалпровидерфилтер</strong></a><br/></td>
-<td>Используется для динамической фильтрации поставщиков учетных данных на основе информации, доступной во время выполнения.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/CredentialProvider/nn-credentialprovider-icredentialprovidersetuserarray"><strong>икредентиалпровидерсетусераррай</strong></a><br/></td>
-<td>Предоставляет метод, позволяющий поставщику учетных данных получать набор пользователей, которые будут отображаться в пользовательском интерфейсе входа или учетных данных.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/CredentialProvider/nn-credentialprovider-icredentialprovideruser"><strong>икредентиалпровидерусер</strong></a><br/></td>
-<td>Предоставляет методы, используемые для получения определенных свойств отдельного пользователя, входящего в систему или пользовательский интерфейс учетных данных.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/CredentialProvider/nn-credentialprovider-icredentialprovideruserarray"><strong>икредентиалпровидерусераррай</strong></a><br/></td>
-<td>Представляет набор пользователей, которые будут отображаться в пользовательском интерфейсе входа или учетных данных. Эта информация позволяет поставщику учетных данных перечислить набор, чтобы получить сведения о свойствах каждого пользователя для заполнения полей или фильтрации набора.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icurrentitem"><strong>икуррентитем</strong></a><br/></td>
-<td>Получено путем вызова <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtoobject"><strong>ишеллфолдер:: биндтубжект</strong></a> для элемента. Если элемент представляет моментальный снимок элемента в предыдущий раз, этот интерфейс будет получать текущую версию элемента.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj/nn-shlobj-icurrentworkingdirectory"><strong>икуррентворкингдиректори</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие клиенту извлекать или задавать текущий рабочий каталог объекта.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icustomdestinationlist"><strong>икустомдестинатионлист</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие приложению предоставлять пользовательский список переходов, включая назначения и задачи, для показа на панели задач.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shldisp/nn-shldisp-idataobjectasynccapability"><strong>идатаобжектасинккапабилити</strong></a><br/></td>
-<td>Обеспечивает асинхронную работу интерфейсов, которые обычно синхронно работают. <br/>
-<blockquote>
-[!Note]<br />
-Этот интерфейс является текущей, переименованной версией <a href="/previous-versions//bb776309(v=vs.85)"><strong>IAsyncOperation</strong></a>.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idataobjectprovider"><strong>идатаобжектпровидер</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие задать или получить <a href="/windows/desktop/api/objidl/nn-objidl-idataobject"><strong>интерфейс IDataObject</strong></a>объекта <a href="/uwp/api/Windows.ApplicationModel.DataTransfer.DataPackage?view=winrt-19041">пакета</a> данных, который используется в пакете данных для поддержки взаимодействия. Объект Package используется приложением для предоставления данных другому приложению.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idatatransfermanagerinterop"><strong>идататрансферманажеринтероп</strong></a><br/></td>
-<td>обеспечивает доступ к методам <a href="/uwp/api/Windows.ApplicationModel.DataTransfer.DataTransferManager"><strong>дататрансферманажер</strong></a> в приложении для магазина Windows, которое управляет несколькими окнами.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idefaultextracticoninit"><strong>идефаултекстрактиконинит</strong></a><br/></td>
-<td>Предоставляет методы для задания значков по умолчанию, связанных с объектом.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idefaultfoldermenuinitialize"><strong>идефаултфолдерменуинитиализе</strong></a><br/></td>
-<td>Предоставляет методы, используемые для получения и задания сведений о контекстном меню. Эта информация аналогична указанной для <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedefaultcontextmenu"><strong>шкреатедефаултконтекстмену</strong></a> с помощью структуры <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-defcontextmenu"><strong>дефконтекстмену</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Propsys/nn-propsys-idelayedpropertystorefactory"><strong>иделайедпропертисторефактори</strong></a><br/></td>
-<td>Предоставляет метод для создания указанного объекта <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore"><strong>ипропертисторе</strong></a> в случаях, когда доступ к свойству может выполняться слишком долго.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idelegatefolder"><strong>иделегатефолдер</strong></a><br/></td>
-<td>Предоставляет метод, с помощью которого папка делегата <a href="/windows/desktop/api/objidl/nn-objidl-imalloc"><strong>получает интерфейс,</strong></a> необходимый для выделения и освобождения идентификаторов элементов.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idelegateitem"><strong>иделегатеитем</strong></a><br/></td>
-<td>Используется для получения немедленного базового представления пути к элементу.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-idesktopgadget"><strong>идесктопгаджет</strong></a><br/></td>
-<td>Предоставляет метод, позволяющий программно добавить установленное мини-приложение на Рабочий стол пользователя.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper"><strong>идесктопваллпапер</strong></a><br/></td>
+| Раздел | Описание | 
+|-------|-------------|
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iaccessibleobject"><strong>иакцессиблеобжект</strong></a><br /> | Предоставляет метод, который может использоваться приложением со специальными возможностями.<br /> | 
+| <a href="/previous-versions/windows/desktop/legacy/hh448546(v=vs.85)"><strong>иакцессибилитидоккингсервице</strong></a><br /> | Закрепляет одно окно приложения с поддержкой специальных возможностей в нижней части экрана.<br /> | 
+| <a href="/previous-versions/windows/desktop/legacy/hh448547(v=vs.85)"><strong>иакцессибилитидоккингсервицекаллбакк</strong></a><br /> | Информирует приложение о специальных возможностях о том, что его окно было отброшено.<br /> | 
+| <a href="iaclcustommru.md"><strong>иаклкустоммру</strong></a><br /> | Предоставляет методы, используемые для инициализации списка недавно использовавшихся (MRU) для объекта автозавершения.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iaclist"><strong>иаклист</strong></a><br /> | Предоставляет метод, повышающий эффективность <a href="/windows/desktop/api/Shldisp/nn-shldisp-iautocomplete"><strong>автозаполнения</strong></a> при упорядочении строк кандидатов в иерархии.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iaclist2"><strong>IACList2</strong></a><br /> | Расширяет интерфейс <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iaclist"><strong>иаклист</strong></a> , позволяя клиентам объекта автозаполнения получать и задавать флаги параметров.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress"><strong>иактионпрогресс</strong></a><br /> | Представляет абстрактный базовый класс, от которого могут наследоваться операции, управляемые ходом выполнения.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogressdialog"><strong>иактионпрогрессдиалог</strong></a><br /> | Предоставляет методы, которые инициализируют и останавливают диалоговое окно хода выполнения.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationactivationmanager"><strong>иаппликатионактиватионманажер</strong></a><br /> | предоставляет методы, которые активируют приложения Windows Store для <a href="/previous-versions/windows/apps/hh464906(v=win.10)">расширений</a>запуска, файлов и протоколов. Обычно этот интерфейс будет использоваться в отладчиках и средствах проектирования.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration"><strong>иаппликатионассоЦиатионрегистратион</strong></a><br /> | Предоставляет методы, которые запрашивают и устанавливают приложения по умолчанию для конкретного <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationtype"><strong>типа сопоставления</strong></a>файлов и протоколов на определенном <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationlevel"><strong>уровне взаимосвязей</strong></a>. <br /><blockquote>[!Note]<br />начиная с Windows 8, поддерживаются только функции этого интерфейса <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationassociationregistration-querycurrentdefault"><strong>куерикуррентдефаулт</strong></a>.</blockquote><br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iapplicationassociationregistrationui"><strong>иаппликатионассоЦиатионрегистратионуи</strong></a><br /> | Предоставляет метод, запускающий диалоговое окно расширенной ассоциации, с помощью которого пользователь может настроить свои ассоциации.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings"><strong>иаппликатиондесигнмодесеттингс</strong></a><br /> | позволяет приложениям средств разработки динамически подделывать системные и пользовательские состояния, такие как собственное разрешение экрана, коэффициент масштабирования устройства и состояние представления приложения, в целях тестирования Windows приложений магазина, работающих в режиме конструктора, для широкого спектра форм-факторов без необходимости реального оборудования. также позволяет тестировать изменения в обычном управляемом пользователем состоянии для тестирования Windows приложений магазина в различных сценариях.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings2"><strong>IApplicationDesignModeSettings2</strong></a><br /> | позволяет приложениям средств разработки динамически управлять состояниями системы и пользователями, такими как собственное разрешение экрана, коэффициент масштабирования устройства и макет представления приложений, о которых передается в Windows приложения магазина для тестирования Windows приложений магазина, работающих в режиме разработки, для широкого спектра форм-факторов без необходимости в фактическом оборудовании. также позволяет тестировать изменения в обычном управляемом пользователем состоянии для тестирования Windows приложений магазина в различных сценариях.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdestinations"><strong>иаппликатиондестинатионс</strong></a><br /> | Предоставляет методы, позволяющие приложению удалить одно или все назначения из <strong>последних</strong> или <strong>часто используемых</strong> категорий в списке переходов.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdocumentlists"><strong>иаппликатиондокументлистс</strong></a><br /> | Предоставляет методы, позволяющие приложению получать содержимое <strong>последних</strong> или <strong>часто встречающихся</strong> категорий в списке переходов.<br /> | 
+| <a href="/windows/desktop/api/Shappmgr/nn-shappmgr-iapppublisher"><strong>иапппублишер</strong></a><br /> | Предоставляет методы для публикации приложений с помощью компонента « <strong>Установка и удаление программ</strong> » на панели управления. Это основной интерфейс, реализованный для этой цели.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibility"><strong>иаппвисибилити</strong></a><br /> | предоставляет функциональные возможности для определения того, отображается ли дисплей Windows приложений магазина.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibilityevents"><strong>иаппвисибилитевентс</strong></a><br /> | Позволяет приложениям получать уведомления об изменениях состояния при отображении и изменениях на начальном экране.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iassochandler"><strong>иассочандлер</strong></a><br /> | Предоставляет методы для операций с диалоговым окном или меню "сопоставление файлов".<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iassochandlerinvoker"><strong>иассочандлеринвокер</strong></a><br /> | Предоставляет методы, которые вызывают связанный обработчик приложения.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iattachmentexecute"><strong>иаттачментексекуте</strong></a><br /> | Предоставляет методы, которые работают с клиентскими приложениями для предоставления среды пользователя, которая обеспечивает безопасность загрузки и обмена файлами по электронной почте и вложениям в сообщения.<br /> | 
+| <a href="/windows/desktop/api/Shldisp/nn-shldisp-iautocomplete"><strong>иаутокомплете</strong></a><br /> | Предоставляется объектом автозаполнения (CLSID_AutoComplete). Этот интерфейс позволяет приложениям инициализировать, включать и отключать объект.<br /> | 
+| <a href="/windows/desktop/api/Shldisp/nn-shldisp-iautocomplete2"><strong>IAutoComplete2</strong></a><br /> | Расширяет <a href="/windows/desktop/api/Shldisp/nn-shldisp-iautocomplete"><strong>иаутокомплете</strong></a>. Этот интерфейс позволяет клиентам объекта автозаполнения извлекать и задавать ряд параметров, управляющих работой автозаполнения.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iautocompletedropdown"><strong>иаутокомплетедропдовн</strong></a><br /> | Предоставляет методы, позволяющие клиентам сбрасывать или запрашивать состояние отображения раскрывающегося списка автозаполнения, который содержит возможные варианты завершения строки, указанной пользователем в элементе управления "поле ввода".<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ibandhost"><strong>ибандхост</strong></a><br /> | Предоставляет методы, создающие и удаляющие полосы и задающих их доступность.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ibandsite"><strong>ибандсите</strong></a><br /> | Предоставляет методы, управляющие объектами с диапазонами.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ibrowserframeoptions"><strong>ибровсерфрамеоптионс</strong></a><br /> | Позволяет браузеру или узлу запрашивать <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>ишеллвиев</strong></a> , какие виды поведения представления поддерживаются.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icategorizer"><strong>икатегоризер</strong></a><br /> | Предоставляет методы, используемые для получения сведений о списках идентификаторов элементов.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icategoryprovider"><strong>икатегорипровидер</strong></a><br /> | Предоставляет список классификаторов, зарегистрированных в <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>ишеллфолдер</strong></a>.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-icdburn"><strong>икдбурн</strong></a><br /> | Предоставляет методы, которые определяют, имеет ли система оборудование для записи на компакт-диск, букву диска устройства записи компакт-дисков и программно инициирует сеанс записи компакт-диска. <br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icolumnmanager"><strong>иколумнманажер</strong></a><br /> | предоставляет методы, обеспечивающие проверку и обработку столбцов в представлении сведений обозревателя Windows. На каждый столбец ссылается структура <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey"><strong>PROPERTYKEY</strong></a> , которая именует свойство.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser"><strong>икоммдлгбровсер</strong></a><br /> | Предоставляется общими диалоговыми окнами файла, которые используются при размещении обозревателя оболочки. Если поддерживается, <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser"><strong>икоммдлгбровсер</strong></a> предоставляет методы, позволяющие представлению оболочки работать с несколькими случаями, требующими другого поведения в диалоговом окне, чем в обычном представлении оболочки. Вы получаете указатель интерфейса <strong>икоммдлгбровсер</strong> , вызывая <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)"><strong>QueryInterface</strong></a> для объекта <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser"><strong>ишеллбровсер</strong></a> . <br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2"><strong>ICommDlgBrowser2</strong></a><br /> | Расширяет возможности <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser"><strong>икоммдлгбровсер</strong></a>. Этот интерфейс предоставляется обычными диалоговыми окнами, когда они размещаются в браузере оболочки. Указатель на <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2"><strong>ICommDlgBrowser2</strong></a> можно получить путем вызова <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)"><strong>QueryInterface</strong></a> для объекта <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser"><strong>ишеллбровсер</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-icommdlgbrowser3"><strong>ICommDlgBrowser3</strong></a><br /> | Расширяет возможности <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2"><strong>ICommDlgBrowser2</strong></a>и используется общими диалоговыми окнами файла при размещении обозревателя оболочки.<br /> | 
+| <a href="/windows/desktop/api/shobjidl/nn-shobjidl-icomputerinfochangenotify"><strong>икомпутеринфочанженотифи</strong></a><br /> | Этот интерфейс может отсутствовать в более поздних версиях Windows.<br /> | 
+| <a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-iconnectablecredentialprovidercredential"><strong>иконнектаблекредентиалпровидеркредентиал</strong></a><br /> | Предоставляет методы для подключения и отключения объектов <a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-iconnectablecredentialprovidercredential"><strong>иконнектаблекредентиалпровидеркредентиал</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-icontactmanagerinterop"><strong>иконтактманажеринтероп</strong></a><br /> | Обеспечивает доступ к методам <a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-icontactmanagerinterop"><strong>ContactManager</strong></a> в приложении, которое управляет несколькими окнами.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu"><strong>IContextMenu</strong></a><br /> | Предоставляет методы, которые либо создают, либо объединяют контекстное меню, связанное с объектом Shell.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu2"><strong>IContextMenu2</strong></a><br /> | Предоставляет методы, которые либо создают, либо объединяют контекстное меню (контекст), связанное с объектом Shell. Расширяет <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu"><strong>IContextMenu</strong></a> , добавляя метод, который позволяет клиентским объектам работать с сообщениями, связанными с элементами меню, рисуемыми владельцем.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu3"><strong>IContextMenu3</strong></a><br /> | Предоставляет методы, которые либо создают, либо объединяют контекстное меню, связанное с объектом Shell. Позволяет клиентским объектам обрабатывать сообщения, связанные с элементами меню, рисуемыми владельцем, и расширяет <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu2"><strong>IContextMenu2</strong></a> , принимая возвращаемое значение из этой обработки сообщений.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenucb"><strong>иконтекстменукб</strong></a><br /> | Предоставляет метод, который обеспечивает обратный вызов контекстного меню. Например, чтобы добавить значок щита к элементу <strong>menuItem</strong> , требующему повышения прав.<br /> | 
+| <a href="/previous-versions/windows/desktop/legacy/bb776063(v=vs.85)"><strong>иконтролмаркуп</strong></a><br /> | 
+| <a href="/previous-versions/windows/desktop/legacy/bb776049(v=vs.85)"><strong>икопихук</strong></a><br /> | Предоставляет метод, создающий <em>обработчик события копирования</em>. Обработчик ловушки копирования — это расширение оболочки, которое определяет, можно ли перемещать, копировать, переименовывать или удалять объекты оболочки или принтеров. Оболочка вызывает метод <a href="/previous-versions/windows/desktop/legacy/bb776048(v=vs.85)"><strong>икопихук:: копикаллбакк</strong></a> перед выполнением одной из этих операций.<br /> | 
+| <a href="/windows/desktop/api/Propsys/nn-propsys-icreateobject"><strong>икреатеобжект</strong></a><br /> | Предоставляет метод, создающий объект указанного класса.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icreatingprocess"><strong>икреатингпроцесс</strong></a><br /> | Используется <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> и <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu"><strong>IContextMenu</strong></a> для разрешения вызывающей стороне изменять некоторые параметры создаваемого процесса.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icreateprocessinputs"><strong>икреатепроцессинпутс</strong></a><br /> | Используется интерфейсом <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icreatingprocess"><strong>икреатингпроцесс</strong></a> для изменения некоторых параметров создаваемого процесса.<br /> | 
+| <a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialprovider"><strong>икредентиалпровидер</strong></a><br /> | Предоставляет методы, используемые при установке и управлении поставщиком учетных данных. Все поставщики учетных данных должны реализовывать этот интерфейс.<br /> | 
+| <a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialprovidercredential"><strong>ICredentialProviderCredential</strong></a><br /> | Предоставляет методы, обеспечивающие обработку учетных данных.<br /> | 
+| <a href="/windows/desktop/api/CredentialProvider/nn-credentialprovider-icredentialprovidercredential2"><strong>ICredentialProviderCredential2</strong></a><br /> | Расширяет интерфейс <a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialprovidercredential"><strong>ICredentialProviderCredential</strong></a> путем добавления метода, который получает идентификатор безопасности (SID) пользователя. Учетные данные связаны с этим пользователем и могут быть сгруппированы под плиткой пользователя.<br /> | 
+| <a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialprovidercredentialevents"><strong>ICredentialProviderCredentialEvents</strong></a><br /> | Предоставляет механизм асинхронного обратного вызова, используемый учетными данными для уведомления о событиях изменения состояния или текста в пользовательском интерфейсе входа или пользовательском интерфейсе учетных данных.<br /> | 
+| <a href="/windows/desktop/api/CredentialProvider/nn-credentialprovider-icredentialprovidercredentialevents2"><strong>ICredentialProviderCredentialEvents2</strong></a><br /> | Расширяет интерфейс <a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialprovidercredentialevents"><strong>ICredentialProviderCredentialEvents</strong></a> путем добавления методов, позволяющих пакетно обновлять поля в пользовательском интерфейсе селогон или пользовательском интерфейсе учетных данных.<br /> | 
+| <a href="/windows/desktop/api/CredentialProvider/nn-credentialprovider-icredentialprovidercredentialwithfieldoptions"><strong>икредентиалпровидеркредентиалвисфиелдоптионс</strong></a><br /> | Предоставляет метод, который позволяет платформе поставщика учетных данных определить, была ли сделана настройка для параметра поля в пользовательском интерфейсе входа или учетных данных.<br /> | 
+| <a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialproviderevents"><strong>ICredentialProviderEvents</strong></a><br /> | Предоставляет механизм асинхронного обратного вызова, используемый поставщиком учетных данных для уведомления об изменениях в списке учетных данных или их полях.<br /> | 
+| <a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-icredentialproviderfilter"><strong>икредентиалпровидерфилтер</strong></a><br /> | Используется для динамической фильтрации поставщиков учетных данных на основе информации, доступной во время выполнения.<br /> | 
+| <a href="/windows/desktop/api/CredentialProvider/nn-credentialprovider-icredentialprovidersetuserarray"><strong>икредентиалпровидерсетусераррай</strong></a><br /> | Предоставляет метод, позволяющий поставщику учетных данных получать набор пользователей, которые будут отображаться в пользовательском интерфейсе входа или учетных данных.<br /> | 
+| <a href="/windows/desktop/api/CredentialProvider/nn-credentialprovider-icredentialprovideruser"><strong>икредентиалпровидерусер</strong></a><br /> | Предоставляет методы, используемые для получения определенных свойств отдельного пользователя, входящего в систему или пользовательский интерфейс учетных данных.<br /> | 
+| <a href="/windows/desktop/api/CredentialProvider/nn-credentialprovider-icredentialprovideruserarray"><strong>икредентиалпровидерусераррай</strong></a><br /> | Представляет набор пользователей, которые будут отображаться в пользовательском интерфейсе входа или учетных данных. Эта информация позволяет поставщику учетных данных перечислить набор, чтобы получить сведения о свойствах каждого пользователя для заполнения полей или фильтрации набора.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icurrentitem"><strong>икуррентитем</strong></a><br /> | Получено путем вызова <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtoobject"><strong>ишеллфолдер:: биндтубжект</strong></a> для элемента. Если элемент представляет моментальный снимок элемента в предыдущий раз, этот интерфейс будет получать текущую версию элемента.<br /> | 
+| <a href="/windows/desktop/api/shlobj/nn-shlobj-icurrentworkingdirectory"><strong>икуррентворкингдиректори</strong></a><br /> | Предоставляет методы, позволяющие клиенту извлекать или задавать текущий рабочий каталог объекта.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icustomdestinationlist"><strong>икустомдестинатионлист</strong></a><br /> | Предоставляет методы, позволяющие приложению предоставлять пользовательский список переходов, включая назначения и задачи, для показа на панели задач.<br /> | 
+| <a href="/windows/desktop/api/Shldisp/nn-shldisp-idataobjectasynccapability"><strong>идатаобжектасинккапабилити</strong></a><br /> | Обеспечивает асинхронную работу интерфейсов, которые обычно синхронно работают. <br /><blockquote>[!Note]<br />Этот интерфейс является текущей, переименованной версией <a href="/previous-versions//bb776309(v=vs.85)"><strong>IAsyncOperation</strong></a>.</blockquote><br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idataobjectprovider"><strong>идатаобжектпровидер</strong></a><br /> | Предоставляет методы, позволяющие задать или получить <a href="/windows/desktop/api/objidl/nn-objidl-idataobject"><strong>интерфейс IDataObject</strong></a>объекта <a href="/uwp/api/Windows.ApplicationModel.DataTransfer.DataPackage?view=winrt-19041">пакета</a> данных, который используется в пакете данных для поддержки взаимодействия. Объект Package используется приложением для предоставления данных другому приложению.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idatatransfermanagerinterop"><strong>идататрансферманажеринтероп</strong></a><br /> | обеспечивает доступ к методам <a href="/uwp/api/Windows.ApplicationModel.DataTransfer.DataTransferManager"><strong>дататрансферманажер</strong></a> в приложении для магазина Windows, которое управляет несколькими окнами.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idefaultextracticoninit"><strong>идефаултекстрактиконинит</strong></a><br /> | Предоставляет методы для задания значков по умолчанию, связанных с объектом.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idefaultfoldermenuinitialize"><strong>идефаултфолдерменуинитиализе</strong></a><br /> | Предоставляет методы, используемые для получения и задания сведений о контекстном меню. Эта информация аналогична указанной для <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedefaultcontextmenu"><strong>шкреатедефаултконтекстмену</strong></a> с помощью структуры <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-defcontextmenu"><strong>дефконтекстмену</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/Propsys/nn-propsys-idelayedpropertystorefactory"><strong>иделайедпропертисторефактори</strong></a><br /> | Предоставляет метод для создания указанного объекта <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore"><strong>ипропертисторе</strong></a> в случаях, когда доступ к свойству может выполняться слишком долго.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idelegatefolder"><strong>иделегатефолдер</strong></a><br /> | Предоставляет метод, с помощью которого папка делегата <a href="/windows/desktop/api/objidl/nn-objidl-imalloc"><strong>получает интерфейс,</strong></a> необходимый для выделения и освобождения идентификаторов элементов.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idelegateitem"><strong>иделегатеитем</strong></a><br /> | Используется для получения немедленного базового представления пути к элементу.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-idesktopgadget"><strong>идесктопгаджет</strong></a><br /> | Предоставляет метод, позволяющий программно добавить установленное мини-приложение на Рабочий стол пользователя.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper"><strong>идесктопваллпапер</strong></a><br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idestinationstreamfactory"><strong>идестинатионстреамфактори</strong></a><br /> | Предоставляет метод для ручного копирования потока или файла перед применением изменений в свойствах.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idisplayitem"><strong>идисплайитем</strong></a><br /> | Предоставляет методы, которые находят версию текущего элемента, используемую для получения свойств отображения, таких как имя элемента, которое будет отображаться в пользовательском интерфейсе. Используется в диалоговых окнах копирования обработчиков для предоставления пользовательского интерфейса с соответствующим элементом для вывода. Если не удается найти другую версию, используется текущий элемент.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow"><strong>идоккингвиндов</strong></a><br /> | Предоставляет методы, уведомляющие объект закрепляемого окна об изменениях, включая отображение, скрытие и отложенное удаление. этот интерфейс реализуется объектами окна, которые можно закрепить в области границы окна обозревателя Windows.<br /> | 
+| <a href="/windows/desktop/api/shlobj/nn-shlobj-idockingwindowframe"><strong>идоккингвиндовфраме</strong></a><br /> | Предоставляет методы, которые поддерживают добавление объектов <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow"><strong>идоккингвиндов</strong></a> в кадр. Реализуется браузером.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-idockingwindowsite"><strong>идоккингвиндовсите</strong></a><br /> | Предоставляет методы, управляющие пространством границ для одного или нескольких объектов <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow"><strong>идоккингвиндов</strong></a> . Этот интерфейс реализуется браузером и аналогичен интерфейсу <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceuiwindow"><strong>иолеинплацеуивиндов</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper"><strong>идрагсаурцехелпер</strong></a><br /> | Предоставляется оболочкой для того, чтобы приложение было указано изображение, которое будет отображаться во время операции перетаскивания оболочки.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-idragsourcehelper2"><strong>IDragSourceHelper2</strong></a><br /> | Предоставляет метод, который добавляет функции в <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper"><strong>идрагсаурцехелпер</strong></a>. Этот метод задает характеристики операции перетаскивания для объекта <strong>идрагсаурцехелпер</strong> .<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idroptargethelper"><strong>идроптаржеселпер</strong></a><br /> | Предоставляет методы, которые позволяют объектам перетаскивания отображать изображение перетаскивания, пока изображение находится над целевым окном.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-idynamichwhandler"><strong>идинамичвхандлер</strong></a><br /> | Вызывается функцией автозапуска. Предоставляет методы, которые получают динамическую информацию о зарегистрированном обработчике перед его отображением пользователю.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumassochandlers"><strong>иенумассочандлерс</strong></a><br /> | Предоставляет метод, позволяющий перечислить коллекцию обработчиков, связанных с определенными расширениями имен файлов.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ienumerableview"><strong>иенумераблевиев</strong></a><br /> | Предоставляет методы, которые перечисляют содержимое представления и получают уведомление от обратного вызова при завершении перечисления. Этот интерфейс позволяет клиентам представления попытаться предоставить доступ к списку содержимого папки представления.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumexplorercommand"><strong>иенумексплореркомманд</strong></a><br /> | Предоставлено <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider"><strong>иексплореркоммандпровидер</strong></a>. Этот интерфейс содержит перечисление команд, помещаемых в панель команд.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumextrasearch"><strong>иенумекстрасеарч</strong></a><br /> | Стандартный перечислитель OLE, используемый клиентом для определения доступных объектов поиска для папки.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumfullidlist"><strong>иенумфуллидлист</strong></a><br /> | Предоставляет стандартный набор методов для перечисления указателей на списки идентификаторов элементов (PIDL) элементов в папке оболочки.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist"><strong>иенумидлист</strong></a><br /> | Предоставляет стандартный набор методов, используемых для перечисления PIDL элементов в папке оболочки. Когда вызывается метод <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-enumobjects"><strong>ишеллфолдер:: енумобжектс</strong></a> папки, он создает объект перечисления и передает указатель на интерфейс <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist"><strong>иенумидлист</strong></a> объекта обратно вызывающему приложению.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumobjects"><strong>иенумобжектс</strong></a><br /> | Предоставляет методы для перечисления неизвестных объектов.<br /> | 
+| <a href="/windows/desktop/api/Shappmgr/nn-shappmgr-ienumpublishedapps"><strong>иенумпублишедаппс</strong></a><br /> | Предоставляет методы, которые перечисляют опубликованные приложения на панели управления для установки и удаления программ. Объект, предоставляющий этот интерфейс, запрашивается через <a href="/windows/desktop/api/Shappmgr/nf-shappmgr-iapppublisher-enumapps"><strong>иапппублишер:: енумаппс</strong></a>. <br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ienumreadycallback"><strong>иенумреадикаллбакк</strong></a><br /> | Предоставляет методы, позволяющие представлению уведомлять средства реализации о завершении перечисления. Представление вызывает этот метод, чтобы сообщить средству реализации, что перечисление можно получить с помощью <a href="/windows/desktop/api/Shobjidl/nf-shobjidl-ienumerableview-createenumidlistfromcontents"><strong>иенумераблевиев:: креатинумидлистфромконтентс</strong></a>. Обратный вызов позволяет конструктору совместно использовать перечисление views.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumresources"><strong>иенумресаурцес</strong></a><br /> | Предоставляет методы перечисления ресурсов.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumshellitems"><strong>иенумшеллитемс</strong></a><br /> | Предоставляет перечисление интерфейсов <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>интерфейса IShellItem</strong></a> . Этот интерфейс обычно получается путем вызова метода <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumshellitems"><strong>иенумшеллитемс</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-ienumsyncmgrconflict"><strong>иенумсинкмгрконфликт</strong></a><br /> | Предоставляет методы перечисления конфликтов.<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-ienumsyncmgrevents"><strong>иенумсинкмгревентс</strong></a><br /> | Предоставляет методы перечисления событий синхронизации.<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-ienumsyncmgrsyncitems"><strong>иенумсинкмгрсинЦитемс</strong></a><br /> | Предоставляет методы для перечисления объектов элементов синхронизации, управляемых обработчиком.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand"><strong>иексекутекомманд</strong></a><br /> | Предоставляет методы, которые задают заданное состояние или параметр, связанные с глаголом команды, а также метод для вызова этой команды.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommandapplicationhostenvironment"><strong>иексекутекоммандаппликатионхостенвиронмент</strong></a><br /> | Предоставляет один метод, позволяющий приложению определить, находится ли его узел в рабочем столе или в режиме погружения.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommandhost"><strong>иексекутекоммандхост</strong></a><br /> | Предоставляет метод, позволяющий обработчику команд оболочки на основе <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand"><strong>иексплореркомманд</strong></a>запрашивать режим пользовательского интерфейса компонента узла, из которого было вызвано приложение.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser"><strong>иексплорербровсер</strong></a><br /> | <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser"><strong>Иексплорербровсер</strong></a> — это объект браузера, который может быть либо перемещен, либо может размещать представление объекта данных. Как полнофункциональный объект браузера, он также поддерживает журнал автоматической поездки.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowserevents"><strong>иексплорербровсеревентс</strong></a><br /> | Предоставляет методы для уведомления навигации обозревателя обозревателя и просмотра событий создания.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand"><strong>иексплореркомманд</strong></a><br /> | Предоставляет методы, которые получают внешний вид команды, перечисляет подкоманды или вызывают команду.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider"><strong>иексплореркоммандпровидер</strong></a><br /> | Предоставляет методы для создания команд обозревателя и перечислителей команд.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandstate"><strong>иексплореркоммандстате</strong></a><br /> | Предоставляет единственный метод, позволяющий получить состояние команды.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility"><strong>иексплорерпаневисибилити</strong></a><br /> | используется в Windows Explorer реализацией <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>ишеллфолдер</strong></a> для предоставления предложений в представлении о том, какие области видимы. Кроме того, узел <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser"><strong>иексплорербровсер</strong></a> может использовать этот интерфейс для предоставления сведений о видимости области. Узел должен реализовать <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)"><strong>QueryService</strong></a> с <strong>SID_EXPLORERPANEVISIBILITY</strong> в качестве идентификатора службы. Узел должен находиться в цепочке сайтов. <br /> Реализация <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility"><strong>иексплорерпаневисибилити</strong></a> извлекается из папки оболочки. Папка Shell, в свою очередь, извлекается из представления. Расширение пространства имен может предоставить настраиваемое представление (<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>ишеллвиев</strong></a>) вместо использования объекта представления системной папки (дефвиев). В этом случае реализация <strong>ишеллвиев</strong> должна включать реализацию <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getfolder"><strong>ифолдервиев::</strong></a> GetObject для возврата объекта <strong>иексплорерпаневисибилити</strong> .<br /> Расширение пространства имен может предоставлять пользовательское представление путем реализации самого <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>ишеллвиев</strong></a> , а не объекта представления системной папки (дефвиев). В этом случае реализация <strong>ишеллвиев</strong> должна включать реализацию <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getfolder"><strong>ифолдервиев::</strong></a> , чтобы использовать <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility"><strong>иексплорерпаневисибилити</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iextracticona"><strong>иекстрактикон</strong></a><br /> | Предоставляет методы, позволяющие клиенту получить значок, связанный с одним из объектов в папке.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage"><strong>иекстрактимаже</strong></a><br /> | Предоставляет методы, которые запрашивают эскиз изображения из папки оболочки.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage2"><strong>IExtractImage2</strong></a><br /> | Расширяет возможности <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage"><strong>иекстрактимаже</strong></a>.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog"><strong>ифиледиалог</strong></a><br /> | Предоставляет методы, которые инициализируют, отображают и получают результаты из диалогового окна "общие файлы".<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ifiledialog2"><strong>IFileDialog2</strong></a><br /> | Расширяет интерфейс <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog"><strong>ифиледиалог</strong></a> , предоставляя методы, позволяющие вызывающему объекту задать имя определенного ограниченного расположения, которое можно просмотреть в общем диалоговом окне файла, а также указать альтернативный текст, отображаемый в виде метки на кнопке <strong>Отмена</strong> .<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ifiledialogcontrolevents"><strong>ифиледиалогконтролевентс</strong></a><br /> | Предоставляет методы, позволяющие приложению получать уведомления о событиях, связанных с элементами управления, которые приложение добавило в общее диалоговое окно файла.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogcustomize"><strong>ифиледиалогкустомизе</strong></a><br /> | Предоставляет методы, позволяющие приложению добавлять элементы управления в диалоговое окно общего файла.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogevents"><strong>ифиледиаложевентс</strong></a><br /> | Предоставляет методы, позволяющие уведомления о событиях в общем диалоговом окне файла.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileisinuse"><strong>ифилеисинусе</strong></a><br /> | Предоставляет методы, которые могут быть вызваны для получения информации о или закрытии файла, используемого другим приложением. Когда приложение пытается получить доступ к файлу и обнаруживает, что этот файл уже используется, он может использовать методы этого интерфейса для сбора сведений, которые будут представлены пользователю в диалоговом окне.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileopendialog"><strong>ифилеопендиалог</strong></a><br /> | Расширяет интерфейс <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog"><strong>ифиледиалог</strong></a> путем добавления методов, относящихся к диалоговому окну открытия.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation"><strong>Интерфейс IFileOperation</strong></a><br /> | Предоставляет методы для копирования, перемещения, переименования, создания и удаления элементов оболочки, а также методы для предоставления диалоговых окон хода выполнения и ошибок. Этот интерфейс заменяет функцию <a href="/windows/desktop/api/Shellapi/nf-shellapi-shfileoperationa"><strong>шфилеоператион</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperationprogresssink"><strong>ифилеоператионпрогресссинк</strong></a><br /> | Предоставляет методы, обеспечивающие обширную систему уведомлений, используемую вызывающими объектами <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation"><strong>интерфейс IFileOperation</strong></a> для отслеживания сведений об операциях, выполняемых с помощью этого интерфейса.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ifilesavedialog"><strong>ифилесаведиалог</strong></a><br /> | Расширяет интерфейс <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog"><strong>ифиледиалог</strong></a> путем добавления методов, относящихся к диалоговому окну Save, включая те, которые обеспечивают поддержку коллекции метаданных, сохраняемых в файле.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifilesyncmergehandler"><strong>ифилесинкмержехандлер</strong></a><br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifilesystembinddata"><strong>ифилесистембинддата</strong></a><br /> | Предоставляет методы, которые хранят сведения о файловой системе для оптимизации вызовов <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname"><strong>ишеллфолдер::P арседисплайнаме</strong></a>.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifilesystembinddata2"><strong>IFileSystemBindData2</strong></a><br /> | Расширяет <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifilesystembinddata"><strong>ифилесистембинддата</strong></a>, в котором хранятся сведения о файловой системе для оптимизации вызовов <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname"><strong>Ишеллфолдер::P арседисплайнаме</strong></a>. Этот интерфейс добавляет набор возможностей или получает идентификатор файла или идентификатор класса соединения (CLSID).<br /> | 
+| <a href="/windows/desktop/shell/schema-library-iconreference"><strong>ифилевиевер</strong></a><br /> | Предоставляет методы, которые обозначают интерфейс, позволяющий зарегистрированному средству просмотра файлов получать уведомления при необходимости отображения или печати файла.<br /> | 
+| <a href="/windows/desktop/api/shlobj/nn-shlobj-ifileviewersite"><strong>ифилевиеверсите</strong></a><br /> | Предоставляет методы, которые обозначают интерфейс, позволяющий средству просмотра файлов извлекать этот обработчик в текущее закрепленное окно или устанавливать новое закрепленное окно. Закрепленное окно — это окно, в котором текущее средство просмотра файлов отображает файл. Когда пользователь выбирает новый файл для просмотра, оболочка направляет средство просмотра файлов на отображение нового файла в закрепленном окне вместо того, чтобы создавать новое окно.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderfilter"><strong>ифолдерфилтер</strong></a><br /> | Предоставляется клиентом для указания способа фильтрации перечисления папки оболочки приложением сервера.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderfiltersite"><strong>ифолдерфилтерсите</strong></a><br /> | Экспортируется узлом, чтобы разрешить клиентам указывать способ фильтрации перечислений папок оболочки.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview"><strong>ифолдервиев</strong></a><br /> | Предоставляет методы, которые извлекают сведения о параметрах отображения папки, выбирают указанные элементы в этой папке и задают режим просмотра папки.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview2"><strong>IFolderView2</strong></a><br /> | Предоставляет методы, которые извлекают сведения о параметрах отображения папки, выбирают указанные элементы в этой папке и задают режим просмотра папки.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ifolderviewhost"><strong>ифолдервиевхост</strong></a><br /> | Предоставляет метод, который размещает объект <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview"><strong>ифолдервиев</strong></a> в окне.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ifolderviewoptions"><strong>ифолдервиевоптионс</strong></a><br /> | предоставляет методы, позволяющие управлять параметрами представления папки, характерными для Windows 7 и более поздних представлений.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderviewsettings"><strong>ифолдервиевсеттингс</strong></a><br /> | Предоставляет методы для получения параметров представления папки.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iframeworkinputpane"><strong>ифрамеворкинпутпане</strong></a><br /> | Предоставляет методы, позволяющие приложениям получать сведения об изменениях состояния и расположении для панели ввода.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iframeworkinputpanehandler"><strong>ифрамеворкинпутпанехандлер</strong></a><br /> | Позволяет приложению получать уведомления при отображении или скрытии панели ввода (экранной клавиатуры или панели рукописного ввода). Это позволяет окну приложения настраивать его отображение таким образом, чтобы никакие области ввода (например, текстовое поле) не скрывались на панели ввода.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihandleractivationhost"><strong>ихандлерактиватионхост</strong></a><br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihandlerinfo"><strong>ихандлеринфо</strong></a><br /> | Предоставляет методы, предоставляющие сведения о обработчике методам интерфейса <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihandleractivationhost"><strong>ихандлерактиватионхост</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihomegroup"><strong>ихомеграуп</strong></a><br /> | Предоставляет методы, которые определяют состояние членства в домашней группе компьютера и отображают мастер общего доступа.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ihweventhandler"><strong>ихвевенсандлер</strong></a><br /> | Вызывается функцией автозапуска для реализации обработки зарегистрированных типов мультимедиа.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ihweventhandler2"><strong>IHWEventHandler2</strong></a><br /> | Расширяет интерфейс <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ihweventhandler"><strong>ихвевенсандлер</strong></a> для устранения прав контроля учетных записей пользователей (UAC) для обработчиков устройств.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iidentityname"><strong>иидентитинаме</strong></a><br /> | Предоставляет методы для сравнения двух элементов, чтобы определить, совпадают ли они.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iimagerecompress"><strong>иимажерекомпресс</strong></a><br /> | Предоставляет метод, который повторно сжимает изображения.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializecommand"><strong>иинитиализекомманд</strong></a><br /> | Предоставляет единственный метод, используемый для инициализации объектов, реализующих <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandstate"><strong>иексплореркоммандстате</strong></a>, <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand"><strong>иексекутекомманд</strong></a> или <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget"><strong>интерфейс IDropTarget</strong></a> с именем команды, указанным приложением, и его зарегистрированными свойствами.<br /> | 
+| <a href="/windows/win32/api/shobjidl/nn-shobjidl-iinitializenetworkfolder"><strong>иинитиализенетворкфолдер</strong></a><br /> | Предоставляет метод, который инициализирует CLSID_NetworkPlaces источника сетевых данных, как указано.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithbindctx"><strong>иинитиализевисбиндкткс</strong></a><br /> | Предоставляет метод, который инициализирует обработчик, например обработчик свойства, обработчик эскизов или обработчик просмотра, с контекстом привязки.<br /> | 
+| <a href="/windows/desktop/api/Propsys/nn-propsys-iinitializewithfile"><strong>IInitializeWithFile</strong></a><br /> | Предоставляет метод для инициализации обработчика, например обработчика свойства, обработчика эскиза или обработчика просмотра с путем к файлу.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithitem"><strong>иинитиализевиситем</strong></a><br /> | Предоставляет метод, используемый для инициализации обработчика, например обработчика свойства, обработчика эскиза или обработчика просмотра с помощью <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>интерфейса IShellItem</strong></a>.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithpropertystore"><strong>иинитиализевиспропертисторе</strong></a><br /> | Предоставляет метод, который инициализирует обработчик, например обработчик свойства, обработчик эскизов или обработчик просмотра, с хранилищем свойств.<br /> | 
+| <a href="/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream"><strong>IInitializeWithStream</strong></a><br /> | Предоставляет метод, инициализирующий обработчик, например обработчик свойства, обработчик эскизов или обработчик просмотра, с потоком.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithwindow"><strong>IInitializeWithWindow</strong></a><br /> | предоставляет метод, с помощью которого клиент может предоставить окну-владельцу объект среда выполнения Windows, используемый в классическом приложении.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobject"><strong>иинпутобжект</strong></a><br /> | Предоставляет методы, изменяющие активацию пользовательского интерфейса и ускорители процесса для пользовательского входного объекта, содержащегося в оболочке.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobject2"><strong>IInputObject2</strong></a><br /> | Предоставляет метод, расширяющий <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobject"><strong>иинпутобжект</strong></a> путем обработки глобальных ускорителей.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobjectsite"><strong>иинпутобжектсите</strong></a><br /> | Предоставляет метод, который используется для передачи изменений фокуса для пользовательского объекта ввода, содержащегося в оболочке.<br /> | 
+| <a href="/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration"><strong>иинпутпанелконфигуратион</strong></a><br /> | предоставляет функциональные возможности для настольных приложений, чтобы принять участие в механизме отслеживания фокуса, используемом в приложениях Windows Store.<br /> | 
+| <a href="/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelinvocationconfiguration"><strong>иинпутпанелинвокатионконфигуратион</strong></a><br /> | позволяет приложениям Windows магазина отказаться от поведения автоматического вызова.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iiocancelinformation"><strong>ииоканцелинформатион</strong></a><br /> | Предоставляет методы для отправки сообщения об отмене окна в поток процесса из диалогового окна ход выполнения. <br /> Этот интерфейс позволяет диалоговому окну хода выполнения опубликовать сообщение потока через <a href="/windows/desktop/api/winuser/nf-winuser-postthreadmessagea"><strong>постсреадмессаже</strong></a> в рабочий поток, чтобы отменить его операции. Рабочий поток должен периодически проверять очередь сообщений <a href="/windows/desktop/api/winuser/nf-winuser-getmessage"><strong>с помощью</strong></a> <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea"><strong>PeekMessage</strong></a> или <a href="/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex"><strong>мсгваитформултиплеобжектсекс</strong></a>.<br /> Метод <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iiocancelinformation-setcancelinformation"><strong>ииоканцелинформатион:: сетканцелинформатион</strong></a> сообщает диалоговому окну хода выполнения, какой идентификатор потока и какое сообщение <a href="/windows/desktop/api/winuser/nf-winuser-postthreadmessagea"><strong>постсреадмессаже</strong></a> , когда пользователь нажимает кнопку <strong>Отмена</strong>. Идентификатор потока "ноль" отключает операцию отправки для сообщения об отмене.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iitemnamelimits"><strong>иитемнамелимитс</strong></a><br /> | Извлекает список допустимых и недопустимых символов или максимальную длину имени в пространстве имен. Используйте этот интерфейс для анализа и преобразования проверки.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfolder"><strong>икновнфолдер</strong></a><br /> | Предоставляет методы, позволяющие приложению получать сведения о категории известной папки, типе, GUID, значении ПИДЛ, возможностях перенаправления и определении. Он предоставляет метод для ретривал объекта <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>интерфейса IShellItem</strong></a> известной папки. Он также предоставляет методы для получения или задания пути к известной папке.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager"><strong>икновнфолдерманажер</strong></a><br /> | Предоставляет методы для создания, перечисления или управления существующими известными папками.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchsourceappusermodelid"><strong>илаунчсаурцеаппусермоделид</strong></a><br /> | Предоставляет метод для получения <a href="appids.md">AppUserModelId</a>.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchsourceviewsizepreference"><strong>илаунчсаурцевиевсизепреференце</strong></a><br /> | Предоставляет методы для получения сведений о исходном приложении.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchtargetmonitor"><strong>илаунчтаржетмонитор</strong></a><br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchtargetviewsizepreference"><strong>илаунчтаржетвиевсизепреференце</strong></a><br /> | Предоставляет метод для получения предпочтительного размера представления для нового окна приложения.<br /> | 
+| <a href="/windows/desktop/shell/shell-extensibility-bumper"><strong>имаркупкаллбакк</strong></a><br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-imenupopup"><strong>именупопуп</strong></a><br /> | <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-imenupopup"><strong>Именупопуп</strong></a> может быть изменен или недоступен.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-imodalwindow"><strong>имодалвиндов</strong></a><br /> | Предоставляет метод, представляющий модальное окно. этот интерфейс используется в мастере Windows XP Passport.<br /> | 
+| <a href="imultimonitordockingsite.md"><strong>имултимонитордоккингсите</strong></a><br /> | Реализуется браузером. предоставляет методы, управляющие монитором, который содержит Windows панели задач в системе с несколькими мониторами. <br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-inamedpropertybag"><strong>инамедпропертибаг</strong></a><br /> | Предоставляет методы, предоставляющие объект с заданным контейнером свойств, в котором объект может сохранять свои свойства.<br /> | 
+| <a href="/windows/desktop/api/Propsys/nn-propsys-inamedpropertystore"><strong>инамедпропертисторе</strong></a><br /> | Предоставляет методы, получающие и устанавливающие именованные свойства.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-inamespacetreeaccessible"><strong>инамеспацетриакцессибле</strong></a><br /> | Предоставляет методы, которые выполняют действия с доступом к элементу оболочки из элемента управления дерева пространства имен.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol"><strong>инамеспацетриконтрол</strong></a><br /> | Предоставляет методы, используемые для просмотра узлов в дереве элементов оболочки и управления ими.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-inamespacetreecontrol2"><strong>INameSpaceTreeControl2</strong></a><br /> | Расширяет интерфейс <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol"><strong>инамеспацетриконтрол</strong></a> , предоставляя методы, которые получают и задают стили вывода элементов управления TreeView для использования с элементами пространства имен оболочки.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-inamespacetreecontrolcustomdraw"><strong>инамеспацетриконтролкустомдрав</strong></a><br /> | Предоставляет методы, позволяющие пользователю нарисовать элемент управления дерева пользовательского пространства имен и его элементы.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-inamespacetreecontroldrophandler"><strong>инамеспацетриконтролдрофандлер</strong></a><br /> | Предоставляет методы обработчика для перетаскивания. Используется элементом управления "дерево пространства имен" для уведомления клиента о любых операциях перетаскивания, происходящих в элементе управления. Предоставляет клиенту возможность перехватить операцию Drop и выполнить ее собственное действие или возвратить нужный результат перетаскивания.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-inamespacetreecontrolevents"><strong>инамеспацетриконтролевентс</strong></a><br /> | Предоставляет методы для обработки событий <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol"><strong>инамеспацетриконтрол</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrolfoldercapabilities"><strong>инамеспацетриконтролфолдеркапабилитиес</strong></a><br /> | Предоставляет единственный метод, который получает состояние поддержки фильтрации <a href="/windows/desktop/properties/props-system-ispinnedtonamespacetree">System. испиннедтонамеспацетри</a> в папке.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalk"><strong>инамеспацевалк</strong></a><br /> | Предоставляет методы, которые проходят по пространству имен из заданного корневого узла. Указана глубина прохода, и возвращается необязательный массив, содержащий идентификаторы всех узлов.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb"><strong>инамеспацевалккб</strong></a><br /> | Интерфейс обратного вызова, предоставляющий методы, используемые с <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalk"><strong>инамеспацевалк</strong></a>. После выполнения прохода с <strong>инамеспацевалк</strong>объект <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>ишеллфолдер</strong></a> , представляющий проанализируемые узлы, передается методам <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb"><strong>инамеспацевалккб</strong></a> . То, что эти методы выполняют с информацией, зависит от объекта, который их реализует.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb2"><strong>INamespaceWalkCB2</strong></a><br /> | Расширяет <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb"><strong>инамеспацевалккб</strong></a> с помощью метода, необходимого для завершения прохода по пространству имен. Этот метод удаляет данные, собранные во время анализа. <br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inewmenuclient"><strong>иневменуклиент</strong></a><br /> | предоставляет методы, которые позволяют управлять элементами в меню Windows 7.<br /> | 
+| <a href="/windows/desktop/api/shlobj/nn-shlobj-inewshortcuthooka"><strong>иневшорткусук</strong></a><br /> | Предоставляет методы для создания нового ярлыка Интернета.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inewwindowmanager"><strong>иневвиндовманажер</strong></a><br /> | Предоставляет метод, определяющий, следует ли отображать или блокировать окно, запускаемое другим окном, что позволяет управлять всплывающими окнами.<br /> | 
+| <a href="/windows/desktop/api/reconcil/nn-reconcil-inotifyreplica"><strong>инотифиреплика</strong></a><br /> | Предоставляет метод, предоставляющий создателю объекта средства для уведомления объекта о том, что он может подвергаться последующей выверке. Для реализации этого интерфейса отвечает синхронизатор по портфелю.<br /> | 
+| <a href="/windows/desktop/api/Objectarray/nn-objectarray-iobjectarray"><strong>иобжектаррай</strong></a><br /> | Предоставляет методы, позволяющие клиентам получать доступ к элементам в коллекции объектов, поддерживающих <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown"><strong>IUnknown</strong></a>.<br /> | 
+| <a href="/windows/desktop/api/objectarray/nn-objectarray-iobjectcollection"><strong>иобжектколлектион</strong></a><br /> | Расширяет интерфейс <a href="/windows/desktop/api/Objectarray/nn-objectarray-iobjectarray"><strong>иобжектаррай</strong></a> , предоставляя методы, позволяющие клиентам добавлять и удалять объекты, поддерживающие <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown"><strong>IUnknown</strong></a> в коллекции.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectprovider"><strong>иобжектпровидер</strong></a><br /> | Предоставляет метод для обнаружения объектов, имена которых имеют <strong>идентификатор GUID</strong> из другого объекта. В отличие от <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)"><strong>QueryService</strong></a> этот интерфейс не будет делегировать свою функциональность другим объектам.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithappusermodelid"><strong>иобжектвисаппусермоделид</strong></a><br /> | Предоставляет методы, которые позволяют разработчикам пользовательских объектов <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iassochandler"><strong>иассочандлер</strong></a> предоставлять доступ к его ЯВНОму идентификатору пользовательской модели приложения (AppUserModelID). Эти сведения используются для определения того, можно ли добавить определенный тип файла в список переходов приложения.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithbackreferences"><strong>иобжектвисбаккреференцес</strong></a><br /> | Предоставляет метод для взаимодействия с обратными ссылками, удерживаемыми объектом.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithcancelevent"><strong>иобжектвисканцелевент</strong></a><br /> | Предоставляет вызывающему объекту событие, которое будет сигнальным от вызываемого объекта для обозначения отмены задачи.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithfolderenummode"><strong>иобжектвисфолдеренуммоде</strong></a><br /> | Предоставляет методы, которые получают и устанавливают режимы перечисления для проанализированного элемента.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithprogid"><strong>иобжектвиспрогид</strong></a><br /> | Предоставляет методы, которые предоставляют доступ к идентификатору ProgID, связанному с объектом.<br /> | 
+| <a href="/windows/desktop/api/Propsys/nn-propsys-iobjectwithpropertykey"><strong>иобжектвиспропертикэй</strong></a><br /> | Предоставляет методы для получения и задания ключа свойства.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithselection"><strong>иобжектвисселектион</strong></a><br /> | Предоставляет методы, которые получают или задают выбранные элементы, представленные массивом элементов оболочки.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iobjmgr"><strong>иобжмгр</strong></a><br /> | Предоставляет методы, позволяющие клиенту добавлять или удалять объекты из коллекции объектов, управляемых объектом сервера.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iopencontrolpanel"><strong>иопенконтролпанел</strong></a><br /> | Предоставляет методы, которые извлекают состояние представления панели управления, путь к отдельным элементам панели управления и открывают либо панель управления, либо отдельный элемент панели управления.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iopensearchsource"><strong>иопенсеарчсаурце</strong></a><br /> | предоставляет метод для получения результатов поиска из пользовательского источника данных OpenSearch на стороне клиента.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ioperationsprogressdialog"><strong>иоператионспрогрессдиалог</strong></a><br /> | Предоставляет методы для получения, задания и запроса диалогового окна хода выполнения.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ipackagedebugsettings"><strong>ипаккажедебугсеттингс</strong></a><br /> | позволяет разработчикам отладчика управлять жизненным циклом приложения для магазина Windows, например приостановки или возобновления.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipackageexecutionstatechangenotification"><strong>ипаккажеексекутионстатечанженотификатион</strong></a><br /> | позволяет получать уведомления об изменениях состояния пакета во время отладки приложений в хранилище Windows.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iparentanditem"><strong>ипарентандитем</strong></a><br /> | Предоставляет методы, которые получают и задают родительский и дочерний идентификатор родителя. Хотя <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iparentanditem"><strong>ипарентандитем</strong></a> обычно реализуется в ишеллитемс, он не связан с <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>интерфейса IShellItem</strong></a>. <br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iparseandcreateitem"><strong>ипарсеандкреатеитем</strong></a><br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder"><strong>иперсистфолдер</strong></a><br /> | Предоставляет метод, который инициализирует объекты папки оболочки.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder2"><strong>IPersistFolder2</strong></a><br /> | Предоставляет методы, которые получают сведения из объектов папки оболочки.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder3"><strong>IPersistFolder3</strong></a><br /> | Расширяет интерфейсы <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder"><strong>иперсистфолдер</strong></a> и <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder2"><strong>IPersistFolder2</strong></a> , позволяя объекту папки реализовывать обработку ярлыков папок, не используемых по умолчанию.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistidlist"><strong>иперсистидлист</strong></a><br /> | Предоставляет методы, используемые для сохранения списков идентификаторов элементов.<br /> | 
+| <a href="/windows/desktop/api/Propsys/nn-propsys-ipersistserializedpropstorage"><strong>иперсистсериализедпропстораже</strong></a><br /> | Предоставляет методы для сохранения сериализованных данных свойств хранилища для последующего использования и для восстановления сохраненных данных в новом экземпляре хранилища свойств.<br /> | 
+| <a href="/windows/desktop/api/Propsys/nn-propsys-ipersistserializedpropstorage2"><strong>IPersistSerializedPropStorage2</strong></a><br /> | Предоставляет методы для сохранения сериализованных данных свойств хранилища для последующего использования и для восстановления сохраненных данных в новом экземпляре хранилища свойств.<br /> | 
+| <a href="/previous-versions/windows/desktop/legacy/hh707033(v=vs.85)"><strong>иплайбаккманажер</strong></a><br /> | предоставляет методы, позволяющие приложениям мультимедиа обмениваться данными с диспетчером Windowsного воспроизведения.<br /> | 
+| <a href="/previous-versions/windows/desktop/legacy/hh707034(v=vs.85)"><strong>иплайбаккманажеревентс</strong></a><br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipreviewhandler"><strong>IPreviewHandler</strong></a><br /> | Предоставляет методы для отображения расширенных предварительных версий.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipreviewhandlerframe"><strong>IPreviewHandlerFrame</strong></a><br /> | Включает обработчики просмотра для передачи сочетаний клавиш на узел. Этот интерфейс получает список сочетаний клавиш и направляет ведущему приложению команду на обработку сочетания клавиш.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipreviewhandlervisuals"><strong>ипревиевхандлервисуалс</strong></a><br /> | Предоставляет методы для применения сведений о цвете и шрифте для обработчиков предварительного просмотра.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipreviewitem"><strong>ипревиевитем</strong></a><br /> | Определяет элемент, который будет отображаться в области просмотра.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ipreviousversionsinfo"><strong>ипревиаусверсионсинфо</strong></a><br /> | предоставляет метод, проверяющий предыдущие версии файлов или папок сервера, которые хранятся в целях повторной версии с помощью технологии <em>теневого копирования</em> , обеспечиваемой Windows server 2003.<br /> | 
+| <a href="iprivateidentitymanager.md"><strong>иприватеидентитиманажер</strong></a><br /> | 
+| <a href="iprivateidentitymanager2.md"><strong>IPrivateIdentityManager2</strong></a><br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iprofferservice"><strong>ипрофферсервице</strong></a><br /> | Предоставляет общий механизм для объектов, предлагающих службы другим объектам на том же узле.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iprogressdialog"><strong>ипрогрессдиалог</strong></a><br /> | Предоставляет методы, предоставляющие параметры для приложения, которое отображает диалоговое окно хода выполнения. Этот интерфейс экспортируется объектом диалогового окна Progress (CLSID_ProgressDialog). Этот объект является универсальным способом отображения пользователем того, как выполняется операция. Обычно он используется при удалении, передаче, копировании, перемещении или скачивании большого количества файлов.<br /> | 
+| <a href="/windows/desktop/api/Shappmgr/nn-shappmgr-ipublishedapp"><strong>ипублишедапп</strong></a><br /> | Предоставляет методы, представляющие приложения для установки и удаления программ на панели управления. <br /> | 
+| <a href="/windows/desktop/api/Shappmgr/nn-shappmgr-ipublishedapp2"><strong>IPublishedApp2</strong></a><br /> | Расширяет интерфейс <a href="/windows/desktop/api/Shappmgr/nn-shappmgr-ipublishedapp"><strong>ипублишедапп</strong></a> , предоставляя дополнительный метод установки.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ipublishingwizard"><strong>ипублишингвизард</strong></a><br /> | Предоставляет методы для работы с мастером печати в сети, мастером веб-публикаций и мастером добавления сетевого размещения. в Windows Vista <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ipublishingwizard"><strong>ипублишингвизард</strong></a> больше не поддерживает мастер веб-публикаций или мастер печати в режиме «в сети».<br /> | 
+| <a href="/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations"><strong>икуеряссоЦиатионс</strong></a><br /> | Предоставляет методы, которые упрощают процесс извлечения информации, хранящейся в реестре, в связи с определением типа файла или протокола и связыванием его с приложением.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iquerycancelautoplay"><strong>икуериканцелаутоплай</strong></a><br /> | Предоставляет метод, программно переопределяющий <a href="autorun2k-intro.md">Автозапуск</a> или <a href="autoplay.md">Autorun</a>. Это позволяет настроить расположение и тип содержимого, которое будет запускаться при вставке носителя.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iquerycodepage"><strong>икуерикодепаже</strong></a><br /> | Возвращает и задает числовое значение (идентификатор кодовой страницы) кодовой страницы ANSI.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iquerycontinue"><strong>икуериконтинуе</strong></a><br /> | Предоставляет метод, предоставляющий простой, Стандартный механизм для объектов, которые запрашивают у клиента разрешение на продолжение операции. Клиенты <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification"><strong>иусернотификатион</strong></a>, например, должны передать реализацию <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iquerycontinue"><strong>Икуериконтинуе</strong></a> в метод <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iusernotification-show"><strong>иусернотификатион::</strong></a> reby.<br /> | 
+| <a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-iquerycontinuewithstatus"><strong>икуериконтинуевисстатус</strong></a><br /> | Предоставляет методы, которые предоставляют стандартный механизм для поставщиков учетных данных для вызова <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iquerycontinue-querycontinue"><strong>куериконтинуе</strong></a> при попытке подключиться к сети, чтобы определить, следует ли продолжать эти попытки. Поставщики учетных данных также могут использовать этот интерфейс для вывода сообщений пользователю при попытке установить сетевое подключение.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iqueryinfo"><strong>икуеринфо</strong></a><br /> | Предоставляет методы, используемые оболочкой для извлечения флагов и сведений о подсказках для элемента, находящегося в реализации <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>ишеллфолдер</strong></a> . Советы по информационным <a href="/windows/desktop/Controls/tooltip-controls">подсказкам</a> обычно отображаются внутри элемента управления ToolTip.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irelateditem"><strong>ирелатедитем</strong></a><br /> | Предоставляет методы, которые наследуют связанные элементы с конкретными связями.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iremotecomputer"><strong>иремотекомпутер</strong></a><br /> | Предоставляет метод, который перечисляет или инициализирует расширение пространства имен при его вызове на удаленном объекте. Этот интерфейс используется, например, для инициализации виртуальной папки удаленных принтеров.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iresolveshelllink"><strong>иресолвешелллинк</strong></a><br /> | Предоставляет метод, позволяющий приложению запрашивать, что объект папки оболочки разрешает ссылку на один из его элементов.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iresultsfolder"><strong>иресултсфолдер</strong></a><br /> | Предоставляет методы, содержащие элементы из объекта данных.<br /> <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iresultsfolder"><strong>Иресултсфолдер</strong></a> — это папка, которая может содержать элементы из всего пространства имен и представлять их для пользователя в одной папке.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irunnabletask"><strong>ируннаблетаск</strong></a><br /> | Интерфейс с произвольным потоком, который может быть предоставлен объектом, чтобы разрешить выполнение операций в фоновом потоке. Например, если метод <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iextractimage-getlocation"><strong>иекстрактимаже:: OnLocation</strong></a> возвращает E_PENDING, вызывающему приложению разрешается извлекать изображение в фоновом потоке.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-isearchboxinfo"><strong>исеарчбоксинфо</strong></a><br /> | Предоставляет методы, позволяющие вызывающему объекту получать информацию, вводимых в поле поиска.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-isearchcontext"><strong>исеарчконтекст</strong></a><br /> | Предоставляет методы, сведения о настройке канала для обработчиков поиска.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-isearchfolderitemfactory"><strong>исеарчфолдеритемфактори</strong></a><br /> | Предоставляет методы, создающие и изменяющие папки поиска. Сначала вызываются методы набора, чтобы настроить параметры поиска. Если этот метод не вызван, вместо него будут использоваться значения по умолчанию. <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isearchfolderitemfactory-getidlist"><strong>Исеарчфолдеритемфактори:: жетидлист</strong></a> и <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isearchfolderitemfactory-getshellitem"><strong>Исеарчфолдеритемфактори:: жетшеллитем</strong></a> возвращают две формы поиска, указанные в этих параметрах. <br /> | 
+| <a href="/windows/desktop/api/Thumbcache/nn-thumbcache-isharedbitmap"><strong>ишаредбитмап</strong></a><br /> | Предоставляет эффективные для памяти методы для доступа к точечным рисункам. Этот интерфейс используется в качестве тонкой оболочки для объектов ХБИТМАП, что позволяет подсчитывать и защищать эти объекты, изменяя их базовые данные.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-isharingconfigurationmanager"><strong>ишарингконфигуратионманажер</strong></a><br /> | Предоставляет методы, которые задают и получают сведения о параметрах общего доступа компьютера по умолчанию для папки <strong>Users</strong> ( <code>C:\Users</code> ) или <strong>Public</strong> ( <code>C:\Users\Public</code> ). Также предоставляет набор методов, позволяющих управлять совместным доступом к принтерам.<br /> | 
+| <a href="/windows/desktop/api/Shappmgr/nn-shappmgr-ishellapp"><strong>ишеллапп</strong></a><br /> | Предоставляет методы, предоставляющие общие сведения о приложении для приложения "Установка и удаление программ". Его нельзя использовать за пределами приложения "Установка и удаление программ". Сведения, предоставляемые этим интерфейсом, включают список поддерживаемых действий по управлению и наличие установленного в настоящее время приложения. <br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser"><strong>ишеллбровсер</strong></a><br /> | Реализуется узлами представлений оболочки (объектов, реализующих <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>ишеллвиев</strong></a>). Предоставляет методы, предоставляющие службы для представления, на котором оно размещено, и другие объекты, выполняемые в контексте окна проводника. <br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishellchangenotify"><strong>ишеллчанженотифи</strong></a><br /> | Предоставляет метод, уведомляющий расширение пространства имен оболочки при изменении идентификатора элемента.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelldetails"><strong>ишеллдетаилс</strong></a><br /> | Предоставляется папками оболочки для предоставления подробных сведений о элементах в папке. это те же сведения, которые отображаются в обозревателе Windows, когда для представления папки задано значение details. для Windows 2000 и более поздних систем <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelldetails"><strong>ишеллдетаилс</strong></a> заменяется <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2"><strong>IShellFolder2</strong></a>.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellextinit"><strong>ишеллекстинит</strong></a><br /> | Предоставляет метод, который инициализирует расширения оболочки для страниц свойств, контекстных меню и обработчиков перетаскивания (расширений, которые добавляют элементы в контекстные меню во время операций перетаскивания).<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>ишеллфолдер</strong></a><br /> | Методы, предоставляемые всеми объектами папки пространства имен оболочки, используются для управления папками.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2"><strong>IShellFolder2</strong></a><br /> | Расширяет возможности <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>ишеллфолдер</strong></a>. Его методы предоставляют разнообразные сведения о содержимом папки оболочки.<br /> | 
+| <a href="ishellfoldersearchable.md"><strong>ишеллфолдерсеарчабле</strong></a><br /> | Предоставляет методы, позволяющие расширению оболочки предоставлять пространство имен с возможностью поиска.<br /> | 
+| <a href="ishellfoldersearchablecallback.md"><strong>ишеллфолдерсеарчаблекаллбакк</strong></a><br /> | Предоставляет подпрограммы обратного вызова для отслеживания процесса поиска.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishellfolderviewcb"><strong>ишеллфолдервиевкб</strong></a><br /> | предоставляет метод, который разрешает обмен данными между проводником Windows и представлением папки, реализованным с помощью объекта представления системных папок (объект <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>ишеллвиев</strong></a> , возвращенный через <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview"><strong>шкреатешеллфолдервиев</strong></a>), чтобы представление папки могла получать уведомления о событиях и изменять их представление соответствующим образом.<br /> | 
+| <a href="/windows/desktop/api/Shldisp/nn-shldisp-ishellfolderviewdual"><strong>ишеллфолдервиевдуал</strong></a><br /> | Предоставляет методы, которые изменяют представление и выбирают элементы в текущей папке. <br /> | 
+| <a href="/windows/desktop/api/Shldisp/nn-shldisp-ishellfolderviewdual2"><strong>IShellFolderViewDual2</strong></a><br /> | Предоставляет методы, которые изменяют представление и выбирают элементы в текущей папке.<br /> | 
+| <a href="/windows/desktop/api/Shldisp/nn-shldisp-ishellfolderviewdual3"><strong>IShellFolderViewDual3</strong></a><br /> | Предоставляет методы, изменяющие текущее представление папки.<br /> | 
+| <a href="ishellfolderviewtype.md"><strong>ишеллфолдервиевтипе</strong></a><br /> | Предоставляет методы, позволяющие папке оболочки поддерживать различные представления содержимого (различные иерархические макеты данных).<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellicon"><strong>ишелликон</strong></a><br /> | Предоставляет метод, который получает индекс значка для объекта <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>ишеллфолдер</strong></a> . <br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlay"><strong>ишелликоноверлай</strong></a><br /> | Предоставляет методы, используемые расширением пространства имен для указания наложения значков для содержащихся в нем объектов.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelliconoverlayidentifier"><strong>ишелликоноверлайидентифиер</strong></a><br /> | Предоставляет методы, которые обрабатывали все связи между обработчиками наложения значков и оболочкой.<br /> | 
+| <a href="/windows/desktop/api/Shimgdata/nn-shimgdata-ishellimagedataabort"><strong>ишеллимажедатааборт</strong></a><br /> | Предоставляет единственный метод, используемый для прерывания процессов <a href="/windows/desktop/api/Shimgdata/nn-shimgdata-ishellimagedata"><strong>ишеллимажедата</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/Shimgdata/nn-shimgdata-ishellimagedatafactory"><strong>ишеллимажедатафактори</strong></a><br /> | Предоставляет методы, создающие экземпляры <a href="/windows/desktop/api/Shimgdata/nn-shimgdata-ishellimagedata"><strong>ишеллимажедата</strong></a> на основе различных источников изображений.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>Интерфейса IShellItem</strong></a><br /> | Предоставляет методы, получающие сведения об элементе оболочки. <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>Интерфейса IShellItem</strong></a> и <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem2"><strong>IShellItem2</strong></a> — предпочтительные представления элементов в любом новом коде.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem2"><strong>IShellItem2</strong></a><br /> | Расширяет <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>интерфейса IShellItem</strong></a> с помощью методов, которые извлекают различные значения свойств элемента. <strong>Интерфейса IShellItem</strong> и <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem2"><strong>IShellItem2</strong></a> — предпочтительные представления элементов в любом новом коде.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray"><strong>ишеллитемаррай</strong></a><br /> | Предоставляет методы, создающие и управляющие массивами <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>элементов оболочки</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemfilter"><strong>ишеллитемфилтер</strong></a><br /> | Предоставляется клиентом для указания способа фильтрации перечисления <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>элемента оболочки</strong></a> приложением сервера.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemimagefactory"><strong>ишеллитемимажефактори</strong></a><br /> | Предоставляет метод для возврата значков или эскизов для элементов оболочки. Если для запрошенного элемента отсутствует эскиз или значок, в оболочке может быть предоставлен значок для каждого класса.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemresources"><strong>ишеллитемресаурцес</strong></a><br /> | Предоставляет методы для управления ресурсами элементов оболочки и выполнения запросов к ним.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary"><strong>ишелллибрари</strong></a><br /> | Предоставляет методы для создания библиотек и управления ими.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ishelllinka"><strong>ишелллинк</strong></a><br /> | Предоставляет методы, которые создают, изменяют и разрешают ссылки оболочки.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist"><strong>ишелллинкдаталист</strong></a><br /> | Предоставляет методы, позволяющие приложению прикреплять дополнительные блоки данных к <a href="/windows/desktop/shell/links">ссылке на оболочку</a>. Эти методы добавляют, копируют или удаляют блоки данных.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenu"><strong>ишеллмену</strong></a><br /> | Предоставляет методы, взаимодействующие с меню оболочки, например меню « <strong>Пуск</strong> » и меню « <strong>Избранное</strong> ».<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenucallback"><strong>ишеллменукаллбакк</strong></a><br /> | Интерфейс обратного вызова, предоставляющий метод, который получает сообщения из строки меню.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellpropsheetext"><strong>ишеллпропшитекст</strong></a><br /> | Предоставляет методы, позволяющие обработчику страницы свойств добавлять или заменять страницы в таблице свойств, отображаемой для файлового объекта.<br /> | 
+| <a href="/windows/desktop/api/shobjidl/nn-shobjidl-ishellrundll"><strong>ишеллрундлл</strong></a><br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>ишеллвиев</strong></a><br /> | предоставляет методы, представляющие представление в окнах проводника Windows или папок.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview2"><strong>IShellView2</strong></a><br /> | Расширяет возможности <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>ишеллвиев</strong></a>.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ishellview3"><strong>IShellView3</strong></a><br /> | Расширяет возможности <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview2"><strong>IShellView2</strong></a> , предоставляя метод для замены <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview2-createviewwindow2"><strong>IShellView2:: CreateViewWindow2</strong></a>.<br /> | 
+| <a href="/windows/desktop/api/Exdisp/nn-exdisp-ishellwindows"><strong>ишеллвиндовс</strong></a><br /> | Предоставляет доступ к коллекции открытых окон оболочки.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-istartmenupinnedlist"><strong>истартменупиннедлист</strong></a><br /> | Предоставляет метод, который открепляет ярлык приложения из меню « <strong>Пуск</strong> » или панели задач.<br /> | 
+| <a href="nn-shobjidl-istorageprovidercopyhook.md"><strong>исторажепровидеркопихук</strong></a><br /> | Предоставляет метод, определяющий, будет ли оболочка разрешать перемещение, копирование, удаление или переименование папки в корне синхронизации поставщика облачных служб.<br /> | 
+| <a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderhandler"><strong>исторажепровидерхандлер</strong></a><br /> | Извлекает <a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler"><strong>исторажепровидерпропертихандлер</strong></a> , связанный с конкретным файлом или папкой.<br /> | 
+| <a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler"><strong>исторажепровидерпропертихандлер</strong></a><br /> | Предоставляет коллекцию свойств, связанных с файлом или папкой.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-istreamasync"><strong>истреамасинк</strong></a><br /> | Предоставляет методы для управления входными и аутпаутми (ввода-вывода) в асинхронный поток. <br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-istreamunbufferedinfo"><strong>истреамунбуфферединфо</strong></a><br /> | Предоставляет метод, который определяет размер сектора как вспомогательный для выравнивания байтов.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-isuspensiondependencymanager"><strong>исуспенсиондепенденциманажер</strong></a><br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflict"><strong>исинкмгрконфликт</strong></a><br /> | Предоставляет методы, предоставляющие сведения о конфликте, извлеченном из хранилища конфликтов, и позволяет разрешить конфликт.<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictfolder"><strong>исинкмгрконфликтфолдер</strong></a><br /> | Предоставляет метод, который получает список ИДЕНТИФИКАТОРов конфликтов для конфликтующего объекта.<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictitems"><strong>исинкмгрконфликтитемс</strong></a><br /> | Предоставляет методы, получающие данные элементов конфликтов и число элементов.<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictpresenter"><strong>исинкмгрконфликтпресентер</strong></a><br /> | Предоставляет метод, представляющий конфликт с пользователем.<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictresolutionitems"><strong>исинкмгрконфликтресолутионитемс</strong></a><br /> | Предоставляет методы, которые получают сведения об элементе и число элементов.<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictresolveinfo"><strong>исинкмгрконфликтресолвеинфо</strong></a><br /> | Предоставляет методы, которые получают и устанавливают сведения о разрешении конфликтов диспетчера синхронизации.<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictstore"><strong>исинкмгрконфликтсторе</strong></a><br /> | Предоставляет методы, позволяющие обработчику предоставлять конфликты, которые отображаются в папке конфликтов.<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrcontrol"><strong>исинкмгрконтрол</strong></a><br /> | Предоставляет методы, позволяющие приложению или обработчику запускать или прекращать синхронизацию, уведомлять центр синхронизации об изменениях в наборе обработчиков или элементов или уведомлять об изменениях в значениях свойств.<br /> | 
+| <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems"><strong>исинкмгренумитемс</strong></a><br /> | Предоставляет методы, которые перечисляют массив структур <a href="/windows/win32/api/mobsync/ns-mobsync-syncmgritem"><strong>синкмгритем</strong></a> . Каждая из этих структур предоставляет сведения об элементе, который можно синхронизировать. <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems"><strong>Исинкмгренумитемс</strong></a> имеет те же методы, что и все стандартные интерфейсы перечислителя: "следующий", "пропустить", "сбросить" и "клонировать".<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrevent"><strong>исинкмгревент</strong></a><br /> | Предоставляет методы, которые извлекают данные из хранилища событий. Хранилище событий позволяет центру синхронизации получить перечислитель всех событий в хранилище, а также получить отдельные события.<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgreventlinkuioperation"><strong>исинкмгревентлинкуиоператион</strong></a><br /> | Предоставляет метод, который вызывается при щелчке ссылок на события в папке результатов синхронизации.<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgreventstore"><strong>исинкмгревентсторе</strong></a><br /> | Предоставляет методы, позволяющие обработчику предоставлять собственное хранилище событий и управлять собственными событиями синхронизации, вместо использования хранилища событий центра синхронизации по умолчанию. Эти события отображаются в папке результаты синхронизации.<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrhandler"><strong>исинкмгрхандлер</strong></a><br /> | Предоставляет методы, составляющие основной интерфейс, реализуемый обработчиком синхронизации. Центр синхронизации создает один экземпляр обработчика через этот интерфейс для получения свойств, перечисления элементов синхронизации и изменения состояния. Центр синхронизации создает отдельный экземпляр обработчика в отдельном потоке для выполнения синхронизации или операции с пользовательским интерфейсом.<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrhandlercollection"><strong>исинкмгрхандлерколлектион</strong></a><br /> | Предоставляет методы, которые предоставляют перечислитель идентификаторов обработчика синхронизации и создают экземпляры этих обработчиков синхронизации.<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrhandlerinfo"><strong>исинкмгрхандлеринфо</strong></a><br /> | Предоставляет методы, позволяющие обработчику предоставлять сведения о свойствах и состоянии в центре синхронизации.<br /> | 
+| <a href="/windows/desktop/api/Mobsync/nn-mobsync-isyncmgrregister"><strong>исинкмгррегистер</strong></a><br /> | Предоставляет методы, чтобы приложение можно было зарегистрировать в диспетчере синхронизации. Это можно сделать либо с помощью интерфейса <a href="/windows/desktop/api/Mobsync/nn-mobsync-isyncmgrregister"><strong>исинкмгррегистер</strong></a> , либо путем регистрации непосредственно в реестре.<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrresolutionhandler"><strong>исинкмгрресолутионхандлер</strong></a><br /> | Предоставляет методы, которые управляют синхронизацией конфликтов. Реализуйте этот интерфейс для создания обработчика конфликтов синхронизации. Пользовательский интерфейс разрешения конфликтов будет вызывать этот интерфейс для разрешения конфликта, представленного пользователю. <br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrschedulewizarduioperation"><strong>исинкмгрсчедулевизардуиоператион</strong></a><br /> | Предоставляет метод, позволяющий обработчику отображать мастер расписания синхронизации для обработчика.<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsessioncreator"><strong>исинкмгрсессионкреатор</strong></a><br /> | Предоставляет один метод, с помощью которого обработчик или внешнее приложение может уведомлять центр синхронизации о начале синхронизации, а также о ходе выполнения и событиях.<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsynccallback"><strong>исинкмгрсинккаллбакк</strong></a><br /> | Предоставляет методы, позволяющие процессу синхронизации сообщать о ходе выполнения и событиях в центр синхронизации, а также запрашивать, был ли отменен процесс.<br /> | 
+| <a href="/windows/desktop/api/Mobsync/nn-mobsync-isyncmgrsynchronize"><strong>исинкмгрсинчронизе</strong></a><br /> | Предоставляет методы, которые позволяют зарегистрированному приложению или службе получать уведомления от диспетчера синхронизации.<br /> | 
+| <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback"><strong>исинкмгрсинчронизекаллбакк</strong></a><br /> | Предоставляет методы, управляющие процессом синхронизации.<br /> | 
+| <a href="/windows/desktop/api/Mobsync/nn-mobsync-isyncmgrsynchronizeinvoke"><strong>исинкмгрсинчронизеинвоке</strong></a><br /> | Предоставляет методы, которые позволяют зарегистрированному приложению вызывать диспетчер синхронизации для обновления элементов.<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsyncitem"><strong>исинкмгрсинЦитем</strong></a><br /> | Предоставляет методы, которые действуют и извлекают данные из одного элемента синхронизации, позволяя обработчикам управлять элементами синхронизации как отдельными объектами.<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsyncitemcontainer"><strong>исинкмгрсинЦитемконтаинер</strong></a><br /> | Предоставляет методы, предоставляющие сведения обработчикам о содержащихся в них элементах.<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsynciteminfo"><strong>исинкмгрсинЦитеминфо</strong></a><br /> | Предоставляет методы, предоставляющие сведения о свойствах и состоянии для одного элемента синхронизации.<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsyncresult"><strong>исинкмгрсинкресулт</strong></a><br /> | Предоставляет метод, который приложения, вызывающие <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrcontrol"><strong>исинкмгрконтрол</strong></a> , могут использовать для получения результата вызова <a href="/windows/desktop/api/Syncmgr/nf-syncmgr-isyncmgrcontrol-starthandlersync"><strong>Исинкмгрконтрол:: старсандлерсинк</strong></a> или <a href="/windows/desktop/api/Syncmgr/nf-syncmgr-isyncmgrcontrol-startitemsync"><strong>исинкмгрконтрол:: стартитемсинк</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgruioperation"><strong>исинкмгруиоператион</strong></a><br /> | Предоставляет метод, с помощью которого обработчик синхронизации или элемент синхронизации может отображать объект пользовательского интерфейса по запросу в центре синхронизации.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist"><strong>итаскбарлист</strong></a><br /> | Предоставляет методы, управляющие панелью задач. Она позволяет динамически добавлять, удалять и активировать элементы на панели задач.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2"><strong>ITaskbarList2</strong></a><br /> | Расширяет интерфейс <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist"><strong>итаскбарлист</strong></a> , предоставляя метод для пометки окна как полноэкранного экрана.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist3"><strong>ITaskbarList3</strong></a><br /> | расширяет <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2"><strong>ITaskbarList2</strong></a> , предоставляя методы, поддерживающие унифицированную функцию кнопки панели задач "запуск и переключение", добавленную в Windows 7. Эти функции включают в себя эскизы и переключатели, основанные на отдельных вкладках в приложении с вкладками, панелях инструментов эскиза, наложения уведомлений и состоянии, а также индикаторах хода выполнения.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist4"><strong>ITaskbarList4</strong></a><br /> | Расширяет <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist3"><strong>ITaskbarList3</strong></a> , предоставляя метод, который позволяет вызывающему объекту управлять двумя значениями свойств для эскиза вкладки и просматривать функцию.<br /> | 
+| <a href="/windows/desktop/api/Thumbcache/nn-thumbcache-ithumbnailcache"><strong>исумбнаилкаче</strong></a><br /> | Предоставляет методы для кэша эскизов системы, которые совместно используются в приложениях.<br /> | 
+| <a href="/windows/desktop/api/thumbcache/nn-thumbcache-ithumbnailcacheprimer"><strong>исумбнаилкачепример</strong></a><br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ithumbnailhandlerfactory"><strong>исумбнаилхандлерфактори</strong></a><br /> | Предоставляет метод для получения обработчика эскиза элемента. Реализуйте этот интерфейс, если необходимо указать, какое средство извлечения используется для дочернего IDList.<br /> | 
+| <a href="/windows/desktop/api/Thumbcache/nn-thumbcache-ithumbnailprovider"><strong>исумбнаилпровидер</strong></a><br /> | Предоставляет метод для получения эскиза изображения и должен быть реализован для обработчиков эскизов. Объект, реализующий этот интерфейс, должен также реализовывать <a href="/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream"><strong>IInitializeWithStream</strong></a>. <br /> | 
+| <a href="/windows/desktop/api/Thumbcache/nn-thumbcache-ithumbnailsettings"><strong>исумбнаилсеттингс</strong></a><br /> | Предоставляет метод, позволяющий поставщику эскиза определить пользовательский контекст запроса эскиза.<br /> | 
+| <a href="/windows/desktop/api/thumbnailstreamcache/nn-thumbnailstreamcache-ithumbnailstreamcache"><strong>исумбнаилстреамкаче</strong></a><br /> | Возвращает или задает поток эскиза. Этот интерфейс предназначен только для внутреннего использования и может вызываться только в приложении Photos.<br /> | 
+| <a href="/windows/desktop/api/Shdeprecated/nn-shdeprecated-itrackshellmenu"><strong>итраккшеллмену</strong></a><br /> | Предоставляет методы, расширяющие интерфейс <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenu"><strong>ишеллмену</strong></a> , предоставляя возможность координировать кнопки на панели инструментов с помощью меню, а также отображать всплывающее меню.<br /> | 
+| <a href="/windows/desktop/api/Imagetranscode/nn-imagetranscode-itranscodeimage"><strong>итранскодеимаже</strong></a><br /> | Предоставляет метод, позволяющий преобразовать изображения в форматы JPEG или Bitmap (BMP) из любого типа изображений, поддерживаемого Windows. <br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferadvisesink"><strong>итрансферадвисесинк</strong></a><br /> | Предоставляет методы, поддерживающие сбор сведений о состоянии и сведения о сбоях.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination"><strong>итрансфердестинатион</strong></a><br /> | Предоставляет методы, создающие целевой элемент оболочки для операции копирования или перемещения. Этот интерфейс обеспечивает больший контроль над операциями с файлами, предоставляя метод <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransferdestination-advise"><strong>итрансфердестинатион:: Advise</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransfermediumitem"><strong>итрансфермедиумитем</strong></a><br /> | Используется обработчиком копирования для получения элемента, для которого вызывается <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)"><strong>QueryInterface</strong></a> , чтобы вернуть указатель на интерфейс <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination"><strong>Итрансфердестинатион</strong></a> или интерфейс <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransfersource"><strong>итрансферсаурце</strong></a>. Эти интерфейсы можно запрашивать и перечислять для операций копирования, перемещения и удаления.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransfersource"><strong>итрансферсаурце</strong></a><br /> | Предоставляет методы для управления <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>интерфейса IShellItem</strong></a>, включая копирование, перемещение, перезапуск и другие. Этот интерфейс предоставляет больший контроль над операциями с файлами, предоставляя метод <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransfersource-advise"><strong>итрансферсаурце:: Advise</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-itraydeskband"><strong>итрайдескбанд</strong></a><br /> | Предоставляет методы, которые отображают, скрывают и запрашивают дескбандс.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iupdateidlist"><strong>иупдатеидлист</strong></a><br /> | Предоставляет метод для обновления <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>итемидлист</strong></a> дочернего элемента объекта Folder.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iurlsearchhook"><strong>иурлсеарчхук</strong></a><br /> | Предоставляет метод, используемый браузером для преобразования адреса неизвестного протокола URL.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iurlsearchhook2"><strong>IURLSearchHook2</strong></a><br /> | Предоставляет метод, используемый браузером для преобразования адреса неизвестного протокола URL-адреса с помощью объекта контекста поиска.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iuseraccountchangecallback"><strong>иусераккаунтчанжекаллбакк</strong></a><br /> | Предоставляет метод, который вызывается при изменении изображения, представляющего учетную запись пользователя.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification"><strong>иусернотификатион</strong></a><br /> | Предоставляет методы, которые устанавливают сведения уведомления, а затем отображают это уведомление пользователю в выноске, который отображается вместе с областью уведомлений панели задач. <br /><blockquote>[!Note]<br /><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iusernotification2"><strong>IUserNotification2</strong></a> отличается от <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification"><strong>иусернотификатион</strong></a> только в методе <a href="/windows/desktop/api/Shobjidl/nf-shobjidl-iusernotification2-show"><strong>демонстрации</strong></a> , который добавляет дополнительный параметр для интерфейса обратного вызова для взаимодействия с уведомлением. В противном случае два интерфейса идентичны в форме и функции. CLSID_UserNotification реализует обе версии функции <strong>Показывать</strong> как перегрузку.</blockquote><br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iusernotification2"><strong>IUserNotification2</strong></a><br /> | Предоставляет методы, которые устанавливают сведения уведомления, а затем отображают это уведомление пользователю в выноске, который отображается вместе с областью уведомлений панели задач. <br /><blockquote>[!Note]<br /><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iusernotification2"><strong>IUserNotification2</strong></a> не наследует от <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification"><strong>иусернотификатион</strong></a>. <strong>IUserNotification2</strong> отличается от <strong>иусернотификатион</strong> только в методе <a href="/windows/desktop/api/Shobjidl/nf-shobjidl-iusernotification2-show"><strong>демонстрации</strong></a> , который добавляет дополнительный параметр для интерфейса обратного вызова для взаимодействия с уведомлением. В противном случае два интерфейса идентичны в форме и функции. CLSID_UserNotification реализует обе версии функции <strong>Показывать</strong> как перегрузку.</blockquote><br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iusernotificationcallback"><strong>иусернотификатионкаллбакк</strong></a><br /> | Предоставляет метод для обработки доступа щелчка мыши или контекстного меню в выноске уведомления. Используется с <a href="/windows/desktop/api/Shobjidl/nf-shobjidl-iusernotification2-show"><strong>IUserNotification2:: показывать</strong></a>.<br /> | 
+| <a href="/windows/desktop/api/shobjidl/nn-shobjidl-iusetobrowseitem"><strong>иусетобровсеитем</strong></a><br /> | Находит элемент, который должен использоваться при переходе к этому элементу.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iviewstateidentityitem"><strong>ивиевстатеидентититем</strong></a><br /> | Предоставляет канонический элемент сохраняемости — элемент, для которого будут сохранены настройки представления.<br /> | 
+| <a href="/windows/win32/api/shobjidl_core/nn-shobjidl_core-ivirtualdesktopmanager"><strong>ивиртуалдесктопманажер</strong></a><br /> | Предоставляет методы, позволяющие приложению взаимодействовать с группами Windows, которые формируют виртуальные рабочие области.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ivisualproperties"><strong>ивисуалпропертиес</strong></a><br /> | Предоставляет методы, которые устанавливают и получают визуальные свойства.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iwebwizardextension"><strong>ивебвизардекстенсион</strong></a><br /> | Расширяет интерфейс <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iwizardextension"><strong>ивизардекстенсион</strong></a> , предоставляя методы для установки начального URL-адреса расширения мастера и конкретный URL-адрес в случае ошибки.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iwizardextension"><strong>ивизардекстенсион</strong></a><br /> | Используется мастерами, такими как мастер веб-публикаций и мастер заказа отпечатков в сети, на котором размещены страницы содержимого на стороне сервера. Этот интерфейс предоставляет методы для указания поддерживаемых страниц расширения, а также для перехода к этим страницам и их выхода из них.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iwizardsite"><strong>ивизардсите</strong></a><br /> | Предоставляет методы, используемые расширением мастера для перехода между границами между собой и остальной частью мастера.<br /> | 
+| <a href="taskcompletionclient.md"><strong>тасккомплетионклиент</strong></a><br /> | Включает выполнение задачи. <br /> | 
 
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idestinationstreamfactory"><strong>идестинатионстреамфактори</strong></a><br/></td>
-<td>Предоставляет метод для ручного копирования потока или файла перед применением изменений в свойствах.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idisplayitem"><strong>идисплайитем</strong></a><br/></td>
-<td>Предоставляет методы, которые находят версию текущего элемента, используемую для получения свойств отображения, таких как имя элемента, которое будет отображаться в пользовательском интерфейсе. Используется в диалоговых окнах копирования обработчиков для предоставления пользовательского интерфейса с соответствующим элементом для вывода. Если не удается найти другую версию, используется текущий элемент.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow"><strong>идоккингвиндов</strong></a><br/></td>
-<td>Предоставляет методы, уведомляющие объект закрепляемого окна об изменениях, включая отображение, скрытие и отложенное удаление. этот интерфейс реализуется объектами окна, которые можно закрепить в области границы окна обозревателя Windows.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj/nn-shlobj-idockingwindowframe"><strong>идоккингвиндовфраме</strong></a><br/></td>
-<td>Предоставляет методы, которые поддерживают добавление объектов <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow"><strong>идоккингвиндов</strong></a> в кадр. Реализуется браузером.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-idockingwindowsite"><strong>идоккингвиндовсите</strong></a><br/></td>
-<td>Предоставляет методы, управляющие пространством границ для одного или нескольких объектов <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow"><strong>идоккингвиндов</strong></a> . Этот интерфейс реализуется браузером и аналогичен интерфейсу <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceuiwindow"><strong>иолеинплацеуивиндов</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper"><strong>идрагсаурцехелпер</strong></a><br/></td>
-<td>Предоставляется оболочкой для того, чтобы приложение было указано изображение, которое будет отображаться во время операции перетаскивания оболочки.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-idragsourcehelper2"><strong>IDragSourceHelper2</strong></a><br/></td>
-<td>Предоставляет метод, который добавляет функции в <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper"><strong>идрагсаурцехелпер</strong></a>. Этот метод задает характеристики операции перетаскивания для объекта <strong>идрагсаурцехелпер</strong> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idroptargethelper"><strong>идроптаржеселпер</strong></a><br/></td>
-<td>Предоставляет методы, которые позволяют объектам перетаскивания отображать изображение перетаскивания, пока изображение находится над целевым окном.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-idynamichwhandler"><strong>идинамичвхандлер</strong></a><br/></td>
-<td>Вызывается функцией автозапуска. Предоставляет методы, которые получают динамическую информацию о зарегистрированном обработчике перед его отображением пользователю.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumassochandlers"><strong>иенумассочандлерс</strong></a><br/></td>
-<td>Предоставляет метод, позволяющий перечислить коллекцию обработчиков, связанных с определенными расширениями имен файлов.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ienumerableview"><strong>иенумераблевиев</strong></a><br/></td>
-<td>Предоставляет методы, которые перечисляют содержимое представления и получают уведомление от обратного вызова при завершении перечисления. Этот интерфейс позволяет клиентам представления попытаться предоставить доступ к списку содержимого папки представления.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumexplorercommand"><strong>иенумексплореркомманд</strong></a><br/></td>
-<td>Предоставлено <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider"><strong>иексплореркоммандпровидер</strong></a>. Этот интерфейс содержит перечисление команд, помещаемых в панель команд.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumextrasearch"><strong>иенумекстрасеарч</strong></a><br/></td>
-<td>Стандартный перечислитель OLE, используемый клиентом для определения доступных объектов поиска для папки.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumfullidlist"><strong>иенумфуллидлист</strong></a><br/></td>
-<td>Предоставляет стандартный набор методов для перечисления указателей на списки идентификаторов элементов (PIDL) элементов в папке оболочки.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist"><strong>иенумидлист</strong></a><br/></td>
-<td>Предоставляет стандартный набор методов, используемых для перечисления PIDL элементов в папке оболочки. Когда вызывается метод <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-enumobjects"><strong>ишеллфолдер:: енумобжектс</strong></a> папки, он создает объект перечисления и передает указатель на интерфейс <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist"><strong>иенумидлист</strong></a> объекта обратно вызывающему приложению.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumobjects"><strong>иенумобжектс</strong></a><br/></td>
-<td>Предоставляет методы для перечисления неизвестных объектов.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shappmgr/nn-shappmgr-ienumpublishedapps"><strong>иенумпублишедаппс</strong></a><br/></td>
-<td>Предоставляет методы, которые перечисляют опубликованные приложения на панели управления для установки и удаления программ. Объект, предоставляющий этот интерфейс, запрашивается через <a href="/windows/desktop/api/Shappmgr/nf-shappmgr-iapppublisher-enumapps"><strong>иапппублишер:: енумаппс</strong></a>. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ienumreadycallback"><strong>иенумреадикаллбакк</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие представлению уведомлять средства реализации о завершении перечисления. Представление вызывает этот метод, чтобы сообщить средству реализации, что перечисление можно получить с помощью <a href="/windows/desktop/api/Shobjidl/nf-shobjidl-ienumerableview-createenumidlistfromcontents"><strong>иенумераблевиев:: креатинумидлистфромконтентс</strong></a>. Обратный вызов позволяет конструктору совместно использовать перечисление views.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumresources"><strong>иенумресаурцес</strong></a><br/></td>
-<td>Предоставляет методы перечисления ресурсов.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumshellitems"><strong>иенумшеллитемс</strong></a><br/></td>
-<td>Предоставляет перечисление интерфейсов <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>интерфейса IShellItem</strong></a> . Этот интерфейс обычно получается путем вызова метода <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumshellitems"><strong>иенумшеллитемс</strong></a> .<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-ienumsyncmgrconflict"><strong>иенумсинкмгрконфликт</strong></a><br/></td>
-<td>Предоставляет методы перечисления конфликтов.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-ienumsyncmgrevents"><strong>иенумсинкмгревентс</strong></a><br/></td>
-<td>Предоставляет методы перечисления событий синхронизации.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-ienumsyncmgrsyncitems"><strong>иенумсинкмгрсинЦитемс</strong></a><br/></td>
-<td>Предоставляет методы для перечисления объектов элементов синхронизации, управляемых обработчиком.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand"><strong>иексекутекомманд</strong></a><br/></td>
-<td>Предоставляет методы, которые задают заданное состояние или параметр, связанные с глаголом команды, а также метод для вызова этой команды.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommandapplicationhostenvironment"><strong>иексекутекоммандаппликатионхостенвиронмент</strong></a><br/></td>
-<td>Предоставляет один метод, позволяющий приложению определить, находится ли его узел в рабочем столе или в режиме погружения.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommandhost"><strong>иексекутекоммандхост</strong></a><br/></td>
-<td>Предоставляет метод, позволяющий обработчику команд оболочки на основе <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand"><strong>иексплореркомманд</strong></a>запрашивать режим пользовательского интерфейса компонента узла, из которого было вызвано приложение.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser"><strong>иексплорербровсер</strong></a><br/></td>
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser"><strong>Иексплорербровсер</strong></a> — это объект браузера, который может быть либо перемещен, либо может размещать представление объекта данных. Как полнофункциональный объект браузера, он также поддерживает журнал автоматической поездки.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowserevents"><strong>иексплорербровсеревентс</strong></a><br/></td>
-<td>Предоставляет методы для уведомления навигации обозревателя обозревателя и просмотра событий создания.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand"><strong>иексплореркомманд</strong></a><br/></td>
-<td>Предоставляет методы, которые получают внешний вид команды, перечисляет подкоманды или вызывают команду.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider"><strong>иексплореркоммандпровидер</strong></a><br/></td>
-<td>Предоставляет методы для создания команд обозревателя и перечислителей команд.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandstate"><strong>иексплореркоммандстате</strong></a><br/></td>
-<td>Предоставляет единственный метод, позволяющий получить состояние команды.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility"><strong>иексплорерпаневисибилити</strong></a><br/></td>
-<td>используется в Windows Explorer реализацией <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>ишеллфолдер</strong></a> для предоставления предложений в представлении о том, какие области видимы. Кроме того, узел <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser"><strong>иексплорербровсер</strong></a> может использовать этот интерфейс для предоставления сведений о видимости области. Узел должен реализовать <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)"><strong>QueryService</strong></a> с <strong>SID_EXPLORERPANEVISIBILITY</strong> в качестве идентификатора службы. Узел должен находиться в цепочке сайтов. <br/> Реализация <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility"><strong>иексплорерпаневисибилити</strong></a> извлекается из папки оболочки. Папка Shell, в свою очередь, извлекается из представления. Расширение пространства имен может предоставить настраиваемое представление (<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>ишеллвиев</strong></a>) вместо использования объекта представления системной папки (дефвиев). В этом случае реализация <strong>ишеллвиев</strong> должна включать реализацию <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getfolder"><strong>ифолдервиев::</strong></a> GetObject для возврата объекта <strong>иексплорерпаневисибилити</strong> .<br/> Расширение пространства имен может предоставлять пользовательское представление путем реализации самого <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>ишеллвиев</strong></a> , а не объекта представления системной папки (дефвиев). В этом случае реализация <strong>ишеллвиев</strong> должна включать реализацию <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getfolder"><strong>ифолдервиев::</strong></a> , чтобы использовать <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility"><strong>иексплорерпаневисибилити</strong></a> .<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iextracticona"><strong>иекстрактикон</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие клиенту получить значок, связанный с одним из объектов в папке.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage"><strong>иекстрактимаже</strong></a><br/></td>
-<td>Предоставляет методы, которые запрашивают эскиз изображения из папки оболочки.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage2"><strong>IExtractImage2</strong></a><br/></td>
-<td>Расширяет возможности <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage"><strong>иекстрактимаже</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog"><strong>ифиледиалог</strong></a><br/></td>
-<td>Предоставляет методы, которые инициализируют, отображают и получают результаты из диалогового окна "общие файлы".<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ifiledialog2"><strong>IFileDialog2</strong></a><br/></td>
-<td>Расширяет интерфейс <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog"><strong>ифиледиалог</strong></a> , предоставляя методы, позволяющие вызывающему объекту задать имя определенного ограниченного расположения, которое можно просмотреть в общем диалоговом окне файла, а также указать альтернативный текст, отображаемый в виде метки на кнопке <strong>Отмена</strong> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ifiledialogcontrolevents"><strong>ифиледиалогконтролевентс</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие приложению получать уведомления о событиях, связанных с элементами управления, которые приложение добавило в общее диалоговое окно файла.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogcustomize"><strong>ифиледиалогкустомизе</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие приложению добавлять элементы управления в диалоговое окно общего файла.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogevents"><strong>ифиледиаложевентс</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие уведомления о событиях в общем диалоговом окне файла.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileisinuse"><strong>ифилеисинусе</strong></a><br/></td>
-<td>Предоставляет методы, которые могут быть вызваны для получения информации о или закрытии файла, используемого другим приложением. Когда приложение пытается получить доступ к файлу и обнаруживает, что этот файл уже используется, он может использовать методы этого интерфейса для сбора сведений, которые будут представлены пользователю в диалоговом окне.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileopendialog"><strong>ифилеопендиалог</strong></a><br/></td>
-<td>Расширяет интерфейс <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog"><strong>ифиледиалог</strong></a> путем добавления методов, относящихся к диалоговому окну открытия.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation"><strong>Интерфейс IFileOperation</strong></a><br/></td>
-<td>Предоставляет методы для копирования, перемещения, переименования, создания и удаления элементов оболочки, а также методы для предоставления диалоговых окон хода выполнения и ошибок. Этот интерфейс заменяет функцию <a href="/windows/desktop/api/Shellapi/nf-shellapi-shfileoperationa"><strong>шфилеоператион</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperationprogresssink"><strong>ифилеоператионпрогресссинк</strong></a><br/></td>
-<td>Предоставляет методы, обеспечивающие обширную систему уведомлений, используемую вызывающими объектами <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation"><strong>интерфейс IFileOperation</strong></a> для отслеживания сведений об операциях, выполняемых с помощью этого интерфейса.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ifilesavedialog"><strong>ифилесаведиалог</strong></a><br/></td>
-<td>Расширяет интерфейс <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog"><strong>ифиледиалог</strong></a> путем добавления методов, относящихся к диалоговому окну Save, включая те, которые обеспечивают поддержку коллекции метаданных, сохраняемых в файле.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifilesyncmergehandler"><strong>ифилесинкмержехандлер</strong></a><br/></td>
-
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifilesystembinddata"><strong>ифилесистембинддата</strong></a><br/></td>
-<td>Предоставляет методы, которые хранят сведения о файловой системе для оптимизации вызовов <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname"><strong>ишеллфолдер::P арседисплайнаме</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifilesystembinddata2"><strong>IFileSystemBindData2</strong></a><br/></td>
-<td>Расширяет <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifilesystembinddata"><strong>ифилесистембинддата</strong></a>, в котором хранятся сведения о файловой системе для оптимизации вызовов <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname"><strong>Ишеллфолдер::P арседисплайнаме</strong></a>. Этот интерфейс добавляет набор возможностей или получает идентификатор файла или идентификатор класса соединения (CLSID).<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/shell/schema-library-iconreference"><strong>ифилевиевер</strong></a><br/></td>
-<td>Предоставляет методы, которые обозначают интерфейс, позволяющий зарегистрированному средству просмотра файлов получать уведомления при необходимости отображения или печати файла.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj/nn-shlobj-ifileviewersite"><strong>ифилевиеверсите</strong></a><br/></td>
-<td>Предоставляет методы, которые обозначают интерфейс, позволяющий средству просмотра файлов извлекать этот обработчик в текущее закрепленное окно или устанавливать новое закрепленное окно. Закрепленное окно — это окно, в котором текущее средство просмотра файлов отображает файл. Когда пользователь выбирает новый файл для просмотра, оболочка направляет средство просмотра файлов на отображение нового файла в закрепленном окне вместо того, чтобы создавать новое окно.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderfilter"><strong>ифолдерфилтер</strong></a><br/></td>
-<td>Предоставляется клиентом для указания способа фильтрации перечисления папки оболочки приложением сервера.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderfiltersite"><strong>ифолдерфилтерсите</strong></a><br/></td>
-<td>Экспортируется узлом, чтобы разрешить клиентам указывать способ фильтрации перечислений папок оболочки.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview"><strong>ифолдервиев</strong></a><br/></td>
-<td>Предоставляет методы, которые извлекают сведения о параметрах отображения папки, выбирают указанные элементы в этой папке и задают режим просмотра папки.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview2"><strong>IFolderView2</strong></a><br/></td>
-<td>Предоставляет методы, которые извлекают сведения о параметрах отображения папки, выбирают указанные элементы в этой папке и задают режим просмотра папки.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ifolderviewhost"><strong>ифолдервиевхост</strong></a><br/></td>
-<td>Предоставляет метод, который размещает объект <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview"><strong>ифолдервиев</strong></a> в окне.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ifolderviewoptions"><strong>ифолдервиевоптионс</strong></a><br/></td>
-<td>предоставляет методы, позволяющие управлять параметрами представления папки, характерными для Windows 7 и более поздних представлений.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderviewsettings"><strong>ифолдервиевсеттингс</strong></a><br/></td>
-<td>Предоставляет методы для получения параметров представления папки.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iframeworkinputpane"><strong>ифрамеворкинпутпане</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие приложениям получать сведения об изменениях состояния и расположении для панели ввода.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iframeworkinputpanehandler"><strong>ифрамеворкинпутпанехандлер</strong></a><br/></td>
-<td>Позволяет приложению получать уведомления при отображении или скрытии панели ввода (экранной клавиатуры или панели рукописного ввода). Это позволяет окну приложения настраивать его отображение таким образом, чтобы никакие области ввода (например, текстовое поле) не скрывались на панели ввода.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihandleractivationhost"><strong>ихандлерактиватионхост</strong></a><br/></td>
-
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihandlerinfo"><strong>ихандлеринфо</strong></a><br/></td>
-<td>Предоставляет методы, предоставляющие сведения о обработчике методам интерфейса <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihandleractivationhost"><strong>ихандлерактиватионхост</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihomegroup"><strong>ихомеграуп</strong></a><br/></td>
-<td>Предоставляет методы, которые определяют состояние членства в домашней группе компьютера и отображают мастер общего доступа.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ihweventhandler"><strong>ихвевенсандлер</strong></a><br/></td>
-<td>Вызывается функцией автозапуска для реализации обработки зарегистрированных типов мультимедиа.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ihweventhandler2"><strong>IHWEventHandler2</strong></a><br/></td>
-<td>Расширяет интерфейс <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ihweventhandler"><strong>ихвевенсандлер</strong></a> для устранения прав контроля учетных записей пользователей (UAC) для обработчиков устройств.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iidentityname"><strong>иидентитинаме</strong></a><br/></td>
-<td>Предоставляет методы для сравнения двух элементов, чтобы определить, совпадают ли они.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iimagerecompress"><strong>иимажерекомпресс</strong></a><br/></td>
-<td>Предоставляет метод, который повторно сжимает изображения.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializecommand"><strong>иинитиализекомманд</strong></a><br/></td>
-<td>Предоставляет единственный метод, используемый для инициализации объектов, реализующих <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandstate"><strong>иексплореркоммандстате</strong></a>, <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand"><strong>иексекутекомманд</strong></a> или <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget"><strong>интерфейс IDropTarget</strong></a> с именем команды, указанным приложением, и его зарегистрированными свойствами.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/shobjidl/nn-shobjidl-iinitializenetworkfolder"><strong>иинитиализенетворкфолдер</strong></a><br/></td>
-<td>Предоставляет метод, который инициализирует CLSID_NetworkPlaces источника сетевых данных, как указано.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithbindctx"><strong>иинитиализевисбиндкткс</strong></a><br/></td>
-<td>Предоставляет метод, который инициализирует обработчик, например обработчик свойства, обработчик эскизов или обработчик просмотра, с контекстом привязки.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Propsys/nn-propsys-iinitializewithfile"><strong>IInitializeWithFile</strong></a><br/></td>
-<td>Предоставляет метод для инициализации обработчика, например обработчика свойства, обработчика эскиза или обработчика просмотра с путем к файлу.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithitem"><strong>иинитиализевиситем</strong></a><br/></td>
-<td>Предоставляет метод, используемый для инициализации обработчика, например обработчика свойства, обработчика эскиза или обработчика просмотра с помощью <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>интерфейса IShellItem</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithpropertystore"><strong>иинитиализевиспропертисторе</strong></a><br/></td>
-<td>Предоставляет метод, который инициализирует обработчик, например обработчик свойства, обработчик эскизов или обработчик просмотра, с хранилищем свойств.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream"><strong>IInitializeWithStream</strong></a><br/></td>
-<td>Предоставляет метод, инициализирующий обработчик, например обработчик свойства, обработчик эскизов или обработчик просмотра, с потоком.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithwindow"><strong>IInitializeWithWindow</strong></a><br/></td>
-<td>предоставляет метод, с помощью которого клиент может предоставить окну-владельцу объект среда выполнения Windows, используемый в классическом приложении.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobject"><strong>иинпутобжект</strong></a><br/></td>
-<td>Предоставляет методы, изменяющие активацию пользовательского интерфейса и ускорители процесса для пользовательского входного объекта, содержащегося в оболочке.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobject2"><strong>IInputObject2</strong></a><br/></td>
-<td>Предоставляет метод, расширяющий <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobject"><strong>иинпутобжект</strong></a> путем обработки глобальных ускорителей.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinputobjectsite"><strong>иинпутобжектсите</strong></a><br/></td>
-<td>Предоставляет метод, который используется для передачи изменений фокуса для пользовательского объекта ввода, содержащегося в оболочке.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration"><strong>иинпутпанелконфигуратион</strong></a><br/></td>
-<td>предоставляет функциональные возможности для настольных приложений, чтобы принять участие в механизме отслеживания фокуса, используемом в приложениях Windows Store.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelinvocationconfiguration"><strong>иинпутпанелинвокатионконфигуратион</strong></a><br/></td>
-<td>позволяет приложениям Windows магазина отказаться от поведения автоматического вызова.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iiocancelinformation"><strong>ииоканцелинформатион</strong></a><br/></td>
-<td>Предоставляет методы для отправки сообщения об отмене окна в поток процесса из диалогового окна ход выполнения. <br/> Этот интерфейс позволяет диалоговому окну хода выполнения опубликовать сообщение потока через <a href="/windows/desktop/api/winuser/nf-winuser-postthreadmessagea"><strong>постсреадмессаже</strong></a> в рабочий поток, чтобы отменить его операции. Рабочий поток должен периодически проверять очередь сообщений <a href="/windows/desktop/api/winuser/nf-winuser-getmessage"><strong>с помощью</strong></a> <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea"><strong>PeekMessage</strong></a> или <a href="/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex"><strong>мсгваитформултиплеобжектсекс</strong></a>.<br/> Метод <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iiocancelinformation-setcancelinformation"><strong>ииоканцелинформатион:: сетканцелинформатион</strong></a> сообщает диалоговому окну хода выполнения, какой идентификатор потока и какое сообщение <a href="/windows/desktop/api/winuser/nf-winuser-postthreadmessagea"><strong>постсреадмессаже</strong></a> , когда пользователь нажимает кнопку <strong>Отмена</strong>. Идентификатор потока, равный &quot; нулю, &quot; отключает операцию отправки для сообщения об отмене.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iitemnamelimits"><strong>иитемнамелимитс</strong></a><br/></td>
-<td>Извлекает список допустимых и недопустимых символов или максимальную длину имени в пространстве имен. Используйте этот интерфейс для анализа и преобразования проверки.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfolder"><strong>икновнфолдер</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие приложению получать сведения о категории известной папки, типе, GUID, значении ПИДЛ, возможностях перенаправления и определении. Он предоставляет метод для ретривал объекта <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>интерфейса IShellItem</strong></a> известной папки. Он также предоставляет методы для получения или задания пути к известной папке.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager"><strong>икновнфолдерманажер</strong></a><br/></td>
-<td>Предоставляет методы для создания, перечисления или управления существующими известными папками.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchsourceappusermodelid"><strong>илаунчсаурцеаппусермоделид</strong></a><br/></td>
-<td>Предоставляет метод для получения <a href="appids.md">AppUserModelId</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchsourceviewsizepreference"><strong>илаунчсаурцевиевсизепреференце</strong></a><br/></td>
-<td>Предоставляет методы для получения сведений о исходном приложении.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchtargetmonitor"><strong>илаунчтаржетмонитор</strong></a><br/></td>
-
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchtargetviewsizepreference"><strong>илаунчтаржетвиевсизепреференце</strong></a><br/></td>
-<td>Предоставляет метод для получения предпочтительного размера представления для нового окна приложения.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/shell/shell-extensibility-bumper"><strong>имаркупкаллбакк</strong></a><br/></td>
-
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-imenupopup"><strong>именупопуп</strong></a><br/></td>
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-imenupopup"><strong>Именупопуп</strong></a> может быть изменен или недоступен.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-imodalwindow"><strong>имодалвиндов</strong></a><br/></td>
-<td>Предоставляет метод, представляющий модальное окно. этот интерфейс используется в мастере Windows XP Passport.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="imultimonitordockingsite.md"><strong>имултимонитордоккингсите</strong></a><br/></td>
-<td>Реализуется браузером. предоставляет методы, управляющие монитором, который содержит Windows панели задач в системе с несколькими мониторами. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-inamedpropertybag"><strong>инамедпропертибаг</strong></a><br/></td>
-<td>Предоставляет методы, предоставляющие объект с заданным контейнером свойств, в котором объект может сохранять свои свойства.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Propsys/nn-propsys-inamedpropertystore"><strong>инамедпропертисторе</strong></a><br/></td>
-<td>Предоставляет методы, получающие и устанавливающие именованные свойства.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-inamespacetreeaccessible"><strong>инамеспацетриакцессибле</strong></a><br/></td>
-<td>Предоставляет методы, которые выполняют действия с доступом к элементу оболочки из элемента управления дерева пространства имен.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol"><strong>инамеспацетриконтрол</strong></a><br/></td>
-<td>Предоставляет методы, используемые для просмотра узлов в дереве элементов оболочки и управления ими.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-inamespacetreecontrol2"><strong>INameSpaceTreeControl2</strong></a><br/></td>
-<td>Расширяет интерфейс <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol"><strong>инамеспацетриконтрол</strong></a> , предоставляя методы, которые получают и задают стили вывода элементов управления TreeView для использования с элементами пространства имен оболочки.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-inamespacetreecontrolcustomdraw"><strong>инамеспацетриконтролкустомдрав</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие пользователю нарисовать элемент управления дерева пользовательского пространства имен и его элементы.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-inamespacetreecontroldrophandler"><strong>инамеспацетриконтролдрофандлер</strong></a><br/></td>
-<td>Предоставляет методы обработчика для перетаскивания. Используется элементом управления "дерево пространства имен" для уведомления клиента о любых операциях перетаскивания, происходящих в элементе управления. Предоставляет клиенту возможность перехватить операцию Drop и выполнить ее собственное действие или возвратить нужный результат перетаскивания.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-inamespacetreecontrolevents"><strong>инамеспацетриконтролевентс</strong></a><br/></td>
-<td>Предоставляет методы для обработки событий <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol"><strong>инамеспацетриконтрол</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrolfoldercapabilities"><strong>инамеспацетриконтролфолдеркапабилитиес</strong></a><br/></td>
-<td>Предоставляет единственный метод, который получает состояние поддержки фильтрации <a href="/windows/desktop/properties/props-system-ispinnedtonamespacetree">System. испиннедтонамеспацетри</a> в папке.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalk"><strong>инамеспацевалк</strong></a><br/></td>
-<td>Предоставляет методы, которые проходят по пространству имен из заданного корневого узла. Указана глубина прохода, и возвращается необязательный массив, содержащий идентификаторы всех узлов.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb"><strong>инамеспацевалккб</strong></a><br/></td>
-<td>Интерфейс обратного вызова, предоставляющий методы, используемые с <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalk"><strong>инамеспацевалк</strong></a>. После выполнения прохода с <strong>инамеспацевалк</strong>объект <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>ишеллфолдер</strong></a> , представляющий проанализируемые узлы, передается методам <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb"><strong>инамеспацевалккб</strong></a> . То, что эти методы выполняют с информацией, зависит от объекта, который их реализует.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb2"><strong>INamespaceWalkCB2</strong></a><br/></td>
-<td>Расширяет <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb"><strong>инамеспацевалккб</strong></a> с помощью метода, необходимого для завершения прохода по пространству имен. Этот метод удаляет данные, собранные во время анализа. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inewmenuclient"><strong>иневменуклиент</strong></a><br/></td>
-<td>предоставляет методы, которые позволяют управлять элементами в меню Windows 7.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj/nn-shlobj-inewshortcuthooka"><strong>иневшорткусук</strong></a><br/></td>
-<td>Предоставляет методы для создания нового ярлыка Интернета.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inewwindowmanager"><strong>иневвиндовманажер</strong></a><br/></td>
-<td>Предоставляет метод, определяющий, следует ли отображать или блокировать окно, запускаемое другим окном, что позволяет управлять всплывающими окнами.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/reconcil/nn-reconcil-inotifyreplica"><strong>инотифиреплика</strong></a><br/></td>
-<td>Предоставляет метод, предоставляющий создателю объекта средства для уведомления объекта о том, что он может подвергаться последующей выверке. Для реализации этого интерфейса отвечает синхронизатор по портфелю.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Objectarray/nn-objectarray-iobjectarray"><strong>иобжектаррай</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие клиентам получать доступ к элементам в коллекции объектов, поддерживающих <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown"><strong>IUnknown</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/objectarray/nn-objectarray-iobjectcollection"><strong>иобжектколлектион</strong></a><br/></td>
-<td>Расширяет интерфейс <a href="/windows/desktop/api/Objectarray/nn-objectarray-iobjectarray"><strong>иобжектаррай</strong></a> , предоставляя методы, позволяющие клиентам добавлять и удалять объекты, поддерживающие <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown"><strong>IUnknown</strong></a> в коллекции.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectprovider"><strong>иобжектпровидер</strong></a><br/></td>
-<td>Предоставляет метод для обнаружения объектов, имена которых имеют <strong>идентификатор GUID</strong> из другого объекта. В отличие от <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)"><strong>QueryService</strong></a> этот интерфейс не будет делегировать свою функциональность другим объектам.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithappusermodelid"><strong>иобжектвисаппусермоделид</strong></a><br/></td>
-<td>Предоставляет методы, которые позволяют разработчикам пользовательских объектов <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iassochandler"><strong>иассочандлер</strong></a> предоставлять доступ к его ЯВНОму идентификатору пользовательской модели приложения (AppUserModelID). Эти сведения используются для определения того, можно ли добавить определенный тип файла в список переходов приложения.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithbackreferences"><strong>иобжектвисбаккреференцес</strong></a><br/></td>
-<td>Предоставляет метод для взаимодействия с обратными ссылками, удерживаемыми объектом.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithcancelevent"><strong>иобжектвисканцелевент</strong></a><br/></td>
-<td>Предоставляет вызывающему объекту событие, которое будет сигнальным от вызываемого объекта для обозначения отмены задачи.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithfolderenummode"><strong>иобжектвисфолдеренуммоде</strong></a><br/></td>
-<td>Предоставляет методы, которые получают и устанавливают режимы перечисления для проанализированного элемента.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithprogid"><strong>иобжектвиспрогид</strong></a><br/></td>
-<td>Предоставляет методы, которые предоставляют доступ к идентификатору ProgID, связанному с объектом.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Propsys/nn-propsys-iobjectwithpropertykey"><strong>иобжектвиспропертикэй</strong></a><br/></td>
-<td>Предоставляет методы для получения и задания ключа свойства.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithselection"><strong>иобжектвисселектион</strong></a><br/></td>
-<td>Предоставляет методы, которые получают или задают выбранные элементы, представленные массивом элементов оболочки.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iobjmgr"><strong>иобжмгр</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие клиенту добавлять или удалять объекты из коллекции объектов, управляемых объектом сервера.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iopencontrolpanel"><strong>иопенконтролпанел</strong></a><br/></td>
-<td>Предоставляет методы, которые извлекают состояние представления панели управления, путь к отдельным элементам панели управления и открывают либо панель управления, либо отдельный элемент панели управления.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iopensearchsource"><strong>иопенсеарчсаурце</strong></a><br/></td>
-<td>предоставляет метод для получения результатов поиска из пользовательского источника данных OpenSearch на стороне клиента.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ioperationsprogressdialog"><strong>иоператионспрогрессдиалог</strong></a><br/></td>
-<td>Предоставляет методы для получения, задания и запроса диалогового окна хода выполнения.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ipackagedebugsettings"><strong>ипаккажедебугсеттингс</strong></a><br/></td>
-<td>позволяет разработчикам отладчика управлять жизненным циклом приложения для магазина Windows, например приостановки или возобновления.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipackageexecutionstatechangenotification"><strong>ипаккажеексекутионстатечанженотификатион</strong></a><br/></td>
-<td>позволяет получать уведомления об изменениях состояния пакета во время отладки приложений в хранилище Windows.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iparentanditem"><strong>ипарентандитем</strong></a><br/></td>
-<td>Предоставляет методы, которые получают и задают родительский и дочерний идентификатор родителя. Хотя <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iparentanditem"><strong>ипарентандитем</strong></a> обычно реализуется в ишеллитемс, он не связан с <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>интерфейса IShellItem</strong></a>. <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iparseandcreateitem"><strong>ипарсеандкреатеитем</strong></a><br/></td>
-
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder"><strong>иперсистфолдер</strong></a><br/></td>
-<td>Предоставляет метод, который инициализирует объекты папки оболочки.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder2"><strong>IPersistFolder2</strong></a><br/></td>
-<td>Предоставляет методы, которые получают сведения из объектов папки оболочки.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder3"><strong>IPersistFolder3</strong></a><br/></td>
-<td>Расширяет интерфейсы <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder"><strong>иперсистфолдер</strong></a> и <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder2"><strong>IPersistFolder2</strong></a> , позволяя объекту папки реализовывать обработку ярлыков папок, не используемых по умолчанию.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistidlist"><strong>иперсистидлист</strong></a><br/></td>
-<td>Предоставляет методы, используемые для сохранения списков идентификаторов элементов.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Propsys/nn-propsys-ipersistserializedpropstorage"><strong>иперсистсериализедпропстораже</strong></a><br/></td>
-<td>Предоставляет методы для сохранения сериализованных данных свойств хранилища для последующего использования и для восстановления сохраненных данных в новом экземпляре хранилища свойств.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Propsys/nn-propsys-ipersistserializedpropstorage2"><strong>IPersistSerializedPropStorage2</strong></a><br/></td>
-<td>Предоставляет методы для сохранения сериализованных данных свойств хранилища для последующего использования и для восстановления сохраненных данных в новом экземпляре хранилища свойств.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/previous-versions/windows/desktop/legacy/hh707033(v=vs.85)"><strong>иплайбаккманажер</strong></a><br/></td>
-<td>предоставляет методы, позволяющие приложениям мультимедиа обмениваться данными с диспетчером Windowsного воспроизведения.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/previous-versions/windows/desktop/legacy/hh707034(v=vs.85)"><strong>иплайбаккманажеревентс</strong></a><br/></td>
-
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipreviewhandler"><strong>IPreviewHandler</strong></a><br/></td>
-<td>Предоставляет методы для отображения расширенных предварительных версий.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipreviewhandlerframe"><strong>IPreviewHandlerFrame</strong></a><br/></td>
-<td>Включает обработчики просмотра для передачи сочетаний клавиш на узел. Этот интерфейс получает список сочетаний клавиш и направляет ведущему приложению команду на обработку сочетания клавиш.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipreviewhandlervisuals"><strong>ипревиевхандлервисуалс</strong></a><br/></td>
-<td>Предоставляет методы для применения сведений о цвете и шрифте для обработчиков предварительного просмотра.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipreviewitem"><strong>ипревиевитем</strong></a><br/></td>
-<td>Определяет элемент, который будет отображаться в области просмотра.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ipreviousversionsinfo"><strong>ипревиаусверсионсинфо</strong></a><br/></td>
-<td>предоставляет метод, проверяющий предыдущие версии файлов или папок сервера, которые хранятся в целях повторной версии с помощью технологии <em>теневого копирования</em> , обеспечиваемой Windows server 2003.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="iprivateidentitymanager.md"><strong>иприватеидентитиманажер</strong></a><br/></td>
-
-</tr>
-<tr class="even">
-<td><a href="iprivateidentitymanager2.md"><strong>IPrivateIdentityManager2</strong></a><br/></td>
-
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iprofferservice"><strong>ипрофферсервице</strong></a><br/></td>
-<td>Предоставляет общий механизм для объектов, предлагающих службы другим объектам на том же узле.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iprogressdialog"><strong>ипрогрессдиалог</strong></a><br/></td>
-<td>Предоставляет методы, предоставляющие параметры для приложения, которое отображает диалоговое окно хода выполнения. Этот интерфейс экспортируется объектом диалогового окна Progress (CLSID_ProgressDialog). Этот объект является универсальным способом отображения пользователем того, как выполняется операция. Обычно он используется при удалении, передаче, копировании, перемещении или скачивании большого количества файлов.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shappmgr/nn-shappmgr-ipublishedapp"><strong>ипублишедапп</strong></a><br/></td>
-<td>Предоставляет методы, представляющие приложения для установки и удаления программ на панели управления. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shappmgr/nn-shappmgr-ipublishedapp2"><strong>IPublishedApp2</strong></a><br/></td>
-<td>Расширяет интерфейс <a href="/windows/desktop/api/Shappmgr/nn-shappmgr-ipublishedapp"><strong>ипублишедапп</strong></a> , предоставляя дополнительный метод установки.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ipublishingwizard"><strong>ипублишингвизард</strong></a><br/></td>
-<td>Предоставляет методы для работы с мастером печати в сети, мастером веб-публикаций и мастером добавления сетевого размещения. в Windows Vista <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ipublishingwizard"><strong>ипублишингвизард</strong></a> больше не поддерживает мастер веб-публикаций или мастер печати в режиме «в сети».<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations"><strong>икуеряссоЦиатионс</strong></a><br/></td>
-<td>Предоставляет методы, которые упрощают процесс извлечения информации, хранящейся в реестре, в связи с определением типа файла или протокола и связыванием его с приложением.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iquerycancelautoplay"><strong>икуериканцелаутоплай</strong></a><br/></td>
-<td>Предоставляет метод, программно переопределяющий <a href="autorun2k-intro.md">Автозапуск</a> или <a href="autoplay.md">Autorun</a>. Это позволяет настроить расположение и тип содержимого, которое будет запускаться при вставке носителя.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iquerycodepage"><strong>икуерикодепаже</strong></a><br/></td>
-<td>Возвращает и задает числовое значение (идентификатор кодовой страницы) кодовой страницы ANSI.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iquerycontinue"><strong>икуериконтинуе</strong></a><br/></td>
-<td>Предоставляет метод, предоставляющий простой, Стандартный механизм для объектов, которые запрашивают у клиента разрешение на продолжение операции. Клиенты <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification"><strong>иусернотификатион</strong></a>, например, должны передать реализацию <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iquerycontinue"><strong>Икуериконтинуе</strong></a> в метод <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iusernotification-show"><strong>иусернотификатион::</strong></a> reby.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Credentialprovider/nn-credentialprovider-iquerycontinuewithstatus"><strong>икуериконтинуевисстатус</strong></a><br/></td>
-<td>Предоставляет методы, которые предоставляют стандартный механизм для поставщиков учетных данных для вызова <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iquerycontinue-querycontinue"><strong>куериконтинуе</strong></a> при попытке подключиться к сети, чтобы определить, следует ли продолжать эти попытки. Поставщики учетных данных также могут использовать этот интерфейс для вывода сообщений пользователю при попытке установить сетевое подключение.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iqueryinfo"><strong>икуеринфо</strong></a><br/></td>
-<td>Предоставляет методы, используемые оболочкой для извлечения флагов и сведений о подсказках для элемента, находящегося в реализации <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>ишеллфолдер</strong></a> . Советы по информационным <a href="/windows/desktop/Controls/tooltip-controls">подсказкам</a> обычно отображаются внутри элемента управления ToolTip.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irelateditem"><strong>ирелатедитем</strong></a><br/></td>
-<td>Предоставляет методы, которые наследуют связанные элементы с конкретными связями.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iremotecomputer"><strong>иремотекомпутер</strong></a><br/></td>
-<td>Предоставляет метод, который перечисляет или инициализирует расширение пространства имен при его вызове на удаленном объекте. Этот интерфейс используется, например, для инициализации виртуальной папки удаленных принтеров.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iresolveshelllink"><strong>иресолвешелллинк</strong></a><br/></td>
-<td>Предоставляет метод, позволяющий приложению запрашивать, что объект папки оболочки разрешает ссылку на один из его элементов.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iresultsfolder"><strong>иресултсфолдер</strong></a><br/></td>
-<td>Предоставляет методы, содержащие элементы из объекта данных.<br/> <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iresultsfolder"><strong>Иресултсфолдер</strong></a> — это папка, которая может содержать элементы из всего пространства имен и представлять их для пользователя в одной папке.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irunnabletask"><strong>ируннаблетаск</strong></a><br/></td>
-<td>Интерфейс с произвольным потоком, который может быть предоставлен объектом, чтобы разрешить выполнение операций в фоновом потоке. Например, если метод <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iextractimage-getlocation"><strong>иекстрактимаже:: OnLocation</strong></a> возвращает E_PENDING, вызывающему приложению разрешается извлекать изображение в фоновом потоке.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-isearchboxinfo"><strong>исеарчбоксинфо</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие вызывающему объекту получать информацию, вводимых в поле поиска.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-isearchcontext"><strong>исеарчконтекст</strong></a><br/></td>
-<td>Предоставляет методы, сведения о настройке канала для обработчиков поиска.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-isearchfolderitemfactory"><strong>исеарчфолдеритемфактори</strong></a><br/></td>
-<td>Предоставляет методы, создающие и изменяющие папки поиска. Сначала вызываются методы набора, чтобы настроить параметры поиска. Если этот метод не вызван, вместо него будут использоваться значения по умолчанию. <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isearchfolderitemfactory-getidlist"><strong>Исеарчфолдеритемфактори:: жетидлист</strong></a> и <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isearchfolderitemfactory-getshellitem"><strong>Исеарчфолдеритемфактори:: жетшеллитем</strong></a> возвращают две формы поиска, указанные в этих параметрах. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Thumbcache/nn-thumbcache-isharedbitmap"><strong>ишаредбитмап</strong></a><br/></td>
-<td>Предоставляет эффективные для памяти методы для доступа к точечным рисункам. Этот интерфейс используется в качестве тонкой оболочки для объектов ХБИТМАП, что позволяет подсчитывать и защищать эти объекты, изменяя их базовые данные.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-isharingconfigurationmanager"><strong>ишарингконфигуратионманажер</strong></a><br/></td>
-<td>Предоставляет методы, которые задают и получают сведения о параметрах общего доступа компьютера по умолчанию для папки <strong>Users</strong> ( <code>C:\Users</code> ) или <strong>Public</strong> ( <code>C:\Users\Public</code> ). Также предоставляет набор методов, позволяющих управлять совместным доступом к принтерам.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shappmgr/nn-shappmgr-ishellapp"><strong>ишеллапп</strong></a><br/></td>
-<td>Предоставляет методы, предоставляющие общие сведения о приложении для приложения "Установка и удаление программ". Его нельзя использовать за пределами приложения "Установка и удаление программ". Сведения, предоставляемые этим интерфейсом, включают список поддерживаемых действий по управлению и наличие установленного в настоящее время приложения. <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser"><strong>ишеллбровсер</strong></a><br/></td>
-<td>Реализуется узлами представлений оболочки (объектов, реализующих <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>ишеллвиев</strong></a>). Предоставляет методы, предоставляющие службы для представления, на котором оно размещено, и другие объекты, выполняемые в контексте окна проводника. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishellchangenotify"><strong>ишеллчанженотифи</strong></a><br/></td>
-<td>Предоставляет метод, уведомляющий расширение пространства имен оболочки при изменении идентификатора элемента.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelldetails"><strong>ишеллдетаилс</strong></a><br/></td>
-<td>Предоставляется папками оболочки для предоставления подробных сведений о элементах в папке. это те же сведения, которые отображаются в обозревателе Windows, когда для представления папки задано значение details. для Windows 2000 и более поздних систем <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelldetails"><strong>ишеллдетаилс</strong></a> заменяется <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2"><strong>IShellFolder2</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellextinit"><strong>ишеллекстинит</strong></a><br/></td>
-<td>Предоставляет метод, который инициализирует расширения оболочки для страниц свойств, контекстных меню и обработчиков перетаскивания (расширений, которые добавляют элементы в контекстные меню во время операций перетаскивания).<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>ишеллфолдер</strong></a><br/></td>
-<td>Методы, предоставляемые всеми объектами папки пространства имен оболочки, используются для управления папками.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2"><strong>IShellFolder2</strong></a><br/></td>
-<td>Расширяет возможности <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>ишеллфолдер</strong></a>. Его методы предоставляют разнообразные сведения о содержимом папки оболочки.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="ishellfoldersearchable.md"><strong>ишеллфолдерсеарчабле</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие расширению оболочки предоставлять пространство имен с возможностью поиска.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="ishellfoldersearchablecallback.md"><strong>ишеллфолдерсеарчаблекаллбакк</strong></a><br/></td>
-<td>Предоставляет подпрограммы обратного вызова для отслеживания процесса поиска.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishellfolderviewcb"><strong>ишеллфолдервиевкб</strong></a><br/></td>
-<td>предоставляет метод, который разрешает обмен данными между проводником Windows и представлением папки, реализованным с помощью объекта представления системных папок (объект <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>ишеллвиев</strong></a> , возвращенный через <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview"><strong>шкреатешеллфолдервиев</strong></a>), чтобы представление папки могла получать уведомления о событиях и изменять их представление соответствующим образом.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shldisp/nn-shldisp-ishellfolderviewdual"><strong>ишеллфолдервиевдуал</strong></a><br/></td>
-<td>Предоставляет методы, которые изменяют представление и выбирают элементы в текущей папке. <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shldisp/nn-shldisp-ishellfolderviewdual2"><strong>IShellFolderViewDual2</strong></a><br/></td>
-<td>Предоставляет методы, которые изменяют представление и выбирают элементы в текущей папке.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shldisp/nn-shldisp-ishellfolderviewdual3"><strong>IShellFolderViewDual3</strong></a><br/></td>
-<td>Предоставляет методы, изменяющие текущее представление папки.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="ishellfolderviewtype.md"><strong>ишеллфолдервиевтипе</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие папке оболочки поддерживать различные представления содержимого (различные иерархические макеты данных).<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellicon"><strong>ишелликон</strong></a><br/></td>
-<td>Предоставляет метод, который получает индекс значка для объекта <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>ишеллфолдер</strong></a> . <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlay"><strong>ишелликоноверлай</strong></a><br/></td>
-<td>Предоставляет методы, используемые расширением пространства имен для указания наложения значков для содержащихся в нем объектов.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelliconoverlayidentifier"><strong>ишелликоноверлайидентифиер</strong></a><br/></td>
-<td>Предоставляет методы, которые обрабатывали все связи между обработчиками наложения значков и оболочкой.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shimgdata/nn-shimgdata-ishellimagedataabort"><strong>ишеллимажедатааборт</strong></a><br/></td>
-<td>Предоставляет единственный метод, используемый для прерывания процессов <a href="/windows/desktop/api/Shimgdata/nn-shimgdata-ishellimagedata"><strong>ишеллимажедата</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shimgdata/nn-shimgdata-ishellimagedatafactory"><strong>ишеллимажедатафактори</strong></a><br/></td>
-<td>Предоставляет методы, создающие экземпляры <a href="/windows/desktop/api/Shimgdata/nn-shimgdata-ishellimagedata"><strong>ишеллимажедата</strong></a> на основе различных источников изображений.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>Интерфейса IShellItem</strong></a><br/></td>
-<td>Предоставляет методы, получающие сведения об элементе оболочки. <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>Интерфейса IShellItem</strong></a> и <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem2"><strong>IShellItem2</strong></a> — предпочтительные представления элементов в любом новом коде.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem2"><strong>IShellItem2</strong></a><br/></td>
-<td>Расширяет <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>интерфейса IShellItem</strong></a> с помощью методов, которые извлекают различные значения свойств элемента. <strong>Интерфейса IShellItem</strong> и <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem2"><strong>IShellItem2</strong></a> — предпочтительные представления элементов в любом новом коде.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray"><strong>ишеллитемаррай</strong></a><br/></td>
-<td>Предоставляет методы, создающие и управляющие массивами <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>элементов оболочки</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemfilter"><strong>ишеллитемфилтер</strong></a><br/></td>
-<td>Предоставляется клиентом для указания способа фильтрации перечисления <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>элемента оболочки</strong></a> приложением сервера.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemimagefactory"><strong>ишеллитемимажефактори</strong></a><br/></td>
-<td>Предоставляет метод для возврата значков или эскизов для элементов оболочки. Если для запрошенного элемента отсутствует эскиз или значок, в оболочке может быть предоставлен значок для каждого класса.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemresources"><strong>ишеллитемресаурцес</strong></a><br/></td>
-<td>Предоставляет методы для управления ресурсами элементов оболочки и выполнения запросов к ним.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary"><strong>ишелллибрари</strong></a><br/></td>
-<td>Предоставляет методы для создания библиотек и управления ими.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ishelllinka"><strong>ишелллинк</strong></a><br/></td>
-<td>Предоставляет методы, которые создают, изменяют и разрешают ссылки оболочки.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist"><strong>ишелллинкдаталист</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие приложению прикреплять дополнительные блоки данных к <a href="/windows/desktop/shell/links">ссылке на оболочку</a>. Эти методы добавляют, копируют или удаляют блоки данных.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenu"><strong>ишеллмену</strong></a><br/></td>
-<td>Предоставляет методы, взаимодействующие с меню оболочки, например меню « <strong>Пуск</strong> » и меню « <strong>Избранное</strong> ».<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenucallback"><strong>ишеллменукаллбакк</strong></a><br/></td>
-<td>Интерфейс обратного вызова, предоставляющий метод, который получает сообщения из строки меню.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellpropsheetext"><strong>ишеллпропшитекст</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие обработчику страницы свойств добавлять или заменять страницы в таблице свойств, отображаемой для файлового объекта.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl/nn-shobjidl-ishellrundll"><strong>ишеллрундлл</strong></a><br/></td>
-
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>ишеллвиев</strong></a><br/></td>
-<td>предоставляет методы, представляющие представление в окнах проводника Windows или папок.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview2"><strong>IShellView2</strong></a><br/></td>
-<td>Расширяет возможности <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview"><strong>ишеллвиев</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ishellview3"><strong>IShellView3</strong></a><br/></td>
-<td>Расширяет возможности <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview2"><strong>IShellView2</strong></a> , предоставляя метод для замены <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview2-createviewwindow2"><strong>IShellView2:: CreateViewWindow2</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Exdisp/nn-exdisp-ishellwindows"><strong>ишеллвиндовс</strong></a><br/></td>
-<td>Предоставляет доступ к коллекции открытых окон оболочки.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-istartmenupinnedlist"><strong>истартменупиннедлист</strong></a><br/></td>
-<td>Предоставляет метод, который открепляет ярлык приложения из меню « <strong>Пуск</strong> » или панели задач.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="nn-shobjidl-istorageprovidercopyhook.md"><strong>исторажепровидеркопихук</strong></a><br/></td>
-<td>Предоставляет метод, определяющий, будет ли оболочка разрешать перемещение, копирование, удаление или переименование папки в корне синхронизации поставщика облачных служб.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderhandler"><strong>исторажепровидерхандлер</strong></a><br/></td>
-<td>Извлекает <a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler"><strong>исторажепровидерпропертихандлер</strong></a> , связанный с конкретным файлом или папкой.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler"><strong>исторажепровидерпропертихандлер</strong></a><br/></td>
-<td>Предоставляет коллекцию свойств, связанных с файлом или папкой.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-istreamasync"><strong>истреамасинк</strong></a><br/></td>
-<td>Предоставляет методы для управления входными и аутпаутми (ввода-вывода) в асинхронный поток. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-istreamunbufferedinfo"><strong>истреамунбуфферединфо</strong></a><br/></td>
-<td>Предоставляет метод, который определяет размер сектора как вспомогательный для выравнивания байтов.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-isuspensiondependencymanager"><strong>исуспенсиондепенденциманажер</strong></a><br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflict"><strong>исинкмгрконфликт</strong></a><br/></td>
-<td>Предоставляет методы, предоставляющие сведения о конфликте, извлеченном из хранилища конфликтов, и позволяет разрешить конфликт.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictfolder"><strong>исинкмгрконфликтфолдер</strong></a><br/></td>
-<td>Предоставляет метод, который получает список ИДЕНТИФИКАТОРов конфликтов для конфликтующего объекта.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictitems"><strong>исинкмгрконфликтитемс</strong></a><br/></td>
-<td>Предоставляет методы, получающие данные элементов конфликтов и число элементов.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictpresenter"><strong>исинкмгрконфликтпресентер</strong></a><br/></td>
-<td>Предоставляет метод, представляющий конфликт с пользователем.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictresolutionitems"><strong>исинкмгрконфликтресолутионитемс</strong></a><br/></td>
-<td>Предоставляет методы, которые получают сведения об элементе и число элементов.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictresolveinfo"><strong>исинкмгрконфликтресолвеинфо</strong></a><br/></td>
-<td>Предоставляет методы, которые получают и устанавливают сведения о разрешении конфликтов диспетчера синхронизации.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictstore"><strong>исинкмгрконфликтсторе</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие обработчику предоставлять конфликты, которые отображаются в папке конфликтов.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrcontrol"><strong>исинкмгрконтрол</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие приложению или обработчику запускать или прекращать синхронизацию, уведомлять центр синхронизации об изменениях в наборе обработчиков или элементов или уведомлять об изменениях в значениях свойств.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems"><strong>исинкмгренумитемс</strong></a><br/></td>
-<td>Предоставляет методы, которые перечисляют массив структур <a href="/windows/win32/api/mobsync/ns-mobsync-syncmgritem"><strong>синкмгритем</strong></a> . Каждая из этих структур предоставляет сведения об элементе, который можно синхронизировать. <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems"><strong>Исинкмгренумитемс</strong></a> имеет те же методы, что и все стандартные интерфейсы перечислителя: "следующий", "пропустить", "сбросить" и "клонировать".<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrevent"><strong>исинкмгревент</strong></a><br/></td>
-<td>Предоставляет методы, которые извлекают данные из хранилища событий. Хранилище событий позволяет центру синхронизации получить перечислитель всех событий в хранилище, а также получить отдельные события.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgreventlinkuioperation"><strong>исинкмгревентлинкуиоператион</strong></a><br/></td>
-<td>Предоставляет метод, который вызывается при щелчке ссылок на события в папке результатов синхронизации.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgreventstore"><strong>исинкмгревентсторе</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие обработчику предоставлять собственное хранилище событий и управлять собственными событиями синхронизации, вместо использования хранилища событий центра синхронизации по умолчанию. Эти события отображаются в папке результаты синхронизации.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrhandler"><strong>исинкмгрхандлер</strong></a><br/></td>
-<td>Предоставляет методы, составляющие основной интерфейс, реализуемый обработчиком синхронизации. Центр синхронизации создает один экземпляр обработчика через этот интерфейс для получения свойств, перечисления элементов синхронизации и изменения состояния. Центр синхронизации создает отдельный экземпляр обработчика в отдельном потоке для выполнения синхронизации или операции с пользовательским интерфейсом.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrhandlercollection"><strong>исинкмгрхандлерколлектион</strong></a><br/></td>
-<td>Предоставляет методы, которые предоставляют перечислитель идентификаторов обработчика синхронизации и создают экземпляры этих обработчиков синхронизации.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrhandlerinfo"><strong>исинкмгрхандлеринфо</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие обработчику предоставлять сведения о свойствах и состоянии в центре синхронизации.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Mobsync/nn-mobsync-isyncmgrregister"><strong>исинкмгррегистер</strong></a><br/></td>
-<td>Предоставляет методы, чтобы приложение можно было зарегистрировать в диспетчере синхронизации. Это можно сделать либо с помощью интерфейса <a href="/windows/desktop/api/Mobsync/nn-mobsync-isyncmgrregister"><strong>исинкмгррегистер</strong></a> , либо путем регистрации непосредственно в реестре.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrresolutionhandler"><strong>исинкмгрресолутионхандлер</strong></a><br/></td>
-<td>Предоставляет методы, которые управляют синхронизацией конфликтов. Реализуйте этот интерфейс для создания обработчика конфликтов синхронизации. Пользовательский интерфейс разрешения конфликтов будет вызывать этот интерфейс для разрешения конфликта, представленного пользователю. <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrschedulewizarduioperation"><strong>исинкмгрсчедулевизардуиоператион</strong></a><br/></td>
-<td>Предоставляет метод, позволяющий обработчику отображать мастер расписания синхронизации для обработчика.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsessioncreator"><strong>исинкмгрсессионкреатор</strong></a><br/></td>
-<td>Предоставляет один метод, с помощью которого обработчик или внешнее приложение может уведомлять центр синхронизации о начале синхронизации, а также о ходе выполнения и событиях.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsynccallback"><strong>исинкмгрсинккаллбакк</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие процессу синхронизации сообщать о ходе выполнения и событиях в центр синхронизации, а также запрашивать, был ли отменен процесс.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Mobsync/nn-mobsync-isyncmgrsynchronize"><strong>исинкмгрсинчронизе</strong></a><br/></td>
-<td>Предоставляет методы, которые позволяют зарегистрированному приложению или службе получать уведомления от диспетчера синхронизации.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback"><strong>исинкмгрсинчронизекаллбакк</strong></a><br/></td>
-<td>Предоставляет методы, управляющие процессом синхронизации.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Mobsync/nn-mobsync-isyncmgrsynchronizeinvoke"><strong>исинкмгрсинчронизеинвоке</strong></a><br/></td>
-<td>Предоставляет методы, которые позволяют зарегистрированному приложению вызывать диспетчер синхронизации для обновления элементов.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsyncitem"><strong>исинкмгрсинЦитем</strong></a><br/></td>
-<td>Предоставляет методы, которые действуют и извлекают данные из одного элемента синхронизации, позволяя обработчикам управлять элементами синхронизации как отдельными объектами.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsyncitemcontainer"><strong>исинкмгрсинЦитемконтаинер</strong></a><br/></td>
-<td>Предоставляет методы, предоставляющие сведения обработчикам о содержащихся в них элементах.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsynciteminfo"><strong>исинкмгрсинЦитеминфо</strong></a><br/></td>
-<td>Предоставляет методы, предоставляющие сведения о свойствах и состоянии для одного элемента синхронизации.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrsyncresult"><strong>исинкмгрсинкресулт</strong></a><br/></td>
-<td>Предоставляет метод, который приложения, вызывающие <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrcontrol"><strong>исинкмгрконтрол</strong></a> , могут использовать для получения результата вызова <a href="/windows/desktop/api/Syncmgr/nf-syncmgr-isyncmgrcontrol-starthandlersync"><strong>Исинкмгрконтрол:: старсандлерсинк</strong></a> или <a href="/windows/desktop/api/Syncmgr/nf-syncmgr-isyncmgrcontrol-startitemsync"><strong>исинкмгрконтрол:: стартитемсинк</strong></a> .<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgruioperation"><strong>исинкмгруиоператион</strong></a><br/></td>
-<td>Предоставляет метод, с помощью которого обработчик синхронизации или элемент синхронизации может отображать объект пользовательского интерфейса по запросу в центре синхронизации.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist"><strong>итаскбарлист</strong></a><br/></td>
-<td>Предоставляет методы, управляющие панелью задач. Она позволяет динамически добавлять, удалять и активировать элементы на панели задач.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2"><strong>ITaskbarList2</strong></a><br/></td>
-<td>Расширяет интерфейс <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist"><strong>итаскбарлист</strong></a> , предоставляя метод для пометки окна как полноэкранного экрана.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist3"><strong>ITaskbarList3</strong></a><br/></td>
-<td>расширяет <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2"><strong>ITaskbarList2</strong></a> , предоставляя методы, поддерживающие унифицированную функцию кнопки панели задач "запуск и переключение", добавленную в Windows 7. Эти функции включают в себя эскизы и переключатели, основанные на отдельных вкладках в приложении с вкладками, панелях инструментов эскиза, наложения уведомлений и состоянии, а также индикаторах хода выполнения.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist4"><strong>ITaskbarList4</strong></a><br/></td>
-<td>Расширяет <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist3"><strong>ITaskbarList3</strong></a> , предоставляя метод, который позволяет вызывающему объекту управлять двумя значениями свойств для эскиза вкладки и просматривать функцию.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Thumbcache/nn-thumbcache-ithumbnailcache"><strong>исумбнаилкаче</strong></a><br/></td>
-<td>Предоставляет методы для кэша эскизов системы, которые совместно используются в приложениях.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/thumbcache/nn-thumbcache-ithumbnailcacheprimer"><strong>исумбнаилкачепример</strong></a><br/></td>
-
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ithumbnailhandlerfactory"><strong>исумбнаилхандлерфактори</strong></a><br/></td>
-<td>Предоставляет метод для получения обработчика эскиза элемента. Реализуйте этот интерфейс, если необходимо указать, какое средство извлечения используется для дочернего IDList.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Thumbcache/nn-thumbcache-ithumbnailprovider"><strong>исумбнаилпровидер</strong></a><br/></td>
-<td>Предоставляет метод для получения эскиза изображения и должен быть реализован для обработчиков эскизов. Объект, реализующий этот интерфейс, должен также реализовывать <a href="/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream"><strong>IInitializeWithStream</strong></a>. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Thumbcache/nn-thumbcache-ithumbnailsettings"><strong>исумбнаилсеттингс</strong></a><br/></td>
-<td>Предоставляет метод, позволяющий поставщику эскиза определить пользовательский контекст запроса эскиза.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/thumbnailstreamcache/nn-thumbnailstreamcache-ithumbnailstreamcache"><strong>исумбнаилстреамкаче</strong></a><br/></td>
-<td>Возвращает или задает поток эскиза. Этот интерфейс предназначен только для внутреннего использования и может вызываться только в приложении Photos.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shdeprecated/nn-shdeprecated-itrackshellmenu"><strong>итраккшеллмену</strong></a><br/></td>
-<td>Предоставляет методы, расширяющие интерфейс <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenu"><strong>ишеллмену</strong></a> , предоставляя возможность координировать кнопки на панели инструментов с помощью меню, а также отображать всплывающее меню.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Imagetranscode/nn-imagetranscode-itranscodeimage"><strong>итранскодеимаже</strong></a><br/></td>
-<td>Предоставляет метод, позволяющий преобразовать изображения в форматы JPEG или Bitmap (BMP) из любого типа изображений, поддерживаемого Windows. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferadvisesink"><strong>итрансферадвисесинк</strong></a><br/></td>
-<td>Предоставляет методы, поддерживающие сбор сведений о состоянии и сведения о сбоях.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination"><strong>итрансфердестинатион</strong></a><br/></td>
-<td>Предоставляет методы, создающие целевой элемент оболочки для операции копирования или перемещения. Этот интерфейс обеспечивает больший контроль над операциями с файлами, предоставляя метод <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransferdestination-advise"><strong>итрансфердестинатион:: Advise</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransfermediumitem"><strong>итрансфермедиумитем</strong></a><br/></td>
-<td>Используется обработчиком копирования для получения элемента, для которого вызывается <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)"><strong>QueryInterface</strong></a> , чтобы вернуть указатель на интерфейс <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination"><strong>Итрансфердестинатион</strong></a> или интерфейс <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransfersource"><strong>итрансферсаурце</strong></a>. Эти интерфейсы можно запрашивать и перечислять для операций копирования, перемещения и удаления.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransfersource"><strong>итрансферсаурце</strong></a><br/></td>
-<td>Предоставляет методы для управления <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>интерфейса IShellItem</strong></a>, включая копирование, перемещение, перезапуск и другие. Этот интерфейс предоставляет больший контроль над операциями с файлами, предоставляя метод <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransfersource-advise"><strong>итрансферсаурце:: Advise</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-itraydeskband"><strong>итрайдескбанд</strong></a><br/></td>
-<td>Предоставляет методы, которые отображают, скрывают и запрашивают дескбандс.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iupdateidlist"><strong>иупдатеидлист</strong></a><br/></td>
-<td>Предоставляет метод для обновления <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>итемидлист</strong></a> дочернего элемента объекта Folder.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iurlsearchhook"><strong>иурлсеарчхук</strong></a><br/></td>
-<td>Предоставляет метод, используемый браузером для преобразования адреса неизвестного протокола URL.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iurlsearchhook2"><strong>IURLSearchHook2</strong></a><br/></td>
-<td>Предоставляет метод, используемый браузером для преобразования адреса неизвестного протокола URL-адреса с помощью объекта контекста поиска.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iuseraccountchangecallback"><strong>иусераккаунтчанжекаллбакк</strong></a><br/></td>
-<td>Предоставляет метод, который вызывается при изменении изображения, представляющего учетную запись пользователя.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification"><strong>иусернотификатион</strong></a><br/></td>
-<td>Предоставляет методы, которые устанавливают сведения уведомления, а затем отображают это уведомление пользователю в выноске, который отображается вместе с областью уведомлений панели задач. <br/>
-<blockquote>
-[!Note]<br />
-<a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iusernotification2"><strong>IUserNotification2</strong></a> отличается от <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification"><strong>иусернотификатион</strong></a> только в методе <a href="/windows/desktop/api/Shobjidl/nf-shobjidl-iusernotification2-show"><strong>демонстрации</strong></a> , который добавляет дополнительный параметр для интерфейса обратного вызова для взаимодействия с уведомлением. В противном случае два интерфейса идентичны в форме и функции. CLSID_UserNotification реализует обе версии функции <strong>Показывать</strong> как перегрузку.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iusernotification2"><strong>IUserNotification2</strong></a><br/></td>
-<td>Предоставляет методы, которые устанавливают сведения уведомления, а затем отображают это уведомление пользователю в выноске, который отображается вместе с областью уведомлений панели задач. <br/>
-<blockquote>
-[!Note]<br />
-<a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iusernotification2"><strong>IUserNotification2</strong></a> не наследует от <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification"><strong>иусернотификатион</strong></a>. <strong>IUserNotification2</strong> отличается от <strong>иусернотификатион</strong> только в методе <a href="/windows/desktop/api/Shobjidl/nf-shobjidl-iusernotification2-show"><strong>демонстрации</strong></a> , который добавляет дополнительный параметр для интерфейса обратного вызова для взаимодействия с уведомлением. В противном случае два интерфейса идентичны в форме и функции. CLSID_UserNotification реализует обе версии функции <strong>Показывать</strong> как перегрузку.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iusernotificationcallback"><strong>иусернотификатионкаллбакк</strong></a><br/></td>
-<td>Предоставляет метод для обработки доступа щелчка мыши или контекстного меню в выноске уведомления. Используется с <a href="/windows/desktop/api/Shobjidl/nf-shobjidl-iusernotification2-show"><strong>IUserNotification2:: показывать</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl/nn-shobjidl-iusetobrowseitem"><strong>иусетобровсеитем</strong></a><br/></td>
-<td>Находит элемент, который должен использоваться при переходе к этому элементу.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iviewstateidentityitem"><strong>ивиевстатеидентититем</strong></a><br/></td>
-<td>Предоставляет канонический элемент сохраняемости — элемент, для которого будут сохранены настройки представления.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/shobjidl_core/nn-shobjidl_core-ivirtualdesktopmanager"><strong>ивиртуалдесктопманажер</strong></a><br/></td>
-<td>Предоставляет методы, позволяющие приложению взаимодействовать с группами Windows, которые формируют виртуальные рабочие области.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-ivisualproperties"><strong>ивисуалпропертиес</strong></a><br/></td>
-<td>Предоставляет методы, которые устанавливают и получают визуальные свойства.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iwebwizardextension"><strong>ивебвизардекстенсион</strong></a><br/></td>
-<td>Расширяет интерфейс <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iwizardextension"><strong>ивизардекстенсион</strong></a> , предоставляя методы для установки начального URL-адреса расширения мастера и конкретный URL-адрес в случае ошибки.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iwizardextension"><strong>ивизардекстенсион</strong></a><br/></td>
-<td>Используется мастерами, такими как мастер веб-публикаций и мастер заказа отпечатков в сети, на котором размещены страницы содержимого на стороне сервера. Этот интерфейс предоставляет методы для указания поддерживаемых страниц расширения, а также для перехода к этим страницам и их выхода из них.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/nn-shobjidl-iwizardsite"><strong>ивизардсите</strong></a><br/></td>
-<td>Предоставляет методы, используемые расширением мастера для перехода между границами между собой и остальной частью мастера.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="taskcompletionclient.md"><strong>тасккомплетионклиент</strong></a><br/></td>
-<td>Включает выполнение задачи. <br/></td>
-</tr>
-</tbody>
-</table>
 
 
 

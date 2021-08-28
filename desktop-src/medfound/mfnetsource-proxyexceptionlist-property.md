@@ -4,12 +4,12 @@ ms.assetid: 218883c5-9a26-4733-8308-1827cf1f2cd7
 title: Свойство MFNETSOURCE_PROXYEXCEPTIONLIST (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 591f7036491964928937f2b48b0656e60f9a20f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e87c07068d31cdd5e9762dab14e2a61edbe9c8f90f8750acc1b23c851ad47c1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113494"
 ---
 # <a name="mfnetsource_proxyexceptionlist-property"></a>МФНЕТСАУРЦЕ \_ проксексцептионлист, свойство
 
@@ -31,25 +31,25 @@ VT \_ LPWSTR
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Константа **мфнетсаурце \_ проксексцептионлист** определяет идентификатор GUID для этого ключа свойства. Идентификатор свойства (PID) равен нулю.
 
 Приложения могут использовать это свойство для настройки локатора прокси при создании прокси-объекта-локатора. Чтобы задать свойство, передайте указатель **ипропертисторе** в параметре *ппроксиконфиг* функции [**мфкреатепроксилокатор**](/windows/desktop/api/mfidl/nf-mfidl-mfcreateproxylocator) . Локатор прокси-сервера не выполняет обнаружение прокси-сервера для этих адресов.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

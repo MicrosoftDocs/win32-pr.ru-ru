@@ -21,12 +21,12 @@ keywords:
 - типы элементов управления, ProgressBar
 ms.topic: article
 ms.date: 12/04/2019
-ms.openlocfilehash: 98be22a4a3d3b99e113d3c0d1402f2c45ee25550
-ms.sourcegitcommit: 6f7576b297d54c0b8f9c79e02c912b83041aa4fb
+ms.openlocfilehash: 5dc5dd22abcaca70ae9ce86717db6055642a21ce
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "104133382"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472306"
 ---
 # <a name="progressbar-control-type"></a>Тип элемента управления ProgressBar
 
@@ -42,34 +42,17 @@ ms.locfileid: "104133382"
 - [Соответствующие свойства](#relevant-properties)
 - [Обязательные шаблоны элементов управления](#required-control-patterns)
 - [Обязательные события](#required-events)
-- [См. также](#related-topics)
+- [Связанные темы](#related-topics)
 
 ## <a name="typical-tree-structure"></a>Типичная древовидная структура
 
 В следующей таблице описывается типичный элемент управления и представление содержимого дерева модели автоматизации пользовательского интерфейса, которое относится к элементам управления "индикатор выполнения" и описывает, что может содержаться в каждом представлении. Дополнительные сведения о дереве автоматизации пользовательского интерфейса см. в разделе [Общие сведения о дереве модели автоматизации пользовательского интерфейса](uiauto-treeoverview.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Представление элемента управления</th>
-<th>Представление содержимого</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>ProgressBar</li>
-</ul></td>
-<td><ul>
-<li>ProgressBar</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Представление элемента управления | Представление содержимого | 
+|--------------|--------------|
+| <ul><li>ProgressBar</li></ul> | <ul><li>ProgressBar</li></ul> | 
+
 
 Элементы управления "индикатор выполнения" не имеют дочерних элементов в представлении элемента управления или содержимого дерева модели автоматизации пользовательского интерфейса.
 
@@ -92,7 +75,7 @@ ms.locfileid: "104133382"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Обязательные шаблоны элементов управления
 
@@ -109,11 +92,11 @@ ms.locfileid: "104133382"
 | [**LargeChange**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_largechange) | **Не число**       | Это свойство не требуется, так как элементы управления "Индикатор выполнения" доступны только для чтения.                                                                 |
 | [**IValueProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ivalueprovider)               | Зависит       | Элементы управления "индикатор выполнения", которые дают текстовое обозначение хода выполнения, должны реализовывать шаблон элемента управления [value](uiauto-implementingvalue.md) . |
 | [**IsReadOnly**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ivalueprovider-get_isreadonly)        | **TRUE**      | Значение этого свойства всегда равно **true**.                                                                                            |
-| [**Значение**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ivalueprovider-get_value)                  | См. примечания.    | Это свойство предоставляет ход выполнения в текстовом виде для элемента управления "Индикатор выполнения".                                                                          |
+| [**Значений**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ivalueprovider-get_value)                  | См. примечания.    | Это свойство предоставляет ход выполнения в текстовом виде для элемента управления "Индикатор выполнения".                                                                          |
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Обязательные события
 
@@ -134,9 +117,9 @@ ms.locfileid: "104133382"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -149,9 +132,9 @@ ms.locfileid: "104133382"
 [Общие сведения о модели автоматизации пользовательского интерфейса](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

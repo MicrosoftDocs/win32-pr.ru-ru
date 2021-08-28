@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 959304d36da2b95bdf6289fba1b8c75d6ecfa314
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: 1e315cfc32b10274eee47258360e85543f15311a
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111825741"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624100"
 ---
 # <a name="samplegrad-directx-hlsl-texture-object"></a>Самплеград (объект текстуры DirectX HLSL)
 
@@ -32,13 +32,13 @@ ms.locfileid: "111825741"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Элемент</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>
@@ -79,7 +79,7 @@ ms.locfileid: "111825741"
 </tr>
 <tr class="odd">
 <td>Texture2DMS, Texture2DMSArray</td>
-<td>не поддерживается</td>
+<td>Не поддерживается</td>
 </tr>
 </tbody>
 </table>
@@ -112,7 +112,7 @@ ms.locfileid: "111825741"
 </tr>
 <tr class="even">
 <td>Texture2DMS, Texture2DMSArray</td>
-<td>не поддерживается</td>
+<td>Не поддерживается</td>
 </tr>
 </tbody>
 </table>
@@ -145,7 +145,7 @@ ms.locfileid: "111825741"
 </tr>
 <tr class="even">
 <td>Texture2DMS, Texture2DMSArray</td>
-<td>не поддерживается</td>
+<td>Не поддерживается</td>
 </tr>
 </tbody>
 </table>
@@ -178,11 +178,11 @@ ms.locfileid: "111825741"
 </tr>
 <tr class="even">
 <td>Текстурекубе, Текстурекубеаррай </td>
-<td>не поддерживается</td>
+<td>Не поддерживается</td>
 </tr>
 <tr class="odd">
 <td>Texture2DMS, Texture2DMSArray</td>
-<td>не поддерживается</td>
+<td>Не поддерживается</td>
 </tr>
 </tbody>
 </table>

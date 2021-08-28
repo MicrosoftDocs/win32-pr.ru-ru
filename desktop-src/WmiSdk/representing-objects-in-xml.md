@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Представление объектов в XML
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9698c54eeff61517a1389ceea14bc2415727f085
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 68bcbc47a0e5466b69775b4ff9a6c09ce20bae6f
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105702000"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122879655"
 ---
 # <a name="representing-objects-in-xml"></a>Представление объектов в XML
 
@@ -18,7 +18,7 @@ ms.locfileid: "105702000"
 
 В C++ можно запустить кодировщик XML с помощью вызова метода [**ивбемобжекттекстсрк. gettext**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjecttextsrc-gettext) , указав объект, который должен быть представлен в формате XML, и текстовый формат для использования в представлении. Дополнительные сведения и пример кода см. в разделе кодирование объекта в XML с помощью C/C++.
 
-В VBScript или Visual Basic для кодирования данных для экземпляра XML вызовите [**свбемобжектекс. gettext**](swbemobjectex-gettext-.md). Дополнительные сведения и пример кода см. в разделе кодирование объекта в XML с помощью VBScript.
+в VBScript или Visual Basic для кодирования данных для экземпляра XML вызовите [**свбемобжектекс. gettext**](swbemobjectex-gettext-.md). Дополнительные сведения и пример кода см. в разделе кодирование объекта в XML с помощью VBScript.
 
 В этом разделе обсуждаются следующие разделы:
 
@@ -56,19 +56,19 @@ ms.locfileid: "105702000"
     <tbody>
     <tr class="odd">
     <td>&quot;LocalOnly &quot; <strong>VT_BOOL</strong></td>
-    <td>Если <strong>значение равно true</strong>, в результирующем XML-коде содержатся только свойства и методы, определенные локально в классе. Значение по умолчанию — <strong>false</strong>.</td>
+    <td>Если <strong>значение равно true</strong>, в результирующем XML-коде содержатся только свойства и методы, определенные локально в классе. Значение по умолчанию — <strong>FALSE</strong>.</td>
     </tr>
     <tr class="even">
     <td>&quot;Инклудекуалифиерс &quot; <strong>VT_BOOL</strong></td>
-    <td>Если задано <strong>значение true</strong>, то в результирующий XML-документ включаются квалификаторы класса, экземпляра, свойств и методов. Значение по умолчанию — <strong>false</strong>.</td>
+    <td>Если задано <strong>значение true</strong>, то в результирующий XML-документ включаются квалификаторы класса, экземпляра, свойств и методов. Значение по умолчанию — <strong>FALSE</strong>.</td>
     </tr>
     <tr class="odd">
     <td>&quot;Ексклудесистемпропертиес &quot; <strong>VT_BOOL</strong></td>
-    <td>Если <strong>значение равно true</strong>, системные свойства WMI отфильтровываются из выходных данных. Значение по умолчанию — <strong>false</strong>.</td>
+    <td>Если <strong>значение равно true</strong>, системные свойства WMI отфильтровываются из выходных данных. Значение по умолчанию — <strong>FALSE</strong>.</td>
     </tr>
     <tr class="even">
     <td>&quot;Паслевел &quot; <strong>VT_I4</strong></td>
-    <td><dl> 0 = <CLASS> <INSTANCE> создается элемент или.<br />
+    <td><dl> 0 = &lt; создается класс &gt; или <INSTANCE> элемент.<br />
 1 = <VALUE.NAMEDOBJECT> элемент создан.<br />
 2 = <VALUE.OBJECTWITHLOCALPATH> создается элемент.<br />
 3 = создается <VALUE.OBJECTWITHPATH> .<br />
@@ -478,7 +478,7 @@ wscript.echo xml.xml
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

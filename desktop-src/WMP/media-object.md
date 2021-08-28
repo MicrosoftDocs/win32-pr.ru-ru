@@ -3,7 +3,7 @@ title: Объект мультимедиа
 description: Объект мультимедиа предоставляет способ задания или извлечения свойств элемента мультимедиа с помощью следующих свойств и методов.
 ms.assetid: 45c1c760-808b-4d11-8e6b-057a2ca685d0
 keywords:
-- Проигрыватель Windows Media, мультимедийный объект
+- объект мультимедиа проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 88eff6ee0a97e63df6a0c073ef18425cbb576e85
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 3c1dbcb3dc662a431f279e03697620b80c242c99eb32e3bbcdc26d71796f7e50
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "105691412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123314"
 ---
 # <a name="media-object"></a>Объект мультимедиа
 
@@ -42,7 +42,7 @@ ms.locfileid: "105691412"
 
 
 
- 
+ 
 
 Объект **мультимедиа** поддерживает следующие методы.
 
@@ -64,7 +64,7 @@ ms.locfileid: "105691412"
 
 
 
- 
+ 
 
 Доступ к объекту **мультимедиа** осуществляется с помощью следующих свойств и методов.
 
@@ -74,24 +74,24 @@ ms.locfileid: "105691412"
 |---------------------------------|--------------------------------------------------------------------------|
 | [Элементы управления](controls-object.md) | [currentItem](controls-currentitem.md)                                  |
 | [Игрок](player-object.md)     | [куррентмедиа](player-currentmedia.md), [невмедиа](player-newmedia.md) |
-| [Списком](playlist-object.md) | [Item](playlist-item.md)                                                |
+| [Список воспроизведения](playlist-object.md) | [Item](playlist-item.md)                                                |
 
 
 
- 
+ 
 
 Так как это наиболее распространенные средства доступа, *Player*. **куррентмедиа** используется в целях иллюстрации в разделах синтаксиса Reference.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [**Справочник по объектной модели для создания сценариев**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

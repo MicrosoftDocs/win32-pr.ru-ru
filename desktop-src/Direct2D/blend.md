@@ -6,12 +6,12 @@ keywords:
 - эффекты смешения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e248d1f7f41721d173510b8d10feac9be2e08f9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 853043123c6eea9a87656a7450b1295236ed5d6a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892594"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478200"
 ---
 # <a name="blend-effect"></a>Эффект смешивания
 
@@ -28,7 +28,7 @@ ms.locfileid: "103892594"
 -   [Битовая карта вывода](#output-bitmap)
 -   [Образец кода](#sample-code)
 -   [Требования](#requirements)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="blending-examples"></a>Примеры смешения
 
@@ -102,129 +102,36 @@ m_d2dContext->EndDraw();
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Перечисление</th>
-<th>Дробь</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_DARKEN</td>
-<td>Базовая формула Blend только для Alpha. <img src="images/blend-mode-darken-1.png" alt="mathematical formula for a darken effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_MULTIPLY</td>
-<td>Базовая формула Blend только для Alpha. <img src="images/blend-mode-multiply-1.png" alt="Mathematical formula for a mutiply effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_COLOR_BURN</td>
-<td>Основные формулы смешения с <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-colorburn-1.png" alt="Mathematical formula for a coor burn effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_LINEAR_BURN</td>
-<td>Основные формулы смешения с <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-linearburn-1.png" alt="Mathematical formula for a linear burn effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_DARKER_COLOR</td>
-<td>Базовая формула Blend только для Alpha. <img src="images/blend-mode-darkencolor-1.png" alt="Mathematical formla for a darken color effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_LIGHTEN</td>
-<td>Базовая формула Blend только для Alpha. <img src="images/blend-mode-lighten-1.png" alt="Mathematical formula for a lighten effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_SCREEN</td>
-<td>Базовая формула Blend только для Alpha. <img src="images/blend-mode-screen-1.png" alt="Mathematical formula for a screen effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_COLOR_DODGE</td>
-<td>Основные формулы смешения с <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-colordodge-1.png" alt="Mathematical formula for a color dodge effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_LINEAR_DODGE</td>
-<td>Основные формулы смешения с <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-lineardodge-1.png" alt="Mathematical formula for a linear dodge effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_LIGHTER_COLOR</td>
-<td>Базовая формула Blend только для Alpha. <img src="images/blend-mode-lightercolor-1.png" alt="Mathematical formula for a lighter color effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_OVERLAY</td>
-<td>Основные формулы смешения с <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-overlay-1.png" alt="Mathematical formula for an overlay effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_SOFT_LIGHT</td>
-<td>Основные формулы смешения с <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-softlight-1.png" alt="Mathematical formula for a soft light effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_HARD_LIGHT</td>
-<td>Основные формулы смешения с <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-hardlight-1.png" alt="Mathematical formula for a hard light effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_VIVID_LIGHT</td>
-<td>Основные формулы смешения с <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-vividlight-1.png" alt="Mathematical formula for a vivid light effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_LINEAR_LIGHT</td>
-<td>Основные формулы смешения с <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-linearlight-1.png" alt="Mathematical formula for a linear light effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_PIN_LIGHT</td>
-<td>Основные формулы смешения с <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-pinlight-1.png" alt="Mathematical formula for a pin light effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_HARD_MIX</td>
-<td>Основные формулы смешения с <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-hardmix-1.png" alt="Mathematical formula for a hard mix effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_DIFFERENCE</td>
-<td>Основные формулы смешения с <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = ABS (f<sub>RGB</sub> - B,<sub>RGB</sub>)</td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_EXCLUSION</td>
-<td>Основные формулы смешения с <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = f<sub>RGB</sub> + b<sub>RGB</sub>   2 * * f<sub>RGB</sub> * b<sub>RGB</sub></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_HUE</td>
-<td>Базовая формула Blend только для Alpha. <img src="images/blend-mode-hue-1.png" alt="Mathematical formula for a hue blend effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_SATURATION</td>
-<td>Базовая формула Blend только для Alpha. <img src="images/blend-mode-saturation-1.png" alt="Mathematical formula for a sturation blend effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_COLOR</td>
-<td>Базовая формула Blend только для Alpha. <img src="images/blend-mode-color-1.png" alt="Mathematical formula for a color blend effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_LUMINOSITY</td>
-<td>Базовая формула Blend только для Alpha. <img src="images/blend-mode-luminosity-1.png" alt="Mathematical formula for a luminosity blend effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_DISSOLVE</td>
-<td>Исходные данные:
-<ul>
-<li>ТОЧЕЧная координата сцены для текущего пикселя</li>
-<li>Детерминированный генератор случайных чисел Rand (XY), основанный на координатах начальной координаты, с несмещенным распределением значений из [0, 1]</li>
-</ul>
-<br/> <img src="images/blend-mode-dissolve-1.png" alt="Mathematical formula for a dissolve blend effect." /><br/></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_SUBTRACT</td>
-<td>Базовая формула Blend только для Alpha. <img src="images/blend-mode-subtract-1.png" alt="Mathematical formula for a subtract blend effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_DIVISION</td>
-<td>Базовая формула Blend только для Alpha. <img src="images/blend-mode-division-1.png" alt="Mathematical formula for a division blend effect." /></td>
-</tr>
-</tbody>
-</table>
+
+| Перечисление | Дробь | 
+|-------------|----------|
+| D2D1_BLEND_MODE_DARKEN | Базовая формула Blend только для Alpha. <img src="images/blend-mode-darken-1.png" alt="mathematical formula for a darken effect." /> | 
+| D2D1_BLEND_MODE_MULTIPLY | Базовая формула Blend только для Alpha. <img src="images/blend-mode-multiply-1.png" alt="Mathematical formula for a mutiply effect." /> | 
+| D2D1_BLEND_MODE_COLOR_BURN | Основные формулы смешения с <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-colorburn-1.png" alt="Mathematical formula for a coor burn effect." /> | 
+| D2D1_BLEND_MODE_LINEAR_BURN | Основные формулы смешения с <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-linearburn-1.png" alt="Mathematical formula for a linear burn effect." /> | 
+| D2D1_BLEND_MODE_DARKER_COLOR | Базовая формула Blend только для Alpha. <img src="images/blend-mode-darkencolor-1.png" alt="Mathematical formla for a darken color effect." /> | 
+| D2D1_BLEND_MODE_LIGHTEN | Базовая формула Blend только для Alpha. <img src="images/blend-mode-lighten-1.png" alt="Mathematical formula for a lighten effect." /> | 
+| D2D1_BLEND_MODE_SCREEN | Базовая формула Blend только для Alpha. <img src="images/blend-mode-screen-1.png" alt="Mathematical formula for a screen effect." /> | 
+| D2D1_BLEND_MODE_COLOR_DODGE | Основные формулы смешения с <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-colordodge-1.png" alt="Mathematical formula for a color dodge effect." /> | 
+| D2D1_BLEND_MODE_LINEAR_DODGE | Основные формулы смешения с <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-lineardodge-1.png" alt="Mathematical formula for a linear dodge effect." /> | 
+| D2D1_BLEND_MODE_LIGHTER_COLOR | Базовая формула Blend только для Alpha. <img src="images/blend-mode-lightercolor-1.png" alt="Mathematical formula for a lighter color effect." /> | 
+| D2D1_BLEND_MODE_OVERLAY | Основные формулы смешения с <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-overlay-1.png" alt="Mathematical formula for an overlay effect." /> | 
+| D2D1_BLEND_MODE_SOFT_LIGHT | Основные формулы смешения с <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-softlight-1.png" alt="Mathematical formula for a soft light effect." /> | 
+| D2D1_BLEND_MODE_HARD_LIGHT | Основные формулы смешения с <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-hardlight-1.png" alt="Mathematical formula for a hard light effect." /> | 
+| D2D1_BLEND_MODE_VIVID_LIGHT | Основные формулы смешения с <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-vividlight-1.png" alt="Mathematical formula for a vivid light effect." /> | 
+| D2D1_BLEND_MODE_LINEAR_LIGHT | Основные формулы смешения с <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-linearlight-1.png" alt="Mathematical formula for a linear light effect." /> | 
+| D2D1_BLEND_MODE_PIN_LIGHT | Основные формулы смешения с <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-pinlight-1.png" alt="Mathematical formula for a pin light effect." /> | 
+| D2D1_BLEND_MODE_HARD_MIX | Основные формулы смешения с <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-hardmix-1.png" alt="Mathematical formula for a hard mix effect." /> | 
+| D2D1_BLEND_MODE_DIFFERENCE | Основные формулы смешения с <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = ABS (f<sub>RGB</sub> -b<sub>RGB</sub>) | 
+| D2D1_BLEND_MODE_EXCLUSION | Основные формулы смешения <em>с f</em>(<sub>f RGB</sub>, b<sub>RGB</sub>) = f<sub>RGB</sub> + b<sub>RGB</sub>   2 * f<sub>RGB</sub> * B<sub>RGB</sub> | 
+| D2D1_BLEND_MODE_HUE | Базовая формула Blend только для Alpha. <img src="images/blend-mode-hue-1.png" alt="Mathematical formula for a hue blend effect." /> | 
+| D2D1_BLEND_MODE_SATURATION | Базовая формула Blend только для Alpha. <img src="images/blend-mode-saturation-1.png" alt="Mathematical formula for a sturation blend effect." /> | 
+| D2D1_BLEND_MODE_COLOR | Базовая формула Blend только для Alpha. <img src="images/blend-mode-color-1.png" alt="Mathematical formula for a color blend effect." /> | 
+| D2D1_BLEND_MODE_LUMINOSITY | Базовая формула Blend только для Alpha. <img src="images/blend-mode-luminosity-1.png" alt="Mathematical formula for a luminosity blend effect." /> | 
+| D2D1_BLEND_MODE_DISSOLVE | Исходные данные:<ul><li>ТОЧЕЧная координата сцены для текущего пикселя</li><li>Детерминированный генератор случайных чисел Rand (XY), основанный на координатах начальной координаты, с несмещенным распределением значений из [0, 1]</li></ul><br /><img src="images/blend-mode-dissolve-1.png" alt="Mathematical formula for a dissolve blend effect." /><br /> | 
+| D2D1_BLEND_MODE_SUBTRACT | Базовая формула Blend только для Alpha. <img src="images/blend-mode-subtract-1.png" alt="Mathematical formula for a subtract blend effect." /> | 
+| D2D1_BLEND_MODE_DIVISION | Базовая формула Blend только для Alpha. <img src="images/blend-mode-division-1.png" alt="Mathematical formula for a division blend effect." /> | 
+
 
 
 
@@ -299,16 +206,16 @@ m_d2dContext->EndDraw();
 
 | Требование | Значение |
 |--------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента | Windows 8 и обновление платформы для \[ классических приложений Windows 7 \| приложения для Магазина Windows\] |
-| Минимальная версия сервера | Windows 8 и обновление платформы для \[ классических приложений Windows 7 \| приложения для Магазина Windows\] |
-| Header                   | d2d1effects. h                                                                      |
+| Минимальная версия клиента | Windows 8 и обновление платформы для Windows 7 \[ классических приложений \| Windows приложения магазина\] |
+| Минимальная версия сервера | Windows 8 и обновление платформы для Windows 7 \[ классических приложений \| Windows приложения магазина\] |
+| Заголовок                   | d2d1effects. h                                                                      |
 | Библиотека                  | D2D1. lib, дксгуид. lib                                                               |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

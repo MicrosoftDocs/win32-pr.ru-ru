@@ -4,12 +4,12 @@ ms.assetid: 7de8cb64-122a-475f-990c-c19590a9d9d8
 title: Событие Местреамсинмоде (Мфобжектс. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d7e19d25e5ab0430d96a9d431c941288e260092b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f13a9cc5b625a8b366bece1debc2017fce51e35d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701895"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479520"
 ---
 # <a name="mestreamthinmode-event"></a>Событие Местреамсинмоде
 
@@ -23,29 +23,11 @@ ms.locfileid: "105701895"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>VARTYPE</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>VT_BOOL.<br/></td>
-<td>Указывает, началось ли тонкое начало или прекращение.<br/>
-<ul>
-<li>VARIANT_TRUE: образцы, доставленные после этого события, будут тоньше.</li>
-<li>VARIANT_FALSE: образцы, доставленные после этого события, не будут тоньше.</li>
-</ul>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| VARTYPE | Описание | 
+|---------|-------------|
+| VT_BOOL.<br /> | Указывает, началось ли тонкое начало или прекращение.<br /><ul><li>VARIANT_TRUE: образцы, доставленные после этого события, будут тоньше.</li><li>VARIANT_FALSE: образцы, доставленные после этого события, не будут тоньше.</li></ul><br /> | 
+
 
 
 
@@ -55,13 +37,13 @@ ms.locfileid: "105701895"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Мфобжектс. h (включение Мфидл. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Мфобжектс. h (включение Мфидл. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

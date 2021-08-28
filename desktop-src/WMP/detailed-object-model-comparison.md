@@ -3,45 +3,45 @@ title: Сравнение подробной модели объектов
 description: Сравнение подробной модели объектов
 ms.assetid: 8f08e2a6-1944-4814-b3b7-680a3722e1a0
 keywords:
-- Проигрыватель Windows Media, объектная модель
-- Объектная модель проигрывателя Windows Media, отличия версий
+- проигрыватель Windows Media, объектная модель
+- проигрыватель Windows Mediaная модель объектов, различия версий
 - Объектная модель, различия версий
-- Элемент управления ActiveX проигрывателя Windows Media, различия версий
-- Элемент управления ActiveX, различия версий
-- Элемент управления ActiveX мобильных устройств проигрывателя Windows Media, различия версий
-- Проигрыватель Windows Media Mobile, объектная модель
+- проигрыватель Windows Media ActiveX элемента управления, различия версий
+- ActiveX элемент управления, различия версий
+- проигрыватель Windows Media управление мобильными ActiveXми, различия версий
+- проигрыватель Windows Media Мобильные устройства, объектная модель
 - рекомендации по миграции, отличия версий
-- версии проигрывателя Windows Media, объектная модель
+- версии проигрыватель Windows Media, объектная модель
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 086607a9d367f42479e155e3273c30d88425a457
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 9b5fb048042fcbaa064fd3a322b90b3ce90a676e
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104069513"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623540"
 ---
 # <a name="detailed-object-model-comparison"></a>Сравнение подробной модели объектов
 
-В следующей таблице сравниваются свойства объектной модели проигрывателя Windows Media 6,4 с объектной моделью проигрывателя Windows Media 7 или более поздней версии.
+в следующей таблице сравниваются свойства объектной модели проигрыватель Windows Media 6,4 с объектной моделью проигрыватель Windows Media 7 или более поздней версии.
 
 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th>Свойство проигрывателя Windows Media 6,4</th>
-<th>Проигрыватель Windows Media 7 или более поздней версии</th>
+<th>проигрыватель Windows Media 6,4, свойство</th>
+<th>эквивалентный проигрыватель Windows Media 7 или более поздней версии</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><em>Player6</em>. <strong>Алловчанжедисплайсизе</strong></td>
-<td>При отображении проигрывателя Windows Media 7 или более поздней версии автоматически изменяется размер по размеру носителя. Свойства высоты и ширины можно задать в <OBJECT> теге или в скрипте.</td>
+<td>отображение проигрыватель Windows Media 7 или более поздней версии автоматически изменяется в соответствии с размером носителя. Свойства высоты и ширины можно задать в <OBJECT> теге или в скрипте.</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>Алловскан</strong></td>
@@ -73,11 +73,11 @@ ms.locfileid: "104069513"
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>Автозапуск</strong></td>
-<td>Используйте <em>Параметры</em>. <strong>Автозапуск</strong>.</td>
+<td>используйте <em>Параметры</em>. <strong>Автозапуск</strong>.</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>Сбалансировать</strong></td>
-<td>Используйте <em>Параметры</em>. <strong>баланс</strong>.</td>
+<td>используйте <em>Параметры</em>. <strong>баланс</strong>.</td>
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>Пропускная способность</strong></td>
@@ -85,7 +85,7 @@ ms.locfileid: "104069513"
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>BaseURL</strong></td>
-<td>Используйте <em>Параметры</em>. <strong>baseURL</strong>.</td>
+<td>используйте <em>Параметры</em>. <strong>baseURL</strong>.</td>
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>Буфферингкаунт</strong></td>
@@ -125,7 +125,7 @@ ms.locfileid: "104069513"
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>Ккактиве</strong></td>
-<td>Недоступно. Дополнительные сведения об изменении субтитров в проигрывателе Windows Media см. в разделе <a href="closed-captioning.md">Скрытые титры</a> .</td>
+<td>Недоступно. дополнительные сведения об изменении субтитров в проигрыватель Windows Media см. в разделе <a href="closed-captioning.md">скрытые титры</a> .</td>
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>ChannelDescription</strong></td>
@@ -145,7 +145,7 @@ ms.locfileid: "104069513"
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>ClientID</strong></td>
-<td>Недоступно. Проигрыватель Windows Media 9 Series или более поздней версии позволяет пользователю выбрать, следует ли передавать уникальный идентификатор проигрывателя поставщикам содержимого.<br/> Если пользователь выбирает этот параметр, проигрыватель отправляет уникальный идентификатор на сервер Windows Media. Идентификатор заносится в файл журнала сервера, расположенный в папке. папка <em>system32\logfiles</em> по умолчанию. Имя поля журнала — &quot; c-плайерид &quot; . Ведение журнала сервера не включено по умолчанию в службах Windows Media.<br/> Если пользователь не выбирает этот параметр, сервер создает случайный идентификатор сеанса, уникальный для каждого клиента в данном сеансе.<br/> Дополнительные сведения см. в документации по сериям Windows Media Services 9.<br/></td>
+<td>Недоступно. проигрыватель Windows Media 9 Series или более поздней версии позволяет пользователю выбрать, следует ли передавать уникальный идентификатор проигрывателя поставщикам содержимого.<br/> если пользователь выбирает этот параметр, проигрыватель отправляет уникальный идентификатор на сервер Windowsного носителя. Идентификатор заносится в файл журнала сервера, расположенный в папке. папка <em>system32\logfiles</em> по умолчанию. Имя поля журнала — &quot; c-плайерид &quot; . ведение журнала сервера не включено по умолчанию в службы Windows Media.<br/> Если пользователь не выбирает этот параметр, сервер создает случайный идентификатор сеанса, уникальный для каждого клиента в данном сеансе.<br/> дополнительные сведения см. в документации по серии службы Windows Media 9.<br/></td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>Кодеккаунт</strong></td>
@@ -233,7 +233,7 @@ ms.locfileid: "104069513"
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>Дефаултфраме</strong></td>
-<td>Используйте <em>Параметры</em>. <strong>дефаултфраме</strong>или используйте <PARAM> атрибут в <OBJECT> элементе: <pre data-space="preserve"><code><PARAM NAME=&quot;defaultFrame&quot; VALUE=&quot;right&quot;></code></pre></td>
+<td>используйте <em>Параметры</em>. <strong>дефаултфраме</strong>или используйте <PARAM> атрибут в <OBJECT> элементе: <pre data-space="preserve"><code><PARAM NAME=&quot;defaultFrame&quot; VALUE=&quot;right&quot;></code></pre></td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>Дисплайбаккколор</strong></td>
@@ -269,7 +269,7 @@ ms.locfileid: "104069513"
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>Енаблефуллскринконтролс</strong></td>
-<td>При использовании проигрывателя Windows Media 9 Series или более поздних версий элементы управления для полноэкранного режима включаются автоматически, если <em>проигрыватель</em>не используется. <strong></strong>  =  uiMode &quot; нет &quot; .</td>
+<td>при использовании проигрыватель Windows Media 9 Series или более поздних версий элементы управления для полноэкранного режима включаются автоматически, если не используется <em>проигрыватель</em>. <strong></strong>  =  uiMode &quot; нет &quot; .</td>
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>Енаблепоситионконтролс</strong></td>
@@ -321,7 +321,7 @@ ms.locfileid: "104069513"
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>Инвокеурлс</strong></td>
-<td>Используйте <em>Параметры</em>. <strong>инвокеурлс</strong>.</td>
+<td>используйте <em>Параметры</em>. <strong>инвокеурлс</strong>.</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>Трансляция</strong></td>
@@ -345,7 +345,7 @@ ms.locfileid: "104069513"
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>Отключить звук</strong></td>
-<td>Используйте <em>Параметры</em>. <strong>Отключить звук</strong>.</td>
+<td>используйте <em>Параметры</em>. <strong>Отключить звук</strong>.</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>Опенстате</strong></td>
@@ -353,7 +353,7 @@ ms.locfileid: "104069513"
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>Плайкаунт</strong></td>
-<td>Используйте <em>Параметры</em>. <strong>плайкаунт</strong>.</td>
+<td>используйте <em>Параметры</em>. <strong>плайкаунт</strong>.</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>Плайстате</strong></td>
@@ -365,7 +365,7 @@ ms.locfileid: "104069513"
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>Скорость передачи</strong></td>
-<td>Используйте <em>Параметры</em>. <strong>ставка</strong>.</td>
+<td>используйте <em>Параметры</em>. <strong>ставка</strong>.</td>
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>ReadyState</strong></td>
@@ -517,7 +517,7 @@ ms.locfileid: "104069513"
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>Том</strong></td>
-<td>Используйте <em>Параметры</em>. <strong>Том</strong>.</td>
+<td>используйте <em>Параметры</em>. <strong>Том</strong>.</td>
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>Волумесаваилабле</strong></td>
@@ -530,29 +530,29 @@ ms.locfileid: "104069513"
 
  
 
-В следующей таблице сравниваются методы объектной модели проигрывателя Windows Media версии 6,4 с объектной моделью проигрывателя Windows Media 7 или более поздней версии.
+в следующей таблице сравниваются методы объектной модели проигрыватель Windows Media версии 6,4 с объектной моделью проигрыватель Windows Media 7 или более поздней версии.
 
 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th>Метод проигрывателя Windows Media 6,4</th>
-<th>Проигрыватель Windows Media 7 или более поздней версии</th>
+<th>метод проигрыватель Windows Media 6,4</th>
+<th>эквивалентный проигрыватель Windows Media 7 или более поздней версии</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><em>Player6</em>. <strong>AboutBox</strong></td>
-<td>Используйте <em>проигрыватель</em>. <strong>versionInfo</strong> для получения версии проигрывателя Windows Media.</td>
+<td>Используйте <em>проигрыватель</em>. <strong>versionInfo</strong> , чтобы получить версию проигрыватель Windows Media.</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>Бакквардскан</strong></td>
-<td>Используйте <em>Параметры</em>. <strong>ставка</strong>.</td>
+<td>используйте <em>Параметры</em>. <strong>ставка</strong>.</td>
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>Буттонактивате</strong></td>
@@ -592,7 +592,7 @@ ms.locfileid: "104069513"
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>Форвардскан</strong></td>
-<td>Используйте <em>Параметры</em>. <strong>ставка</strong>.</td>
+<td>используйте <em>Параметры</em>. <strong>ставка</strong>.</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>Жеталлгпрмс</strong></td>
@@ -775,11 +775,11 @@ ms.locfileid: "104069513"
 
  
 
-В следующей таблице сравниваются события объектной модели проигрывателя Windows Media версии 6,4 с объектной моделью проигрывателя Windows Media 7 или более поздней версии.
+в следующей таблице сравниваются события объектной модели проигрыватель Windows Media версии 6,4 с объектной моделью проигрыватель Windows Media 7 или более поздней версии.
 
 
 
-| Событие проигрывателя Windows Media 6,4  | Проигрыватель Windows Media 7 или более поздней версии                                                                                                                                                                               |
+| событие проигрыватель Windows Media 6,4  | эквивалентный проигрыватель Windows Media 7 или более поздней версии                                                                                                                                                                               |
 |---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *Player6*. **Буферизация**         | Используйте *проигрыватель*. **Буферизация**.                                                                                                                                                                                              |
 | *Player6*. **Нажмите кнопку**             | Используйте *проигрыватель*. **Нажмите кнопку**                                                                                                                                                                                                   |
@@ -808,7 +808,7 @@ ms.locfileid: "104069513"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

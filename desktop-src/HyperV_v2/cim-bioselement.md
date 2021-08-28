@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: f97cbb495fb8105be012c44942aeedb39377e3d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78f2433d2b75e2c348fdf6e7a8ff35db56c9a0c8
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664688"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122879875"
 ---
 # <a name="cim_bioselement-class-hyper-v-management"></a>Класс CIM_BIOSElement (Управление Hyper-V)
 
@@ -59,7 +59,7 @@ class CIM_BIOSElement : CIM_SoftwareElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ биоселемент** имеет следующие свойства.
 
@@ -142,7 +142,7 @@ class CIM_BIOSElement : CIM_SoftwareElement
 
 </dd> <dt>
 
-**Производителя**
+**Изготовитель**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -217,8 +217,8 @@ class CIM_BIOSElement : CIM_SoftwareElement
 
 Версия операции. Версия операции должна быть в одной из следующих форм:
 
--   *<major>*.*<minor>*.*<revision>*
--   *<major>*.*<minor><letter><revision>*
+-   *&lt; основной &gt;**. &lt; дополнительный &gt; номер*. *&lt; редакция &gt;*
+-   *&lt; основной &gt;**. &lt; Дополнительная &gt; &lt; буква &gt; &lt; версии &gt;*
 
 </dd> </dl>
 
@@ -229,7 +229,7 @@ class CIM_BIOSElement : CIM_SoftwareElement
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 8<br/>                                                                                    |
-| Минимальная версия сервера<br/> | Windows Server 2012<br/>                                                                          |
+| Минимальная версия сервера<br/> | Windows Server 2012<br/>                                                                          |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

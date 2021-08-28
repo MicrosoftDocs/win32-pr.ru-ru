@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 01ed9e5dc4233ee40038e98ecb6f22a15e850e53
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 826544f78df9769fd137cedfb432c5746863d496
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673467"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468401"
 ---
 # <a name="operator--operators"></a>Оператор/операторы
 
@@ -26,42 +26,16 @@ ms.locfileid: "105673467"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Оператор</th>
-<th style="text-align: left;">Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="/previous-versions/windows/desktop/legacy/ee421381(v=vs.85)"><strong>КСМВЕКТОР:: operator/(КСМВЕКТОР, float)</strong></a></td>
-<td style="text-align: left;">Делит <code>XMVECTOR</code> экземпляр на значение с плавающей запятой, возвращая результат в новый экземпляр <code>XMVECTOR</code> . <br/> <code>operator /</code>Разделяет каждый компонент экземпляра <a href="xmvector-data-type.md"><strong>типа данных ксмвектор</strong></a> на значение с плавающей запятой, возвращая новый <code>XMVECTOR</code> экземпляр, содержащий результат. <br/>
-<blockquote>
-[!Note]<br />
-Этот оператор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/previous-versions/windows/desktop/legacy/ee421380(v=vs.85)"><strong>КСМВЕКТОР:: operator/(КСМВЕКТОР, КСМВЕКТОР)</strong></a></td>
-<td style="text-align: left;">Делит один экземпляр <code>XMVECTOR</code> на второй экземпляр, возвращая результат в третьем экземпляре. <br/> <code>operator /</code>Компонент делит все компоненты экземпляра <a href="xmvector-data-type.md"><strong>типа данных ксмвектор</strong></a> на соответствующий компонент во втором экземпляре <code>XMVECTOR</code> , возвращая новый <code>XMVECTOR</code> экземпляр, содержащий результат. <br/>
-<blockquote>
-[!Note]<br />
-Этот оператор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Оператор | Описание | 
+|----------|-------------|
+| <a href="/previous-versions/windows/desktop/legacy/ee421381(v=vs.85)"><strong>КСМВЕКТОР:: operator/(КСМВЕКТОР, float)</strong></a> | Делит <code>XMVECTOR</code> экземпляр на значение с плавающей запятой, возвращая результат в новый экземпляр <code>XMVECTOR</code> . <br /> <code>operator /</code>Разделяет каждый компонент экземпляра <a href="xmvector-data-type.md"><strong>типа данных ксмвектор</strong></a> на значение с плавающей запятой, возвращая новый <code>XMVECTOR</code> экземпляр, содержащий результат. <br /><blockquote>[!Note]<br />Этот оператор доступен только в C++.</blockquote><br /> | 
+| <a href="/previous-versions/windows/desktop/legacy/ee421380(v=vs.85)"><strong>КСМВЕКТОР:: operator/(КСМВЕКТОР, КСМВЕКТОР)</strong></a> | Делит один экземпляр <code>XMVECTOR</code> на второй экземпляр, возвращая результат в третьем экземпляре. <br /> <code>operator /</code>Компонент делит все компоненты экземпляра <a href="xmvector-data-type.md"><strong>типа данных ксмвектор</strong></a> на соответствующий компонент во втором экземпляре <code>XMVECTOR</code> , возвращая новый <code>XMVECTOR</code> экземпляр, содержащий результат. <br /><blockquote>[!Note]<br />Этот оператор доступен только в C++.</blockquote><br /> | 
 
 
 
-## <a name="see-also"></a>См. также раздел
+
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

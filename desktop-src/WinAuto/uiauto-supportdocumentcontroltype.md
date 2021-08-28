@@ -21,12 +21,12 @@ keywords:
 - типы элементов управления, документ
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af0dffa06939ce3a35570d22334b75f5c60360800dedc080d92dafc1c5a40a8b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0cb068e5b2d69c3b7ac180b65436888ca550b1db
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119899504"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467801"
 ---
 # <a name="document-control-type"></a>Тип элемента управления документом
 
@@ -50,34 +50,11 @@ ms.locfileid: "119899504"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Представление элемента управления</th>
-<th>Представление содержимого</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Документ
-<ul>
-<li>Различается</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Документ
-<ul>
-<li>Различается</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Представление элемента управления | Представление содержимого | 
+|--------------|--------------|
+| <ul><li>Документ<ul><li>Различается</li></ul></li></ul> | <ul><li>Документ<ul><li>Различается</li></ul></li></ul> | 
+
 
 
 

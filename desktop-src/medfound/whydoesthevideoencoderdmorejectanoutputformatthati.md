@@ -4,12 +4,12 @@ ms.assetid: f0747450-d224-423a-a9f1-04580df8a17e
 title: Почему видеокодировщик отклоняет выходной формат, который я пытаюсь задать, при извлечении формата из того же объекта?
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 680908ec814fe322585c1ac97d3bb79deddaf034
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec2e744285140df13a9aa251983ab801033c481d1452029c955ee3a39235fcea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112894"
 ---
 # <a name="why-does-the-video-encoder-reject-an-output-format-that-i-try-to-set-when-i-retrieved-the-format-from-the-same-object"></a>Почему видеокодировщик отклоняет выходной формат, который я пытаюсь задать, при извлечении формата из того же объекта?
 
@@ -17,7 +17,7 @@ ms.locfileid: "104080565"
 
 После того как все параметры будут заданы нужным образом, необходимо получить частные данные кодека и добавить их в структуру **видеоинфохеадер** . Дополнительные сведения см. [в разделе Использование частных данных видеокодека](usingvideocodecprivatedata.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

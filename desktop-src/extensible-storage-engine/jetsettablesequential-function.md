@@ -18,23 +18,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b633b348b712e446535054c5a39d2768236b7705
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a8b49b112c9566b15226e8ffd52f4240cff2fb8
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105710932"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471720"
 ---
 # <a name="jetsettablesequential-function"></a>Функция Жетсеттаблесекуентиал
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetsettablesequential-function"></a>Функция Жетсеттаблесекуентиал
 
 Функция **жетсеттаблесекуентиал** уведомляет ядро СУБД о том, что приложение сканирует весь текущий индекс, содержащий данный курсор. Следовательно, методы, используемые для доступа к данным индекса, будут настроены таким образом, чтобы сделать этот сценарий максимально быстрым.
 
-**Windows XP:**  **Жетсеттаблесекуентиал** появился в Windows XP.
+**Windows xp:****жетсеттаблесекуентиал** появился в Windows XP.  
 
 ```cpp
     JET_ERR JET_API JetSetTableSequential(
@@ -58,71 +58,27 @@ _**Применимо к:** Windows | Windows Server_
 
 Группа битов, задающих ноль или более следующих параметров.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Значение</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitPrereadForward</p></td>
-<td><p>Этот параметр используется для индексирования в прямом направлении.</p>
-<p><strong>Windows 7:</strong>  <strong>JET_bitPrereadForward</strong> введен в Windows 7.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitPrereadBackward</p></td>
-<td><p>Этот параметр используется для индексации в обратном направлении.</p>
-<p><strong>Windows 7:</strong>  <strong>JET_bitPrereadBackward</strong> введен в Windows 7.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Значение</p> | <p>Значение</p> | 
+|--------------|----------------|
+| <p>JET_bitPrereadForward</p> | <p>Этот параметр используется для индексирования в прямом направлении.</p><p><strong>Windows 7:</strong><strong>JET_bitPrereadForward</strong> введен в Windows 7.  </p> | 
+| <p>JET_bitPrereadBackward</p> | <p>Этот параметр используется для индексации в обратном направлении.</p><p><strong>Windows 7:</strong><strong>JET_bitPrereadBackward</strong> введен в Windows 7.  </p> | 
+
 
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Код возврата</p></th>
-<th><p>Описание</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>Операция не может быть завершена, так как все действия в экземпляре, связанном с сеансом, были заморожены в результате вызова <a href="gg269240(v=exchg.10).md">жетстопсервице</a>.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>Операция не может быть завершена, так как экземпляр, связанный с сеансом, обнаружил неустранимую ошибку, которая требует, чтобы доступ ко всем данным был отозван для защиты целостности этих данных.</p>
-<p><strong>Windows XP:</strong>  Это возвращаемое значение введено в Windows XP.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>Операция не может быть завершена, так как экземпляр, связанный с сеансом, еще не инициализирован.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>Операция не может быть завершена, так как выполняется операция восстановления на экземпляре, связанном с сеансом.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>Не удается выполнить операцию, так как выполняется завершение работы экземпляра, связанного с сеансом.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Код возврата</p> | <p>Описание</p> | 
+|--------------------|--------------------|
+| <p>JET_errClientRequestToStopJetService</p> | <p>Операция не может быть завершена, так как все действия в экземпляре, связанном с сеансом, были заморожены в результате вызова <a href="gg269240(v=exchg.10).md">жетстопсервице</a>.</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>Операция не может быть завершена, так как экземпляр, связанный с сеансом, обнаружил неустранимую ошибку, которая требует, чтобы доступ ко всем данным был отозван для защиты целостности этих данных.</p><p><strong>Windows XP:</strong>  это возвращаемое значение вводится в Windows XP.</p> | 
+| <p>JET_errNotInitialized</p> | <p>Операция не может быть завершена, так как экземпляр, связанный с сеансом, еще не инициализирован.</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>Операция не может быть завершена, так как выполняется операция восстановления на экземпляре, связанном с сеансом.</p> | 
+| <p>JET_errTermInProgress</p> | <p>Не удается выполнить операцию, так как выполняется завершение работы экземпляра, связанного с сеансом.</p> | 
+
 
 
 Если эта функция выполнена, текущий индекс курсора оптимизирован для последовательного просмотра всего индекса. Изменение состояния базы данных не выполняется.
@@ -131,7 +87,7 @@ _**Применимо к:** Windows | Windows Server_
 
 #### <a name="remarks"></a>Комментарии
 
-Если приложению требуется эффективно сканировать известное подмножество индекса, подобная оптимизация также выполняется при каждом создании диапазона индексов с помощью [жетсетиндексранже](./jetsetindexrange-function.md). Эта оптимизация доступна только в Windows XP и более поздних версиях.
+Если приложению требуется эффективно сканировать известное подмножество индекса, подобная оптимизация также выполняется при каждом создании диапазона индексов с помощью [жетсетиндексранже](./jetsetindexrange-function.md). эта оптимизация доступна только в Windows XP и более поздних выпусках.
 
 Если приложению нужно эффективно сканировать неизвестное подмножество индекса, никакие действия не выполняются. Подсистема может автоматически обнаружить поведение при сканировании и будет получать данные заранее. Однако это поведение не так агрессивно.
 
@@ -139,34 +95,9 @@ _**Применимо к:** Windows | Windows Server_
 
 #### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista или Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008 или Windows Server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Библиотека</strong></p></td>
-<td><p>Используйте ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>КОМПОНОВКИ</strong></p></td>
-<td><p>Требуется ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista или Windows XP.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008 или Windows server 2003.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | | <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | | <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | 
+
 
 
 #### <a name="see-also"></a>См. также:

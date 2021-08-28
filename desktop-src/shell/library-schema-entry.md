@@ -4,23 +4,23 @@ ms.assetid: 12F6E6AE-2776-408c-B9AC-E885BE93C27F
 title: Схема описания библиотеки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a6da99820e81c55e5d705c72d4d0509ea271a4a
-ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
+ms.openlocfilehash: 2bfbaa8401468a6bab79cf4bccc5d7d4cd0ff7bb
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113581742"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122879650"
 ---
 # <a name="library-description-schema"></a>Схема описания библиотеки
 
 Файлы описания библиотеки — это XML-файлы, определяющие библиотеки. библиотеки объединяют элементы из локальных и удаленных мест хранения в единое представление в Windows Explorer. Файлы описания библиотеки соответствуют схеме описания библиотеки и сохраняются в \* файлах. Library-MS.
 
-В этом разделе содержатся следующие подразделы.
+Этот раздел состоит из следующих подразделов.
 
 -   [Общие сведения о схеме описания библиотеки](#overview-of-the-library-description-schema)
 -   [Управление версиями пространства имен](#namespace-versioning)
 -   [Пример файла описания библиотеки](#example-of-a-library-description-file)
--   [Связанные разделы](#related-topics)
+-   [См. также](#related-topics)
 
 ## <a name="overview-of-the-library-description-schema"></a>Общие сведения о схеме описания библиотеки
 
@@ -46,7 +46,7 @@ ms.locfileid: "113581742"
 
 Версии формата файла описания библиотеки ( \* . Library-MS) отправляются путем изменения пространства имен. для Windows 7 формат файла имеет следующее пространство имен по умолчанию: https://schemas.microsoft.com/windows/2009/library .
 
-Однако версии содержимого библиотеки отправляются с помощью [<version>](schema-library-version.md) элемента в указанном файле описания библиотеки.
+Однако версии содержимого библиотеки отправляются с помощью элемента [ &lt; Version &gt; ](schema-library-version.md) в конкретном файле описания библиотеки.
 
 ## <a name="example-of-a-library-description-file"></a>Пример файла описания библиотеки
 
@@ -87,7 +87,7 @@ ms.locfileid: "113581742"
 
 
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

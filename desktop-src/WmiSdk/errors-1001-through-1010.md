@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Ошибки с 1001 по 1010
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fac32553e345dfe2f011d6294ff045db58c681b49dc127bd0da8e5afabf0757
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cc5c754936d8900a16b89be1f1137984ee6e7d40
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119411944"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886369"
 ---
 # <a name="errors-1001-through-1010"></a>Ошибки с 1001 по 1010
 
@@ -34,7 +34,7 @@ ms.locfileid: "119411944"
 
 <dl> <dt>
 
-<span id="_1001__Fatal_____fileName___line____SYNTAX_clause_of_OBJECT-TYPE_does_not_resolve_to_allowed_types_"></span><span id="_1001__fatal_____filename___line____syntax_clause_of_object-type_does_not_resolve_to_allowed_types_"></span><span id="_1001__FATAL_____FILENAME___LINE____SYNTAX_CLAUSE_OF_OBJECT-TYPE_DOES_NOT_RESOLVE_TO_ALLOWED_TYPES_"></span><1001, Неустранимая>: " <fileName> : <line \#>: предложение синтаксиса типа Object-Type не разрешается в допустимые типы"
+<span id="_1001__Fatal_____fileName___line____SYNTAX_clause_of_OBJECT-TYPE_does_not_resolve_to_allowed_types_"></span><span id="_1001__fatal_____filename___line____syntax_clause_of_object-type_does_not_resolve_to_allowed_types_"></span><span id="_1001__FATAL_____FILENAME___LINE____SYNTAX_CLAUSE_OF_OBJECT-TYPE_DOES_NOT_RESOLVE_TO_ALLOWED_TYPES_"></span><1001, Неустранимая>: " &lt; имя_файла &gt; : <Line \#>: предложение синтаксиса типа Object-Type не разрешается в допустимые типы"
 </dt> <dd>
 
 Семантическая ошибка модуля вызова макроса типа объекта. Предложение СИНТАКСИСа макроса типа OBJECT-TYPE должно разрешаться в тип или подтип, сформированный с помощью спецификации SIZE или Range, которую разрешает SMI или SNMPv2C. Если это не так, то сообщается о неустранимой ошибке 1001.
@@ -50,7 +50,7 @@ ms.locfileid: "119411944"
 -   NetworkAddress
 -   IPAddress
 -   Счетчик
--   Индикаторная диаграмма
+-   Датчик
 -   Значение TIMETICKS
 -   Непрозрачный
 -   DisplayString
@@ -92,7 +92,7 @@ ms.locfileid: "119411944"
 
 <dl> <dt>
 
-<span id="_1002__Fatal_____fileName___line____Invalid_ACCESS_clause__clause__"></span><span id="_1002__fatal_____filename___line____invalid_access_clause__clause__"></span><span id="_1002__FATAL_____FILENAME___LINE____INVALID_ACCESS_CLAUSE__CLAUSE__"></span><1002, Неустранимая>: " <fileName> : <line \#>: Недопустимое предложение доступа <clause> "
+<span id="_1002__Fatal_____fileName___line____Invalid_ACCESS_clause__clause__"></span><span id="_1002__fatal_____filename___line____invalid_access_clause__clause__"></span><span id="_1002__FATAL_____FILENAME___LINE____INVALID_ACCESS_CLAUSE__CLAUSE__"></span><1002, Неустранимая>: " &lt; имя файла &gt; : <строка \#>: недопустимое &lt; предложение доступа &gt; "
 </dt> <dd>
 
 Семантическая ошибка модуля вызова макроса типа объекта. В версии в версии с параметром "макрос" должен быть предложен доступ только для чтения, "только запись", "чтение/запись" или "недоступно".
@@ -105,7 +105,7 @@ ms.locfileid: "119411944"
 
 <dl> <dt>
 
-<span id="_1003__Fatal_____fileName___line____Invalid_STATUS_clause__clause__"></span><span id="_1003__fatal_____filename___line____invalid_status_clause__clause__"></span><span id="_1003__FATAL_____FILENAME___LINE____INVALID_STATUS_CLAUSE__CLAUSE__"></span><1003, Неустранимая>: " <fileName> : <line \#>: Недопустимое предложение состояния <clause> "
+<span id="_1003__Fatal_____fileName___line____Invalid_STATUS_clause__clause__"></span><span id="_1003__fatal_____filename___line____invalid_status_clause__clause__"></span><span id="_1003__FATAL_____FILENAME___LINE____INVALID_STATUS_CLAUSE__CLAUSE__"></span><1003, Неустранимая>: " &lt; имя файла &gt; : <строка \#>: Недопустимое предложение с состоянием &lt; &gt; "
 </dt> <dd>
 
 Семантическая ошибка модуля вызова макроса типа объекта. В версии с параметром STATUS в качестве условия вызова макроса типа OBJECT должен быть "обязательный", "необязательный", "устаревший" или "устаревший".
@@ -118,7 +118,7 @@ ms.locfileid: "119411944"
 
 <dl> <dt>
 
-<span id="_1004__Warning_____fileName___line____OBJECT-TYPE__identifier___whose_syntax_resolves_to_one_of_the_Counter_types_does_not_end_with_the_letter__s___"></span><span id="_1004__warning_____filename___line____object-type__identifier___whose_syntax_resolves_to_one_of_the_counter_types_does_not_end_with_the_letter__s___"></span><span id="_1004__WARNING_____FILENAME___LINE____OBJECT-TYPE__IDENTIFIER___WHOSE_SYNTAX_RESOLVES_TO_ONE_OF_THE_COUNTER_TYPES_DOES_NOT_END_WITH_THE_LETTER__S___"></span><1004, Warning>: " <fileName> : <line \#>: Object-Type <identifier> , синтаксис которого разрешается в один из типов счетчиков, не заканчивается буквой" "
+<span id="_1004__Warning_____fileName___line____OBJECT-TYPE__identifier___whose_syntax_resolves_to_one_of_the_Counter_types_does_not_end_with_the_letter__s___"></span><span id="_1004__warning_____filename___line____object-type__identifier___whose_syntax_resolves_to_one_of_the_counter_types_does_not_end_with_the_letter__s___"></span><span id="_1004__WARNING_____FILENAME___LINE____OBJECT-TYPE__IDENTIFIER___WHOSE_SYNTAX_RESOLVES_TO_ONE_OF_THE_COUNTER_TYPES_DOES_NOT_END_WITH_THE_LETTER__S___"></span><1004, предупреждение>: " &lt; имя_файла &gt; : <Line \#>: идентификатор типа объекта &lt; &gt; , синтаксис которого разрешается в один из типов счетчиков не заканчивается буквой" "
 </dt> <dd>
 
 Тип объекта — семантическое предупреждение модуля вызова макроса. Идентификатор объекта счетчика СИНТАКСИСа (в версии/с) или Counter32 и Counter64 (SNMPv2C) должен быть во множественном числе.
@@ -131,7 +131,7 @@ ms.locfileid: "119411944"
 
 <dl> <dt>
 
-<span id="_1005__Warning_____fileName___line____OBJECT-TYPE_with_SYNTAX__SEQUENCE_OF___should_have_an_ACCESS_clause__not-accessible_"></span><span id="_1005__warning_____filename___line____object-type_with_syntax__sequence_of___should_have_an_access_clause__not-accessible_"></span><span id="_1005__WARNING_____FILENAME___LINE____OBJECT-TYPE_WITH_SYNTAX__SEQUENCE_OF___SHOULD_HAVE_AN_ACCESS_CLAUSE__NOT-ACCESSIBLE_"></span><1005, предупреждение>: " <fileName> : <строка \#>: объект-Type с синтаксисом" Sequence ", должен иметь предложение доступа" недоступно "
+<span id="_1005__Warning_____fileName___line____OBJECT-TYPE_with_SYNTAX__SEQUENCE_OF___should_have_an_ACCESS_clause__not-accessible_"></span><span id="_1005__warning_____filename___line____object-type_with_syntax__sequence_of___should_have_an_access_clause__not-accessible_"></span><span id="_1005__WARNING_____FILENAME___LINE____OBJECT-TYPE_WITH_SYNTAX__SEQUENCE_OF___SHOULD_HAVE_AN_ACCESS_CLAUSE__NOT-ACCESSIBLE_"></span><1005, предупреждение>: " &lt; имя_файла &gt; : <строка \#>: объект-Type с синтаксисом" Sequence ", должен иметь предложение доступа" недоступно "
 </dt> <dd>
 
 Тип объекта — семантическое предупреждение модуля вызова макроса. Таблица или концептуальная строка (последовательность или типы объектов последовательности, соответственно) должны иметь значение "недоступно".
@@ -144,7 +144,7 @@ ms.locfileid: "119411944"
 
 <dl> <dt>
 
-<span id="_1006__Fatal_____fileName___line___OBJECT-TYPE__identifier___which_is_of_SYNTAX_SEQUENCE__does_not_have_an_INDEX_or_AUGMENTS_clause_"></span><span id="_1006__fatal_____filename___line___object-type__identifier___which_is_of_syntax_sequence__does_not_have_an_index_or_augments_clause_"></span><span id="_1006__FATAL_____FILENAME___LINE___OBJECT-TYPE__IDENTIFIER___WHICH_IS_OF_SYNTAX_SEQUENCE__DOES_NOT_HAVE_AN_INDEX_OR_AUGMENTS_CLAUSE_"></span><1006, Неустранимая>: " <fileName> : <строка \#> объектный тип <identifier> , который имеет синтаксическую последовательность, не имеет предложения index или дополнения"
+<span id="_1006__Fatal_____fileName___line___OBJECT-TYPE__identifier___which_is_of_SYNTAX_SEQUENCE__does_not_have_an_INDEX_or_AUGMENTS_clause_"></span><span id="_1006__fatal_____filename___line___object-type__identifier___which_is_of_syntax_sequence__does_not_have_an_index_or_augments_clause_"></span><span id="_1006__FATAL_____FILENAME___LINE___OBJECT-TYPE__IDENTIFIER___WHICH_IS_OF_SYNTAX_SEQUENCE__DOES_NOT_HAVE_AN_INDEX_OR_AUGMENTS_CLAUSE_"></span><1006, Неустранимая>: " &lt; имя_файла &gt; : <строка \#> идентификатор типа объекта &lt; &gt; , который является синтаксической последовательностью, не имеет предложения index или дополнения"
 </dt> <dd>
 
 Семантическая ошибка модуля вызова макроса типа объекта. В настоящее время для определения типа объекта должно присутствовать предложение INDEX, синтаксис которого разрешается в тип последовательности.
@@ -157,7 +157,7 @@ ms.locfileid: "119411944"
 
 <dl> <dt>
 
-<span id="_1008__Fatal_____fileName___line____OBJECT-TYPE__identifier___which_is_of_SYNTAX__SEQUENCE__has_not_been_referenced_"></span><span id="_1008__fatal_____filename___line____object-type__identifier___which_is_of_syntax__sequence__has_not_been_referenced_"></span><span id="_1008__FATAL_____FILENAME___LINE____OBJECT-TYPE__IDENTIFIER___WHICH_IS_OF_SYNTAX__SEQUENCE__HAS_NOT_BEEN_REFERENCED_"></span><1008, Неустранимая>: " <fileName> : <line \#>: объект-Type <identifier> , который имеет синтаксис" Sequence ", не был указан"
+<span id="_1008__Fatal_____fileName___line____OBJECT-TYPE__identifier___which_is_of_SYNTAX__SEQUENCE__has_not_been_referenced_"></span><span id="_1008__fatal_____filename___line____object-type__identifier___which_is_of_syntax__sequence__has_not_been_referenced_"></span><span id="_1008__FATAL_____FILENAME___LINE____OBJECT-TYPE__IDENTIFIER___WHICH_IS_OF_SYNTAX__SEQUENCE__HAS_NOT_BEEN_REFERENCED_"></span><1008, Неустранимая>: " &lt; имя_файла &gt; : <строка \#>: идентификатор типа объекта &lt; &gt; , который является синтаксисом" Sequence ", не упоминается"
 </dt> <dd>
 
 Семантическая ошибка модуля вызова макроса типа объекта. ОБЪЕКТный тип с предложением СИНТАКСИСа в качестве типа последовательности должен быть представлен в предложении СИНТАКСИСа только одного вызова типа объекта, который означает объявление таблицы, то есть объект с предложением СИНТАКСИСа в виде последовательности типа. Параметр <Line \#> ссылается на вторую точку ссылки.

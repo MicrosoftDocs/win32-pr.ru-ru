@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8d6adf90de2f3b199f98737996fe732f342787b6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 46584659fbd14bc26981e220798a91c03e960e1f
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135415"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886414"
 ---
 # <a name="startboundary-triggerbasetype-element"></a>Стартбаундари (Тригжербасетипе), элемент
 
@@ -50,7 +50,7 @@ ms.locfileid: "104135415"
 
 ## <a name="remarks"></a>Комментарии
 
-**<StartBoundary>** Элемент является обязательным элементом для триггеров времени и календаря ( [**<TimeTrigger>**](taskschedulerschema-timetrigger-triggergroup-element.md) и [**<CalendarTrigger>**](taskschedulerschema-calendartrigger-triggergroup-element.md) ).
+Элемент **&lt; стартбаундари &gt;** является обязательным элементом для триггеров времени и календаря ([**&lt; тиметригжер &gt;**](taskschedulerschema-timetrigger-triggergroup-element.md) и [**&lt; календартригжер &gt;**](taskschedulerschema-calendartrigger-triggergroup-element.md)).
 
 Для разработки сценариев конечная граница указывается с помощью свойства [**Trigger. стартбаундари**](trigger-startboundary.md) , наследуемого всеми объектами триггера.
 
@@ -80,8 +80,8 @@ ms.locfileid: "104135415"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

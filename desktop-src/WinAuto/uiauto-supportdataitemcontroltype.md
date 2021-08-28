@@ -24,12 +24,12 @@ keywords:
 - типы элементов управления, DataItem
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5ec4612b43855578256d52bf6647b105ea666882cfe2f72dcdbf355559a7e5e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 49840dbe2aeed9200ebf02b80e270cd8fa3e0747
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118826323"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468191"
 ---
 # <a name="dataitem-control-type"></a>Тип элемента управления DataItem
 
@@ -55,34 +55,11 @@ ms.locfileid: "118826323"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Представление элемента управления</th>
-<th>Представление содержимого</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>DataItem
-<ul>
-<li>Изменяется (0 и более; возможна иерархическая структуризация)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>DataItem
-<ul>
-<li>Изменяется (0 и более; возможна иерархическая структуризация)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Представление элемента управления | Представление содержимого | 
+|--------------|--------------|
+| <ul><li>DataItem<ul><li>Изменяется (0 и более; возможна иерархическая структуризация)</li></ul></li></ul> | <ul><li>DataItem<ul><li>Изменяется (0 и более; возможна иерархическая структуризация)</li></ul></li></ul> | 
+
 
 
 
@@ -178,54 +155,11 @@ ms.locfileid: "118826323"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Дерево модели автоматизации пользовательского интерфейса — представление элемента управления</th>
-<th>Дерево модели автоматизации пользовательского интерфейса — представление содержимого</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Группа &quot; contoso &quot; (таблица, сетка)
-<ul>
-<li>&quot;Receivable.docучетных записей DataItem &quot; (TableItem, GridItem, SelectionItem, Invoke)
-<ul>
-<li>&quot;Учетные записи изображений Receivable.doc&quot;</li>
-<li>Изменить &quot; имя &quot; (TableItem, GridItem, &quot; учетные записи Receivable.doc&quot; )</li>
-<li>Изменение &quot; даты изменения &quot; (TableItem, GridItem, value &quot; 8/25/2006 3:29 PM &quot; )</li>
-<li>Изменение &quot; размера &quot; (GridItem, TableItem, value &quot; 11,0 КБ &quot; )</li>
-</ul></li>
-<li>&quot;Payable.docучетных записей DataItem &quot; (TableItem, GridItem, SelectionItem, Invoke)
-<ul>
-<li>...</li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Группа &quot; contoso &quot; (таблица, сетка)
-<ul>
-<li>&quot;Receivable.docучетных записей DataItem &quot; (TableItem, GridItem, SelectionItem, Invoke)
-<ul>
-<li>&quot;Учетные записи изображений Receivable.doc&quot;</li>
-<li>Изменить &quot; имя &quot; (TableItem, GridItem, &quot; учетные записи Receivable.doc&quot; )</li>
-<li>Изменение &quot; даты изменения &quot; (TableItem, GridItem, value &quot; 8/25/2006 3:29 PM &quot; )</li>
-<li>Изменение &quot; размера &quot; (GridItem, TableItem, value &quot; 11,0 КБ &quot; )</li>
-</ul></li>
-<li>&quot;Payable.docучетных записей DataItem &quot; (TableItem, GridItem, SelectionItem, Invoke)
-<ul>
-<li>...</li>
-</ul></li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Дерево модели автоматизации пользовательского интерфейса — представление элемента управления | Дерево модели автоматизации пользовательского интерфейса — представление содержимого | 
+|-----------------------------------|-----------------------------------|
+| <ul><li>Group "Contoso" (Table, Grid)<ul><li>DataItem "Accounts Receivable.doc" (TableItem, GridItem, SelectionItem, Invoke)<ul><li>Image "Accounts Receivable.doc"</li><li>Edit "Name" (TableItem, GridItem, Value "Accounts Receivable.doc")</li><li>Edit "Date modified" (TableItem, GridItem, Value "8/25/2006 3:29 PM")</li><li>Изменить "размер" (GridItem, TableItem, value "11,0 КБ")</li></ul></li><li>DataItem "Accounts Payable.doc" (TableItem, GridItem, SelectionItem, Invoke)<ul><li>...</li></ul></li></ul></li></ul> | <ul><li>Group "Contoso" (Table, Grid)<ul><li>DataItem "Accounts Receivable.doc" (TableItem, GridItem, SelectionItem, Invoke)<ul><li>Image "Accounts Receivable.doc"</li><li>Edit "Name" (TableItem, GridItem, Value "Accounts Receivable.doc")</li><li>Edit "Date modified" (TableItem, GridItem, Value "8/25/2006 3:29 PM")</li><li>Изменить "размер" (GridItem, TableItem, value "11,0 КБ")</li></ul></li><li>DataItem "Accounts Payable.doc" (TableItem, GridItem, SelectionItem, Invoke)<ul><li>...</li></ul></li></ul></li></ul> | 
+
 
 
 

@@ -17,18 +17,18 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 334c63bbe811a885ea40b2bf06722003c8ddabc5
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 676e64b816d018e574b3ce218155290c21f7ae01
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122623580"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786550"
 ---
 # <a name="span-idvspixengineipipelinestagesrequest2spanipipelinestagesrequest2-interface"></a><span id="vspixengine.ipipelinestagesrequest2"></span>Интерфейс IPipeLineStagesRequest2
 
 Не используется. Ранее он запрашивает данные о стадиях конвейера.
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Элементы
 
 Интерфейс **IPipeLineStagesRequest2** наследует от интерфейса [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) . **IPipeLineStagesRequest2** также имеет следующие типы членов:
 
@@ -38,7 +38,7 @@ ms.locfileid: "122623580"
 
 Интерфейс **IPipeLineStagesRequest2** содержит следующие методы.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Метод</th><th style="text-align: left;">Описание</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipipelinestagesrequest2-requestcomputeshaderdataasync-eventid-ipipelinestagescallback2-ptr-dword-dword"><strong>рекуесткомпутешадердатаасинк</strong></a></td><td style="text-align: left;"><p>Асинхронный запрос на получение данных шейдера вычислений для указанной диспетчеризации.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipipelinestagesrequest2-requestcomputeshaderstageasync-dword-eventid-ipipelinestagescallback-ptr-dword-dword"><strong>рекуесткомпутешадерстажеасинк</strong></a></td><td style="text-align: left;"><p>Асинхронный запрос, получающий, использовался ли этап шейдера вычислений для указанного фрейма и события.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Метод</th><th >Описание</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/ipipelinestagesrequest2-requestcomputeshaderdataasync-eventid-ipipelinestagescallback2-ptr-dword-dword"><strong>рекуесткомпутешадердатаасинк</strong></a></td><td ><p>Асинхронный запрос на получение данных шейдера вычислений для указанной диспетчеризации.</p></td></tr><tr class="even"><td ><a href="/windows/desktop/direct3dtools/ipipelinestagesrequest2-requestcomputeshaderstageasync-dword-eventid-ipipelinestagescallback-ptr-dword-dword"><strong>рекуесткомпутешадерстажеасинк</strong></a></td><td ><p>Асинхронный запрос, получающий, использовался ли этап шейдера вычислений для указанного фрейма и события.</p></td></tr></tbody></table>
 
  
 

@@ -1,21 +1,21 @@
 ---
-title: Элемент TEXT (пакет SDK для проигрывателя Windows Media)
+title: элемент TEXT (проигрыватель Windows Media SDK)
 description: TEXT, элемент
 ms.assetid: 4523fe7a-a77a-4bf2-9195-3943bff0eb21
 keywords:
-- Обложки проигрывателя Windows Media, текстовый элемент
+- обложки проигрыватель Windows Media, текстовый элемент
 - обложки, текстовый элемент
 - TEXT, элемент
 - Справочник по обложек, ТЕКСТОВОМу элементу
 - элементы, текст
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: acdad737fda44cc0e090eb13fb20c765b447ccbd
-ms.sourcegitcommit: 40a1246849dba8ececf54c716b2794b99c96ad50
+ms.openlocfilehash: 333c0d30393ef4fdeb62061ee58b0c7bd2f3f58bd685945e62c0e8062f22d881
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "104335427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122854"
 ---
 # <a name="text-element"></a>TEXT, элемент
 
@@ -52,7 +52,7 @@ ms.locfileid: "104335427"
 
 
 
- 
+ 
 
 **Текстовый** элемент поддерживает атрибуты окружения и может реализовывать обработчики событий окружения. Дополнительные сведения см. в разделе [атрибуты окружения](ambient-attributes.md) и [обработчики событий окружения](ambient-event-handlers.md).
 
@@ -69,18 +69,18 @@ ms.locfileid: "104335427"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Справочник по программированию для обложки**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

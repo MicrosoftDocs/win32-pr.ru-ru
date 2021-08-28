@@ -16,12 +16,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 8ec231b5d7e2769d86262864e0b9a53621c36a99
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa14cd19e5502c227d1f7f0814966959680dfe20
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719335"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624120"
 ---
 # <a name="span-idwwan_profile_v4element_contextspanmbnprofileextcontext-v4"></a><span id="WWAN_profile_v4.element_Context"></span>\/Контекст мбнпрофиликст (v4)
 
@@ -58,19 +58,19 @@ ms.locfileid: "105719335"
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Атрибуты
 
-Нет.
+Отсутствует.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Дочерние элементы
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Дочерний элемент</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>
@@ -103,7 +103,7 @@ ms.locfileid: "105719335"
 </thead>
 <tbody>
 <tr class="odd">
-<td>Значение по умолчанию</td>
+<td>По умолчанию</td>
 <td>Тип IP-адреса должен быть выбран более низкими слоями</td>
 </tr>
 <tr class="even">
@@ -111,7 +111,7 @@ ms.locfileid: "105719335"
 <td>Использовать IPv4</td>
 </tr>
 <tr class="odd">
-<td>IPv6;</td>
+<td>IPv6</td>
 <td>использовать IPv6</td>
 </tr>
 <tr class="even">
@@ -139,13 +139,13 @@ ms.locfileid: "105719335"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Родительский элемент</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>
@@ -167,8 +167,8 @@ ms.locfileid: "105719335"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
