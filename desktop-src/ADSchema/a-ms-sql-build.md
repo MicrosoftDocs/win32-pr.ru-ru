@@ -4,8 +4,8 @@ description: Текущая версия, включая номер сборки
 ms.assetid: 230ef785-b5bf-44fa-a166-38050934143a
 ms.tgt_platform: multiple
 keywords:
-- Схема AD атрибута сборки MS-SQL
-- Схема AD атрибута сборки mS-SQL
+- схема AD атрибута сборки MS-SQL
+- схема AD атрибута сборки mS-SQL
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f70b9c9df99de71712c027d97634800d8a7af0d8
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 034ed191fa5eeefc44d7778a0504f067e0a3f0379a37c1a69c7624cd37a3715d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118016541"
 ---
 # <a name="ms-sql-build-attribute"></a>MS-SQL-атрибут сборки
 
@@ -29,8 +29,8 @@ ms.locfileid: "104138234"
 
 | Ввод | Значение |
 |-------------------|--------------------------------------|
-| CN                | MS-SQL-Build                         |
-| LDAP-отображаемое имя | mS-SQL-Build                         |
+| CN                | MS-SQL — сборка                         |
+| LDAP-отображаемое имя | mS-SQL — сборка                         |
 | Размер              | \-                                   |
 | Привилегия обновления  | Это значение задается системой.     |
 | Частота обновления  | При запуске системы.                   |
@@ -66,7 +66,7 @@ ms.locfileid: "104138234"
 | Range-Upper            | \-                                                                                                                                                                                      |
 | Search-Flags           | 0x00000000                                                                                                                                                                              |
 | System-Flags           | 0x00000010                                                                                                                                                                              |
-| Классы, используемые в        | [**MS-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> [**MS-SQL-OLAPServer**](c-ms-sql-olapserver.md)<br/> [**MS-SQL-Склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> [**MS-SQL-OLAPServer**](c-ms-sql-olapserver.md)<br/> [**MS-SQL-склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
 
 
 
@@ -87,7 +87,7 @@ ms.locfileid: "104138234"
 | Range-Upper            | \-                                                                                                                                                                                      |
 | Search-Flags           | 0x00000000                                                                                                                                                                              |
 | System-Flags           | 0x00000010                                                                                                                                                                              |
-| Классы, используемые в        | [**MS-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> [**MS-SQL-OLAPServer**](c-ms-sql-olapserver.md)<br/> [**MS-SQL-Склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> [**MS-SQL-OLAPServer**](c-ms-sql-olapserver.md)<br/> [**MS-SQL-склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
 
 
 
@@ -108,7 +108,7 @@ ms.locfileid: "104138234"
 | Range-Upper            | \-                                                                                                                                                                                      |
 | Search-Flags           | 0x00000000                                                                                                                                                                              |
 | System-Flags           | 0x00000010                                                                                                                                                                              |
-| Классы, используемые в        | [**MS-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> [**MS-SQL-OLAPServer**](c-ms-sql-olapserver.md)<br/> [**MS-SQL-Склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> [**MS-SQL-OLAPServer**](c-ms-sql-olapserver.md)<br/> [**MS-SQL-склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
 
 
 
@@ -129,7 +129,7 @@ ms.locfileid: "104138234"
 | Range-Upper            | \-                                                                                                                                                                                      |
 | Search-Flags           | 0x00000000                                                                                                                                                                              |
 | System-Flags           | 0x00000010                                                                                                                                                                              |
-| Классы, используемые в        | [**MS-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> [**MS-SQL-OLAPServer**](c-ms-sql-olapserver.md)<br/> [**MS-SQL-Склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> [**MS-SQL-OLAPServer**](c-ms-sql-olapserver.md)<br/> [**MS-SQL-склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
 
 
 
@@ -150,7 +150,7 @@ ms.locfileid: "104138234"
 | Range-Upper            | \-                                                                                                                                                                                      |
 | Search-Flags           | 0x00000000                                                                                                                                                                              |
 | System-Flags           | 0x00000010                                                                                                                                                                              |
-| Классы, используемые в        | [**MS-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> [**MS-SQL-OLAPServer**](c-ms-sql-olapserver.md)<br/> [**MS-SQL-Склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> [**MS-SQL-OLAPServer**](c-ms-sql-olapserver.md)<br/> [**MS-SQL-склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
 
 
 
@@ -171,7 +171,7 @@ ms.locfileid: "104138234"
 | Range-Upper            | \-                                                                                                                                                                                      |
 | Search-Flags           | 0x00000000                                                                                                                                                                              |
 | System-Flags           | 0x00000010                                                                                                                                                                              |
-| Классы, используемые в        | [**MS-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> [**MS-SQL-OLAPServer**](c-ms-sql-olapserver.md)<br/> [**MS-SQL-Склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> [**MS-SQL-OLAPServer**](c-ms-sql-olapserver.md)<br/> [**MS-SQL-склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 9da6130f-c064-4b6b-b0ab-ba99118fd249
 title: Свойство Авенкмпвкуантматриксчромаинтра (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7253a3064acbff74ce22134a40a52d87c78113a5
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 180cfe120b1984c5149d8c670a11203b86d8809fbd04b54971a2a690a496ddcb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104139443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118159495"
 ---
 # <a name="avencmpvquantmatrixchromaintra-property"></a>Авенкмпвкуантматриксчромаинтра, свойство
 
@@ -29,19 +29,19 @@ ms.locfileid: "104139443"
 
 Значением этого свойства является строка, содержащая 64 8-разрядные коэффициенты, закодированные в виде строки шестнадцатеричных значений (128 символов).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

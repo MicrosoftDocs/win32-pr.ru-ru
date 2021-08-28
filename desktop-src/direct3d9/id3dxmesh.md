@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 9c2a677edba4bad5e908b6dd69aa21a467b2a245
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3e6617287a9465384b3c260aebe384f4764bbd0f41a673408f48d36c450597f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119629474"
 ---
 # <a name="id3dxmesh-interface"></a>Интерфейс ID3DXMesh
 
@@ -40,7 +40,7 @@ ms.locfileid: "104355713"
 | Метод                                                            | Описание                                                                                                                            |
 |:------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------|
 | [**локкаттрибутебуффер**](id3dxmesh--lockattributebuffer.md)     | Блокирует буфер сетки, содержащий данные атрибута сетки, и возвращает указатель на него.<br/>                                   |
-| [**Увеличить**](id3dxmesh--optimize.md)                           | Создает новую сетку с переупорядоченными лицами и вершинами для оптимизации производительности рисования.<br/>                                     |
+| [**Оптимизация**](id3dxmesh--optimize.md)                           | Создает новую сетку с переупорядоченными лицами и вершинами для оптимизации производительности рисования.<br/>                                     |
 | [**оптимизеинплаце**](id3dxmesh--optimizeinplace.md)             | Создает сетку с переупорядоченными лицами и вершинами для оптимизации производительности рисования. Этот метод переупорядочивает существующую сетку.<br/> |
 | [**сетаттрибутетабле**](id3dxmesh--setattributetable.md)         | Задает таблицу атрибутов для сетки и число записей, хранящихся в таблице.<br/>                                          |
 | [**унлоккаттрибутебуффер**](id3dxmesh--unlockattributebuffer.md) | Разблокирует буфер атрибута.<br/>                                                                                                |
@@ -49,7 +49,7 @@ ms.locfileid: "104355713"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы получить интерфейс **ID3DXMesh** , вызовите функцию [**D3DXCreateMesh**](d3dxcreatemesh.md) или [**D3DXCreateMeshFVF**](d3dxcreatemeshfvf.md) .
 
@@ -64,18 +64,18 @@ typedef struct ID3DXMesh *LPD3DXMESH;
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

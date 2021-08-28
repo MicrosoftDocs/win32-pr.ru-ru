@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 9b1d16ba2a29d42614c388a6207503ad32dd5e0f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0b686a0e279a16650a976920ee812b23cfe0345409926fd6c02166cdb4572235
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070064"
 ---
 # <a name="d3dxplanetransform-function-d3dx10mathh"></a>Функция D3DXPlaneTransform (D3DX10Math. h)
 
@@ -100,13 +100,13 @@ D3DXPlaneTransform(&planeNew, &plane, &matrix);
 
 Параметр pM содержит обратную трансформацию матрицы преобразования. Обратная перестановка необходима этому методу, чтобы правильно преобразовать стандартный вектор преобразованной плоскости.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10Math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX10Math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl>   |
 
 

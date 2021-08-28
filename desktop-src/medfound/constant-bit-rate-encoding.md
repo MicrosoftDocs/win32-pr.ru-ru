@@ -4,12 +4,12 @@ ms.assetid: 0f084f3f-7432-4514-ae6a-c8179a99dec7
 title: Кодирование постоянной скорости потока
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bea372a12d03a962f08e449bd707654391a2313b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5318cbf6d1a0b9c635fcd8313589581839fe74c7402411d59a1b5dfbdb55739d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974833"
 ---
 # <a name="constant-bit-rate-encoding"></a>Кодирование постоянной скорости потока
 
@@ -22,7 +22,7 @@ ms.locfileid: "103990839"
 Как правило, вариации в качестве файла CBR более производятся с более низкими скоростями. При более высоких скоростях качество файла с CBR по-прежнему будет отличаться, но проблемы с качеством будут менее заметны для пользователя. При использовании кодировки CBR следует задать высокую пропускную способность так, как это разрешено в сценарии доставки.
 
 -   [Параметры конфигурации CBR](#cbr-configuration-settings)
--   [Параметры неутечек сегментов](#leaky-bucket-settings)
+-   [Параметры сегментов утечки](#leaky-bucket-settings)
 
 ### <a name="cbr-configuration-settings"></a>Параметры конфигурации CBR
 
@@ -173,7 +173,7 @@ done:
 
 
 
-### <a name="leaky-bucket-settings"></a>Параметры неутечек сегментов
+### <a name="leaky-bucket-settings"></a>Параметры сегментов утечки
 
 Для кодировки CBR среднее и максимальное значения сегмента утечки для потока одинаковы. Дополнительные сведения об этих параметрах см. [в разделе Модель буфера для сегмента утечки](the-leaky-bucket-buffer-model.md).
 
@@ -185,14 +185,14 @@ done:
 -   Окно буфера. запросите кодировщик для интерфейса [**ивмкодеклеакибуккет**](/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecleakybucket) , а затем вызовите [**Ивмкодеклеакибуккет:: жетбуфферсизебитс**](../wmformat/iwmcodecleakybucket-getbuffersizebits.md) (вмкодеЦифацес. h, вмкодекдспууид. lib).
 -   Начальный размер буфера: значение 0.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Типы кодирования ASF](asf-encoding-types.md)
 </dt> <dt>
 
-[Учебник. 1. Передача кодирования мультимедиа Windows](tutorial--1-pass-windows-media-encoding.md)
+[учебник. 1. передача Windowsного кодирования мультимедиа](tutorial--1-pass-windows-media-encoding.md)
 </dt> <dt>
 
 [Руководство. запись файла WMA с помощью CBR Encoding](tutorial--writing-a-wma-file-by-using-cbr-encoding.md)

@@ -3,7 +3,7 @@ title: Сообщение PBM_SETRANGE32 (Коммктрл. h)
 description: Устанавливает минимальное и максимальное значения для индикатора выполнения до 32-битных значений и перерисовывает линию для отражения нового диапазона.
 ms.assetid: 7958ea14-17b4-4c0e-97ec-b09fa0d36e8b
 keywords:
-- Элементы управления Windows для PBM_SETRANGE32 сообщений
+- элементы управления Windows сообщений PBM_SETRANGE32
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 55fcf91c794ec9ae3880d67f8df947f87fec413d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f8e29022b4b3cb1c42c8e661e8366324ac10ae9853f104f31722dae8852edf71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169860"
 ---
 # <a name="pbm_setrange32-message"></a>\_Сообщение SETRANGE32 PBM
 
@@ -47,19 +47,19 @@ ms.locfileid: "103803047"
 
 Возвращает значение **типа DWORD** , которое содержит предыдущее 16-разрядное нижнее ограничение в его [**ловорд**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) и предыдущий 16-разрядный верхний предел в его [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)). Если предыдущие диапазоны были 32-разрядными, возвращаемое значение состоит из **ловорд** s обоих 32-разрядных ограничений.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы получить все высокие и младшие 32-битные значения, используйте сообщение [**PBM- \_ Range**](pbm-getrange.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

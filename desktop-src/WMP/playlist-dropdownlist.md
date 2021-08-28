@@ -3,7 +3,7 @@ title: Список воспроизведения. dropDownList
 description: Атрибут dropDownList указывает или получает значение, указывающее, какие элементы отображаются в раскрывающемся списке для данного экземпляра элемента списка воспроизведения.
 ms.assetid: 583041b0-25dc-4015-a3b2-37f3cfdcd496
 keywords:
-- Список воспроизведения. Windows Media Player. dropDownList
+- проигрыватель Windows Media списка воспроизведения. dropDownList
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4acf98dec7d50e2a3cd0b53acc07b0b8695f8461
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7d2883f353084dc5eff96fc68305fbf13e0deb7ce0f9b83d6b8a31ac9fc2b8e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118835113"
 ---
 # <a name="playlistdropdownlist"></a>Список воспроизведения. dropDownList
 
@@ -54,11 +54,11 @@ ms.locfileid: "105704208"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

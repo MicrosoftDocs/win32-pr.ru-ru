@@ -1,17 +1,17 @@
 ---
-description: Использование демультиплексирование с потоками PSI
+description: использование демультиплексирование с PSI Потоки
 ms.assetid: 355e905e-ff21-4bde-a018-ed9631ef5ed5
-title: Использование демультиплексирование с потоками PSI
+title: использование демультиплексирование с PSI Потоки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 659e4a12bfef25f24a5e6cac38d191f86ab80b4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3935e188b6e06d1037f08d4ca7bab98918f87d2c652b8506650a6cf3a280dc04
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633144"
 ---
-# <a name="using-the-demux-with-psi-streams"></a>Использование демультиплексирование с потоками PSI
+# <a name="using-the-demux-with-psi-streams"></a>использование демультиплексирование с PSI Потоки
 
 Чтобы получить сведения PSI из транспортного потока MPEG-2 с помощью фильтра демультиплексирование MPEG-2, создайте выходной ПИН-код на демультиплексирование со следующим типом носителя:
 
@@ -59,7 +59,7 @@ if (SUCCEEDED(hr))
 
 Каждый раздел PSI доставляется в один пример носителя. Чтобы получить номер PID, связанный с разделом таблицы, вызовите [**IMediaSample2::-Properties**](/windows/desktop/api/Strmif/nf-strmif-imediasample2-getproperties) в примере носителя. Идентификатор процесса указывается в младших 13 битах флага **двтипеспеЦификфлагс** в структуре **\_ \_ свойств SAMPLE2** . Это полезно при сопоставлении нескольких PID PSI с одним и тем же выходным ПИН-кодом.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

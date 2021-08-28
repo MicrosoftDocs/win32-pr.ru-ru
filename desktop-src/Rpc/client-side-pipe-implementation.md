@@ -4,12 +4,12 @@ description: Реализация конвейера на стороне кли�
 ms.assetid: d790f859-47a9-4b6c-a218-8cbe05db21b6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5666656f1f7296c252395255c17902a91cb32a8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 11ecae4d01e8da37c3ce65ee530643dc84abdc47da71c0e4dacbcdff21c37317
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022663"
 ---
 # <a name="client-side-pipe-implementation"></a>Реализация Client-Sideного канала
 
@@ -30,9 +30,9 @@ ms.locfileid: "103888920"
 -   [Реализация входных каналов на клиенте](implementing-input-pipes-on-the-client.md)
 -   [Реализация выходных каналов на клиенте](implementing-output-pipes-on-the-client.md)
 
- 
+ 
 
- 
+ 
 
 
 

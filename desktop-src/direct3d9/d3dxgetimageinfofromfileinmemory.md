@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e2bad56cb2aa769be80a6b031b1783d8717bc485
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c292c7969e9ebcaa565c3bc3c28bff93a075f5fffb0ad0672e45ead1458d26c5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857035"
 ---
 # <a name="d3dxgetimageinfofromfileinmemory-function"></a>Функция D3DXGetImageInfoFromFileInMemory
 
@@ -81,7 +81,7 @@ HRESULT D3DXGetImageInfoFromFileInMemory(
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9tex. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9tex. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>  |
 
 

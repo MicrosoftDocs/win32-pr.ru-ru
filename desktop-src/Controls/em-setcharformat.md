@@ -94,7 +94,7 @@ Microsoft Rich Edit 2,0 и более поздние версии: этот па
 
 <dl> <dt>
 
-**Ссылка**
+**Ссылки**
 </dt> <dt>
 
 [**чарформат**](/windows/win32/api/richedit/ns-richedit-charformata)

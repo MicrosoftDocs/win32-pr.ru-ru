@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Получение экземпляра WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bfdacf5fe5c86618eb84d70a5505897a94a7ace2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c5cc3b52a236eeccf422ee334cba5aa6de98c9aa08864ec7273a7ba2f84008e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118816931"
 ---
 # <a name="retrieving-a-wmi-instance"></a>Получение экземпляра WMI
 

@@ -1,19 +1,19 @@
 ---
-description: Пример файла кода VBScript WiTextIn.vbs предоставляется в Windows SDK компонентов для установщик Windows разработчиков.
+description: пример файла кода VBScript WiTextIn.vbs предоставляется в Windows SDK компонентов для установщик Windows разработчиков.
 ms.assetid: ba6c6367-ebb1-4981-ae3a-bcff68aacdbf
 title: Копирование файла ANSI в поле базы данных
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73dc6c4d3a945177581a35bf6b19d89855abb5ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a65f38425fac327abd8eddaf9183464355ae025bb209947c750d4e3414d9b917
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631334"
 ---
 # <a name="copy-ansi-file-into-a-database-field"></a>Копирование файла ANSI в поле базы данных
 
-Пример файла кода VBScript WiTextIn.vbs предоставляется в [Windows SDK компонентов для установщик Windows разработчиков](platform-sdk-components-for-windows-installer-developers.md). В этом примере показано, как скрипт может быть использован для копирования файла в текстовое поле установщик Windows базы данных и демонстрирует обработку данных первичного ключа.
+пример файла кода VBScript WiTextIn.vbs предоставляется в [Windows SDK компонентов для установщик Windows разработчиков](platform-sdk-components-for-windows-installer-developers.md). в этом примере показано, как скрипт может быть использован для копирования файла в текстовое поле установщик Windows базы данных и демонстрирует обработку данных первичного ключа.
 
 В примере кода также показано следующее:
 
@@ -22,7 +22,7 @@ ms.locfileid: "105663582"
 -   [**Метод Fetch**](view-fetch.md) и [**метод Modify**](view-modify.md) [**объекта View**](view-object.md)
 -   [**Свойство StringData**](record-stringdata.md) и [**метод реадстреам**](record-readstream.md) [**объекта Record**](record-object.md)
 
-Чтобы использовать пример кода, требуется CScript.exe или WScript.exe версии сервера сценариев Windows.
+чтобы использовать пример кода, требуется CScript.exe или WScript.exe версии сервера сценариев Windows.
 
 **Использование CScript.exe для запуска этого примера**
 
@@ -46,7 +46,7 @@ ms.locfileid: "105663582"
 
 В следующем списке указаны элементы, которые необходимо указать.
 
--   Укажите путь к базе данных установщик Windows.
+-   укажите путь к базе данных установщик Windows.
 -   Укажите имя таблицы базы данных.
 -   Укажите все значения первичного ключа для строки по порядку и объедините их с помощью двоеточий.
 -   Укажите имя столбца, который не является ключевым. Это столбец, данные которого требуется получить.
@@ -57,7 +57,7 @@ ms.locfileid: "105663582"
 
  
 
-Дополнительные примеры сценариев см. в разделе [установщик Windows примеры сценариев](windows-installer-scripting-examples.md). Примеры служебных программ, для которых не требуется сервер сценариев Windows, см. в разделе [установщик Windows средства разработки](windows-installer-development-tools.md).
+дополнительные примеры сценариев см. в разделе [установщик Windows примеры сценариев](windows-installer-scripting-examples.md). примеры служебных программ, для которых не требуется сервер сценариев Windows, см. в разделе [установщик Windows средства разработки](windows-installer-development-tools.md).
 
  
 

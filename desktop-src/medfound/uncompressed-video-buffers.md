@@ -4,12 +4,12 @@ ms.assetid: be5ec8a8-2d0b-401b-9d05-fdb87ad8c864
 title: Несжатые буферы видео
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c24eda19136bf2dd7bc77f95d0efa6c48ca96e79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32a54c234ca3e5cd1798f50893101f758a374335db8bb9305fd2e3f0ddab75fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972753"
 ---
 # <a name="uncompressed-video-buffers"></a>Несжатые буферы видео
 
@@ -222,7 +222,7 @@ private:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

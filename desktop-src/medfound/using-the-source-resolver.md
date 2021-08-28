@@ -4,12 +4,12 @@ ms.assetid: 94e2a411-96b8-4506-8491-78f4f5f286ce
 title: Использование сопоставителя источников
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e992199b097ff3f3337f92216b684d68e46bca13
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81265f2edeb573ccdfb2b4ea8f2664d08f9bca8a2170459c9c53890ecd3b52cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887151"
 ---
 # <a name="using-the-source-resolver"></a>Использование сопоставителя источников
 
@@ -79,7 +79,7 @@ done:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

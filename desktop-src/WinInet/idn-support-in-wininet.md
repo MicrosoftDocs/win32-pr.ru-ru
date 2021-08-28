@@ -1,19 +1,19 @@
 ---
 title: Поддержка IDN в WinINet
-description: Начиная с Windows Server 2008 и Windows Vista, часть узла URL-адреса в Юникоде преобразуется в международного доменного имени (IDN).
+description: начиная с Windows Server 2008 и Windows Vista, часть узла URL-адреса в юникоде преобразуется в международного доменного имени (IDN).
 ms.assetid: 7c56908e-f6d0-48dc-9ac1-73f888fb7b6c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 510b1bc8d2ab77534d7f5dac587f287d5e7095af
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 998005ff6d46a768403c9c3a18ac14457139ee871fe135fb1306ad677e9e029a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071684"
 ---
 # <a name="idn-support-in-wininet"></a>Поддержка IDN в WinINet
 
-Начиная с Windows Server 2008 и Windows Vista, часть узла URL-адреса в Юникоде преобразуется в международного доменного имени (IDN). Отдельные части кодировки URL-адресов в Юникоде также могут быть изменены конфигурациями, заданными приложением. Версии ANSI API WinINet продолжают отсылать URL-адрес по каналу, указанному приложением, однако версии API WinINet в Юникоде теперь соответствуют стандарту IDN (RFC3490) для кодировок URL-адресов.
+начиная с Windows Server 2008 и Windows Vista, часть узла URL-адреса в юникоде преобразуется в международного доменного имени (IDN). Отдельные части кодировки URL-адресов в Юникоде также могут быть изменены конфигурациями, заданными приложением. Версии ANSI API WinINet продолжают отсылать URL-адрес по каналу, указанному приложением, однако версии API WinINet в Юникоде теперь соответствуют стандарту IDN (RFC3490) для кодировок URL-адресов.
 
 По умолчанию при вводе URL-адреса в качестве параметра в формате Юникод часть узла, как для прокси-сервера, так и для прямых подключений, преобразуется в формат IDN. Приложение имеет возможность отключить форматирование узла IDN, задав параметр **Интернета \_ \_ IDN** . Преобразование узла IDN можно включить только для прямых или прокси-подключений с помощью флага **Internet \_ Flag \_ IDN \_ Direct** или **Internet \_ флаг \_ IDN \_ -прокси** с **\_ параметром Интернета \_ IDN**.
 
@@ -64,13 +64,13 @@ InternetSetOption( hRequest,
 
 
 
- 
+ 
 
 > [!Note]  
-> WinINet не поддерживает реализации серверов. Кроме того, его не следует использовать из службы. Для серверных реализаций или служб используйте [службы Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet не поддерживает реализации серверов. Кроме того, его не следует использовать из службы. для серверных реализаций или служб используйте [Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
- 
+ 
 
- 
+ 
 
- 
+ 

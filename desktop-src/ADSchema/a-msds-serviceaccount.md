@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 315f5e5e9edd218b26da6ff73ccb5b4e6a4fc8d1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e14071f133b42c94b20684d26889051b0dd489fc195a2ad7484bd0002622d787
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103989817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544664"
 ---
 # <a name="ms-ds-service-account-attribute"></a>атрибут учетной записи MS-DS-Service-
 
@@ -52,10 +52,10 @@ FPO, представляющий учетную запись службы ADAM.
 |------------------------|------------------------------------------|
 | Идентификатор ссылки                | 2040                                     |
 | MAPI-Id                | \-                                       |
-| System-Only            | True                                     |
-| Является однозначным       | Неверно                                    |
-| Индексируется             | Неверно                                    |
-| В глобальном каталоге      | Неверно                                    |
+| System-Only            | Верно                                     |
+| Является однозначным       | Нет                                    |
+| Индексируется             | Нет                                    |
+| В глобальном каталоге      | Нет                                    |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                             |
 | Range-Lower            | \-                                       |
 | Range-Upper            | \-                                       |

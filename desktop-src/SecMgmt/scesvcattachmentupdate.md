@@ -12,12 +12,12 @@ api_name:
 api_type:
 - UserDefined
 api_location: ''
-ms.openlocfilehash: 5bc4c9426f6a085c72f2fc3d872de4d7da59156b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b04d8a144373ae493a956e2166ea6dab34d844c71504f303766e8de7915b9a70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103809299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004872"
 ---
 # <a name="scesvcattachmentupdate-callback-function"></a>Функция обратного вызова Сцесвкаттачментупдате
 
@@ -57,7 +57,7 @@ SCESTATUS WINAPI SceSvcAttachmentUpdate(
 
 Если эта функция завершается успешно, возвращается СЦЕСТАТУС \_ Success. В противном случае возвращается код ошибки. Дополнительные сведения о кодах ошибок конфигурации безопасности см. в разделе [возвращаемые значения вложений](management-return-values.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **сцесвкаттачментупдате** должна выполнять следующие действия:
 
@@ -76,8 +76,8 @@ SCESTATUS WINAPI SceSvcAttachmentUpdate(
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/> |
 
 
 

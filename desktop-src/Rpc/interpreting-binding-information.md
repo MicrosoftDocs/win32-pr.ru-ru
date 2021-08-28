@@ -6,12 +6,12 @@ keywords:
 - Удаленный вызов процедур RPC, задачи, интерпретируемая привязка
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 423564a844bfbf959de8a2fcf4dfff5ae86b8b6b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5578683b06ac75b99e2865d55512449ad2217984234a9bf9d3cf7e8360c053e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104487029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020384"
 ---
 # <a name="interpreting-binding-information"></a>Анализ сведений о привязке
 
@@ -66,9 +66,9 @@ status = RpcStringFree(&NetworkOptions);
 
 Предыдущий пример кода вызывает функции [**рпкбиндингтострингбиндинг**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingtostringbinding) и [**рпкстрингбиндингпарсе**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcstringbindingparse) для получения и анализа информации в допустимом маркере привязки. Обратите внимание, что значение **null** было передано в качестве второго параметра для **рпкстрингбиндингпарсе**. Это приводит к тому, что функция пропускает синтаксический анализ идентификатора UUID объекта. Так как он не анализирует UUID, **рпкстрингбиндингпарсе** не будет выделять для него строку. Эта методика позволяет приложению выделить только память для сведений, которые необходимы для анализа и анализа.
 
- 
+ 
 
- 
+ 
 
 
 

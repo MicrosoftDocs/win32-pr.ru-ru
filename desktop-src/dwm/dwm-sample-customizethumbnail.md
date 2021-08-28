@@ -5,18 +5,18 @@ ms.assetid: 43fe71e7-4e5c-46fb-876b-e26996071665
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: project-verbatim
-ms.openlocfilehash: 8fceb94727257b51a2e6235cbfcc44b155635343
-ms.sourcegitcommit: af120ad5c30da2fc5eb717ca2a1c4c45878efd71
+ms.openlocfilehash: 94fa65fd4cd80f837867a6a5d225ec43050cf0018c8116e8beae099ed1067025
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "105714070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022172"
 ---
 # <a name="customize-an-iconic-thumbnail-and-a-live-preview-bitmap"></a>Настройка эскиза значка и растрового изображения для динамического предварительного просмотра
 
 ## <a name="description"></a>Описание
 
-Точечный эскиз и *динамический просмотр* (или *Предварительный просмотр*) можно настроить с помощью функций и сообщений, представленных в API-интерфейсах Windows 7 диспетчер окон рабочего стола (DWM).
+точечный эскиз и *динамический просмотр* (или *предварительный просмотр*) можно настроить с помощью функций и сообщений, представленных в api-интерфейсах Windows 7 диспетчер окон рабочего стола (DWM).
 
 В частности, вы используете функцию [**двмсетикониксумбнаил**](/windows/win32/api/Dwmapi/nf-dwmapi-dwmseticonicthumbnail) и сообщение [**WM \_ сендикониксумбнаилбитмап**](wm-dwmsendiconicthumbnail.md) для настройки эскиза значка. Вы также можете использовать функцию [**двмсетиконикливепревиевбитмап**](/windows/win32/api/Dwmapi/nf-dwmapi-dwmseticoniclivepreviewbitmap) и сообщение [**WM \_ сендиконикливепревиевбитмап**](wm-dwmsendiconiclivepreviewbitmap.md) для установки значка точечного рисунка динамического предварительного просмотра.
 
@@ -26,19 +26,19 @@ ms.locfileid: "105714070"
 
 ![Иллюстрация исходного эскиза и измененного эскиза с пользовательским растровым изображением](images/customthumbnail.jpg)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента | Windows 7 или Windows Vista с пакетом обновления 2 (SP2) и обновлением платформы для Windows Vista                          |
-| Минимальная версия сервера | Windows Server 2008 R2 или Windows Server 2008 с пакетом обновления 2 (SP2) и обновлением платформы для Windows Server 2008 |
-| Минимальное Windows SDK      | [Пакет средств разработки программного обеспечения (SDK) для Windows 7](https://msdn.microsoft.com/windows/bb980924.aspx)             |
+| Минимальная версия клиента | Windows 7 или Windows Vista с пакетом обновления 2 (sp2) и обновлением платформы для Windows Vista                          |
+| Минимальная версия сервера | Windows сервер 2008 R2 или Windows server 2008 с пакетом обновления 2 (sp2) и обновлением платформы для Windows Server 2008 |
+| минимальное Windows SDK      | [Windows пакет средств разработки программного обеспечения (SDK) для Windows 7](https://msdn.microsoft.com/windows/bb980924.aspx)             |
 
 ## <a name="building-the-tabthumbnails-sample"></a>Создание образца Табсумбнаилс
 
-**Построение образца с помощью Microsoft Visual Studio (предпочтительный метод)**
+**построение образца с помощью Microsoft Visual Studio (предпочтительный метод)**
 
-1.  Откройте проводник Windows и перейдите в папку, где находится файл Табсумбнаилс. sln.
+1.  откройте обозреватель Windows и перейдите в папку, где находится файл табсумбнаилс. sln.
 2.  Дважды щелкните файл решения (SLN), чтобы открыть его в Microsoft Visual Studio.
 3.  В меню **Сборка** выберите **Собрать решение**. Приложение строится в \\ каталоге отладки или выпуска по умолчанию \\ .
 
@@ -47,7 +47,7 @@ ms.locfileid: "105714070"
 1.  Откройте окно командной строки и перейдите к каталогу примеров.
 2.  Введите `msbuild TabThumbnails.sln`.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 [Диспетчер окон рабочего стола](dwm-overview.md)
 

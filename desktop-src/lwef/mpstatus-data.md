@@ -4,7 +4,7 @@ description: Содержит данные о текущем состоянии 
 ms.assetid: 6AEF485C-30D1-47DB-92B6-048B8CAA7833
 keywords:
 - MPSTATUS_DATA структуры устаревшие функции среды Windows
-- Функции PMPSTATUS_DATA указателя структур в устаревшей среде Windows
+- функции PMPSTATUS_DATA Windows указателя структур в устаревшей среде
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f5da4ea9c8c51d8ee74d3242e5020df23f758228
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 78989b055e6de79c3da733ff8bc498a3fb6717c5dec226db73b80c4e5c9d899c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887914"
 ---
 # <a name="mpstatus_data-structure"></a>\_Структура данных мпстатус
 
@@ -188,7 +188,7 @@ typedef struct tagMPSTATUS_DATA {
 
 </dd> <dt>
 
-**pa**
+**PA**
 </dt> <dd>
 
 Тип: **пмпстатус \_ датаекс не \_ используется**
@@ -199,7 +199,7 @@ typedef struct tagMPSTATUS_DATA {
 
 </dd> <dt>
 
-**МС**
+**ПБ**
 </dt> <dd>
 
 Тип: **пмпстатус \_ датаекс не \_ используется**
@@ -210,19 +210,19 @@ typedef struct tagMPSTATUS_DATA {
 
 </dd> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

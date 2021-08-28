@@ -3,7 +3,7 @@ title: Сообщение EM_FMTLINES (Winuser. h)
 description: Задает флаг, определяющий, содержит ли многострочный элемент управления Edit символ разрыва строки. Мягкий разрыв строки состоит из двух возвратов каретки и перевода строки и вставляется в конец строки, которая разорвана из-за вордвраппинг.
 ms.assetid: bfc08062-b0a7-4ba7-8858-00cb20895c77
 keywords:
-- Элементы управления Windows для EM_FMTLINES сообщений
+- элементы управления Windows сообщений EM_FMTLINES
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c12a22ee8c30ffa74705f670a16caa3651e9b44
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6e0c0c410f13a33f0e387098178b42faaf3269c36d11f75e765eb753fa9d0844
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119545104"
 ---
 # <a name="em_fmtlines-message"></a>\_Сообщение ФМТЛИНЕС EM
 
@@ -47,7 +47,7 @@ ms.locfileid: "104491010"
 
 Возвращаемое значение идентично параметру *wParam* .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это сообщение затрагивает только буфер, возвращенный сообщением [**EM \_**](em-gethandle.md) GetText, и текст, возвращаемый сообщением [**WM \_ gettext**](/windows/desktop/winmsg/wm-gettext) . Он не влияет на отображение текста в элементе управления "поле ввода".
 
@@ -60,19 +60,19 @@ ms.locfileid: "104491010"
 
 **Расширенное редактирование:** Сообщение **EM \_ фмтлинес** не поддерживается.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

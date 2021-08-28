@@ -5,18 +5,18 @@ ms.assetid: 8a68fc3f-118c-447b-856c-05417ae4ef29
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 93d8f3a3ddeb06c9168971789dff3ac8c9222d22
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: d072d6f43467aab9230796bfb24139630995e3f525c7e86a0c5e179ddd82048e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111827003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118003755"
 ---
 # <a name="how-to-draw-and-fill-a-basic-shape"></a>Рисование и заполнение базовой фигуры
 
 В этом разделе описывается рисование основной фигуры. Интерфейс [**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget) предоставляет методы для структурирования и заливки эллипсов, прямоугольников и линий. В следующих примерах показано, как создать и нарисовать эллипс.
 
-В этом разделе содержатся следующие подразделы.
+Этот раздел состоит из следующих подразделов.
 
 -   [Рисование контура эллипса с помощью сплошного штриха](#draw-the-outline-of-an-ellipse-with-a-solid-stroke)
 -   [Рисование эллипса штриховой линией](#draw-an-ellipse-with-a-dashed-stroke)
