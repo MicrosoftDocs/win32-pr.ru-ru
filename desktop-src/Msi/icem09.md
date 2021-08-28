@@ -4,12 +4,12 @@ ms.assetid: 747ae5ee-adc1-4aa7-8239-2379f76bfd0f
 title: ICEM09
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e4d2af38903d2e704d49b48f932818d8dfaeeb1e12588c007d4af05c297642c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 30542ead9a47ab5e92074227b1ae47fa6de0e643
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119894494"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887395"
 ---
 # <a name="icem09"></a>ICEM09
 
@@ -59,7 +59,7 @@ Many merge tools will generate duplicate actions."
 
 | Каталог          | \_Родительский каталог | дефаултдир |
 |--------------------|-------------------|------------|
-| ProgramFilesFolder | Directory1        | Объект          |
+| ProgramFilesFolder | Directory1        | A          |
 | Programmenufolder    | Directory2        | б:к        |
 | аппдатафолдер      | Directory3        | D          |
 | мипиктуресфолдер   | Directory4        | E          |
@@ -74,10 +74,10 @@ Many merge tools will generate duplicate actions."
 
 | Компонент               | Каталог          |
 |-------------------------|--------------------|
-| Component1.<GUID> | ProgramFilesFolder |
-| Component2.<GUID> | Programmenufolder    |
-| Component3.<GUID> | аппдатафолдер      |
-| Component4.<GUID> | мипиктуресфолдер   |
+| Component1. &lt; УСТРОЙСТВА&gt; | ProgramFilesFolder |
+| Component2. &lt; УСТРОЙСТВА&gt; | Programmenufolder    |
+| Component3. &lt; УСТРОЙСТВА&gt; | аппдатафолдер      |
+| Component4. &lt; УСТРОЙСТВА&gt; | мипиктуресфолдер   |
 
 
 
@@ -89,8 +89,8 @@ Many merge tools will generate duplicate actions."
 
 | CustomAction                 | Тип | Источник                       | Назначение              |
 |------------------------------|------|------------------------------|---------------------|
-| Programmenufolder.<GUID> | 51   | Programmenufolder.<GUID> | \[Programmenufolder\] |
-| мяппдатафолдерактион        | 51   | Аппдатафолдер.<GUID>   | \[аппдатафолдер\]   |
+| Programmenufolder. &lt; УСТРОЙСТВА&gt; | 51   | Programmenufolder. &lt; УСТРОЙСТВА&gt; | \[Programmenufolder\] |
+| мяппдатафолдерактион        | 51   | Аппдатафолдер. &lt; УСТРОЙСТВА&gt;   | \[аппдатафолдер\]   |
 
 
 
@@ -102,7 +102,7 @@ Many merge tools will generate duplicate actions."
 
 | Действие                       | Последовательность | басеактион | После | Условие |
 |------------------------------|----------|------------|-------|-----------|
-| Programmenufolder.<GUID> | 100      |            |       |           |
+| Programmenufolder. &lt; УСТРОЙСТВА&gt; | 100      |            |       |           |
 
 
 

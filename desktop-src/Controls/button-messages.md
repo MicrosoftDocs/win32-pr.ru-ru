@@ -4,12 +4,12 @@ description: Кнопка может отправить сообщения в с
 ms.assetid: 2d2358fb-b17d-48a9-8def-15ae8bad9162
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1601f269ec1242a10579d2ace812723d3ead7f84
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 136310a3718f17900f604287bf78186f7c927259
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "103796681"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625720"
 ---
 # <a name="button-messages"></a>Сообщения кнопки 
 
@@ -22,7 +22,7 @@ ms.locfileid: "103796681"
 -   [Сообщения с уведомлениями от кнопок](#notification-messages-from-buttons)
 -   [Цветовые сообщения для кнопок](#button-color-messages)
 -   [Обработка сообщений по умолчанию для кнопки](#button-default-message-processing)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="sending-messages-to-buttons"></a>Отправка сообщений на кнопки
 
@@ -52,7 +52,7 @@ ms.locfileid: "103796681"
 
 
 
-| Код уведомления                                                        | Описание                                            |
+| Код уведомления                                                        | Описание:                                            |
 |--------------------------------------------------------------------------|--------------------------------------------------------|
 | [\_ХОТИТЕМЧАНЖЕ BCN](bcn-hotitemchange.md)                              | Мышь, которая была нажата или оставлена в клиентской области кнопки. |
 | [\_щелчок млрд долл](bn-clicked.md)                                            | Пользователь щелкнул кнопку.                             |
@@ -66,7 +66,7 @@ ms.locfileid: "103796681"
 
 
 
- 
+ 
 
 Кнопка отправляет [млрд долл \_ Disable](bn-disable.md), [млрд долл \_](bn-pushed.md) [ \_ pushd](bn-unpushed.md) , [млрд долл \_ киллфокус](bn-killfocus.md), [млрд долл \_ Paint](bn-paint.md), [млрд долл \_ SETFOCUS](bn-setfocus.md)и млрд долл неотправленные коды уведомлений только в том случае, если у него есть стиль [**\_ уведомления BS**](button-styles.md) . [Млрд долл \_](bn-dblclk.md) Коды уведомлений дблклк отправляются автоматически для кнопок [**BS \_ усербуттон**](button-styles.md), [**BS \_**](button-styles.md)и [**BS \_ овнердрав**](button-styles.md) . Другие типы кнопок отправляют млрд долл \_ дблклк только в том случае, если они имеют стиль " **BS \_** ". Все кнопки отправляют [млрд долл \_ нажатый](bn-clicked.md) код уведомления, независимо от стилей их кнопок.
 
@@ -93,7 +93,7 @@ ms.locfileid: "103796681"
 
 
 
- 
+ 
 
 Однако вызов [**сетсисколорс**](/windows/desktop/api/winuser/nf-winuser-setsyscolors) влияет на все приложения, поэтому не следует вызывать эту функцию для настройки кнопок приложения.
 
@@ -107,8 +107,8 @@ ms.locfileid: "103796681"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -203,7 +203,7 @@ ms.locfileid: "103796681"
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/winmsg/wm-getfont"><strong>WM_GETFONT</strong></a></td>
@@ -270,17 +270,17 @@ ms.locfileid: "103796681"
 
 
 
- 
+ 
 
 Предопределенная процедура окна передает все остальные сообщения функции [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) для обработки по умолчанию.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Управляющие сообщения](control-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

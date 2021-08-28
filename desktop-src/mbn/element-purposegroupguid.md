@@ -7,12 +7,12 @@ MSHAttr:
 title: пурпосеграупгуид
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a704d035371d6d7febc2f2d86e4d67736ab02ad2
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 73d772a79d1802c99cde571abc1c665c73ddd06c
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122985417"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476080"
 ---
 # <a name="span-idwwan_profile_v4element_purposegroupguidspanpurposegroupguid"></a><span id="WWAN_profile_v4.element_PurposeGroupGuid"></span>пурпосеграупгуид
 
@@ -22,9 +22,9 @@ ms.locfileid: "122985417"
 
 Определены четыре значения GUID, перечисленные в следующей таблице.
 
-| Целевая группа | Код GUID                                 |
+| Целевая группа | GUID                                 |
 |---------------|--------------------------------------|
-| Internet      | 3E5545D2-1137-4DC8-A198-33F1C657515F |
+| Интернет      | 3E5545D2-1137-4DC8-A198-33F1C657515F |
 | MMS           | 53E2C5D3-D13C-4068-AA38-9C48FF2E55A8 |
 | IMS           | 474D66ED-0E4B-476B-A455-19BB1239ED13 |
 | супл          | 6D42669F-52A9-408E-9493-1071DCC437BD |
@@ -33,9 +33,9 @@ ms.locfileid: "122985417"
 
 ## <a name="element-hierarchy"></a>Иерархия элементов
 
-[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
-[&lt;пурпосеграупс&gt;](element-purposegroups.md)  
-**&lt;пурпосеграупгуид&gt;**
+[<MBNProfileExt>](element-mbnprofileext.md)  
+[<PurposeGroups>](element-purposegroups.md)  
+**<PurposeGroupGuid>**
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -51,11 +51,11 @@ ms.locfileid: "122985417"
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Атрибуты
 
-Отсутствует.
+Нет.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Дочерние элементы
 
-Отсутствует.
+Нет.
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Родительские элементы
 
@@ -70,9 +70,7 @@ ms.locfileid: "122985417"
 ## <a name="requirements"></a>Требования
 
 
-| Требование | Применение |
-|------------|----------|
-| <p>Пространство имен</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+| | | <p>Пространство имен</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 
  

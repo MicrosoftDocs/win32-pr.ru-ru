@@ -3,7 +3,7 @@ title: Фловменулайаут, элемент
 description: Представляет горизонтальный макет с разрывами строк для элементов в коллекции.
 ms.assetid: 40c3a2e1-e58a-4d34-a237-b1bea116c82e
 keywords:
-- Лента Windows для элемента Фловменулайаут
+- элемент фловменулайаут Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 31a040fb51ad46feb30147fea97c19210cc16094
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 4d3c5ea50ae50edc3d6be16ad771229ea82801f4
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111442885"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625740"
 ---
 # <a name="flowmenulayout-element"></a>Фловменулайаут, элемент
 
@@ -39,10 +39,10 @@ ms.locfileid: "111442885"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -140,7 +140,7 @@ ms.locfileid: "111442885"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-* **Минимальная поддерживаемая система**: Windows 7
+* **минимальная поддерживаемая система**: Windows 7
 * **Может быть пустым**: Да
 
 

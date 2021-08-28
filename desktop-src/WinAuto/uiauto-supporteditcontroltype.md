@@ -21,12 +21,12 @@ keywords:
 - типы элементов управления, изменение
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de7dffb572497df47d65def91dda22f3b8e59299
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f5eea05d463f191483cb53f7cbfceef83058093f
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888319"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476139"
 ---
 # <a name="edit-control-type"></a>Изменить тип элемента управления
 
@@ -43,7 +43,7 @@ ms.locfileid: "103888319"
 -   [Обязательные шаблоны элементов управления](#required-control-patterns)
 -   [Обязательные события](#required-events)
 -   [Замечания](#remarks)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="typical-tree-structure"></a>Типичная древовидная структура
 
@@ -51,32 +51,15 @@ ms.locfileid: "103888319"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Представление элемента управления</th>
-<th>Представление содержимого</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Изменить</li>
-</ul></td>
-<td><ul>
-<li>Изменить</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Представление элемента управления | Представление содержимого | 
+|--------------|--------------|
+| <ul><li>Изменить</li></ul> | <ul><li>Изменить</li></ul> | 
 
 
 
- 
+
+ 
 
 Элементы управления, реализующие тип элемента управления **Edit** , всегда будут иметь нулевые полосы прокрутки в представлении элемента управления дерева модели автоматизации пользовательского интерфейса, так как это однострочный элемент управления. В некоторых макетах одна строка текста может переноситься. Тип элемента управления **Edit** предназначен только для небольших объемов текста.
 
@@ -102,7 +85,7 @@ ms.locfileid: "103888319"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Обязательные шаблоны элементов управления
 
@@ -117,15 +100,15 @@ ms.locfileid: "103888319"
 | [**Максимум**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_maximum)         | См. примечания.    | Это свойство должно быть самым большим значением, в которое может быть установлено содержимое элемента управления "поле ввода".                                                                                                                                                                                                                                                                                                                      |
 | [**SmallChange**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_smallchange) | См. примечания.    | Это свойство должно указывать количество десятичных разрядов, которое может быть в значении. Если элемент управления "поле ввода" принимает только целые числа, значение свойства **SmallChange** должно быть равно 1. Если элемент управления "поле ввода" принимает диапазон от 1,0 до 2,0, значение свойства **SmallChange** должно быть равно 0,1. Если элемент управления "поле ввода" принимает диапазон от 1,00 до 2,00, то значение свойства **SmallChange** должно быть равно 0,001.                   |
 | [**LargeChange**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_largechange) | **NULL**      | Это свойство не обязательно предоставлять в элементе управления "Поле ввода".                                                                                                                                                                                                                                                                                                                                                      |
-| [**Значение**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_value)             | См. примечания.    | Это свойство указывает числовое содержимое элемента управления "поле ввода". Если клиент автоматизации пользовательского интерфейса задается более точным значением в пределах диапазонов, указанных в свойствах [**Minimum**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_minimum) и [**Maximum**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_maximum) , свойство [**value**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_value) автоматически округляется до ближайшего допустимого значения. |
+| [**Значений**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_value)             | См. примечания.    | Это свойство указывает числовое содержимое элемента управления "поле ввода". Если клиент автоматизации пользовательского интерфейса задается более точным значением в пределах диапазонов, указанных в свойствах [**Minimum**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_minimum) и [**Maximum**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_maximum) , свойство [**value**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_value) автоматически округляется до ближайшего допустимого значения. |
 | [**ITextProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itextprovider)                 | Обязательно      | Все элементы управления "поле ввода" должны поддерживать шаблон элемента управления [Text](uiauto-implementingtextandtextrange.md) , поскольку подробные сведения всегда должны быть доступны для клиентов вспомогательных технологий.                                                                                                                                                                                                                     |
 | [**IValueProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ivalueprovider)               | Зависит       | Все элементы управления "поле ввода", которые принимают строку, должны предоставлять шаблон элемента управления [value](uiauto-implementingvalue.md) .                                                                                                                                                                                                                                                                                                        |
 | [**IsReadOnly**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ivalueprovider-get_isreadonly)        | См. примечания.    | Это свойство должно быть установлено, чтобы указать, может ли элемент управления иметь значение программно или может быть изменен пользователем.                                                                                                                                                                                                                                                                                |
-| [**Значение**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ivalueprovider-get_value)                  | См. примечания.    | Это свойство содержит текстовое содержимое элемента управления "поле ввода". Если свойство [**UIA \_ испассвордпропертид**](uiauto-automation-element-propids.md) имеет значение **true**, то запрос свойства [**value**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ivalueprovider-get_value) должен возвращать ошибку.                                                                                                                      |
+| [**Значений**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ivalueprovider-get_value)                  | См. примечания.    | Это свойство содержит текстовое содержимое элемента управления "поле ввода". Если свойство [**UIA \_ испассвордпропертид**](uiauto-automation-element-propids.md) имеет значение **true**, то запрос свойства [**value**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ivalueprovider-get_value) должен возвращать ошибку.                                                                                                                      |
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Обязательные события
 
@@ -154,15 +137,15 @@ ms.locfileid: "103888319"
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>Комментарии
 
 Элемент управления "поле ввода" можно использовать в качестве текстового поля только для чтения, которое не поддерживает выделение или редактирование текста. Такой элемент управления "поле ввода" ведет себя как объект поля с указанными именем и значением.
 
-Если элемент управления "поле ввода" содержит текст заполнителя (например, заголовок подсказки), то текст должен использоваться как свойство **HELPTEXT** , если текст не может быть изменен пользователем и затем использован в качестве текста заполнителя. Например, при открытии новой вкладки в адресной строке Windows Internet Explorer отображается текст "about: Tab" (о вкладках). Это не **HELPTEXT** , так как это программный адрес, который может быть использован или изменен пользователем.
+Если элемент управления "поле ввода" содержит текст заполнителя (например, заголовок подсказки), то текст должен использоваться как свойство **HELPTEXT** , если текст не может быть изменен пользователем и затем использован в качестве текста заполнителя. например, Windows адресная строка Internet Explorer содержит текст "about: tab" при открытии новой вкладки. Это не **HELPTEXT** , так как это программный адрес, который может быть использован или изменен пользователем.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -175,9 +158,9 @@ ms.locfileid: "103888319"
 [Общие сведения о модели автоматизации пользовательского интерфейса](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

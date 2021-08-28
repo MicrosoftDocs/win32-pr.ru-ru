@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1f5a689b74bd18138361d9377358ddee5cf5979f
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 29b0c234d2410d512e2f034f92cbc4a2d6ad7449
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122630195"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880268"
 ---
 # <a name="argument-element"></a>Элемент Argument
 
@@ -78,9 +78,9 @@ ms.locfileid: "122630195"
 <td>Значение</td>
 <td>Содержимым элемента <strong>Argument</strong> является часть значения строки условия. Например, в строке условия &quot; исполнитель, равный Джо &quot; , значение является &quot; Джо &quot; . Например<br/>
 <pre data-space="preserve"><code><fragment name = &quot;Artist&quot;>
-  <argument name = &quot;Condition&quot;>Equals</argument>
-  <argument name = &quot;Value&quot;>Joe</argument>
-</fragment></code></pre></td>
+  <argument name = &quot;Condition&quot;>Equals&lt;/argument&gt;
+  <argument name = &quot;Value&quot;>Joe&lt;/argument&gt;
+&lt;/fragment&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -110,17 +110,17 @@ ms.locfileid: "122630195"
 <td>Если атрибут <strong>Name</strong> элемента <strong>Fragment</strong> имеет &quot; ограничение общего размера до &quot; , содержимое элемента <strong>Argument</strong> должно быть одним из следующих: килобайт, мегабайт или гигабайт. Если атрибут <strong>Name</strong> элемента <strong>Fragment</strong> имеет &quot; ограничение общей длительности до &quot; , содержимое элемента <strong>Argument</strong> должно быть одним из следующих: секунды, минуты, часы или дни.<br/></td>
 </tr>
 <tr class="even">
-<td>Number</td>
+<td>Число</td>
 <td>Содержимое элемента <strong>Argument</strong> является числом, ограничивающим размер или длительность списка воспроизведения. Примеров<br/>
 <pre data-space="preserve"><code><fragment name = &quot;Limit Total Size To&quot;>
-  <argument name = &quot;Format&quot;>Megabytes</argument>
-  <argument name = &quot;Number&quot;>5</argument>
-</fragment>
+  <argument name = &quot;Format&quot;>Megabytes&lt;/argument&gt;
+  <argument name = &quot;Number&quot;>5&lt;/argument&gt;
+&lt;/fragment&gt;
 
 <fragment name = &quot;Limit Total Duration To&quot;>
-  <argument name = &quot;Format&quot;>Minutes</argument>
-  <argument name = &quot;Number&quot;>20</argument>
-</fragment></code></pre></td>
+  <argument name = &quot;Format&quot;>Minutes&lt;/argument&gt;
+  <argument name = &quot;Number&quot;>20&lt;/argument&gt;
+&lt;/fragment&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -141,7 +141,7 @@ ms.locfileid: "122630195"
 <thead>
 <tr class="header">
 <th>Значение атрибута</th>
-<th>Описание:</th>
+<th>Описание</th>
 </tr>
 </thead>
 <tbody>
@@ -149,8 +149,8 @@ ms.locfileid: "122630195"
 <td>Число</td>
 <td>Содержимое элемента <strong>Argument</strong> является числом, ограничивающим количество элементов в списке воспроизведения. Например<br/>
 <pre data-space="preserve"><code><fragment name = &quot;Limit Number of Items&quot;>
-  <argument name = &quot;Number&quot;>15</argument>
-</fragment></code></pre></td>
+  <argument name = &quot;Number&quot;>15&lt;/argument&gt;
+&lt;/fragment&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -169,7 +169,7 @@ ms.locfileid: "122630195"
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

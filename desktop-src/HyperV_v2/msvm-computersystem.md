@@ -59,12 +59,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: a8a81d5e1503c868865f1f1fae7238be74f024c1bd1c992f5610ce75b5702ab6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7e35ebd6000dfae5e99c4b589f4c0a62e84f1e1d
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119531792"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880920"
 ---
 # <a name="msvm_computersystem-class"></a>\_Класс мсвм ComputerSystem
 
@@ -558,7 +558,7 @@ class Msvm_ComputerSystem : CIM_ComputerSystem
 
 | Имя свойства  | Windows 8 значение               | Windows 8.1 значение                          |
 |----------------|-------------------------------|--------------------------------------------|
-| **InstanceID** | Microsoft: <vmguid> \\ HVR | Microsoft: <vmguid> \\ HVR \\<0/1> |
+| **InstanceID** | Microsoft: &lt; vmguid &gt; \\ HVR | Microsoft: &lt; vmguid &gt; \\ HVR \\<0/1> |
 
 
 
@@ -676,7 +676,7 @@ class Msvm_ComputerSystem : CIM_ComputerSystem
 
 </dd> <dt>
 
-**Имя**
+**имя**;
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1244,7 +1244,7 @@ class Msvm_ComputerSystem : CIM_ComputerSystem
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 На следующем рисунке показаны значения **EnabledState** .
 
@@ -1258,7 +1258,7 @@ class Msvm_ComputerSystem : CIM_ComputerSystem
 
 См. раздел [запросы к сетевым объектам](querying-networking-objects.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
@@ -1272,7 +1272,7 @@ class Msvm_ComputerSystem : CIM_ComputerSystem
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

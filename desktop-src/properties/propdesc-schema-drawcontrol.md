@@ -4,12 +4,12 @@ ms.assetid: 0fb8afc4-d16b-4c2e-80b3-da9935b11bb5
 title: дравконтрол
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5318fdebc995ff45932f75b4000ceda6e74068e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58a330854f19005f7f2863c337451b1dcc56cea3
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080560"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122632052"
 ---
 # <a name="drawcontrol"></a>дравконтрол
 
@@ -53,7 +53,7 @@ ms.locfileid: "104080560"
 
 | Родительский элемент                                   | Дочерние элементы |
 |--------------------------------------------------|----------------|
-| [displayInfo](./propdesc-schema-displayinfo.md) | Нет           |
+| [displayInfo](./propdesc-schema-displayinfo.md) | None           |
 
 
 
@@ -65,13 +65,13 @@ ms.locfileid: "104080560"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Атрибут</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>
@@ -87,7 +87,7 @@ ms.locfileid: "104080560"
 </thead>
 <tbody>
 <tr class="odd">
-<td>Значение по умолчанию</td>
+<td>По умолчанию</td>
 <td>По умолчанию. Использует элемент управления по умолчанию, основанный на <typeInfo type=&quot;&quot;> атрибуте. Тип по умолчанию — &quot; String &quot; (многозначный), а элемент управления по умолчанию — &quot; мултивалуетекст &quot; . Любой другой тип приводит к использованию &quot; &quot; элемента управления статиктекст.</td>
 </tr>
 <tr class="even">
@@ -116,11 +116,11 @@ ms.locfileid: "104080560"
 </tr>
 <tr class="even">
 <td>иконлист</td>
-<td><strong>Windows 7 и более поздние версии.</strong> Перечисление значков.</td>
+<td><strong>Windows 7 и более поздней версии.</strong> Перечисление значков.</td>
 </tr>
 <tr class="odd">
 <td>булеанчеккмарк</td>
-<td><strong>Windows 7 и более поздние версии.</strong></td>
+<td><strong>Windows 7 и более поздней версии.</strong></td>
 </tr>
 </tbody>
 </table>

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d744a65a0114676cb4164188c5a688332f8136ee3fe2087c67df9b17b6e9509
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: dac26be22118a320848ea227643f9c4d3857dc01
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119464504"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475970"
 ---
 # <a name="wsman-object"></a>Объект WSMan
 
@@ -40,113 +40,32 @@ ms.locfileid: "119464504"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Метод</th>
-<th style="text-align: left;">Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="wsman-createconnectionoptions.md"><strong>креатеконнектионоптионс</strong></a></td>
-<td style="text-align: left;">Создает объект <a href="connectionoptions.md"><strong>ConnectionOptions</strong></a> , который указывает имя пользователя и пароль, используемые при создании удаленного сеанса.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="wsman-createresourcelocator.md"><strong>креатересаурцелокатор</strong></a></td>
-<td style="text-align: left;">Создает объект <a href="resourcelocator.md"><strong>ResourceLocator</strong></a> , который может указывать:<br/>
-<ul>
-<li>Полный путь к <a href="windows-remote-management-glossary.md"><em>ресурсу</em></a> или отдельному фрагменту данных.</li>
-<li><a href="windows-remote-management-glossary.md"><em>Селектор</em></a> для конкретного экземпляра ресурса.</li>
-<li><a href="windows-remote-management-glossary.md"><em>Параметр</em></a> , предоставляющий дополнительные данные поставщику ресурсов.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="wsman-createsession.md"><strong>CreateSession</strong></a></td>
-<td style="text-align: left;">Создает объект <a href="session.md"><strong>сеанса</strong></a> , который затем может использоваться для последующих сетевых операций.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="wsman-enumerationflaghierarchydeep.md"><strong>WSMan. Енумератионфлагхиерарчидип</strong></a></td>
-<td style="text-align: left;">Возвращает значение флага перечисления <strong>енумератионфлагхиерарчидип</strong> для использования в параметре <em>flags</em> <a href="session-enumerate.md"><strong>сеанса. Enumerate</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="wsman-enumerationflaghierarchydeepbasepropsonly.md"><strong>WSMan. Енумератионфлагхиерарчидипбасепропсонли</strong></a></td>
-<td style="text-align: left;">Возвращает значение флага перечисления <strong>енумератионфлагхиерарчидипбасепропсонли</strong> для использования в параметре <em>flags</em> <a href="session-enumerate.md"><strong>сеанса. Enumerate</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="wsman-enumerationflaghierarchyshallow.md"><strong>WSMan. Енумератионфлагхиерарчишаллов</strong></a></td>
-<td style="text-align: left;">Возвращает значение флага перечисления <strong>енумератионфлагхиерарчишаллов</strong> для использования в параметре <em>flags</em> <a href="session-enumerate.md"><strong>сеанса. Enumerate</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="wsman-enumerationflagnonxmltext.md"><strong>WSMan. Енумератионфлагнонксмлтекст</strong></a></td>
-<td style="text-align: left;">Возвращает значение константы перечисления <strong>всманфлагнонксмлтекст</strong> для использования в параметре <em>flags</em> метода <a href="session-enumerate.md"><strong>Session. Enumerate</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="wsman-enumerationflagreturnepr.md"><strong>WSMan. Енумератионфлагретурнепр</strong></a></td>
-<td style="text-align: left;">Возвращает значение флага перечисления <strong>енумератионфлагретурнепр</strong> для использования в параметре <em>flags</em> <a href="session-enumerate.md"><strong>сеанса. Enumerate</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="wsman-enumerationflagreturnobject.md"><strong>WSMan. Енумератионфлагретурнобжект</strong></a></td>
-<td style="text-align: left;">Возвращает значение флага перечисления <strong>енумератионфлагретурнобжект</strong> для использования в параметре <em>flags</em> <a href="session-enumerate.md"><strong>сеанса. Enumerate</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="wsman-enumerationflagreturnobjectandepr.md"><strong>WSMan. Енумератионфлагретурнобжектандепр</strong></a></td>
-<td style="text-align: left;">Возвращает значение флага перечисления <strong>енумератионфлагретурнобжектандепр</strong> для использования в параметре <em>flags</em> <a href="session-enumerate.md"><strong>сеанса. Enumerate</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="wsman-geterrormessage.md"><strong>WSMan. Жетеррормессаже</strong></a></td>
-<td style="text-align: left;">Возвращает отформатированную строку, содержащую текст номера ошибки.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="wsman-sessionflagcredusernamepassword.md"><strong>WSMan. Сессионфлагкредусернамепассворд</strong></a></td>
-<td style="text-align: left;">Возвращает значение флага проверки подлинности <strong>всманфлагкредусернамепассворд</strong> для использования в параметре <em>flags</em> <a href="wsman-createsession.md"><strong>WSMan. CreateSession</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="wsman-sessionflagenablespnserverport.md"><strong>WSMan. Сессионфлаженаблеспнсерверпорт</strong></a></td>
-<td style="text-align: left;">Возвращает значение флага проверки подлинности <strong>всманфлаженаблеспнсерверпорт</strong> для использования в параметре <em>flags</em> <a href="wsman-createsession.md"><strong>WSMan. CreateSession</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="wsman-sessionflagnoencryption.md"><strong>WSMan. Сессионфлагноенкриптион</strong></a></td>
-<td style="text-align: left;">Возвращает значение флага проверки подлинности <strong>всманфлагноенкриптион</strong> для использования в параметре <em>flags</em> <a href="wsman-createsession.md"><strong>WSMan. CreateSession</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="wsman-sessionflagskipcacheck.md"><strong>WSMan. Сессионфлагскипкачекк</strong></a></td>
-<td style="text-align: left;">Возвращает значение флага проверки подлинности <strong>всманфлагскипкачекк</strong> для использования в параметре <em>flags</em> <a href="wsman-createsession.md"><strong>WSMan. CreateSession</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="wsman-sessionflagskipcncheck.md"><strong>WSMan. Сессионфлагскипкнчекк</strong></a></td>
-<td style="text-align: left;">Возвращает значение флага проверки подлинности <strong>всманфлагскипкнчекк</strong> для использования в параметре <em>flags</em> <a href="wsman-createsession.md"><strong>WSMan. CreateSession</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="wsman-sessionflagusebasic.md"><strong>WSMan. Сессионфлагусебасик</strong></a></td>
-<td style="text-align: left;">Возвращает значение флага проверки подлинности <strong>всманфлагусебасик</strong> для использования в параметре <em>flags</em> <a href="wsman-createsession.md"><strong>WSMan. CreateSession</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="wsman-sessionflagusedigest.md"><strong>WSMan. Сессионфлагуседижест</strong></a></td>
-<td style="text-align: left;">Возвращает значение флага проверки подлинности <strong>всманфлагуседижест</strong> для использования в параметре <em>flags</em> <a href="wsman-createsession.md"><strong>WSMan. CreateSession</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="wsman-sessionflagusekerberos.md"><strong>WSMan. Сессионфлагусекерберос</strong></a></td>
-<td style="text-align: left;">Возвращает значение флага проверки подлинности <strong>всманфлагусекерберос</strong> для использования в параметре <em>flags</em> <a href="wsman-createsession.md"><strong>WSMan. CreateSession</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="wsman-sessionflagusenegotiate.md"><strong>WSMan. Сессионфлагусенеготиате</strong></a></td>
-<td style="text-align: left;">Возвращает значение флага проверки подлинности <strong>всманфлагусенеготиате</strong> для использования в параметре <em>flags</em> <a href="wsman-createsession.md"><strong>WSMan. CreateSession</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="wsman-sessionflagusenoauthentication.md"><strong>WSMan. Сессионфлагусеноаусентикатион</strong></a></td>
-<td style="text-align: left;">Возвращает значение флага проверки подлинности <strong>всманфлагусеноаусентикатион</strong> для использования в параметре <em>flags</em> <a href="wsman-createsession.md"><strong>WSMan. CreateSession</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="wsman-sessionflagutf8.md"><strong>WSMan. SessionFlagUTF8</strong></a></td>
-<td style="text-align: left;">Возвращает значение флага проверки подлинности <strong>WSManFlagUTF8</strong> для использования в параметре <em>flags</em> <a href="wsman-createsession.md"><strong>WSMan. CreateSession</strong></a>.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Метод | Описание | 
+|--------|-------------|
+| <a href="wsman-createconnectionoptions.md"><strong>креатеконнектионоптионс</strong></a> | Создает объект <a href="connectionoptions.md"><strong>ConnectionOptions</strong></a> , который указывает имя пользователя и пароль, используемые при создании удаленного сеанса.<br /> | 
+| <a href="wsman-createresourcelocator.md"><strong>креатересаурцелокатор</strong></a> | Создает объект <a href="resourcelocator.md"><strong>ResourceLocator</strong></a> , который может указывать:<br /><ul><li>Полный путь к <a href="windows-remote-management-glossary.md"><em>ресурсу</em></a> или отдельному фрагменту данных.</li><li><a href="windows-remote-management-glossary.md"><em>Селектор</em></a> для конкретного экземпляра ресурса.</li><li><a href="windows-remote-management-glossary.md"><em>Параметр</em></a> , предоставляющий дополнительные данные поставщику ресурсов.</li></ul> | 
+| <a href="wsman-createsession.md"><strong>CreateSession</strong></a> | Создает объект <a href="session.md"><strong>сеанса</strong></a> , который затем может использоваться для последующих сетевых операций.<br /> | 
+| <a href="wsman-enumerationflaghierarchydeep.md"><strong>WSMan. Енумератионфлагхиерарчидип</strong></a> | Возвращает значение флага перечисления <strong>енумератионфлагхиерарчидип</strong> для использования в параметре <em>flags</em> <a href="session-enumerate.md"><strong>сеанса. Enumerate</strong></a>.<br /> | 
+| <a href="wsman-enumerationflaghierarchydeepbasepropsonly.md"><strong>WSMan. Енумератионфлагхиерарчидипбасепропсонли</strong></a> | Возвращает значение флага перечисления <strong>енумератионфлагхиерарчидипбасепропсонли</strong> для использования в параметре <em>flags</em> <a href="session-enumerate.md"><strong>сеанса. Enumerate</strong></a>.<br /> | 
+| <a href="wsman-enumerationflaghierarchyshallow.md"><strong>WSMan. Енумератионфлагхиерарчишаллов</strong></a> | Возвращает значение флага перечисления <strong>енумератионфлагхиерарчишаллов</strong> для использования в параметре <em>flags</em> <a href="session-enumerate.md"><strong>сеанса. Enumerate</strong></a>.<br /> | 
+| <a href="wsman-enumerationflagnonxmltext.md"><strong>WSMan. Енумератионфлагнонксмлтекст</strong></a> | Возвращает значение константы перечисления <strong>всманфлагнонксмлтекст</strong> для использования в параметре <em>flags</em> метода <a href="session-enumerate.md"><strong>Session. Enumerate</strong></a> .<br /> | 
+| <a href="wsman-enumerationflagreturnepr.md"><strong>WSMan. Енумератионфлагретурнепр</strong></a> | Возвращает значение флага перечисления <strong>енумератионфлагретурнепр</strong> для использования в параметре <em>flags</em> <a href="session-enumerate.md"><strong>сеанса. Enumerate</strong></a>.<br /> | 
+| <a href="wsman-enumerationflagreturnobject.md"><strong>WSMan. Енумератионфлагретурнобжект</strong></a> | Возвращает значение флага перечисления <strong>енумератионфлагретурнобжект</strong> для использования в параметре <em>flags</em> <a href="session-enumerate.md"><strong>сеанса. Enumerate</strong></a>.<br /> | 
+| <a href="wsman-enumerationflagreturnobjectandepr.md"><strong>WSMan. Енумератионфлагретурнобжектандепр</strong></a> | Возвращает значение флага перечисления <strong>енумератионфлагретурнобжектандепр</strong> для использования в параметре <em>flags</em> <a href="session-enumerate.md"><strong>сеанса. Enumerate</strong></a>.<br /> | 
+| <a href="wsman-geterrormessage.md"><strong>WSMan. Жетеррормессаже</strong></a> | Возвращает отформатированную строку, содержащую текст номера ошибки.<br /> | 
+| <a href="wsman-sessionflagcredusernamepassword.md"><strong>WSMan. Сессионфлагкредусернамепассворд</strong></a> | Возвращает значение флага проверки подлинности <strong>всманфлагкредусернамепассворд</strong> для использования в параметре <em>flags</em> <a href="wsman-createsession.md"><strong>WSMan. CreateSession</strong></a>.<br /> | 
+| <a href="wsman-sessionflagenablespnserverport.md"><strong>WSMan. Сессионфлаженаблеспнсерверпорт</strong></a> | Возвращает значение флага проверки подлинности <strong>всманфлаженаблеспнсерверпорт</strong> для использования в параметре <em>flags</em> <a href="wsman-createsession.md"><strong>WSMan. CreateSession</strong></a>.<br /> | 
+| <a href="wsman-sessionflagnoencryption.md"><strong>WSMan. Сессионфлагноенкриптион</strong></a> | Возвращает значение флага проверки подлинности <strong>всманфлагноенкриптион</strong> для использования в параметре <em>flags</em> <a href="wsman-createsession.md"><strong>WSMan. CreateSession</strong></a>.<br /> | 
+| <a href="wsman-sessionflagskipcacheck.md"><strong>WSMan. Сессионфлагскипкачекк</strong></a> | Возвращает значение флага проверки подлинности <strong>всманфлагскипкачекк</strong> для использования в параметре <em>flags</em> <a href="wsman-createsession.md"><strong>WSMan. CreateSession</strong></a>.<br /> | 
+| <a href="wsman-sessionflagskipcncheck.md"><strong>WSMan. Сессионфлагскипкнчекк</strong></a> | Возвращает значение флага проверки подлинности <strong>всманфлагскипкнчекк</strong> для использования в параметре <em>flags</em> <a href="wsman-createsession.md"><strong>WSMan. CreateSession</strong></a>.<br /> | 
+| <a href="wsman-sessionflagusebasic.md"><strong>WSMan. Сессионфлагусебасик</strong></a> | Возвращает значение флага проверки подлинности <strong>всманфлагусебасик</strong> для использования в параметре <em>flags</em> <a href="wsman-createsession.md"><strong>WSMan. CreateSession</strong></a>.<br /> | 
+| <a href="wsman-sessionflagusedigest.md"><strong>WSMan. Сессионфлагуседижест</strong></a> | Возвращает значение флага проверки подлинности <strong>всманфлагуседижест</strong> для использования в параметре <em>flags</em> <a href="wsman-createsession.md"><strong>WSMan. CreateSession</strong></a>.<br /> | 
+| <a href="wsman-sessionflagusekerberos.md"><strong>WSMan. Сессионфлагусекерберос</strong></a> | Возвращает значение флага проверки подлинности <strong>всманфлагусекерберос</strong> для использования в параметре <em>flags</em> <a href="wsman-createsession.md"><strong>WSMan. CreateSession</strong></a>.<br /> | 
+| <a href="wsman-sessionflagusenegotiate.md"><strong>WSMan. Сессионфлагусенеготиате</strong></a> | Возвращает значение флага проверки подлинности <strong>всманфлагусенеготиате</strong> для использования в параметре <em>flags</em> <a href="wsman-createsession.md"><strong>WSMan. CreateSession</strong></a>.<br /> | 
+| <a href="wsman-sessionflagusenoauthentication.md"><strong>WSMan. Сессионфлагусеноаусентикатион</strong></a> | Возвращает значение флага проверки подлинности <strong>всманфлагусеноаусентикатион</strong> для использования в параметре <em>flags</em> <a href="wsman-createsession.md"><strong>WSMan. CreateSession</strong></a>.<br /> | 
+| <a href="wsman-sessionflagutf8.md"><strong>WSMan. SessionFlagUTF8</strong></a> | Возвращает значение флага проверки подлинности <strong>WSManFlagUTF8</strong> для использования в параметре <em>flags</em> <a href="wsman-createsession.md"><strong>WSMan. CreateSession</strong></a>.<br /> | 
+
 
 
 
@@ -161,13 +80,13 @@ ms.locfileid: "119464504"
 | Свойство                                            | Тип доступа          | Описание                                                                   |
 |:----------------------------------------------------|:---------------------|:------------------------------------------------------------------------------|
 | [**Команд**](wsman-commandline.md)<br/> | Только для чтения<br/> | Возвращает необработанную командную строку для текущего ведущего процесса.<br/> |
-| [**План**](wsman-error.md)<br/>             | Только для чтения<br/> | Возвращает сведения об ошибке.<br/>                                            |
+| [**Ошибка**](wsman-error.md)<br/>             | Только для чтения<br/> | Возвращает сведения об ошибке.<br/>                                            |
 
 
 
  
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Объект **WSMan** соответствует интерфейсам [**ивсман**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsman) и [**ивсманекс**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanex) . **WSMan** — это единственный объект, который можно создать напрямую с помощью функции [CreateObject](/previous-versions//xzysf6hc(v=vs.85)).
 
@@ -186,7 +105,7 @@ strResource = "http://schemas.microsoft.com/wbem/wsman/1/wmi/Root/CIMv2/Win32_Op
 
 
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
@@ -194,14 +113,14 @@ strResource = "http://schemas.microsoft.com/wbem/wsman/1/wmi/Root/CIMv2/Win32_Op
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                 |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                           |
-| Header<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Всмандисп. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Всмандисп. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
