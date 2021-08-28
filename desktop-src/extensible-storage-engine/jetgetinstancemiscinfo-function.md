@@ -18,12 +18,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1ada8dfcd69a4e1933bcb60756d1b812f3b358cd37a3cda914819d2a9f6f4275
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 07167dc0f2cad5192dc30e9897541b6619086bfc
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119472354"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481350"
 ---
 # <a name="jetgetinstancemiscinfo-function"></a>Функция ЖетжетинстанцемисЦинфо
 
@@ -65,91 +65,34 @@ _**Применимо к:** Windows | Windows Сервером_
 
 Для использования с этим параметром доступны следующие параметры.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Значение</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_InstanceMiscInfoLogSignature</p></td>
-<td><p><em>пвресулт</em> интерпретируется как структура <a href="gg269340(v=exchg.10).md">JET_SIGNATURE</a> последовательности журнала транзакций, связанной с этим экземпляром.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Значение</p> | <p>Значение</p> | 
+|--------------|----------------|
+| <p>JET_InstanceMiscInfoLogSignature</p> | <p><em>пвресулт</em> интерпретируется как структура <a href="gg269340(v=exchg.10).md">JET_SIGNATURE</a> последовательности журнала транзакций, связанной с этим экземпляром.</p> | 
+
 
 
 ### <a name="return-value"></a>Возвращаемое значение
 
 Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Код возврата</p></th>
-<th><p>Описание</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>Операция выполнена успешно.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errBufferTooSmall</p></td>
-<td><p>Буфер слишком мал.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>Указан недопустимый <a href="gg294048(v=exchg.10).md">JET_INSTANCE</a> или недопустимое значение <em>инфолевел</em> .</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Код возврата</p> | <p>Описание</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>Операция выполнена успешно.</p> | 
+| <p>JET_errBufferTooSmall</p> | <p>Буфер слишком мал.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>Указан недопустимый <a href="gg294048(v=exchg.10).md">JET_INSTANCE</a> или недопустимое значение <em>инфолевел</em> .</p> | 
+
 
 
 #### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>требуется Windows Vista.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Сервер</strong></p></td>
-<td><p>требуется Windows Server 2008.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Библиотека</strong></p></td>
-<td><p>Используйте ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>КОМПОНОВКИ</strong></p></td>
-<td><p>Требуется ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows Server 2008.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | | <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | | <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | 
 
 
-#### <a name="see-also"></a>См. также
+
+#### <a name="see-also"></a>См. также:
 
 [JET_ERR](./jet-err.md)  
 [JET_INSTANCE](./jet-instance.md)  

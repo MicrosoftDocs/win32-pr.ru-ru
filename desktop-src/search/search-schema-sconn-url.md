@@ -1,19 +1,19 @@
 ---
-description: <url>Элемент указывает URL-адрес для расположения этого соединителя поиска.
+description: '&lt;Элемент URL &gt; задает URL-адрес для расположения этого соединителя поиска.'
 ms.assetid: fdc9e138-2e98-4f01-ab7b-0c3dfad5a4dd
 title: Элемент URL-адреса Симплелокатион (схема соединителя поиска)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fce95943017f4905414f65b75086d4babdf3750505fece0b73255e0e63623e9b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8818eacdaecd33353d4340270770e80b4a63ceee
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118226329"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883105"
 ---
 # <a name="simplelocation-url-element-search-connector-schema"></a>Элемент URL-адреса Симплелокатион (схема соединителя поиска)
 
-<url>Элемент указывает URL-адрес для расположения этого соединителя поиска. Это значение может быть обычным URL-адресом file://, как определено в RFC 1738 ( https://www.ietf.org/rfc/rfc1738.txt) документ или URL-адрес, использующий протокол кновнфолдерс: Protocol). Этот элемент не имеет дочерних элементов и не имеет атрибутов.
+&lt;Элемент URL &gt; задает URL-адрес для расположения этого соединителя поиска. Это значение может быть обычным URL-адресом file://, как определено в RFC 1738 ( https://www.ietf.org/rfc/rfc1738.txt) документ или URL-адрес, использующий протокол кновнфолдерс: Protocol). Этот элемент не имеет дочерних элементов и не имеет атрибутов.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -51,7 +51,7 @@ ms.locfileid: "118226329"
 
  
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Список идентификаторов GUID известных папок см. в разделе [кновнфолдерид](/windows/desktop/shell/knownfolderid) . Используйте следующий формат для значения этого элемента при использовании протокола кновнфолдер: Protocol.
 
@@ -66,7 +66,7 @@ ms.locfileid: "118226329"
 
 
 
-| Известная папка                     | GUID                                         |
+| Известная папка                     | Код GUID                                         |
 |----------------------------------|----------------------------------------------|
 | FOLDERID \_ админтулс             | {724EF170-A42D-4FEF-9F-26-B6-0E-84-6F-BA-4F} |
 | FOLDERID \_ аппупдатес             | {a305ce99-f527-492b-8B-1A-7E-76-FA-98-D6-E4} |

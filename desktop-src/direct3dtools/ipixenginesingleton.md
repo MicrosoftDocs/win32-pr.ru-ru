@@ -17,24 +17,24 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 439f1e4461308076d2e349bf1bc2638db6754fe5
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 22e2bc8654306031e417532ea8eb3c7b8df8c5bc
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105719250"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122632142"
 ---
 # <a name="span-idvspixengineipixenginesingletonspanipixenginesingleton-interface"></a><span id="vspixengine.ipixenginesingleton"></span>Интерфейс Ипиксенгинесинглетон
 
 Определяет, поддерживает ли модуль одноэлементный экземпляр.
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Участники
 
 Интерфейс **ипиксенгинесинглетон** наследует от интерфейса [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) , но не содержит дополнительных элементов.
 
 ## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

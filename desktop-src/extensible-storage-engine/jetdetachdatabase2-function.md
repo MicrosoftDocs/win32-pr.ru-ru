@@ -20,23 +20,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7688df9a18d8e13a85e4a244fc8502a7147e154f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4f29253f3b320abb662f7a4334a14c1c49ed546
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693350"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122984887"
 ---
 # <a name="jetdetachdatabase2-function"></a>Функция JetDetachDatabase2
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetdetachdatabase2-function"></a>Функция JetDetachDatabase2
 
 Функция **JetDetachDatabase2** освобождает файл базы данных, который ранее был присоединен к сеансу базы данных.
 
-**Windows XP:**  **JetDetachDatabase2** появился в Windows XP.
+**Windows xp:****JetDetachDatabase2** появился в Windows XP.  
 
 ```cpp
     JET_ERR JET_API JetDetachDatabase2(
@@ -60,114 +60,48 @@ _**Применимо к:** Windows | Windows Server_
 
 Группа битов, задающая ноль или более следующих параметров.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Значение</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitForceCloseAndDetach</p></td>
-<td><p>Принудительное закрытие и отсоединение базы данных. Если JET_bitForceCloseAndDetach не поддерживается, будет возвращено JET_errForceDetachNotAllowed.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitForceDetach</p></td>
-<td><p>Принудительное отключение базы данных. Если JET_bitForceDetach не поддерживается, будет возвращено JET_errForceDetachNotAllowed.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Значение</p> | <p>Значение</p> | 
+|--------------|----------------|
+| <p>JET_bitForceCloseAndDetach</p> | <p>Принудительное закрытие и отсоединение базы данных. Если JET_bitForceCloseAndDetach не поддерживается, будет возвращено JET_errForceDetachNotAllowed.</p> | 
+| <p>JET_bitForceDetach</p> | <p>Принудительное отключение базы данных. Если JET_bitForceDetach не поддерживается, будет возвращено JET_errForceDetachNotAllowed.</p> | 
+
 
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Код возврата</p></th>
-<th><p>Описание</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>Операция выполнена успешно.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errBackupInProgress</p></td>
-<td><p>База данных архивируется и не может быть отсоединена.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errDatabaseInUse</p></td>
-<td><p>База данных открыта с помощью <a href="gg269299(v=exchg.10).md">жетопендатабасе</a>. Перед отсоединением базы данных должны быть закрыты.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errDatabaseNotFound</p></td>
-<td><p>База данных не была присоединена ранее (см. <a href="gg294074(v=exchg.10).md">жетаттачдатабасе</a> или <a href="gg269322(v=exchg.10).md">JetAttachDatabase2</a>).</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errForceDetachNotAllowed</p></td>
-<td><p>JET_bitForceDetach не поддерживается.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInTransaction</p></td>
-<td><p>Предпринята попытка отсоединить базу данных во время транзакции.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Код возврата</p> | <p>Описание</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>Операция выполнена успешно.</p> | 
+| <p>JET_errBackupInProgress</p> | <p>База данных архивируется и не может быть отсоединена.</p> | 
+| <p>JET_errDatabaseInUse</p> | <p>База данных открыта с помощью <a href="gg269299(v=exchg.10).md">жетопендатабасе</a>. Перед отсоединением базы данных должны быть закрыты.</p> | 
+| <p>JET_errDatabaseNotFound</p> | <p>База данных не была присоединена ранее (см. <a href="gg294074(v=exchg.10).md">жетаттачдатабасе</a> или <a href="gg269322(v=exchg.10).md">JetAttachDatabase2</a>).</p> | 
+| <p>JET_errForceDetachNotAllowed</p> | <p>JET_bitForceDetach не поддерживается.</p> | 
+| <p>JET_errInTransaction</p> | <p>Предпринята попытка отсоединить базу данных во время транзакции.</p> | 
+
 
 
 #### <a name="remarks"></a>Комментарии
 
 Если присоединенная база данных была открыта (с [жетаттачдатабасе](./jetattachdatabase-function.md)), ее необходимо закрыть с помощью [жетклоседатабасе](./jetclosedatabase-function.md) перед отсоединением.
 
-Только Windows 2000. базы данных, которые не были отсоединены до вызова [жеттерм](./jetterm-function.md) , будут автоматически присоединены при следующем вызове [жетинит](./jetinit-function.md) .
+только Windows 2000. базы данных, которые не были отсоединены до вызова [жеттерм](./jetterm-function.md) , будут автоматически присоединены при следующем вызове [жетинит](./jetinit-function.md) .
 
 #### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista или Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008 или Windows Server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Библиотека</strong></p></td>
-<td><p>Используйте ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>КОМПОНОВКИ</strong></p></td>
-<td><p>Требуется ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Юникод</strong></p></td>
-<td><p>Реализуется как <strong>JetDetachDatabase2W</strong> (Юникод) и <strong>JetDetachDatabase2A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Требование | Применение |
+|------------|----------|
+| <p><strong>Клиент</strong></p> | <p>требуется Windows Vista или Windows XP.</p> | 
+| <p><strong>Server</strong></p> | <p>требуется Windows server 2008 или Windows server 2003.</p> | 
+| <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+| <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | 
+| <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | 
+| <p><strong>Юникод</strong></p> | <p>Реализуется как <strong>JetDetachDatabase2W</strong> (Юникод) и <strong>JetDetachDatabase2A</strong> (ANSI).</p> | 
+
 
 
 #### <a name="see-also"></a>См. также:

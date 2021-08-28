@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc9d9dc3b28aec92b7125dc2cad6bf8b843975945ca89687957d56be0ff562d2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e9c140af202de263e99f0fa8ec72186da6e995ec
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118367732"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882621"
 ---
 # <a name="inapsystemhealthvalidationrequestgetsohrequest-method"></a>Метод Инапсистемхеалсвалидатионрекуест:: Жетсохрекуест
 
@@ -78,15 +78,15 @@ HRESULT GetSoHRequest(
 
  
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Параметр *сохрекуест* может возвращать **значение NULL** , если клиент не отправлял [**сохрекуест**](/windows/win32/api/naptypes/ns-naptypes-soh) в SHV. В этом сценарии SHV может заполнить **сохреспонсе** кодом ошибки [**NAP \_ E \_ Missing No \_ SoH**](nap-error-constants.md).
 
 Если параметр *напсистемженератед* имеет **значение true**, формат *сохрекуест* выглядит следующим образом:
 
--   [**сохаттрибутетипесистемхеалсид**](sohattributetype-enum.md)= <id>
+-   [](sohattributetype-enum.md) =  сохаттрибутетипесистемхеалсид &lt; удостоверения&gt;
 -   [**сохаттрибутетипефаилурекатегори**](sohattributetype-enum.md) =  [ **фаилурекатегориклиенткомпонент**](/windows/win32/api/naptypes/ne-naptypes-failurecategory)
--   [**сохаттрибутетипирроркодес**](sohattributetype-enum.md)  =  [ **<SHA-Failure-Error-code>**](nap-error-constants.md)
+-   [**сохаттрибутетипирроркодес**](sohattributetype-enum.md)  =  [ **&lt; SHA-Failure-ошибка-код &gt;**](nap-error-constants.md)
 
 ## <a name="requirements"></a>Требования
 
@@ -96,7 +96,7 @@ HRESULT GetSoHRequest(
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                                               |
 | Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                    |
-| Header<br/>                   | <dl> <dt>Напсистемхеалсвалидатор. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Напсистемхеалсвалидатор. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Напсистемхеалсвалидатор. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qshvhost.dll</dt> </dl>                 |
 

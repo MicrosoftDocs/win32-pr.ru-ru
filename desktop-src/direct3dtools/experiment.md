@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: e932d2f2b60a72ca167f3f6edd7f4ddae9b68710
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 90e60f3f197db78a3ec399c2f8ffe7144901b097
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103805981"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625370"
 ---
 # <a name="span-idvspixengineexperimentspanexperiment-structure"></a><span id="vspixengine.experiment"></span>Структура эксперимента
 
@@ -35,7 +35,7 @@ ms.locfileid: "103805981"
 } Experiment;
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 
 **Идентификатор**  
 Идентификатор связанного процесса.
@@ -59,14 +59,14 @@ ms.locfileid: "103805981"
 Тип эксперимента (захват).
 
 **уилокале**  
-Идентификатор локали, используемый для элементов наложения пользовательского интерфейса во время експериемент (записи). Это передается из узла (например, Visual Studio диагностика графики) в подсистему записи.
+Идентификатор локали, используемый для элементов наложения пользовательского интерфейса во время експериемент (записи). он передается из узла (например, Visual Studio диагностика графики) в подсистему записи.
 
 **регистрирут**  
-Строка COM, содержащая корень реестра. Это передается из узла (например, Visual Studio диагностика графики) в подсистему записи.
+Строка COM, содержащая корень реестра. он передается из узла (например, Visual Studio диагностика графики) в подсистему записи.
 
 ## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

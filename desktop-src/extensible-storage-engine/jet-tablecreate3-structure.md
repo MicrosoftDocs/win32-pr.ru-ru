@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 64f820b9e9a42099cdb99d8ab8f0756e8fdbb23256917821d05573afd9068017
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1b3e1f3a21b5e5f901ef039b9cff0cdd52d415d5
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118979244"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122983027"
 ---
 # <a name="jet_tablecreate3-structure"></a>Структура JET_TABLECREATE3
 
@@ -119,92 +119,33 @@ typedef struct tagJET_TABLECREATE3 {
 
 Это битовое значение состоит из одного или нескольких битовых значений, перечисленных в следующей таблице.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Значение</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_cbtypFinalize</p></td>
-<td><p>Функция обратного вызова вызывается, когда столбец, который может быть завершен, имеет нулевое значение.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_cbtypBeforeInsert</p></td>
-<td><p>Перед вставкой записи будет вызвана функция обратного вызова.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_cbtypAfterInsert</p></td>
-<td><p>Функция обратного вызова будет вызываться после завершения вставки записи ядром СУБД.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_cbtypBeforeReplace</p></td>
-<td><p>Функция обратного вызова будет вызвана до изменения записи.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_cbtypAfterReplace</p></td>
-<td><p>Функция обратного вызова будет вызвана после завершения изменения записи.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_cbtypBeforeDelete</p></td>
-<td><p>Функция обратного вызова будет вызвана до удаления записи.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_cbtypAfterDelete</p></td>
-<td><p>Функция обратного вызова будет вызвана после удаления записи.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_cbtypUserDefinedDefaultValue</p></td>
-<td><p>Функция обратного вызова будет вызываться для вычисления определяемого пользователем значения по умолчанию.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_cbtypFreeCursorLS</p></td>
-<td><p>Функция обратного вызова будет вызываться, когда необходимо освободить локальное хранилище, связанное с курсором.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_cbtypFreeTableLS</p></td>
-<td><p>Функция обратного вызова будет вызываться, когда локальное хранилище, связанное с таблицей, должно быть освобождено.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Значение</p> | <p>Значение</p> | 
+|--------------|----------------|
+| <p>JET_cbtypFinalize</p> | <p>Функция обратного вызова вызывается, когда столбец, который может быть завершен, имеет нулевое значение.</p> | 
+| <p>JET_cbtypBeforeInsert</p> | <p>Перед вставкой записи будет вызвана функция обратного вызова.</p> | 
+| <p>JET_cbtypAfterInsert</p> | <p>Функция обратного вызова будет вызываться после завершения вставки записи ядром СУБД.</p> | 
+| <p>JET_cbtypBeforeReplace</p> | <p>Функция обратного вызова будет вызвана до изменения записи.</p> | 
+| <p>JET_cbtypAfterReplace</p> | <p>Функция обратного вызова будет вызвана после завершения изменения записи.</p> | 
+| <p>JET_cbtypBeforeDelete</p> | <p>Функция обратного вызова будет вызвана до удаления записи.</p> | 
+| <p>JET_cbtypAfterDelete</p> | <p>Функция обратного вызова будет вызвана после удаления записи.</p> | 
+| <p>JET_cbtypUserDefinedDefaultValue</p> | <p>Функция обратного вызова будет вызываться для вычисления определяемого пользователем значения по умолчанию.</p> | 
+| <p>JET_cbtypFreeCursorLS</p> | <p>Функция обратного вызова будет вызываться, когда необходимо освободить локальное хранилище, связанное с курсором.</p> | 
+| <p>JET_cbtypFreeTableLS</p> | <p>Функция обратного вызова будет вызываться, когда локальное хранилище, связанное с таблицей, должно быть освобождено.</p> | 
+
 
 
 **грбит**
 
 Группа битов, содержащая ноль или более значений параметров вызова, перечисленных в следующей таблице.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Значение</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitTableCreateFixedDDL</p></td>
-<td><p>Предотвращает выполнение DDL-операций в таблице (например, добавление или удаление столбцов).</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTableCreateTemplateTable</p></td>
-<td><p>Приводит к тому, что таблица будет таблицей шаблонов. Новые таблицы могут затем указать имя этой таблицы в качестве таблицы шаблонов. Параметр JET_bitTableCreateTemplateTable подразумевает JET_bitTableCreateFixedDDL.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTableCreateNoFixedVarColumnsInDerivedTables</p></td>
-<td><p>Должен использоваться в сочетании с JET_bitTableCreateTemplateTable. Не рекомендуется. Не используется.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Значение</p> | <p>Значение</p> | 
+|--------------|----------------|
+| <p>JET_bitTableCreateFixedDDL</p> | <p>Предотвращает выполнение DDL-операций в таблице (например, добавление или удаление столбцов).</p> | 
+| <p>JET_bitTableCreateTemplateTable</p> | <p>Приводит к тому, что таблица будет таблицей шаблонов. Новые таблицы могут затем указать имя этой таблицы в качестве таблицы шаблонов. Параметр JET_bitTableCreateTemplateTable подразумевает JET_bitTableCreateFixedDDL.</p> | 
+| <p>JET_bitTableCreateNoFixedVarColumnsInDerivedTables</p> | <p>Должен использоваться в сочетании с JET_bitTableCreateTemplateTable. Не рекомендуется. Не используется.</p> | 
+
 
 
 **псекспацехинтс**
@@ -235,32 +176,16 @@ typedef struct tagJET_TABLECREATE3 {
 
 Количество создаваемых объектов равно сумме столбцов, таблиц и индексов, которые были успешно созданы.
 
-### <a name="requirements"></a>Requirements (Требования)
+### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>требуется Windows Vista или Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Сервер</strong></p></td>
-<td><p>требуется Windows server 2008 или Windows server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Юникод</strong></p></td>
-<td><p>Реализуется как <strong>JET_TABLECREATE3_W</strong> (Юникод) и <strong>JET_TABLECREATE3_A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Требование | Применение |
+|------------|----------|
+| <p><strong>Клиент</strong></p> | <p>требуется Windows Vista или Windows XP.</p> | 
+| <p><strong>Server</strong></p> | <p>требуется Windows server 2008 или Windows server 2003.</p> | 
+| <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+| <p><strong>Юникод</strong></p> | <p>Реализуется как <strong>JET_TABLECREATE3_W</strong> (Юникод) и <strong>JET_TABLECREATE3_A</strong> (ANSI).</p> | 
+
 
 
 ### <a name="see-also"></a>См. также раздел

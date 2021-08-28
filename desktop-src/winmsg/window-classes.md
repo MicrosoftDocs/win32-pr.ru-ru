@@ -4,12 +4,12 @@ ms.assetid: vs|winui|~\winui\windowsuserinterface\windowing\window_89windowclass
 title: классы окон (Windows и сообщения)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6b570309ce6613f3adfe256faff9c30b66f9dbd5062de5f342b434be32dce89
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a77e96a06433bf6bbcb72fb76a41a29fccee27ad
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117849509"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482650"
 ---
 # <a name="window-classes-windows-and-messages"></a>классы окон (Windows и сообщения)
 
@@ -59,47 +59,13 @@ ms.locfileid: "117849509"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Имя</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/winuser/nf-winuser-getclassinfoa"><strong>жетклассинфо</strong></a></td>
-<td>Извлекает сведения о классе окна. <br/>
-<blockquote>
-[!Note]<br />
-Функция <a href="/windows/desktop/api/winuser/nf-winuser-getclassinfoa"><strong>жетклассинфо</strong></a> была заменена функцией <a href="/windows/desktop/api/winuser/nf-winuser-getclassinfoexa"><strong>жетклассинфоекс</strong></a> . Однако вы по-прежнему можете использовать <strong>жетклассинфо</strong>, если вам не нужны сведения о небольшом значке класса.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/winuser/nf-winuser-getclassword"><strong>жетклассворд</strong></a></td>
-<td>Получает 16-разрядное значение (<strong>Word</strong>) с указанным смещением в память дополнительного класса для класса окна, к которому принадлежит указанное окно.
-<blockquote>
-[!Note]<br />
-Эта функция является устаревшей для любого использования, кроме <em>ниндекс</em> , в значение GCW_ATOM. Функция предоставляется только для обеспечения совместимости с 16-разрядными версиями Windows. Приложения должны использовать функцию <a href="/windows/desktop/api/winuser/nf-winuser-getclasslonga"><strong>жеткласслонг</strong></a> .
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/winuser/nf-winuser-setclasslonga"><strong>сеткласслонг</strong></a></td>
-<td>Заменяет заданное 32-разрядное (<strong>длинное</strong>) значение по указанному смещению на дополнительную память класса или структуру <a href="/windows/win32/api/winuser/ns-winuser-wndclassexa"><strong>вндклассекс</strong></a> для класса, к которому принадлежит указанное окно.
-<blockquote>
-[!Note]<br />
-Эта функция была заменена функцией <a href="/windows/desktop/api/winuser/nf-winuser-setclasslongptra"><strong>сеткласслонгптр</strong></a> . чтобы написать код, совместимый как с 32-разрядными, так и с 64-разрядными версиями Windows, используйте <strong>сеткласслонгптр</strong>.
-</blockquote>
-<br/> <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Имя | Описание | 
+|------|-------------|
+| <a href="/windows/desktop/api/winuser/nf-winuser-getclassinfoa"><strong>жетклассинфо</strong></a> | Извлекает сведения о классе окна. <br /><blockquote>[!Note]<br />Функция <a href="/windows/desktop/api/winuser/nf-winuser-getclassinfoa"><strong>жетклассинфо</strong></a> была заменена функцией <a href="/windows/desktop/api/winuser/nf-winuser-getclassinfoexa"><strong>жетклассинфоекс</strong></a> . Однако вы по-прежнему можете использовать <strong>жетклассинфо</strong>, если вам не нужны сведения о небольшом значке класса.</blockquote><br /> | 
+| <a href="/windows/desktop/api/winuser/nf-winuser-getclassword"><strong>жетклассворд</strong></a> | Получает 16-разрядное значение (<strong>Word</strong>) с указанным смещением в память дополнительного класса для класса окна, к которому принадлежит указанное окно.<blockquote>[!Note]<br />Эта функция является устаревшей для любого использования, кроме <em>ниндекс</em> , в значение GCW_ATOM. Функция предоставляется только для обеспечения совместимости с 16-разрядными версиями Windows. Приложения должны использовать функцию <a href="/windows/desktop/api/winuser/nf-winuser-getclasslonga"><strong>жеткласслонг</strong></a> .</blockquote><br /><br /> | 
+| <a href="/windows/desktop/api/winuser/nf-winuser-setclasslonga"><strong>сеткласслонг</strong></a> | Заменяет заданное 32-разрядное (<strong>длинное</strong>) значение по указанному смещению на дополнительную память класса или структуру <a href="/windows/win32/api/winuser/ns-winuser-wndclassexa"><strong>вндклассекс</strong></a> для класса, к которому принадлежит указанное окно.<blockquote>[!Note]<br />Эта функция была заменена функцией <a href="/windows/desktop/api/winuser/nf-winuser-setclasslongptra"><strong>сеткласслонгптр</strong></a> . чтобы написать код, совместимый как с 32-разрядными, так и с 64-разрядными версиями Windows, используйте <strong>сеткласслонгптр</strong>.</blockquote><br /><br /> | 
+
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 44c63152-507d-4769-9c0c-d275d2b0deac
 title: Функция Декриптмессаже (NTLM)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 707f1bcd9ae697de0c3e23529fe2857f58d0e5e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f73159c1b6e9fbe3d6d9c282ffdb05271e29583b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105719556"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481050"
 ---
 # <a name="decryptmessage-ntlm-function"></a>Функция Декриптмессаже (NTLM)
 
@@ -49,8 +49,11 @@ SECURITY_STATUS SEC_Entry DecryptMessage(
 
 Этот параметр может иметь следующий флаг.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Значение</th><th>Значение</th></tr></thead><tbody><tr class="odd"><td><span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl> <dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt> </dl></td><td>Сообщение не было зашифровано, но был создан заголовок или трейлер.<br/><blockquote>[!Note]<br />
-KERB_WRAP_NO_ENCRYPT имеет то же значение и то же самое.</blockquote><br/></td></tr></tbody></table>
+
+| Значение | Значение | 
+|-------|---------|
+| <span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl><dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt></dl> | Сообщение не было зашифровано, но был создан заголовок или трейлер.<br /><blockquote>[!Note]<br />KERB_WRAP_NO_ENCRYPT имеет то же значение и то же самое.</blockquote><br /> | 
+
 
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -73,13 +76,13 @@ KERB_WRAP_NO_ENCRYPT имеет то же значение и то же само
 
 | Требование | Значение |
 |--------------------------|-------------------------------------------|
-| Минимальная версия клиента | Только для \[ классических приложений Windows XP\]          |
-| Минимальная версия сервера | \[Только для настольных приложений Windows Server 2003\] |
-| Header                   | SSPI. h (включая Security. h)               |
+| Минимальная версия клиента | Windows \[Только классические приложения XP\]          |
+| Минимальная версия сервера | Windows Только для \[ настольных приложений сервера 2003\] |
+| Заголовок                   | SSPI. h (включая Security. h)               |
 | Библиотека                  | Secur32. lib                               |
 | DLL                      | Secur32.dll                               |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Функции SSPI](authentication-functions.md#sspi-functions)
 - [**Енкриптмессаже (NTLM)**](encryptmessage--ntlm.md)

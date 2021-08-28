@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1b14388f26e21550319b910ac01d9ee0dde4d5890336c91e1fca76bc68cce93f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ffe79dde0f24e82aa7ca9457604ea76b587e9b29
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118254984"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122984027"
 ---
 # <a name="jet_columncreate-structure"></a>Структура JET_COLUMNCREATE
 
@@ -82,101 +82,24 @@ _**Применимо к:** Windows | Windows Сервером_
 
 Группа битов, содержащая параметры для этой структуры, которые содержат ноль или более следующих значений.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Значение</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitColumnFixed</p></td>
-<td><p>Столбец является фиксированным. Он всегда будет использовать один и тот же объем пространства в строке независимо от объема данных, сохраняемых в столбце. JET_bitColumnFixed нельзя использовать с JET_bitColumnTagged. Этот бит не может использоваться с длинными значениями, такими как <strong>JET_coltypLongText</strong> и <strong>JET_coltypLongBinary</strong>.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitColumnTagged</p></td>
-<td><p>Столбец помечен как тег. Помеченные столбцы не занимают место в базе данных, если они не содержат данных. Этот бит не может использоваться с JET_bitColumnFixed.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitColumnNotNULL</p></td>
-<td><p>Для этого столбца никогда не должно быть задано значение NULL.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitColumnAutoincrement</p></td>
-<td><p>Столбец автоматически увеличивается. Число является увеличивающимся числом и гарантированно уникально в пределах таблицы. Однако это число может не быть непрерывным. Например, если в таблицу вставляются пять строк, столбец AutoIncrement может содержать значения {1, 2, 6, 7, 8}.</p>
-<p><strong>Windows 2000:</strong> Этот бит можно использовать только для столбцов типа <strong>JET_coltypLong</strong>.</p>
-<p><strong>Windows Server 2003 и более поздних версий:</strong> Этот бит можно использовать только для столбцов типа <strong>JET_coltypLong</strong> или <strong>JET_coltypCurrency</strong>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitColumnUpdatable</p></td>
-<td><p>Этот бит допустим только для вызовов <a href="gg269215(v=exchg.10).md">жетжетколумнинфо</a>.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitColumnTTKey</p></td>
-<td><p>Этот бит допустим только для вызовов <a href="gg269211(v=exchg.10).md">жетопентемптабле</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitColumnTTDescending</p></td>
-<td><p>Этот бит допустим только для вызовов <a href="gg269211(v=exchg.10).md">жетопентемптабле</a>.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitColumnMultiValued</p></td>
-<td><p>Столбец может иметь несколько значений. Столбец с несколькими значениями может иметь ноль, одно или несколько связанных с ним значений. Различные значения в столбце с несколькими значениями определяются элементом <strong>итагсекуенце</strong> в различных структурах, например <a href="gg294049(v=exchg.10).md">JET_RETINFO</a>, <a href="gg294090(v=exchg.10).md">JET_SETINFO</a>, <a href="gg269233(v=exchg.10).md">JET_SETCOLUMN</a>, <a href="gg269334(v=exchg.10).md">JET_RETRIEVECOLUMN</a>, <a href="gg294052(v=exchg.10).md">JET_ENUMCOLUMNVALUE</a>. Столбцы с несколькими значениями должны быть помечены как столбцы. Это значит, что они не могут быть столбцами фиксированной длины или переменной длины.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitColumnEscrowUpdate</p></td>
-<td><p>Столбец является столбцом депонированного обновления. Столбец депонированного обновления может обновляться параллельно разными сеансами с <a href="gg294125(v=exchg.10).md">жетескровупдате</a> и поддерживать согласованность транзакций.</p>
-<ul>
-<li><p>Столбец депонированного обновления может быть создан только в том случае, если таблица пуста.</p></li>
-<li><p>Столбец депонированного обновления должен иметь тип <strong>JET_coltypLong.</strong></p></li>
-<li><p>Столбец депонированного обновления должен иметь значение по умолчанию ( <strong>кбдефаулт</strong> должно быть положительным).</p></li>
-<li><p>JET_bitColumnEscrowUpdate нельзя использовать в сочетании со следующими константами:</p>
-<ul>
-<li><p>JET_bitColumnTagged</p></li>
-<li><p>JET_bitColumnVersion</p></li>
-<li><p>JET_bitColumnAutoincrement</p></li>
-</ul></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitColumnUnversioned</p></td>
-<td><p>Столбец создается без версии. Другие транзакции, пытающиеся добавить столбец с тем же именем, завершатся ошибкой. Этот бит удобен только для <a href="gg294122(v=exchg.10).md">жетаддколумн</a>. Его нельзя использовать в транзакции.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitColumnMaybeNull</p></td>
-<td><p>Зарезервировано для последующего использования.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitColumnFinalize</p></td>
-<td><p>Вместо JET_bitColumnFinalize используйте JET_bitColumnDeleteOnZero. JET_bitColumnFinalize указывает, что столбец может быть завершен. Если столбец, который может быть завершен, имеет столбец депонированного обновления, который достигает нуля, строка будет удалена. В будущих версиях вместо этого можно вызвать функцию обратного вызова. Дополнительные сведения см. в разделе <a href="gg294098(v=exchg.10).md">JET_CALLBACK</a>. Столбец, который может быть завершен, должен быть столбцом типа "условно Update". JET_bitColumnFinalize нельзя использовать с JET_bitColumnUserDefinedDefault.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitColumnUserDefinedDefault</p></td>
-<td><p>Значение по умолчанию для столбца предоставляется функцией обратного вызова <a href="gg294098(v=exchg.10).md">JET_CALLBACK</a>. Столбец, содержащий определяемое пользователем значение по умолчанию, должен быть столбцом с тегами. <strong>пвдефаулт</strong> должен указывать на структуру <a href="gg269200(v=exchg.10).md">JET_USERDEFINEDDEFAULT</a> , а для <strong>кбдефаулт</strong> должно быть задано значение sizeof (<a href="gg269200(v=exchg.10).md">JET_USERDEFINEDDEFAULT</a>).</p>
-<p>JET_bitColumnUserDefinedDefault нельзя использовать в сочетании со следующими константами:</p>
-<ul>
-<li><p>JET_bitColumnFixed</p></li>
-<li><p>JET_bitColumnNotNULL</p></li>
-<li><p>JET_bitColumnVersion</p></li>
-<li><p>JET_bitColumnAutoincrement</p></li>
-<li><p>JET_bitColumnUpdatable</p></li>
-<li><p>JET_bitColumnEscrowUpdate</p></li>
-<li><p>JET_bitColumnFinalize</p></li>
-<li><p>JET_bitColumnDeleteOnZero</p></li>
-<li><p>JET_bitColumnMaybeNull</p></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitColumnDeleteOnZero</p></td>
-<td><p>Столбец является столбцом депонированного обновления, и когда он достигает нуля, запись будет удалена. Обычно для столбца, который может быть завершен, можно использовать его как поле счетчика ссылок, а когда поле достигает нуля, запись удаляется. JET_bitColumnDeleteOnZero связана с JET_bitColumnFinalize. Столбец Deleted-on-Zero должен быть столбцом депонированного обновления. JET_bitColumnDeleteOnZero нельзя использовать с JET_bitColumnFinalize. JET_bitColumnDeleteOnZero нельзя использовать с пользовательскими столбцами по умолчанию.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Значение</p> | <p>Значение</p> | 
+|--------------|----------------|
+| <p>JET_bitColumnFixed</p> | <p>Столбец является фиксированным. Он всегда будет использовать один и тот же объем пространства в строке независимо от объема данных, сохраняемых в столбце. JET_bitColumnFixed нельзя использовать с JET_bitColumnTagged. Этот бит не может использоваться с длинными значениями, такими как <strong>JET_coltypLongText</strong> и <strong>JET_coltypLongBinary</strong>.</p> | 
+| <p>JET_bitColumnTagged</p> | <p>Столбец помечен как тег. Помеченные столбцы не занимают место в базе данных, если они не содержат данных. Этот бит не может использоваться с JET_bitColumnFixed.</p> | 
+| <p>JET_bitColumnNotNULL</p> | <p>Для этого столбца никогда не должно быть задано значение NULL.</p> | 
+| <p>JET_bitColumnAutoincrement</p> | <p>Столбец автоматически увеличивается. Число является увеличивающимся числом и гарантированно уникально в пределах таблицы. Однако это число может не быть непрерывным. Например, если в таблицу вставляются пять строк, столбец AutoIncrement может содержать значения {1, 2, 6, 7, 8}.</p><p><strong>Windows 2000:</strong> Этот бит можно использовать только для столбцов типа <strong>JET_coltypLong</strong>.</p><p><strong>Windows Server 2003 и более поздних версий:</strong> Этот бит можно использовать только для столбцов типа <strong>JET_coltypLong</strong> или <strong>JET_coltypCurrency</strong>.</p> | 
+| <p>JET_bitColumnUpdatable</p> | <p>Этот бит допустим только для вызовов <a href="gg269215(v=exchg.10).md">жетжетколумнинфо</a>.</p> | 
+| <p>JET_bitColumnTTKey</p> | <p>Этот бит допустим только для вызовов <a href="gg269211(v=exchg.10).md">жетопентемптабле</a>.</p> | 
+| <p>JET_bitColumnTTDescending</p> | <p>Этот бит допустим только для вызовов <a href="gg269211(v=exchg.10).md">жетопентемптабле</a>.</p> | 
+| <p>JET_bitColumnMultiValued</p> | <p>Столбец может иметь несколько значений. Столбец с несколькими значениями может иметь ноль, одно или несколько связанных с ним значений. Различные значения в столбце с несколькими значениями определяются элементом <strong>итагсекуенце</strong> в различных структурах, например <a href="gg294049(v=exchg.10).md">JET_RETINFO</a>, <a href="gg294090(v=exchg.10).md">JET_SETINFO</a>, <a href="gg269233(v=exchg.10).md">JET_SETCOLUMN</a>, <a href="gg269334(v=exchg.10).md">JET_RETRIEVECOLUMN</a>, <a href="gg294052(v=exchg.10).md">JET_ENUMCOLUMNVALUE</a>. Столбцы с несколькими значениями должны быть помечены как столбцы. Это значит, что они не могут быть столбцами фиксированной длины или переменной длины.</p> | 
+| <p>JET_bitColumnEscrowUpdate</p> | <p>Столбец является столбцом депонированного обновления. Столбец депонированного обновления может обновляться параллельно разными сеансами с <a href="gg294125(v=exchg.10).md">жетескровупдате</a> и поддерживать согласованность транзакций.</p><ul><li><p>Столбец депонированного обновления может быть создан только в том случае, если таблица пуста.</p></li><li><p>Столбец депонированного обновления должен иметь тип <strong>JET_coltypLong.</strong></p></li><li><p>Столбец депонированного обновления должен иметь значение по умолчанию ( <strong>кбдефаулт</strong> должно быть положительным).</p></li><li><p>JET_bitColumnEscrowUpdate нельзя использовать в сочетании со следующими константами:</p><ul><li><p>JET_bitColumnTagged</p></li><li><p>JET_bitColumnVersion</p></li><li><p>JET_bitColumnAutoincrement</p></li></ul></li></ul> | 
+| <p>JET_bitColumnUnversioned</p> | <p>Столбец создается без версии. Другие транзакции, пытающиеся добавить столбец с тем же именем, завершатся ошибкой. Этот бит удобен только для <a href="gg294122(v=exchg.10).md">жетаддколумн</a>. Его нельзя использовать в транзакции.</p> | 
+| <p>JET_bitColumnMaybeNull</p> | <p>Зарезервировано для последующего использования.</p> | 
+| <p>JET_bitColumnFinalize</p> | <p>Вместо JET_bitColumnFinalize используйте JET_bitColumnDeleteOnZero. JET_bitColumnFinalize указывает, что столбец может быть завершен. Если столбец, который может быть завершен, имеет столбец депонированного обновления, который достигает нуля, строка будет удалена. В будущих версиях вместо этого можно вызвать функцию обратного вызова. Дополнительные сведения см. в разделе <a href="gg294098(v=exchg.10).md">JET_CALLBACK</a>. Столбец, который может быть завершен, должен быть столбцом типа "условно Update". JET_bitColumnFinalize нельзя использовать с JET_bitColumnUserDefinedDefault.</p> | 
+| <p>JET_bitColumnUserDefinedDefault</p> | <p>Значение по умолчанию для столбца предоставляется функцией обратного вызова <a href="gg294098(v=exchg.10).md">JET_CALLBACK</a>. Столбец, содержащий определяемое пользователем значение по умолчанию, должен быть столбцом с тегами. <strong>пвдефаулт</strong> должен указывать на структуру <a href="gg269200(v=exchg.10).md">JET_USERDEFINEDDEFAULT</a> , а для <strong>кбдефаулт</strong> должно быть задано значение sizeof (<a href="gg269200(v=exchg.10).md">JET_USERDEFINEDDEFAULT</a>).</p><p>JET_bitColumnUserDefinedDefault нельзя использовать в сочетании со следующими константами:</p><ul><li><p>JET_bitColumnFixed</p></li><li><p>JET_bitColumnNotNULL</p></li><li><p>JET_bitColumnVersion</p></li><li><p>JET_bitColumnAutoincrement</p></li><li><p>JET_bitColumnUpdatable</p></li><li><p>JET_bitColumnEscrowUpdate</p></li><li><p>JET_bitColumnFinalize</p></li><li><p>JET_bitColumnDeleteOnZero</p></li><li><p>JET_bitColumnMaybeNull</p></li></ul> | 
+| <p>JET_bitColumnDeleteOnZero</p> | <p>Столбец является столбцом депонированного обновления, и когда он достигает нуля, запись будет удалена. Обычно для столбца, который может быть завершен, можно использовать его как поле счетчика ссылок, а когда поле достигает нуля, запись удаляется. JET_bitColumnDeleteOnZero связана с JET_bitColumnFinalize. Столбец Deleted-on-Zero должен быть столбцом депонированного обновления. JET_bitColumnDeleteOnZero нельзя использовать с JET_bitColumnFinalize. JET_bitColumnDeleteOnZero нельзя использовать с пользовательскими столбцами по умолчанию.</p> | 
+
 
 
 **пвдефаулт**
@@ -201,30 +124,14 @@ _**Применимо к:** Windows | Windows Сервером_
 
 ### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Юникод</strong></p></td>
-<td><p>Реализуется как <strong>JET_COLUMNCREATE_W</strong> (Юникод) и <strong>JET_COLUMNCREATE_A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Требование | Применение |
+|------------|----------|
+| <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | 
+| <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+| <p><strong>Юникод</strong></p> | <p>Реализуется как <strong>JET_COLUMNCREATE_W</strong> (Юникод) и <strong>JET_COLUMNCREATE_A</strong> (ANSI).</p> | 
+
 
 
 ### <a name="see-also"></a>См. также:

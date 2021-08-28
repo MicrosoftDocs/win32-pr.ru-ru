@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4a0fd506390ba9f228c115d0b9142baffdbe1587
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4d7c835d5077d2bfee87025b202480a888de981
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647497"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122988587"
 ---
 # <a name="jetgetindexinfo-function"></a>Функция JetGetIndexInfo
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetgetindexinfo-function"></a>Функция JetGetIndexInfo
 
@@ -78,112 +78,37 @@ _**Применимо к:** Windows | Windows Server_
 
 Сведения, которые будут храниться в *пвресулт*. Для этого параметра можно использовать следующие параметры.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Значение</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_IdxInfo</p></td>
-<td><p><em>пвресулт</em> интерпретируется как структура <a href="gg269185(v=exchg.10).md">JET_INDEXLIST</a> . При успешном выполнении структура <a href="gg269185(v=exchg.10).md">JET_INDEXLIST</a> получает сведения об индексе. При сбое содержимое <em>пвбуффер</em> не определено.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_IdxInfoCount</p></td>
-<td><p><em>пвресулт</em> интерпретируется как ULong. В случае успеха ULONG содержит количество индексов в указанной таблице. <em>сзиндекснаме</em> игнорируется. При сбое содержимое <em>пвбуффер</em> не определено.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_IdxInfoIndexId</p></td>
-<td><p><em>пвресулт</em> интерпретируется как <a href="gg269327(v=exchg.10).md">JET_INDEXID</a>. При успешном выполнении структура <a href="gg269327(v=exchg.10).md">JET_INDEXID</a> получает сведения об индексе. При сбое содержимое <em>пвбуффер</em> не определено.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_IdxInfoLangid</p></td>
-<td><p>JET_IdxInfoLangid не рекомендуется к использованию. Вместо этого используйте JET_IdxInfoLCID и макрос <a href="/windows/win32/api/winnt/nf-winnt-langidfromlcid">лангидфромлЦид</a> .</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_IdxInfoLCID</p></td>
-<td><p><em>пвресулт</em> интерпретируется как LCID. При успешном выполнении код LCID содержит идентификатор локали индекса. При сбое содержимое <em>пвбуффер</em> не определено.</p>
-<p><strong>Windows XP:  </strong> JET_IdxInfoLCID введен в Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_IdxInfoList</p></td>
-<td><p><em>пвресулт</em> интерпретируется как структура <a href="gg269185(v=exchg.10).md">JET_INDEXLIST</a> . При успешном выполнении структура <a href="gg269185(v=exchg.10).md">JET_INDEXLIST</a> получает сведения об индексе. При сбое содержимое <em>пвбуффер</em> не определено.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_IdxInfoOLC</p></td>
-<td><p>JET_IdxInfoOLC устарел.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_IdxInfoResetOLC</p></td>
-<td><p>JET_IdxInfoResetOLC устарел.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_IdxInfoSpaceAlloc</p></td>
-<td><p><em>пвресулт</em> интерпретируется как ULong. При успешном выполнении в ULONG содержится место использования индекса. При сбое содержимое <em>пвбуффер</em> не определено.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_IdxInfoSysTabCursor</p></td>
-<td><p>JET_IdxInfoSysTabCursor устарел.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_IdxInfoVarSegMac</p></td>
-<td><p><em>пвресулт</em> интерпретируется как ushort. При успешном выполнении объект USHORT содержит значение <em>кбварсегмак</em> , используемое при создании индекса. Описание <em>кбварсегмак</em>см. в разделе <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a> . При сбое содержимое <em>пвбуффер</em> не определено.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_IdxInfoKeyMost</p></td>
-<td><p><em>пвресулт</em> интерпретируется как ushort. При успешном выполнении объект USHORT содержит значение <em>кбкэймост</em> , используемое при создании индекса. Описание <em>кбкэймост</em>см. в разделе <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a> . При сбое содержимое <em>пвбуффер</em> не определено.</p>
-<p><strong>Windows Vista:  </strong> JET_IdxInfoKeyMost введен в Windows Vista.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_IdxInfoCreateIndex</p></td>
-<td><p><em>пвресулт</em> интерпретируется как структура <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a> . При сбое содержимое <em>пвбуффер</em> не определено.</p>
-<p><strong>Windows 7:  </strong> JET_IdxInfoCreateIndex введен в Windows 7.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_IdxInfoCreateIndex2</p></td>
-<td><p><em>пвресулт</em> интерпретируется как структура <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> . При сбое содержимое <em>пвбуффер</em> не определено.</p>
-<p><strong>Windows 7:  </strong> JET_IdxInfoCreateIndex2 введен в Windows 7.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Значение</p> | <p>Значение</p> | 
+|--------------|----------------|
+| <p>JET_IdxInfo</p> | <p><em>пвресулт</em> интерпретируется как структура <a href="gg269185(v=exchg.10).md">JET_INDEXLIST</a> . При успешном выполнении структура <a href="gg269185(v=exchg.10).md">JET_INDEXLIST</a> получает сведения об индексе. При сбое содержимое <em>пвбуффер</em> не определено.</p> | 
+| <p>JET_IdxInfoCount</p> | <p><em>пвресулт</em> интерпретируется как ULong. В случае успеха ULONG содержит количество индексов в указанной таблице. <em>сзиндекснаме</em> игнорируется. При сбое содержимое <em>пвбуффер</em> не определено.</p> | 
+| <p>JET_IdxInfoIndexId</p> | <p><em>пвресулт</em> интерпретируется как <a href="gg269327(v=exchg.10).md">JET_INDEXID</a>. При успешном выполнении структура <a href="gg269327(v=exchg.10).md">JET_INDEXID</a> получает сведения об индексе. При сбое содержимое <em>пвбуффер</em> не определено.</p> | 
+| <p>JET_IdxInfoLangid</p> | <p>JET_IdxInfoLangid не рекомендуется к использованию. Вместо этого используйте JET_IdxInfoLCID и макрос <a href="/windows/win32/api/winnt/nf-winnt-langidfromlcid">лангидфромлЦид</a> .</p> | 
+| <p>JET_IdxInfoLCID</p> | <p><em>пвресулт</em> интерпретируется как LCID. При успешном выполнении код LCID содержит идентификатор локали индекса. При сбое содержимое <em>пвбуффер</em> не определено.</p><p><strong>Windows XP:</strong> JET_IdxInfoLCID введены в Windows XP.</p> | 
+| <p>JET_IdxInfoList</p> | <p><em>пвресулт</em> интерпретируется как структура <a href="gg269185(v=exchg.10).md">JET_INDEXLIST</a> . При успешном выполнении структура <a href="gg269185(v=exchg.10).md">JET_INDEXLIST</a> получает сведения об индексе. При сбое содержимое <em>пвбуффер</em> не определено.</p> | 
+| <p>JET_IdxInfoOLC</p> | <p>JET_IdxInfoOLC устарел.</p> | 
+| <p>JET_IdxInfoResetOLC</p> | <p>JET_IdxInfoResetOLC устарел.</p> | 
+| <p>JET_IdxInfoSpaceAlloc</p> | <p><em>пвресулт</em> интерпретируется как ULong. При успешном выполнении в ULONG содержится место использования индекса. При сбое содержимое <em>пвбуффер</em> не определено.</p> | 
+| <p>JET_IdxInfoSysTabCursor</p> | <p>JET_IdxInfoSysTabCursor устарел.</p> | 
+| <p>JET_IdxInfoVarSegMac</p> | <p><em>пвресулт</em> интерпретируется как ushort. При успешном выполнении объект USHORT содержит значение <em>кбварсегмак</em> , используемое при создании индекса. Описание <em>кбварсегмак</em>см. в разделе <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a> . При сбое содержимое <em>пвбуффер</em> не определено.</p> | 
+| <p>JET_IdxInfoKeyMost</p> | <p><em>пвресулт</em> интерпретируется как ushort. При успешном выполнении объект USHORT содержит значение <em>кбкэймост</em> , используемое при создании индекса. Описание <em>кбкэймост</em>см. в разделе <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a> . При сбое содержимое <em>пвбуффер</em> не определено.</p><p><strong>Windows Vista:</strong> JET_IdxInfoKeyMost введены в Windows Vista.</p> | 
+| <p>JET_IdxInfoCreateIndex</p> | <p><em>пвресулт</em> интерпретируется как структура <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a> . При сбое содержимое <em>пвбуффер</em> не определено.</p><p><strong>Windows 7:</strong> JET_IdxInfoCreateIndex представлен в Windows 7.</p> | 
+| <p>JET_IdxInfoCreateIndex2</p> | <p><em>пвресулт</em> интерпретируется как структура <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> . При сбое содержимое <em>пвбуффер</em> не определено.</p><p><strong>Windows 7:</strong> JET_IdxInfoCreateIndex2 представлен в Windows 7.</p> | 
+
 
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Код возврата</p></th>
-<th><p>Описание</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>Операция выполнена успешно.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errIndexNotFound</p></td>
-<td><p>Указанный индекс не найден в указанной таблице.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_wrnBufferTruncated</p></td>
-<td><p>Буфер, переданный как <em>пвресулт</em> , слишком мал. Содержимое буфера не определено.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Код возврата</p> | <p>Описание</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>Операция выполнена успешно.</p> | 
+| <p>JET_errIndexNotFound</p> | <p>Указанный индекс не найден в указанной таблице.</p> | 
+| <p>JET_wrnBufferTruncated</p> | <p>Буфер, переданный как <em>пвресулт</em> , слишком мал. Содержимое буфера не определено.</p> | 
+
 
 
 #### <a name="remarks"></a>Комментарии
@@ -192,38 +117,16 @@ _**Применимо к:** Windows | Windows Server_
 
 #### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Библиотека</strong></p></td>
-<td><p>Используйте ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>КОМПОНОВКИ</strong></p></td>
-<td><p>Требуется ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Юникод</strong></p></td>
-<td><p>Реализуется как <strong>жетжетиндексинфов</strong> (Юникод) и <strong>жетжетиндексинфоа</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Требование | Применение |
+|------------|----------|
+| <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | 
+| <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+| <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | 
+| <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | 
+| <p><strong>Юникод</strong></p> | <p>Реализуется как <strong>жетжетиндексинфов</strong> (Юникод) и <strong>жетжетиндексинфоа</strong> (ANSI).</p> | 
+
 
 
 #### <a name="see-also"></a>См. также:

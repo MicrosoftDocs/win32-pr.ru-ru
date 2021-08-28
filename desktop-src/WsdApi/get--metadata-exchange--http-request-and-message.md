@@ -1,17 +1,17 @@
 ---
 description: WS-Transfer сообщение, используемое для запроса метаданных.
 ms.assetid: 18bf27aa-6ae5-4419-ae68-6df9eda10cd4
-title: Получение HTTP-запроса и сообщения об ошибке (обмен метаданными)
+title: получение HTTP-запроса и сообщения об ошибке (метаданные Exchange)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8ad240a51fdbabf4184b8769f4e3cca6daa4244
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 994e02b990dc87cf8551e215bc7eae94dbcf7852
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711713"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122632072"
 ---
-# <a name="get-metadata-exchange-http-request-and-message"></a>Получение HTTP-запроса и сообщения об ошибке (обмен метаданными)
+# <a name="get-metadata-exchange-http-request-and-message"></a>получение HTTP-запроса и сообщения об ошибке (метаданные Exchange)
 
 Сообщение Get — это WS-Transfer сообщение, используемое для запроса метаданных. Дополнительные сведения о получении сообщений см. в разделе 3,1 [спецификации WS-передач](https://specs.xmlsoap.org/ws/2004/09/transfer/WS-Transfer.pdf). Так как обмен метаданными выполняется по протоколу HTTP, сообщение Get — это полезная нагрузка HTTP-запроса.
 
@@ -42,15 +42,15 @@ Pragma: no-cache
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
 <th>точка фокусировки;</th>
 <th>Строка заголовка</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>
@@ -109,9 +109,9 @@ Pragma: no-cache
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -149,11 +149,11 @@ Pragma: no-cache
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Сообщения обнаружения и обмена метаданными](discovery-and-metadata-exchange-message-patterns.md)
+[обнаружение и метаданные Exchange сообщения](discovery-and-metadata-exchange-message-patterns.md)
 </dt> <dt>
 
 [Сообщение с ответом](getresponse--metadata-exchange--message.md)

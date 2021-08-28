@@ -26,12 +26,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 4c10da966b4568a3296b93e2cbb8cd2408601d344b71d3dfcc5a21f9ca7bd2ed
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d9410c9dcddc99a9bffcf5d2e6e5b867f38f6e5c
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118420391"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883294"
 ---
 # <a name="cim_versioncompatibilitycheck-class"></a>\_Класс CIM версионкомпатибилитичекк
 
@@ -186,7 +186,7 @@ class CIM_VersionCompatibilityCheck : CIM_Check
 
 </dd> <dt>
 
-**Имя**
+**имя**;
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -825,20 +825,20 @@ Mac OS 9
 
 Версия операции должна быть в одной из следующих форм:
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;основной &gt; . &lt; дополнительный номер &gt; . &lt; редакции&gt;
+-   &lt;основной &gt; . &lt; Дополнительная &gt; &lt; буква &gt; &lt; версии&gt;
 
 Это свойство наследуется [**от \_ проверки CIM**](cim-check.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Инструментарий WMI не реализует этот класс.
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
@@ -852,7 +852,7 @@ Mac OS 9
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3492a037ac0c52a78bbe3265bd629969c301771c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3fc7f484921dab0967ea991ac4060e5af7d78ec0
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103819073"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122988499"
 ---
 # <a name="jetopendatabase-function"></a>Функция JetOpenDatabase
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetopendatabase-function"></a>Функция JetOpenDatabase
 
@@ -68,116 +68,44 @@ _**Применимо к:** Windows | Windows Server_
 
 Группа битов, задающих ноль или более следующих параметров.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Значение</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitDbExclusive</p></td>
-<td><p>Разрешает присоединение базы данных только одному сеансу. Как правило, база данных может быть открыта несколькими сеансами.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitDbReadOnly</p></td>
-<td><p>Предотвращает изменения в базе данных.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Значение</p> | <p>Значение</p> | 
+|--------------|----------------|
+| <p>JET_bitDbExclusive</p> | <p>Разрешает присоединение базы данных только одному сеансу. Как правило, база данных может быть открыта несколькими сеансами.</p> | 
+| <p>JET_bitDbReadOnly</p> | <p>Предотвращает изменения в базе данных.</p> | 
+
 
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Код возврата</p></th>
-<th><p>Описание</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>Операция выполнена успешно.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errDatabaseInUse</p></td>
-<td><p>Был запрошен монопольный доступ, но его не удалось предоставить.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errDatabaseInvalidPath</p></td>
-<td><p>В <em>сзфиленаме</em>указан недопустимый путь. <em>сзфиленаме</em> не должно иметь значение NULL и ссылаться на допустимый файл.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errDatabaseLocked</p></td>
-<td><p>Другой сеанс уже открыл базу данных в монопольном режиме (с помощью JET_bitDbExclusive).</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errDatabaseNotFound</p></td>
-<td><p>База данных не была присоединена ранее (см. <a href="gg294074(v=exchg.10).md">жетаттачдатабасе</a>).</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidDatabase</p></td>
-<td><p>Предпринята попытка открыть файл, который не является допустимым файлом базы данных.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errOneDatabasePerSession</p></td>
-<td><p>Была предпринята попытка открыть несколько баз данных, а <a href="gg269337(v=exchg.10).md">JET_paramOneDatabasePerSession</a> были заданы. Дополнительные сведения см. в разделе <a href="gg294139(v=exchg.10).md">системные параметры</a>.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_wrnFileOpenReadOnly</p></td>
-<td><p>Файл был присоединен только для чтения, но <strong>жетопендатабасе</strong> не прошел JET_bitDbReadOnly. База данных по-прежнему открыта с доступом только для чтения.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Код возврата</p> | <p>Описание</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>Операция выполнена успешно.</p> | 
+| <p>JET_errDatabaseInUse</p> | <p>Был запрошен монопольный доступ, но его не удалось предоставить.</p> | 
+| <p>JET_errDatabaseInvalidPath</p> | <p>В <em>сзфиленаме</em>указан недопустимый путь. <em>сзфиленаме</em> не должно иметь значение NULL и ссылаться на допустимый файл.</p> | 
+| <p>JET_errDatabaseLocked</p> | <p>Другой сеанс уже открыл базу данных в монопольном режиме (с помощью JET_bitDbExclusive).</p> | 
+| <p>JET_errDatabaseNotFound</p> | <p>База данных не была присоединена ранее (см. <a href="gg294074(v=exchg.10).md">жетаттачдатабасе</a>).</p> | 
+| <p>JET_errInvalidDatabase</p> | <p>Предпринята попытка открыть файл, который не является допустимым файлом базы данных.</p> | 
+| <p>JET_errOneDatabasePerSession</p> | <p>Была предпринята попытка открыть несколько баз данных, а <a href="gg269337(v=exchg.10).md">JET_paramOneDatabasePerSession</a> были заданы. Дополнительные сведения см. в разделе <a href="gg294139(v=exchg.10).md">системные параметры</a>.</p> | 
+| <p>JET_wrnFileOpenReadOnly</p> | <p>Файл был присоединен только для чтения, но <strong>жетопендатабасе</strong> не прошел JET_bitDbReadOnly. База данных по-прежнему открыта с доступом только для чтения.</p> | 
+
 
 
 #### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Библиотека</strong></p></td>
-<td><p>Используйте ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>КОМПОНОВКИ</strong></p></td>
-<td><p>Требуется ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Юникод</strong></p></td>
-<td><p>Реализуется как <strong>жетопендатабасев</strong> (Юникод) и <strong>жетопендатабасеа</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Требование | Применение |
+|------------|----------|
+| <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | 
+| <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+| <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | 
+| <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | 
+| <p><strong>Юникод</strong></p> | <p>Реализуется как <strong>жетопендатабасев</strong> (Юникод) и <strong>жетопендатабасеа</strong> (ANSI).</p> | 
+
 
 
 #### <a name="see-also"></a>См. также:

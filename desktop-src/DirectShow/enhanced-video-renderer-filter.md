@@ -4,98 +4,29 @@ ms.assetid: ead99cb3-2be2-42c6-ac22-be0c2ddf28d5
 title: Расширенный фильтр визуализатора видео
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ba6e7c14386ea37424364274263859844182ed7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7ed63ba80864f98012a178ed775e5812ee5abe88
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104072230"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475530"
 ---
 # <a name="enhanced-video-renderer-filter"></a>Расширенный фильтр визуализатора видео
 
 > [!Note]  
-> Этот раздел относится к Windows Vista и более поздним версиям.
+> эта статья относится к Windows Vista и более поздних версий.
 
  
 
 Расширенный фильтр модуля подготовки видео (Евр) является 16-канальным видеомикшером и модулем подготовки отчетов. Она имеет те же основные функции и модель подключаемых модулей, что и Media Foundation приемника мультимедиа Евр.
 
-Фильтр Евр для DirectShow описан в документации по пакету SDK для Media Foundation. Дополнительные сведения см. в разделе [Улучшенный обработчик видео](../medfound/enhanced-video-renderer.md).
+фильтр DirectShow евр описан в документации по пакету SDK для Media Foundation. Дополнительные сведения см. в разделе [Улучшенный обработчик видео](../medfound/enhanced-video-renderer.md).
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Фильтровать интерфейсы (с помощью <strong>QueryInterface</strong>)</td>
-<td>Интерфейсы DirectShow:
-<ul>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-iamcertifiedoutputprotection"><strong>иамцертифиедаутпутпротектион</strong></a></li>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags"><strong>иамфилтермискфлагс</strong></a></li>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>ибасефилтер</strong></a></li>
-<li><a href="ikspropertyset.md"><strong>икспропертисет</strong></a></li>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-imediaeventsink"><strong>имедиаевентсинк</strong></a></li>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>имедиасикинг</strong></a></li>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>икуалитиконтрол</strong></a></li>
-<li><a href="/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-iqualprop"><strong>икуалпроп</strong></a></li>
-</ul>
-Media Foundation интерфейсы:<br/>
-<ul>
-<li><a href="/windows/desktop/api/evr/nn-evr-ievrfilterconfig"><strong>иеврфилтерконфиг</strong></a></li>
-<li><a href="/windows/desktop/api/mfidl/nn-mfidl-imfgetservice"><strong>имфжетсервице</strong></a></li>
-<li><a href="/windows/desktop/api/evr/nn-evr-imfvideopositionmapper"><strong>имфвидеопоситионмаппер</strong></a></li>
-<li><a href="/windows/desktop/api/evr/nn-evr-imfvideorenderer"><strong>имфвидеорендерер</strong></a></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Типы носителей входных закрепления</td>
-<td>Переменная в зависимости от графического драйвера.</td>
-</tr>
-<tr class="odd">
-<td>Интерфейсы входных закрепления (через <strong>QueryInterface</strong>)</td>
-<td>Интерфейсы DirectShow:
-<ul>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>имеминпутпин</strong></a></li>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>ипин</strong></a></li>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>икуалитиконтрол</strong></a></li>
-</ul>
-Media Foundation интерфейсы:<br/>
-<ul>
-<li><a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideomemoryconfiguration"><strong>идиректксвидеомемориконфигуратион</strong></a></li>
-<li><a href="/windows/desktop/api/evr9/nn-evr9-ievrvideostreamcontrol"><strong>иеврвидеостреамконтрол</strong></a></li>
-<li><a href="/windows/desktop/api/mfidl/nn-mfidl-imfgetservice"><strong>имфжетсервице</strong></a></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Типы носителей для выходного ПИН-кода</td>
-<td>Не применяется</td>
-</tr>
-<tr class="odd">
-<td>Интерфейсы выходного ПИН-кода</td>
-<td>Не применяется</td>
-</tr>
-<tr class="even">
-<td>Фильтровать CLSID</td>
-<td>CLSID_EnhancedVideoRenderer</td>
-</tr>
-<tr class="odd">
-<td>Исполняемый объект</td>
-<td>evr.dll</td>
-</tr>
-<tr class="even">
-<td><a href="merit.md">Заслуживают</a></td>
-<td>MERIT_DO_NOT_USE</td>
-</tr>
-<tr class="odd">
-<td><a href="filter-categories.md">Категория фильтра</a></td>
-<td>CLSID_LegacyAmFilterCategory</td>
-</tr>
-</tbody>
-</table>
+
+| | | Фильтровать интерфейсы (с помощью <strong>QueryInterface</strong>) | DirectShow интерфейсы:<ul><li><a href="/windows/desktop/api/Strmif/nn-strmif-iamcertifiedoutputprotection"><strong>иамцертифиедаутпутпротектион</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags"><strong>иамфилтермискфлагс</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>ибасефилтер</strong></a></li><li><a href="ikspropertyset.md"><strong>икспропертисет</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-imediaeventsink"><strong>имедиаевентсинк</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>имедиасикинг</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>икуалитиконтрол</strong></a></li><li><a href="/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-iqualprop"><strong>икуалпроп</strong></a></li></ul>Media Foundation интерфейсы:<br /><ul><li><a href="/windows/desktop/api/evr/nn-evr-ievrfilterconfig"><strong>иеврфилтерконфиг</strong></a></li><li><a href="/windows/desktop/api/mfidl/nn-mfidl-imfgetservice"><strong>имфжетсервице</strong></a></li><li><a href="/windows/desktop/api/evr/nn-evr-imfvideopositionmapper"><strong>имфвидеопоситионмаппер</strong></a></li><li><a href="/windows/desktop/api/evr/nn-evr-imfvideorenderer"><strong>имфвидеорендерер</strong></a></li></ul> | | Типы входных закрепления Переменная в зависимости от графического драйвера. | | Интерфейсы входных закрепления (через <strong>QueryInterface</strong>) | DirectShow интерфейсы:<ul><li><a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>имеминпутпин</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>ипин</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>икуалитиконтрол</strong></a></li></ul>Media Foundation интерфейсы:<br /><ul><li><a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideomemoryconfiguration"><strong>идиректксвидеомемориконфигуратион</strong></a></li><li><a href="/windows/desktop/api/evr9/nn-evr9-ievrvideostreamcontrol"><strong>иеврвидеостреамконтрол</strong></a></li><li><a href="/windows/desktop/api/mfidl/nn-mfidl-imfgetservice"><strong>имфжетсервице</strong></a></li></ul> | | Типы выходных закрепления Неприменимо. | | Интерфейсы выходного ПИН-кода | Неприменимо. | | Фильтровать CLSID | CLSID_EnhancedVideoRenderer | | Исполняемый файл | evr.dll | | <a href="merit.md"></a> Кому | MERIT_DO_NOT_USE | | <a href="filter-categories.md">Категория фильтра</a> | CLSID_LegacyAmFilterCategory | 
+
 
 
 
@@ -135,15 +66,15 @@ Media Foundation интерфейсы:<br/>
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[Фильтры DirectShow](directshow-filters.md)
+[DirectShow Фильтрующ](directshow-filters.md)
 </dt> </dl>
 

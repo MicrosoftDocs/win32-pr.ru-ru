@@ -4,12 +4,12 @@ ms.assetid: b2442579-e559-4053-869f-9d96e4db202e
 title: Методы устранения угроз
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 435ec2b8db3a634ea93ce77d585038909056c7d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 315a79ec1db48a16de858d655bd1550fa1458720
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103912419"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482450"
 ---
 # <a name="threat-mitigation-techniques"></a>Методы устранения угроз
 
@@ -22,7 +22,7 @@ ms.locfileid: "103912419"
 | CryptoAPI                       | Интерфейс CryptoAPI предоставляет набор функций, которые позволяют применять криптографические программы к целевым сущностям. CryptoAPI может предоставлять хэши, дайджесты, шифрование и расшифровку, чтобы упомянуть основные функциональные возможности. У CryptoAPI также есть и другие функции. Дополнительные сведения о шифровании и CryptoAPI см. в статье [Криптография Essentials](/windows/desktop/SecCrypto/cryptography-essentials).           |
 | Доступ к спискам управления            | [*Список управления доступом*](/windows/desktop/SecGloss/a-gly) (ACL) — это список средств защиты, применяемых к объекту. Объектом может быть файл, процесс, событие или любое другое, имеющее дескриптор безопасности. Дополнительные сведения об ACL см. в разделе [списки управления доступом](/windows/desktop/SecAuthZ/access-control-lists) (ACL). |
 | API защиты данных             | API защиты данных (DPAPI) предоставляет следующие четыре функции, которые используются для шифрования и расшифровки конфиденциальных данных: [**CryptProtectData**](/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata), [**CryptUnprotectData**](/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata), [**криптпротектмемори**](/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory)и [**криптунпротектмемори**](/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectmemory).                  |
-| Сохраненные имена пользователей и пароли | Функции хранилища, которые позволяют обрабатывать пароли пользователей и другие учетные данные, такие как закрытые ключи, проще, более единообразные и безопасные. Дополнительные сведения об этих функциях см. в разделе [**CredUIPromptForCredentials**](/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa).                                                                                                         |
+| Сохраненные имена пользователей и пароли | служба хранилища функциональные возможности, которые позволяют обрабатывать пароли пользователей и другие учетные данные, такие как закрытые ключи, проще, более единообразные и безопасные. Дополнительные сведения об этих функциях см. в разделе [**CredUIPromptForCredentials**](/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa).                                                                                                         |
 
 
 
@@ -30,38 +30,12 @@ ms.locfileid: "103912419"
 
 Эти технологии доступны не во всех операционных системах. Таким образом, степень улучшения безопасности зависит от того, какие операционные системы задействованы. Ниже приведены технологии, доступные в каждой операционной системе.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Операционная система</th>
-<th>Технология</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Windows Server 2003 и Windows XP</td>
-<td><ul>
-<li>CryptoAPI</li>
-<li>Доступ к спискам управления</li>
-<li>API защиты данных</li>
-<li>Сохраненные имена пользователей и пароли</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Windows 2000</td>
-<td><ul>
-<li>CryptoAPI</li>
-<li>Доступ к спискам управления</li>
-<li><a href="/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata"><strong>CryptProtectData</strong></a></li>
-<li><a href="/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata"><strong>CryptUnprotectData</strong></a></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Операционная система | Технология | 
+|------------------|------------|
+| Windows Server 2003 и Windows XP | <ul><li>CryptoAPI</li><li>Доступ к спискам управления</li><li>API защиты данных</li><li>Сохраненные имена пользователей и пароли</li></ul> | 
+| Windows 2000 | <ul><li>CryptoAPI</li><li>Доступ к спискам управления</li><li><a href="/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata"><strong>CryptProtectData</strong></a></li><li><a href="/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata"><strong>CryptUnprotectData</strong></a></li></ul> | 
+
 
 
 

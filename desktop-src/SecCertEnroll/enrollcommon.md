@@ -4,12 +4,12 @@ ms.assetid: a9b3532d-9640-4373-a6c6-7828cb6f55c7
 title: енроллкоммон
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d087ce1aeced0ef68f5b33a06546897d09687ae5ccbd096f1bb34552d0a4a10
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 03ddc05ad1a143de025abbc875c8280a3f419d0e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117780073"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476020"
 ---
 # <a name="enrollcommon"></a>енроллкоммон
 
@@ -17,102 +17,28 @@ ms.locfileid: "117780073"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Функция</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>_JumpIfError</td>
-<td>Макрос, принимающий значение <strong>HRESULT</strong> , метку и строку ошибки, выводит строку и передает управление программой первому оператору, следующему за меткой.</td>
-</tr>
-<tr class="even">
-<td>_JumpError</td>
-<td>То же, что и макрос _JumpIfError.</td>
-</tr>
-<tr class="odd">
-<td>_PrintIfError</td>
-<td>В настоящий момент не используется.</td>
-</tr>
-<tr class="even">
-<td>_PrintError</td>
-<td>Макрос, который выводит сообщение об ошибке и значение <strong>HRESULT</strong> .</td>
-</tr>
-<tr class="odd">
-<td>конвертвсзтосз</td>
-<td>Преобразует строку расширенных символов в строку символов ASCII с помощью функции <strong>WideCharToMultiByte</strong> и текущего идентификатора кодовой страницы ANSI для системы. Эта функция используется функциями Декконвертфромуникоде и Финдоидфромтемплатенаме, определенными в Енроллкоммон. cpp.</td>
-</tr>
-<tr class="even">
-<td>конвертсзтовсз</td>
-<td>Преобразует строку ASCII в строку расширенных символов с помощью функции <strong>MultiByteToWideChar</strong> и идентификатора текущей кодовой страницы ANSI для системы. Эта функция используется функцией Финдцертбитемплате, определенной в Енроллкоммон. cpp.</td>
-</tr>
-<tr class="odd">
-<td>конвертсзтобстр</td>
-<td>Преобразует строку ASCII в <strong>BSTR</strong> с помощью функции <strong>MultiByteToWideChar</strong> . Эта функция в настоящее время не используется.</td>
-</tr>
-<tr class="even">
-<td>конвертвсзтобстр</td>
-<td>Преобразует строку расширенных символов в <strong>BSTR</strong>. Эта функция используется примером Инсталлреспонсефромпфкс.</td>
-</tr>
-<tr class="odd">
-<td>чеккенроллстатус</td>
-<td>Проверяет состояние процесса регистрации сертификата с помощью интерфейсов <a href="/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollment"><strong>IX509Enrollment</strong></a> и <a href="/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollmentstatus"><strong>IX509EnrollmentStatus</strong></a> . Эта функция используется в примерах Енроллеобокмк, enrollPKCS7, enrollRenewalPKCS7, Енроллсимплемачинецерт и Енроллсимплеусерцерт.</td>
-</tr>
-<tr class="even">
-<td>финдцертбикэйусаже</td>
-<td>Перечисляет личное хранилище сертификатов текущего пользователя, чтобы найти первый сертификат, для которого предполагаемое использование открытого ключа соответствует указанному значению. Указанное значение может быть побитовым сочетанием следующих флагов:
-<ul>
-<li>CERT_DATA_ENCIPHERMENT_KEY_USAGE</li>
-<li>CERT_DIGITAL_SIGNATURE_KEY_USAGE</li>
-<li>CERT_KEY_AGREEMENT_KEY_USAGE</li>
-<li>CERT_KEY_CERT_SIGN_KEY_USAGE</li>
-<li>CERT_KEY_ENCIPHERMENT_KEY_USAGE</li>
-<li>CERT_NON_REPUDIATION_KEY_USAGE</li>
-<li>CERT_OFFLINE_CRL_SIGN_KEY_USAGE</li>
-</ul>
-Эта функция используется примером Енроллфромпубликкэй.<br/></td>
-</tr>
-<tr class="odd">
-<td>финдцертбеку</td>
-<td>Перечисляет личное хранилище сертификатов текущего пользователя, чтобы найти первый сертификат, для которого расширение расширенного использования ключа (EKU) соответствует указанному во входных данных. Дополнительные сведения о расширении EKU см. в разделе интерфейс <a href="/windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionenhancedkeyusage"><strong>IX509ExtensionEnhancedKeyUsage</strong></a> . Эта функция используется примером Енроллеобокмк.</td>
-</tr>
-<tr class="even">
-<td>финдцертбитемплате</td>
-<td>Перечисляет личное хранилище сертификатов текущего пользователя, чтобы найти первый сертификат, для которого шаблон соответствует указанному по имени, на входе. Эта функция используется в примерах enrollPKCS7 и enrollRenewalPKCS7.</td>
-</tr>
-<tr class="odd">
-<td>енроллцертбитемплате</td>
-<td>Инициализирует объект <a href="/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollment"><strong>IX509Enrollment</strong></a> с помощью шаблона, пытается зарегистрировать неявно созданный запрос на сертификат и отслеживает состояние процесса регистрации. Эта функция используется в примерах Енроллеобокмк, Енроллфромпубликкэй, enrollPKCS7 и enrollRenewalPKCS7.</td>
-</tr>
-<tr class="even">
-<td>верифицертконтекст</td>
-<td>Проверяет соответствие цепочки сертификатов указанной (базовой) политике и (необязательно) для указанного расширения расширенного использования ключа (EKU). Дополнительные сведения см. в разделе Функция <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy"><strong>цертверифицертификатечаинполици</strong></a> и структуры <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_policy_para"><strong>CERT_CHAIN_POLICY_PARA</strong></a> и <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_para"><strong>CERT_CHAIN_PARA</strong></a> . Эта функция используется в примерах Енроллеобокмк, Енроллфромпубликкэй, enrollPKCS7 и enrollRenewalPKCS7.</td>
-</tr>
-<tr class="odd">
-<td>декконвертфромуникоде</td>
-<td>Преобразует строку двухбайтовых символов Юникода в строку однобайтовых символов ANSI. Эта функция используется функцией Декодефилев, определенной в Енроллкоммон. cpp.</td>
-</tr>
-<tr class="even">
-<td>декодефилев</td>
-<td>Декодирует закодированный сертификат или файл запроса на сертификат в массив байтов. Эта функция используется примером Инсталлреспонсефромпфкс.</td>
-</tr>
-<tr class="odd">
-<td>енкодетофилев</td>
-<td>Кодирует сертификат или запрос на сертификат и сохраняет его в файл. Эта функция используется в примерах Креатекнгкустомкмк, Енроллеобокмк и Енроллфромпубликкэй.</td>
-</tr>
-<tr class="even">
-<td>финдоидфромтемплатенаме</td>
-<td>Возвращает идентификатор объекта для шаблона, указанного по имени. Эта функция используется функцией Финдцертбитемплате, определенной в Енроллкоммон. cpp.</td>
-</tr>
-</tbody>
-</table>
+
+| Компонент | Описание | 
+|----------|-------------|
+| _JumpIfError | Макрос, принимающий значение <strong>HRESULT</strong> , метку и строку ошибки, выводит строку и передает управление программой первому оператору, следующему за меткой. | 
+| _JumpError | То же, что и макрос _JumpIfError. | 
+| _PrintIfError | В настоящий момент не используется. | 
+| _PrintError | Макрос, который выводит сообщение об ошибке и значение <strong>HRESULT</strong> . | 
+| конвертвсзтосз | Преобразует строку расширенных символов в строку символов ASCII с помощью функции <strong>WideCharToMultiByte</strong> и текущего идентификатора кодовой страницы ANSI для системы. Эта функция используется функциями Декконвертфромуникоде и Финдоидфромтемплатенаме, определенными в Енроллкоммон. cpp. | 
+| конвертсзтовсз | Преобразует строку ASCII в строку расширенных символов с помощью функции <strong>MultiByteToWideChar</strong> и идентификатора текущей кодовой страницы ANSI для системы. Эта функция используется функцией Финдцертбитемплате, определенной в Енроллкоммон. cpp. | 
+| конвертсзтобстр | Преобразует строку ASCII в <strong>BSTR</strong> с помощью функции <strong>MultiByteToWideChar</strong> . Эта функция в настоящее время не используется. | 
+| конвертвсзтобстр | Преобразует строку расширенных символов в <strong>BSTR</strong>. Эта функция используется примером Инсталлреспонсефромпфкс. | 
+| чеккенроллстатус | Проверяет состояние процесса регистрации сертификата с помощью интерфейсов <a href="/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollment"><strong>IX509Enrollment</strong></a> и <a href="/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollmentstatus"><strong>IX509EnrollmentStatus</strong></a> . Эта функция используется в примерах Енроллеобокмк, enrollPKCS7, enrollRenewalPKCS7, Енроллсимплемачинецерт и Енроллсимплеусерцерт. | 
+| финдцертбикэйусаже | Перечисляет личное хранилище сертификатов текущего пользователя, чтобы найти первый сертификат, для которого предполагаемое использование открытого ключа соответствует указанному значению. Указанное значение может быть побитовым сочетанием следующих флагов:<ul><li>CERT_DATA_ENCIPHERMENT_KEY_USAGE</li><li>CERT_DIGITAL_SIGNATURE_KEY_USAGE</li><li>CERT_KEY_AGREEMENT_KEY_USAGE</li><li>CERT_KEY_CERT_SIGN_KEY_USAGE</li><li>CERT_KEY_ENCIPHERMENT_KEY_USAGE</li><li>CERT_NON_REPUDIATION_KEY_USAGE</li><li>CERT_OFFLINE_CRL_SIGN_KEY_USAGE</li></ul>Эта функция используется примером Енроллфромпубликкэй.<br /> | 
+| финдцертбеку | Перечисляет личное хранилище сертификатов текущего пользователя, чтобы найти первый сертификат, для которого расширение расширенного использования ключа (EKU) соответствует указанному во входных данных. Дополнительные сведения о расширении EKU см. в разделе интерфейс <a href="/windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionenhancedkeyusage"><strong>IX509ExtensionEnhancedKeyUsage</strong></a> . Эта функция используется примером Енроллеобокмк. | 
+| финдцертбитемплате | Перечисляет личное хранилище сертификатов текущего пользователя, чтобы найти первый сертификат, для которого шаблон соответствует указанному по имени, на входе. Эта функция используется в примерах enrollPKCS7 и enrollRenewalPKCS7. | 
+| енроллцертбитемплате | Инициализирует объект <a href="/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollment"><strong>IX509Enrollment</strong></a> с помощью шаблона, пытается зарегистрировать неявно созданный запрос на сертификат и отслеживает состояние процесса регистрации. Эта функция используется в примерах Енроллеобокмк, Енроллфромпубликкэй, enrollPKCS7 и enrollRenewalPKCS7. | 
+| верифицертконтекст | Проверяет соответствие цепочки сертификатов указанной (базовой) политике и (необязательно) для указанного расширения расширенного использования ключа (EKU). Дополнительные сведения см. в разделе Функция <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy"><strong>цертверифицертификатечаинполици</strong></a> и структуры <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_policy_para"><strong>CERT_CHAIN_POLICY_PARA</strong></a> и <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_para"><strong>CERT_CHAIN_PARA</strong></a> . Эта функция используется в примерах Енроллеобокмк, Енроллфромпубликкэй, enrollPKCS7 и enrollRenewalPKCS7. | 
+| декконвертфромуникоде | Преобразует строку двухбайтовых символов Юникода в строку однобайтовых символов ANSI. Эта функция используется функцией Декодефилев, определенной в Енроллкоммон. cpp. | 
+| декодефилев | Декодирует закодированный сертификат или файл запроса на сертификат в массив байтов. Эта функция используется примером Инсталлреспонсефромпфкс. | 
+| енкодетофилев | Кодирует сертификат или запрос на сертификат и сохраняет его в файл. Эта функция используется в примерах Креатекнгкустомкмк, Енроллеобокмк и Енроллфромпубликкэй. | 
+| финдоидфромтемплатенаме | Возвращает идентификатор объекта для шаблона, указанного по имени. Эта функция используется функцией Финдцертбитемплате, определенной в Енроллкоммон. cpp. | 
+
 
 
 

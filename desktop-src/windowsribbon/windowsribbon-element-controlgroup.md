@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a1777bd469b6bf07530881f9c20888d69fe98117ecbdeba4f3f5557f01ced172
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 33640f8e451f7124efda8c0e5377a3145d221668
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117851030"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122631992"
 ---
 # <a name="controlgroup-element"></a>Контролграуп, элемент
 
@@ -39,10 +39,10 @@ ms.locfileid: "117851030"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -211,7 +211,7 @@ ms.locfileid: "117851030"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

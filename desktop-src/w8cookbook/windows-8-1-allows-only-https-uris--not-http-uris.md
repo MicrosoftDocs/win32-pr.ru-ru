@@ -4,12 +4,12 @@ description: Windows 8.1 допускает только uri https, а не uri 
 ms.assetid: 06BDD3A3-67B7-4085-83DA-F322F718C876
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3246cad0fb6114a3a01d781ed990e0c277547e2b9ee489572c8124a23e7e81b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 022485f9fc5dc2657127f7bae49127e0bd3b5954
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119028812"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886121"
 ---
 # <a name="windows-81-allows-only-https-uris-not-http-uris"></a>Windows 8.1 допускает только uri https, а не uri http
 
@@ -37,7 +37,7 @@ ms.locfileid: "119028812"
 
 ## <a name="mitigations"></a>Устранение проблем
 
-Рекомендуется, чтобы ВВА разработчики переключились с [<iframe>](https://msdn.microsoft.com/library/windows/apps/hh465955.aspx) элемента управления [WebView](/uwp/api/Windows.UI.Xaml.Controls.WebView?view=winrt-19041) (<x-ms-WebView>). Тем не менее, если требуется поддержка Аппкаче, Индекседдб, географического расположения или программного доступа к буферу обмена, необходимо продолжить использовать <iframe> для Windows 8.1.
+Рекомендуется, чтобы ВВА разработчики переключились с на [<iframe>](https://msdn.microsoft.com/library/windows/apps/hh465955.aspx) элемент управления [WebView](/uwp/api/Windows.UI.Xaml.Controls.WebView?view=winrt-19041) ( &lt; x-MS-WebView &gt; ). Тем не менее, если требуется поддержка Аппкаче, Индекседдб, географического расположения или программного доступа к буферу обмена, необходимо продолжить использовать <iframe> для Windows 8.1.
 
 Продолжение использования <iframe> для удаленного содержимого потребуется новая запись в Аппликатионконтентурирулес для приложения. Приложениям с WebView требуются новые записи в Аппликатионконтентурирулес, если веб-содержимому необходимо вызвать метод Window. external. notify для создания события [скриптнотифи](/uwp/api/Windows.UI.Xaml.Controls.WebView?view=winrt-19041) . если у вас нет Visual Studio, можно обновить манифест приложения, добавив следующий код XML, включая подстановочные знаки для поддоменов (например, https:// \* . microsoft.com):
 

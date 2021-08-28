@@ -4,12 +4,12 @@ ms.assetid: 58d3d016-ae29-4090-9b88-e1125db59c95
 title: Сообщение ProbeMatch
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa395557aac7c67a82163066cf1bfbb854348e1c
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 813549091edc6cbb1202d746c7a7f62ecf3e03b5
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122627870"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882004"
 ---
 # <a name="probematches-message"></a>Сообщение ProbeMatch
 
@@ -86,22 +86,22 @@ ms.locfileid: "122627870"
 <tr class="header">
 <th>точка фокусировки;</th>
 <th>XML</th>
-<th>Описание:</th>
+<th>Описание</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>ProbeMatch</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:Action>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Action&gt;
     https://schemas.xmlsoap.org/ws/2005/04/discovery/ProbeMatches
-</wsa:Action></code></pre></td>
+&lt;/wsa:Action&gt;</code></pre></td>
 <td>Действие SOAP ProbeMatch определяет сообщение как сообщение ProbeMatch.</td>
 </tr>
 <tr class="even">
 <td>RelatesTo</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:RelatesTo>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:RelatesTo&gt;
     urn:uuid:29cf10da-5c41-4d55-b184-5ee15e38ce23
-</wsa:RelatesTo></code></pre></td>
+&lt;/wsa:RelatesTo&gt;</code></pre></td>
 <td>Идентификатор сообщения, на которое отвечает служба. Этот заголовок соответствует идентификатору MessageId в сообщении <a href="probe-message.md">пробы</a> .</td>
 </tr>
 <tr class="odd">
@@ -109,21 +109,21 @@ ms.locfileid: "122627870"
 <td><pre class="syntax" data-space="preserve"><code><wsd:AppSequence InstanceId=&quot;1&quot;
     SequenceId=&quot;urn:uuid:369a7d7b-5f87-48a4-aa9a-189edf2a8772&quot;
     MessageNumber=&quot;9&quot;>
-</wsd:AppSequence></code></pre></td>
+&lt;/wsd:AppSequence&gt;</code></pre></td>
 <td>Содержит сведения о последовательности приложений, которые помогают поддерживать последовательность сообщений, даже если они получены не по порядку. AppSequence проверяется, как описано в <a href="appsequence-validation-rules.md">правилах проверки AppSequence</a>.</td>
 </tr>
 <tr class="even">
 <td>Адрес</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:Address>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Address&gt;
     urn:uuid:37f86d35-e6ac-4241-964f-1d9ae46fb366
-</wsa:Address></code></pre></td>
+&lt;/wsa:Address&gt;</code></pre></td>
 <td>Содержит адрес конечной точки. На это обращение можно ссылаться в сообщении с <a href="resolve-message.md">разрешением</a> .</td>
 </tr>
 <tr class="odd">
 <td>ксаддрс</td>
-<td><pre class="syntax" data-space="preserve"><code><wsd:XAddrs>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsd:XAddrs&gt;
     https://192.168.0.2:5357/37f86d35-e6ac-4241-964f-1d9ae46fb366
-</wsd:XAddrs></code></pre></td>
+&lt;/wsd:XAddrs&gt;</code></pre></td>
 <td>Ксаддрс — это транспортные адреса, которые могут использоваться для обмена данными между клиентом и службой. Адреса подтверждаются, как описано в <a href="xaddr-validation-rules.md">правилах проверки ксаддр</a>.</td>
 </tr>
 </tbody>

@@ -11,12 +11,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7bd68c31ef2b92cce75059d5d86ee68dc65d1151
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 5664bc6a4b6b820d7ce72b0605cea8339aa96b16
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122624330"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886027"
 ---
 # <a name="routing-and-remote-access-error-codes"></a>Коды ошибок маршрутизации и удаленного доступа
 
@@ -32,7 +32,7 @@ ms.locfileid: "122624330"
 <thead>
 <tr class="header">
 <th>Возвращаемый код и значение</th>
-<th>Описание:</th>
+<th>Описание</th>
 </tr>
 </thead>
 <tbody>
@@ -333,7 +333,7 @@ ms.locfileid: "122624330"
 </tr>
 <tr class="even">
 <td><span id="ERROR_MESSAGE_MACRO_NOT_FOUND"></span><span id="error_message_macro_not_found"></span><dl> <dt><strong>ERROR_MESSAGE_MACRO_NOT_FOUND</strong></dt> <dt>655</dt> </dl></td>
-<td><message>Макрос не найден на устройстве. Раздел INF-файла.<br/></td>
+<td>&lt;Макрос сообщения &gt; не найден на устройстве. Раздел INF-файла.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_DEFAULTOFF_MACRO_NOT_FOUND"></span><span id="error_defaultoff_macro_not_found"></span><dl> <dt><strong>ERROR_DEFAULTOFF_MACRO_NOT_FOUND</strong></dt> <dt>656</dt> </dl></td>
@@ -1599,7 +1599,7 @@ Windows 7 и более поздних версий: узел должен бы�
 <thead>
 <tr class="header">
 <th>Возвращаемый код и значение</th>
-<th>Описание:</th>
+<th>Описание</th>
 </tr>
 </thead>
 <tbody>

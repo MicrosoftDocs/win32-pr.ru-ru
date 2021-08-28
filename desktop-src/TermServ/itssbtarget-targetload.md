@@ -22,12 +22,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec8224106fad6031a18bf061020a259813db639e
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 03d6d4839f60ef4b4af33498658bd78bf234c14f
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122983927"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482350"
 ---
 # <a name="itssbtargettargetload-property"></a>Свойство Итссбтаржет:: Таржетлоад
 
@@ -61,17 +61,12 @@ HRESULT get_TargetLoad(
 
 
 
-| Требование | Применение |
-|--------|-------|
-| Минимальная версия клиента<br /> | Ни одна версия не поддерживается<br /> | 
-| Минимальная версия сервера<br /> | Windows Server 2016<br /> | 
-| IDL<br /> | <dl><dt>Сбтсв. idl</dt></dl> | 
-| IID<br /> | IID_ITsSbTarget определяется следующим образом:<ul><li>16616ECC-272D-411D-B324-126893033856</li><li>e85e10ea-db0b-4752-b456-5fd5840901c0 на сервере Windows 2008 R2</li></ul> | 
+| | | Минимальный поддерживаемый клиент<br /> | Нет поддерживаемых<br /> | | Минимальный поддерживаемый сервер<br /> | Windows Server 2016<br /> | | IDL<br /> | <dl><dt>Сбтсв. idl</dt></dl> | | IID<br /> | IID_ITsSbTarget определяется следующим образом:<ul><li>16616ECC-272D-411D-B324-126893033856</li><li>e85e10ea-db0b-4752-b456-5fd5840901c0 на сервере Windows 2008 R2</li></ul> | 
 
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -94,7 +94,7 @@ MS. AssetID: b1707c88-1cca-45ab-bb23-6002bfd5204e Title: Стандартный 
 </tr>
 <tr class="odd">
 <td><strong>/uninstall</strong></td>
-<td><em><Package.msi|ProductCode></em></td>
+<td><em>&lt;Package.msi| ProductCode></em></td>
 <td>Параметр удаления продукта. Удаляет продукт.<br/>
 <blockquote>
 [!Note]<br />
@@ -104,7 +104,7 @@ MS. AssetID: b1707c88-1cca-45ab-bb23-6002bfd5204e Title: Стандартный 
 </tr>
 <tr class="even">
 <td><strong>/uninstall</strong></td>
-<td><em>/Package <Package.msi | ProductCode> /uninstall <Update1.msp | PatchGUID1> [; Update2. MSP | PatchGUID2]</em></td>
+<td><em>/Package &lt;Package.msi | ProductCode>/uninstall <Update1.msp | PatchGUID1> [; Update2. MSP | PatchGUID2]</em></td>
 <td>Удаление параметра обновления. Удаляет обновление.<br/>
 <blockquote>
 [!Note]<br />
@@ -141,7 +141,7 @@ MS. AssetID: b1707c88-1cca-45ab-bb23-6002bfd5204e Title: Стандартный 
 </tr>
 <tr class="even">
 <td><strong>/Package</strong></td>
-<td><em><Package.msi|ProductCode></em></td>
+<td><em>&lt;Package.msi| ProductCode></em></td>
 <td>Установите параметр продукта. Устанавливает или настраивает продукт.<br/>
 <blockquote>
 [!Note]<br />

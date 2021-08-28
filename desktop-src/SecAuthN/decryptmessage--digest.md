@@ -4,12 +4,12 @@ ms.assetid: 46d45f59-33fa-434a-b329-20b6257c9a19
 title: Функция Декриптмессаже (Digest)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: c9ea0cc2f0ea0cbe10a91ba48fd7d6396532fd1867d9fe84043aa008df507446
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f87828263766643a10cf5400e38cabe9d3096403
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119008632"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480870"
 ---
 # <a name="decryptmessage-digest-function"></a>Функция Декриптмессаже (Digest)
 
@@ -55,8 +55,12 @@ SECURITY_STATUS SEC_ENTRY DecryptMessage(
 
 Этот параметр может иметь один из следующих флагов.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Значение</th><th>Значение</th></tr></thead><tbody><tr class="odd"><td><span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl> <dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt> </dl></td><td>Сообщение не было зашифровано, но был создан заголовок или трейлер.<br/><blockquote>[!Note]<br />
-KERB_WRAP_NO_ENCRYPT имеет то же значение и то же самое.</blockquote><br/></td></tr><tr class="even"><td><span id="SIGN_ONLY_"></span><span id="sign_only_"></span><dl> <dt><strong>SIGN_ONLY</strong></dt> </dl></td><td>При использовании дайджест-поставщика общих служб используйте этот флаг, если [*контекст безопасности*](../secgloss/s-gly.md) настроен на проверку только [*подписи*](../secgloss/s-gly.md) . Дополнительные сведения см. в разделе [качество защиты](quality-of-protection.md).<br/></td></tr></tbody></table>
+
+| Значение | Значение | 
+|-------|---------|
+| <span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl><dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt></dl> | Сообщение не было зашифровано, но был создан заголовок или трейлер.<br /><blockquote>[!Note]<br />KERB_WRAP_NO_ENCRYPT имеет то же значение и то же самое.</blockquote><br /> | 
+| <span id="SIGN_ONLY_"></span><span id="sign_only_"></span><dl><dt><strong>SIGN_ONLY</strong></dt></dl> | При использовании дайджест-поставщика общих служб используйте этот флаг, если [*контекст безопасности*](../secgloss/s-gly.md) настроен на проверку только [*подписи*](../secgloss/s-gly.md) . Дополнительные сведения см. в разделе [качество защиты](quality-of-protection.md).<br /> | 
+
 
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -74,13 +78,13 @@ KERB_WRAP_NO_ENCRYPT имеет то же значение и то же само
 | **с \_ не \_ \_ по \_ порядку**       | Сообщение не было получено в правильной последовательности.                                                                                                                        |
 | **с \_ е \_ КОП \_ не \_ поддерживается**     | [*Контекст безопасности*](../secgloss/s-gly.md)не поддерживает ни конфиденциальность, ни [*целостность*](../secgloss/i-gly.md) . Используется с дайджест-SSP.                           |
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Иногда приложение считывает данные от удаленной стороны, пытается расшифровать их с помощью **декриптмессаже (Digest)** и обнаружит, что **декриптмессаже (дайджест)** прошел проверку, но выходные буферы пусты. Это нормальное поведение, и приложения должны уметь работать с ним.
 
 **Windows XP:** Эта функция также называлась **унсеалмессаже**. Теперь приложения должны использовать только **декриптмессаже (дайджест)** .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 | Требование | Значение |
 |--------------------------|-------------------------------------------|

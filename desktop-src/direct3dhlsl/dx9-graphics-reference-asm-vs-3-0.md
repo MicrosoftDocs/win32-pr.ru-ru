@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 310d64170280053c34766f214969f78d66560ea3
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: fd10f6d726118679f395f01714233c7096fd5189
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112011077"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476420"
 ---
 # <a name="vs_3_0"></a>VS \_ 3 \_ 0
 
@@ -54,15 +54,15 @@ ms.locfileid: "112011077"
 
 ### <a name="dynamic-flow-control"></a>Динамическое управление потоком
 
-Поддерживаются все инструкции динамического управления потоком. Максимально допустимое значение глубины вложения — 24. (Дополнительные сведения см. в статье [ограничения вложений управления потоком](dx9-graphics-reference-asm-vs-instructions-flow-control.md) .)
+Поддерживаются все инструкции динамического управления потоком. Максимально допустимое значение глубины вложения — 24. (дополнительные сведения см. в разделе [Flow ограничения вложенности элемента управления](dx9-graphics-reference-asm-vs-instructions-flow-control.md) .)
 
 ### <a name="temporary-registers"></a>Временные регистры
 
 Поддерживается всего 32 временных регистров (r \# ).
 
-### <a name="static-flow-control"></a>Статическое управление потоком
+### <a name="static-flow-control"></a>статический элемент управления Flow
 
-Максимальная глубина вложенности для представителя [цикла](loop---vs.md)-VS / [-VS](rep---vs.md) равна 4. Максимальная глубина вложенности для [Call-VS](call---vs.md) / [каллнз bool-](callnz-bool---vs.md)VS / [каллнз пред-VS](callnz-pred---vs.md) равно 4. [Если для bool-VS](if-bool---vs.md), максимально допустимое значение глубины вложения равно 24. (Дополнительные сведения см. в статье [ограничения вложений управления потоком](dx9-graphics-reference-asm-vs-instructions-flow-control.md) .)
+Максимальная глубина вложенности для представителя [цикла](loop---vs.md)-VS / [-VS](rep---vs.md) равна 4. Максимальная глубина вложенности для [Call-VS](call---vs.md) / [каллнз bool-](callnz-bool---vs.md)VS / [каллнз пред-VS](callnz-pred---vs.md) равно 4. [Если для bool-VS](if-bool---vs.md), максимально допустимое значение глубины вложения равно 24. (дополнительные сведения см. в разделе [Flow ограничения вложенности элемента управления](dx9-graphics-reference-asm-vs-instructions-flow-control.md) .)
 
 ### <a name="predication"></a>Предикация
 
@@ -78,71 +78,19 @@ ms.locfileid: "112011077"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Колпачок</th>
-<th>Возможности</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Заглушки шейдеров</td>
-<td><ul>
-<li>Динамикфловконтролдепс — 24</li>
-<li>Нумтемпс — 32</li>
-<li>Статикфловконтролдепс — 4</li>
-<li>Затенения поддерживается.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Гуардбандлефт, Гуардбандтоп, Гуардбандригхт, Гуардбандботтом</td>
-<td>8 КБ</td>
-</tr>
-<tr class="odd">
-<td>вертексшадерверсион</td>
-<td>3_0</td>
-</tr>
-<tr class="even">
-<td>максвертексшадерконст</td>
-<td>256</td>
-</tr>
-<tr class="odd">
-<td>MaxVertexShader30InstructionSlots</td>
-<td>512</td>
-</tr>
-<tr class="even">
-<td>Поддержка тумана</td>
-<td>D3DPRASTERCAPS_FOGVERTEX</td>
-</tr>
-<tr class="odd">
-<td>вертекстекстурефилтеркапс</td>
-<td><ul>
-<li><a href="/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTFILTERCAPS_MINFPOINT</a></li>
-<li><a href="/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTFILTERCAPS_MAGFPOINT</a></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/direct3d9/d3ddevcaps2">D3DDEVCAPS2_VERTEXELEMENTSCANSHARESTREAMOFFSET</a></td>
-<td>Элементы вершины в объявлении вершины могут совместно использовать одно и то же смещение потока.</td>
-</tr>
-<tr class="odd">
-<td>Форматы вершин</td>
-<td><ul>
-<li>D3DDECLTYPE_UBYTE4</li>
-<li>D3DDECLTYPE_UBYTE4N</li>
-<li>D3DDECLTYPE_SHORT2N</li>
-<li>D3DDECLTYPE_SHORT4N</li>
-<li>D3DDECLTYPE_FLOAT16_2</li>
-<li>D3DDECLTYPE_FLOAT16_4</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Колпачок | Функция | 
+|-----|------------|
+| Заглушки шейдеров | <ul><li>Динамикфловконтролдепс — 24</li><li>Нумтемпс — 32</li><li>Статикфловконтролдепс — 4</li><li>Затенения поддерживается.</li></ul> | 
+| Гуардбандлефт, Гуардбандтоп, Гуардбандригхт, Гуардбандботтом | 8 КБ | 
+| вертексшадерверсион | 3_0 | 
+| максвертексшадерконст | 256 | 
+| MaxVertexShader30InstructionSlots | 512 | 
+| Поддержка тумана | D3DPRASTERCAPS_FOGVERTEX | 
+| вертекстекстурефилтеркапс | <ul><li><a href="/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTFILTERCAPS_MINFPOINT</a></li><li><a href="/windows/desktop/direct3d9/d3dptfiltercaps">D3DPTFILTERCAPS_MAGFPOINT</a></li></ul> | 
+| <a href="/windows/desktop/direct3d9/d3ddevcaps2">D3DDEVCAPS2_VERTEXELEMENTSCANSHARESTREAMOFFSET</a> | Элементы вершины в объявлении вершины могут совместно использовать одно и то же смещение потока. | 
+| Форматы вершин | <ul><li>D3DDECLTYPE_UBYTE4</li><li>D3DDECLTYPE_UBYTE4N</li><li>D3DDECLTYPE_SHORT2N</li><li>D3DDECLTYPE_SHORT4N</li><li>D3DDECLTYPE_FLOAT16_2</li><li>D3DDECLTYPE_FLOAT16_4</li></ul> | 
+
 
 
 

@@ -148,12 +148,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1641c652ed37c021e790fe44969f347c733dbfb265606982857f7c895364814a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3cdfb542aaf0312d506dbdb7710819d82c2ebdc9
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119501614"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886221"
 ---
 # <a name="com-error-codes-stg-rpc"></a>Коды ошибок COM (STG, RPC)
 
@@ -281,7 +281,7 @@ ms.locfileid: "119501614"
 | <span id="CO_E_FAILEDTOSETDACL"></span><span id="co_e_failedtosetdacl"></span><dl> <dt>**CO \_ E \_ фаиледтосетдакл**</dt> <dt>0x80010129</dt> </dl>                                                    | Не удалось задать собственный ACL в дескрипторе безопасности<br/>                                                                                                |
 | <span id="CO_E_ACCESSCHECKFAILED"></span><span id="co_e_accesscheckfailed"></span><dl> <dt>**CO \_ E \_ акцессчеккфаилед**</dt> <dt>0x8001012A</dt> </dl>                                              | Системная функция AccessCheck, возвращенное значение false<br/>                                                                                                            |
 | <span id="CO_E_NETACCESSAPIFAILED"></span><span id="co_e_netaccessapifailed"></span><dl> <dt>**CO \_ E \_ нетакцессапифаилед**</dt> <dt>0x8001012B</dt> </dl>                                           | Либо Нетакцессдел, либо Нетакцессадд вернули код ошибки.<br/>                                                                                                 |
-| <span id="CO_E_WRONGTRUSTEENAMESYNTAX"></span><span id="co_e_wrongtrusteenamesyntax"></span><dl> <dt>**CO \_ E \_ вронгтрустинамесинтакс**</dt> <dt>0x8001012C</dt> </dl>                               | Одна из предоставленных пользователем строк доверенного лица не соответствует <Domain> \\ <Name> синтаксису и не является \* строкой ""<br/>                   |
+| <span id="CO_E_WRONGTRUSTEENAMESYNTAX"></span><span id="co_e_wrongtrusteenamesyntax"></span><dl> <dt>**CO \_ E \_ вронгтрустинамесинтакс**</dt> <dt>0x8001012C</dt> </dl>                               | Одна из предоставленных пользователем строк доверенного лица не соответствует &lt; синтаксису доменного &gt; \\ &lt; имени &gt; , а не \* строкой "".<br/>                   |
 | <span id="CO_E_INVALIDSID"></span><span id="co_e_invalidsid"></span><dl> <dt>**CO \_ E \_ инвалидсид**</dt> <dt>0x8001012D</dt> </dl>                                                                   | Один из идентификаторов безопасности, предоставленных пользователем, недопустим<br/>                                                                                            |
 | <span id="CO_E_CONVERSIONFAILED"></span><span id="co_e_conversionfailed"></span><dl> <dt>**CO \_ E \_ конверсионфаилед**</dt> <dt>0x8001012E</dt> </dl>                                                 | Не удалось преобразовать строку доверенного лица из расширенных символов в многобайтовую строку доверенного лица<br/>                                                                             |
 | <span id="CO_E_NOMATCHINGSIDFOUND"></span><span id="co_e_nomatchingsidfound"></span><dl> <dt>**CO \_ E \_ номатчингсидфаунд**</dt> <dt>0x8001012F</dt> </dl>                                           | Не удалось найти идентификатор безопасности, соответствующий предоставленной пользователем строке доверенного лица<br/>                                                              |
@@ -305,7 +305,7 @@ ms.locfileid: "119501614"
 
 
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
@@ -315,7 +315,7 @@ ms.locfileid: "119501614"
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

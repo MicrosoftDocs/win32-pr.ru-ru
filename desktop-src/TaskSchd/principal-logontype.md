@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7db85573072c54a613009c3afec4873a38db4ff7336e487553437967b4c6e1c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ec67a00b55510aecb980fd8bd8a5b2fa4ad6c73e
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119060082"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885643"
 ---
 # <a name="principallogontype-property"></a>Свойство Principal. LogonType
 
@@ -56,15 +56,15 @@ Principal.LogonType As Integer
 
  
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Это свойство допустимо, только если идентификатор пользователя задан свойством [**UserID**](principal-userid.md) .
 
-При чтении или записи XML для задачи тип входа указывается в [**<LogonType>**](taskschedulerschema-logontype-principaltype-element.md) элементе схемы планировщик задач.
+При чтении или записи XML для задачи тип входа указывается в элементе [**&lt; LogonType &gt;**](taskschedulerschema-logontype-principaltype-element.md) схемы планировщик задач.
 
 Для задачи, которая содержит действие «окно сообщения», появится окно сообщения, если задача активирована, а задача имеет интерактивный тип входа в систему. Чтобы установить для параметра Тип входа в интерактивный режим, укажите значение 3 (**\_ \_ Интерактивный \_ маркер входа в систему**) или 4 (**\_ \_ Группа входа** в систему) в свойстве **LogonType** участника задачи или в параметре *LogonType* [**таскфолдер. регистертаск**](taskfolder-registertask.md) или [**таскфолдер. регистертаскдефинитион**](taskfolder-registertaskdefinition.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
@@ -77,14 +77,14 @@ Principal.LogonType As Integer
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 
 [Планировщик заданий](task-scheduler-start-page.md)
 </dt> <dt>
 
-[**Основной**](principal.md)
+[**Основного**](principal.md)
 </dt> </dl>
 
  

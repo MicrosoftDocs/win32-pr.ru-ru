@@ -4,20 +4,20 @@ ms.assetid: ae1f8835-ef6c-42bb-b44f-ad374337a012
 title: typeInfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa783a606066163fd8b17f53ef8a0fe2da44e539
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1a70c6eeaee63bcb99ee19217ccff5d3ff7086a2
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662756"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122632172"
 ---
 # <a name="typeinfo"></a>typeInfo
 
-Указывает сведения о типе свойства. Для каждого [пропертидескриптион](./propdesc-schema-propertydescription.md)должен быть только один элемент [typeInfo]() . Этот элемент был изменен для Windows 7.
+Указывает сведения о типе свойства. Для каждого [пропертидескриптион](./propdesc-schema-propertydescription.md)должен быть только один элемент [typeInfo]() . этот элемент был изменен для Windows 7.
 
 При наличии нескольких элементов используется последний из них. Если элемент [typeInfo]() не предоставлен, к описанию свойства применяются параметры атрибута по умолчанию.
 
-## <a name="syntax-for-windows-7"></a>Синтаксис для Windows 7
+## <a name="syntax-for-windows-7"></a>синтаксис для Windows 7
 
 
 ```
@@ -120,7 +120,7 @@ ms.locfileid: "105662756"
 
 | Родительский элемент                                                   | Дочерние элементы |
 |------------------------------------------------------------------|----------------|
-| [пропертидескриптион](./propdesc-schema-propertydescription.md) | Нет           |
+| [пропертидескриптион](./propdesc-schema-propertydescription.md) | None           |
 
 
 
@@ -132,8 +132,8 @@ ms.locfileid: "105662756"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -166,7 +166,7 @@ ms.locfileid: "105662756"
 <td>Значение должно быть VT_LPWSTR, которое представляет собой строку в Юникоде, заканчивающуюся пустой ссылкой.</td>
 </tr>
 <tr class="even">
-<td>Логическое</td>
+<td>Логический</td>
 <td>Значение должно быть значением VT_BOOL, которое является логическим.</td>
 </tr>
 <tr class="odd">
@@ -206,7 +206,7 @@ ms.locfileid: "105662756"
 <td>Значение должно быть VT_R8, которое является типом Double.</td>
 </tr>
 <tr class="even">
-<td>Дата/время</td>
+<td>Дата и время</td>
 <td>Значение должно быть VT_FILETIME, которое является значением <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime"><strong>fileTime</strong></a>.</td>
 </tr>
 <tr class="odd">
@@ -218,7 +218,7 @@ ms.locfileid: "105662756"
 <td>Значение должно быть VT_BLOB, которое имеет длину в байтах с префиксом.</td>
 </tr>
 <tr class="odd">
-<td>Stream</td>
+<td>STREAM</td>
 <td>Значение должно быть VT_STREAM, которое является объектом, реализующим <a href="/windows/desktop/api/objidl/nn-objidl-istream"><strong>IStream</strong></a>.</td>
 </tr>
 <tr class="even">
@@ -285,7 +285,7 @@ ms.locfileid: "105662756"
 </tr>
 <tr class="even">
 <td>канбепуржед</td>
-<td><strong>Windows Vista с пакетом обновления 1 (SP1) и более поздних версий</strong>. Общедоступный. Необязательный элемент. Если задано значение &quot; true &quot; , можно удалить свойство присущей. Свойства присущей, вычисляемые из других свойств, доступны только для чтения по определению. Значение по умолчанию для этого атрибута зависит от значения <em>исиннате</em> .
+<td><strong>Windows Vista с пакетом обновления 1 (SP1) и более поздними версиями</strong>. Общедоступный. Необязательный элемент. Если задано значение &quot; true &quot; , можно удалить свойство присущей. Свойства присущей, вычисляемые из других свойств, доступны только для чтения по определению. Значение по умолчанию для этого атрибута зависит от значения <em>исиннате</em> .
 
 <table>
 <thead>
@@ -316,7 +316,7 @@ ms.locfileid: "105662756"
 <div>
  
 </div>
-<p>Хотя этот атрибут появился в Windows Vista с пакетом обновления 1 (SP1), файл. пропдеск, включающий этот атрибут, совместим с Windows Vista до Windows Vista с пакетом обновления 1 (SP1). В этой ситуации атрибут <em>канбепуржед</em> просто игнорируется.</p></td>
+<p>хотя этот атрибут появился в Windows vista с пакетом обновления 1 (SP1), пропдеск-файл, включающий этот атрибут, совместим с Windows Vista до Windows Vista с пакетом обновления 1 (sp1). В этой ситуации атрибут <em>канбепуржед</em> просто игнорируется.</p></td>
 </tr>
 <tr class="odd">
 <td>мултиплевалуес</td>
@@ -324,7 +324,7 @@ ms.locfileid: "105662756"
 </tr>
 <tr class="even">
 <td>isGroup</td>
-<td>Общедоступный. Необязательный элемент. Значение по умолчанию — &quot;false&quot;. Указывает, является ли свойство заголовком группы. Заголовок группы строго используется в проплистс, не имеет значения, никогда не хранится в файле, а также должен иметь <typeInfo type=&quot;Null&quot;> . Некоторые элементы пользовательского интерфейса в системе используют проплистс для указания последовательности отображаемых свойств. Эти проплистс могут содержать ссылки на заголовки групп (например, System. Пропграуп. Camera), которые сообщают пользовательскому интерфейсу о необходимости запуска нового раздела группы (например, &quot; параметры камеры &quot; ). В описании свойства с параметром &quot; IsTrue = true &quot; должно быть указано значение <labelInfo label=&quot;Some localized label&quot;> , иначе это не полезное свойство. Это значение сопоставляется с флагом PDTF_ISGROUP, определенным в <a href="/windows/win32/api/propsys/ne-propsys-propdesc_type_flags"><strong>PROPDESC_TYPE_FLAGS</strong></a> и используется в <a href="/windows/win32/api/propsys/nf-propsys-ipropertydescription-gettypeflags"><strong>Ипропертидескриптион:: жеттипефлагс</strong></a>.</td>
+<td>Общедоступный. Необязательный элемент. Значение по умолчанию — &quot;false&quot;. Указывает, является ли свойство заголовком группы. Заголовок группы строго используется в проплистс, не имеет значения, никогда не хранится в файле, а также должен иметь <typeInfo type=&quot;Null&quot;> . Некоторые элементы пользовательского интерфейса в системе используют проплистс для указания последовательности отображаемых свойств. эти проплистс могут содержать ссылки на заголовки групп (например, System. пропграуп. Camera), которые сообщают пользовательскому интерфейсу о необходимости запуска нового раздела группы (например, &quot; Camera Параметры &quot; ). В описании свойства с параметром &quot; IsTrue = true &quot; должно быть указано значение <labelInfo label=&quot;Some localized label&quot;> , иначе это не полезное свойство. Это значение сопоставляется с флагом PDTF_ISGROUP, определенным в <a href="/windows/win32/api/propsys/ne-propsys-propdesc_type_flags"><strong>PROPDESC_TYPE_FLAGS</strong></a> и используется в <a href="/windows/win32/api/propsys/nf-propsys-ipropertydescription-gettypeflags"><strong>Ипропертидескриптион:: жеттипефлагс</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td>aggregationType</td>
@@ -339,11 +339,11 @@ ms.locfileid: "105662756"
 </thead>
 <tbody>
 <tr class="odd">
-<td>Значение по умолчанию</td>
+<td>По умолчанию</td>
 <td>По умолчанию. Отображает заполнитель с <strong>несколькими значениями</strong> в пользовательском интерфейсе. Это значение по умолчанию, если <em>тип</em> несовместим с указанным <em>aggregationType</em>.</td>
 </tr>
 <tr class="even">
-<td>First</td>
+<td>Первое</td>
 <td>Отображает значение свойства первого элемента в выделенном фрагменте или коллекции.</td>
 </tr>
 <tr class="odd">
@@ -351,7 +351,7 @@ ms.locfileid: "105662756"
 <td>Отображает сумму числовых значений. Полезно для таких свойств, как System. Media. Duration или System. size. Это значение несовместимо с нечисловыми типами.</td>
 </tr>
 <tr class="even">
-<td>Среднее значение</td>
+<td>Средний</td>
 <td>Отображает среднее арифметическое числовых значений. Полезно для таких свойств, как System. рейтингов. Это значение несовместимо с нечисловыми типами.</td>
 </tr>
 <tr class="odd">
@@ -385,15 +385,15 @@ ms.locfileid: "105662756"
 </tr>
 <tr class="even">
 <td>с подзапросом</td>
-<td>Только для Windows Vista. Не поддерживается в Windows 7 и более поздних версиях. Общедоступный. Необязательный элемент. Значение по умолчанию — &quot;false&quot;. Указывает, должно ли это свойство быть доступно в пользовательском интерфейсе конструктор запросов поиска. Свойство должно иметь значение "IsTrue" = &quot; true &quot; , прежде чем &quot; параметру IsTrue = true &quot; соблюдается. Это значение сопоставляется с флагом PDTF_ISQUERYABLE, определенным в <a href="/windows/win32/api/propsys/ne-propsys-propdesc_type_flags"><strong>PROPDESC_TYPE_FLAGS</strong></a> и используется в <a href="/windows/win32/api/propsys/nf-propsys-ipropertydescription-gettypeflags"><strong>Ипропертидескриптион:: жеттипефлагс</strong></a>.</td>
+<td>Windows Только Vista. не поддерживается в Windows 7 и более поздних версиях. Общедоступный. Необязательный элемент. Значение по умолчанию — &quot;false&quot;. Указывает, должно ли это свойство быть доступно в пользовательском интерфейсе конструктор запросов поиска. Свойство должно иметь значение "IsTrue" = &quot; true &quot; , прежде чем &quot; параметру IsTrue = true &quot; соблюдается. Это значение сопоставляется с флагом PDTF_ISQUERYABLE, определенным в <a href="/windows/win32/api/propsys/ne-propsys-propdesc_type_flags"><strong>PROPDESC_TYPE_FLAGS</strong></a> и используется в <a href="/windows/win32/api/propsys/nf-propsys-ipropertydescription-gettypeflags"><strong>Ипропертидескриптион:: жеттипефлагс</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td>сеарчраввалуе</td>
-<td><strong>Windows 7 и более поздние версии.</strong> Общедоступный. Необязательный элемент. Значение по умолчанию — &quot;false&quot;.</td>
+<td><strong>Windows 7 и более поздней версии.</strong> Общедоступный. Необязательный элемент. Значение по умолчанию — &quot;false&quot;.</td>
 </tr>
 <tr class="even">
 <td>инклудеинфуллтексткуери</td>
-<td>Только для Windows Vista. Не поддерживается в Windows 7 и более поздних версиях. Общедоступный. Необязательный элемент. Значение по умолчанию — &quot;false&quot;.</td>
+<td>Windows Только Vista. не поддерживается в Windows 7 и более поздних версиях. Общедоступный. Необязательный элемент. Значение по умолчанию — &quot;false&quot;.</td>
 </tr>
 <tr class="odd">
 <td>conditionType</td>
@@ -415,11 +415,11 @@ ms.locfileid: "105662756"
 <td>Значение по умолчанию для числовых свойств. Следующие операторы будут использоваться: &quot; Equals, &quot; &quot; не равно &quot; , &quot; меньше &quot; , &quot; больше &quot; , &quot; меньше или равно &quot; , &quot; больше или равно &quot; .</td>
 </tr>
 <tr class="odd">
-<td>Дата/время</td>
+<td>Дата и время</td>
 <td>По умолчанию для свойств типа = &quot; DateTime &quot; . Будут использоваться следующие операторы: имеет значение &quot; , а — &quot; &quot; нет &quot; , &quot; перед, &quot; &quot; а — до, а — после, &quot; &quot; &quot; &quot; а &quot; включается.</td>
 </tr>
 <tr class="even">
-<td>Логическое</td>
+<td>Логический</td>
 <td>По умолчанию для свойств типа = &quot; Boolean &quot; . То же, что и номер.</td>
 </tr>
 <tr class="odd">

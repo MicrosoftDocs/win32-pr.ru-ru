@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: b601d8ac785f65c4400821741b83e76bd6987481
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e9ab83b3edf4e817e4e697a5bb72bf41f66508c2
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104140115"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122631852"
 ---
 # <a name="span-idvspixengineiupdateobjectcallback_updatecomplete_uint_hresultspaniupdateobjectcallbackupdatecomplete-method"></a><span id="vspixengine.iupdateobjectcallback_updatecomplete_uint_hresult"></span>Метод Иупдатеобжекткаллбакк:: Упдатекомплете
 
@@ -52,7 +52,7 @@ HRESULT UpdateComplete(
 
 ## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
 ## <a name="span-idsee_alsospansee-also"></a><span id="see_also"></span> См. также
 

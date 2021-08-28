@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cede8964636073c393cb34bfa1be22855467f4cb243834bd1e11a4ffc492665
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e147b48ffb80e1114133b59018cef514eefd2ae7
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120031424"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885864"
 ---
 # <a name="iwmpclosedcaptionsamistyle-property"></a>Свойство Ивмпклоседкаптион:: Самистиле
 
@@ -48,9 +48,9 @@ Public Property SAMIStyle As System.String
 
 **Строка System. String** , которая является именем, указанным в идентификаторе стиля файла Sami.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
-Файл SAMI может содержать несколько определений стиля формата. Стили SAMI определены между тегами <STYLE> и </STYLE> в файле Sami. Стиль определяется с помощью текстовой строки, предшествующей \# символу. Например:
+Файл SAMI может содержать несколько определений стиля формата. Стили SAMI определены между &lt; стилями &gt; и </STYLE> ТЕГАМИ в файле Sami. Стиль определяется с помощью текстовой строки, предшествующей \# символу. Пример.
 
 
 ```
@@ -65,7 +65,7 @@ Public Property SAMIStyle As System.String
 
 Если параметр SAMI не указан, по умолчанию используется первый стиль, определенный в файле SAMI.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
@@ -77,7 +77,7 @@ Public Property SAMIStyle As System.String
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

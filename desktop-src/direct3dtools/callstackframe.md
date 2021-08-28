@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: fbe527c59a64e91f46a390344ea576c7560ef1f2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c6cb4b0e32213165149d7df8c7bf334049e37399
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105691980"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122631342"
 ---
 # <a name="span-idvspixenginecallstackframespancallstackframe-structure"></a><span id="vspixengine.callstackframe"></span>Структура Каллстаккфраме
 
@@ -35,7 +35,7 @@ ms.locfileid: "105691980"
 } CallStackFrame;
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 
 **functionName**  
 Строка COM, содержащая имя связанной функции.
@@ -51,7 +51,7 @@ ms.locfileid: "105691980"
 
 ## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

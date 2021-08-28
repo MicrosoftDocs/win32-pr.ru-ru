@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e5dd422013bdaf81d5d6aac6d0a34f4c9479af26cd79f64b854299caa3cac3f5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 70841866ec656dc840fb467d598cc42bf919283b
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118202205"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122630920"
 ---
 # <a name="ribbon-element"></a>Элемент Ribbon
 
@@ -40,10 +40,10 @@ ms.locfileid: "118202205"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -61,7 +61,7 @@ ms.locfileid: "118202205"
 <td><dt><span></span><span></span><strong></strong> Значительные<br/> </dt> <dd> По умолчанию. <br/> </dd> <dt><span></span><span></span><strong></strong> Высокое<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Достаточ<br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="even">
-<td><strong>Имя</strong><br/></td>
+<td><strong>имя</strong>;<br/></td>
 <td>xs:string<br/></td>
 <td>Нет<br/></td>
 <td>Используется для добавления аннотации в элемент Command.<br/> <br/>
