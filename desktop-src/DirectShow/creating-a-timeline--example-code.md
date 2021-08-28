@@ -4,18 +4,18 @@ ms.assetid: efe6e8d7-2465-4374-8c99-a410091f8d46
 title: 'Создание временной шкалы: пример кода'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 877bd79b055171dfa5bd12cff0ae257d60e76a16
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 614d6e2dfa676b09bac2cc9c81fd67c795d73f61df2df4b603307943ac0ada71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105662057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120108234"
 ---
 # <a name="creating-a-timeline-example-code"></a>Создание временной шкалы: пример кода
 
 \[Этот API не поддерживается и может быть изменен или недоступен в будущем.\]
 
-В следующем примере кода показано, как создать и просмотреть временную шкалу в [службах редактирования DirectShow](directshow-editing-services.md).
+в следующем примере кода показано, как создать и просмотреть временную шкалу в [DirectShow редактирования служб](directshow-editing-services.md).
 
 > [!Note]  
 > Для краткости образец кода не выполняет проверку ошибок. В реальном приложении следует проверить возвращаемые значения вызовов методов, чтобы убедиться в отсутствии ошибок.
@@ -131,7 +131,7 @@ void main( void )
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

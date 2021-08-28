@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e0e7dfa68646dbefb6d6b70218fe99830b44a0c1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 536963be51d665b03af77bb81c7592b44d2a6eb5ddc449bfa82896dd7f7da9b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064424"
 ---
 # <a name="win32_powermanagementevent-class"></a>\_Класс Win32 поверманажементевент
 
@@ -50,7 +50,7 @@ class Win32_PowerManagementEvent : __ExtrinsicEvent
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ поверманажементевент** имеет следующие свойства.
 
@@ -175,7 +175,7 @@ class Win32_PowerManagementEvent : __ExtrinsicEvent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ поверманажементевент** является производным от [**\_ \_ екстринсицевент**](../wmisdk/--extrinsicevent.md).
 
@@ -187,7 +187,7 @@ class Win32_PowerManagementEvent : __ExtrinsicEvent
 
 Класс **Win32 \_ поверманажементевент** имеет только два свойства: EventType, используемый для указания типа произошедшего события изменения питания, и оемевенттипе, который используется некоторыми производителями оборудования для определения дополнительных событий изменения питания.
 
-Дополнительные сведения о реагировании на события питания Windows см. в статье [мониторинг и реагирование на события питания Windows с помощью PowerShell](https://blogs.technet.com/b/heyscriptingguy/archive/2011/08/16/monitor-and-respond-to-windows-power-events-with-powershell.aspx) в разделе "Эй!". Сценарист! .
+дополнительные сведения о том, как реагировать на Windowsные события, см. в статье [мониторинг и реагирование на Windows power events with PowerShell](https://blogs.technet.com/b/heyscriptingguy/archive/2011/08/16/monitor-and-respond-to-windows-power-events-with-powershell.aspx) в разделе эй! Сценарист! .
 
 ## <a name="examples"></a>Примеры
 
@@ -205,7 +205,7 @@ Loop
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -219,7 +219,7 @@ Loop
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

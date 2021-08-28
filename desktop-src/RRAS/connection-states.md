@@ -4,12 +4,12 @@ description: Во время подключения к удаленному се
 ms.assetid: 7a8b0086-308b-47d2-888e-69ff473c6015
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df4488cc020a8a1b2a7da93384a4a5be1edb5182
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6d9e52e1e4ea4a071f6606681aa2dc2fc15e88df659f8fd16746abf2d84727d2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103890865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074224"
 ---
 # <a name="connection-states"></a>Состояния соединения
 
@@ -40,6 +40,6 @@ ms.locfileid: "103890865"
 
 Существует несколько механизмов, которые клиент RAS может использовать для определения текущего состояния операции подключения. Когда клиент RAS выполняет функцию [**rasdial**](/windows/desktop/api/Ras/nf-ras-rasdiala) асинхронно, диспетчер подключений удаленного доступа отправляет уведомления о ходе выполнения в [обработчик уведомлений](notification-handlers.md) клиента при каждом изменении состояния соединения. Кроме того, клиент может использовать функцию [**расжетконнектстатус**](/windows/desktop/api/Ras/nf-ras-rasgetconnectstatusa) для получения текущего состояния любой операции подключения RAS.
 
- 
+ 
 
- 
+ 

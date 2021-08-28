@@ -4,17 +4,17 @@ ms.assetid: 971c5bc3-a327-4840-8f3c-9a6573204ffb
 title: Метод Шовмену
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c64b2a08c8881001cc47c972ad8cc865af8a174
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: eb9135e2999675dc46774f15ee79afd835085b40fe210d0ca1cfd173f8a99fc5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103806239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050514"
 ---
 # <a name="showmenu-method"></a>Метод Шовмену
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -54,7 +54,7 @@ MSWebDVD.ShowMenu(iMenuID)
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Имена меню DVD могут быть несколько запутанными. Меню заголовок — это еще одно имя для меню менеджер видео — главное меню для всего диска. обычно в нем перечислены все наборы заголовков видео, доступные на диске. Корневое меню — это меню для одного набора заголовков видео, которое может содержать один заголовок или группу заголовков. Все заголовки в наборе заголовков имеют одинаковые меню "подизображение", "звук" и "угол".
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 98c9e22c0cad40252cc9eebebf9aa32dc4d89b65
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e4d6507446bf15d00d8e388699ee0c0892c8755b94913d18657634311db57ec1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126714"
 ---
 # <a name="certificatestatuscertificatepolicies-method"></a>Цертификатестатус. ЦертификатеполиЦиес, метод
 
@@ -43,7 +43,7 @@ CertificateStatus.CertificatePolicies()
 
 Коллекция [**OID**](oids.md) . Каждый объект [**OID**](oid.md) в коллекции представляет OID политики сертификата.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Добавьте в коллекцию идентификаторы объектов политики сертификатов, чтобы указать политики сертификатов, которые должны использоваться для создания цепочки доверия сертификатов.
 

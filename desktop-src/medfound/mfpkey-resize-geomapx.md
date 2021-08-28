@@ -4,12 +4,12 @@ ms.assetid: b2c71e16-abd5-465c-a420-5b7675382025
 title: Свойство MFPKEY_RESIZE_GEOMAPX (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 439e99c2b3f0f0774e2a45087f04a0a7ceba76e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f35bc58f9d7cf63fb30b7d5a50aae35f71d013a01dc14f1be14cd69f29d1eaa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104544903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113244"
 ---
 # <a name="mfpkey_resize_geomapx-property"></a>МФПКЭЙ \_ изменить размер \_ жеомапкс
 
@@ -23,11 +23,11 @@ ms.locfileid: "104544903"
 
 VT \_ I4
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [DSP изменения видеоконтроллеров](videoresizer.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение является вещественным числом с фиксированной запятой. Целая часть числа хранится в более высоком 2 байтах, а дробная часть хранится в младших 2 байтах.
 
@@ -37,9 +37,9 @@ VT \_ I4
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
+| Заголовок<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 

@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: b511781c29d313715e7714f185dbff7e4b38f86c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8958a942a8c56dfe39c8a96bcf3f80cefcb7978feac186a80432cbe8f03b5c4b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127154"
 ---
 # <a name="icertificate2basicconstraints-method"></a>Метод ICertificate2:: Басикконстраинтс
 

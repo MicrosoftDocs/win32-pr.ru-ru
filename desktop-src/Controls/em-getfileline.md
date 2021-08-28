@@ -3,7 +3,7 @@ title: Сообщение EM_GETFILELINE (Коммктрл. h)
 description: Копирует строку текста из элемента управления "поле ввода" независимо от того, как линии отображаются на экране, и помещаются в указанный буфер.
 ms.assetid: ff56d2c6-5013-46c6-90d8-ee2bdc9074b1
 keywords:
-- Элементы управления Windows для EM_GETFILELINE сообщений
+- элементы управления Windows сообщений EM_GETFILELINE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 10/19/2018
-ms.openlocfilehash: 6b3be3ea4ae883fc808f7ddc8fb60f0d93bcd6ed
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 470c437280b279f56c3dcc8b45de93cf3f792afc5053b7e312b2c19c7ffcec8f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120049224"
 ---
 # <a name="em_getfileline-message-commctrlh"></a>Сообщение EM_GETFILELINE (Коммктрл. h)
 
@@ -47,23 +47,23 @@ ms.locfileid: "104491811"
 
 Возвращаемое значение — это число скопированных данных **TCHAR**. Возвращаемое значение равно нулю, если номер строки, указанный параметром *wParam* , больше числа строк в элементе управления "поле ввода".
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Скопированная строка не содержит завершающего нуль-символа.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 10, \[ только классические приложения 1809\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2019\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2019\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

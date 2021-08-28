@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fd909d62a1be212f9ed4ef9af243a27f28be818
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 08e2c8d4b5e30a3a5a9a039e27f5704019a6300c
+ms.sourcegitcommit: 205567a2a76ad672a493a0203ff9d61271d9df98
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713529"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "122358910"
 ---
 # <a name="dds_pixelformat-structure"></a>\_Структура PIXELFORMAT DDS
 
@@ -113,7 +113,7 @@ struct DDS_PIXELFORMAT {
 
 </dd> <dd>
 
-Красный (или лумианнце или Y) маску для чтения цветовых данных. Например, при наличии формата A8R8G8B8 красной маской будет 0x00ff0000.
+Красная (или светимость или Y) маска для чтения данных цвета. Например, при наличии формата A8R8G8B8 красной маской будет 0x00ff0000.
 
 </dd> <dt>
 
@@ -162,7 +162,7 @@ struct DDS_PIXELFORMAT {
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>DDS. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>DDS. h</dt> </dl> |
 
 
 

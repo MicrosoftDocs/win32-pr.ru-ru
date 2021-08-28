@@ -4,16 +4,16 @@ ms.assetid: 1df50b3a-bd16-4e9b-afca-b025bfe537a4
 title: Интерфейс Иткосаппликатионид (Ипмсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 23df8da80798cc52ecd73b4f29288812f3774d9f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7d4067d7a476e2a402c278b22dcee21b6542919396178350e73017d56ba92258
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105680053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126284"
 ---
 # <a name="itqosapplicationid-interface"></a>Интерфейс Иткосаппликатионид
 
-\[ Этот интерфейс недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[этот интерфейс недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Интерфейс **иткосаппликатионид** предоставляет метод, позволяющий приложению получить идентификатор качества обслуживания для текущего вызова.
 
@@ -46,7 +46,7 @@ ms.locfileid: "105680053"
 | Требование | Значение |
 |-------------------------|--------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,1<br/>                                                         |
-| Header<br/>       | <dl> <dt>Ипмсп. h</dt> </dl>   |
+| Заголовок<br/>       | <dl> <dt>Ипмсп. h</dt> </dl>   |
 | Библиотека<br/>      | <dl> <dt>UUID. lib</dt> </dl>  |
 | DLL<br/>          | <dl> <dt>Tapi3.dll</dt> </dl> |
 

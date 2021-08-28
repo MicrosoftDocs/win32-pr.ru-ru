@@ -4,12 +4,12 @@ description: Округление числа с плавающей точкой 
 ms.assetid: 97C0E0F2-2571-4A94-BB04-B0CDBA0B5C0C
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc874c6d0a1f26902086af300784c55950b71569
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 08a95d0cb1e8432b0b5bf0ea73bf2619c8a221754775fc0d64c3649d69086295
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120095314"
 ---
 # <a name="round_z-sm4---asm"></a>Round \_ z (SM4-ASM)
 
@@ -35,7 +35,7 @@ ms.locfileid: "107997131"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта инструкция выполняет покомпонентное округление значений с плавающей запятой в *src0*, записывая целочисленные значения с плавающей запятой в *dest*.
 
@@ -47,7 +47,7 @@ ms.locfileid: "107997131"
 
 | **src**  | **-INF** | **-F** | **— денорма** | **-0** | **+0** | **+ денорма** | **+ F** | **+ INF** | **Не число** |
 |----------|----------|--------|-------------|--------|--------|-------------|--------|----------|---------|
-| **dest** | -inf     | -F     | -0          | -0     | +0     | +0          | + F     | +inf     | не число     |
+| **dest** | -inf     | -F     | -0          | -0     | +0     | +0          | + F     | +inf     | Не число     |
 
 
 
@@ -75,9 +75,9 @@ F означает ограничение по настоящему вещест
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |

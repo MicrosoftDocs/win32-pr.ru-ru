@@ -50,19 +50,19 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3be56eab5dbe7f03155c6082e4e70fc4bd439253
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a7c1c53a073f218666ab44eb926b9a92f835078c50a88bc488cc1da4b70b056f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125464"
 ---
 # <a name="imstscadvancedsettingsiconindex-property"></a>Свойство Имстскадванцедсеттингс:: Икониндекс
 
 Задает индекс значка в текущем файле значка.
 
 > [!Note]  
-> Это свойство не поддерживается в элементе управления ActiveX (MsRdp. ocx). Она поддерживается в библиотеке MsTscAx.dll, включенной в стандартный клиент (MsTsc.exe).
+> это свойство не поддерживается в элементе управления ActiveX (MsRdp. ocx). Она поддерживается в библиотеке MsTscAx.dll, включенной в стандартный клиент (MsTsc.exe).
 
  
 
@@ -87,7 +87,7 @@ HRESULT put_IconIndex(
 
 Возвращает **\_ значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения о веб-подключение к удаленному рабочему столу см. в разделе [требования для веб-подключение к удаленному рабочему столу](requirements-for-remote-desktop-web-connection.md).
 
@@ -105,7 +105,7 @@ HRESULT put_IconIndex(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

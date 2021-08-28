@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2ac94dd6f088a82c932aaca5b60ec16f49644f92
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b19d783480a8d82485bce32689b8d49e046b0285
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105656713"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623510"
 ---
 # <a name="jetgetdatabasefileinfo-function"></a>Функция Жетжетдатабасефилеинфо
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetgetdatabasefileinfo-function"></a>Функция Жетжетдатабасефилеинфо
 
@@ -71,8 +71,8 @@ _**Применимо к:** Windows | Windows Server_
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -96,12 +96,12 @@ _**Применимо к:** Windows | Windows Server_
 <tr class="even">
 <td><p>JET_DbInfoDBInUse</p></td>
 <td><p><em>пвресулт</em> будет ИНТЕРПРЕТИРОВАН как bool (4 байта). Это приведет к возвращению наличия открытых или подключенных баз данных в настоящий момент в ядре СУБД.</p>
-<p><strong>Windows XP:  </strong> Это значение вводится в Windows XP.</p></td>
+<p><strong>Windows XP:</strong> это значение вводится в Windows XP.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_DbInfoPageSize</p></td>
 <td><p><em>пвресулт</em> будет интерпретироваться как длинное целое без знака. Это приведет к возврату размера страницы базы данных в байтах.</p>
-<p><strong>Windows XP:  </strong> Это значение вводится в Windows XP.</p></td>
+<p><strong>Windows XP:</strong> это значение вводится в Windows XP.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_DbInfoCp</p></td>
@@ -125,13 +125,13 @@ _**Применимо к:** Windows | Windows Server_
 </tr>
 <tr class="odd">
 <td><p>JET_DbInfoFileType</p></td>
-<td><p><strong>Windows Vista:  </strong> Это значение <em>инфолевел</em> введено в Windows Vista.</p>
-<p><em>пвресулт</em> будет рассматриваться как указатель на DWORD. Возвращает значение перечисления, указывающее тип файла, который подсистема считает этим средством. Типы файлов перечислены в следующей таблице. Дополнительные сведения об этих типах файлов и их использовании в подсистеме см. в разделе <a href="gg294069(v=exchg.10).md">Расширенные файлы подсистемы хранилища</a>.</p>
+<td><p><strong>Windows Vista:</strong> это значение <em>инфолевел</em> введено в Windows Vista.</p>
+<p><em>пвресулт</em> будет рассматриваться как указатель на DWORD. Возвращает значение перечисления, указывающее тип файла, который подсистема считает этим средством. Типы файлов перечислены в следующей таблице. дополнительные сведения об этих типах файлов и их использовании в подсистеме см. в разделе <a href="gg294069(v=exchg.10).md">расширяемые файлы служба хранилища engine</a>.</p>
 <div class="tableSection">
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -171,12 +171,12 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -217,17 +217,17 @@ _**Применимо к:** Windows | Windows Server_
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 8efb9221f39b8544eabe8f6c00d21f6cfdf20c14
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4ccd66085f96ac7f3567ca3bf993d7d31c9bc70437199701fe88165adf52d03e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126724"
 ---
 # <a name="certificates-object"></a>Объект Certificates
 
@@ -58,11 +58,11 @@ ms.locfileid: "108098392"
 | Метод                                | Описание                                                                                                                                                           |
 |:--------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Включить**](certificates-add.md)       | Добавляет объект [**сертификата**](certificate.md) в коллекцию.<br/> (Наследуется от **CertificatesICertificates2**)                                        |
-| [**Очистить**](certificates-clear.md)   | Удаляет все объекты [**сертификата**](certificate.md) из коллекции.<br/> (Наследуется от **CertificatesICertificates2**)                                |
+| [**Clear**](certificates-clear.md)   | Удаляет все объекты [**сертификата**](certificate.md) из коллекции.<br/> (Наследуется от **CertificatesICertificates2**)                                |
 | [**Поиск**](certificates-find.md)     | Возвращает объект **Certificates** , который содержит все сертификаты, соответствующие указанным условиям поиска.<br/> (Наследуется от **CertificatesICertificates2**) |
-| [**Удалить**](certificates-remove.md) | Удаляет из коллекции один объект [**сертификата**](certificate.md) .<br/> (Наследуется от **CertificatesICertificates2**)                            |
+| [**Отменит**](certificates-remove.md) | Удаляет из коллекции один объект [**сертификата**](certificate.md) .<br/> (Наследуется от **CertificatesICertificates2**)                            |
 | [**Сохранить**](certificates-save.md)     | Сохраняет сертификаты в указанный файл.<br/> (Наследуется от **CertificatesICertificates2**)                                                                |
-| [**Метьте**](certificates-select.md) | Отображает диалоговое окно для выбора сертификатов и возвращает коллекцию выбранных сертификатов.<br/> (Наследуется от **CertificatesICertificates2**)  |
+| [**Выберите пункт**](certificates-select.md) | Отображает диалоговое окно для выбора сертификатов и возвращает коллекцию выбранных сертификатов.<br/> (Наследуется от **CertificatesICertificates2**)  |
 
 
 
@@ -76,9 +76,9 @@ ms.locfileid: "108098392"
 
 | Свойство                                             | Тип доступа          | Описание                                                                                                                                                                                                                     |
 |:-----------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](certificates-newenum.md)<br/> | Только для чтения<br/> | Извлекает интерфейс [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) для объекта, который может быть использован для перечисления коллекции. Это свойство скрыто в Visual Basic Scripting Edition (VBScript).<br/> |
-| [**Расчета**](certificates-count.md)<br/>       | Только для чтения<br/> | Возвращает количество объектов [**сертификата**](certificate.md) в коллекции.<br/>                                                                                                                                |
-| [**Элемент**](certificates-item.md)<br/>         | Только для чтения<br/> | Извлекает объект [**сертификата**](certificate.md) , представляющий индексированный сертификат коллекции. Это свойство по умолчанию.<br/> (Наследуется от **CertificatesICertificates2ICertificates**)          |
+| [**\_NewEnum**](certificates-newenum.md)<br/> | Только для чтения<br/> | Извлекает интерфейс [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) для объекта, который может быть использован для перечисления коллекции. это свойство скрыто в Visual Basic scripting Edition (VBScript).<br/> |
+| [**Count**](certificates-count.md)<br/>       | Только для чтения<br/> | Возвращает количество объектов [**сертификата**](certificate.md) в коллекции.<br/>                                                                                                                                |
+| [**Компонент**](certificates-item.md)<br/>         | Только для чтения<br/> | Извлекает объект [**сертификата**](certificate.md) , представляющий индексированный сертификат коллекции. Это свойство по умолчанию.<br/> (Наследуется от **CertificatesICertificates2ICertificates**)          |
 
 
 
@@ -90,7 +90,7 @@ ms.locfileid: "108098392"
 
 **CAPICOM 1. *x*:** ProgID для объекта **Certificates** — CAPICOM. Certificates. 1.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

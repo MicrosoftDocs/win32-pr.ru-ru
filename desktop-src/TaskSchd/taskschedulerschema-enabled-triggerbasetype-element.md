@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 42b495ba1af5f3b9b99034b0d6ca9d02040460c4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dc7ecfb58425533234637708e6c5610f3a84cdaf8e2058d088a68e3c0c707384
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104072017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072504"
 ---
 # <a name="enabled-triggerbasetype-element"></a>Включенный (Тригжербасетипе) элемент
 
@@ -48,24 +48,24 @@ ms.locfileid: "104072017"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для разработки сценариев эта информация доступна через свойство [**Trigger. Enabled**](trigger-enabled.md) , которое наследуется всеми объектами триггера.
 
 Для разработки на C++ эта информация доступна через свойство [**итригжер:: Enabled**](/windows/desktop/api/taskschd/nf-taskschd-itrigger-get_enabled) , унаследованное интерфейсами триггера ALL.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

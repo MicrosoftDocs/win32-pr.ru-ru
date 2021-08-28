@@ -6,12 +6,12 @@ keywords:
 - ариаконтаинервисаутактиведесценданткэйбоардакцессиблитид
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d9e30e0194f156426e2b61aa774ac1f3e0f5b91
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 30b653ac3bf2dc8254b25c52a89cdb3503b89b9f05997a3ea9fb4f4ef3a77cb7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071884"
 ---
 # <a name="aria-container-role-without-active-descendant-keyboard-accessibility-error"></a>Роль контейнера ARIA (без активной дочерней области) ошибка доступа к клавиатуре
 
@@ -21,7 +21,7 @@ ms.locfileid: "103888355"
 
 ## <a name="type"></a>Тип
 
-Ошибка
+Error
 
 ## <a name="description"></a>Описание
 
@@ -71,16 +71,16 @@ ms.locfileid: "103888355"
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Ошибка специальных возможностей клавиатуры для роли контейнера ARIA](aria-container-keyboard-events.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

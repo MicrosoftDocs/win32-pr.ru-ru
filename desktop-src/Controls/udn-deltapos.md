@@ -3,7 +3,7 @@ title: Код уведомления UDN_DELTAPOS (Коммктрл. h)
 description: Отправляется операционной системой в родительское окно элемента управления "вверх/вниз", когда изменяется расположение элемента управления.
 ms.assetid: 66262566-d35a-4b2a-8157-d1e789a21016
 keywords:
-- UDN_DELTAPOS кода уведомления элементы управления Windows
+- UDN_DELTAPOS кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dec8f0ec2200d1f18e48c068b581b42868db197b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 81285d2e0aa5c9a8b65eabf7c5b23d02da3acf02ac13e3274accce340530024f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088414"
 ---
 # <a name="udn_deltapos-notification-code"></a>\_Код уведомления УДН делтапос
 
@@ -49,23 +49,23 @@ UDN_DELTAPOS
 
 Возвращает ненулевое значение, чтобы предотвратить изменение в положении элемента управления, или нуль, чтобы разрешить изменение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 \_Код уведомления УДН делтапос отправляется перед сообщением [**WM \_ VSCROLL**](wm-vscroll.md) или [**WM \_ HSCROLL**](wm-hscroll.md) , которое фактически изменяет расположение элемента управления. Это позволяет проверять, разрешать, изменять или запрещать изменение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

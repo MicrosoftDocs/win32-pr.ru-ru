@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d50f0f3a0908b725d7f704df962324a0f16af1fc6f7353515a8d604e87edd0a5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 08d992d1e8b6ca7c6a987a57f44b48d6ba291328
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118487617"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471176"
 ---
 # <a name="jet_callback-callback-function"></a>Функция обратного вызова JET_CALLBACK
 
@@ -86,7 +86,7 @@ _**Применимо к:** Windows | Windows Сервером_
 
 В случае сбоя операция, выдала ответный вызов, может продолжаться обычным образом или не работать. Сведения об использовании кода ошибки в операции см. в разделе [JET_CBTYP](./jet-cbtyp.md) .
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Комментарии
 
 Если обратный вызов передает приложению курсор, то важно помнить, что этот курсор намеренно ограничен небольшим набором функций, чтобы избежать рекурсии и других углинесс. Допустимы следующие операции:
 
@@ -132,29 +132,12 @@ _**Применимо к:** Windows | Windows Сервером_
 
 #### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Сервер</strong></p></td>
-<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
 
 
-### <a name="see-also"></a>См. также
+
+### <a name="see-also"></a>См. также:
 
 [JET_API_PTR](./jet-api-ptr.md)  
 [JET_DBID](./jet-dbid.md)  

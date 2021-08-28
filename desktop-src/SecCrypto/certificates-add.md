@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: d56120c6f584e828c3aadca037d75263d5350f48
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d4de1c00e3f006a69fa3c6babfa2aa44a1ad618050e5802ac4c9578dc3f93937
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101054"
 ---
 # <a name="icertificates2add-method"></a>Метод ICertificates2:: Add
 
@@ -53,7 +53,7 @@ Certificates.Add( _
 
 Этот метод не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

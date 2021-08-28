@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - Netmon.h
-ms.openlocfilehash: c2dff2cf70a6d989928f17447fa3491dd9509f24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e31c5c729bba133fa4c4d3e36bbc54035a274923a03a8718acf05a601192775b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074504"
 ---
 # <a name="run-callback-function"></a>Запустить функцию обратного вызова
 
@@ -101,11 +101,11 @@ BOOL WINAPI Run(
 
 Если функция завершается неудачно, возвращается значение **false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При запуске эксперт просматривает кадры в файле записи и либо создает отчет, либо создает события, которые показывают проблемы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

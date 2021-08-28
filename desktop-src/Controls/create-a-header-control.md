@@ -4,27 +4,27 @@ description: В этом разделе показано, как создать 
 ms.assetid: 094AF70C-2761-439E-A1E3-0FD04212FE87
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bce9bf9d7b117f5f61766ca326b91b0d19a2c903
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 6ae5bb3ae9c323d30384f5d058a61393bf6425c2a27dfe67faa9cbedd4b3289e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104070883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120063204"
 ---
 # <a name="how-to-create-a-header-control"></a>Создание элемента управления "заголовок"
 
 В этом разделе показано, как создать элемент управления "заголовок" и разместить его в клиентской области родительского окна. Можно создать элемент управления "заголовок" с помощью функции [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) и указать класс [**окна \_ заголовка WC**](common-control-window-classes.md) и соответствующие [стили элемента управления заголовка](header-control-styles.md). Этот класс окна регистрируется при загрузке библиотеки DLL общих элементов управления. Чтобы убедиться, что библиотека DLL загружена, используйте функцию [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) .
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -87,7 +87,7 @@ HWND DoCreateHeader(HWND hwndParent)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

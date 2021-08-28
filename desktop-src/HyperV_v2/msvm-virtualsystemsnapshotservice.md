@@ -43,12 +43,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: be84d70dd9478012e747626a9a566464d7587789
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c253cf37d2e9cfaf2dd4d5d9f6867dd22736ad8
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896818"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471060"
 ---
 # <a name="msvm_virtualsystemsnapshotservice-class"></a>\_Класс мсвм виртуалсистемснапшотсервице
 
@@ -106,66 +106,19 @@ class Msvm_VirtualSystemSnapshotService : CIM_VirtualSystemSnapshotService
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Метод</th>
-<th style="text-align: left;">Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="applysnapshot-msvm-virtualsystemsnapshotservice.md"><strong>апплиснапшот</strong></a></td>
-<td style="text-align: left;">Применяет моментальный снимок виртуальной машины к виртуальной машине, из которой он был создан.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="clearsnapshotstate-msvm-virtualsystemsnapshotservice.md"><strong>клеарснапшотстате</strong></a></td>
-<td style="text-align: left;">Очищает сохраненное состояние из существующего моментального снимка.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="msvm-virtualsystemsnapshotservice-converttoreferencepoint.md"><strong>конверттореференцепоинт</strong></a></td>
-<td style="text-align: left;">Преобразование существующего моментального снимка виртуальной системы в точку ссылки. Моментальный снимок удаляется как побочный результат. В контрольные точки можно преобразовать только моментальные снимки восстановления.<br/>
-<blockquote>
-[!Note]<br />
-Поддержка этого метода была добавлена в Windows 10.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="createsnapshot-msvm-virtualsystemsnapshotservice.md"><strong>CreateSnapshot</strong></a></td>
-<td style="text-align: left;">Создает моментальный снимок виртуальной машины.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="destroysnapshot-msvm-virtualsystemsnapshotservice.md"><strong>дестройснапшот</strong></a></td>
-<td style="text-align: left;">Уничтожает существующий моментальный снимок виртуальной машины. Этот метод может в качестве побочного результата уничтожить другие моментальные снимки, зависящие от затронутого моментального снимка.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="destroysnapshottree-msvm-virtualsystemsnapshotservice.md"><strong>дестройснапшоттри</strong></a></td>
-<td style="text-align: left;">Удаляет существующий моментальный снимок и все его дочерние элементы виртуальной машины.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="msvm-virtualsystemsnapshotservice-requeststatechange.md"><strong>Равен</strong></a></td>
-<td style="text-align: left;">Запрашивает изменение состояния для элемента.<br/>
-<blockquote>
-[!Note]<br />
-Поддержка этого метода была добавлена в Windows 10.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>StartService</strong></td>
-<td style="text-align: left;">Этот метод не поддерживается.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>StopService</strong></td>
-<td style="text-align: left;">Этот метод не поддерживается.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Метод | Описание | 
+|--------|-------------|
+| <a href="applysnapshot-msvm-virtualsystemsnapshotservice.md"><strong>апплиснапшот</strong></a> | Применяет моментальный снимок виртуальной машины к виртуальной машине, из которой он был создан.<br /> | 
+| <a href="clearsnapshotstate-msvm-virtualsystemsnapshotservice.md"><strong>клеарснапшотстате</strong></a> | Очищает сохраненное состояние из существующего моментального снимка.<br /> | 
+| <a href="msvm-virtualsystemsnapshotservice-converttoreferencepoint.md"><strong>конверттореференцепоинт</strong></a> | Преобразование существующего моментального снимка виртуальной системы в точку ссылки. Моментальный снимок удаляется как побочный результат. В контрольные точки можно преобразовать только моментальные снимки восстановления.<br /><blockquote>[!Note]<br />Поддержка этого метода была добавлена в Windows 10.</blockquote><br /> | 
+| <a href="createsnapshot-msvm-virtualsystemsnapshotservice.md"><strong>CreateSnapshot</strong></a> | Создает моментальный снимок виртуальной машины.<br /> | 
+| <a href="destroysnapshot-msvm-virtualsystemsnapshotservice.md"><strong>дестройснапшот</strong></a> | Уничтожает существующий моментальный снимок виртуальной машины. Этот метод может в качестве побочного результата уничтожить другие моментальные снимки, зависящие от затронутого моментального снимка.<br /> | 
+| <a href="destroysnapshottree-msvm-virtualsystemsnapshotservice.md"><strong>дестройснапшоттри</strong></a> | Удаляет существующий моментальный снимок и все его дочерние элементы виртуальной машины.<br /> | 
+| <a href="msvm-virtualsystemsnapshotservice-requeststatechange.md"><strong>Равен</strong></a> | Запрашивает изменение состояния для элемента.<br /><blockquote>[!Note]<br />Поддержка этого метода была добавлена в Windows 10.</blockquote><br /> | 
+| <strong>StartService</strong> | Этот метод не поддерживается.<br /> | 
+| <strong>StopService</strong> | Этот метод не поддерживается.<br /> | 
+
 
 
 
@@ -224,7 +177,7 @@ class Msvm_VirtualSystemSnapshotService : CIM_VirtualSystemSnapshotService
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -452,7 +405,7 @@ class Msvm_VirtualSystemSnapshotService : CIM_VirtualSystemSnapshotService
 
 </dd> <dt>
 
-**Name**
+**имя**;
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -646,7 +599,7 @@ class Msvm_VirtualSystemSnapshotService : CIM_VirtualSystemSnapshotService
 
 | Значение                                                                         | Значение                    |
 |-------------------------------------------------------------------------------|----------------------------|
-| <dl> <dt>12</dt> </dl> | Не применяется<br/> |
+| <dl> <dt>12</dt> </dl> | Неприменимо.<br/> |
 
 
 
@@ -795,8 +748,8 @@ NetBIOS-имя системы размещающего компьютера. Э�
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 029ff7c41916e668f532be60f018870f30e487ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 08418b7f15c538c20e04ce4ce42c2bb2996f37f31c7198ff8ba840c21268f5c4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105713155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120116364"
 ---
 # <a name="instanceparametersmaxcursors-property"></a>Инстанцепараметерс. Макскурсорс, свойство
 
@@ -64,7 +64,7 @@ public int MaxCursors { get; set; }
 
 Тип: [System. Int32](/dotnet/api/system.int32)  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

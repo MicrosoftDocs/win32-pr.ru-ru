@@ -6,12 +6,12 @@ keywords:
 - изменение рабочих элементов планировщик задач
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0958c361f1c076e8ebed6a7e645bf67694a1d01
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0121a9e3100922ecdd1d529aa81b498d377724959abb5c3380337df82817e338
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100434"
 ---
 # <a name="editing-a-work-item-using-property-pages"></a>Изменение рабочего элемента с помощью страниц свойств
 
@@ -34,15 +34,15 @@ ms.locfileid: "103792139"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Примеры планировщик задач 1,0](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

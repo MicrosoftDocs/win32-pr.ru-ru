@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4239d21362d589cae84252c728387b2a2b6159e1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bfe29be7dd329def41e8a6726f141a850eb2daecd05e05d6b5988f543f64864c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104262227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072444"
 ---
 # <a name="restartonfailure-settingstype-element"></a>Рестартонфаилуре (Сеттингстипе), элемент
 
@@ -49,29 +49,29 @@ ms.locfileid: "104262227"
 
 | Элемент                                                              | Тип         | Описание                                                                                        |
 |----------------------------------------------------------------------|--------------|----------------------------------------------------------------------------------------------------|
-| [**Расчета**](taskschedulerschema-count-restarttype-element.md)       | unsignedByte | Указывает, сколько раз планировщик задач будет пытаться перезапустить задачу.<br/> |
-| [**Пределах**](taskschedulerschema-interval-restarttype-element.md) | длительность     | Указывает, как долго планировщик задач будет пытаться перезапустить задачу.<br/>                 |
+| [**Count**](taskschedulerschema-count-restarttype-element.md)       | unsignedByte | Указывает, сколько раз планировщик задач будет пытаться перезапустить задачу.<br/> |
+| [**Интервал**](taskschedulerschema-interval-restarttype-element.md) | длительность     | Указывает, как долго планировщик задач будет пытаться перезапустить задачу.<br/>                 |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если приложение задает параметры задачи, доступ к этим данным осуществляется через свойства [**рестарткаунт**](/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_restartcount) и [**рестартинтервал**](/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_restartinterval) интерфейса [**итасксеттингс**](/windows/desktop/api/taskschd/nn-taskschd-itasksettings) . Для создания скриптов эти сведения доступны через свойства [**тасксеттингс. рестарткаунт**](tasksettings-restartcount.md) и [**тасксеттингс. рестартинтервал**](tasksettings-restartinterval.md) .
 
 Оба дочерних элемента должны быть заданы, чтобы указать, как планировщик задач перезапускает задачу.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

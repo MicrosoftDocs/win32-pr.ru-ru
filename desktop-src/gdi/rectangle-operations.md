@@ -4,12 +4,12 @@ ms.assetid: 982d6283-673b-41a1-abc7-10ef87ff3c6f
 title: Операции с прямоугольниками
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3117fda697000e92258c99cf90af470e8815e237
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 161df56d3534f85cd37701956db0330be59236e3cbbeeed81ef390edd17656bb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104344642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092764"
 ---
 # <a name="rectangle-operations"></a>Операции с прямоугольниками
 

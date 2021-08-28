@@ -4,12 +4,12 @@ ms.assetid: 40434f63-e191-45e1-b788-5f80fe7f49ae
 title: Атрибут MF_MT_ALL_SAMPLES_INDEPENDENT (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f82173e99a30e033b3d90f6cfec0dc2aa8b3af97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1ada34232ccbc7eb30fc9a5bcb64e96542b0375140de426fae951f5e0317c9e1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060754"
 ---
 # <a name="mf_mt_all_samples_independent-attribute"></a>MF \_ \_ все \_ примеры \_ независимых атрибутов
 
@@ -21,29 +21,29 @@ ms.locfileid: "105647235"
 
 Рассматривать как логическое значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если этот атрибут имеет **значение false**, некоторые примеры нельзя использовать без ссылки на другие примеры в потоке. Например, если видеоформат содержит разностные кадры, этот атрибут должен иметь **значение false**.
 
-Этот атрибут соответствует полю **бтемпоралкомпрессион** в структуре [**\_ \_ типа мультимедиа**](/windows/win32/api/strmif/ns-strmif-am_media_type) DirectShow.
+этот атрибут соответствует полю **бтемпоралкомпрессион** в структуре [**\_ \_ типа мультимедиа**](/windows/win32/api/strmif/ns-strmif-am_media_type) DirectShow.
 
 Задайте для этого атрибута **значение true** для всех несжатых типов мультимедиа.
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows Vista \|\]<br/>                              |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 \|\]<br/>                        |
-| Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений Vista \|\]<br/>                              |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2008 \|\]<br/>                        |
+| Заголовок<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 679661A7-1D31-43F3-A64E-16ADCB5414B0
 title: Свойство MFNETSOURCE_ENABLE_PRIVATEMODE (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 53aa0bde3bf76ded278e0e3ee37465adb717972a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3e2ff972aa42753bb92be33fd6bf893d0578f28bf0ad29889a1b5986ba1a77c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113544"
 ---
 # <a name="mfnetsource_enable_privatemode-property"></a>МФНЕТСАУРЦЕ \_ включить \_ свойство приватемоде
 
@@ -31,7 +31,7 @@ VT \_ I4
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если это свойство имеет **значение true**, кэш удаляется после завершения сеанса.
 
@@ -43,9 +43,9 @@ VT \_ I4
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                         |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 
