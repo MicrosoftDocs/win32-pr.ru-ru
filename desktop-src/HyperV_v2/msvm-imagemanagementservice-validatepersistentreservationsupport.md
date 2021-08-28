@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 596e5cf840ee65dc0b3ad5315462db4666c8b262
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 36f1384ca9b56c24a40925a08fb87595fd57acef3e50c1d5d09593d9cfd7f545
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118147726"
 ---
 # <a name="validatepersistentreservationsupport-method-of-the-msvm_imagemanagementservice-class"></a>Метод Валидатеперсистентресерватионсуппорт \_ класса) мсвм
 
@@ -102,13 +102,13 @@ uint32 ValidatePersistentReservationSupport(
 **Файл не найден** (32779)
 </dt> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -116,7 +116,7 @@ uint32 ValidatePersistentReservationSupport(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: dc5a71328681e1ce415b1a34e9c8f718b460e7f0
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 7155763f68a74333fc71db1054fb0ecffcca862e
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122471780"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122983767"
 ---
 # <a name="jet_tuplelimits-structure"></a>Структура JET_TUPLELIMITS
 
@@ -98,7 +98,11 @@ SPA
 ### <a name="requirements"></a>Требования
 
 
-| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008, Windows server 2003.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+| Требование | Применение |
+|------------|----------|
+| <p><strong>Клиент</strong></p> | <p>требуется Windows Vista.</p> | 
+| <p><strong>Server</strong></p> | <p>требуется Windows server 2008, Windows server 2003.</p> | 
+| <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
 
 
 

@@ -19,12 +19,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3a28439932d9c0eb76675ed4e88d5595c64b5ace
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 1b5446306bd4035c68f33db2966b1cfadd0b6d82
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122470770"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122987237"
 ---
 # <a name="jetstopserviceinstance2-function"></a>Функция JetStopServiceInstance2
 
@@ -53,7 +53,7 @@ JET_ERR JET_API JetStopServiceInstance2(
 Группа битов, задающая одно или несколько значений, перечисленных и определенных в следующей таблице.
 
 
-| <p>Значение</p> | <p>Описание</p> | 
+| <p>Применение</p> | <p>Описание</p> | 
 |--------------|--------------------|
 | <p>JET_bitStopServiceAll</p> | <p>останавливает все службы расширенного обработчика служба хранилища (ESE) для указанного экземпляра.</p> | 
 | <p>JET_bitStopServiceBackgroundUserTasks</p> | <p>Останавливает Перезапускаемые клиентские задачи фонового обслуживания (например, дефрагментацию дерева B +).</p> | 
@@ -88,11 +88,17 @@ JET_ERR JET_API JetStopServiceInstance2(
 #### <a name="requirements"></a>Требования
 
 
-| | | <p><strong>Клиент</strong></p> | <p>Требуется Windows 8.</p> | | <p><strong>Сервер</strong></p> | <p>Требуется Windows Server 2012.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | | <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | | <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | 
+| Требование | Применение |
+|------------|----------|
+| <p><strong>Клиент</strong></p> | <p>Требуется Windows 8.</p> | 
+| <p><strong>Server</strong></p> | <p>Требуется Windows Server 2012.</p> | 
+| <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+| <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | 
+| <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | 
 
 
 
-#### <a name="see-also"></a>См. также
+#### <a name="see-also"></a>См. также раздел
 
 [JET_ERR](./jet-err.md)  
 [JET_INSTANCE](./jet-instance.md)  

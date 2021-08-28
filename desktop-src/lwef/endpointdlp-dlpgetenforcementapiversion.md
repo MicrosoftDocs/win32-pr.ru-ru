@@ -1,6 +1,6 @@
 ---
 description: Извлекает версию API защиты от потери данных для конечной точки на текущем устройстве.
-title: Функция Длпжетенфорцементапиверсион (ендпоинтдлп. h)
+title: Функция DlpGetEnforcementApiVersion (endpointdlp.h)
 ms.topic: reference
 ms.date: 03/18/2021
 topic_type:
@@ -12,12 +12,12 @@ api_type:
 - DllExport
 api_location:
 - EndpointDlp.dll
-ms.openlocfilehash: d2b38b6bdcfd761b8ae3c90ee5d3b430767ad29c
-ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
+ms.openlocfilehash: d126b720f1b6a0912598671c75240fb7f2a351098fc1fb00a748d873d1481905
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "107495948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119725804"
 ---
 # <a name="dlpgetenforcementapiversion-function"></a>Функция Длпжетенфорцементапиверсион
 

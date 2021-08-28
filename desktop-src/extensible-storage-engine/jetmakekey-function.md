@@ -18,12 +18,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a642a103d67b023fdf42aa532cc328964c7734a4
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 1b0a7300a312bf5f34c2a60cc6ed3b3c95879dde
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122482850"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122983407"
 ---
 # <a name="jetmakekey-function"></a>Функция JetMakeKey
 
@@ -140,7 +140,13 @@ _**Применимо к:** Windows | Windows Сервером_
 #### <a name="requirements"></a>Требования
 
 
-| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | | <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | | <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | 
+| Требование | Применение |
+|------------|----------|
+| <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | 
+| <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+| <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | 
+| <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | 
 
 
 

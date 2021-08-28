@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 86e0e04558c9ca1c10f89e924605c8999a7f7346d2278850d7cd6449968fd13c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cb3835e1c0e2cfb5ffbb49523617b9d233810494
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118515543"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627100"
 ---
 # <a name="dcl_sampler-sm4---asm"></a>дклный \_ образец (SM4-ASM)
 
@@ -33,13 +33,13 @@ ms.locfileid: "118515543"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Элемент</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>
@@ -131,9 +131,9 @@ dcl_sampler s3, default
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |

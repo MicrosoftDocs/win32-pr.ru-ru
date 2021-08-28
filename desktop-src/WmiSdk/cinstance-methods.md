@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Методы CInstance
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e088f4604263d3fd1673982e22e2f6c88f991b26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8945ea70bef3a9952b8a7e146ea2582cb54ed98396f6299e68be81167e034078
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117925770"
 ---
 # <a name="cinstance-methods"></a>Методы CInstance
 

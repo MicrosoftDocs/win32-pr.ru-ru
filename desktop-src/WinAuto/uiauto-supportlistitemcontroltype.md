@@ -21,12 +21,12 @@ keywords:
 - типы элементов управления, ListItem
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7fc7df30fc9aeebbabd5a5fdb9572c9f4b81bda4507eac751f283841a14054a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3cf7275212d44b795f354cb895c2d64727e375ea
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118825556"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122483200"
 ---
 # <a name="listitem-control-type"></a>Тип элемента управления ListItem
 
@@ -51,33 +51,11 @@ ms.locfileid: "118825556"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Представление элемента управления</th>
-<th>Представление содержимого</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>ListItem
-<ul>
-<li>Image (0 или более)</li>
-<li>Text (0 или более)</li>
-<li>Edit (0 или более)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>ListItem</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Представление элемента управления | Представление содержимого | 
+|--------------|--------------|
+| <ul><li>ListItem<ul><li>Image (0 или более)</li><li>Text (0 или более)</li><li>Edit (0 или более)</li></ul></li></ul> | <ul><li>ListItem</li></ul> | 
+
 
 
 
@@ -159,7 +137,7 @@ ms.locfileid: "118825556"
 
  
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Если контейнер содержит элементы списка, основное средство навигации должно перейти к элементам списка. Размещение фокуса на подэлементах с помощью навигации по спискам может вызвать путаницу с пользователями и специальными средствами. Если в контейнере размещается вертикальный список элементов, то при нажатии клавиш со стрелками вверх и вниз они должны перемещаться по элементам, но при нажатии клавиш со стрелками вправо и с помощью клавиш со СТРЕЛКАми влево можно перейти к подэлементу элемента с таким элементом, как столбцы списка или подэлементы пользовательского интерфейса.
 

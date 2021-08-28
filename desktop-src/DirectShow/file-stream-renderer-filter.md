@@ -4,12 +4,12 @@ ms.assetid: e26462bb-e67f-4522-bec2-88378c4ff442
 title: Фильтр модуля подготовки к потоку файлов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3da8651d61559a9b22b722f91563426cb067f7a3
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: d438d77b4f402cefed2e80f2c32d061d1652710f
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122470569"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122987867"
 ---
 # <a name="file-stream-renderer-filter"></a>Фильтр модуля подготовки к потоку файлов
 
@@ -20,7 +20,17 @@ ms.locfileid: "122470569"
 
 
 
-| | | Интерфейсы фильтра | <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>Ибасефилтер</strong></a> | | Типы входных закрепления <ul><li>Основной тип: MEDIATYPE_File</li><li>Подтип: GUID_NULL</li><li>Тип формата: MEDIATYPE_File</li></ul> | | Интерфейсы входных закрепления | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>Ипин</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>икуалитиконтрол</strong></a> | | Типы выходных закрепления Нет | | Интерфейсы выходного ПИН-кода | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>Ипин</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>икуалитиконтрол</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-istreambuilder"><strong>истреамбуилдер</strong></a> | | Фильтровать CLSID | CLSID_FileRend | | Исполняемый файл | Quartz.dll | | <a href="merit.md"></a> Кому | MERIT_UNLIKELY | | <a href="filter-categories.md">Категория фильтра</a> | CLSID_LegacyAmFilterCategory | 
+| Метка | Применение |
+|--------|-------|
+| Интерфейсы фильтра | <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>ибасефилтер</strong></a> | 
+| Типы носителей входных закрепления | <ul><li>Основной тип: MEDIATYPE_File</li><li>Подтип: GUID_NULL</li><li>Тип формата: MEDIATYPE_File</li></ul> | 
+| Интерфейсы входных закрепления | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>Ипин</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"> <strong>икуалитиконтрол</strong></a> | 
+| Типы носителей для выходного ПИН-кода | Нет | 
+| Интерфейсы выходного ПИН-кода | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>Ипин</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>икуалитиконтрол</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-istreambuilder"><strong>истреамбуилдер</strong></a> | 
+| Фильтровать CLSID | CLSID_FileRend | 
+| Исполняемый объект | Quartz.dll | 
+| <a href="merit.md">Заслуживают</a> | MERIT_UNLIKELY | 
+| <a href="filter-categories.md">Категория фильтра</a> | CLSID_LegacyAmFilterCategory | 
 
 
 

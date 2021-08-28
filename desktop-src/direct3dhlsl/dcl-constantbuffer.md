@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 437266c5a37f266a4f8847f09719380f436b6d9d38e8dee21b3258c79adb32b6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0913e3ee84271b2f09681826513337d45a3e5c70
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117727268"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626880"
 ---
 # <a name="dcl_constantbuffer-sm4---asm"></a>дкл \_ константбуффер (SM4-ASM)
 
@@ -33,13 +33,13 @@ ms.locfileid: "117727268"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Элемент</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>
@@ -54,7 +54,7 @@ ms.locfileid: "117727268"
 <thead>
 <tr class="header">
 <th>Имя</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>
@@ -111,9 +111,9 @@ dcl_constantbuffer  cb0[19], immediateIndexed
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |

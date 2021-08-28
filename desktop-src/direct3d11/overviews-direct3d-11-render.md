@@ -4,12 +4,12 @@ description: В этом разделе содержатся сведения о
 ms.assetid: 43772cb4-731f-4f0f-b549-cd1660aece03
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a0046a65474218ebb2822df27bc780c82111fb6
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 60ef82b48b4dc5d1e0acca915a8fc9bd69e9214b9367ab5d295361bbee6bc64c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104070918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119608534"
 ---
 # <a name="rendering-direct3d-11-graphics"></a>Подготовка к просмотру (графика Direct3D 11)
 
@@ -28,7 +28,7 @@ ms.locfileid: "104070918"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

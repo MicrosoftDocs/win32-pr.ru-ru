@@ -4,12 +4,12 @@ description: Связывает идентификатор ProgID с идент�
 ms.assetid: fb43c8d0-d923-487f-afdf-14fc29a71e0b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88dec371f87ff3aba98bd642537e4de893df20682cc9bd84eda8829f24d241b9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ad09f9d86c2f34d93757e940c5262cd294485ad5
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119567974"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883142"
 ---
 # <a name="version-independent-progid-key"></a>Ключ ProgID, не зависящий от версии
 
@@ -23,7 +23,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes
       CurVer = ProgID
 ```
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Ключ **\_ \_ \\ \\ классов программного обеспечения файла hKey на локальном компьютере** соответствует **\_ \_ корневому ключу classes** , который был сохранен для совместимости с предыдущими версиями com.
 
@@ -58,7 +58,7 @@ HKEY_CLASSES_ROOT\CLSID\{00000402-0000-0000-C000-000000000046}
 [**прогидфромклсид**](/windows/desktop/api/combaseapi/nf-combaseapi-progidfromclsid)
 </dt> <dt>
 
-[<ProgID> Раздел](-progid--key.md)
+[&lt;&gt;Ключ ProgID](-progid--key.md)
 </dt> </dl>
 
  

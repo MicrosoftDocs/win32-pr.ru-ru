@@ -4,12 +4,12 @@ ms.assetid: a6990759-9b84-4644-8f82-75aa63e8197b
 title: Сведения о беспроводной размещенной сети
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7f207dceaf0c835acc7886b48d5e6b030179240afb2a7f50b6f3744c574a185
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e88af34a1e0df2029c230b7b7800130d3b550dbf
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119801494"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882771"
 ---
 # <a name="about-the-wireless-hosted-network"></a>Сведения о беспроводной размещенной сети
 
@@ -109,7 +109,7 @@ Windows предоставляет администраторам ит два с
 | <span id="netsh_wlan_start_hostednetwork"></span><span id="NETSH_WLAN_START_HOSTEDNETWORK"></span>**Netsh WLAN Start хостеднетворк**<br/>                                                                                                                                                                                                                                                                                                                                     | Запустите сеть, размещенную в беспроводной сети.<br/>              |
 | <span id="netsh_wlan_stop_hostednetwork"></span><span id="NETSH_WLAN_STOP_HOSTEDNETWORK"></span>**Netsh WLAN останавливает хостеднетворк**<br/>                                                                                                                                                                                                                                                                                                                                        | Останавливает сеть, размещенную в беспроводной сети.<br/>               |
 | <span id="netsh_wlan_set_hostednetwork__mode__allow_disallow"></span><span id="NETSH_WLAN_SET_HOSTEDNETWORK__MODE__ALLOW_DISALLOW"></span>**Netsh WLAN Set хостеднетворк \[ Mode = \] allow \| запрет**<br/>                                                                                                                                                                                                                                                                      | Включение или отключение беспроводной размещенной сети.<br/>  |
-| <span id="netsh_wlan_set_hostednetwork__ssid___ssid___key___passphrase___keyUsage__persistent_temporary_"></span><span id="netsh_wlan_set_hostednetwork__ssid___ssid___key___passphrase___keyusage__persistent_temporary_"></span><span id="NETSH_WLAN_SET_HOSTEDNETWORK__SSID___SSID___KEY___PASSPHRASE___KEYUSAGE__PERSISTENT_TEMPORARY_"></span>**Netsh WLAN Set хостеднетворк \[ SSID = \] <ssid> \[ ключ = \] <passphrase> \[ кэйусаже = \] Постоянный \| временный** <br/> | Настройте параметры беспроводной сети.<br/> |
+| <span id="netsh_wlan_set_hostednetwork__ssid___ssid___key___passphrase___keyUsage__persistent_temporary_"></span><span id="netsh_wlan_set_hostednetwork__ssid___ssid___key___passphrase___keyusage__persistent_temporary_"></span><span id="NETSH_WLAN_SET_HOSTEDNETWORK__SSID___SSID___KEY___PASSPHRASE___KEYUSAGE__PERSISTENT_TEMPORARY_"></span>**Netsh WLAN Set хостеднетворк \[ SSID = \] &lt; SSID &gt; \[ ключ = \] &lt; парольная фраза &gt; \[ кэйусаже = \] Постоянный \| временный** <br/> | Настройте параметры беспроводной сети.<br/> |
 | <span id="netsh_wlan_refresh_hostednetwork___data___key"></span><span id="NETSH_WLAN_REFRESH_HOSTEDNETWORK___DATA___KEY"></span>**Netsh WLAN Refresh хостеднетворк \[ Data = \] ключ**<br/>                                                                                                                                                                                                                                                                                       | Обновите ключ беспроводной размещенной сети.<br/>        |
 | <span id="netsh_wlan_show_hostednetwork___setting__security_"></span><span id="NETSH_WLAN_SHOW_HOSTEDNETWORK___SETTING__SECURITY_"></span>**Netsh WLAN отобразить \[ \[ параметр хостеднетворк = \] безопасность\]**<br/>                                                                                                                                                                                                                                                                     | Отображение сведений о беспроводной размещенной сети.<br/>    |
 | <span id="netsh_wlan_show_settings"></span><span id="NETSH_WLAN_SHOW_SETTINGS"></span>**команда Netsh WLAN показывать параметры**<br/>                                                                                                                                                                                                                                                                                                                                                       | Отображение глобальных параметров беспроводной локальной сети.<br/>           |

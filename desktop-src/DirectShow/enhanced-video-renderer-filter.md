@@ -4,12 +4,12 @@ ms.assetid: ead99cb3-2be2-42c6-ac22-be0c2ddf28d5
 title: Расширенный фильтр визуализатора видео
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ed63ba80864f98012a178ed775e5812ee5abe88
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 96075ab9149cdf219971c5d1c321474de784aaa8
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122475530"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122987897"
 ---
 # <a name="enhanced-video-renderer-filter"></a>Расширенный фильтр визуализатора видео
 
@@ -25,7 +25,17 @@ ms.locfileid: "122475530"
 
 
 
-| | | Фильтровать интерфейсы (с помощью <strong>QueryInterface</strong>) | DirectShow интерфейсы:<ul><li><a href="/windows/desktop/api/Strmif/nn-strmif-iamcertifiedoutputprotection"><strong>иамцертифиедаутпутпротектион</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags"><strong>иамфилтермискфлагс</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>ибасефилтер</strong></a></li><li><a href="ikspropertyset.md"><strong>икспропертисет</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-imediaeventsink"><strong>имедиаевентсинк</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>имедиасикинг</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>икуалитиконтрол</strong></a></li><li><a href="/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-iqualprop"><strong>икуалпроп</strong></a></li></ul>Media Foundation интерфейсы:<br /><ul><li><a href="/windows/desktop/api/evr/nn-evr-ievrfilterconfig"><strong>иеврфилтерконфиг</strong></a></li><li><a href="/windows/desktop/api/mfidl/nn-mfidl-imfgetservice"><strong>имфжетсервице</strong></a></li><li><a href="/windows/desktop/api/evr/nn-evr-imfvideopositionmapper"><strong>имфвидеопоситионмаппер</strong></a></li><li><a href="/windows/desktop/api/evr/nn-evr-imfvideorenderer"><strong>имфвидеорендерер</strong></a></li></ul> | | Типы входных закрепления Переменная в зависимости от графического драйвера. | | Интерфейсы входных закрепления (через <strong>QueryInterface</strong>) | DirectShow интерфейсы:<ul><li><a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>имеминпутпин</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>ипин</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>икуалитиконтрол</strong></a></li></ul>Media Foundation интерфейсы:<br /><ul><li><a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideomemoryconfiguration"><strong>идиректксвидеомемориконфигуратион</strong></a></li><li><a href="/windows/desktop/api/evr9/nn-evr9-ievrvideostreamcontrol"><strong>иеврвидеостреамконтрол</strong></a></li><li><a href="/windows/desktop/api/mfidl/nn-mfidl-imfgetservice"><strong>имфжетсервице</strong></a></li></ul> | | Типы выходных закрепления Неприменимо. | | Интерфейсы выходного ПИН-кода | Неприменимо. | | Фильтровать CLSID | CLSID_EnhancedVideoRenderer | | Исполняемый файл | evr.dll | | <a href="merit.md"></a> Кому | MERIT_DO_NOT_USE | | <a href="filter-categories.md">Категория фильтра</a> | CLSID_LegacyAmFilterCategory | 
+| Метка | Применение |
+|--------|-------|
+| Фильтровать интерфейсы (с помощью <strong>QueryInterface</strong>) | DirectShow интерфейсы:<ul><li><a href="/windows/desktop/api/Strmif/nn-strmif-iamcertifiedoutputprotection"><strong>иамцертифиедаутпутпротектион</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags"><strong>иамфилтермискфлагс</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>ибасефилтер</strong></a></li><li><a href="ikspropertyset.md"><strong>икспропертисет</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-imediaeventsink"><strong>имедиаевентсинк</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>имедиасикинг</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>икуалитиконтрол</strong></a></li><li><a href="/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-iqualprop"><strong>икуалпроп</strong></a></li></ul>Media Foundation интерфейсы:<br /><ul><li><a href="/windows/desktop/api/evr/nn-evr-ievrfilterconfig"><strong>иеврфилтерконфиг</strong></a></li><li><a href="/windows/desktop/api/mfidl/nn-mfidl-imfgetservice"><strong>имфжетсервице</strong></a></li><li><a href="/windows/desktop/api/evr/nn-evr-imfvideopositionmapper"><strong>имфвидеопоситионмаппер</strong></a></li><li><a href="/windows/desktop/api/evr/nn-evr-imfvideorenderer"><strong>имфвидеорендерер</strong></a></li></ul> | 
+| Типы носителей входных закрепления | Переменная в зависимости от графического драйвера. | 
+| Интерфейсы входных закрепления (через <strong>QueryInterface</strong>) | DirectShow интерфейсы:<ul><li><a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>имеминпутпин</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>ипин</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>икуалитиконтрол</strong></a></li></ul>Media Foundation интерфейсы:<br /><ul><li><a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideomemoryconfiguration"><strong>идиректксвидеомемориконфигуратион</strong></a></li><li><a href="/windows/desktop/api/evr9/nn-evr9-ievrvideostreamcontrol"><strong>иеврвидеостреамконтрол</strong></a></li><li><a href="/windows/desktop/api/mfidl/nn-mfidl-imfgetservice"><strong>имфжетсервице</strong></a></li></ul> | 
+| Типы носителей для выходного ПИН-кода | Не применяется | 
+| Интерфейсы выходного ПИН-кода | Не применяется | 
+| Фильтровать CLSID | CLSID_EnhancedVideoRenderer | 
+| Исполняемый объект | evr.dll | 
+| <a href="merit.md">Заслуживают</a> | MERIT_DO_NOT_USE | 
+| <a href="filter-categories.md">Категория фильтра</a> | CLSID_LegacyAmFilterCategory | 
 
 
 
@@ -64,14 +74,14 @@ ms.locfileid: "122475530"
 
 
 
-| Требование | Значение |
+| Требование | Применение |
 |-------------------------------------|------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
 | Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c432f8e09ad706b6632e4e5ca49a89a263a84dbb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2cdac49d766835a0d26a3b9d474b8759a552ed1d
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105713141"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122984907"
 ---
 # <a name="jetdeletetable-function"></a>Функция Жетделететабле
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetdeletetable-function"></a>Функция Жетделететабле
 
@@ -60,74 +60,30 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Код возврата</p></th>
-<th><p>Описание</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>Операция выполнена успешно.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTableInUse</p></td>
-<td><p>Предпринята попытка удалить таблицу, в то время как другой сеанс имеет идентификатор открытой таблицы (<a href="gg269182(v=exchg.10).md">JET_TABLEID</a>) с <a href="gg294118(v=exchg.10).md">жетопентабле</a> или <a href="gg269193(v=exchg.10).md">жетдупкурсор</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>Таблица JET_errCannotDeletetemporary</p></td>
-<td><p>Была предпринята попытка удалить временную таблицу. Временная таблица автоматически удаляется, когда она закрывается с помощью <a href="gg294087(v=exchg.10).md">жетклосетабле</a>.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errCannotDeleteTemplateTable</p></td>
-<td><p>Предпринята попытка удалить таблицу шаблонов, то есть таблицу, из которой может быть унаследована инструкция DDL.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Код возврата</p> | <p>Описание</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>Операция выполнена успешно.</p> | 
+| <p>JET_errTableInUse</p> | <p>Предпринята попытка удалить таблицу, в то время как другой сеанс имеет идентификатор открытой таблицы (<a href="gg269182(v=exchg.10).md">JET_TABLEID</a>) с <a href="gg294118(v=exchg.10).md">жетопентабле</a> или <a href="gg269193(v=exchg.10).md">жетдупкурсор</a>.</p> | 
+| <p>Таблица JET_errCannotDeletetemporary</p> | <p>Была предпринята попытка удалить временную таблицу. Временная таблица автоматически удаляется, когда она закрывается с помощью <a href="gg294087(v=exchg.10).md">жетклосетабле</a>.</p> | 
+| <p>JET_errCannotDeleteTemplateTable</p> | <p>Предпринята попытка удалить таблицу шаблонов, то есть таблицу, из которой может быть унаследована инструкция DDL.</p> | 
+
 
 
 #### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Библиотека</strong></p></td>
-<td><p>Используйте ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>КОМПОНОВКИ</strong></p></td>
-<td><p>Требуется ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Юникод</strong></p></td>
-<td><p>Реализуется как <strong>жетделететаблев</strong> (Юникод) и <strong>жетделететаблеа</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Требование | Применение |
+|------------|----------|
+| <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | 
+| <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+| <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | 
+| <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | 
+| <p><strong>Юникод</strong></p> | <p>Реализуется как <strong>жетделететаблев</strong> (Юникод) и <strong>жетделететаблеа</strong> (ANSI).</p> | 
+
 
 
 #### <a name="see-also"></a>См. также:

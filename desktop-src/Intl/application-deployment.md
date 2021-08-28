@@ -4,12 +4,12 @@ ms.assetid: 6c10b355-9bdd-4dba-8446-91034d4fe9b8
 title: Развертывание приложения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcb2d7605a2c6a39629749c00d175be4df8a3c66d8b0dc6c870926ec665d9ce6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a85f297767c2b22fb8a3096f0df8ed21468ab710
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120041614"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883514"
 ---
 # <a name="application-deployment"></a>Развертывание приложения
 
@@ -27,21 +27,21 @@ ms.locfileid: "120041614"
 
 ### <a name="place-the-ln-file"></a>Размещение LN файла
 
-Типичным LN-файлом для приложения MUI является файл .exe или файл .dll, например BakerDelta.dll. Этот файл следует поместить в корневую папку, в которой установлено приложение, например X: \\ \\ <somepath> \\BakerDelta.dll.
+Типичным LN-файлом для приложения MUI является файл .exe или файл .dll, например BakerDelta.dll. Этот файл следует поместить в корневую папку, в которой установлено приложение, например X: \\ \\ &lt; сомепас &gt; \\BakerDelta.dll.
 
 ### <a name="place-language-specific-resource-files"></a>Размещение файлов ресурсов Language-Specific
 
 Файлы ресурсов конкретного языка должны иметь предсказуемые имена, сформированные путем добавления ". MUI" к полному имени LN-файла, например BakerDelta.dll. MUI. Эти файлы должны размещаться во вложенных папках с именами соответствующих [языков](language-names.md). В следующем примере показано размещение ресурсов для файла BakerDelta.dll LN с файлами ресурсов для английского языка (Великобритания), английского (США), нейтрального английского, испанского (Испания), испанского (Мексика) и нейтрального испанского:
 
--   X: \\ \\ <somepath> \\BakerDelta.dll
--   X: \\ \\ <somepath> \\ en-GB \\BakerDelta.dll. MUI
--   X: \\ \\ <somepath> \\ en-US \\BakerDelta.dll. MUI
--   X: \\ \\ <somepath> \\ en \\BakerDelta.dll. MUI
--   X: \\ \\ <somepath> \\ es-ES \\BakerDelta.dll. MUI
--   X: \\ \\ <somepath> \\ es-MX \\BakerDelta.dll. MUI
--   X: \\ \\ <somepath> \\ ES \\BakerDelta.dll. MUI
+-   X: \\ \\ &lt; сомепас &gt; \\BakerDelta.dll
+-   X: \\ \\ &lt; сомепас &gt; \\ en-GB \\BakerDelta.dll. MUI
+-   X: \\ \\ &lt; сомепас &gt; \\ en-US \\BakerDelta.dll. MUI
+-   X: \\ \\ &lt; сомепас &gt; \\ en \\BakerDelta.dll. MUI
+-   X: \\ \\ &lt; сомепас &gt; \\ es-ES \\BakerDelta.dll. MUI
+-   X: \\ \\ &lt; сомепас &gt; \\ es-MX \\BakerDelta.dll. MUI
+-   X: \\ \\ &lt; сомепас &gt; \\ ES \\BakerDelta.dll. MUI
 
-Файлы ресурсов должны размещаться в правильных расположениях во время установки приложения MUI или языкового пакета. Важно поместить каждый файл в правильную папку, так как загрузчик ресурсов не может правильно работать в противном случае. Используя приведенный выше пример, загрузчик ресурсов проверяет X: \\ <somepath> \\ en-US \\BakerDelta.dll. MUI для ресурсов на английском языке (США). Если загрузчик выполняет поиск в этом файле и встречает только ресурсы на испанском языке, он завершается ошибкой.
+Файлы ресурсов должны размещаться в правильных расположениях во время установки приложения MUI или языкового пакета. Важно поместить каждый файл в правильную папку, так как загрузчик ресурсов не может правильно работать в противном случае. Используя приведенный выше пример, загрузчик ресурсов изучает X: \\ &lt; сомепас &gt; \\ en-US \\BakerDelta.dll. MUI для ресурсов на английском языке (США). Если загрузчик выполняет поиск в этом файле и встречает только ресурсы на испанском языке, он завершается ошибкой.
 
 ## <a name="file-placement-on-a-pre-windows-vista-operating-system"></a>размещение файлов в предварительно Windows операционной системе Vista
 
@@ -49,16 +49,16 @@ ms.locfileid: "120041614"
 
 Например, рассмотрим LN-файл с именем BakerDelta.dll, а также файлы ресурсов для английского языка (Великобритания), Английский (США), нейтральный английский, Испанский (Испания), Испанский (Мексика) и нейтральный испанский. установка в операционных системах, предшествующих Windows Vista, может поместить эти файлы следующим образом:
 
--   X: \\ \\ <somepath> \\BakerDelta.dll
--   X: \\ \\ <somepath> \\BakerDelta.dll. MUI (необязательный MUI-файл, содержащий ресурсы на языке операционной системы в качестве конечного резервного)
--   X: \\ \\ <somepath> \\ MUI \\ 0809 \\BakerDelta.dll. MUI
--   X: \\ \\ <somepath> \\ MUI \\ 0409 \\BakerDelta.dll. MUI
--   X: \\ \\ <somepath> \\ MUI \\ 0209 \\BakerDelta.dll. MUI
--   X: \\ \\ <somepath> \\ MUI \\ 040a \\BakerDelta.dll. MUI
--   X: \\ \\ <somepath> \\ MUI \\ 080a \\BakerDelta.dll. MUI
--   X: \\ \\ <somepath> \\ MUI \\ 0209 \\BakerDelta.dll. MUI
+-   X: \\ \\ &lt; сомепас &gt; \\BakerDelta.dll
+-   X: \\ \\ &lt; сомепас &gt; \\BakerDelta.dll. MUI (необязательный MUI-файл, содержащий ресурсы на языке операционной системы в качестве конечного резервного)
+-   X: \\ \\ &lt; сомепас &gt; \\ MUI \\ 0809 \\BakerDelta.dll. MUI
+-   X: \\ \\ &lt; сомепас &gt; \\ MUI \\ 0409 \\BakerDelta.dll. MUI
+-   X: \\ \\ &lt; сомепас &gt; \\ MUI \\ 0209 \\BakerDelta.dll. MUI
+-   X: \\ \\ &lt; сомепас &gt; \\ MUI \\ 040a \\BakerDelta.dll. MUI
+-   X: \\ \\ &lt; сомепас &gt; \\ MUI \\ 080a \\BakerDelta.dll. MUI
+-   X: \\ \\ &lt; сомепас &gt; \\ MUI \\ 0209 \\BakerDelta.dll. MUI
 
-Помимо этих файлов приложение может настроить конечный файл ресурсов для конкретного языка, который будет находиться в той же папке, что и само приложение. В приведенном выше примере это файл X: \\ <somepath> \\BakerDelta.dll. MUI.
+Помимо этих файлов приложение может настроить конечный файл ресурсов для конкретного языка, который будет находиться в той же папке, что и само приложение. В приведенном выше примере это файл X: \\ &lt; сомепас &gt; \\BakerDelta.dll. MUI.
 
 ## <a name="installation"></a>Установка
 

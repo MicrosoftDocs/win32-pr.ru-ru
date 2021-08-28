@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 544438541affba1121850d5ad5a7a60d54d398bd
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: cb2779c75d525e45e9140d8f70665a09fe202b21
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122471390"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122988117"
 ---
 # <a name="jet_unicodeindex-structure"></a>Структура JET_UNICODEINDEX
 
@@ -63,19 +63,23 @@ typedef struct tagJET_UNICODEINDEX {
 |--------------|----------------|
 | <p>LCMAP_SORTKEY</p> | <p>Mandatory.</p> | 
 | <p>LCMAP_BYTEREV</p> | <p>Необязательный элемент.</p> | 
-| <p>NORM_IGNORECASE</p> | <p>Необязательный элемент.</p> | 
-| <p>NORM_IGNORENONSPACE</p> | <p>Необязательный элемент.</p> | 
-| <p>NORM_IGNORESYMBOLS</p> | <p>Необязательный элемент.</p> | 
-| <p>NORM_IGNOREKANATYPE</p> | <p>Необязательный элемент.</p> | 
-| <p>NORM_IGNOREWIDTH</p> | <p>Необязательный элемент.</p> | 
-| <p>SORT_STRINGSORT</p> | <p>Необязательный элемент.</p> | 
+| <p>NORM_IGNORECASE</p> | <p>Необязательный параметр.</p> | 
+| <p>NORM_IGNORENONSPACE</p> | <p>Необязательный параметр.</p> | 
+| <p>NORM_IGNORESYMBOLS</p> | <p>Необязательный параметр.</p> | 
+| <p>NORM_IGNOREKANATYPE</p> | <p>Необязательный параметр.</p> | 
+| <p>NORM_IGNOREWIDTH</p> | <p>Необязательный параметр.</p> | 
+| <p>SORT_STRINGSORT</p> | <p>Необязательный параметр.</p> | 
 
 
 
 ### <a name="requirements"></a>Требования
 
 
-| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+| Требование | Применение |
+|------------|----------|
+| <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | 
+| <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
 
 
 

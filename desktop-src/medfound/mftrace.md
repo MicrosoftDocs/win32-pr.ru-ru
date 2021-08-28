@@ -4,12 +4,12 @@ ms.assetid: 55b421c8-e87c-4dd2-8649-93832c93f999
 title: мфтраце
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d4a216f225141ceccf3f1357025dd069afa494d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 542ac9325b33fc8f1a76394d203dbf1d27919bd6
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651655"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885227"
 ---
 # <a name="mftrace"></a>мфтраце
 
@@ -27,7 +27,7 @@ ms.locfileid: "105651655"
 
 | Требование | Значение |
 |--------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия пакета SDK      | Пакет средств разработки программного обеспечения Microsoft Windows (SDK) для Windows 7 и платформа .NET Framework 4,0 |
+| Минимальная версия пакета SDK      | пакет средств разработки Microsoft Windows Software Development Kit (SDK) для Windows 7 и платформа .NET Framework 4,0 |
 | Минимальная операционная система | Windows Vista                                                                         |
 
 
@@ -39,11 +39,11 @@ ms.locfileid: "105651655"
 -   detoured.dll
 -   mfdetours.dll
 
-Пакет SDK предоставляет как 32-разрядную, так и 64-разрядную версию Мфтраце. Мфтраце не поддерживает WOW64; для трассировки 32-разрядного процесса, выполняющегося в 64-разрядной версии Windows, используйте 32-bit Мфтраце.
+Пакет SDK предоставляет как 32-разрядную, так и 64-разрядную версию Мфтраце. Мфтраце не поддерживает WOW64; для трассировки 32-разрядного процесса, выполняемого на 64-разрядной Windows, используйте 32-bit версии мфтраце.
 
-пакет SDK-root на 32-разрядных системах: \Program Files\Windows Kits\10 SDK-root на 64 разрядной системе: \Program Files (x86) \Windows Kits\10 вы найдете мфтраце по адресу <SDK — root> \bin \<sdk-version> \<architecture>\mftrace.exe
+пакет sdk-root на 32-разрядных системах: \program files \ Windows Kits\10 sdk-root на 64 разрядной системе: \program files (x86) \ Windows Kits\10 вы найдете мфтраце в &lt; пакете sdk-root &gt; \bin \<sdk-version> \<architecture>\mftrace.exe
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -1,19 +1,19 @@
 ---
-description: Управление графиком записи
+description: Управление Graph записи
 ms.assetid: e7afafca-e993-4096-bad4-399ee6c67fe9
-title: Управление графиком записи
+title: Управление Graph записи
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a00573256c1c010e23dfc598ceca5ac62d772711
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: d678e00452fbf90591fbc187039ddbbc37cc4fde446e2e285c77fcaab415e815
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119652144"
 ---
-# <a name="controlling-a-capture-graph"></a>Управление графиком записи
+# <a name="controlling-a-capture-graph"></a>Управление Graph записи
 
-Интерфейс [**Имедиаконтрол**](/windows/desktop/api/Control/nn-control-imediacontrol) диспетчера графа фильтров имеет методы для запуска, остановки и приостановки всей диаграммы. Однако если граф фильтра имеет захват и предварительный просмотр потоков, то, скорее всего, потребуется управлять двумя потоками независимо друг от друга. Например, может потребоваться предварительный просмотр видео без записи. Это можно сделать с помощью метода [**ICaptureGraphBuilder2:: контролстреам**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-controlstream) .
+интерфейс [**имедиаконтрол**](/windows/desktop/api/Control/nn-control-imediacontrol) диспетчера фильтров Graph имеет методы для запуска, остановки и приостановки всей диаграммы. Однако если граф фильтра имеет захват и предварительный просмотр потоков, то, скорее всего, потребуется управлять двумя потоками независимо друг от друга. Например, может потребоваться предварительный просмотр видео без записи. Это можно сделать с помощью метода [**ICaptureGraphBuilder2:: контролстреам**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-controlstream) .
 
 > [!Note]  
 > Этот метод не работает при записи в файл формата ASF.

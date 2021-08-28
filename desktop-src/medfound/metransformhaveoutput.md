@@ -4,12 +4,12 @@ ms.assetid: a9403ad3-81bf-4cd7-ba7f-816b901bb02c
 title: Событие Метрансформхавеаутпут (Мфобжектс. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de6ee70f21c0edcf65a8090feaf90d310839749e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 69bed68da623c3fed0bced01e32003dfa0c7625b9be8863644d2bf9486122c40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118061228"
 ---
 # <a name="metransformhaveoutput-event"></a>Событие Метрансформхавеаутпут
 
@@ -31,7 +31,7 @@ ms.locfileid: "105673343"
 
 Для этого события не определены атрибуты.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Асинхронный МФТС отправляет это событие через интерфейс [**имфмедиаевентженератор**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator) . Синхронное МФТС никогда не отправляет это событие.
 
@@ -43,13 +43,13 @@ ms.locfileid: "105673343"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                               |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                                  |
-| Header<br/>                   | <dl> <dt>Мфобжектс. h (включение Мфидл. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                               |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                                  |
+| Заголовок<br/>                   | <dl> <dt>Мфобжектс. h (включение Мфидл. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

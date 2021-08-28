@@ -4,12 +4,12 @@ ms.assetid: CB05B5F8-BE15-4BE0-A651-F6E8912D649D
 title: интерфейсы (среда выполнения Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 468944bcd2437309d953fe53e64e36366ca0cd7ac6ad4d8c32aa9c8d71f91ca7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d7e813bce21e44a7fe7a3b5f2feffbc31b78a4f8
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117741648"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884691"
 ---
 # <a name="interfaces"></a>Интерфейсы
 
@@ -23,12 +23,12 @@ ms.locfileid: "117741648"
 | [**иапартментшутдовн**](/windows/desktop/api/objidl/nn-objidl-iapartmentshutdown) | Включает регистрацию обработчика уведомлений о завершении работы апартамента. |
 | [**асинкактионкомплетедхандлер**](asyncactioncompletedhandler.md) | Представляет метод, который вызывается при завершении асинхронного действия. |
 | [**IAsyncAction**](/windows/win32/api/windows.foundation/nn-windows-foundation-iasyncaction) | Представляет асинхронное действие. |
-| [**иасинкактионпрогресшандлер<TProgress>**](/previous-versions//br205782(v=vs.85)) | Представляет метод, который вызывается, когда асинхронное действие сообщает о ходе выполнения. |
-| [**IAsyncActionWithProgress<TProgress>**](/previous-versions//br205784(v=vs.85)) | Представляет асинхронное действие, сообщающее о ходе выполнения. |
-| [**иасинкактионвиспрогресскомплетедхандлер<TProgress>**](/previous-versions//br205785(v=vs.85)) | Представляет метод, который вызывается, когда завершается асинхронное действие, которое сообщает о завершении выполнения. |
+| [**Иасинкактионпрогресшандлер &lt; TProgress&gt;**](/previous-versions//br205782(v=vs.85)) | Представляет метод, который вызывается, когда асинхронное действие сообщает о ходе выполнения. |
+| [**IAsyncActionWithProgress &lt; TProgress&gt;**](/previous-versions//br205784(v=vs.85)) | Представляет асинхронное действие, сообщающее о ходе выполнения. |
+| [**Иасинкактионвиспрогресскомплетедхандлер &lt; TProgress&gt;**](/previous-versions//br205785(v=vs.85)) | Представляет метод, который вызывается, когда завершается асинхронное действие, которое сообщает о завершении выполнения. |
 | [**иасинЦинфо**](/windows/win32/api/asyncinfo/nn-asyncinfo-iasyncinfo) | Обеспечивает поддержку асинхронных операций. |
-| [**IAsyncOperation<TResult>**](/previous-versions//br205802(v=vs.85)) | Представляет асинхронную операцию, которая возвращает результат. |
-| [**иасинкоператионкомплетедхандлер<TResult>**](/previous-versions//br205803(v=vs.85)) | Представляет метод, который вызывается после завершения асинхронной операции. |
+| [**IAsyncOperation &lt; TResult&gt;**](/previous-versions//br205802(v=vs.85)) | Представляет асинхронную операцию, которая возвращает результат. |
+| [**Иасинкоператионкомплетедхандлер &lt; TResult&gt;**](/previous-versions//br205803(v=vs.85)) | Представляет метод, который вызывается после завершения асинхронной операции. |
 | [**иасинкоператионпрогресшандлер**](/previous-versions//br205805(v=vs.85)) | Представляет метод, который вызывается, когда асинхронная операция сообщает о ходе выполнения. |
 | [**IAsyncOperationWithProgress**](/previous-versions//br205807(v=vs.85)) | Возвращает асинхронную операцию, которая возвращает результат и отчитывается о ходе выполнения. |
 | [**Иасинкоператионвиспрогресскомплетедхандлер<TResult, TProgress>**](/previous-versions//br205808(v=vs.85)) | Представляет метод, который вызывается, когда завершается асинхронная операция, сообщающая о завершении выполнения. |
@@ -50,22 +50,22 @@ ms.locfileid: "117741648"
 | [**икоревиндовинтероп**](/windows/desktop/api/corewindow/nn-corewindow-icorewindowinterop) | Позволяет приложениям получать окно, хандлеоф окно ([**CoreWindow**](/uwp/api/Windows.UI.Core.CoreWindow?view=winrt-19041)), связанное с этим интерфейсом. |
 | [**идллсерверактиватаблеклассрегистратион**](/windows/win32/api/activationregistration/nn-activationregistration-idllserveractivatableclassregistration) | Включает получение сведений о регистрации для внутрипроцессного сервера. |
 | [**иерроррепортингсеттингс**](/previous-versions//br205818(v=vs.85)) | обеспечивает интеграцию отладчика для приложений среда выполнения Windows. |
-| [**иевенсандлер<T>**](/previous-versions//hh438385(v=vs.85)) | Представляет метод, обрабатывающий событие, имеющее данные о событии типа **T**. |
+| [**Иевенсандлер &lt; T&gt;**](/previous-versions//hh438385(v=vs.85)) | Представляет метод, обрабатывающий событие, имеющее данные о событии типа **T**. |
 | [**иексесерверактиватаблеклассрегистратион**](/windows/win32/api/activationregistration/nn-activationregistration-iexeserveractivatableclassregistration) | Включает получение сведений о регистрации для сервера вне процесса. |
 | [**иексесерверрегистратион**](/windows/win32/api/activationregistration/nn-activationregistration-iexeserverregistration) | Представляет зарегистрированный сервер вне процесса. |
 | [**ифиндреференцетаржетскаллбакк**](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ifindreferencetargetscallback) | Определяет интерфейс для обратных вызовов из [**иреференцетраккер:: финдтраккертаржетс**](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetracker-findtrackertargets). Реализация этого интерфейса должна передавать все найденные экземпляры [**иреференцетраккертаржет**](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackertarget) методу **фаундтраккертаржет** . |
 | [**IInputPaneInterop**](/windows/desktop/api/inputpaneinterop/nn-inputpaneinterop-iinputpaneinterop) | Обеспечивает доступ к членам класса [**инпутпане**](/uwp/api/Windows.UI.ViewManagement.InputPane?view=winrt-19041) в классическом приложении. |
 | [**IInputStream**](/previous-versions//hh438387(v=vs.85)) | Включает получение асинхронной операции чтения для последовательного потока байтов. |
 | [**IInspectable**](/windows/win32/api/inspectable/nn-inspectable-iinspectable) | предоставляет функциональные возможности, необходимые для всех классов среда выполнения Windows. |
-| [**IIterable<T>**](/previous-versions//br205825(v=vs.85)) | Предоставляет итератор, который поддерживает простой перебор для коллекции указанного типа. |
-| [**иитератор<T>**](/previous-versions//br205827(v=vs.85)) | Поддерживает итерацию по коллекции. |
+| [**Иитерабле &lt; T&gt;**](/previous-versions//br205825(v=vs.85)) | Предоставляет итератор, который поддерживает простой перебор для коллекции указанного типа. |
+| [**Иитератор &lt; T&gt;**](/previous-versions//br205827(v=vs.85)) | Поддерживает итерацию по коллекции. |
 | [**IKeyValuePair<K, V>**](/previous-versions//br205831(v=vs.85)) | Представляет пару "ключ-значение". |
 | [**илангуажеексцептионерроринфо**](/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptionerrorinfo) | Включает получение указателя [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) , хранящегося в сведениях об ошибке, с помощью вызова руригинателангуажеексцептион. |
 | [**ILanguageExceptionErrorInfo2**](/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptionerrorinfo2) | Позволяет использовать языковые проекции для предоставления и получения сведений об ошибках, как и в случае с [**илангуажеексцептионерроринфо**](/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptionerrorinfo), с дополнительным преимуществом работы на разных языках. |
 | [**илангуажеексцептионтрансформ**](/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptiontransform) | Позволяет проектам языка предоставлять доступ к системе любому и всему контексту из исключения, которое вызывается из контекста обработчика catch, который перехватывает другое исключение. |
 | [**илангуажеексцептионстаккбакктраце**](/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptionstackbacktrace) | Позволяет проекциям предоставлять настраиваемую трассировку стека для этого исключения. |
 | [**IMap<K, V>**](/previous-versions//br205834(v=vs.85)) | Представляет ассоциативную коллекцию. |
-| [**имапчанжедевентаргс<K>**](/previous-versions//br205835(v=vs.85)) | Предоставляет данные для события [**мапчанжед**](/uwp/api/windows.foundation.collections.iobservablemap-2?view=winrt-19041) . |
+| [**Имапчанжедевентаргс &lt; р&gt;**](/previous-versions//br205835(v=vs.85)) | Предоставляет данные для события [**мапчанжед**](/uwp/api/windows.foundation.collections.iobservablemap-2?view=winrt-19041) . |
 | [**IMapView<K, V>**](/previous-versions//br205838(v=vs.85)) | Представляет неизменяемое представление в [**IMAP (K, V)**](/previous-versions//br205834(v=vs.85)). |
 | [**имеморибуффербитеакцесс**](/previous-versions//mt297505(v=vs.85)) | Предоставляет доступ к [**имеморибуффер**](/uwp/api/Windows.Foundation.IMemoryBuffer?view=winrt-19041) в виде массива байтов. |
 | [**IMetaDataAssemblyImport**](/windows/win32/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport) | Предоставляет методы для доступа и изучения содержимого манифеста сборки. |
@@ -76,7 +76,7 @@ ms.locfileid: "117741648"
 | [**IMetaDataTables**](/windows/win32/api/rometadataapi/nn-rometadataapi-imetadatatables) | Предоставляет методы для хранения и извлечения сведений о метаданных в таблицах. |
 | [**IMetaDataTables2**](/windows/win32/api/rometadataapi/nn-rometadataapi-imetadatatables2) | Расширяет [**IMetaDataTables**](/windows/win32/api/rometadataapi/nn-rometadataapi-imetadatatables) , чтобы включить методы для работы с потоками метаданных. |
 | [**IObservableMap<K, V>**](/previous-versions//br205851(v=vs.85)) | Уведомляет обработчики о динамических изменениях на карте, например при добавлении или удалении элементов. |
-| [**IObservableVector<T>**](/previous-versions//br205854(v=vs.85)) | Уведомляет обработчики событий об изменениях в векторе. |
+| [**Иобсерваблевектор &lt; T&gt;**](/previous-versions//br205854(v=vs.85)) | Уведомляет обработчики событий об изменениях в векторе. |
 | [**иоплоккбреакингхандлер**](/windows/desktop/api/windowsstoragecom/nn-windowsstoragecom-ioplockbreakinghandler) | Этот интерфейс в настоящее время не реализован. |
 | [**IOutputStream**](/previous-versions//hh438390(v=vs.85)) | Включает получение асинхронной операции записи для последовательного потока байтов. |
 | [**ипдфрендерернативе**](/windows/desktop/api/windows.data.pdf.interop/nn-windows-data-pdf-interop-ipdfrenderernative) | Представляет высокопроизводительный API для отображения одной страницы PDF-файла. |
@@ -87,8 +87,8 @@ ms.locfileid: "117741648"
 | [**ипропертивалуестатикс**](/windows/win32/api/windows.foundation/nn-windows-foundation-ipropertyvaluestatics) | Создает объекты [**IPropertyValue**](/windows/win32/api/windows.foundation/nn-windows-foundation-ipropertyvalue) , которые можно хранить в хранилище свойств. |
 | [**IRandomAccessStream**](/previous-versions//hh438400(v=vs.85)) | Включает получение асинхронного модуля чтения байтов или модуля записи байтов, расположенного в указанном месте в потоке байтов произвольного доступа. |
 | [**ирандомакцессстреамфилеакцессмоде**](/windows/desktop/api/windowsstoragecom/nn-windowsstoragecom-irandomaccessstreamfileaccessmode) | Предоставляет доступ к режиму доступа к файлу, который использовался при вызове метода [**StorageFile. OpenAsync**](/uwp/api/Windows.Storage.StorageFile?view=winrt-19041) для открытия потока байтов произвольного доступа. |
-| [**IReference<T>**](/previous-versions//br224583(v=vs.85)) | включает расширение системы свойств среда выполнения Windows для определяемых пользователем перечислений, структур и типов делегатов. |
-| [**иреференцеаррай<T>**](/previous-versions//br224584(v=vs.85)) | включает расширение системы свойств среда выполнения Windows для массивов определяемых пользователем перечислений, структур и типов делегатов. |
+| [**Иреференце &lt; T&gt;**](/previous-versions//br224583(v=vs.85)) | включает расширение системы свойств среда выполнения Windows для определяемых пользователем перечислений, структур и типов делегатов. |
+| [**Иреференцеаррай &lt; T&gt;**](/previous-versions//br224584(v=vs.85)) | включает расширение системы свойств среда выполнения Windows для массивов определяемых пользователем перечислений, структур и типов делегатов. |
 | [**иреференцетраккер**](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetracker) | Определяет интерфейс, реализуемый платформой XAML для управления ссылками на объекты XAML. |
 | [**иреференцетраккерхост**](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost) | Определяет интерфейс, предоставляющий глобальные службы, используемые системой сборки мусора (GC), используемой платформой XAML. |
 | [**иреференцетраккерманажер**](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackermanager) | Определяет интерфейс для диспетчера ссылок на объект XAML. Реализуйте этот интерфейс для управления экземплярами [**иреференцетраккер**](/windows/win32/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetracker) на объектах XAML. |
@@ -111,9 +111,9 @@ ms.locfileid: "117741648"
 | [**Итипедевенсандлер<TSender, Таргс>**](/previous-versions//hh438424(v=vs.85)) | Представляет метод, который будет выполнять обработку события от отправителя типа **TSender** и данных события типа **T**. |
 | [**иунбуффередфилехандлеоплокккаллбакк**](/windows/desktop/api/windowsstoragecom/nn-windowsstoragecom-iunbufferedfilehandleoplockcallback) | Определяет метод обратного вызова, который необходимо выполнить, когда оппортунистическая блокировка для маркера, полученного путем вызова метода [**иунбуффередфилехандлепровидер:: опенунбуффередфилехандле**](/windows/desktop/api/windowsstoragecom/nf-windowsstoragecom-iunbufferedfilehandleprovider-openunbufferedfilehandle) , нарушена. |
 | [**иунбуффередфилехандлепровидер**](/windows/desktop/api/windowsstoragecom/nn-windowsstoragecom-iunbufferedfilehandleprovider) | Предоставляет доступ к дескрипторам из потока байтов произвольного доступа, созданного методом [**StorageFile. OpenAsync**](/uwp/api/Windows.Storage.StorageFile?view=winrt-19041) . |
-| [**IVector<T>**](/previous-versions//br224590(v=vs.85)) | Представляет коллекцию элементов с произвольным доступом. |
+| [**IVector &lt; T&gt;**](/previous-versions//br224590(v=vs.85)) | Представляет коллекцию элементов с произвольным доступом. |
 | [**ивекторчанжедевентаргс**](ivectorchangedeventargs.md) | Предоставляет данные для события [**векторчанжед**](/uwp/api/windows.foundation.collections.iobservablevector-1?view=winrt-19041) . |
-| [**IVectorView<T>**](/previous-versions//br224594(v=vs.85)) | Представляет неизменяемое представление в [**IVector (T)**](/uwp/api/windows.foundation.collections.ivector-1?view=winrt-19041). |
+| [**IVectorView &lt; T&gt;**](/previous-versions//br224594(v=vs.85)) | Представляет неизменяемое представление в [**IVector (T)**](/uwp/api/windows.foundation.collections.ivector-1?view=winrt-19041). |
 | [**ивидеофраменативе**](/windows/desktop/api/windows.media.core.interop/nn-windows-media-core-interop-ivideoframenative) | Представляет кадр видеоданных. |
 | [**ивидеофраменативефактори**](/windows/desktop/api/windows.media.core.interop/nn-windows-media-core-interop-ivideoframenativefactory) | Создает экземпляры [**ивидеофраменативе**](/windows/desktop/api/windows.media.core.interop/nn-windows-media-core-interop-ivideoframenative). |
 | [**ивиевпровидер**](/previous-versions//hh438426(v=vs.85)) | Представляет представление в приложении. |
@@ -123,4 +123,4 @@ ms.locfileid: "117741648"
 | [**IWeakReference**](/windows/win32/api/weakreference/nn-weakreference-iweakreference) | Представляет слабую ссылку на объект. |
 | [**IWeakReferenceSource**](/windows/win32/api/weakreference/nn-weakreference-iweakreferencesource) | Представляет исходный объект, для которого может быть извлечена слабая ссылка. |
 | [**Мапчанжедевенсандлер<K, V>**](/previous-versions//br224612(v=vs.85)) | Представляет метод, обрабатывающий событие [**мапчанжед**](/uwp/api/windows.foundation.collections.iobservablemap-2?view=winrt-19041) наблюдаемой схемы. |
-| [**VectorChangedEventHandler<T>**](/previous-versions//br224626(v=vs.85)) | Представляет метод, обрабатывающий событие [**векторчанжед**](/uwp/api/windows.foundation.collections.iobservablevector-1?view=winrt-19041) наблюдаемого вектора. |
+| [**VectorChangedEventHandler &lt; T&gt;**](/previous-versions//br224626(v=vs.85)) | Представляет метод, обрабатывающий событие [**векторчанжед**](/uwp/api/windows.foundation.collections.iobservablevector-1?view=winrt-19041) наблюдаемого вектора. |

@@ -4,12 +4,12 @@ description: Подразделы и значения реестра, связа
 ms.assetid: a5b271d6-f445-45df-a8e4-f6e0194ac824
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c16fdbc97b32d01af9c96b5670cb5a19c09c89a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: df9a79c417c48c5392fe5ceea3e99cce5e874bc9
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103779634"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884881"
 ---
 # <a name="hkey_local_machinesoftwareclasses"></a>\_ \_ \\ Классы программного обеспечения для локального компьютера hKey \\
 
@@ -24,16 +24,16 @@ ms.locfileid: "103779634"
 | [**<\_ расширение файла>**](-file-extension--key.md)                        | Связывает расширение имени файла с ProgID.                                                                   |
 | [**FileType**](filetype-key.md)                                               | Используется [**жетклассфиле**](/windows/desktop/api/Objbase/nf-objbase-getclassfile) для сопоставления шаблонов с различными байтами файлов в несоставном файле. |
 | [**Интерфейс**](interface-key.md)                                             | Связывает имя интерфейса с ИДЕНТИФИКАТОРом интерфейса (IID).                                                          |
-| [**<ProgID>**](-progid--key.md)                                         | Определяет класс. Обратите внимание, что идентификатор ProgID не обязательно должен быть глобально уникальным, в отличие от идентификатора CLSID.                 |
+| [**&lt;ProgID:&gt;**](-progid--key.md)                                         | Определяет класс. Обратите внимание, что идентификатор ProgID не обязательно должен быть глобально уникальным, в отличие от идентификатора CLSID.                 |
 | [**<независимый от версии идентификатор ProgID>**](-version-independent-progid--key.md) | Используется для определения последней версии объектного приложения.                                                    |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

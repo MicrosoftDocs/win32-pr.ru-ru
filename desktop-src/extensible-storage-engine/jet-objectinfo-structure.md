@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: af21d3f885a979ac81fef502a64281ea5445046983f652033566c689991a70ac
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d61c42897da6d55dc96f2e59847fcf727424d60e
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119720314"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122986127"
 ---
 # <a name="jet_objectinfo-structure"></a>Структура JET_OBJECTINFO
 
@@ -66,73 +66,28 @@ _**Применимо к:** Windows | Windows Сервером_
 
 Группа битов, содержащая параметры, доступные для данного вызова, которые включают ноль или более следующих значений.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Значение</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitTableInfoBookmark</p></td>
-<td><p>В таблице могут быть закладки.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTableInfoRollback</p></td>
-<td><p>Можно выполнить откат таблицы.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTableInfoUpdatable</p></td>
-<td><p>Таблицу можно обновить.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Значение</p> | <p>Значение</p> | 
+|--------------|----------------|
+| <p>JET_bitTableInfoBookmark</p> | <p>В таблице могут быть закладки.</p> | 
+| <p>JET_bitTableInfoRollback</p> | <p>Можно выполнить откат таблицы.</p> | 
+| <p>JET_bitTableInfoUpdatable</p> | <p>Таблицу можно обновить.</p> | 
+
 
 
 **flags**
 
 Битовое поле, которое содержит ноль или более следующих флагов.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Значение</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitObjectSystem</p></td>
-<td><p>Таблица является системной таблицей и предназначена только для внутреннего использования.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitObjectTableDerived</p></td>
-<td><p>Таблица, унаследованная на языке DDL из таблицы шаблонов.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitObjectTableFixedDDL</p></td>
-<td><p>Невозможно изменить DDL для таблицы.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitObjectTableNoFixedVarColumnsInDerivedTables</p></td>
-<td><p>Используется в сочетании с JET_bitObjectTableTemplate для запрета фиксированных или переменных столбцов в производных таблицах (чтобы в будущем можно было добавить в шаблон фиксированные или переменные столбцы).</p>
-<p><strong>Windows XP:</strong> это значение вводится в Windows XP.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitObjectTableTemplate</p></td>
-<td><p>Таблица является таблицей шаблонов.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Значение</p> | <p>Значение</p> | 
+|--------------|----------------|
+| <p>JET_bitObjectSystem</p> | <p>Таблица является системной таблицей и предназначена только для внутреннего использования.</p> | 
+| <p>JET_bitObjectTableDerived</p> | <p>Таблица, унаследованная на языке DDL из таблицы шаблонов.</p> | 
+| <p>JET_bitObjectTableFixedDDL</p> | <p>Невозможно изменить DDL для таблицы.</p> | 
+| <p>JET_bitObjectTableNoFixedVarColumnsInDerivedTables</p> | <p>Используется в сочетании с JET_bitObjectTableTemplate для запрета фиксированных или переменных столбцов в производных таблицах (чтобы в будущем можно было добавить в шаблон фиксированные или переменные столбцы).</p><p><strong>Windows XP:</strong> это значение вводится в Windows XP.</p> | 
+| <p>JET_bitObjectTableTemplate</p> | <p>Таблица является таблицей шаблонов.</p> | 
+
 
 
 **крекорд**
@@ -147,7 +102,7 @@ _**Применимо к:** Windows | Windows Сервером_
 
 Это значение извлекается, только если **JET_OBJECTINFO** был передан в [жетжетобжектинфо](./jetgetobjectinfo-function.md).
 
-### <a name="remarks"></a>Remarks
+### <a name="remarks"></a>Комментарии
 
 Структура **JET_OBJECTINFO** заполняется вызовом [жетжетобжектинфо](./jetgetobjectinfo-function.md) или [жетжеттаблеинфо](./jetgettableinfo-function.md). Если вызов API не выполняется, содержимое структуры не определено.
 
@@ -155,29 +110,16 @@ _**Применимо к:** Windows | Windows Сервером_
 
 ### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Сервер</strong></p></td>
-<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Требование | Применение |
+|------------|----------|
+| <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | 
+| <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
 
 
-### <a name="see-also"></a>См. также
+
+### <a name="see-also"></a>См. также:
 
 [JET_ERR](./jet-err.md)  
 [JET_GRBIT](./jet-grbit.md)  
