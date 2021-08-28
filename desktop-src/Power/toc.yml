@@ -6,7 +6,7 @@
     - name: Сведения об управлении питанием
       href: about-power-management.md
       items:
-        - name: Управление питанием Windows
+        - name: Windows Управление питанием
           href: windows-power-management.md
         - name: Состояние питания системы
           href: system-power-status.md
@@ -30,7 +30,7 @@
         - name: Схемы управления питанием
           href: power-schemes.md
           items:
-            - name: Параметры политики электропитания
+            - name: Параметры политики управления питанием
               href: power-policy-settings.md
             - name: Управление схемами управления питанием
               href: managing-power-schemes.md

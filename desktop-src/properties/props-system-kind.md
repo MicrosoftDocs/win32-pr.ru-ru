@@ -1,19 +1,19 @@
 ---
-description: Сопоставляет расширения с различными. Папки поиска.
+description: Карты расширения для различных. Папки поиска.
 ms.assetid: 6db93108-7d08-4493-b99a-cd4e5d4cbfbd
 title: System. Kind
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a229fd3c2b14b6d8d39c5135853552e349ed2a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d33d32d825de5e5fafd59311902e26c65409b47321d2aaf129165aeacbefc25a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091054"
 ---
 # <a name="systemkind"></a>System. Kind
 
-Сопоставляет расширения с различными. Папки поиска.
+Карты расширения для различных. Папки поиска.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81"></a>Windows 10, версия 1703, Windows 10, версия 1607, Windows 10, версия 1511, Windows 10, версия 1507, Windows 8.1
 
@@ -588,7 +588,7 @@ propertyDescription
             mnemonics = history|webpage|webpages
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
@@ -606,7 +606,7 @@ HKEY_LOCAL_MACHINE
 
 Список значений типа не является расширяемым.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

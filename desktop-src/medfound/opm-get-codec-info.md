@@ -4,12 +4,12 @@ ms.assetid: 51987a79-78bf-41b2-8349-8c2725dd89d6
 title: OPM_GET_CODEC_INFO (Опмапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bf310ae3dafee7823119b2d5d5bd2c6b61fe822
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 988ffa9a962d9ed04b6a978da1534a6da4fa506e873d89d238bcbb2aa00fd865
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847984"
 ---
 # <a name="opm_get_codec_info"></a>ОПМ \_ получить \_ \_ сведения о кодека
 
@@ -27,7 +27,7 @@ ms.locfileid: "104263507"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Хотя эта команда использует интерфейс [Output Protection Manager](output-protection-manager.md) (ОПМ), она применяется только к аппаратным кодировщикам и декодерам. Он не применяется к устройствам вывода видео.
 
@@ -39,9 +39,9 @@ ms.locfileid: "104263507"
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                          |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                             |
-| Header<br/>                   | <dl> <dt>Опмапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                             |
+| Заголовок<br/>                   | <dl> <dt>Опмапи. h</dt> </dl> |
 
 
 

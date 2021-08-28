@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8964c7029805bb981dea876cee414fb6d36cd00
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 82dbf0ab25d435dfd44d5aa215e12d984c78b872f683b79fbb1f8acb72ce65b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103989824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118425810"
 ---
 # <a name="ms-ds-members-of-resource-property-list-attribute"></a>Список атрибутов MS-DS-Members-of-Resource-Property-List
 
@@ -52,10 +52,10 @@ ms.locfileid: "103989824"
 |------------------------|--------------------------------------------------------------------------------|
 | Идентификатор ссылки                | 2180                                                                           |
 | MAPI-Id                | \-                                                                             |
-| System-Only            | Неверно                                                                          |
-| Является однозначным       | Неверно                                                                          |
-| Индексируется             | Неверно                                                                          |
-| В глобальном каталоге      | Неверно                                                                          |
+| System-Only            | Нет                                                                          |
+| Является однозначным       | Нет                                                                          |
+| Индексируется             | Нет                                                                          |
+| В глобальном каталоге      | Нет                                                                          |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                   |
 | Range-Lower            | \-                                                                             |
 | Range-Upper            | \-                                                                             |

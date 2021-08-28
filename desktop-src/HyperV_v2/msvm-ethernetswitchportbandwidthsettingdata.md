@@ -22,12 +22,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 932207a8157e34c5f42894c31efa78090a6a80f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c47a1f9b7f6697a58a24b4a5878d1977521a5073cca9d60e0bb3c45594f71496
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119531354"
 ---
 # <a name="msvm_ethernetswitchportbandwidthsettingdata-class"></a>\_Класс мсвм есернетсвитчпортбандвидссеттингдата
 
@@ -59,7 +59,7 @@ class Msvm_EthernetSwitchPortBandwidthSettingData : Msvm_EthernetSwitchPortFeatu
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ есернетсвитчпортбандвидссеттингдата** имеет следующие свойства.
 
@@ -97,7 +97,7 @@ class Msvm_EthernetSwitchPortBandwidthSettingData : Msvm_EthernetSwitchPortFeatu
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -106,7 +106,7 @@ class Msvm_EthernetSwitchPortBandwidthSettingData : Msvm_EthernetSwitchPortFeatu
 Тип доступа: только для чтения
 </dt> </dl>
 
-Краткое описание объекта. Это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "Параметры пропускной способности порта коммутатора Ethernet".
+Краткое описание объекта. это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "пропускная способность порта коммутатора Ethernet Параметры".
 
 </dd> <dt>
 
@@ -132,7 +132,7 @@ class Msvm_EthernetSwitchPortBandwidthSettingData : Msvm_EthernetSwitchPortFeatu
 Тип доступа: только для чтения
 </dt> </dl>
 
-Отображаемое имя объекта. Это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "Параметры пропускной способности порта коммутатора Ethernet".
+Отображаемое имя объекта. это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "пропускная способность порта коммутатора Ethernet Параметры".
 
 </dd> <dt>
 
@@ -200,14 +200,14 @@ class Msvm_EthernetSwitchPortBandwidthSettingData : Msvm_EthernetSwitchPortFeatu
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

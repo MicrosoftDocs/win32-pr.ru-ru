@@ -3,7 +3,7 @@ title: Сообщение RB_SETBANDINFO (Коммктрл. h)
 description: Задает характеристики существующей полосы в элементе управления "Главная панель".
 ms.assetid: 00021c35-612d-4278-b10c-6e9f1f45a543
 keywords:
-- Элементы управления Windows для RB_SETBANDINFO сообщений
+- элементы управления Windows сообщений RB_SETBANDINFO
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 92e81377a40f8b6054f5d8cfae16837621b77b61
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: aee89d91bc65556179d14c7e86a69a9e6399223f38bb1bcc44f746d7cd8f8a80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119798474"
 ---
 # <a name="rb_setbandinfo-message"></a>\_Сообщение СЕТБАНДИНФО RB
 
@@ -49,15 +49,15 @@ ms.locfileid: "104491757"
 
 Возвращает ненулевое значение в случае успеха или ноль в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **RB \_ СЕТБАНДИНФОВ** (Юникод) и **RB \_ сетбандинфоа** (ANSI)<br/>             |
 
 

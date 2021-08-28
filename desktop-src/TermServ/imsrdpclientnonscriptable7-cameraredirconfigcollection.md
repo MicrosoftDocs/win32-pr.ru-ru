@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 12/16/2020
-ms.openlocfilehash: 817d3d73b4abbf8aa8b4126fd99ed7d11c3fff51
-ms.sourcegitcommit: 04e801237156e90b48111d60bddf437f87f5cdfe
+ms.openlocfilehash: ea90c06403c1ba44e129867f2d739990a37ee178ebe5d0b8f4afd684b17eb09e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "104341395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033174"
 ---
 # <a name="imsrdpclientnonscriptable7cameraredirconfigcollection-property"></a>Свойство IMsRdpClientNonScriptable7:: Камераредирконфигколлектион
 
@@ -43,7 +43,7 @@ HRESULT get_CameraRedirConfigCollection(
 
 Объект [имсрдпкамераредирконфигколлектион](imsrdpcameraredirconfigcollection.md) , представляющий коллекцию камер (и связанных конфигураций), которые доступны для перенаправления.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------|
@@ -52,7 +52,7 @@ HRESULT get_CameraRedirConfigCollection(
 | DLL                  | MsTscAx.dll     |
 | IID                      | IID \_ IMsRdpClientNonScriptable7 определен как 71B4A60A-FE21-46D8-A39B-8E32BA0C5ECC          |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

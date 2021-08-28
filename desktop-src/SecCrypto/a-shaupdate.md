@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - ntdll.dll
-ms.openlocfilehash: a0f8ac49d8221538a168ade536e55766e209d3d4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 103438e3ef0747aa6170848398621b0246bd15366be4d1171ce5735942011007
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101074"
 ---
 # <a name="a_shaupdate-function"></a>\_Функция шаупдате
 
@@ -66,19 +66,19 @@ void RSA32API A_SHAUpdate(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эту функцию можно вызывать несколько раз, чтобы вычислить хэш для длинных потоков данных или ненепрерывных потоков данных. Перед получением хэш-значения необходимо вызвать функцию [**\_ шафинал**](a-shafinal.md) .
 
-Эта функция очень похожа на Шаупдате, но вызывается непосредственно из библиотеки, а не направляется через криптографическую инфраструктуру. Дополнительные сведения см. в разделе [поставщики Нткриптографик Windows](/previous-versions/tn-archive/cc723484(v=technet.10)).
+Эта функция очень похожа на Шаупдате, но вызывается непосредственно из библиотеки, а не направляется через криптографическую инфраструктуру. дополнительные сведения см. в статье [Windows поставщики нткриптографик](/previous-versions/tn-archive/cc723484(v=technet.10)).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>SHA. h</dt> </dl>     |
+| Заголовок<br/>  | <dl> <dt>SHA. h</dt> </dl>     |
 | Библиотека<br/> | <dl> <dt>Ntdll.dll</dt> </dl> |
 | DLL<br/>     | <dl> <dt>Ntdll.dll</dt> </dl> |
 

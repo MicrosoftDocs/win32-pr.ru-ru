@@ -4,16 +4,16 @@ description: Иажентчарактер Жетсаундеффектсон
 ms.assetid: 11bc074e-7654-4a78-920e-acd56db52c98
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a40f18a4fb8e7778c116c54391a7dc50e5267af
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7f7133e41e4c291200feaf8fdb8ab3919cdb622ca927c155fc0941202fd555a6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105691389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848644"
 ---
 # <a name="iagentcharactergetsoundeffectson"></a>Иажентчарактер:: Жетсаундеффектсон
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT GetSoundEffectsOn(
@@ -36,14 +36,14 @@ HRESULT GetSoundEffectsOn(
 
 Параметр звуковых эффектов для символа определяет, будут ли воспроизводиться звуковые эффекты, скомпилированные как часть символа, при воспроизведении связанной анимации. Параметр подчиняется параметру глобальные звуковые эффекты пользователя в [**иажентаудиуутпутпропертиес:: жетусингсаундеффектс**](iagentaudiooutputproperties--getusingsoundeffects.md).
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Иажентчарактер:: сетсаундеффектсон**](iagentcharacter--setsoundeffectson.md), [ **иажентаудиуутпутпропертиес:: жетусингсаундеффектс**](iagentaudiooutputproperties--getusingsoundeffects.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

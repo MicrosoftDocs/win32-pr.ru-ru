@@ -4,12 +4,12 @@ description: Когда клиентское приложение RAS запус
 ms.assetid: a0fddc69-44bb-4bb0-ae57-ebecbe85cbe9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 859a3751bcbaf7d95927cdf6d14de859ddcc731e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1fde205dfeb838639447c9f9359ee5b1258b2426eb55dbdd592291aea002fad6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101864"
 ---
 # <a name="disconnecting"></a>Отключается
 
@@ -19,6 +19,6 @@ ms.locfileid: "104070541"
 
 Клиентское приложение RAS может потребовать завершения подключения, даже если оно не имеет маркера, возвращаемого [**rasdial**](/windows/desktop/api/Ras/nf-ras-rasdiala). Например, приложение, которое вызвало команду **rasdial** , могло выйти после успешного установления соединения. В этом случае отключенное приложение может использовать функцию [**расенумконнектионс**](/windows/desktop/api/Ras/nf-ras-rasenumconnectionsa) для получения всех текущих соединений. Для каждого соединения **расенумконнектионс** возвращает структуру [**расконн**](/previous-versions/windows/desktop/legacy/aa376725(v=vs.85)) , содержащую маркер подключения **храсконн** и имя записи телефонной книги или номер телефона, указанный при запуске операции подключения. Эти сведения можно использовать для вывода списка подключений, из которых пользователь может выбрать подключение к концу.
 
- 
+ 
 
- 
+ 

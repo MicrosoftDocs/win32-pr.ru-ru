@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 821aceda734aceb7a80774db05465f31213eec47
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1af9dae5e49240ef0095f499cf8abe34d6931caf7c36cf0ec7fc6908c9821a44
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031864"
 ---
 # <a name="iwmdrmdevicesetsecureclockresponse-method"></a>Метод Ивмдрмдевице:: Сетсекуреклоккреспонсе
 
@@ -72,18 +72,18 @@ HRESULT SetSecureClockResponse(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>ВМДДРМСП. idl</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>ВМДДРМСП. idl</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>Мссачлп. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

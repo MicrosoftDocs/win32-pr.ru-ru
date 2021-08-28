@@ -4,12 +4,12 @@ description: Стоклиен инкапсулирует операции с с�
 ms.assetid: 21a3e170-0a73-4744-8cfc-3a04e0571792
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa970aecf275afbf7bc5b6d68c69de3367e48aa5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 36eaa46b9e675be2da699ed6f2fb0e2a2d8dd6db1e25cf0afba0f216f75a59e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117962380"
 ---
 # <a name="cpapfile-class-and-methods"></a>Класс и методы Кпапфиле
 
@@ -59,9 +59,9 @@ HRESULT Init(TCHAR* pszFileName, IPaper* pIPaper);
 
 
 
- 
+ 
 
- 
+ 
 
 
 

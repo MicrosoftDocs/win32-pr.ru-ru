@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2f836d8f5e9053029763c38d2c4f2116987b08fe
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bfaf26800a9cb75052699fcd44076f67553a4a36df0c8597b5c9c6e2855d7370
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118417726"
 ---
 # <a name="win32_computersystemprocessor-class"></a>\_Класс Win32 компутерсистемпроцессор
 
@@ -46,7 +46,7 @@ class Win32_ComputerSystemProcessor : Win32_SystemDevices
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ компутерсистемпроцессор** имеет следующие свойства.
 
@@ -84,7 +84,7 @@ class Win32_ComputerSystemProcessor : Win32_SystemDevices
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ компутерсистемпроцессор** является производным от [**Win32 \_ системдевицес**](win32-systemdevices.md).
 

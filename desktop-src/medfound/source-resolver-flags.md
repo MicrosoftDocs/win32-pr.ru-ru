@@ -4,12 +4,12 @@ ms.assetid: fe0b9090-5d2a-41a4-a806-57c874d3b3a2
 title: Флаги сопоставителя источника (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31efe47f75151f78958903cb514653edb6c5aa08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c779a54467390abf6cfb186f6b76043fd19617f5d129b88e6697a45c01708510
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103811543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847824"
 ---
 # <a name="source-resolver-flags"></a>Флаги сопоставителя источника
 
@@ -29,7 +29,7 @@ ms.locfileid: "103811543"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение устанавливает эти флаги при использовании интерфейса [**имфсаурцересолвер**](/windows/desktop/api/mfidl/nn-mfidl-imfsourceresolver) . Сопоставитель источников передает те же флаги методам [**имфбитестреамхандлер:: бегинкреатеобжект**](/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamhandler-begincreateobject) и [**Имфсчемехандлер:: бегинкреатеобжект**](/windows/desktop/api/mfidl/nf-mfidl-imfschemehandler-begincreateobject) .
 
@@ -45,19 +45,19 @@ ms.locfileid: "103811543"
 
 4.  Клиент снова открывает источник, в этот раз Настройка \_ содержимого для разрешения MF \_ \_ \_ не \_ \_ должна \_ совпадать с \_ расширением \_ или \_ \_ флагом типа MIME. Этот флаг приводит к тому, что сопоставитель источника пытается проверить все зарегистрированные обработчики, а не только обработчик по умолчанию. Поскольку поток байтов был кэширован, сопоставитель источника не должен снова открывать байтовый поток.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

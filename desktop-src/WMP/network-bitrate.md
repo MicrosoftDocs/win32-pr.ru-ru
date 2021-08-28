@@ -3,7 +3,7 @@ title: Network. скорость
 description: Свойство скорость получает текущую скорость получения.
 ms.assetid: e970a43a-1773-4dc0-ac2f-115f698bc1f4
 keywords:
-- Проигрыватель Windows Media с сетевым. скоростью
+- проигрыватель Windows Media Network. скорость
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4373d667ea41d55b5b0e12f1a47289f15d7b115b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ec142885bdd718903e956f8e86b59c3753cb024ecccc5efb2f8494797ea6a818
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901784"
 ---
 # <a name="networkbitrate"></a>Network. скорость
 
@@ -33,13 +33,13 @@ ms.locfileid: "105704220"
 
 Это свойство является **числом** только для чтения (**длинное целое**).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это значение представляет собой сочетание скорости потока для текущих видео-и звуковых потоков.
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript используется *Network*. **скорость** для вывода скорости текущего мультимедиа. Сведения отображаются в HTML-элементе DIV, созданном с помощью ID = "BR". Объект **Player** создан с идентификатором "Player".
+в следующем примере JScript используется *сеть*. **скорость** для вывода скорости текущего мультимедиа. Сведения отображаются в HTML-элементе DIV, созданном с помощью ID = "BR". Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -65,18 +65,18 @@ ms.locfileid: "105704220"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

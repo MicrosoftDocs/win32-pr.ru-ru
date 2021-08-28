@@ -4,27 +4,27 @@ description: В этом разделе показано, как обеспеч�
 ms.assetid: BD32666F-9445-4871-AE21-5DC9F5FC9C1B
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 056f64c086aeda94ccf928d93ae2c5db5e2187a4
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: df078b8be8cd02f56592a74de4242b515974a740df01d3cd4bd36074d5f8e022
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103987997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119968224"
 ---
 # <a name="how-to-support-callback-items"></a>Поддержка элементов обратного вызова
 
 В этом разделе показано, как обеспечить поддержку элементов обратного вызова.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -63,7 +63,7 @@ void WINAPI DoItemCallback(PNMCOMBOBOXEX pNMCBex)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

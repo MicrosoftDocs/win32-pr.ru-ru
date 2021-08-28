@@ -1,19 +1,19 @@
 ---
 title: Отрисовка с использованием пользовательского средства отрисовки текста
-description: Макет текста DirectWrite \ 160; может быть нарисован пользовательским модулем отрисовки текста, производным от Идвритетекстрендерер.
+description: DirectWrite \ 160; макет текста может быть нарисован пользовательским модулем отрисовки текста, производным от идвритетекстрендерер.
 ms.assetid: a5b09733-24b2-408e-a1f9-cf7ad20c5c63
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 17cda56fc5cc38a62e48a2f62066edfec2327e9e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c6f8e08bb8af3ce7fa0ae4d423103feb597e17cf46ab53b42903fad143c675db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902882"
 ---
 # <a name="render-using-a-custom-text-renderer"></a>Отрисовка с использованием пользовательского средства отрисовки текста
 
- [**Макет текста**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) [DirectWrite](direct-write-portal.md)может быть нарисован пользовательским модулем отрисовки текста, производным от [**идвритетекстрендерер**](/windows/win32/api/dwrite/nn-dwrite-idwritetextrenderer). Пользовательский модуль подготовки отчетов необходим для использования преимуществ некоторых расширенных функций DirectWrite, таких как отрисовка растрового изображения или поверхности GDI, встроенные объекты и эффекты рисования клиента. В этом руководстве описываются методы **идвритетекстрендерер** и приводится пример реализации, которая использует [Direct2D](../direct2d/direct2d-portal.md) для отрисовки текста с заливкой битовой карты.
+[DirectWriteный](direct-write-portal.md) [**макет текста**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) может быть нарисован пользовательским модулем отрисовки текста, производным от [**идвритетекстрендерер**](/windows/win32/api/dwrite/nn-dwrite-idwritetextrenderer). пользовательский модуль подготовки отчетов необходим для использования преимуществ некоторых расширенных функций DirectWrite, таких как отрисовка растрового изображения или поверхности GDI, встроенные объекты и эффекты рисования клиента. В этом руководстве описываются методы **идвритетекстрендерер** и приводится пример реализации, которая использует [Direct2D](../direct2d/direct2d-portal.md) для отрисовки текста с заливкой битовой карты.
 
 Этот учебник содержит следующие компоненты.
 
@@ -30,7 +30,7 @@ ms.locfileid: "104413246"
 
 Пользовательский модуль подготовки текста должен реализовать методы, унаследованные от IUnknown, в дополнение к методам, перечисленным на странице ссылок [**идвритетекстрендерер**](/windows/win32/api/dwrite/nn-dwrite-idwritetextrenderer) и ниже.
 
-Полный исходный код для пользовательского модуля подготовки отчетов к тексту см. в файлах Кустомтекстрендерер. cpp и Кустомтекстрендерер. h [примера DirectWrite Hello World](/samples/browse/?redirectedfrom=MSDN-samples).
+полный исходный код для пользовательского модуля подготовки отчетов к тексту см. в файлах кустомтекстрендерер. cpp и кустомтекстрендерер. h [примера DirectWrite Hello World](/samples/browse/?redirectedfrom=MSDN-samples).
 
 ## <a name="the-constructor"></a>Конструктор
 
@@ -49,7 +49,7 @@ ms.locfileid: "104413246"
 
 
 
- 
+ 
 
 Они будут храниться в конструкторе, как показано в следующем коде.
 
@@ -361,6 +361,6 @@ hr = pTextLayout_->Draw(
 
 Метод [**идвритетекстлайаут::D RAW**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-draw) вызывает методы предоставляемого обратного вызова пользовательского модуля подготовки отчетов. Описанные выше методы [**DrawGlyphRun**](/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawglyphrun), [**дравундерлине**](/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawunderline), [**дравинлинеобжект**](/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawinlineobject)и [**дравстрикесраугх**](/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawstrikethrough) выполняют функции рисования.
 
- 
+ 
 
- 
+ 

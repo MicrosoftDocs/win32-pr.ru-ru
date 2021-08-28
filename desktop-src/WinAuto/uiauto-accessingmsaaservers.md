@@ -14,12 +14,12 @@ keywords:
 - Клиенты, доступ к Active Accessibility серверам
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97319028203351cd9f45b39d133fa38727d6861e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4e6f6ccbc29695b7ca5d1413025a50a7bcf4a9cf679dbcd6a0b8f3160ff0b399
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030774"
 ---
 # <a name="accessing-microsoft-active-accessibility-servers"></a>Доступ к серверам Microsoft Active Accessibility
 
@@ -40,7 +40,7 @@ ms.locfileid: "104067673"
 
 [**Иуиаутоматионлегацииакцессиблепаттерн:: жетиакцессибле**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationlegacyiaccessiblepattern-getiaccessible) возвращает **значение NULL** , если интерфейс [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) для элемента предоставлен прокси-объектом из OLEACC.dll или из модели автоматизации пользовательского интерфейса в Microsoft Active Accessibility Bridge.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -53,9 +53,9 @@ ms.locfileid: "104067673"
 [Общие сведения о шаблонах элементов управления модели автоматизации пользовательского интерфейса](uiauto-controlpatternsoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

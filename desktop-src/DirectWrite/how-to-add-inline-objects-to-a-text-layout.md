@@ -1,19 +1,19 @@
 ---
 title: Добавление встроенных объектов в макет текста
-description: Содержит краткое руководство по добавлению встроенных объектов в приложение DirectWrite, которое отображает текст с помощью интерфейса Идвритетекстлайаут.
+description: содержит краткое руководство по добавлению встроенных объектов в DirectWrite приложение, которое отображает текст с помощью интерфейса идвритетекстлайаут.
 ms.assetid: 6aa9d17c-ee30-497f-9c73-ec2fa079222b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1d9ef34e38ec9b84afd887e565e76efb9618b88
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ca4969ded311bbaa4e87e5b70f1df1379c4ca549d2db06c8d1186ba548c77a0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104556238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902902"
 ---
 # <a name="how-to-add-inline-objects-to-a-text-layout"></a>Добавление встроенных объектов в макет текста
 
-Содержит краткое руководство по добавлению встроенных объектов в приложение [DirectWrite](direct-write-portal.md) , которое отображает текст с помощью интерфейса [**идвритетекстлайаут**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) .
+содержит краткое руководство по добавлению встроенных объектов в [DirectWrite](direct-write-portal.md) приложение, которое отображает текст с помощью интерфейса [**идвритетекстлайаут**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) .
 
 Конечным продуктом этого учебника является приложение, которое отображает текст со встроенным изображением, которое встроено в него, как показано на следующем снимке экрана.
 
@@ -83,7 +83,7 @@ ms.locfileid: "104556238"
 
 ## <a name="step-2-define-a-class-derived-from-the-idwriteinlineobject-interface"></a>Шаг 2. определение класса, производного от интерфейса Идвритеинлинеобжект.
 
-Поддержка встроенных объектов в [DirectWrite](direct-write-portal.md) предоставляется интерфейсом [**идвритеинлинеобжект**](/windows/win32/api/dwrite/nn-dwrite-idwriteinlineobject) . Чтобы использовать встроенные объекты, необходимо реализовать этот интерфейс. Он обрабатывает рисунок встроенного объекта, а также предоставляет для модуля подготовки отчетов метрики и другие сведения.
+поддержка встроенных объектов в [DirectWrite](direct-write-portal.md) предоставляется интерфейсом [**идвритеинлинеобжект**](/windows/win32/api/dwrite/nn-dwrite-idwriteinlineobject) . Чтобы использовать встроенные объекты, необходимо реализовать этот интерфейс. Он обрабатывает рисунок встроенного объекта, а также предоставляет для модуля подготовки отчетов метрики и другие сведения.
 
 Создайте новый файл заголовка и объявите интерфейс с именем Инлинеимаже, производный от [**идвритеинлинеобжект**](/windows/win32/api/dwrite/nn-dwrite-idwriteinlineobject).
 
@@ -255,6 +255,6 @@ SafeRelease(&pInlineImage_);
 
 
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: Сообщение EM_FILELINEFROMCHAR (Коммктрл. h)
 description: Возвращает индекс строки, содержащей указанный индекс символа в многострочном элементе управления Edit, независимо от того, как линии отображаются на экране.
 ms.assetid: e8e9217b-3f0c-478d-b44d-2a51868dbc5a
 keywords:
-- Элементы управления Windows для EM_FILELINEFROMCHAR сообщений
+- элементы управления Windows сообщений EM_FILELINEFROMCHAR
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a083d7e12822eacfb1e29a7d4bfd2ea705f2d32
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c9d238117a9f2ba18ae838eec32d7dc2fa12ba0833f9cdee54ce2d1a2c998944
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915634"
 ---
 # <a name="em_filelinefromchar-message"></a>\_Сообщение ФИЛЕЛИНЕФРОМЧАР EM
 
@@ -47,19 +47,19 @@ ms.locfileid: "104491223"
 
 Возвращаемое значение — это номер строки (начинающийся с нуля) строки, содержащей индекс символа, заданный параметром *wParam*, независимо от того, как линии отображаются на экране.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 10, \[ только классические приложения 1809\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2019\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2019\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

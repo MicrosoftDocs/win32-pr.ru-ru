@@ -4,12 +4,12 @@ ms.assetid: c975c70d-4231-4a69-bec2-d51d6993fdd4
 title: Запись, сопоставление и сортировка EUDC и PUA символов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6c34264d956bb6a87407e249f68b2bc03fb2c99
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e7ab43eb54055b97fe1823ad99467a4cd0b12a0a5fb971d52d225631cfd37ffe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102084"
 ---
 # <a name="writing-mapping-and-sorting-eudc-and-pua-characters"></a>Запись, сопоставление и сортировка EUDC и PUA символов
 
@@ -25,7 +25,7 @@ ms.locfileid: "104263113"
 
 Приложения могут сравнивать строки DBCS, содержащие Еудкс, с помощью версии ANSI функции [CompareString](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw) . Функция фактически сопоставляет символы в Юникоде перед сравнением символьных значений. Приложения могут создать ключ сортировки для строки с помощью версии ANSI функции [**LCMapString завершилось ошибкой**](/windows/desktop/api/Winnls/nf-winnls-lcmapstringa) и \_ значения лкмап SORTKEY. Эта функция фактически сопоставляет символы в Юникоде. Все символы в PUA сортируются после всех остальных символов Юникода. Внутри области символы сортируются в числовом порядке. Если приложение пытается получить сведения о CTYPE для EUDC с помощью функции [жетстрингтипеа](/windows/desktop/api/Winnls/nf-winnls-getstringtypea) , функция получает **значение NULL** для каждого символа.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

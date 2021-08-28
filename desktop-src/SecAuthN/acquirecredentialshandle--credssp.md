@@ -4,12 +4,12 @@ ms.assetid: 3b73decf-75d4-4bc4-b7ca-5f16aaadff29
 title: Функция AcquireCredentialsHandle (CredSSP)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 0dbece18bc7a7de8ec35764c9879380e29292e92
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22ab5b4f9696e266e6d07b3085cafe10384e8b6b266c9e20672021fa04e97998
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105719536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101484"
 ---
 # <a name="acquirecredentialshandle-credssp-function"></a>Функция AcquireCredentialsHandle (CredSSP)
 
@@ -95,11 +95,11 @@ SECURITY_STATUS SEC_ENTRY AcquireCredentialsHandle(
 | **с \_ е \_ SECPKG \_ не \_ Найдено**   | Запрошенный пакет безопасности не существует.                           |
 | **с \_ е \_ неизвестные \_ учетные данные** | Учетные данные, предоставленные пакету, не распознаны.             |
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **AcquireCredentialsHandle (CredSSP)** возвращает маркер учетных данных участника, например пользователя или клиента, используемых конкретным пакетом безопасности. Функция может возвращать маркер либо ранее существовавшие учетные данные, либо вновь созданные учетные данные и возвращать их. Этот маркер можно использовать при последующих вызовах функций [**AcceptSecurityContext (CredSSP)**](acceptsecuritycontext--credssp.md) и [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md) .
 
-В общем случае **AcquireCredentialsHandle (CredSSP)** не предоставляет учетные данные других пользователей, выполнивших вход на тот же компьютер. Тем не менее, вызывающая сторона с правами SE с \_ \_ именем TCB может получить учетные данные существующего сеанса входа, указав [*идентификатор входа*](../secgloss/l-gly.md#_security_logon_identifier_gly) (LUID) этого сеанса. [](../secgloss/p-gly.md#_security_privilege_gly) Обычно это используется модулями режима ядра, которые должны действовать от имени вошедшего в систему пользователя.
+В общем случае **AcquireCredentialsHandle (CredSSP)** не предоставляет учетные данные других пользователей, выполнивших вход на тот же компьютер. однако вызывающая сторона с SE \_ \_ [*привилегией*](../secgloss/p-gly.md#_security_privilege_gly) имени TCB может получить учетные данные существующего сеанса входа, указав [*идентификатор входа*](../secgloss/l-gly.md#_security_logon_identifier_gly) (LUID) этого сеанса. Обычно это используется модулями режима ядра, которые должны действовать от имени вошедшего в систему пользователя.
 
 Пакет может вызвать функцию в *пжеткэйфн* , предоставляемую транспортом времени выполнения RPC. Если транспорт не поддерживает понятие обратного вызова для получения учетных данных, этот параметр должен иметь **значение NULL**.
 
@@ -110,18 +110,18 @@ SECURITY_STATUS SEC_ENTRY AcquireCredentialsHandle(
 
 По завершении использования возвращенных учетных данных освободите память, используемую учетными данными, вызвав функцию [**фрикредентиалшандле**](/windows/win32/api/sspi/nf-sspi-freecredentialshandle) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |--------------------------|----------------------------------------------------------------------------------|
-| Минимальная версия клиента | Только для \[ классических приложений Windows Vista\]                                              |
-| Минимальная версия сервера | \[Только для настольных приложений Windows Server 2008\]                                        |
-| Header                   | SSPI. h (включая Security. h)                                                      |
+| Минимальная версия клиента | Windows \[Только классические приложения Vista\]                                              |
+| Минимальная версия сервера | Windows Только для \[ настольных приложений сервера 2008\]                                        |
+| Заголовок                   | SSPI. h (включая Security. h)                                                      |
 | Библиотека                  | Secur32. lib                                                                      |
 | DLL                      | Secur32.dll                                                                      |
 | Имя в кодировке Юникод и ANSI   | **Аккуирекредентиалшандлев** (Юникод) и **аккуирекредентиалшандлеа** (ANSI) |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Функции SSPI](authentication-functions.md#sspi-functions)
 - [**AcceptSecurityContext (CredSSP)**](acceptsecuritycontext--credssp.md)

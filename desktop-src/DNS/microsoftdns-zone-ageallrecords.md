@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 81c70a1435f96091070b2aee4ed7f079e5a6529a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ed441bcc14ff3bbd32ac4fd46f3aa86f931f9c6887c1a3c1fc48abe89e778440
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119344014"
 ---
 # <a name="ageallrecords-method-of-the-microsoftdns_zone-class"></a>Метод Ажеаллрекордс \_ класса зоны микрософтднс
 
@@ -61,7 +61,7 @@ uint32 AgeAllRecords(
 
 Ошибка \_ указывает, что устаревание успешно завершено. Любое другое значение является кодом ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если значение *nodeName* не указано, все записи будут подвергаться старению и очистке.
 
@@ -69,7 +69,7 @@ uint32 AgeAllRecords(
 
 Если задан параметр *nodeName* и для *апплитосубтри* задано значение 1, то все записи поддерева, начинающиеся с *nodeName* , будут подвергаться старению и очистке. В качестве метки времени задано текущее время для всех записей, не являющихся записями NS и не являющихся SOA, с именами владельцев, определяемыми входными параметрами.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

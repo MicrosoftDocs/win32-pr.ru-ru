@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 12/16/2020
-ms.openlocfilehash: d4888c7e468e0522240d8ef922563ab28eb33e77
-ms.sourcegitcommit: 04e801237156e90b48111d60bddf437f87f5cdfe
+ms.openlocfilehash: a46cd3daf8cc4270473433bb0c4c20dee0616dba3619b056d33136e0d4dd8f5e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "105719220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033634"
 ---
 # <a name="imsrdpcameraredirconfigcollectionbysymboliclink-property"></a>Имсрдпкамераредирконфигколлектион::. Бисимболиклинк, свойство
 
@@ -43,7 +43,7 @@ HRESULT get_BySymbolicLink(
 
 Объект [имсрдпкамераредирконфиг](imsrdpcameraredirconfig.md) , соответствующий указанной символической ссылке.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------|
@@ -52,7 +52,7 @@ HRESULT get_BySymbolicLink(
 | DLL                  | MsTscAx.dll     |
 | IID                      | IID \_ имсрдпкамераредирконфигколлектион определен как AE45252B-aaab-4504-B681-649D6073A37A          |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

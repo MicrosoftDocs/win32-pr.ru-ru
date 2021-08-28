@@ -3,7 +3,7 @@ title: Код уведомления NM_HOVER (Коммктрл. h)
 description: Посылается элементом управления при наведении указателя мыши на элемент. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 0eef3e88-c1f0-4f9c-9ccf-580d8e464157
 keywords:
-- NM_HOVER кода уведомления элементы управления Windows
+- NM_HOVER кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 69344b1aae78ebee99b86c78f4442df20f66187a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c1f5d1332c54328fba1b09ecf4efd48011edbe9a81139f05ad375fb6c8b070de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088704"
 ---
 # <a name="nm_hover-notification-code"></a>\_Код уведомления о наведении в NM
 
@@ -49,15 +49,15 @@ NM_HOVER
 
 Если не указано иное, возвращается нуль, чтобы разрешить элементу управления обрабатываться в обычном режиме, или ненулевой, чтобы предотвратить обработку наведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

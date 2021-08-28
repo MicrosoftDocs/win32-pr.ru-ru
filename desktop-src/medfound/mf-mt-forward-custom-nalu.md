@@ -4,12 +4,12 @@ ms.assetid: 2A1D8629-EB66-4F72-9AD7-93123D941BB0
 title: Атрибут MF_MT_FORWARD_CUSTOM_NALU (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 93a318523f52ab7d65450c4c2f35b7bfbf63d5f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42275663efa7279dde69a02d8b699d5f5b40d94451ba0c84428673552fc9c74c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104546623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119345744"
 ---
 # <a name="mf_mt_forward_custom_nalu-attribute"></a>MF \_ \_ \_ настраиваемый \_ атрибут налу
 
@@ -19,7 +19,7 @@ ms.locfileid: "104546623"
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если декодер анализирует налу, он не будет перенаправлен.
 
@@ -29,9 +29,9 @@ ms.locfileid: "104546623"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только для настольных приложений Windows 10 версии 1709\]<br/>                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2016\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 10, только для \[ настольных приложений версии 1709\]<br/>                          |
+| Минимальная версия сервера<br/> | Windows Server 2016 \[ только классические приложения\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 

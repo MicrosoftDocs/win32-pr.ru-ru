@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 723a729b87dc26849dbd1f84038805c5e47a0ea4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7ae6e1b666f6b83915595f9fb138cc6ba2d81a434bbedd9871f27ba8fd6c6bbd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104330496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026732"
 ---
 # <a name="channel-binding"></a>привязка каналов
 
@@ -23,9 +23,9 @@ ms.locfileid: "104330496"
 -   [**\_ \_ Описание безопасности WS**](/windows/desktop/api/WebServices/ns-webservices-ws_security_description), которое указывает, как защитить канал.
 -   Задает [**\_ \_ Свойства канала WS**](/windows/desktop/api/WebServices/ns-webservices-ws_channel_property), которые указывают дополнительные необязательные параметры (см. [**также \_ \_ \_ идентификатор свойства канала WS**](/windows/desktop/api/WebServices/ne-webservices-ws_channel_property_id)).
 
- 
+ 
 
- 
+ 
 
 
 

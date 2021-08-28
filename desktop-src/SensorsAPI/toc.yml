@@ -4,7 +4,7 @@
     - name: Приступая к работе
       href: getting-started.md
       items:
-        - name: Обзор платформы датчиков и расположения Windows
+        - name: обзор платформы датчиков и расположения Windows
           href: introduction-to-the-sensor-and-location-platform-in-windows.md
         - name: Конфиденциальность и безопасность на платформе датчиков и расположений
           href: privacy-and-security-in-the-sensor-and-location-platform.md
@@ -79,7 +79,7 @@
             - name: илогикалсенсорманажер
               href: /previous-versions/windows/desktop/legacy/dd318934(v=vs.85)
               items:
-                - name: Метод Connect
+                - name: Подключение Method
                   href: /previous-versions/windows/desktop/legacy/dd374029(v=vs.85)
                 - name: Метод Disconnect
                   href: /previous-versions/windows/desktop/legacy/dd374030(v=vs.85)

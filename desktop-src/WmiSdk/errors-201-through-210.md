@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Ошибки с 201 по 210
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cba508de9d88ea01a7e173d687331560f5e26e6addaca50d1745df9cab869e10
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f941a9d27044973fed7cfc5cda018af527737ab2
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119050902"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885018"
 ---
 # <a name="errors-201-through-210"></a>Ошибки с 201 по 210
 
@@ -40,7 +40,7 @@ ms.locfileid: "119050902"
 
 <dl> <dt>
 
-<span id="_201__Fatal_____fileName___line____Syntax_Error_in_the_SYNTAX_clause__Last_token_read_is__token__"></span><span id="_201__fatal_____filename___line____syntax_error_in_the_syntax_clause__last_token_read_is__token__"></span><span id="_201__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_SYNTAX_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<201, Неустранимая>: " <fileName> : <line \#>: синтаксическая ошибка в ПРЕДЛОЖЕНии синтаксиса, последняя считанная лексема — <token> "**
+<span id="_201__Fatal_____fileName___line____Syntax_Error_in_the_SYNTAX_clause__Last_token_read_is__token__"></span><span id="_201__fatal_____filename___line____syntax_error_in_the_syntax_clause__last_token_read_is__token__"></span><span id="_201__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_SYNTAX_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<201, Неустранимая>: " &lt; имя_файла &gt; : <строка \#>: синтаксическая ошибка в предложении синтаксиса, последний токен Read является &lt; токеном &gt; "**
 </dt> <dd>
 
 Ошибка синтаксиса модуля, вызов макроса **типа объекта** . Ошибка в предложении СИНТАКСИСа определения типа объекта MIB.
@@ -51,7 +51,7 @@ ms.locfileid: "119050902"
 
 <dl> <dt>
 
-<span id="_202__Fatal_____fileName___line____Syntax_Error_in_the_ACCESS_clause__Last_token_read_is__token__"></span><span id="_202__fatal_____filename___line____syntax_error_in_the_access_clause__last_token_read_is__token__"></span><span id="_202__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_ACCESS_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<202, Неустранимая>: " <fileName> : <line \#>: синтаксическая ошибка в предложении доступа, последняя считанная лексема — <token> "**
+<span id="_202__Fatal_____fileName___line____Syntax_Error_in_the_ACCESS_clause__Last_token_read_is__token__"></span><span id="_202__fatal_____filename___line____syntax_error_in_the_access_clause__last_token_read_is__token__"></span><span id="_202__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_ACCESS_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<202, Неустранимая>: " &lt; имя_файла &gt; : <строка \#>: синтаксическая ошибка в предложении доступа, последний токен Read является &lt; токеном &gt; "**
 </dt> <dd>
 
 Ошибка синтаксиса модуля, вызов макроса **типа объекта** . Ошибка в предложении доступа определения типа объекта MIB.
@@ -62,7 +62,7 @@ ms.locfileid: "119050902"
 
 <dl> <dt>
 
-<span id="_203__Fatal_____fileName___line____Syntax_Error_in_the_STATUS_clause__Last_token_read_is__token__"></span><span id="_203__fatal_____filename___line____syntax_error_in_the_status_clause__last_token_read_is__token__"></span><span id="_203__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_STATUS_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<203, Неустранимая>: " <fileName> : <line \#>: синтаксическая ошибка в предложении status, последняя считанная лексема — <token> "**
+<span id="_203__Fatal_____fileName___line____Syntax_Error_in_the_STATUS_clause__Last_token_read_is__token__"></span><span id="_203__fatal_____filename___line____syntax_error_in_the_status_clause__last_token_read_is__token__"></span><span id="_203__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_STATUS_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<203, Неустранимая>: " &lt; имя_файла &gt; : <строка \#>: синтаксическая ошибка в предложении status, последний токен Read является &lt; токеном &gt; "**
 </dt> <dd>
 
 Ошибка синтаксиса модуля, вызов макроса **типа объекта** . Ошибка в предложении STATUS определения типа объекта MIB.
@@ -73,7 +73,7 @@ ms.locfileid: "119050902"
 
 <dl> <dt>
 
-<span id="_204__Fatal_____fileName___line____Syntax_Error_in_the_DESCRIPTION_clause__Last_token_read_is__token__"></span><span id="_204__fatal_____filename___line____syntax_error_in_the_description_clause__last_token_read_is__token__"></span><span id="_204__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_DESCRIPTION_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<204, Неустранимая>: " <fileName> : <line \#>: синтаксическая ошибка в предложении Description, последняя считанная лексема — <token> "**
+<span id="_204__Fatal_____fileName___line____Syntax_Error_in_the_DESCRIPTION_clause__Last_token_read_is__token__"></span><span id="_204__fatal_____filename___line____syntax_error_in_the_description_clause__last_token_read_is__token__"></span><span id="_204__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_DESCRIPTION_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<204, Неустранимая>: " &lt; имя_файла &gt; : <строка \#>: синтаксическая ошибка в предложении Description, последний токен Read является &lt; токеном &gt; "**
 </dt> <dd>
 
 Ошибка синтаксиса модуля, **тип объекта** или вызов макроса **типа ловушки** . Ошибка в предложении DESCRIPTION для типа объекта MIB или определения типа ЛОВУШКи.
@@ -84,7 +84,7 @@ ms.locfileid: "119050902"
 
 <dl> <dt>
 
-<span id="_205__Fatal_____fileName___line____Syntax_Error_in_the_REFERENCE_clause__Last_token_read_is__token__"></span><span id="_205__fatal_____filename___line____syntax_error_in_the_reference_clause__last_token_read_is__token__"></span><span id="_205__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_REFERENCE_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<205, Неустранимая>: " <fileName> : <Line \#>: синтаксическая ошибка в предложении Reference, последняя считанная лексема — <token>**"
+<span id="_205__Fatal_____fileName___line____Syntax_Error_in_the_REFERENCE_clause__Last_token_read_is__token__"></span><span id="_205__fatal_____filename___line____syntax_error_in_the_reference_clause__last_token_read_is__token__"></span><span id="_205__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_REFERENCE_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<205, Неустранимая>: " &lt; имя_файла &gt; : <строка \#>: синтаксическая ошибка в предложении Reference, последний токен Read является &lt; токеном &gt;**"
 </dt> <dd>
 
 Ошибка синтаксиса модуля, **тип объекта** или вызов макроса **типа ловушки** . Ошибка в предложении REFERENCE определения типа объекта MIB или типа ЛОВУШКи.
@@ -95,7 +95,7 @@ ms.locfileid: "119050902"
 
 <dl> <dt>
 
-<span id="_206__Fatal_____fileName___line____Syntax_Error_in_the_INDEX_clause__Last_token_read_is__token__"></span><span id="_206__fatal_____filename___line____syntax_error_in_the_index_clause__last_token_read_is__token__"></span><span id="_206__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_INDEX_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<206, Неустранимая>: " <fileName> : <line \#>: синтаксическая ошибка в предложении index, последняя считанная лексема — <token> "**
+<span id="_206__Fatal_____fileName___line____Syntax_Error_in_the_INDEX_clause__Last_token_read_is__token__"></span><span id="_206__fatal_____filename___line____syntax_error_in_the_index_clause__last_token_read_is__token__"></span><span id="_206__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_INDEX_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<206, Неустранимая>: " &lt; имя_файла &gt; : <строка \#>: синтаксическая ошибка в предложении index, последний токен Read является &lt; токеном &gt; "**
 </dt> <dd>
 
 Ошибка синтаксиса модуля, вызов макроса **типа объекта** . Ошибка в предложении INDEX определения типа объекта MIB.
@@ -106,7 +106,7 @@ ms.locfileid: "119050902"
 
 <dl> <dt>
 
-<span id="_207__Fatal_____fileName___line____Syntax_Error_in_the_DEFVAL_clause__Last_token_read_is__token__"></span><span id="_207__fatal_____filename___line____syntax_error_in_the_defval_clause__last_token_read_is__token__"></span><span id="_207__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_DEFVAL_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<207, Неустранимая>: " <fileName> : <line \#>: синтаксическая ошибка в предложении Дефвал, последняя считанная лексема — <token> "**
+<span id="_207__Fatal_____fileName___line____Syntax_Error_in_the_DEFVAL_clause__Last_token_read_is__token__"></span><span id="_207__fatal_____filename___line____syntax_error_in_the_defval_clause__last_token_read_is__token__"></span><span id="_207__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_DEFVAL_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<207, Неустранимая>: " &lt; имя_файла &gt; : <строка \#>: синтаксическая ошибка в предложении дефвал, последний токен Read является &lt; токеном &gt; "**
 </dt> <dd>
 
 Ошибка синтаксиса модуля, вызов макроса **типа объекта** . Ошибка в предложении ДЕФВАЛ определения типа объекта MIB.
@@ -117,7 +117,7 @@ ms.locfileid: "119050902"
 
 <dl> <dt>
 
-<span id="_208__Information____Skipping_OBJECT-TYPE__identifier__"></span><span id="_208__information____skipping_object-type__identifier__"></span><span id="_208__INFORMATION____SKIPPING_OBJECT-TYPE__IDENTIFIER__"></span>**<208, информация>: "пропуск объекта типа <identifier> "**
+<span id="_208__Information____Skipping_OBJECT-TYPE__identifier__"></span><span id="_208__information____skipping_object-type__identifier__"></span><span id="_208__INFORMATION____SKIPPING_OBJECT-TYPE__IDENTIFIER__"></span>**<208, информация>: "пропуск идентификатора типа объекта &lt; &gt; "**
 </dt> <dd>
 
 При возникновении ошибок 201-207 это сообщение информирует о том, что вызов **типа объекта** пропускается.
@@ -128,7 +128,7 @@ ms.locfileid: "119050902"
 
 <dl> <dt>
 
-<span id="_209__Fatal____fileName___line____Syntax_Error_in_the_ENTERPRISE_clause._Last_token_read_is__token__"></span><span id="_209__fatal____filename___line____syntax_error_in_the_enterprise_clause._last_token_read_is__token__"></span><span id="_209__FATAL____FILENAME___LINE____SYNTAX_ERROR_IN_THE_ENTERPRISE_CLAUSE._LAST_TOKEN_READ_IS__TOKEN__"></span>**<209, Неустранимая>: " <fileName> : <line \#>: синтаксическая ошибка в предложении Enterprise. Последний прочитанный токен — <token> "**
+<span id="_209__Fatal____fileName___line____Syntax_Error_in_the_ENTERPRISE_clause._Last_token_read_is__token__"></span><span id="_209__fatal____filename___line____syntax_error_in_the_enterprise_clause._last_token_read_is__token__"></span><span id="_209__FATAL____FILENAME___LINE____SYNTAX_ERROR_IN_THE_ENTERPRISE_CLAUSE._LAST_TOKEN_READ_IS__TOKEN__"></span>**<209, Неустранимая>: " &lt; имя_файла &gt; : <строка \#>: синтаксическая ошибка в предложении Enterprise. Последний прочитанный токен является &lt; токеном &gt; "**
 </dt> <dd>
 
 Ошибка синтаксиса модуля, вызов макроса **типа ловушки** . Синтаксическая ошибка в предложении ENTERPRISE определения типа ЛОВУШКи MIB.
@@ -139,7 +139,7 @@ ms.locfileid: "119050902"
 
 <dl> <dt>
 
-<span id="_210__Fatal____fileName___line____Syntax_Error_in_the_VARIABLES_clause._Last_token_read_is__token__"></span><span id="_210__fatal____filename___line____syntax_error_in_the_variables_clause._last_token_read_is__token__"></span><span id="_210__FATAL____FILENAME___LINE____SYNTAX_ERROR_IN_THE_VARIABLES_CLAUSE._LAST_TOKEN_READ_IS__TOKEN__"></span>**<210, Неустранимая>: " <fileName> : <line \#>: синтаксическая ошибка в ПРЕДЛОЖЕНии Variables. Последний прочитанный токен — <token> "**
+<span id="_210__Fatal____fileName___line____Syntax_Error_in_the_VARIABLES_clause._Last_token_read_is__token__"></span><span id="_210__fatal____filename___line____syntax_error_in_the_variables_clause._last_token_read_is__token__"></span><span id="_210__FATAL____FILENAME___LINE____SYNTAX_ERROR_IN_THE_VARIABLES_CLAUSE._LAST_TOKEN_READ_IS__TOKEN__"></span>**<210, Неустранимая>: " &lt; имя_файла &gt; : <Line \#>: синтаксическая ошибка в предложении Variables. Последний прочитанный токен является &lt; токеном &gt; "**
 </dt> <dd>
 
 Ошибка синтаксиса модуля, вызов макроса **типа ловушки** . Синтаксическая ошибка в предложении VARIABLEs определения типа ЛОВУШКи MIB.

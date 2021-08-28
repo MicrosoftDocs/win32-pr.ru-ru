@@ -4,27 +4,27 @@ description: В этом разделе показано, как создать 
 ms.assetid: A6723D4E-B8F6-4365-8FCD-99B73D2C0470
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 498005efcdfbbf001283551bbeea4906ebc854cf
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 081db39f07e8d80fcbb5a437bc8cbe83473b4299282c8b2437d95acda02b2db9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103891264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119577046"
 ---
 # <a name="how-to-create-a-hot-key-control"></a>Создание элемента управления "горячий ключ"
 
 В этом разделе показано, как создать элемент управления горячей клавиши. Элемент управления "горячий ключ" создается с помощью функции [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) , которая указывает \_ класс окна класса горячих клавиш.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -95,7 +95,7 @@ HWND WINAPI InitializeHotkey(HWND hwndDlg)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

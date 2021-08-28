@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c5a2d029727f4ff4a9eee353230e0843a39f082
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: dfeb867f979a0f5f2da838cdd225c91da2b67913c18cdda89c5d40a3f8ed6b88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034914"
 ---
 # <a name="lighting-state-variables"></a>Переменные состояния освещения
 
@@ -235,7 +235,7 @@ ms.locfileid: "107909852"
 |------------------|------------------------------------|
 | Описание.     | Константный коэффициент затухания        |
 | Группа атрибутов: | освещение;                           |
-| Начальное значение:   | 1,0                                |
+| Начальное значение:   | 1.0                                |
 | Команда Get:     | [**глжетлигхтфв**](glgetlight.md) |
 
 

@@ -1,5 +1,5 @@
 ---
-title: Канал (веб-службы Windows)
+title: канал (Windows веб-служб)
 description: Каналы инкапсулируют контекст связи между двумя или более сторонами и используются для отправки и получения сообщений.
 ms.assetid: 5a04580d-c89f-4505-a4b7-0724ffb788fd
 keywords:
@@ -8,14 +8,14 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b93819057f2de4ecf82b2def9cdc4fe14dd1b0ee
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 0ff11601f372416527f1d521f8fb9880c98821f9421b633f9eed059cc5b4f672
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103988123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026652"
 ---
-# <a name="channel-windows-web-services"></a>Канал (веб-службы Windows)
+# <a name="channel-windows-web-services"></a>канал (Windows веб-служб)
 
 Каналы инкапсулируют контекст связи между двумя или более сторонами и используются для отправки и получения сообщений.
 

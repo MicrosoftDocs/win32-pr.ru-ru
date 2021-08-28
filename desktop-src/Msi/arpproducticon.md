@@ -1,27 +1,27 @@
 ---
-description: Свойство АРППРОДУКТИКОН указывает внешний ключ для таблицы значков, который является основным значком для пакета установщик Windows.
+description: свойство арппродуктикон указывает внешний ключ для таблицы значков, который является основным значком для пакета установщик Windows.
 ms.assetid: 4f495029-232c-4aa2-aecf-b400de2e8c4c
 title: АРППРОДУКТИКОН, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f816cfa96003f17c96f9daaef0be79a43f20312
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 50ad34f6192e70617693f780a39c9ce2a024fee0d44e110bbaa92f4249b5dc72
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668649"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119581804"
 ---
 # <a name="arpproducticon-property"></a>АРППРОДУКТИКОН, свойство
 
-Свойство **арппродуктикон** указывает внешний ключ для [таблицы значков](icon-table.md), который является основным значком для пакета установщик Windows.
+свойство **арппродуктикон** указывает внешний ключ для [таблицы значков](icon-table.md), который является основным значком для пакета установщик Windows.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

@@ -1,21 +1,21 @@
 ---
 title: Сведения о службе удаленного доступа
-description: Служба удаленного доступа (RAS) предоставляет возможности удаленного доступа к клиентским приложениям на компьютерах под управлением Windows.
+description: Служба удаленного доступа (RAS) предоставляет возможности удаленного доступа к клиентским приложениям на компьютерах с Windows.
 ms.assetid: 5016fa0b-72eb-484e-b8d7-af9de2e25689
 keywords:
 - RAS службы удаленного доступа, описание
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a86b173f4ff9f23fffa2ff532e4f67a0ff5a7402
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0263e5168bf1aac990f94850f26b7be7abd71c4730bea691d18b11c00373f48e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105672077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030844"
 ---
 # <a name="about-remote-access-service"></a>Сведения о службе удаленного доступа
 
-Служба удаленного доступа (RAS) предоставляет возможности удаленного доступа к клиентским приложениям на компьютерах под управлением Windows.
+Служба удаленного доступа (RAS) предоставляет возможности удаленного доступа к клиентским приложениям на компьютерах с Windows.
 
 Приложения RAS могут выполнять следующие задачи:
 
@@ -31,15 +31,15 @@ Windows NT 4,0 также обеспечивает поддержку админ
 
 -   [Общие диалоговые окна службы RAS](ras-common-dialog-boxes.md)
 -   [Операции подключения RAS](ras-connection-operations.md)
--   [Телефонные книги RAS](ras-phone-books.md)
+-   [книги по Телефон RAS](ras-phone-books.md)
 -   [Автонабор номера RAS](ras-autodial.md)
 -   [Сведения о конфигурации RAS и подключении](ras-configuration-and-connection-information.md)
 -   [Администрирование сервера удаленного доступа](ras-server-administration.md)
 -   [Поддержка узла безопасности RAS](ras-security-host-support.md)
 
- 
+ 
 
- 
+ 
 
 
 

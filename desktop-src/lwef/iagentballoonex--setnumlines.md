@@ -4,16 +4,16 @@ description: Иажентбаллунекс Сетнумлинес
 ms.assetid: 350fd273-a941-4454-a309-045d19ed8f59
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d45c012d0193a0bd21ba203418920b87b2fac81b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1d3951cd4a8593d5e043e1571cdf24e14fdd9d93aef690c057860c2889022aa8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104486952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848724"
 ---
 # <a name="iagentballoonexsetnumlines"></a>Иажентбаллунекс:: Сетнумлинес
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT SetNumLines(
@@ -41,14 +41,14 @@ HRESULT SetNumLines(
 
 Значение по умолчанию основано на параметрах, когда символ компилируется с помощью редактора символов Microsoft Agent.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Иажентбаллун:: жетнумлинес**](iagentballoon--getnumlines.md), [**Иажентбаллунекс:: Style**](iagentballoonex--getstyle.md), [**иажентбаллунекс:: SetStyle**](iagentballoonex--setstyle.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

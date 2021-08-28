@@ -4,12 +4,12 @@ ms.assetid: 1fc1901e-8c4d-4ef1-8c38-52d46ce10a48
 title: ХРЕКОГНИЗЕР (краткий обзор. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e78086ff86453ef8b0157bb3b274f3c47be0dc0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 192890991dcb7e8b0a0086bbca68a6ccbc2af790d9c7d78e76fe963d268c8240
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104343745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119092454"
 ---
 # <a name="hrecognizer-handle"></a>ХРЕКОГНИЗЕР, обработчик
 
@@ -22,7 +22,7 @@ typedef HANDLE HRECOGNIZER;
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Следующие функции используют **хрекогнизер**.
 
@@ -51,7 +51,7 @@ typedef HANDLE HRECOGNIZER;
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                        |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                        |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                            |
 | Header<br/>                   | <dl> <dt>Напомню. h</dt> </dl> |
 

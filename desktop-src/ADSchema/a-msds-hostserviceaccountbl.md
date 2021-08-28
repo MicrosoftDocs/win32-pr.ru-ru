@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 244df74fbd4b0008e562f4c75f2af8e7df886ca9
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 258c7d94ba016528ce141d2bd292eba0c832976de6f03bb2e367d6d458fd123f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118426523"
 ---
 # <a name="ms-ds-host-service-account-bl-attribute"></a>Атрибут ms-DS-Host-Service-Account-BL
 
@@ -43,7 +43,7 @@ ms.locfileid: "105655448"
 ## <a name="implementations"></a>Варианты реализации решения
 
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## <a name="windows-server-2008-r2"></a>Windows Server 2008 R2
 
@@ -53,10 +53,10 @@ ms.locfileid: "105655448"
 |------------------------|---------------------------------|
 | Идентификатор ссылки                | 2167                            |
 | MAPI-Id                | \-                              |
-| System-Only            | Неверно                           |
-| Является однозначным       | Неверно                           |
-| Индексируется             | Неверно                           |
-| В глобальном каталоге      | Неверно                           |
+| System-Only            | Нет                           |
+| Является однозначным       | Нет                           |
+| Индексируется             | Нет                           |
+| В глобальном каталоге      | Нет                           |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -74,10 +74,10 @@ ms.locfileid: "105655448"
 |------------------------|---------------------------------|
 | Идентификатор ссылки                | 2167                            |
 | MAPI-Id                | \-                              |
-| System-Only            | Неверно                           |
-| Является однозначным       | Неверно                           |
-| Индексируется             | Неверно                           |
-| В глобальном каталоге      | Неверно                           |
+| System-Only            | Нет                           |
+| Является однозначным       | Нет                           |
+| Индексируется             | Нет                           |
+| В глобальном каталоге      | Нет                           |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
