@@ -1,25 +1,25 @@
 ---
 description: В этом разделе описывается настройка среды для использования библиотек COM платформы Tablet PC в C++.
 ms.assetid: c0d7f703-d4aa-4c26-ae81-a4c888383c1e
-title: Библиотека COM и элементы управления ActiveX
+title: библиотека COM и элементы управления ActiveX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b9304880380ea95bc698c52d200931b77f64480
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78bc76f9caa2bcb72fe26ed2e01e251c977f87ce01c12794aad78608d2f5887f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009094"
 ---
-# <a name="com-library-and-activex-controls"></a>Библиотека COM и элементы управления ActiveX
+# <a name="com-library-and-activex-controls"></a>библиотека COM и элементы управления ActiveX
 
 В этом разделе описывается настройка среды для использования библиотек COM платформы Tablet PC в C++.
 
 ## <a name="microsoft-visual-c"></a>Microsoft Visual C++
 
-Чтобы создать приложения для планшетных ПК в Visual C++, необходимо обновить системные переменные среды, настроить параметры каталога для Visual Studio и получить доступ к интерфейсам планшетных ПК в проекте.
+чтобы создать приложения для планшетных пк в Visual C++, необходимо обновить системные переменные среды, настроить параметры каталога для Visual Studio и получить доступ к интерфейсам планшетных пк в проекте.
 
-Чтобы обновить переменные среды, следуйте инструкциям, приведенным в Windows SDK для добавления переменных среды в Visual Studio.
+чтобы обновить переменные среды, следуйте инструкциям, приведенным в Windows SDK для добавления переменных среды в Visual Studio.
 
 ### <a name="accessing-the-tablet-pc-interfaces"></a>Доступ к интерфейсам планшетных ПК
 
@@ -105,7 +105,7 @@ ms.locfileid: "105701348"
 
 
 > [!Note]  
-> Интерфейсы API Пенинпутпанел были заменены в Windows Vista новыми интерфейсами панели ввода текста.
+> интерфейсы api пенинпутпанел были заменены в Windows Vista новыми интерфейсами панели ввода текста.
 
  
 

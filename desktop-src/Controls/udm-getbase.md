@@ -3,7 +3,7 @@ title: Сообщение UDM_GETBASE (Коммктрл. h)
 description: Извлекает текущий базовый основание системы счисления (то есть базовый 10 или 16) для элемента управления "вверх/вниз".
 ms.assetid: df755b11-9a11-44f1-bdef-1bb7244c7979
 keywords:
-- Элементы управления Windows для UDM_GETBASE сообщений
+- элементы управления Windows сообщений UDM_GETBASE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86f5ac7cb5cff9b4b0325c03c86d8a69c5e5529d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8b8a42c9983b2685179e93ef2a289ff9d358669e5a8564abbbe99bd64811ff71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059814"
 ---
 # <a name="udm_getbase-message"></a>\_Сообщение POLYBASE UDM
 
@@ -39,15 +39,15 @@ ms.locfileid: "103988320"
 
 Возвращаемое значение является текущим базовым значением.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

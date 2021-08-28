@@ -57,12 +57,12 @@ api_type:
 - HeaderDef
 api_location:
 - wiadef.h
-ms.openlocfilehash: 3202a4ae6bec7808d2d71fe890f248e6b4d3c397
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 008a806ccaebd595fe7a67ff8f98e6a9385b0bf2
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122624770"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882704"
 ---
 # <a name="scanner-wia-item-property-constants"></a>Константы свойства элемента сканера WIA
 
@@ -80,7 +80,7 @@ ms.locfileid: "122624770"
 <thead>
 <tr class="header">
 <th >Константа/значение</th>
-<th >Описание:</th>
+<th >Описание</th>
 </tr>
 </thead>
 <tbody>
@@ -151,7 +151,7 @@ ms.locfileid: "122624770"
 <thead>
 <tr class="header">
 <th>Предназначенные флаги типа образа</th>
-<th>Описание:</th>
+<th>Описание</th>
 </tr>
 </thead>
 <tbody>
@@ -185,7 +185,7 @@ ms.locfileid: "122624770"
 <thead>
 <tr class="header">
 <th>Предполагаемый размер изображения/флаги качества</th>
-<th>Описание:</th>
+<th>Описание</th>
 </tr>
 </thead>
 <tbody>
@@ -261,7 +261,7 @@ ms.locfileid: "122624770"
 <thead>
 <tr class="header">
 <th>Флаги</th>
-<th>Описание:</th>
+<th>Описание</th>
 </tr>
 </thead>
 <tbody>
@@ -308,7 +308,7 @@ ms.locfileid: "122624770"
 <p>Включает спецификацию конкретного вложения для сканирования пленки при наличии более одного.</p>
 <p>Это свойство требуется для элементов WIA_CATEGORY_FILM, если имеется несколько элементов для сканирования на пленке. Если устройство поддерживает только один элемент фотопленки, это свойство является необязательным.</p>
 <p>Тип: <strong>VT_BSTR</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
-<p>Допустимые значения: BSTR должен иметь вид @ResourceBinary ,- <ResourceID> чтобы разрешить локализацию, так как эта строка будет предоставляться пользователю через пользовательский интерфейс сканирования пленки.</p></td>
+<p>Допустимые значения: BSTR должен иметь вид @ResourceBinary ,- &lt; ResourceId, &gt; чтобы разрешить локализацию, так как эта строка будет предоставляться пользователю через пользовательский интерфейс сканирования пленки.</p></td>
 </tr>
 <tr class="odd">
 <td ><span id="WIA_IPS_FILM_SCAN_MODE"></span><span id="wia_ips_film_scan_mode"></span><dl> <dt><strong>WIA_IPS_FILM_SCAN_MODE</strong></dt> <dt>сканнерпиктурефилмсканмоде</dt> </dl></td>

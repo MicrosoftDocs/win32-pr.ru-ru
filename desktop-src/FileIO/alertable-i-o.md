@@ -4,12 +4,12 @@ ms.assetid: d996f1cc-eeab-456b-818b-5307a79effd9
 title: Ввод-вывод с оповещением
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fb830dfadb97051c47b2472eb3e7a3c2d6a0bd0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b76df0a59726d6fb0eea0bd99ff960e9b18ba80f7c17bf0ae7e4338953895e1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119766244"
 ---
 # <a name="alertable-io"></a>Ввод-вывод с оповещением
 
@@ -47,7 +47,7 @@ ms.locfileid: "105683047"
 
 Поток, использующий обработанные операции ввода-вывода, обрабатывает асинхронные запросы ввода-вывода более эффективно, чем при простом ожидании установленного флага события в структуре [**OVERLAPPED**](/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) , а механизм с оповещением ввода-вывода менее сложен по сравнению с [портами завершения ввода-вывода](i-o-completion-ports.md) . Однако при этом операция ввода-вывода с оповещением возвращает результат запроса ввода-вывода только в поток, который инициировал его. Порты завершения ввода-вывода не имеют этого ограничения.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

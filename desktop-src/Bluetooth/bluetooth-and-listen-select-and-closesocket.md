@@ -1,6 +1,6 @@
 ---
 title: Bluetooth и прослушивание, выбор и функции closesocket
-description: Bluetooth использует функции прослушивания, выбора и функции closesocket без каких бы то ни было изменений в стандартном программировании Windows Sockets.
+description: Bluetooth использует функции listen, select и функции closesocket без каких бы то ни было изменений в стандартном программировании Windowsных сокетов.
 ms.assetid: b64440de-bc63-4e3b-bfd9-5cf783f36c23
 keywords:
 - Bluetooth
@@ -8,27 +8,27 @@ keywords:
 - прослушивание
 - select
 - Bluetooth и прослушивание
-- Bluetooth и прослушивать, выберите
+- Bluetooth и прослушивание выберите
 - Bluetooth и прослушивание, выбор и функции closesocket
 - прослушивание
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e442cfc0593ab5be297902487c7c3ccdf056b4e0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 01fa3fc1285a9035173da80cc7a9821535409b872b171f7822708c379ff01543
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104487913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004484"
 ---
 # <a name="bluetooth-and-listen-select-and-closesocket"></a>Bluetooth и прослушивание, выбор и функции closesocket
 
-Bluetooth использует функции [**прослушивания**](/windows/desktop/api/winsock2/nf-winsock2-listen), [**выбора**](/windows/desktop/api/winsock2/nf-winsock2-select)и [**функции closesocket**](/windows/desktop/api/winsock/nf-winsock-closesocket) без каких бы то ни было изменений в стандартном программировании Windows Sockets.
+Bluetooth использует функции [**listen**](/windows/desktop/api/winsock2/nf-winsock2-listen), [**select**](/windows/desktop/api/winsock2/nf-winsock2-select)и [**функции closesocket**](/windows/desktop/api/winsock/nf-winsock-closesocket) без каких бы то ни было изменений в стандартном программировании Windowsных сокетов.
 
-Как и в случае с сокетами Windows, функция [**функции closesocket**](/windows/desktop/api/winsock/nf-winsock-closesocket) освобождает ресурсы, связанные с сокетом.
+как и в случае с Windows сокетами, функция [**функции closesocket**](/windows/desktop/api/winsock/nf-winsock-closesocket) освобождает ресурсы, связанные с сокетом.
 
 При вызове функции [**Listen**](/windows/desktop/api/winsock2/nf-winsock2-listen) настоятельно рекомендуется использовать низкое значение для параметра *невыполненной работы* (обычно от 2 до 4), поскольку принимаются только несколько клиентских подключений. Это сокращает количество системных ресурсов, выделенных для использования сокетом прослушивания.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -44,6 +44,6 @@ Bluetooth использует функции [**прослушивания**](/
 [**метьте**](/windows/desktop/api/winsock2/nf-winsock2-select)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

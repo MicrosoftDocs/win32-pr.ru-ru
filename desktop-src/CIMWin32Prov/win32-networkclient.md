@@ -1,5 +1,5 @@
 ---
-description: '\_Класс WMI нетворкклиент для Win32 представляет сетевой клиент в системе Windows. Любая компьютерная система в сети с клиентской связью с системой является потомком (или членом) этого класса.'
+description: '\_класс WMI нетворкклиент для Win32 представляет сетевой клиент в Windowsной системе. Любая компьютерная система в сети с клиентской связью с системой является потомком (или членом) этого класса.'
 ms.assetid: f0cc2cef-be23-42f4-a592-2c292aa5085f
 ms.tgt_platform: multiple
 title: Класс Win32_NetworkClient
@@ -20,16 +20,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 54579073b3974a6c4954ef95b1da3fe2e9fd8348
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 14abd69af85118068681971299f26f9692b1d9ae6b7e18816e3bdba12cee890c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972624"
 ---
 # <a name="win32_networkclient-class"></a>\_Класс Win32 нетворкклиент
 
-[Класс WMI](../wmisdk/retrieving-a-class.md) **\_ нетворкклиент для Win32** представляет сетевой клиент в системе Windows. Любая компьютерная система в сети с клиентской связью с системой является потомком (или членом) этого класса.
+[класс WMI](../wmisdk/retrieving-a-class.md) **\_ нетворкклиент для Win32** представляет сетевой клиент в Windowsной системе. Любая компьютерная система в сети с клиентской связью с системой является потомком (или членом) этого класса.
 
 Следующий пример синтаксиса — упрощенный MOF-код, который включает все наследуемые свойства. Свойства и методы имеют алфавитный порядок, а не порядок MOF.
 
@@ -54,13 +54,13 @@ class Win32_NetworkClient : CIM_LogicalElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ нетворкклиент** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -126,13 +126,13 @@ class Win32_NetworkClient : CIM_LogicalElement
 Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| System \\ \\ CurrentControlSet \\ \\ Services \\ \\ LanmanWorkstation \\ \\ нетворкпровидер \| производственная")
 </dt> </dl>
 
-Имя производителя сетевого клиента, работающего в компьютерной системе под управлением Windows.
+Имя производителя сетевого клиента, работающего в компьютерной системе, на которой работает Windows.
 
 Пример: "Корпорация Майкрософт"
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -144,9 +144,9 @@ class Win32_NetworkClient : CIM_LogicalElement
 Квалификаторы: [**ключ**](../wmisdk/key-qualifier.md), [**Переопределение**](../wmisdk/standard-qualifiers.md) ("имя"), [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| System \\ \\ CurrentControlSet \\ \\ Services \\ \\ LanmanWorkstation \\ \\ нетворкпровидер \| Name")
 </dt> </dl>
 
-Сетевое имя сетевого клиента, работающего в компьютерной системе под управлением Windows.
+Сетевое имя сетевого клиента, работающего в компьютерной системе, на которой работает Windows.
 
-Пример: "сеть Microsoft Windows"
+пример: "Microsoft Windows Network"
 
 </dd> <dt>
 
@@ -258,11 +258,11 @@ class Win32_NetworkClient : CIM_LogicalElement
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ нетворкклиент** является производным от [**CIM \_ логикалелемент**](cim-logicalelement.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -276,7 +276,7 @@ class Win32_NetworkClient : CIM_LogicalElement
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

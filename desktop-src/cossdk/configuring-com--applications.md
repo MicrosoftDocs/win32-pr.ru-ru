@@ -4,12 +4,12 @@ ms.assetid: 50039b30-1c91-4e93-9f23-873accb651cf
 title: Настройка приложений COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16319baf7e34348751e9cafd0efcbd99906d0985
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 79d6c8caa8dc4ca949a71d9a6b56fd6eae95d415
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701180"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466001"
 ---
 # <a name="configuring-com-applications"></a>Настройка приложений COM+
 
@@ -21,15 +21,15 @@ ms.locfileid: "105701180"
 
 Элементы можно настроить на следующих уровнях в приложениях COM+:
 
--   [Параметры уровня приложения](#application-level-settings)
--   [Параметры уровня компонента (уровня класса)](#component-level-class-level-settings)
+-   [Параметры на уровне приложения](#application-level-settings)
+-   [уровень компонента (уровень класса) Параметры](#component-level-class-level-settings)
 -   [Настройка уровня интерфейса](#interface-level-setting)
 -   [Настройка уровня метода](#method-level-setting)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 Установка компонентов в приложение может повлиять на их настройку. Компоненты всегда следует устанавливать в приложения COM+ (в отличие от их импорта). При установке компонентов они будут полностью зарегистрированы вместе с интерфейсами и библиотеками типов в базе данных регистрации классов COM+ (Регдб), чтобы их можно было настроить.
 
-## <a name="application-level-settings"></a>Параметры Application-Level
+## <a name="application-level-settings"></a>Application-Level Параметры
 
 
 
@@ -57,73 +57,25 @@ ms.locfileid: "105701180"
 
  
 
-## <a name="component-level-class-level-settings"></a>Параметры Component-Level (уровня класса)
+## <a name="component-level-class-level-settings"></a>Component-Level (уровень класса) Параметры
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>attribute</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="configuring-transactions.md">Транзакции</a><br/></td>
-<td>Задает требования к автоматическим транзакциям отключены, не поддерживаются, поддерживаются, являются обязательными или требуют новых.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="setting-the-synchronization-attribute.md">Синхронизация</a><br/></td>
-<td>Задает требования к синхронизации отключены, не поддерживаются, поддерживаются, обязательны или требуют новых.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="enabling-jit-activation-for-a-component.md">JIT-активация</a><br/></td>
-<td>Включает JIT-активацию.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="configuring-a-component-to-be-pooled.md">Использование пулов объектов</a><br/></td>
-<td>Включает группировку объектов в пул. Параметры минимального и максимального размера пула и времени ожидания объекта можно настроить.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="specifying-an-object-constructor-string-for-a-component.md">Создание объекта</a><br/></td>
-<td>Включает параметризованную конструкцию объекта с административно заданной строкой конструктора. <br/>
-<blockquote>
-[!Note]<br />
-Строку конструктора не следует использовать для хранения конфиденциальных данных.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="enabling-access-checks-at-the-component-level.md">Проверки доступа на уровне компонентов</a><br/></td>
-<td>Включает или выключает проверку безопасности на основе ролей на уровне компонентов.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="assigning-roles-to-components--interfaces--or-methods.md">Декларативное назначение ролей</a><br/></td>
-<td>Разрешает явное назначение ролей компоненту.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="persistent-client-side-failures.md">Класс исключения очереди</a><br/></td>
-<td>Указывает класс исключений для обработки сбоев на стороне клиента.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="com--instrumentation-concepts.md">События и статистика инструментирования</a><br/></td>
-<td>Включает подробные отчеты о системных событиях и статистиках объектов.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="context-activation.md">Контекст активации</a><br/></td>
-<td>Включает принудительную активацию объекта в контексте вызывающего объекта или контексте по умолчанию.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="what-s-new-in-com--1-5.md">Создание частных компонентов</a><br/></td>
-<td>Помечает компонент как частный для приложения. Закрытый компонент могут видеть и активировать только другие компоненты в пределах одного приложения.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| attribute | Описание | 
+|-----------|-------------|
+| <a href="configuring-transactions.md">Транзакции</a><br /> | Задает требования к автоматическим транзакциям отключены, не поддерживаются, поддерживаются, являются обязательными или требуют новых.<br /> | 
+| <a href="setting-the-synchronization-attribute.md">Синхронизация</a><br /> | Задает требования к синхронизации отключены, не поддерживаются, поддерживаются, обязательны или требуют новых.<br /> | 
+| <a href="enabling-jit-activation-for-a-component.md">JIT-активация</a><br /> | Включает JIT-активацию.<br /> | 
+| <a href="configuring-a-component-to-be-pooled.md">Использование пулов объектов</a><br /> | Включает группировку объектов в пул. Параметры минимального и максимального размера пула и времени ожидания объекта можно настроить.<br /> | 
+| <a href="specifying-an-object-constructor-string-for-a-component.md">Создание объекта</a><br /> | Включает параметризованную конструкцию объекта с административно заданной строкой конструктора. <br /><blockquote>[!Note]<br />Строку конструктора не следует использовать для хранения конфиденциальных данных.</blockquote><br /> | 
+| <a href="enabling-access-checks-at-the-component-level.md">Проверки доступа на уровне компонентов</a><br /> | Включает или выключает проверку безопасности на основе ролей на уровне компонентов.<br /> | 
+| <a href="assigning-roles-to-components--interfaces--or-methods.md">Декларативное назначение ролей</a><br /> | Разрешает явное назначение ролей компоненту.<br /> | 
+| <a href="persistent-client-side-failures.md">Класс исключения очереди</a><br /> | Указывает класс исключений для обработки сбоев на стороне клиента.<br /> | 
+| <a href="com--instrumentation-concepts.md">События и статистика инструментирования</a><br /> | Включает подробные отчеты о системных событиях и статистиках объектов.<br /> | 
+| <a href="context-activation.md">Контекст активации</a><br /> | Включает принудительную активацию объекта в контексте вызывающего объекта или контексте по умолчанию.<br /> | 
+| <a href="what-s-new-in-com--1-5.md">Создание частных компонентов</a><br /> | Помечает компонент как частный для приложения. Закрытый компонент могут видеть и активировать только другие компоненты в пределах одного приложения.<br /> | 
+
 
 
 
@@ -155,7 +107,7 @@ ms.locfileid: "105701180"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

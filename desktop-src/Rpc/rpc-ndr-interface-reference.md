@@ -4,19 +4,19 @@ description: Отчет о недоставке Microsoft RPC в настоящ�
 ms.assetid: 2EBB2DD6-60DD-4C9F-9F79-231383B28517
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a802720c584d08112c733135c3bb5640e7679c9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b5f1d7aa19cff36da67e807a671ec176c0d303610f5c0f6629940d5e132f47ec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104338396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073354"
 ---
 # <a name="rpc-ndr-interface-reference"></a>Справочник по интерфейсу NDR для RPC
 
 Отчет о недоставке Microsoft RPC в настоящее время поддерживает следующие функции и структуры:
 
 -   [**Кстдстуббуффер \_ AddRef**](/windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_addref)
--   [**Кстдстуббуффер \_ подключение**](/windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_connect)
+-   [**кстдстуббуффер \_ Подключение**](/windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_connect)
 -   [**Кстдстуббуффер \_ каунтрефс**](/windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_countrefs)
 -   [**Кстдстуббуффер \_ дебугсерверкуеринтерфаце**](/windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_debugserverqueryinterface)
 -   [**Кстдстуббуффер \_ дебугсерверрелеасе**](/windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_debugserverrelease)
@@ -75,6 +75,6 @@ ms.locfileid: "104338396"
 -   [**проксифилеинфо**](/windows/win32/api/rpcproxy/ns-rpcproxy-proxyfileinfo)
 -   [**\_сообщение RPC**](/windows/desktop/api/RpcdceP/ns-rpcdcep-rpc_message)
 
- 
+ 
 
- 
+ 

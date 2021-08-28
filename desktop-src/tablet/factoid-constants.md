@@ -4,12 +4,12 @@ ms.assetid: 247a1f7d-8205-4e4d-9cfc-daad9bd2191f
 title: Константы фактоид (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa748c84f8bd39f18f83e1ec72474bcfbe3017f2
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: c84b2d24135d8461c8b70db043ed8b2c7940cb61
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122883675"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471120"
 ---
 # <a name="factoid-constants"></a>Константы фактоид
 
@@ -58,7 +58,7 @@ ms.locfileid: "122883675"
 
 ## <a name="remarks"></a>Комментарии
 
-В C++ вы можете получить доступ к этим константам в файле заголовка Мсинкаут. h, который находится в папке &lt; systemdrive &gt; : \\ Program Files \\ Microsoft Tablet PC Platform SDK \\ include, если пакет SDK установлен в расположение по умолчанию.
+В C++ вы можете получить доступ к этим константам в файле заголовка Мсинкаут. h, который находится в папке <systemdrive> : \\ Program Files \\ Microsoft Tablet PC Platform SDK \\ include, если пакет SDK установлен в расположение по умолчанию.
 
 > [!Note]  
 > Эти константы являются Вчарс, а не BSTRs. Перед использованием в качестве параметров методов объекта их необходимо преобразовать в BSTRs. Дополнительные сведения о типе данных BSTR см. в разделе [Использование библиотеки COM](using-the-com-library.md).
@@ -109,7 +109,7 @@ ms.locfileid: "122883675"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

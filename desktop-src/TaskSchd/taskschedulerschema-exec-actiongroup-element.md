@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b29ba66be8f2d3aefaec4f437359f2af5275d2f0
-ms.sourcegitcommit: 628fda3e63fd1d513ce9a5f55be8bbc4af4b2a4b
+ms.openlocfilehash: 709cded1238654fffcf8ce75e5cba85c6139eb6264592e99684462e0a9cb2661
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105674557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072494"
 ---
 # <a name="exec-actiongroup-element"></a>Exec (actionGroup), элемент
 
@@ -48,8 +48,8 @@ ms.locfileid: "105674557"
 
 | Элемент                                                                           | Тип       | Описание                                                                                                  |
 |-----------------------------------------------------------------------------------|------------|--------------------------------------------------------------------------------------------------------------|
-| [**Аргументы**](taskschedulerschema-arguments-exectype-element.md)               | **string** | Задает аргументы, связанные с операцией командной строки.<br/>                               |
-| [**Get-Help**](taskschedulerschema-command-exectype-element.md)                   | **string** | Указывает исполняемый файл или документ для запуска.<br/>                                              |
+| [**Аргументы**](taskschedulerschema-arguments-exectype-element.md)               | **строка** | Задает аргументы, связанные с операцией командной строки.<br/>                               |
+| [**Команда**](taskschedulerschema-command-exectype-element.md)                   | **строка** | Указывает исполняемый файл или документ для запуска.<br/>                                              |
 | [**WorkingDirectory**](taskschedulerschema-workingdirectory-exectype-element.md) | строка     | Указывает каталог, в котором существует исполняемый файл или файлы, используемые исполняемым объектом.<br/> |
 
 
@@ -60,11 +60,11 @@ ms.locfileid: "105674557"
 
 | Имя | Тип       | Описание                                                    |
 |------|------------|----------------------------------------------------------------|
-| идентификатор   | **string** | Идентификатор действия, выполняемого задачей.<br/> |
+| идентификатор   | **строка** | Идентификатор действия, выполняемого задачей.<br/> |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Перечисленные выше дочерние элементы определяются сложным типом [**ексектипе**](taskschedulerschema-exectype-complextype.md) .
 
@@ -78,18 +78,18 @@ ms.locfileid: "105674557"
 
 Полный пример XML-кода для задачи, использующей триггер события, см. в разделе [пример триггера времени (XML)](time-trigger-example--xml-.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

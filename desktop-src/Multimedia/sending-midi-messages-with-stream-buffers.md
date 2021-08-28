@@ -13,12 +13,12 @@ keywords:
 - Отправка сообщений MIDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9dbe2a2854abf9dd1ba67a93954c0823ac387b86
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 35ab8fd8d09295cc40a3ea9b5d8070603a4e7813030b4f04f92a51f7f8709f5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103790170"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892734"
 ---
 # <a name="sending-midi-messages-with-stream-buffers"></a>Отправка сообщений MIDI с помощью буферов потоков
 
@@ -26,6 +26,6 @@ ms.locfileid: "103790170"
 
 После использования **мидистреамаут** для отправки буфера потока данных необходимо дождаться завершения работы драйвера устройства с блоком данных перед его освобождением. При отправке нескольких блоков данных необходимо отслеживать завершение каждого блока данных, чтобы вы могли получить сведения о том, когда отправлять дополнительные блоки. Сведения о различных методах мониторинга завершения блоков данных см. в разделе [Управление блоками данных MIDI](managing-midi-data-blocks.md).
 
- 
+ 
 
- 
+ 

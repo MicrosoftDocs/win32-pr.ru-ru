@@ -37,7 +37,7 @@
                 - name: обновление платформы для Windows Vista
                   tocHref: /windows/win32/win7ip/
                   topicHref: /windows/win32/win7ip/platform-update-for-windows-vista-portal
-            - name: Конструирование
+            - name: Проектирование
               tocHref: /windows/win32/uxguide/
               topicHref: /windows/win32/uxguide/designprinciples
             - name: Технологии для настольных систем

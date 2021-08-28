@@ -15,12 +15,12 @@ api_location:
 - Kernel32.dll
 - API-MS-Win-Core-calendar-l1-1-0.dll
 - kernel32legacy.dll
-ms.openlocfilehash: 57b1175ef7bcf5b6b5d91af63682ca565bc0f1c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf665b2591702b1b833cccb392c7345c1d76d44d324fabc214192c012c60f785
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765454"
 ---
 # <a name="getcalendarsupporteddaterange-function"></a>Функция Жеткалендарсуппортеддатеранже
 
@@ -70,7 +70,7 @@ BOOL GetCalendarSupportedDateRange(
 
 -   Ошибка \_ : недопустимый \_ параметр. Любое из значений параметров было недопустимым.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Самая ранняя дата, поддерживаемая этой функцией, — 1 января 1601 г.
 
@@ -82,8 +82,8 @@ BOOL GetCalendarSupportedDateRange(
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl> |
 
 

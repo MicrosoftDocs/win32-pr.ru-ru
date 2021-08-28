@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 13a7cf29aa444856e4da2fc9a73eeda0d8a3ccc2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eaf235bd1c9a5b0febb88d7ed587bfdf63f52c74cf5027273e447d7f3fb5cdd5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104156822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118108959"
 ---
 # <a name="executing-privileged-operations-using-vbscript"></a>Выполнение привилегированных операций с помощью VBScript
 
@@ -28,7 +28,7 @@ ms.locfileid: "104156822"
 -   [Установка привилегий из объекта безопасности \_](/windows)
 -   [Настройка привилегий как части моникера](#setting-a-privilege-as-part-of-a-moniker)
 -   [Отмена и сброс привилегий](#revoking-and-resetting-privileges)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="setting-a-privilege-from-the-security_-object"></a>Установка привилегий из объекта безопасности \_
 
@@ -71,7 +71,7 @@ Set Service = GetObject("winmgmts:{impersonate,(Debug,!RemoteShutdown)}")
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -7,12 +7,12 @@ keywords:
 - Служба управления таблицами IPX RRAS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5877c6cce0331dacc9968a8f870b177366529b68
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b11d4cb267f4b9c72e8277599b5102a6d931e632d7c9d01b61190c20f29fa740
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074114"
 ---
 # <a name="ipx-service-table-management"></a>Управление таблицами службы IPX
 
@@ -23,9 +23,9 @@ ms.locfileid: "103888744"
 
 Дополнительные сведения о регистрации протокола маршрутизации для обработки службы см. в описании функции [**регистерпротокол**](/windows/desktop/api/Routprot/nc-routprot-pregister_protocol) .
 
- 
+ 
 
- 
+ 
 
 
 

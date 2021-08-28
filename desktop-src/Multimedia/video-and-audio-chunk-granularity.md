@@ -11,12 +11,12 @@ keywords:
 - макрос Капкаптуресетсетуп
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f2245b133fbf14bfd6403fa2f3d7e02ed328de6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c8e8e03eb774e4173b86812c7cc4e9fb35d0ab2557d1ab9022bce3848ec7d13a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892244"
 ---
 # <a name="video-and-audio-chunk-granularity"></a>Гранулярность фрагментов видео и звука
 
@@ -24,9 +24,9 @@ ms.locfileid: "103986591"
 
 Вы можете получить текущий параметр детализации фрагмента с помощью сообщения [**о \_ \_ \_ \_ настройке для получения закрепления WM**](wm-cap-get-sequence-setup.md) (или макроса [**капкаптурежетсетуп**](/windows/desktop/api/Vfw/nf-vfw-capcapturegetsetup) ). Текущая степень детализации фрагментов хранится в элементе **вчункгрануларити** структуры [**каптурепармс**](/windows/win32/api/vfw/ns-vfw-captureparms) . Можно указать новую степень гранулярности фрагмента в качестве значения параметра **вчункгрануларити** , а затем отправить обновленную структуру **каптурепармс** в окно Capture с помощью сообщения [**\_ установки закрепления \_ WM \_ Set \_ Sequence**](wm-cap-set-sequence-setup.md) (или макроса [**капкаптуресетсетуп**](/windows/desktop/api/Vfw/nf-vfw-capcapturesetsetup) ). Можно также указать ноль для этого элемента, чтобы задать гранулярность фрагмента на размер сектора диска.
 
- 
+ 
 
- 
+ 
 
 
 

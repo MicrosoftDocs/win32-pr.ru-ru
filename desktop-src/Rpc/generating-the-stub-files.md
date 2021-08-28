@@ -6,12 +6,12 @@ keywords:
 - Удаленный вызов процедур RPC, задачи, создание файлов заглушек
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e092663711be60a3a0dc0dd8a4e99c0fa92a3ef
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c03fbffb165e94b89e6801c212d0a8b63cd4e77fab28ad4a4afc4b4243ae0e79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020884"
 ---
 # <a name="generating-the-stub-files"></a>Создание файлов заглушек
 
@@ -80,9 +80,9 @@ extern RPC_IF_HANDLE hello_v1_0_s_ifspec;
 #endif
 ```
 
- 
+ 
 
- 
+ 
 
 
 

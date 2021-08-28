@@ -4,12 +4,12 @@ description: В этом разделе показано, как инициал�
 ms.assetid: 02a20ada-b3aa-435e-8d66-117a19222f9f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 546bee6631816beb699f282a3b4f46bbbc142afc
-ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
+ms.openlocfilehash: a886e27a557d0c7c59b9d92b5df9d180a930d4fe
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "122786770"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625530"
 ---
 # <a name="how-to-create-a-device-and-immediate-context"></a>Как создать устройство и немедленный контекст
 
@@ -70,7 +70,7 @@ if( FAILED (hr = D3D11CreateDeviceAndSwapChain( NULL,
 > [!Note]  
 > Если вы запрашиваете устройство [**D3D \_ уровня " \_ \_ 11 \_ 1**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_feature_level) " на компьютере с только средой выполнения Direct3D 11,0, [**D3D11CreateDeviceAndSwapChain**](/windows/desktop/api/D3D11/nf-d3d11-d3d11createdeviceandswapchain) немедленно завершает работу с **E \_ INVALIDARG**. Чтобы безопасно запросить все возможные уровни функций на компьютере с DirectX 11,0 или DirectX 11,1, используйте следующий код:
 >
-> 
+> <span codelanguage=""></span>
 >
 > <table>
 > <colgroup>
@@ -103,7 +103,7 @@ if( FAILED (hr = D3D11CreateDeviceAndSwapChain( NULL,
 >
 > Создайте представление целевого объекта отрисовки, вызвав [**ID3D11Device:: креатерендертаржетвиев**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-createrendertargetview) и привяжите объект заднего буфера в качестве целевого объекта отрисовки, вызвав [**ссылку ID3D11DeviceContext:: омсетрендертаржетс**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-omsetrendertargets).
 >
-> 
+> <span codelanguage=""></span>
 >
 > <table>
 > <colgroup>
@@ -129,7 +129,7 @@ if( FAILED (hr = D3D11CreateDeviceAndSwapChain( NULL,
 >
 > Создайте окно просмотра, чтобы определить, какие части целевого объекта отрисовки будут видимы. Определите окно просмотра с помощью [**структуры \_ окна просмотра D3D11**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_viewport) и задайте окно просмотра с помощью метода [**ссылку ID3D11DeviceContext:: рссетвиевпортс**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-rssetviewports) .
 >
-> 
+> <span codelanguage="ManagedCPlusPlus"></span>
 >
 > <table>
 > <colgroup>

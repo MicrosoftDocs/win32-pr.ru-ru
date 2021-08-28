@@ -4,12 +4,12 @@ ms.assetid: 77fa313c-e720-4607-b691-51b5be76ceed
 title: Константы LINEFEATURE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7eac930123a10f401a7a79de8ccf6c61452df05
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0e1d65ea846ea8209850837877e1e880fc89fed0ad7e0d6209b38ff0f3703f34
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105680032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073054"
 ---
 # <a name="linefeature_-constants"></a>\_Константы линефеатуре
 
@@ -112,24 +112,24 @@ ms.locfileid: "105680032"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Без расширяемости. Все 32 бит зарезервированы.
 
 \_Константы линефеатуре используются в [**линедевстатус**](/windows/desktop/api/Tapi/ns-tapi-linedevstatus) (возвращается [**линежетлинедевстатус**](/windows/desktop/api/Tapi/nf-tapi-linegetlinedevstatus)). [**Линедевстатус**](/windows/desktop/api/Tapi/ns-tapi-linedevstatus) отчеты для определенной строки, какие функции строк фактически вызываются, пока строка находится в текущем состоянии. Приложение сделает это определение динамически после изменения состояния строки, как правило, из-за адреса или действий, связанных с вызовами, в строке.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------|-----------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 2,0 или более поздней версии<br/>                                             |
-| Header<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

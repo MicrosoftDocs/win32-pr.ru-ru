@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Типы счетчиков базового алгоритма
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70514c10b2695aa940d48341752ef647dcca9719
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4f9f6079163ccf328e6bb16713ff6c6d1c88472cb5db43832fa0b7ab8d0e02a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118820321"
 ---
 # <a name="basic-algorithm-counter-types"></a>Типы счетчиков базового алгоритма
 
@@ -32,7 +32,7 @@ ms.locfileid: "105702840"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
