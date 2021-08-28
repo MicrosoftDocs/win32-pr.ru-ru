@@ -4,12 +4,12 @@ description: В этом разделе показано, как инициал�
 ms.assetid: 81f5461a-0938-4c46-b3e8-bef2bea125a5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50cfe00a4d59396f0dc1b0157f84e57e9cabc4a0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f842b1095a4053ad35838864bac6d6677194d85f48e0a78e2fc6975af1e3b8d8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104996738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096284"
 ---
 # <a name="how-to-initialize-the-tessellator-stage"></a>Поэтапное руководство. Инициализация этапа тесселяции
 
@@ -37,7 +37,7 @@ ms.locfileid: "104996738"
 
 После инициализации этапа поверхности-шейдера также следует инициализировать этап шейдера домена.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -47,9 +47,9 @@ ms.locfileid: "104996738"
 [Общие сведения об тесселяции](direct3d-11-advanced-stages-tessellation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

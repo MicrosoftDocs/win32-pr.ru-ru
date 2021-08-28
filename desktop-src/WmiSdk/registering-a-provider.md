@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Регистрация поставщика
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53592ecb452de1b6071cbb8f59cfaaef42b57f1b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 265d3a9f8617c68793fc30c0dc23fd3e9f0106ee98a9e3c757754e2fe589dda8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995924"
 ---
 # <a name="registering-a-provider"></a>Регистрация поставщика
 
@@ -163,7 +163,7 @@ class StdRegProv
 
 1.  Зарегистрируйте поставщик в качестве сервера COM.
 
-    При необходимости может потребоваться создать записи реестра. Этот процесс применяется ко всем COM-серверам и не связан с WMI. Дополнительные сведения см. в разделе COM документации по пакету Microsoft Windows Software Development Kit (SDK).
+    При необходимости может потребоваться создать записи реестра. Этот процесс применяется ко всем COM-серверам и не связан с WMI. дополнительные сведения см. в разделе COM документации по пакету Microsoft Windows Software Development Kit (SDK).
 
 2.  Создайте MOF-файл, содержащий экземпляры [**\_ \_ Win32Provider**](--win32provider.md) и экземпляр класса, производный непосредственно или косвенно от [**\_ \_ провидеррегистратион**](--providerregistration.md), например [**\_ \_ инстанцепровидеррегистратион**](--instanceproviderregistration.md). Только администраторы могут регистрировать или удалять поставщик, создавая экземпляры классов, производных от **\_ \_ Win32Provider** или [**\_ \_ провидеррегистратион**](--providerregistration.md).
 3.  Задайте [**хостингмодел**](--win32provider.md) в экземпляре **\_ \_ Win32Provider** в соответствии со значениями в [моделях размещения](provider-hosting-and-security.md).
@@ -212,7 +212,7 @@ class StdRegProv
 
     **Windows 8 и Windows Server 2012:** При установке поставщиков и [**mofcomp**](mofcomp.md) , и интерфейс [**имофкомпилер**](/windows/desktop/api/Wbemcli/nn-wbemcli-imofcompiler) рассматривают \[ ключ \] и \[ статические \] Квалификаторы как true, если они есть, независимо от их реальных значений. Другие квалификаторы обрабатываются как false, если они есть, но не имеют явного значения true.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

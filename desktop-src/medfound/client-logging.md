@@ -4,12 +4,12 @@ ms.assetid: f91b48ae-3989-4c1d-929c-8ab28d7c8177
 title: Ведение журнала клиента (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d994531ff16466054ca0645a35082a4845e4aa4
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 3874c413f61b3495dc7e67f082a83e789a7a1357
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409937"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122483090"
 ---
 # <a name="client-logging-microsoft-media-foundation"></a>Ведение журнала клиента (Microsoft Media Foundation)
 
@@ -23,7 +23,7 @@ ms.locfileid: "112409937"
 
 Клиент отправляет потоковые данные журнала на сервер, чтобы указать, как клиент получил содержимое, но не как он был визуализирован. Клиент может отправить журнал потоковой передачи до тех пор, пока клиент не завершит отрисовку содержимого.
 
-В этом разделе не приводятся сведения обо всех полях журнала. Полный справочник см. в разделе [Структура данных журнала Windows Media](/openspecs/windows_protocols/ms-wmlog/42c620eb-0d77-4350-b070-bcd1e182fe84).
+В этом разделе не приводятся сведения обо всех полях журнала. полный справочный справочник см. в разделе [Windows структура данных журнала мультимедиа](/openspecs/windows_protocols/ms-wmlog/42c620eb-0d77-4350-b070-bcd1e182fe84).
 
 ## <a name="configuring-log-fields"></a>Настройка полей журнала
 
@@ -33,48 +33,16 @@ Media Foundation позволяет клиенту настроить сетев
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Поле ведения журнала</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>c-плайерид</td>
-<td>Уникальная идентификация проигрывателя. Эти сведения отправляются в начале соединения. Как правило, это идентификатор GUID клиента. Клиент может отправить эти сведения на сервер в свойстве <a href="mfnetsource-playerid-property.md"><strong>MFNETSOURCE_PLAYERID</strong></a> .<br/> Клиент отправляет эти сведения на сервер в начале соединения.<br/> Пример значения: &quot; {c579d042-CECC-11D1-bb31-00a0c9603954}&quot;<br/></td>
-</tr>
-<tr class="even">
-<td>c-плайерверсион</td>
-<td>Номер версии проигрывателя, который отправляется в начале соединения. Клиент может отправить эти сведения на сервер в свойстве <a href="mfnetsource-playerversion-property.md"><strong>MFNETSOURCE_PLAYERVERSION</strong></a> .<br/> Клиент отправляет эти сведения на сервер в начале соединения.<br/></td>
-</tr>
-<tr class="odd">
-<td>CS (User-Agent)</td>
-<td>Тип браузера, используемый, если проигрыватель внедрен в браузер. Это значение может быть задано клиентом в свойстве <a href="mfnetsource-browseruseragent-property.md"><strong>MFNETSOURCE_BROWSERUSERAGENT</strong></a> .<br/> Если проигрыватель не был внедрен, это поле относится к агенту пользователя клиента, который создал журнал. В этом случае клиент должен задать свойство <a href="mfnetsource-playeruseragent-property.md"><strong>MFNETSOURCE_PLAYERUSERAGENT</strong></a> .<br/> Клиент отправляет эти сведения на сервер в начале соединения.<br/> Пример значения: &quot; Mozilla/4.0 _ (совместимый; _MSIE_4.01; _Windows_98)&quot;<br/></td>
-</tr>
-<tr class="even">
-<td>CS (ссылка)</td>
-<td>URL-адрес веб-страницы, в которой был внедрен проигрыватель (если он был внедрен). Клиент может отправить эти сведения на сервер в свойстве <a href="mfnetsource-browserwebpage-property.md"><strong>MFNETSOURCE_BROWSERWEBPAGE</strong></a> .<br/> Клиент отправляет эти сведения на сервер в конце соединения.<br/> Пример значения: &quot; https://www.example.microsoft.com&quot ;<br/></td>
-</tr>
-<tr class="odd">
-<td>c-хостексе</td>
-<td>Для записей журнала проигрывателя — выполняемая управляющая программа (.exe). Например, веб-страница в браузере, приложение Microsoft Visual Basic или автономный проигрыватель. Клиент может отправить эти сведения на сервер в свойстве <a href="mfnetsource-hostexe-property.md"><strong>MFNETSOURCE_HOSTEXE</strong></a> .<br/> Клиент отправляет эти сведения на сервер в конце соединения.<br/> Примеры значений:<br/>
-<ul>
-<li>&quot;iexplore.exe&quot;</li>
-<li>&quot;myplayer.exe&quot;</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>c-хостексевер</td>
-<td>Номер версии основной программы (.exe). Клиент может отправить эти сведения на сервер в свойстве <a href="mfnetsource-hostversion-property.md"><strong>MFNETSOURCE_HOSTVERSION</strong></a> .<br/> Клиент отправляет эти сведения на сервер в конце соединения.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Поле ведения журнала | Описание | 
+|---------------|-------------|
+| c-плайерид | Уникальная идентификация проигрывателя. Эти сведения отправляются в начале соединения. Как правило, это идентификатор GUID клиента. Клиент может отправить эти сведения на сервер в свойстве <a href="mfnetsource-playerid-property.md"><strong>MFNETSOURCE_PLAYERID</strong></a> .<br /> Клиент отправляет эти сведения на сервер в начале соединения.<br /> Пример значения: "{c579d042-CECC-11D1-bb31-00a0c9603954}"<br /> | 
+| c-плайерверсион | Номер версии проигрывателя, который отправляется в начале соединения. Клиент может отправить эти сведения на сервер в свойстве <a href="mfnetsource-playerversion-property.md"><strong>MFNETSOURCE_PLAYERVERSION</strong></a> .<br /> Клиент отправляет эти сведения на сервер в начале соединения.<br /> | 
+| CS (User-Agent) | Тип браузера, используемый, если проигрыватель внедрен в браузер. Это значение может быть задано клиентом в свойстве <a href="mfnetsource-browseruseragent-property.md"><strong>MFNETSOURCE_BROWSERUSERAGENT</strong></a> .<br /> Если проигрыватель не был внедрен, это поле относится к агенту пользователя клиента, который создал журнал. В этом случае клиент должен задать свойство <a href="mfnetsource-playeruseragent-property.md"><strong>MFNETSOURCE_PLAYERUSERAGENT</strong></a> .<br /> Клиент отправляет эти сведения на сервер в начале соединения.<br /> Пример значения: "Mozilla/4.0 _ (совместимо; _MSIE_4.01; _Windows_98)"<br /> | 
+| CS (ссылка) | URL-адрес веб-страницы, в которой был внедрен проигрыватель (если он был внедрен). Клиент может отправить эти сведения на сервер в свойстве <a href="mfnetsource-browserwebpage-property.md"><strong>MFNETSOURCE_BROWSERWEBPAGE</strong></a> .<br /> Клиент отправляет эти сведения на сервер в конце соединения.<br /> Пример значения: " https://www.example.microsoft.com "<br /> | 
+| c-хостексе | Для записей журнала проигрывателя — выполняемая управляющая программа (.exe). например, веб-страница в браузере, приложение Microsoft Visual Basic или автономный проигрыватель. Клиент может отправить эти сведения на сервер в свойстве <a href="mfnetsource-hostexe-property.md"><strong>MFNETSOURCE_HOSTEXE</strong></a> .<br /> Клиент отправляет эти сведения на сервер в конце соединения.<br /> Примеры значений:<br /><ul><li>"iexplore.exe"</li><li>"myplayer.exe"</li></ul> | 
+| c-хостексевер | Номер версии основной программы (.exe). Клиент может отправить эти сведения на сервер в свойстве <a href="mfnetsource-hostversion-property.md"><strong>MFNETSOURCE_HOSTVERSION</strong></a> .<br /> Клиент отправляет эти сведения на сервер в конце соединения.<br /> | 
+
 
 
 

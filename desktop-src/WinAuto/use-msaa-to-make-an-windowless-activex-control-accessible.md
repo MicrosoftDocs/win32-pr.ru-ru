@@ -1,41 +1,41 @@
 ---
-title: Использование MSAA для обеспечения возможности доступа к безоконному элементу управления ActiveX
-description: Описывает, как использовать Microsoft Active Accessibility \ 32; API, чтобы обеспечить доступность элемента управления Microsoft ActiveX без окон для клиентских приложений с поддержкой специальных возможностей (AT).
+title: использование MSAA для обеспечения возможности управления ActiveX без окон
+description: Описывает, как использовать Microsoft Active Accessibility \ 32; API, чтобы обеспечить доступность безоконного элемента управления Microsoft ActiveX для клиентских приложений с поддержкой специальных возможностей (AT).
 ms.assetid: 30F874F9-EA45-4365-8798-FEA011C62DA9
 keywords:
-- Элемент управления ActiveX, Специальные возможности
+- ActiveX Элемент управления, Специальные возможности
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a3a76aa72fadef502a6a4319284ab34fdd5214d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6bac5c4d2a27e5f069f2242999438eebe85e2ea7df1a6bc94890aec142db246c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105700903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098114"
 ---
-# <a name="use-msaa-to-make-a-windowless-activex-control-accessible"></a>Использование MSAA для обеспечения возможности доступа к безоконному элементу управления ActiveX
+# <a name="use-msaa-to-make-a-windowless-activex-control-accessible"></a>использование MSAA для обеспечения возможности управления ActiveX без окон
 
-Описание использования Microsoft Active Accessibility API для обеспечения доступности элемента управления Microsoft ActiveX без окон для клиентских приложений с поддержкой специальных возможностей (AT).
+описывает, как использовать microsoft Active Accessibility API, чтобы гарантировать, что безоконный элемент управления microsoft ActiveX доступен для клиентских приложений с поддержкой специальных возможностей.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
 -   [Элементы управления ActiveX](/windows/desktop/com/activex-controls)
 -   [Microsoft Active Accessibility](microsoft-active-accessibility.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
 -   Программирование Microsoft Win32 и объектной модели компонентов (COM)
--   Элементы управления ActiveX без окон
+-   безоконные элементы управления ActiveX
 -   Серверы Microsoft Active Accessibility
 
 ## <a name="instructions"></a>Инструкции
 
 ### <a name="step-1-implement-the-iaccessible-interface"></a>Шаг 1. Реализация интерфейса IAccessible.
 
-Чтобы сделать безоконный элемент управления ActiveX доступным, необходимо реализовать интерфейс Microsoft Active Accessibility [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) так же, как и для элемента управления на основе окна, за исключением случаев, описанных в следующих шагах. Дополнительные сведения о реализации **IAccessible** см. в разделе " [рекомендации разработчика для Active Accessibility серверов](developer-s-guide-for-active-accessibility-servers.md)".
+чтобы сделать безоконный контроль ActiveX доступным, необходимо реализовать интерфейс Microsoft Active Accessibility [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) , точно так же, как и для элемента управления на основе окна, за исключением случаев, описанных в следующих шагах. Дополнительные сведения о реализации **IAccessible** см. в разделе " [рекомендации разработчика для Active Accessibility серверов](developer-s-guide-for-active-accessibility-servers.md)".
 
 ### <a name="step-2-implement-the-iserviceprovider-interface"></a>Шаг 2. Реализация интерфейса IServiceProvider.
 
@@ -104,7 +104,7 @@ HRESULT CMyAccessibleMSAAControl::get_accParent(IDispatch **ppdispParent)
 
 ### <a name="step-4-acquire-a-range-of-object-ids-to-assign-to-the-event-sources-in-your-windowless-control"></a>Шаг 4. получение диапазона идентификаторов объектов для назначения источникам событий в безоконном управлении.
 
-Как и элементы управления на основе окон, элемент управления ActiveX без окон вызывает функцию [**нотифивиневент**](/windows/desktop/api/Winuser/nf-winuser-notifywinevent) для уведомления клиентов о важных событиях. Параметры функции включают идентификатор объекта элемента, вызывающего событие. Элемент управления без окон должен назначать идентификаторы объектов с помощью значения из диапазона, полученного путем вызова метода [**иакцессиблевиндовлесссите:: аккуиреобжектидранже**](/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-acquireobjectidrange) сайта управления.
+как и элементы управления на основе окон, ActiveX элемент управления без окон вызывает функцию [**нотифивиневент**](/windows/desktop/api/Winuser/nf-winuser-notifywinevent) для уведомления клиентов о важных событиях. Параметры функции включают идентификатор объекта элемента, вызывающего событие. Элемент управления без окон должен назначать идентификаторы объектов с помощью значения из диапазона, полученного путем вызова метода [**иакцессиблевиндовлесссите:: аккуиреобжектидранже**](/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-acquireobjectidrange) сайта управления.
 
 В этом примере показано, как получить диапазон значений идентификатора объекта из контейнера элемента управления.
 
@@ -133,16 +133,16 @@ SafeRelease(&pWindowlessSite);
 
 Если клиентское приложение отвечает на событие, контейнер элемента управления получает сообщение [**WM \_ GetObject**](wm-getobject.md) , включающее идентификатор объекта элемента пользовательского интерфейса, вызвавшего событие. Контейнер элемента управления отвечает путем поиска безоконного элемента управления, которому "владеет" идентификатор объекта, и последующего вызова метода [**иакцессиблехандлер:: акцессиблеобжектфромид**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessiblehandler-accessibleobjectfromid) этого элемента управления. Метод **акцессиблеобжектфромид** возвращает указатель интерфейса [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) для элемента пользовательского интерфейса, а контейнер элементов управления перенаправляет указатель на клиентское приложение.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Использование модели автоматизации пользовательского интерфейса для обеспечения доступа к безоконному элементу управления ActiveX](use-ui-automation-to-make-an-windowless-activex-control-accessible.md)
+[используйте автоматизацию пользовательского интерфейса, чтобы сделать безоконный контроль ActiveX доступным](use-ui-automation-to-make-an-windowless-activex-control-accessible.md)
 </dt> <dt>
 
-[Специальные возможности элемента управления ActiveX без окон](windowless-activex-control-accessibility.md)
+[специальные возможности элемента управления ActiveX без окон](windowless-activex-control-accessibility.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

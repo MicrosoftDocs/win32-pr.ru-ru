@@ -66,12 +66,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 000723612a2f7f9f5575fc767924d4d6c697468a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bcb8450b85eaa6c49b66a3a86789c126cc04b9a661a7e4c5074784f8cba6bf72
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993844"
 ---
 # <a name="client-error-codes"></a>Коды ошибок клиента
 
@@ -128,7 +128,7 @@ ms.locfileid: "104071928"
 | <span id="WINBIO_E_SENSOR_UNAVAILABLE"></span><span id="winbio_e_sensor_unavailable"></span><dl> <dt>**Винбио \_ \_Датчик E \_ недоступен**</dt> <dt>0x80098034</dt> </dl>                              | Не удается создать частный пул, так как один или несколько биометрических единиц недоступны.<br/>                |
 | <span id="WINBIO_E_SAS_ENABLED"></span><span id="winbio_e_sas_enabled"></span><dl> <dt>**Винбио \_ 0x80098035 \_ с \_ поддержкой SAS**</dt> <dt></dt> </dl>                                                   | Для входа требуется последовательность безопасного внимания (CTRL-ALT-DELETE).<br/>                                   |
 | <span id="WINBIO_E_DEVICE_FAILURE"></span><span id="winbio_e_device_failure"></span><dl> <dt>**Винбио \_ 0x80098036 \_ \_ ошибок устройства E**</dt> <dt></dt> </dl>                                          | Сбой биометрического датчика.<br/>                                                                         |
-| <span id="WINBIO_E_FAST_USER_SWITCH_DISABLED"></span><span id="winbio_e_fast_user_switch_disabled"></span><dl> <dt>**Винбио \_ \_Быстрый \_ Пользовательский \_ коммутатор \_ отключен**</dt> <dt>0x80098037</dt> </dl>       | >быстрое переключение пользователей отключено.<br/>                                                                   |
+| <span id="WINBIO_E_FAST_USER_SWITCH_DISABLED"></span><span id="winbio_e_fast_user_switch_disabled"></span><dl> <dt>**Винбио \_ E \_ FAST \_ пользовательский \_ коммутатор \_ отключен**</dt> <dt>0x80098037</dt> </dl>       | >быстрое переключение пользователей отключено.<br/>                                                                   |
 | <span id="WINBIO_E_NOT_ACTIVE_CONSOLE"></span><span id="winbio_e_not_active_console"></span><dl> <dt>**Винбио \_ \_Неактивный \_ \_ консольный**</dt> <dt>0x80098038</dt> </dl>                             | Не удается открыть пул датчиков системы из сеансов клиента сервера терминалов.<br/>                          |
 | <span id="WINBIO_E_EVENT_MONITOR_ACTIVE"></span><span id="winbio_e_event_monitor_active"></span><dl> <dt>**Винбио \_ Монитор событий "E" \_ \_ \_ Active**</dt> <dt>0x80098039</dt> </dl>                      | С указанным сеансом уже связан активный монитор событий.<br/>                        |
 | <span id="WINBIO_E_INVALID_PROPERTY_TYPE"></span><span id="winbio_e_invalid_property_type"></span><dl> <dt>**Винбио \_ \_Недопустимый \_ \_ тип свойства**</dt> <dt>0x8009803A</dt> </dl>                    | Указанное значение не является допустимым типом свойства.<br/>                                                      |
@@ -145,9 +145,9 @@ ms.locfileid: "104071928"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                               |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Винбио \_ Err. h</dt> </dl> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                               |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Винбио \_ Err. h</dt> </dl> |
 
 
 

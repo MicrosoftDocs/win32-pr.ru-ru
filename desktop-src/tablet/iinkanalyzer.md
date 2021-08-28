@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: bd1bca0a00cbe95c4d32b2dfad8afe6c5db8ad63
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b37e6d72b87ac31bda7e6c9b0d6f9bf3d35af524eea201e446b50905447404b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104346615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119939855"
 ---
 # <a name="iinkanalyzer-interface"></a>Интерфейс Иинканализер
 
@@ -100,7 +100,7 @@ ms.locfileid: "104346615"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Иинканализер** использует данные пакетной обводки для анализа рукописного ввода и не взаимодействует с объектами коллекции [**инкдисп**](inkdisp-class.md) или [инкстрокес](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) напрямую.
 
@@ -160,20 +160,20 @@ ms.locfileid: "104346615"
 
 Дополнительные сведения об использовании **иинканализер** для анализа рукописного ввода см. в разделе [Общие сведения о анализе рукописного ввода](ink-analysis-overview.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                                                 |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                                                 |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                     |
-| Header<br/>                   | <dl> <dt>Иаком. h (также требуется Иаком \_ i. c)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Иаком. h (также требуется Иаком \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

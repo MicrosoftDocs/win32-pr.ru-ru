@@ -4,12 +4,12 @@ ms.assetid: 906d92f1-7cbe-454e-9c71-34b4383aebab
 title: Выход из системы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0571c0522c494acd763d57dcae8d200125cd53d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5c2ab8525630673b897704cea675c5c2a1e6dc6b1df4dd875e8872a79f915204
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119664404"
 ---
 # <a name="logging-off"></a>Выход из системы
 
@@ -25,7 +25,7 @@ ms.locfileid: "103913851"
 
 Если процесс, который вызвал функцию [**ExitWindowsEx**](/windows/desktop/api/Winuser/nf-winuser-exitwindowsex) , выполняется в сеансе входа интерактивного пользователя, все процессы в сеансе входа будут прерваны. Если процесс, вызывающий функцию **ExitWindowsEx** , находится в другом сеансе входа, выполняются только уведомления. процессы не прерываются.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

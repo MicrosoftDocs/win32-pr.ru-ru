@@ -4,12 +4,12 @@ ms.assetid: EBEFED1F-D0B8-4C7E-B1FB-CDE3BDFD99AA
 title: Кодировщик MPEG-2 Audio
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 935b6438c79e9bf78a230f707f8930f859c3fa491dab0326208d5cf79b53f474
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9c75956f55dfa22034b27465082ced0888fbe03b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118240013"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475540"
 ---
 # <a name="mpeg-2-audio-encoder"></a>Кодировщик MPEG-2 Audio
 
@@ -27,69 +27,16 @@ Microsoft Media Foundation кодировщик MPEG-2 — это [Media Foundat
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>attribute</th>
-<th>Описание</th>
-<th>Remarks</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a></td>
-<td>Основной тип.</td>
-<td>Обязательный элемент. Необходимо <strong>MFMediaType_Audio</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a></td>
-<td>Подтип аудио.</td>
-<td>Обязательный элемент. Необходимо <strong>MFAudioFormat_MPEG</strong>. Этот подтип используется как для MPEG-1, так и для звука MPEG-2.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a></td>
-<td>Выборок в секунду.</td>
-<td>Обязательный элемент. Для MPEG-1 и MPEG-2 поддерживаются следующие значения:
-<ul>
-<li>32000</li>
-<li>44100</li>
-<li>48000</li>
-</ul>
-Кроме того, для MPEG-2 LSF поддерживаются следующие значения: <br/>
-<ul>
-<li>16000</li>
-<li>22050</li>
-<li>24 000</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a></td>
-<td>Число каналов.</td>
-<td>Обязательный элемент. Значение должно быть либо 1 (моно), либо 2 (стерео).</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a></td>
-<td>Указывает назначение звуковых каналов для позиционирования динамиков.</td>
-<td>Необязательный элемент. Если задано, значение должно быть 0x3ым для стерео (передний левый и правый каналы) или 0x4 для Mono (канал Front Center).</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a></td>
-<td>Скорость потока закодированных потоков MPEG (в байтах в секунду).</td>
-<td>Необязательный элемент.<br/> Спецификации ISO/IEC 11172-3 и ISO/IEC 13818-3 (LSF) определяют несколько битовых ставок в зависимости от частоты выборки, количества каналов и звукового уровня (1 или 2). <br/> Кодировщик по умолчанию имеет звук уровня 2. Если атрибут <a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a> не задан, кодировщик использует следующие скорости по умолчанию:<br/>
-<ul>
-<li>Стерео MPEG-1 стереосистема: 224 000 бит/с в секунду (бит/с) = 28 000 байт в секунду.</li>
-<li>MPEG-1 моно: 192 000 бит/с = 24 000 байт в секунду.</li>
-<li>MPEG-2 LSF, моно или стерео: 160 000 бит/с = 20 000 байт в секунду.</li>
-</ul>
-Для этого атрибута можно задать другие значения. Если значение не является допустимым согласно спецификациям MPEG, то этот тип мультимедиа будет отклонен.<br/> Можно также задать скорость передачи данных с помощью интерфейса <a href="/windows/desktop/api/strmif/nn-strmif-icodecapi"><strong>икодекапи</strong></a> . Дополнительные сведения см. в разделе "Примечания".<br/></td>
-</tr>
-</tbody>
-</table>
+
+| attribute | Описание | Remarks | 
+|-----------|-------------|---------|
+| <a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a> | Основной тип. | Обязательный. Необходимо <strong>MFMediaType_Audio</strong>. | 
+| <a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a> | Подтип аудио. | Обязательный. Необходимо <strong>MFAudioFormat_MPEG</strong>. Этот подтип используется как для MPEG-1, так и для звука MPEG-2. | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a> | Выборок в секунду. | Обязательный. Для MPEG-1 и MPEG-2 поддерживаются следующие значения:<ul><li>32000</li><li>44100</li><li>48000</li></ul>Кроме того, для MPEG-2 LSF поддерживаются следующие значения: <br /><ul><li>16000</li><li>22050</li><li>24 000</li></ul> | 
+| <a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a> | Число каналов. | Обязательный. Значение должно быть либо 1 (моно), либо 2 (стерео). | 
+| <a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a> | Указывает назначение звуковых каналов для позиционирования динамиков. | Необязательный элемент. Если задано, значение должно быть 0x3ым для стерео (передний левый и правый каналы) или 0x4 для Mono (канал Front Center). | 
+| <a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a> | Скорость потока закодированных потоков MPEG (в байтах в секунду). | Необязательный элемент.<br /> Спецификации ISO/IEC 11172-3 и ISO/IEC 13818-3 (LSF) определяют несколько битовых ставок в зависимости от частоты выборки, количества каналов и звукового уровня (1 или 2). <br /> Кодировщик по умолчанию имеет звук уровня 2. Если атрибут <a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a> не задан, кодировщик использует следующие скорости по умолчанию:<br /><ul><li>Стерео MPEG-1 стереосистема: 224 000 бит/с в секунду (бит/с) = 28 000 байт в секунду.</li><li>MPEG-1 моно: 192 000 бит/с = 24 000 байт в секунду.</li><li>MPEG-2 LSF, моно или стерео: 160 000 бит/с = 20 000 байт в секунду.</li></ul>Для этого атрибута можно задать другие значения. Если значение не является допустимым согласно спецификациям MPEG, то этот тип мультимедиа будет отклонен.<br /> Можно также задать скорость передачи данных с помощью интерфейса <a href="/windows/desktop/api/strmif/nn-strmif-icodecapi"><strong>икодекапи</strong></a> . Дополнительные сведения см. в разделе "Примечания".<br /> | 
+
 
 
 
@@ -103,71 +50,19 @@ Microsoft Media Foundation кодировщик MPEG-2 — это [Media Foundat
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>attribute</th>
-<th>Описание</th>
-<th>Remarks</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a></td>
-<td>Основной тип.</td>
-<td>Обязательный элемент. Необходимо <strong>MFMediaType_Audio</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a></td>
-<td>Подтип аудио.</td>
-<td>Обязательный элемент. Должен быть <strong>MFAudioFormat_PCM</strong> или <strong>MFAudioFormat_Float</strong>.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a></td>
-<td>Число битов на аудио выборка.</td>
-<td>Обязательный элемент. Значение должно быть 16, если подтип имеет <strong>MFAudioFormat_PCM</strong>, или 32, если подтип имеет <strong>MFAudioFormat_Float</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a></td>
-<td>Выборок в секунду.</td>
-<td>Обязательный элемент. Должен соответствовать типу выходных данных.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a></td>
-<td>Число каналов.</td>
-<td>Обязательный элемент. Должен соответствовать типу выходных данных.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-block-alignment-attribute.md">MF_MT_AUDIO_BLOCK_ALIGNMENT</a></td>
-<td>Выравнивание блокировки в байтах.</td>
-<td>Обязательный элемент. Вычислите значение следующим образом:
-<ul>
-<li><strong>MFAudioFormat_PCM</strong>: число каналов × 2.</li>
-<li><strong>MFAudioFormat_Float</strong>: число каналов × 4.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a></td>
-<td>Битовая скорость закодированного потока AC3 в байтах в секунду.</td>
-<td>Обязательный элемент. Должно равняться выравниванию блока × Samples в секунду.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a></td>
-<td>Указывает назначение звуковых каналов для позиционирования динамиков.</td>
-<td>Необязательный элемент. Если параметр задан, значение должно соответствовать типу выходных данных.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-valid-bits-per-sample-attribute.md">MF_MT_AUDIO_VALID_BITS_PER_SAMPLE</a></td>
-<td>Количество допустимых битов звуковых данных в каждом звуковом примере.</td>
-<td>Необязательный элемент. Если значение задано, оно должно быть идентично значению <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a>.</td>
-</tr>
-</tbody>
-</table>
+
+| attribute | Описание | Remarks | 
+|-----------|-------------|---------|
+| <a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a> | Основной тип. | Обязательный. Необходимо <strong>MFMediaType_Audio</strong>. | 
+| <a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a> | Подтип аудио. | Обязательный. Должен быть <strong>MFAudioFormat_PCM</strong> или <strong>MFAudioFormat_Float</strong>. | 
+| <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a> | Число битов на аудио выборка. | Обязательный. Значение должно быть 16, если подтип имеет <strong>MFAudioFormat_PCM</strong>, или 32, если подтип имеет <strong>MFAudioFormat_Float</strong>. | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a> | Выборок в секунду. | Обязательный. Должен соответствовать типу выходных данных. | 
+| <a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a> | Число каналов. | Обязательный. Должен соответствовать типу выходных данных. | 
+| <a href="mf-mt-audio-block-alignment-attribute.md">MF_MT_AUDIO_BLOCK_ALIGNMENT</a> | Выравнивание блокировки в байтах. | Обязательный. Вычислите значение следующим образом:<ul><li><strong>MFAudioFormat_PCM</strong>: число каналов × 2.</li><li><strong>MFAudioFormat_Float</strong>: число каналов × 4.</li></ul> | 
+| <a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a> | Битовая скорость закодированного потока AC3 в байтах в секунду. | Обязательный. Должно равняться выравниванию блока × Samples в секунду. | 
+| <a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a> | Указывает назначение звуковых каналов для позиционирования динамиков. | Необязательный элемент. Если параметр задан, значение должно соответствовать типу выходных данных. | 
+| <a href="mf-mt-audio-valid-bits-per-sample-attribute.md">MF_MT_AUDIO_VALID_BITS_PER_SAMPLE</a> | Количество допустимых битов звуковых данных в каждом звуковом примере. | Необязательный элемент. Если значение задано, оно должно быть идентично значению <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a>. | 
+
 
 
 
@@ -209,7 +104,7 @@ MFT реализует следующие методы [**икодекапи**](
 
 Все остальные методы [**икодекапи**](/windows/win32/api/strmif/nn-strmif-icodecapi) возвращают **E \_ нотимпл**.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Каждая звуковая рамка MPEG содержит как 384 (уровень 1), так и 1152 (уровень 2) аудио выборки на канал. Однако каждый входной буфер кодировщика может содержать любое количество примеров PCM. Размер каждого входного буфера должен быть кратен выравниванию блока. Кодировщик кэширует входные образцы, пока не будет достаточно для звукового фрейма MPEG.
 
@@ -420,7 +315,7 @@ MPEG-2
 
 
 
-## <a name="see-also"></a>См. также статью
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

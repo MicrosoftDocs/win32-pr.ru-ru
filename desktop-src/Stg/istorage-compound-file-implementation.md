@@ -6,12 +6,12 @@ keywords:
 - Метод IStorage Стрктд STG, реализация составного файла
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bf37b24a7c68bbe357d99f94e666bfcb613c472
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ab243189d5a8cfb3e053c66bcd752d05bb65ab965657778a3bc3250c30ef8e75
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105661741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992420"
 ---
 # <a name="istorage-compound-file-implementation"></a>Реализация файла IStorage-Compound
 
@@ -150,13 +150,13 @@ ms.locfileid: "105661741"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если объект хранилища открыт в простом режиме, использование описанных выше методов будет ограничено. Хранилище находится в простом режиме, если он открыт с помощью \_ простого элемента стгм, указанного в параметре *Грфмоде* функции [**стгкреатесторажеекс**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex) или [**стгопенсторажеекс**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex) . Дополнительные сведения о хранилищах в простых режимах см. в разделе [**константы стгм**](stgm-constants.md). Если объект хранилища простого режима был получен из функции **стгкреатесторажеекс** , то метод [**креатестреам**](/windows/desktop/api/Objidl/nf-objidl-istorage-createstream) можно вызвать, но метод [**опенстреам**](/windows/desktop/api/Objidl/nf-objidl-istorage-openstream) не может. Если объект хранилища простого режима был получен из функции **стгопенсторажеекс** , то метод **опенстреам** можно вызвать, но метод **креатестреам** не может.
 
 Если для создания потока используется объект хранилища простого режима, минимальный размер этого потока обычно составляет 4096 байт. Если в поток записывается меньше данных, размер округляется до 4096 байт.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -190,6 +190,6 @@ ms.locfileid: "105661741"
 [**стгопенсторажеекс**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

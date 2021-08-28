@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 840bf100ea5cdbbb606837e90d8fa9fcebab57fc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cbda85610e34fa6208bac5f8b9ba196be1b24fcadf8a53d87cea627718e9bd04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119432831"
 ---
 # <a name="modify-method-of-the-microsoftdns_ptrtype-class"></a>Метод Modify \_ класса микрософтднс птртипе
 
@@ -69,11 +69,11 @@ void Modify(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Любой параметр, не указанный, остается неизменным в измененной записи.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

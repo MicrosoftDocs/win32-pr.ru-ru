@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 32c39942ab3f97d45ecf71ba841d56b7afd4be62
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2c2e7bdbbc43195222b4054f71ec05ebe3c8a7e15ac8c634d57fba61e45bf319
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105676010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084474"
 ---
 # <a name="cmediatypeispartiallyspecified-method"></a>Кмедиатипе. ИспартиаллиспеЦифиед, метод
 
@@ -44,24 +44,24 @@ BOOL IsPartiallySpecified() const;
 
 Возвращает **значение true** , если тип мультимедиа указан частично. В противном случае возвращает **значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Метод [**Ипин:: Connect**](/windows/desktop/api/Strmif/nf-strmif-ipin-connect) может принимать частичные типы мультимедиа.
+метод [**ипин:: Подключение**](/windows/desktop/api/Strmif/nf-strmif-ipin-connect) может принимать частичные типы мультимедиа.
 
 Реализация фактически не тестирует подтип. Если существует указанный тип формата, тип мультимедиа не считается частичным, даже если его подтип имеет \_ значение GUID null.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Мтипе. h (включение Streams. h)</dt> </dl>                                                                                     |
+| Заголовок<br/>  | <dl> <dt>мтипе. h (включает Потоки. h)</dt> </dl>                                                                                     |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 80a6db64-ef13-46a2-8f2a-e39095e874b2
 title: Образец фильтра шарика
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93b80301b233f0c1e74933c93fe86a0e1878458e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: df215f6f4be5fa1bc94872ac4e5855d4e9c0f19a136708d0c9377b19c5d79dda
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103895082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084544"
 ---
 # <a name="ball-filter-sample"></a>Образец фильтра шарика
 
@@ -23,15 +23,15 @@ ms.locfileid: "103895082"
 
 ## <a name="downloading-the-sample"></a>Загрузка образца
 
-Чтобы скачать примеры пакета SDK для DirectShow, установите последнюю версию [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
+чтобы скачать примеры пакета SDK для DirectShow, установите последнюю версию [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
 
-Этот пример устанавливается по следующему пути: \[ *корневые* \] \\ примеры SDK \\ мультимедийные \\ образцы \\ DirectShow \\ .
+этот пример устанавливается по следующему пути: \[ *корневые* \] \\ примеры SDK \\ мультимедиа \\ DirectShow фильтры в \\ \\ шарике.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Примеры DirectShow](directshow-samples.md)
+[DirectShow Регистрируют](directshow-samples.md)
 </dt> </dl>
 
  

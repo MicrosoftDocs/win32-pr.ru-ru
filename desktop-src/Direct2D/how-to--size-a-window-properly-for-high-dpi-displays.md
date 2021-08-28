@@ -4,12 +4,12 @@ description: Описание действий по созданию окна д
 ms.assetid: 72a4b076-1cf0-4dc9-bd75-43b5173fc2a0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dd45b4b654556fc251575410cc11f9b66961263
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 45d8ebc6a7621623307d9b2cfd953a5fa3f3387fbacb3faeb345375d925044cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119259964"
 ---
 # <a name="displaying-properly-on-a-high-dpi-display"></a>Правильное отображение на дисплее с высоким разрешением
 
@@ -64,13 +64,13 @@ ms.locfileid: "112406157"
 
 > [!Note]
 >
-> Начиная с Windows 8, для получения DPI на уровне системы можно использовать класс [**Windows:: Graphics::D Play::D исплайпропертиес**](/uwp/api/Windows.Graphics.Display.DisplayProperties) .
+> начиная с Windows 8, для получения DPI на уровне системы можно использовать класс [**Windows:: Graphics::D воспроизведения::D исплайпропертиес**](/uwp/api/Windows.Graphics.Display.DisplayProperties) .
 
  
 
 ## <a name="step-2-declare-that-the-application-is-dpi-aware"></a>Шаг 2. объявление о том, что приложение DPI-Aware
 
-Когда приложение объявляет себя для использования с учетом DPI, это инструкция, указывающая, что приложение правильно работает с параметрами DPI до 200 DPI. В Windows Vista и Windows 7 при включении виртуализации DPI приложения масштабируются, а приложения получают виртуализированные данные из системных API, таких как функция [**жетсистемметрик**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) . Чтобы объявить, что приложение учитывает DPI, выполните следующие действия.
+Когда приложение объявляет себя для использования с учетом DPI, это инструкция, указывающая, что приложение правильно работает с параметрами DPI до 200 DPI. в Windows Vista и Windows 7 при включении виртуализации dpi приложения масштабируются, а приложения получают виртуализированные данные из системных api, таких как функция [**жетсистемметрик**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) . Чтобы объявить, что приложение учитывает DPI, выполните следующие действия.
 
 1.  Создайте файл с именем Декларедпиаваре. manifest.
 2.  Скопируйте следующий XML-код в файл и сохраните его:

@@ -4,17 +4,17 @@ ms.assetid: 8ad22098-acbd-41fd-9224-829b3cc5f8ae
 title: Метод Савепаренталлевел (Segment. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94d30d26264dff077de391b6b513f7e9ab5048c8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0e372563a6f5a1fe8e893efeb86633baa6a03a7b72c79e3f05a3ec7372bec2e0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119315954"
 ---
 # <a name="saveparentallevel-method"></a>Метод Савепаренталлевел
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -53,7 +53,7 @@ DVD.DVDAdm.SaveParentalLevel(iLevel, sUserName, sPassword)
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод позволяет пользователю, знающему текущий пароль, сохранить новый параметр родительского уровня в реестре. Как и для всех методов **мсдвдадм**, этот метод не влияет на текущий уровень проигрывателя. Он изменяет только параметр реестра, чтобы при следующем запуске объекта Мсвебдвд он открывался с новым уровнем. Укажите значение-1, чтобы отключить функцию родительского управления. Чтобы изменить родительский уровень в проигрывателе, вызовите [**селектпаренталлевел**](selectparentallevel-method.md), который не изменяет параметр реестра.
 
@@ -63,7 +63,7 @@ DVD.DVDAdm.SaveParentalLevel(iLevel, sUserName, sPassword)
 
 | Требование | Значение |
 |-------------------|--------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Сегмент. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Сегмент. h</dt> </dl> |
 
 
 

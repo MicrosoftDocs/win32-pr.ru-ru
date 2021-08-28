@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 4e59e20f776c410db53294b6f6e98a1b13aef0de
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5947ac9a8539227f27dbea62aeebcfbc07b14a7626e25234e3a39ee3267d81c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119438434"
 ---
 # <a name="cim_jobdestinationjobs-class"></a>\_Класс CIM жобдестинатионжобс
 
@@ -51,7 +51,7 @@ class CIM_JobDestinationJobs : CIM_Dependency
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ жобдестинатионжобс** имеет следующие свойства.
 
@@ -89,7 +89,7 @@ class CIM_JobDestinationJobs : CIM_Dependency
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Модель CIM \_ Жобдестинатионжобс** является производным [**от \_ зависимости CIM**](cim-dependency.md).
 
@@ -97,7 +97,7 @@ class CIM_JobDestinationJobs : CIM_Dependency
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 19c6e7334b8a13854241c3fd2ee41dd7010255b5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2653160c536d9fd11668e5038ae632b09414cae42ed5ae76d998f3abda85eeec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119322554"
 ---
 # <a name="cim_cardinslot-class"></a>\_Класс CIM кардинслот
 
@@ -51,7 +51,7 @@ class CIM_CardInSlot : CIM_PackageInSlot
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ кардинслот** имеет следующие свойства.
 
@@ -89,7 +89,7 @@ class CIM_CardInSlot : CIM_PackageInSlot
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ кардинслот** является производным от [**CIM \_ паккажеинслот**](cim-packageinslot.md).
 
@@ -97,7 +97,7 @@ class CIM_CardInSlot : CIM_PackageInSlot
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

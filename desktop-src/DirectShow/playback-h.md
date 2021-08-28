@@ -1,19 +1,19 @@
 ---
-description: Эта статья содержит код для файла воспроизведения. h для руководства воспроизведение аудио-и видеороликов в DirectShow.
+description: В этой статье содержится код для файла воспроизведения. h, посвященного воспроизведению аудио-и видеофайлов в DirectShow.
 ms.assetid: 8cf0f281-3680-4329-80d0-8282d1051c1a
 title: воспроизведение. h
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba52dc50cd14b26bcd26284a62c96400706d8aa8
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 8f000c1f9d41a989672feb48cb129a4c86785d4b389a6c3aea987464de664341
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107624"
 ---
 # <a name="playbackh"></a>воспроизведение. h
 
-В этом разделе содержится код руководства по [воспроизведению аудио-и видеороликов в DirectShow](audio-video-playback-in-directshow.md).
+Этот раздел содержит код руководства по [воспроизведению звука и видео в DirectShow](audio-video-playback-in-directshow.md).
 
 
 ```C++
@@ -87,7 +87,7 @@ private:
 [Воспроизведение звука и видео в DirectShow](audio-video-playback-in-directshow.md)
 </dt> <dt>
 
-[Пример воспроизведения DirectShow](directshow-playback-example.md)
+[DirectShow Пример воспроизведения](directshow-playback-example.md)
 </dt> </dl>
 
  

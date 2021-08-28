@@ -3,7 +3,7 @@ title: Сообщение LB_SETITEMDATA (Winuser. h)
 description: Задает значение, связанное с указанным элементом в поле со списком.
 ms.assetid: df974fa2-114a-43ef-b0ac-0451c31d95cd
 keywords:
-- Элементы управления Windows для LB_SETITEMDATA сообщений
+- элементы управления Windows сообщений LB_SETITEMDATA
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 02d9f9cc952ea3bf2d83358ce3b15ce6c3a2546b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dd9a705014ef770edba5b540a7acbd2512b685d5ebf8ca913df8fa329dc6058a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085334"
 ---
 # <a name="lb_setitemdata-message"></a>Сообщение сетитемдата балансировки нагрузки \_
 
@@ -34,7 +34,7 @@ ms.locfileid: "104137134"
 
 Указывает отсчитываемый от нуля индекс элемента. Если это значение равно-1, то значение *lParam* применяется ко всем элементам списка.
 
-Windows 95, Windows 98/Windows Millennium Edition (Windows Me): параметр *wParam* ограничен 16-разрядными значениями. Это означает, что списки не могут содержать более 32 767 элементов. Хотя количество элементов ограничено, общий размер элементов в списке в байтах ограничен только доступной памятью.
+Windows 95/Windows 98/Windows Millennium Edition (Windows Me): параметр *wParam* ограничен 16-разрядными значениями. Это означает, что списки не могут содержать более 32 767 элементов. Хотя количество элементов ограничено, общий размер элементов в списке в байтах ограничен только доступной памятью.
 
 </dd> <dt>
 
@@ -49,23 +49,23 @@ Windows 95, Windows 98/Windows Millennium Edition (Windows Me): параметр
 
 Если возникает ошибка, возвращается значение фунтов \_ Err.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если элемент находится в списке, созданном владельцем, без стиля [**фунта \_ хасстрингс**](list-box-styles.md) , это сообщение заменяет значение, содержащееся в параметре *lParam* сообщения [**\_ ADDSTRING**](lb-addstring.md) или [**\_ инсертстринг**](lb-insertstring.md) , которое добавляет элемент в список.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

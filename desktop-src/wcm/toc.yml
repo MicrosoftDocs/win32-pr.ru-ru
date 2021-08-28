@@ -1,10 +1,10 @@
 - name: Диспетчер подключений Windows
   href: windows-connection-manager-portal.md
   items:
-    - name: Справочник по диспетчеру подключений Windows
+    - name: Windows Справочник по диспетчеру соединений
       href: windows-connection-manager-reference.md
       items:
-        - name: Перечислимые типы диспетчера подключений Windows
+        - name: Windows Перечислимые типы диспетчера соединений
           href: wcm-enumerated-types.md
           items:
             - name: WCM_CONNECTION_COST
@@ -15,7 +15,7 @@
               href: /windows/win32/api/Wcmapi/ne-wcmapi-wcm_media_type
             - name: WCM_PROPERTY
               href: /windows/win32/api/Wcmapi/ne-wcmapi-wcm_property
-        - name: Функции диспетчера подключений Windows
+        - name: Windows Функции диспетчера соединений
           href: wcm-functions.md
           items:
             - name: вкмфримемори
@@ -28,7 +28,7 @@
               href: /windows/desktop/api/Wcmapi/nf-wcmapi-wcmsetprofilelist
             - name: вкмсетпроперти
               href: /windows/desktop/api/Wcmapi/nf-wcmapi-wcmsetproperty
-        - name: Структуры диспетчера подключений Windows
+        - name: Windows Структуры диспетчера соединений
           href: wcm-structures.md
           items:
             - name: WCM_BILLING_CYCLE_INFO

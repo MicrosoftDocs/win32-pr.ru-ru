@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 92ea7432c318939a01f86405ae33d8ac90b88c80
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 47382014587057cfe5e1db20e040f2a220f71eee3379521ab93e4006f45930e2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108083872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119660794"
 ---
 # <a name="shelladdtorecent-method"></a>Shell. Аддторецент, метод
 
@@ -58,7 +58,7 @@ Shell.AddToRecent( _
 
 **Строка** , содержащая путь к файлу, добавляемому в список недавно использовавшихся документов.
 
-**Windows Vista**: установите для этого параметра **значение NULL** , чтобы очистить папку недавние документы.
+**Windows Vista**: установите для этого параметра **значение null** , чтобы очистить папку недавние документы.
 
 </dd> <dt>
 
@@ -83,9 +83,9 @@ Shell.AddToRecent( _
 
 ## <a name="examples"></a>Примеры
 
-В следующих примерах показано использование **аддторецент** для JScript, VBScript и Visual Basic.
+в следующих примерах показано использование **аддторецент** для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -174,15 +174,15 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                                   |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                                   |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
+| Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (версия 6,0 или более поздняя)</dt> </dl> |
 

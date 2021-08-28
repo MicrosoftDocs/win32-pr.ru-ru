@@ -1,6 +1,6 @@
 ---
 title: LSA-Modified-Count, атрибут
-description: Атрибут LSA-Modified-Count используется для поддержки репликации в домены Windows NT 4,0.
+description: атрибут LSA-Modified-Count используется для поддержки репликации в домены Windows NT 4,0.
 ms.assetid: 6af5931c-5d4f-4061-81a1-e8947d760abc
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e042d4d52974457eb1853a3705adb87cc24a7dc3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6ce292f49f779ddd8ecbf185bcb274a28c7267a44e85590dc1a481b65950a18f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119301534"
 ---
 # <a name="lsa-modified-count-attribute"></a>LSA-Modified-Count, атрибут
 
-Атрибут **LSA-Modified-Count** используется для поддержки репликации в домены Windows NT 4,0.
+атрибут **LSA-Modified-Count** используется для поддержки репликации в домены Windows NT 4,0.
 
 
 
@@ -36,7 +36,7 @@ ms.locfileid: "105655240"
 | Частота обновления  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.67                |
 | System-ID — GUID    | bf9679ae-0de6-11d0-a285-00aa003049e2 |
-| Синтаксис            | [**Пределах**](s-interval.md)       |
+| Синтаксис            | [**Интервал**](s-interval.md)       |
 
 
 
@@ -58,7 +58,7 @@ ms.locfileid: "105655240"
 | Идентификатор ссылки                | \-                                           |
 | MAPI-Id                | \-                                           |
 | System-Only            | Неверно                                        |
-| Является однозначным       | True                                         |
+| Является однозначным       | Верно                                         |
 | Индексируется             | Неверно                                        |
 | В глобальном каталоге      | Неверно                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                 |
@@ -79,7 +79,7 @@ ms.locfileid: "105655240"
 | Идентификатор ссылки                | \-                                           |
 | MAPI-Id                | \-                                           |
 | System-Only            | Неверно                                        |
-| Является однозначным       | True                                         |
+| Является однозначным       | Верно                                         |
 | Индексируется             | Неверно                                        |
 | В глобальном каталоге      | Неверно                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                 |
@@ -100,7 +100,7 @@ ms.locfileid: "105655240"
 | Идентификатор ссылки                | \-                                           |
 | MAPI-Id                | \-                                           |
 | System-Only            | Неверно                                        |
-| Является однозначным       | True                                         |
+| Является однозначным       | Верно                                         |
 | Индексируется             | Неверно                                        |
 | В глобальном каталоге      | Неверно                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                 |
@@ -121,7 +121,7 @@ ms.locfileid: "105655240"
 | Идентификатор ссылки                | \-                                           |
 | MAPI-Id                | \-                                           |
 | System-Only            | Неверно                                        |
-| Является однозначным       | True                                         |
+| Является однозначным       | Верно                                         |
 | Индексируется             | Неверно                                        |
 | В глобальном каталоге      | Неверно                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                 |
@@ -142,7 +142,7 @@ ms.locfileid: "105655240"
 | Идентификатор ссылки                | \-                                           |
 | MAPI-Id                | \-                                           |
 | System-Only            | Неверно                                        |
-| Является однозначным       | True                                         |
+| Является однозначным       | Верно                                         |
 | Индексируется             | Неверно                                        |
 | В глобальном каталоге      | Неверно                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                 |
@@ -163,7 +163,7 @@ ms.locfileid: "105655240"
 | Идентификатор ссылки                | \-                                           |
 | MAPI-Id                | \-                                           |
 | System-Only            | Неверно                                        |
-| Является однозначным       | True                                         |
+| Является однозначным       | Верно                                         |
 | Индексируется             | Неверно                                        |
 | В глобальном каталоге      | Неверно                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                 |

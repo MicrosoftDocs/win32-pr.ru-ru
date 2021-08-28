@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 07/27/2020
-ms.openlocfilehash: 25596f30457063bc90124f14489963507f85ff70
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5458a9acfa6c166764b47a2d49a5ddcc181e38ee
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698822"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482180"
 ---
 # <a name="wm_syscommand-message"></a>\_Сообщение СИСКОММАНД WM
 
@@ -43,7 +43,7 @@ ms.locfileid: "105698822"
         break;
 
 ```
-Пример из [классической выборки Windows](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/winbase/registry/RegExplorer.c) на сайте GitHub.
+пример из [Windows классических примеров](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/winbase/registry/RegExplorer.c) на GitHub.
 
 ## <a name="parameters"></a>Параметры
 
@@ -56,101 +56,29 @@ ms.locfileid: "105698822"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Значение</th>
-<th>Значение</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="SC_CLOSE"></span><span id="sc_close"></span><dl> <dt><strong>SC_CLOSE</strong></dt> <dt>0xF060</dt> </dl></td>
-<td>Закрывает окно.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SC_CONTEXTHELP"></span><span id="sc_contexthelp"></span><dl> <dt><strong>SC_CONTEXTHELP</strong></dt> <dt>0xF180</dt> </dl></td>
-<td>Изменяет курсор на вопросительный знак с помощью указателя. Если пользователь щелкает элемент управления в диалоговом окне, элемент управления получает <a href="/windows/desktop/shell/wm-help"><strong>WM_HELP</strong></a> сообщение.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="SC_DEFAULT"></span><span id="sc_default"></span><dl> <dt><strong>SC_DEFAULT</strong></dt> <dt>0xF160</dt> </dl></td>
-<td>Выбирает элемент по умолчанию; пользователь дважды щелкнул меню окно.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SC_HOTKEY"></span><span id="sc_hotkey"></span><dl> <dt><strong>SC_HOTKEY</strong></dt> <dt>0xF150</dt> </dl></td>
-<td>Активирует окно, связанное с заданной приложением горячей клавишей. Параметр <em>lParam</em> определяет окно для активации.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="SC_HSCROLL"></span><span id="sc_hscroll"></span><dl> <dt><strong>SC_HSCROLL</strong></dt> <dt>0xF080</dt> </dl></td>
-<td>Выполняет прокрутку по горизонтали.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SCF_ISSECURE"></span><span id="scf_issecure"></span><dl> <dt><strong>SCF_ISSECURE</strong></dt> <dt>0x00000001</dt> </dl></td>
-<td>Указывает, является ли экранная заставка безопасной. <br/></td>
-</tr>
-<tr class="odd">
-<td><span id="SC_KEYMENU"></span><span id="sc_keymenu"></span><dl> <dt><strong>SC_KEYMENU</strong></dt> <dt>0xF100</dt> </dl></td>
-<td>Извлекает меню окна в результате нажатия клавиши. Дополнительные сведения см. в разделе "Замечания".<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SC_MAXIMIZE"></span><span id="sc_maximize"></span><dl> <dt><strong>SC_MAXIMIZE</strong></dt> <dt>0xF030</dt> </dl></td>
-<td>Разворачивает окно.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="SC_MINIMIZE"></span><span id="sc_minimize"></span><dl> <dt><strong>SC_MINIMIZE</strong></dt> <dt>0xF020</dt> </dl></td>
-<td>Сворачивает окно.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SC_MONITORPOWER"></span><span id="sc_monitorpower"></span><dl> <dt><strong>SC_MONITORPOWER</strong></dt> <dt>0xF170</dt> </dl></td>
-<td>Задает состояние отображения. Эта команда поддерживает устройства с функциями энергосбережения, такими как персональный компьютер с питанием от аккумулятора. <br/> Параметр <em>lParam</em> может иметь следующие значения:<br/>
-<ul>
-<li>-1 (при включении дисплея)</li>
-<li>1 (дисплей переходит в низкую степень)</li>
-<li>2 (отображение завершается)</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><span id="SC_MOUSEMENU"></span><span id="sc_mousemenu"></span><dl> <dt><strong>SC_MOUSEMENU</strong></dt> <dt>0xF090</dt> </dl></td>
-<td>Извлекает меню окна в результате щелчка мышью.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SC_MOVE"></span><span id="sc_move"></span><dl> <dt><strong>SC_MOVE</strong></dt> <dt>0xF010</dt> </dl></td>
-<td>Перемещает окно.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="SC_NEXTWINDOW"></span><span id="sc_nextwindow"></span><dl> <dt><strong>SC_NEXTWINDOW</strong></dt> <dt>0xF040</dt> </dl></td>
-<td>Переход к следующему окну.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SC_PREVWINDOW"></span><span id="sc_prevwindow"></span><dl> <dt><strong>SC_PREVWINDOW</strong></dt> <dt>0xF050</dt> </dl></td>
-<td>Переход к предыдущему окну.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="SC_RESTORE"></span><span id="sc_restore"></span><dl> <dt><strong>SC_RESTORE</strong></dt> <dt>0xF120</dt> </dl></td>
-<td>Восстанавливает нормальное расположение и размер окна.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SC_SCREENSAVE"></span><span id="sc_screensave"></span><dl> <dt><strong>SC_SCREENSAVE</strong></dt> <dt>0xF140</dt> </dl></td>
-<td>Выполняет приложение экранной заставки, указанное в разделе [boot] файла System.ini.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="SC_SIZE"></span><span id="sc_size"></span><dl> <dt><strong>SC_SIZE</strong></dt> <dt>число 0xF000 не</dt> </dl></td>
-<td>Изменяет размер окна.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SC_TASKLIST"></span><span id="sc_tasklist"></span><dl> <dt><strong>SC_TASKLIST</strong></dt> <dt>0xF130</dt> </dl></td>
-<td>Активирует меню " <strong>Пуск</strong> ".<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="SC_VSCROLL"></span><span id="sc_vscroll"></span><dl> <dt><strong>SC_VSCROLL</strong></dt> <dt>0xF070</dt> </dl></td>
-<td>Прокрутка по вертикали.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Значение | Значение | 
+|-------|---------|
+| <span id="SC_CLOSE"></span><span id="sc_close"></span><dl><dt><strong>SC_CLOSE</strong></dt><dt>0xF060</dt></dl> | Закрывает окно.<br /> | 
+| <span id="SC_CONTEXTHELP"></span><span id="sc_contexthelp"></span><dl><dt><strong>SC_CONTEXTHELP</strong></dt><dt>0xF180</dt></dl> | Изменяет курсор на вопросительный знак с помощью указателя. Если пользователь щелкает элемент управления в диалоговом окне, элемент управления получает <a href="/windows/desktop/shell/wm-help"><strong>WM_HELP</strong></a> сообщение.<br /> | 
+| <span id="SC_DEFAULT"></span><span id="sc_default"></span><dl><dt><strong>SC_DEFAULT</strong></dt><dt>0xF160</dt></dl> | Выбирает элемент по умолчанию; пользователь дважды щелкнул меню окно.<br /> | 
+| <span id="SC_HOTKEY"></span><span id="sc_hotkey"></span><dl><dt><strong>SC_HOTKEY</strong></dt><dt>0xF150</dt></dl> | Активирует окно, связанное с заданной приложением горячей клавишей. Параметр <em>lParam</em> определяет окно для активации.<br /> | 
+| <span id="SC_HSCROLL"></span><span id="sc_hscroll"></span><dl><dt><strong>SC_HSCROLL</strong></dt><dt>0xF080</dt></dl> | Выполняет прокрутку по горизонтали.<br /> | 
+| <span id="SCF_ISSECURE"></span><span id="scf_issecure"></span><dl><dt><strong>SCF_ISSECURE</strong></dt><dt>0x00000001</dt></dl> | Указывает, является ли экранная заставка безопасной. <br /> | 
+| <span id="SC_KEYMENU"></span><span id="sc_keymenu"></span><dl><dt><strong>SC_KEYMENU</strong></dt><dt>0xF100</dt></dl> | Извлекает меню окна в результате нажатия клавиши. Дополнительные сведения см. в разделе "Замечания".<br /> | 
+| <span id="SC_MAXIMIZE"></span><span id="sc_maximize"></span><dl><dt><strong>SC_MAXIMIZE</strong></dt><dt>0xF030</dt></dl> | Разворачивает окно.<br /> | 
+| <span id="SC_MINIMIZE"></span><span id="sc_minimize"></span><dl><dt><strong>SC_MINIMIZE</strong></dt><dt>0xF020</dt></dl> | Сворачивает окно.<br /> | 
+| <span id="SC_MONITORPOWER"></span><span id="sc_monitorpower"></span><dl><dt><strong>SC_MONITORPOWER</strong></dt><dt>0xF170</dt></dl> | Задает состояние отображения. Эта команда поддерживает устройства с функциями энергосбережения, такими как персональный компьютер с питанием от аккумулятора. <br /> Параметр <em>lParam</em> может иметь следующие значения:<br /><ul><li>-1 (при включении дисплея)</li><li>1 (дисплей переходит в низкую степень)</li><li>2 (отображение завершается)</li></ul> | 
+| <span id="SC_MOUSEMENU"></span><span id="sc_mousemenu"></span><dl><dt><strong>SC_MOUSEMENU</strong></dt><dt>0xF090</dt></dl> | Извлекает меню окна в результате щелчка мышью.<br /> | 
+| <span id="SC_MOVE"></span><span id="sc_move"></span><dl><dt><strong>SC_MOVE</strong></dt><dt>0xF010</dt></dl> | Перемещает окно.<br /> | 
+| <span id="SC_NEXTWINDOW"></span><span id="sc_nextwindow"></span><dl><dt><strong>SC_NEXTWINDOW</strong></dt><dt>0xF040</dt></dl> | Переход к следующему окну.<br /> | 
+| <span id="SC_PREVWINDOW"></span><span id="sc_prevwindow"></span><dl><dt><strong>SC_PREVWINDOW</strong></dt><dt>0xF050</dt></dl> | Переход к предыдущему окну.<br /> | 
+| <span id="SC_RESTORE"></span><span id="sc_restore"></span><dl><dt><strong>SC_RESTORE</strong></dt><dt>0xF120</dt></dl> | Восстанавливает нормальное расположение и размер окна.<br /> | 
+| <span id="SC_SCREENSAVE"></span><span id="sc_screensave"></span><dl><dt><strong>SC_SCREENSAVE</strong></dt><dt>0xF140</dt></dl> | Выполняет приложение экранной заставки, указанное в разделе [boot] файла System.ini.<br /> | 
+| <span id="SC_SIZE"></span><span id="sc_size"></span><dl><dt><strong>SC_SIZE</strong></dt><dt>число 0xF000 не</dt></dl> | Изменяет размер окна.<br /> | 
+| <span id="SC_TASKLIST"></span><span id="sc_tasklist"></span><dl><dt><strong>SC_TASKLIST</strong></dt><dt>0xF130</dt></dl> | Активирует меню " <strong>Пуск</strong> ".<br /> | 
+| <span id="SC_VSCROLL"></span><span id="sc_vscroll"></span><dl><dt><strong>SC_VSCROLL</strong></dt><dt>0xF070</dt></dl> | Прокрутка по вертикали.<br /> | 
+
 
 
 
@@ -205,11 +133,11 @@ yPos = GET_Y_LPARAM(lParam);    // vertical position
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

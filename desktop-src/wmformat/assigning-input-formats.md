@@ -13,12 +13,12 @@ keywords:
 - кодеки, назначения формата ввода
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c6ad1bcdf161b335d9367d7de4df84b7eb2e6ea
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: f6f87ec74bc5d3750d65ecc91e2df4640a6ed02c9e9a9425b27897e70f825983
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104532957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840334"
 ---
 # <a name="assigning-input-formats"></a>Назначение форматов входных данных
 
@@ -107,16 +107,16 @@ Exit:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Работа с входными данными**](working-with-inputs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

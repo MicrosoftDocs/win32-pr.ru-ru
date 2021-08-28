@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4b4667594a4b4eeaf9e533338411b79810fee5eb
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: f5d4d88b0733c44981cece8124bbffa78a6233fec21c038d66c0c247a8c1fe9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104987374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120095234"
 ---
 # <a name="samplecmpsamplecmpsfloatfloatintfloatuint-function-for-texture2d"></a>Функция Самплекмп:: Самплекмп (S, float, float, int, float, uint) для Texture2D
 
@@ -98,7 +98,7 @@ DXGI_FORMAT SampleCmp(
 | Texture1D, Texture1DArray     | INT            |
 | Texture2D, Texture2DArray     | int2           |
 | Texture3D                     | int3           |
-| Текстурекубе, Текстурекубеаррай | не поддерживается  |
+| Текстурекубе, Текстурекубеаррай | Не поддерживается  |
 
 
 
@@ -130,7 +130,7 @@ DXGI_FORMAT SampleCmp(
 
 Формат текстуры, который является одним из типизированных значений, перечисленных в [**\_ формате DXGI**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

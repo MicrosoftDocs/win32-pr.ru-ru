@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5e1651f90b8ad1afca8f85f9dd2e6f10fc7f5c3
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 7a581d4173ed16423ac55e82d3dde356bad1e310047dd44d8f92fded0c6f458e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104414220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005934"
 ---
 # <a name="heap"></a>Куча
 
@@ -30,7 +30,7 @@ ms.locfileid: "104414220"
 
 Выделение нулевого байта вернет непустой указатель.
 
-В Windows 7, если Пажехеап включен, для управления памятью используется куча, возвращенная из Хеапкреате. В этом случае [**всаллок**](/windows/desktop/api/WebServices/nf-webservices-wsalloc) сопоставляется напрямую с хеапаллок, а [**Всресесеап**](/windows/desktop/api/WebServices/nf-webservices-wsresetheap) — с хеапдестрой.
+в Windows 7, если включен параметр пажехеап, для управления памятью используется куча, возвращенная из хеапкреате. В этом случае [**всаллок**](/windows/desktop/api/WebServices/nf-webservices-wsalloc) сопоставляется напрямую с хеапаллок, а [**Всресесеап**](/windows/desktop/api/WebServices/nf-webservices-wsresetheap) — с хеапдестрой.
 
 В куче используется следующее перечисление:
 

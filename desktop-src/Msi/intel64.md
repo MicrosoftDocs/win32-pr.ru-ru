@@ -4,16 +4,16 @@ ms.assetid: 827036dd-3b42-40dc-9fa5-8b3a72a2e5b1
 title: Intel64, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c2a4b71550a07fec38daac271b4a1263b2de8bf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d16f3d92c8b9054e221562a24d8413017b7836870e989a2b2f54687fdc4fc643
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996474"
 ---
 # <a name="intel64-property"></a>Intel64, свойство
 
-Свойство **Intel64** определяется только в том случае, если оно работает на процессоре Itanium. Значение задается установщик Windows для числового уровня процессора. Это свойство не задано при выполнении на 64-разрядном расширенном процессоре. Дополнительные сведения см. в статье о свойстве [**Intel**](intel.md) .
+Свойство **Intel64** определяется только в том случае, если оно работает на процессоре Itanium. значение задается установщик Windows для числового уровня процессора. Это свойство не задано при выполнении на 64-разрядном расширенном процессоре. Дополнительные сведения см. в статье о свойстве [**Intel**](intel.md) .
 
 ## <a name="requirements"></a>Требования
 
@@ -21,7 +21,7 @@ ms.locfileid: "105689166"
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

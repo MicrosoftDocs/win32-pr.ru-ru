@@ -3,7 +3,7 @@ title: Элемент ScalingPolicy
 description: Представляет контейнер для спецификаций масштабирования.
 ms.assetid: 133e7994-9901-43e8-82b0-3d910cf8758e
 keywords:
-- Лента Windows для элемента Скалингполици
+- элемент скалингполици Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 812256b0ff329073eb516c6ab2eb7501db8de40d
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 202112a24a74c9b20d429910fd0ee9447002ce7f2cb95133165fb968eaaf4f69
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120007474"
 ---
 # <a name="scalingpolicy-element"></a>Элемент ScalingPolicy
 
@@ -144,12 +144,12 @@ ms.locfileid: "111444995"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-- **Минимальная поддерживаемая система**: Windows 7 
+- **минимальная поддерживаемая система**: Windows 7 
 - **Может быть пустым**: нет
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

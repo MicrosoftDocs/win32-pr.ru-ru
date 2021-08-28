@@ -4,12 +4,12 @@ description: Использование суррогата System-Supplied
 ms.assetid: 6709e5e2-50e0-470f-b618-3d3043f6e180
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 444cb94c5564a78ec5580ae8e7f781e91a8a9c15
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e0faec7c57f0e2010d0e817a4e44b81d65ad207371b591296bea2354307c7b80
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104332480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119243434"
 ---
 # <a name="using-the-system-supplied-surrogate"></a>Использование суррогата System-Supplied
 
@@ -21,16 +21,16 @@ ms.locfileid: "104332480"
 
 Предоставляемый системой суррогат будет прекрасно работать для большинства разработчиков, а также очень удобен в использовании. Однако разработчики с особыми соображениями могут решить, что необходим пользовательский суррогат. Дополнительные сведения см. [в разделе Написание пользовательского суррогата](writing-a-custom-surrogate.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Суррогаты библиотеки DLL](dll-surrogates.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

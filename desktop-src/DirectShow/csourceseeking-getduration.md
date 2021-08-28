@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3d5b961ad62d65c1f728af71e82de1373ea20b1f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d8520b39ca62d70152b544e8ae2f146a237c388d93e4786bb13371ad223fa73f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084044"
 ---
 # <a name="csourceseekinggetduration-method"></a>Ксаурцесикинг. метод Duration
 
@@ -57,7 +57,7 @@ HRESULT GetDuration(
 
 | Код возврата                                                                               | Описание                       |
 |-------------------------------------------------------------------------------------------|-----------------------------------|
-| <dl> <dt>**\_ОК**</dt> </dl>      | Успешное завершение<br/>                |
+| <dl> <dt>**\_ОК**</dt> </dl>      | Success<br/>                |
 | <dl> <dt>**\_указатель E**</dt> </dl> | Значение указателя **null**<br/> |
 
 
@@ -68,13 +68,13 @@ HRESULT GetDuration(
 
 Длительность задается переменной-членом [**ксаурцесикинг:: m \_ ртдуратион**](csourceseeking-m-rtduration.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ктлутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

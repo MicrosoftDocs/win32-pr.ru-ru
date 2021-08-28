@@ -4,12 +4,12 @@ ms.assetid: 08f68d1c-c226-4bf6-abd0-fce0f9ddbc05
 title: Windows Декодер Media Video 9 (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b251b46c94ef88283577dbd8268c3275d8ed6aab9321c98e115a42501e2729ed
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: df973e78f69e1f1ff0e649b2c4f5637380be9f27
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118237266"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474310"
 ---
 # <a name="windows-media-video-9-decoder"></a>Windows Декодер Media Video 9
 
@@ -96,86 +96,24 @@ ms.locfileid: "118237266"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Свойство</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mfpkey-decoder-deinterlacingproperty.md">MFPKEY_DECODER_DEINTERLACING</a></td>
-<td>Указывает, будет ли кодек декодировать чередующиеся видеокадры из сжатого потока в виде прогрессивных кадров.<br/> <dl> Windows XP и более поздних версий.<br />
-Простой профиль, основной профиль, расширенный профиль.<br />
-Read/write.<br />
-</dl></td>
-</tr>
-<tr class="even">
-<td><a href="mfpkey-dxva-enabledproperty.md">MFPKEY_DXVA_ENABLED</a></td>
-<td>Указывает, будет ли декодер использовать аппаратное ускорение DirectX Video, если оно доступно.<br/> <dl> Windows XP и более поздних версий.<br />
-Простой профиль, основной профиль, расширенный профиль.<br />
-Доступный только на запись.<br />
-</dl></td>
-</tr>
-<tr class="odd">
-<td><a href="mfpkey-avdecvideoswpowerlevelproperty.md">MFPKEY_AVDecVideoSWPowerLevel</a></td>
-<td>Задает уровень питания для декодера.<br/> <dl> Windows 7.<br />
-Простой профиль, основной профиль, расширенный профиль, изображение.<br />
-Read/write.<br />
-</dl></td>
-</tr>
-<tr class="even">
-<td><a href="mfpkey-fi-enabledproperty.md">MFPKEY_FI_ENABLED</a></td>
-<td>Указывает, следует ли декодеру использовать интерполяцию кадров.<br/> <dl> Windows XP и более поздних версий.<br />
-Простой профиль, основной профиль, расширенный профиль, изображение.<br />
-Доступный только на запись.<br />
-</dl></td>
-</tr>
-<tr class="odd">
-<td><a href="mfpkey-fi-supportedproperty.md">MFPKEY_FI_SUPPORTED</a></td>
-<td>Указывает, поддерживает ли декодер интерполяцию кадров.<br/> <dl> Windows XP и более поздних версий.<br />
-Простой профиль, основной профиль, расширенный профиль, изображение<br />
-Только для чтения.<br />
-</dl></td>
-</tr>
-<tr class="even">
-<td><a href="mfpkey-numthreadsdecproperty.md">MFPKEY_NUMTHREADSDEC</a></td>
-<td>Указывает число потоков, которые будет использовать декодер.<br/> <dl> Windows Vista и более поздних версий.<br />
-Простой профиль, основной профиль, расширенный профиль, изображение.<br />
-Read/write.<br />
-</dl></td>
-</tr>
-<tr class="odd">
-<td><a href="mfpkey-postprocessmodeproperty.md">MFPKEY_POSTPROCESSMODE</a></td>
-<td>Задает режим обработки, выполняемый для декодера.<br/> <dl> Windows Vista и более поздних версий.<br />
-Простой профиль, основной профиль, расширенный профиль, изображение.<br />
-Доступный только на запись.<br />
-</dl></td>
-</tr>
-<tr class="even">
-<td><strong>g_wszWMVCNeedsDrain</strong></td>
-<td>Указывает, следует ли сливировать декодер.<br/> <dl> Windows 8<br />
-Только для чтения.<br />
-</dl> это свойство используется средой выполнения Windows Media Format. Тип свойства — <strong>VARIANT_BOOL</strong>. Если значение равно <strong>VARIANT_TRUE</strong>, декодер должен быть остановлен после небесперебойности. Дополнительные сведения о стоке MFT см. в разделе <a href="basic-mft-processing-model.md">Базовая модель обработки MFT</a>.<br/>
-<blockquote>
-[!Note]<br />
-Чтобы запросить это свойство, используйте интерфейс <a href="/windows/desktop/com/ipropertybag-and-ipersistpropertybag"><strong>ипропертибаг</strong></a> .
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Свойство | Описание | 
+|----------|-------------|
+| <a href="mfpkey-decoder-deinterlacingproperty.md">MFPKEY_DECODER_DEINTERLACING</a> | Указывает, будет ли кодек декодировать чередующиеся видеокадры из сжатого потока в виде прогрессивных кадров.<br /><dl> Windows XP и более поздних версий.<br />Простой профиль, основной профиль, расширенный профиль.<br />Read/write.<br /></dl> | 
+| <a href="mfpkey-dxva-enabledproperty.md">MFPKEY_DXVA_ENABLED</a> | Указывает, будет ли декодер использовать аппаратное ускорение DirectX Video, если оно доступно.<br /><dl> Windows XP и более поздних версий.<br />Простой профиль, основной профиль, расширенный профиль.<br />Доступный только на запись.<br /></dl> | 
+| <a href="mfpkey-avdecvideoswpowerlevelproperty.md">MFPKEY_AVDecVideoSWPowerLevel</a> | Задает уровень питания для декодера.<br /><dl> Windows 7.<br />Простой профиль, основной профиль, расширенный профиль, изображение.<br />Read/write.<br /></dl> | 
+| <a href="mfpkey-fi-enabledproperty.md">MFPKEY_FI_ENABLED</a> | Указывает, следует ли декодеру использовать интерполяцию кадров.<br /><dl> Windows XP и более поздних версий.<br />Простой профиль, основной профиль, расширенный профиль, изображение.<br />Доступный только на запись.<br /></dl> | 
+| <a href="mfpkey-fi-supportedproperty.md">MFPKEY_FI_SUPPORTED</a> | Указывает, поддерживает ли декодер интерполяцию кадров.<br /><dl> Windows XP и более поздних версий.<br />Простой профиль, основной профиль, расширенный профиль, изображение<br />Только для чтения.<br /></dl> | 
+| <a href="mfpkey-numthreadsdecproperty.md">MFPKEY_NUMTHREADSDEC</a> | Указывает число потоков, которые будет использовать декодер.<br /><dl> Windows Vista и более поздних версий.<br />Простой профиль, основной профиль, расширенный профиль, изображение.<br />Read/write.<br /></dl> | 
+| <a href="mfpkey-postprocessmodeproperty.md">MFPKEY_POSTPROCESSMODE</a> | Задает режим обработки, выполняемый для декодера.<br /><dl> Windows Vista и более поздних версий.<br />Простой профиль, основной профиль, расширенный профиль, изображение.<br />Доступный только на запись.<br /></dl> | 
+| <strong>g_wszWMVCNeedsDrain</strong> | Указывает, следует ли сливировать декодер.<br /><dl> Windows 8<br />Только для чтения.<br /></dl> это свойство используется средой выполнения Windows Media Format. Тип свойства — <strong>VARIANT_BOOL</strong>. Если значение равно <strong>VARIANT_TRUE</strong>, декодер должен быть остановлен после небесперебойности. Дополнительные сведения о стоке MFT см. в разделе <a href="basic-mft-processing-model.md">Базовая модель обработки MFT</a>.<br /><blockquote>[!Note]<br />Чтобы запросить это свойство, используйте интерфейс <a href="/windows/desktop/com/ipropertybag-and-ipersistpropertybag"><strong>ипропертибаг</strong></a> .</blockquote><br /> | 
+
 
 
 
  
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 максимальное разрешение, разрешенное декодером Windows Media Video 9, — 4096x4096.
 
@@ -186,12 +124,12 @@ Read/write.<br />
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Клиент<br/> | Windows XP, Windows Vista или Windows 7<br/>                                       |
-| Header<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 | DLL<br/>    | <dl> <dt>Wmvdecod.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также статью
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,24 +4,24 @@ ms.assetid: 72a77e83-ab18-438c-af11-fa6d55bf0180
 title: Администратор совместимости
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c735154115fb649d6c6d6b710709ce77c9e0b4e
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 504378dd4998118e0189a40d978b5649a0bc0215e88ff660d7cdafa6edf7602c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098544"
 ---
 # <a name="compatibility-administrator"></a>Администратор совместимости
 
 ## <a name="affected-platforms"></a>Затронутые платформы
 
- **Клиенты:** Windows 2000, Windows XP, Windows Vista, Windows 7  
-**Серверы:** Windows Server 2003, Windows Server 2008, Windows Server 2008 R2  
+ **клиенты:** Windows 2000, Windows XP, Windows Vista, Windows 7  
+**серверы:** Windows server 2003, Windows server 2008, Windows server 2008 R2  
 
 
 ## <a name="description"></a>Описание
 
-Средство администрирования совместимости, предоставляемое набором средств для обеспечения совместимости приложений (ACT), позволяет устранить многие потенциальные проблемы совместимости приложений перед развертыванием новой версии Windows в Организации.
+средство администрирования совместимости, предоставляемое набор средств совместимости приложений (акт), позволяет устранить многие потенциальные проблемы совместимости приложений перед развертыванием новой версии Windows в организации.
 
 -   Предоставление отдельных исправлений совместимости, режимов совместимости и сообщений AppHelp, которые можно использовать для устранения определенных проблем совместимости
 -   Позволяет создавать настраиваемые исправления совместимости, режимы совместимости, сообщения AppHelp и базы данных совместимости.
@@ -43,7 +43,7 @@ ms.locfileid: "111443945"
 
 ## <a name="links-to-other-resources"></a>Ссылки на другие ресурсы
 
--   [Загрузка набора средств для обеспечения совместимости приложений](/windows-hardware/get-started/adk-install)
+-   [загрузка набор средств совместимости приложений](/windows-hardware/get-started/adk-install)
 -   [Использование администратора совместимости](/previous-versions/windows/it-pro/windows-7/cc749034(v=ws.10))
 -   [Известные исправления совместимости, режимы совместимости и сообщения AppHelp](/previous-versions/windows/it-pro/windows-7/cc765984(v=ws.10))
 -   [Тестирование и устранение проблем с помощью средств разработки](/previous-versions/orphan-topics/ws.10/cc766461(v=ws.10))

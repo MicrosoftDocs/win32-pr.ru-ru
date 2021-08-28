@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: d4878774a01016f52c25574b49cd8b8669bc6691
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 40eab8fa294a8b3843dfff471369a725c8875320
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105710623"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622320"
 ---
 # <a name="span-idvspixengineissuespanissue-structure"></a><span id="vspixengine.issue"></span>Структура проблемы
 
@@ -35,7 +35,7 @@ ms.locfileid: "105710623"
 } Issue;
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 
 **Описание**  
 Строка COM, содержащая описание проблемы.
@@ -46,12 +46,12 @@ ms.locfileid: "105710623"
 **Идентификатор**  
 Идентификатор проблемы.
 
-**Аль**  
+**EID**  
 Идентификатор связанного события.
 
 ## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

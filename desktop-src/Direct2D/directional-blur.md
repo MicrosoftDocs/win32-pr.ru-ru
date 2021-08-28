@@ -6,12 +6,12 @@ keywords:
 - Размытие по направлению
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0e1c098d17929563cf69f4e61416fa0d93a88dd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a2a43dcaa60f8627473444572ec36a13c3949e9430c9befbb5c064b51d7813bc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119260442"
 ---
 # <a name="directional-blur-effect"></a>Эффект размытия по направлению
 
@@ -24,8 +24,8 @@ ms.locfileid: "103801042"
 -   [Режимы оптимизации](#optimization-modes)
 -   [Режимы границ](#border-modes)
 -   [Битовая карта вывода](#output-bitmap)
--   [Требования](#requirements)
--   [См. также](#related-topics)
+-   [Requirements](#requirements)
+-   [Связанные темы](#related-topics)
 
 ## <a name="example-image"></a>Пример изображения
 
@@ -113,14 +113,14 @@ m_d2dContext->EndDraw();
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента | Windows 8 и обновление платформы для \[ классических приложений Windows 7 \| приложения для Магазина Windows\] |
-| Минимальная версия сервера | Windows 8 и обновление платформы для \[ классических приложений Windows 7 \| приложения для Магазина Windows\] |
+| Минимальная версия клиента | Windows 8 и обновление платформы для Windows 7 \[ классических приложений \| Windows приложения магазина\] |
+| Минимальная версия сервера | Windows 8 и обновление платформы для Windows 7 \[ классических приложений \| Windows приложения магазина\] |
 | Header                   | d2d1effects. h                                                                      |
 | Библиотека                  | D2D1. lib, дксгуид. lib                                                               |
 
@@ -128,7 +128,7 @@ m_d2dContext->EndDraw();
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

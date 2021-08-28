@@ -4,12 +4,12 @@ ms.assetid: caa72465-c146-4bdc-a66f-325cf4487866
 title: Операторы XMVECTORU8
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e42fa97b407714ca88b3ea9a0da769726db7dd6f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce443ff1aea35d4e2e03c11587848093408a9dc13e05854a566a02fa9c540141
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119841354"
 ---
 # <a name="xmvectoru8-operators"></a>Операторы XMVECTORU8
 
@@ -26,14 +26,14 @@ ms.locfileid: "104155459"
 
 | Методы                                                              | Описание                                                                                                                                                                                                                                                                                             |
 |----------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Оператор \_ \_ m128i**](/previous-versions/windows/desktop/legacy/ee421373(v=vs.85))<br/> | Возвращает объект, реализующий текущий экземпляр [**XMVECTORU8**](xmvectoru8-data-type.md) CAST в экземпляре [ \_ \_ m128i](/cpp/cpp/m128i) \[ системы Windows, поддерживающей только [SSE](/previous-versions/visualstudio/visual-studio-2010/t467de55(v=vs.100))\]<br/> |
+| [**Оператор \_ \_ m128i**](/previous-versions/windows/desktop/legacy/ee421373(v=vs.85))<br/> | возвращает объект, реализующий текущий экземпляр [**XMVECTORU8**](xmvectoru8-data-type.md) cast в экземпляре [ \_ \_ m128i](/cpp/cpp/m128i) \[ Windows systems, поддерживающих только [SSE](/previous-versions/visualstudio/visual-studio-2010/t467de55(v=vs.100))\]<br/> |
 | [**Оператор КСМВЕКТОР**](/previous-versions/windows/desktop/legacy/ee421374(v=vs.85))<br/> | Возвращает экземпляр, `XMVECTOR` реализующий текущий экземпляр `XMVECTORU8` .<br/>                                                                                                                                                                                                        |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

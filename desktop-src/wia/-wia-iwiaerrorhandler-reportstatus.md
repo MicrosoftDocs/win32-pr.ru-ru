@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 30a082502d4c7bc5b789fd1ec19fdb76f63d8fab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6604dc8dbf0cad5f31449ff3cc30945c1e6059727d513fa98dbf436eb199f70f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119659754"
 ---
 # <a name="iwiaerrorhandlerreportstatus-method"></a>Метод Ивиаеррорхандлер:: Репортстатус
 
@@ -56,9 +56,9 @@ HRESULT ReportStatus(
 *пункитем* \[ окне\]
 </dt> <dd>
 
-Тип: **[IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) \** _
+Тип: **[IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)\***
 
-Указатель на интерфейс [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) переносимого элемента. Этот объект минимальное реализует [_ *IWiaItem2* *](-wia-iwiaitem2.md) и [**ивиадататрансфер**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer).
+Указатель на интерфейс [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) переносимого элемента. Этот объект минимальное реализует [**IWiaItem2**](-wia-iwiaitem2.md) и [**ивиадататрансфер**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer).
 
 </dd> <dt>
 
@@ -83,9 +83,9 @@ HRESULT ReportStatus(
 *pbData* \[ окне\]
 </dt> <dd>
 
-Тип: **Byte \** _
+Тип: **Byte \***
 
-Указатель на буфер данных, полученный с помощью [_ *бандеддатакаллбакк* *](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback).
+Указатель на буфер данных, полученный [**бандеддатакаллбакк**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback).
 
 </dd> </dl>
 
@@ -107,23 +107,23 @@ HRESULT ReportStatus(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Получение образа Windows (WIA) 2,0 вызывает **ивиаеррорхандлер:: репортстатус** , когда драйвер отправляет сообщение **\_ \_ \_ о состоянии устройства MSG** в [**бандеддатакаллбакк**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback). Этот метод обрабатывает сообщение и отображает сведения о состоянии или ошибке для пользователя. Если сообщение относится к ошибке, метод позволяет пользователю выбрать, если возможно, попытаться выполнить восстановление после ошибки и продолжить перемещение или прервать его.
+Windows Получение образа (WIA) 2,0 вызывает **ивиаеррорхандлер:: репортстатус** , когда драйвер отправляет сообщение **\_ \_ \_ о состоянии устройства Message MSG** в [**бандеддатакаллбакк**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback). Этот метод обрабатывает сообщение и отображает сведения о состоянии или ошибке для пользователя. Если сообщение относится к ошибке, метод позволяет пользователю выбрать, если возможно, попытаться выполнить восстановление после ошибки и продолжить перемещение или прервать его.
 
 для *хрстатус* задано значение " \_ Перенос состояния WIA \_ \_ " начинается с уведомления обработчика о начале передачи. \_ \_ После завершения перемещения для него задается состояние WIA \_ .
 
 Если *хрстатус* имеет серьезность \_ успеха, пользователю следует разрешить отменять перемещение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                         |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                   |
-| Header<br/>                   | <dl> <dt>WIA. h</dt> </dl>       |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                   |
+| Заголовок<br/>                   | <dl> <dt>WIA. h</dt> </dl>       |
 | IDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl>     |
 | Библиотека<br/>                  | <dl> <dt>Виагуид. lib</dt> </dl> |
 

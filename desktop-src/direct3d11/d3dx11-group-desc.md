@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 431daf0a14a465ee3533f1497278ddcd85b08a79
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a189417b997647fd9c48a55010e96b32053c64031a03a8ac845e48c9a8e870a6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104081946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096314"
 ---
 # <a name="d3dx11_group_desc-structure"></a>\_ \_ Структура DESC группы D3DX11
 
@@ -38,11 +38,11 @@ typedef struct _D3DX11_GROUP_DESC {
 
 
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 <dl> <dt>
 
-**имя**;
+**Имя**
 </dt> <dd>
 
 Тип: **[ **LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
@@ -75,21 +75,21 @@ typedef struct _D3DX11_GROUP_DESC {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 D3DX11 \_ Group \_ DESC используется с [**ID3DX11EffectTechnique:: DESC**](id3dx11effecttechnique-getdesc.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx11effect. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx11effect. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

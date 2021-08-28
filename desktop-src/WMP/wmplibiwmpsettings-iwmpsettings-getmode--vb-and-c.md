@@ -3,9 +3,9 @@ title: Ивмпсеттингс, метод
 description: Метод метода мода возвращает значение, указывающее, активен ли режим "цикл" или "случайный".
 ms.assetid: a2e4bf74-017f-4c54-a3a1-a03b75a87a59
 keywords:
-- метод мода проигрыватель Windows Media
-- метод onmode проигрыватель Windows Media Player, интерфейс Ивмпсеттингс
-- Интерфейс Ивмпсеттингс Windows Media Player, методического режима
+- метод в режиме проигрыватель Windows Media
+- метод проигрыватель Windows Media, интерфейс ивмпсеттингс
+- интерфейс ивмпсеттингс проигрыватель Windows Media, методического режима
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 229cacf629410f958a062615cd5feb22be2ab0d0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fae5d910dbbdf1fc2241a63dcf6c61c94e968cf0f2b36316407aafc8fc5f2dcf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119246304"
 ---
 # <a name="iwmpsettingsgetmode-method"></a>Метод Ивмпсеттингс:: onmode
 
@@ -77,13 +77,13 @@ Implements IWMPSettings.getMode
 
 Значение **System. Boolean** , указывающее, активен ли заданный режим.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

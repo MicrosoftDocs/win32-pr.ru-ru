@@ -4,12 +4,12 @@ ms.assetid: b6c76642-9a23-471e-af08-58e91d778f09
 title: Продление центра сертификации
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de57cd16ae6fc4c90bfeea411a06efcb14d028b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 49f486e877e2ce1645cddf0099599e120776194dfd71e4e8b131d936c85e1f45
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993114"
 ---
 # <a name="certification-authority-renewal"></a>Продление центра сертификации
 
@@ -48,7 +48,7 @@ ms.locfileid: "103991397"
 
 При первоначальной установке ЦС создается нулевой индекс сертификата и индекс ключа, равный нулю. Возобновление сертификата ЦС приведет к увеличению индекса сертификата. Если ключ повторно используется в продлении, индекс ключа будет таким же, как и предыдущий индекс ключа. Если ключ не используется повторно, индекс ключа будет соответствовать новому индексу сертификата.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

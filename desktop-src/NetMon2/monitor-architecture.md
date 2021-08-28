@@ -4,12 +4,12 @@ ms.assetid: cbd6116c-1a95-4ac4-bc79-632ebe198197
 title: Мониторинг архитектуры
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38c1a36ef19933d888f27079d8d94ddba16bde79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d9cd0a099fc1474255b36f1f04d28899b25a527fee19ba1d29434b4692615ab8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104551901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119677133"
 ---
 # <a name="monitor-architecture"></a>Мониторинг архитектуры
 
@@ -32,7 +32,7 @@ ms.locfileid: "104551901"
 -   Служба управления монитором (МКСВК) запускает события, предоставляет ссылку для обмена данными на WMI для просмотра событий и координирует обработку операций мониторинга.
 -   В Просмотр событий отображаются события, инициированные службой управления монитором.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
