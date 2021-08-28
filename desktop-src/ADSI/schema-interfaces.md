@@ -7,12 +7,12 @@ keywords:
 - интерфейсы схемы ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f414fdea2418fb92a0a3c8c9e8bf88eb6d7f00b1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7dfa22a32a4d93c36a7419d48ea6127c2345ffdea62686147d1ba08c41ea7992
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119770562"
 ---
 # <a name="schema-interfaces"></a>Интерфейсы схемы
 
@@ -30,9 +30,9 @@ ms.locfileid: "103986093"
 
 Компонент поставщика ADSI с сложным пространством имен может содержать несколько схем в экземпляре пространства имен, каждый из которых находится в другой части дерева. Однако свойство [**iAds:: schema**](iads-property-methods.md) объекта всегда имеет имя, соответствующее определению схемы.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: b0fa0a2b65ba4465458b05d2978bc5c7a1fd0250
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d5beb6d50c54555f765756c00eaff453303060b82abd7ab24d842b19a2f8cd06
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119692454"
 ---
 # <a name="errortype-property"></a>Error. Type, свойство
 
@@ -42,14 +42,14 @@ propVal = Error.Type
 
 См. раздел Получение функции- [**\_ функции типа**](/windows/win32/api/mergemod/nf-mergemod-imsmerror-get_type) (объект Error).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Версия<br/> | Mergemod.dll 1,0 или более поздней версии<br/>                                                    |
-| Header<br/>  | <dl> <dt>Мержемод. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Мержемод. h</dt> </dl>   |
 | DLL<br/>     | <dl> <dt>Mergemod.dll</dt> </dl> |
 
 

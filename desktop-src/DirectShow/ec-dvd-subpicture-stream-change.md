@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: c30ef0b27185b5300ac5cec877ed4e4b38685c12
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 21549ec6427b82c6d229d2e3962689bc8879815429f3a68fd32d54283c30d6a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119639774"
 ---
 # <a name="ec_dvd_subpicture_stream_change"></a>\_ \_ изменение потока подизображений EC DVD \_ \_
 
@@ -42,23 +42,23 @@ ms.locfileid: "105675250"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Подизображение может автоматически изменяться при помощи команды навигации, созданной на диске, а также через Управление приложениями с помощью [**IDvdControl2**](/windows/desktop/api/Strmif/nn-strmif-idvdcontrol2).
 
 Это событие возникает во всех доменах.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Двдевкоде. h (включение DShow. h)</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Двдевкоде. h (включение DShow. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

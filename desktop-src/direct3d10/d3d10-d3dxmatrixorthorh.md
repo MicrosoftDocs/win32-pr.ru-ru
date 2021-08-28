@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: f1ab6069890bdffdedbd3e36caed1a93984fc2c2
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 8de2798672a482ae25fd3d94aefb1859840d6d214848fb965273f009dc22518d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119754504"
 ---
 # <a name="d3dxmatrixorthorh-function-d3dx10mathh"></a>Функция D3DXMatrixOrthoRH (D3DX10Math. h)
 
@@ -119,12 +119,12 @@ D3DXMATRIX* D3DXMatrixOrthoRH(
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10Math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX10Math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

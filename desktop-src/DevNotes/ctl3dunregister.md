@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ctl3d32.dll
-ms.openlocfilehash: 85cd45062da9c01ef8af5a312a855bfaab6a6bf7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 32a954efceba7400692ad92c91bedb47283587827739c19f23e7802e1481fbe6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119691504"
 ---
 # <a name="ctl3dunregister-function"></a>Функция Ctl3dUnregister
 
@@ -50,7 +50,7 @@ BOOL Ctl3dUnregister(
 
 Возвращает **значение true** , если регистрация приложения в качестве клиента CTL3D сегодня отменена. в противном случае возвращается **значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение, использующее CTL3D сегодня, должно вызывать эту функцию в WinMain.
 
@@ -58,7 +58,7 @@ BOOL Ctl3dUnregister(
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

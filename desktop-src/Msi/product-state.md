@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 64d2f5d39a516fc4a0c00b8e18c159e1f2496e22
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: befa632feae7b4c57983f13a28e695051842cb5d1a2ff0908e6ffd011c6e4918
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119753954"
 ---
 # <a name="productstate-property"></a>Свойство Product. State
 
@@ -37,7 +37,7 @@ propVal = Product.State
 
 ## <a name="property-value"></a>Значение свойства
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство возвращает одно из следующих значений.
 
@@ -59,7 +59,7 @@ propVal = Product.State
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows 3,0 или более поздней версии в Windows Server 2003, Windows XP и Windows 2000<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик 3,0 или более поздней версии на Windows Server 2003, Windows XP и Windows 2000<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                                   |
 | IID<br/>     | IID \_ ипродукт определен как 000C10A0-0000-0000-C000-000000000046<br/>                                                                                                                                                                                                          |
 
@@ -72,7 +72,7 @@ propVal = Product.State
 [**Продукта**](product-object.md)
 </dt> <dt>
 
-[Не поддерживается в установщик Windows 2,0 и более ранних версиях](not-supported-in-windows-installer-version-2-0.md)
+[не поддерживается в установщик Windows 2,0 и более ранних версиях](not-supported-in-windows-installer-version-2-0.md)
 </dt> </dl>
 
  

@@ -3,7 +3,7 @@ title: Сообщение ICM_GETINFO (VFW. h)
 description: Сообщение ICM \_ info запрашивает драйвер сжатия видео, чтобы получить описание самого себя в структуре иЦинфо.
 ms.assetid: 8029f247-9777-4a34-9e84-908482094493
 keywords:
-- ICM_GETINFO сообщения Windows мультимедиа
+- сообщение ICM_GETINFO Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 634803b7dd9a3b8900c35fabedcadb99908c2b31
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 173f510642b807a0e4c4a8c5c84d6d4de2aa7ce55cc0707eccabf5421cf98a44
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119690814"
 ---
 # <a name="icm_getinfo-message"></a>Информационное \_ сообщение ICM
 
@@ -56,13 +56,13 @@ lParam = sizeof(ICINFO);
 
 Возвращает размер (в байтах) [**иЦинфо**](/windows/desktop/api/Vfw/ns-vfw-icinfo) или нуль в случае возникновения ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Как правило, приложения отправляют это сообщение, чтобы отобразить список установленных компрессоров.
 
 Драйвер должен заполнить все элементы структуры [**иЦинфо**](/windows/desktop/api/Vfw/ns-vfw-icinfo) , за исключением **сздривер**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -74,7 +74,7 @@ lParam = sizeof(ICINFO);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

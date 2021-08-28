@@ -3,7 +3,7 @@ title: Сообщение ICM_DRAW_START (VFW. h)
 description: '\_ \_ Сообщение об начальном изображении ICM уведомляет драйвер подготовки, чтобы запустить его внутреннее время для времени рисования кадров. Это сообщение можно отправить явно или с помощью макроса Икдравстарт.'
 ms.assetid: d49e0d97-5a29-46f7-82d7-e3d4b4f7666f
 keywords:
-- ICM_DRAW_START сообщения Windows мультимедиа
+- сообщение ICM_DRAW_START Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 538659eb9878be819ee6ec1506403fcce314eb0b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 720d8c2f919d2b00955892a42ba8fca95b2b426c3cbb396aa4ac71a5cf912307
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119690954"
 ---
 # <a name="icm_draw_start-message"></a>\_Сообщение о \_ запуске ICM Draw
 
@@ -38,7 +38,7 @@ lParam = 0;
 
 Это сообщение не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это сообщение используется оборудованием, которое выполняет собственное асинхронное распаковка, время и рисование.
 
@@ -46,7 +46,7 @@ lParam = 0;
 
 Сообщения об [**\_ \_ ошибке начала и разрисовки**](icm-draw-stop.md) ICM Draw не вложены. **\_ \_** Если драйвер получает изображение **ICM \_ \_ Start** , прежде чем подготовка к просмотру остановлена с помощью **ICM \_ \_ Draw**, необходимо перезапустить визуализацию с новыми параметрами.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -58,7 +58,7 @@ lParam = 0;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

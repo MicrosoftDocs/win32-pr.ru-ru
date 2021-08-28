@@ -3,7 +3,7 @@ title: Сообщение LVM_CANCELEDITLABEL (Коммктрл. h)
 description: Отменяет операцию изменения текста элемента.
 ms.assetid: 73e9c922-3223-4c49-a33c-df7c09443ccc
 keywords:
-- Элементы управления Windows для LVM_CANCELEDITLABEL сообщений
+- элементы управления Windows сообщений LVM_CANCELEDITLABEL
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: edfed26fb3c38d91f7a5b07683079d29ecd4597d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: da0b105c1082457c2cafd14e7a36361100f8e82197db7e5d76ae51447f945897
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119698804"
 ---
 # <a name="lvm_canceleditlabel-message"></a>\_Сообщение LVM канцеледитлабел
 
@@ -35,7 +35,7 @@ ms.locfileid: "104135142"
 *lParam* 
 </dt> <dd>Должен равняться нулю.</dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Чтобы использовать это сообщение, необходимо указать манифест, указывающий Comclt32.dll версии 6,0. Дополнительные сведения о манифестах см. в разделе [Включение визуальных стилей](cookbook-overview.md).
@@ -44,15 +44,15 @@ ms.locfileid: "104135142"
 
 Это сообщение вызывает отправку уведомления [ЛВН \_ ендлабеледит](lvn-endlabeledit.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

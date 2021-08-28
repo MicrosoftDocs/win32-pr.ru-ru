@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8a27b2224a64eadf1637f3d2f7f44973f4614536
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 569b69cdfaf43cbb38382529e55565f19f0e398a2a7adb69d4d2860b36839b0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119767334"
 ---
 # <a name="maxsize-channelloggingtype-element"></a>maxSize (Чаннеллоггингтипе), элемент
 
@@ -32,18 +32,18 @@ ms.locfileid: "104071135"
 
 Элемент **MAXSIZE** определяется сложным типом [**чаннеллоггингтипе**](eventmanifestschema-channelloggingtype-complextype.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

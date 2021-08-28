@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec17e3303fe4af4d359279de6c5fa7aa5f34d409
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 556c2a5b7e7545038995d5091d46931352f9ee32bddfa31b91237dfa54d69620
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119626104"
 ---
 # <a name="inapserverinfo-interface"></a>Интерфейс Инапсерверинфо
 
@@ -53,7 +53,7 @@ ms.locfileid: "105672698"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эти методы предоставляют только статические сведения о сервере NAP и его компонентах в системе.
 
@@ -64,8 +64,8 @@ ms.locfileid: "105672698"
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                               |
-| Header<br/>                   | <dl> <dt>Напсерверманажемент. h</dt> </dl>   |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                               |
+| Заголовок<br/>                   | <dl> <dt>Напсерверманажемент. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Напсерверманажемент. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qsvrmgmt.dll</dt> </dl>            |
 

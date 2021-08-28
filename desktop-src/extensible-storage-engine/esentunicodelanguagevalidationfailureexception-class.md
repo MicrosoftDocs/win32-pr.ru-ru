@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 27ea6fdc14cb8b46edfc7d9983041d44d2361bd9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 49d4519ad95003809958dd32739ba2739a86625cfb21f8141af6fa6dc8774fe0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119618544"
 ---
 # <a name="esentunicodelanguagevalidationfailureexception-class"></a>Класс Есентуникоделангуажевалидатионфаилуриксцептион
 
@@ -38,7 +38,7 @@ ms.locfileid: "105693110"
 ## <a name="inheritance-hierarchy"></a>Иерархия наследования
 
 [System.Object](/dotnet/api/system.object)  
-  [System. Exception](/dotnet/api/system.exception)  
+  [System.Exception](/dotnet/api/system.exception)  
     [Microsoft. ISAM. ESENT. Есентексцептион](./esentexception-class.md)  
       [Microsoft. ISAM. ESENT. Interop. Есентеррорексцептион](./esenterrorexception-class.md)  
         [Microsoft. ISAM. ESENT. Interop. Есентоператионексцептион](./esentoperationexception-class.md)  
@@ -67,7 +67,7 @@ public sealed class EsentUnicodeLanguageValidationFailureException : EsentOperat
 
 Любые общедоступные статичные (общие в Visual Basic) члены этого типа являются потокобезопасными. Потокобезопасная работа с членами экземпляров типа не гарантируется.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

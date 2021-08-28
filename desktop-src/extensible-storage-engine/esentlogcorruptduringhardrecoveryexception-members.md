@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102139
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 44423351691536eae7a82c6c47398631ae6fc222
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cec126cc38979c07d3a9ea8dd5d493ac3254e475a0a7c65c1c3c80e1d654a159
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119620644"
 ---
 # <a name="esentlogcorruptduringhardrecoveryexception-members"></a>Элементы Есентлогкорруптдурингхардрековерексцептион
 
@@ -73,7 +73,7 @@ ms.locfileid: "104081553"
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Защищенное свойство" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Состав</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
 <td>(Наследуется от <a href="/dotnet/api/system.exception">Exception</a>.)</td>
 </tr>
 <tr class="odd">

@@ -1,5 +1,5 @@
 ---
-title: Сложный тип DataType (журнал событий Windows)
+title: сложный тип DataType (Windows журнал событий)
 description: Определяет элемент данных.
 ms.assetid: f3b7de63-1ac1-429d-9e36-1f13c26c9618
 keywords:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9d3ac6e545cbe8567bbe041568c442f762743ad0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ba1fcbf217b16fb675a7a4eca00c8faa201737c07eea35a809f85617e96e9445
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104341055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119620284"
 ---
 # <a name="datatype-complex-type"></a>Сложный тип DataType
 
@@ -54,7 +54,7 @@ ms.locfileid: "104341055"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент данных может быть элементом данных верхнего уровня или элементом данных в структуре.
 
@@ -64,8 +64,8 @@ ms.locfileid: "104341055"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

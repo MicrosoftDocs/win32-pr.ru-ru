@@ -1,4 +1,4 @@
-- name: Сокеты Windows 2
+- name: Windows Сокеты 2
   href: windows-sockets-start-page-2.md
   items:
     - name: Новые возможности в сокетах Windows
@@ -11,7 +11,7 @@
         - name: Вопросы программирования Winsock
           href: winsock-programming-considerations.md
           items:
-            - name: Архитектура Windows Sockets 2
+            - name: Windows Архитектура сокетов 2
               href: windows-sockets-2-architecture-2.md
             - name: Дескрипторы сокетов
               href: socket-handles-2.md
@@ -19,7 +19,7 @@
               href: scatter-gather-i-o-2.md
             - name: Protocol-Independent многоадресной рассылки и MultiPoint
               href: protocol-independent-multicast-and-multipoint-2.md
-            - name: Качество обслуживания в спецификации потока
+            - name: Flow Качество обслуживания спецификации
               href: flow-specification-quality-of-service-2.md
             - name: Механизм расширения Provider-Specific
               href: provider-specific-extension-mechanism-2.md
@@ -33,12 +33,12 @@
               href: protocol-independent-out-of-band-data-2.md
             - name: Средства отладки и трассировки
               href: debug-and-trace-facilities-2.md
-            - name: Проблемы совместимости с сокетами Windows
+            - name: Windows Проблемы совместимости сокетов
               href: windows-sockets-compatibility-issues-2.md
               items:
                 - name: Состояние по умолчанию для перекрывающихся атрибутов сокета
                   href: default-state-for-a-socket-s-overlapped-attribute-2.md
-                - name: 'Подпрограммы блокировки Windows Sockets 1,1 и ЕИНПРОГРЕСС'
+                - name: 'Windows Подпрограммы блокировки сокетов 1,1 и ЕИНПРОГРЕСС'
                   href: windows-sockets-1-1-blocking-routines-and-einprogress-2.md
             - name: Обработка ошибок Winsock
               href: handling-winsock-errors.md
@@ -72,7 +72,7 @@
                   href: summary-of-name-resolution-functions-2.md
                 - name: Структуры данных разрешения имен
                   href: name-resolution-data-structures-2.md
-            - name: 'Совместимое разрешение имен для TCP/IP в API-интерфейсе сокетов Windows 1,1'
+            - name: 'совместимое разрешение имен для TCP/IP в API-интерфейсе сокетов Windows 1,1'
               href: compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-api-2.md
               items:
                 - name: Базовый подход для Жетксбии в API
@@ -92,7 +92,7 @@
           items:
             - name: Классификация MultiPoint
               href: multipoint-taxonomy-2.md
-            - name: Элементы интерфейса сокетов Windows 2 для MultiPoint и многоадресной рассылки
+            - name: Windows Сокеты 2. элементы интерфейса для MultiPoint и многоадресной рассылки
               href: windows-sockets-2-interface-elements-for-multipoint-and-multicast-2.md
               items:
                 - name: Атрибуты в структуре WSAPROTOCOL_INFO
@@ -218,7 +218,7 @@
                           href: blocking-hook-2.md
                         - name: Отмена блокирующих операций
                           href: canceling-blocking-operations-2.md
-                    - name: Объекты событий в списке SPI Windows Sockets 2
+                    - name: объекты событий в сокетах Windows 2 SPI
                       href: event-objects-in-the-windows-sockets-2-spi-2.md
                       items:
                         - name: Создание объектов событий
@@ -232,11 +232,11 @@
                       items:
                         - name: Бирает
                           href: selects-2.md
-                        - name: Сообщения Windows
+                        - name: Windows Ошибка
                           href: windows-messages-2.md
                         - name: Сигнализация объекта события
                           href: event-object-signaling-2.md
-                    - name: Группы сокетов в списке SPI Windows Sockets 2
+                    - name: группы сокетов в Windows сокеты 2 SPI
                       href: socket-groups-in-the-windows-sockets-2-spi-2.md
                       items:
                         - name: Операции с группами сокетов
@@ -245,7 +245,7 @@
                           href: required-socket-grouping-behavior-2.md
                         - name: Рекомендуемое поведение группирования сокетов
                           href: recommended-socket-grouping-behavior-2.md
-                    - name: Качество обслуживания в списке SPI для Windows Sockets 2
+                    - name: качество обслуживания в Windows сокетах 2 SPI
                       href: quality-of-service-in-the-windows-sockets-2-spi-2.md
                       items:
                         - name: Модель использования
@@ -261,11 +261,11 @@
                       items:
                         - name: Привязка к локальному адресу
                           href: binding-to-a-local-address-2.md
-                        - name: 'Основные сведения об протоколе: прослушивание, подключение, принятие'
+                        - name: 'основы протокола: прослушивание, Подключение, принятие'
                           href: protocol-basics-listen-connect-accept-2.md
                         - name: Определение локальных и удаленных имен
                           href: determining-local-and-remote-names-2.md
-                        - name: Улучшенная функциональность во время подключения
+                        - name: улучшенная функциональность во время Подключение
                           href: enhanced-functionality-at-connect-time-2.md
                         - name: Завершение подключения
                           href: connection-shutdown-2.md
@@ -340,7 +340,7 @@
                       items:
                         - name: Универсальные функции транспорта данных
                           href: generic-data-transport-functions-2.md
-                        - name: 'Вызовы, предоставляемые библиотекой DLL Windows Sockets 2'
+                        - name: 'вызовы, предоставляемые библиотеками DLL Windows sockets 2'
                           href: upcalls-exposed-by-windows-sockets-2-dll-2.md
                         - name: Функции установки и настройки
                           href: installation-and-configuration-functions-2.md
@@ -372,7 +372,7 @@
                           href: name-space-provider-configuration-and-installation-2.md
                         - name: Инициализация и очистка поставщика пространства имен
                           href: name-space-provider-initialization-and-cleanup-2.md
-                        - name: Установка службы в списке SPI Windows Sockets 2
+                        - name: установка службы в Windows сокеты 2 SPI
                           href: service-installation-in-the-windows-sockets-2-spi-2.md
                         - name: Запрос на обслуживание
                           href: service-query-2.md
@@ -385,7 +385,7 @@
                               href: query-related-data-structures-in-the-spi-2.md
                             - name: Структуры данных класса службы в SPI
                               href: service-class-data-structures-in-the-spi-2.md
-                    - name: 'Совместимое разрешение имен для TCP/IP в Windows Sockets 1,1 SPI'
+                    - name: 'совместимое разрешение имен для TCP/IP в сокетах Windows 1,1 SPI'
                       href: compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-spi-2.md
                       items:
                         - name: Базовый подход для Жетксбии в SPI
@@ -484,7 +484,7 @@
               href: byte-ordering-2.md
             - name: Расширенные подпрограммы преобразования Byte-Order
               href: extended-byte-order-conversion-routines-2.md
-        - name: Рекомендации по IPv6 для приложений Windows Sockets
+        - name: рекомендации по IPv6 для приложений Windows sockets
           href: ipv6-guide-for-windows-sockets-applications-2.md
           items:
             - name: Изменение структур данных для IPv6 Winsock Аппикатионс
@@ -515,7 +515,7 @@
                   href: ipv6-enabled-client-code-2.md
                 - name: Код сервера IPv6-Enabled
                   href: ipv6-enabled-server-code-2.md
-        - name: Высокопроизводительные приложения Windows Sockets
+        - name: высокопроизводительные Windows приложения сокетов
           href: high-performance-windows-sockets-applications-2.md
           items:
             - name: Терминология сети
@@ -761,7 +761,7 @@
             - name: Приложение Winsock TCP/IP
               href: winsock-tcp-ip-annex.md
               items:
-                - name: Использование ioctl через UNIX в Winsock
+                - name: использование UNIX ioctl в Winsock
                   href: using-unix-ioctls-in-winsock.md
                 - name: Сведения о функции Winsock TCP/IP
                   href: winsock-tcp-ip-function-details.md
@@ -1550,5 +1550,5 @@
                   href: /windows/win32/api/Ws2spi/ns-ws2spi-wspproc_table
                 - name: вспупкаллтабле
                   href: /windows/win32/api/Ws2spi/ns-ws2spi-wspupcalltable
-        - name: Коды ошибок сокетов Windows
+        - name: Windows Коды ошибок сокетов
           href: windows-sockets-error-codes-2.md

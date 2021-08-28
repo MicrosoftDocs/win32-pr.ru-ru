@@ -15,5 +15,5 @@
       href: plane-structure.md
     - name: Структура кватерниона
       href: quaternion-structure.md
-    - name: Функции numeric и Директксмас Interop API
+    - name: Windows числовых интерфейсов api взаимодействия директксмас
       href: windows-numerics-and-directxmath-interop-apis.md

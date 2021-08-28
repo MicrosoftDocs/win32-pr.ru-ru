@@ -4,12 +4,12 @@ ms.assetid: 29AB9799-9E4E-4A96-B4AB-F1B754794879
 title: Повышение производительности с помощью нескольких цепочек переключения на каждое устройство отрисовки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1e356434521054bc13b553c8ae3d6e43d8d98ef
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 91445660bf9efc59e9e39c88819587dce3960325df0659487eaae67a845a7329
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104495222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119627502"
 ---
 # <a name="improving-performance-with-multiple-swap-chains-per-rendering-device"></a>Повышение производительности с помощью нескольких цепочек переключения на каждое устройство отрисовки
 
@@ -19,7 +19,7 @@ ms.locfileid: "104495222"
 -   [Управление несколькими цепочками переключения на устройство](#managing-multiple-swap-chains-per-device)
     -   [Задание максимальной задержки кадра](#setting-maximum-frame-latency)
     -   [Использование модели отражения с несколькими цепочками переключения на устройство](#using-flip-model-with-multiple-swap-chains-per-device)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="app-scenarios-with-multiple-swap-chains-per-device"></a>Сценарии приложений с несколькими цепочками переключения на устройство
 
@@ -67,7 +67,7 @@ ms.locfileid: "104495222"
 
 ![Иллюстрация одновременного задания нескольких цепочек подкачки в качестве целевых объектов рендеринга предназначенных одного вертикальной синхронизации](images/multi-swap-chains-as-render-targets-same-vsync.png)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

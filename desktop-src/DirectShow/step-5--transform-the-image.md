@@ -4,12 +4,12 @@ ms.assetid: b7d878ab-523f-4b52-b98d-c9d4fa18ce8a
 title: Шаг 5. Преобразование изображения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ac9d32e48ba438f8bde2d8d4d9aca3b827ebc0c
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: ecbb2290b35347ccbc9b9821d423f7b3b26c9878187d09387dec914001df1a67
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650814"
 ---
 # <a name="step-5-transform-the-image"></a>Шаг 5. Преобразование изображения
 
@@ -74,7 +74,7 @@ HRESULT CRleFilter::Transform(IMediaSample *pSource, IMediaSample *pDest)
 
 <dl> <dt>
 
-[Написание фильтров DirectShow](writing-directshow-filters.md)
+[написание фильтров DirectShow](writing-directshow-filters.md)
 </dt> </dl>
 
  

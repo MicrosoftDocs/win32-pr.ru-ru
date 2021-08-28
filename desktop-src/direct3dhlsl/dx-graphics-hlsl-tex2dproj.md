@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 365401e4e4eca8703207ffb5c7676748f4a06d30
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 928e216f7ae25bd13722a4f432d9d37ca41e0665cc9f1b50158c02386027d4e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104533251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789414"
 ---
 # <a name="tex2dproj"></a>tex2Dproj
 

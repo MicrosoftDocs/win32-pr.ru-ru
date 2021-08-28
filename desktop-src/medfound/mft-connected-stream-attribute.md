@@ -4,12 +4,12 @@ ms.assetid: 7e14a02e-4cbf-45aa-a6f5-2c53b2437127
 title: Атрибут MFT_CONNECTED_STREAM_ATTRIBUTE (Мфтрансформ. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3b182cbed78f5f9851b621de72bf691bf698b70
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2289b8f1e8d5d751f7aa69564b8bbd26d865b43efedb474529147385b1851bb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119722570"
 ---
 # <a name="mft_connected_stream_attribute-attribute"></a>\_ \_ Атрибут атрибута потока, подключенного к MFT \_
 
@@ -17,15 +17,15 @@ ms.locfileid: "103898730"
 
 ## <a name="data-type"></a>Тип данных
 
-**Имфаттрибутес \** _ хранится как _*IUnknown \**_
+**Имфаттрибутес \* *_ хранится как _* IUnknown\***
 
 ## <a name="getset"></a>Get/Set
 
-Чтобы получить этот атрибут, вызовите [_ *имфаттрибутес:: ununknown* *](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getunknown).
+Чтобы получить этот атрибут, вызовите [**имфаттрибутес:: ununknown**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getunknown).
 
 Чтобы задать этот атрибут, вызовите [**имфаттрибутес:: сетункновн**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setunknown).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложения обычно не используют этот атрибут.
 
@@ -39,9 +39,9 @@ ms.locfileid: "103898730"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 R2 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Мфтрансформ. h</dt> </dl> |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для настольных приложений Server 2008 R2 \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Мфтрансформ. h</dt> </dl> |
 
 
 

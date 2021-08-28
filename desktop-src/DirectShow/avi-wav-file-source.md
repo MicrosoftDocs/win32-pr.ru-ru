@@ -4,12 +4,12 @@ ms.assetid: b8abf5d8-ba7f-441d-beef-9f85859318d5
 title: Источник файла AVI/WAV
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef659d880ef570176f94ac91875291ea9d200cf5
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: de8c99de9eed21afa716c4f3ee81a5d1cc4e9731739526f7c9531c758b30a22a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105682315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119689364"
 ---
 # <a name="aviwav-file-source"></a>Источник файла AVI/WAV
 
@@ -21,11 +21,11 @@ ms.locfileid: "105682315"
 
 Для файлов AVI фильтр создает ПИН-код для вывода видео, который создает сжатый поток AVI, подходящий для фильтра AVI-кодека, и звуковой выход, который создает звуковой поток, подходящий для фильтра рендеринга звука или промежуточного фильтра преобразования звука.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Фильтры DirectShow](directshow-filters.md)
+[DirectShow Фильтрующ](directshow-filters.md)
 </dt> </dl>
 
  

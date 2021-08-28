@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 93072cef75aedc4b3466e4b7b36d3ca7cd7a1d9b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3696e050383b4d2de7db139b4b81378e2784991a2769c2dff703bbeae424d3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119734544"
 ---
 # <a name="esentlogsectorsizemismatchdatabasesconsistentexception-class"></a>Класс Есентлогсекторсиземисматчдатабасесконсистентексцептион
 
@@ -38,7 +38,7 @@ ms.locfileid: "104264612"
 ## <a name="inheritance-hierarchy"></a>Иерархия наследования
 
 [System.Object](/dotnet/api/system.object)  
-  [System. Exception](/dotnet/api/system.exception)  
+  [System.Exception](/dotnet/api/system.exception)  
     [Microsoft. ISAM. ESENT. Есентексцептион](./esentexception-class.md)  
       [Microsoft. ISAM. ESENT. Interop. Есентеррорексцептион](./esenterrorexception-class.md)  
         [Microsoft. ISAM. ESENT. Interop. Есентапиексцептион](./esentapiexception-class.md)  

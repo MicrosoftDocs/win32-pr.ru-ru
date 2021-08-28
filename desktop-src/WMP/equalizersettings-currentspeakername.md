@@ -3,7 +3,7 @@ title: ЕКУАЛИЗЕРСЕТТИНГС. Куррентспеакернаме
 description: Атрибут Куррентспеакернаме извлекает имя текущего параметра динамика.
 ms.assetid: 22a7fb76-1345-42b1-9b6b-ef36dfb027bd
 keywords:
-- Проигрыватель Windows Media ЕКУАЛИЗЕРСЕТТИНГС. Куррентспеакернаме
+- екуализерсеттингс. куррентспеакернаме проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e89441aa101fbb39a45b0e7f1ab7cf59c7350354
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fc8f7a8a6af018c7b450baf0d1b58f678079008b6f06cbeaeb23173f2fa2742c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119736384"
 ---
 # <a name="equalizersettingscurrentspeakername"></a>ЕКУАЛИЗЕРСЕТТИНГС. Куррентспеакернаме
 
@@ -49,7 +49,7 @@ ms.locfileid: "105699160"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 

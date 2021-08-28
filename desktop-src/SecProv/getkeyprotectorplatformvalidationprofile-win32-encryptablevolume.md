@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: b9b951d3ce9eab52687730831f7052942fcbec93
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9563fc306bd8d50ce4f0c13164640ecee8e99d441b1b923df35cce8615097c8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119667794"
 ---
 # <a name="getkeyprotectorplatformvalidationprofile-method-of-the-win32_encryptablevolume-class"></a>Метод Жеткэйпротекторплатформвалидатионпрофиле \_ класса Win32 енкриптаблеволуме
 
@@ -81,7 +81,7 @@ uint32 GetKeyProtectorPlatformValidationProfile(
 | <dl> <dt>16</dt> </dl> | Используется для отладки<br/>                                                      |
 | <dl> <dt>17</dt> </dl> | Динамический КРТМ<br/>                                                            |
 | <dl> <dt>стр</dt> </dl> | Определенная платформа<br/>                                                        |
-| <dl> <dt>стр</dt> </dl> | Используется доверенной операционной системой<br/>                                      |
+| <dl> <dt>19</dt> </dl> | Используется доверенной операционной системой<br/>                                      |
 | <dl> <dt>20</dt> </dl> | Используется доверенной операционной системой<br/>                                      |
 | <dl> <dt>открыт</dt> </dl> | Используется доверенной операционной системой<br/>                                      |
 | <dl> <dt>22</dt> </dl> | Используется доверенной операционной системой<br/>                                      |
@@ -111,24 +111,24 @@ uint32 GetKeyProtectorPlatformValidationProfile(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе Windows SDK. Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](../wmisdk/managed-object-format--mof-.md).
+файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе Windows SDK. Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](../wmisdk/managed-object-format--mof-.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows Vista Enterprise, \[ только для настольных приложений Windows Vista Ultimate\]<br/>                       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows vista Enterprise, \[ только для настольных приложений Windows vista Ultimate\]<br/>                       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                    |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ безопасности \\ микрософтволуминкриптион<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ енкриптаблеволуме. mof</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

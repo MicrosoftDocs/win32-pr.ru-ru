@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 795dad8137fc5a8a2aef14e56836cf5f40913dfe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00105d6e328290e481b408076269d38ac2744daa9756a2e98c938d55467801d5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104986072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119709824"
 ---
 # <a name="sfvm_size-message"></a>\_Сообщение о размере сфвм
 

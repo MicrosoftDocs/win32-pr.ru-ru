@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: d900f42e5022301a08ebeee0036400be3a2f1bf0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9eed09eab5a2bbb6985d1dc230d12a4f60fe5834b3fce1927036b560adc5d7e2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119693524"
 ---
 # <a name="msvm_affectedstoragejobelement-class"></a>\_Класс мсвм аффектедсторажежобелемент
 
@@ -49,7 +49,7 @@ class Msvm_AffectedStorageJobElement : CIM_AffectedJobElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ аффектедсторажежобелемент** имеет следующие свойства.
 
@@ -130,25 +130,25 @@ class Msvm_AffectedStorageJobElement : CIM_AffectedJobElement
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Доступ к классу **\_ аффектедсторажежобелемент мсвм** может быть ограничен фильтром контроля учетных записей. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -158,7 +158,7 @@ class Msvm_AffectedStorageJobElement : CIM_AffectedJobElement
 [**\_АФФЕКТЕДЖОБЕЛЕМЕНТ CIM**](/previous-versions//cc150663(v=vs.85))
 </dt> <dt>
 
-[Классы хранения](storage-classes.md)
+[служба хранилища Класса](storage-classes.md)
 </dt> </dl>
 
  

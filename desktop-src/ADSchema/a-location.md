@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a37f15e80d470c0662036745f285aea87e79391
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f7e8080ffa24c9b2a147e6e3ec76f586a92fba3456aa1f80d2875c1292940232
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705774"
 ---
 # <a name="location-attribute-ad-schema"></a>Атрибут Location (схема AD)
 
@@ -59,9 +59,9 @@ ms.locfileid: "104138710"
 | Идентификатор ссылки                | \-                                                                                                                                                               |
 | MAPI-Id                | \-                                                                                                                                                               |
 | System-Only            | Неверно                                                                                                                                                            |
-| Является однозначным       | True                                                                                                                                                             |
-| Индексируется             | True                                                                                                                                                             |
-| В глобальном каталоге      | True                                                                                                                                                             |
+| Является однозначным       | Верно                                                                                                                                                             |
+| Индексируется             | Верно                                                                                                                                                             |
+| В глобальном каталоге      | Верно                                                                                                                                                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                     |
 | Range-Lower            | 0                                                                                                                                                                |
 | Range-Upper            | 1024                                                                                                                                                             |
@@ -80,15 +80,15 @@ ms.locfileid: "104138710"
 | Идентификатор ссылки                | \-                                                                                                                                                                                                 |
 | MAPI-Id                | \-                                                                                                                                                                                                 |
 | System-Only            | Неверно                                                                                                                                                                                              |
-| Является однозначным       | True                                                                                                                                                                                               |
-| Индексируется             | True                                                                                                                                                                                               |
-| В глобальном каталоге      | True                                                                                                                                                                                               |
+| Является однозначным       | Верно                                                                                                                                                                                               |
+| Индексируется             | Верно                                                                                                                                                                                               |
+| В глобальном каталоге      | Верно                                                                                                                                                                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                                       |
 | Range-Lower            | 0                                                                                                                                                                                                  |
 | Range-Upper            | 1024                                                                                                                                                                                               |
 | Search-Flags           | 0x00000001                                                                                                                                                                                         |
 | System-Flags           | 0x00000010                                                                                                                                                                                         |
-| Классы, используемые в        | [**Компьютер**](c-computer.md)<br/> [**Очередь печати**](c-printqueue.md)<br/> [**залах**](c-room.md)<br/> [**Сайт**](c-site.md)<br/> [**Подсеть**](c-subnet.md)<br/> |
+| Классы, используемые в        | [**Компьютер**](c-computer.md)<br/> [**Очередь печати**](c-printqueue.md)<br/> [**комната**](c-room.md)<br/> [**Сайт**](c-site.md)<br/> [**Подсеть**](c-subnet.md)<br/> |
 
 
 
@@ -101,9 +101,9 @@ ms.locfileid: "104138710"
 | Идентификатор ссылки                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
 | System-Only            | Неверно                                                                   |
-| Является однозначным       | True                                                                    |
-| Индексируется             | True                                                                    |
-| В глобальном каталоге      | True                                                                    |
+| Является однозначным       | Верно                                                                    |
+| Индексируется             | Верно                                                                    |
+| В глобальном каталоге      | Верно                                                                    |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                            |
 | Range-Lower            | 0                                                                       |
 | Range-Upper            | 1024                                                                    |
@@ -122,15 +122,15 @@ ms.locfileid: "104138710"
 | Идентификатор ссылки                | \-                                                                                                                                                                                                 |
 | MAPI-Id                | \-                                                                                                                                                                                                 |
 | System-Only            | Неверно                                                                                                                                                                                              |
-| Является однозначным       | True                                                                                                                                                                                               |
-| Индексируется             | True                                                                                                                                                                                               |
-| В глобальном каталоге      | True                                                                                                                                                                                               |
+| Является однозначным       | Верно                                                                                                                                                                                               |
+| Индексируется             | Верно                                                                                                                                                                                               |
+| В глобальном каталоге      | Верно                                                                                                                                                                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                                       |
 | Range-Lower            | 0                                                                                                                                                                                                  |
 | Range-Upper            | 1024                                                                                                                                                                                               |
 | Search-Flags           | 0x00000001                                                                                                                                                                                         |
 | System-Flags           | 0x00000010                                                                                                                                                                                         |
-| Классы, используемые в        | [**Компьютер**](c-computer.md)<br/> [**Очередь печати**](c-printqueue.md)<br/> [**залах**](c-room.md)<br/> [**Сайт**](c-site.md)<br/> [**Подсеть**](c-subnet.md)<br/> |
+| Классы, используемые в        | [**Компьютер**](c-computer.md)<br/> [**Очередь печати**](c-printqueue.md)<br/> [**комната**](c-room.md)<br/> [**Сайт**](c-site.md)<br/> [**Подсеть**](c-subnet.md)<br/> |
 
 
 
@@ -143,15 +143,15 @@ ms.locfileid: "104138710"
 | Идентификатор ссылки                | \-                                                                                                                                                                                                 |
 | MAPI-Id                | \-                                                                                                                                                                                                 |
 | System-Only            | Неверно                                                                                                                                                                                              |
-| Является однозначным       | True                                                                                                                                                                                               |
-| Индексируется             | True                                                                                                                                                                                               |
-| В глобальном каталоге      | True                                                                                                                                                                                               |
+| Является однозначным       | Верно                                                                                                                                                                                               |
+| Индексируется             | Верно                                                                                                                                                                                               |
+| В глобальном каталоге      | Верно                                                                                                                                                                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                                       |
 | Range-Lower            | 0                                                                                                                                                                                                  |
 | Range-Upper            | 1024                                                                                                                                                                                               |
 | Search-Flags           | 0x00000001                                                                                                                                                                                         |
 | System-Flags           | 0x00000010                                                                                                                                                                                         |
-| Классы, используемые в        | [**Компьютер**](c-computer.md)<br/> [**Очередь печати**](c-printqueue.md)<br/> [**залах**](c-room.md)<br/> [**Сайт**](c-site.md)<br/> [**Подсеть**](c-subnet.md)<br/> |
+| Классы, используемые в        | [**Компьютер**](c-computer.md)<br/> [**Очередь печати**](c-printqueue.md)<br/> [**комната**](c-room.md)<br/> [**Сайт**](c-site.md)<br/> [**Подсеть**](c-subnet.md)<br/> |
 
 
 
@@ -164,15 +164,15 @@ ms.locfileid: "104138710"
 | Идентификатор ссылки                | \-                                                                                                                                                                                                 |
 | MAPI-Id                | \-                                                                                                                                                                                                 |
 | System-Only            | Неверно                                                                                                                                                                                              |
-| Является однозначным       | True                                                                                                                                                                                               |
-| Индексируется             | True                                                                                                                                                                                               |
-| В глобальном каталоге      | True                                                                                                                                                                                               |
+| Является однозначным       | Верно                                                                                                                                                                                               |
+| Индексируется             | Верно                                                                                                                                                                                               |
+| В глобальном каталоге      | Верно                                                                                                                                                                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                                       |
 | Range-Lower            | 0                                                                                                                                                                                                  |
 | Range-Upper            | 1024                                                                                                                                                                                               |
 | Search-Flags           | 0x00000001                                                                                                                                                                                         |
 | System-Flags           | 0x00000010                                                                                                                                                                                         |
-| Классы, используемые в        | [**Компьютер**](c-computer.md)<br/> [**Очередь печати**](c-printqueue.md)<br/> [**залах**](c-room.md)<br/> [**Сайт**](c-site.md)<br/> [**Подсеть**](c-subnet.md)<br/> |
+| Классы, используемые в        | [**Компьютер**](c-computer.md)<br/> [**Очередь печати**](c-printqueue.md)<br/> [**комната**](c-room.md)<br/> [**Сайт**](c-site.md)<br/> [**Подсеть**](c-subnet.md)<br/> |
 
 
 
@@ -185,15 +185,15 @@ ms.locfileid: "104138710"
 | Идентификатор ссылки                | \-                                                                                                                                                                                                 |
 | MAPI-Id                | \-                                                                                                                                                                                                 |
 | System-Only            | Неверно                                                                                                                                                                                              |
-| Является однозначным       | True                                                                                                                                                                                               |
-| Индексируется             | True                                                                                                                                                                                               |
-| В глобальном каталоге      | True                                                                                                                                                                                               |
+| Является однозначным       | Верно                                                                                                                                                                                               |
+| Индексируется             | Верно                                                                                                                                                                                               |
+| В глобальном каталоге      | Верно                                                                                                                                                                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                                       |
 | Range-Lower            | 0                                                                                                                                                                                                  |
 | Range-Upper            | 1024                                                                                                                                                                                               |
 | Search-Flags           | 0x00000001                                                                                                                                                                                         |
 | System-Flags           | 0x00000010                                                                                                                                                                                         |
-| Классы, используемые в        | [**Компьютер**](c-computer.md)<br/> [**Очередь печати**](c-printqueue.md)<br/> [**залах**](c-room.md)<br/> [**Сайт**](c-site.md)<br/> [**Подсеть**](c-subnet.md)<br/> |
+| Классы, используемые в        | [**Компьютер**](c-computer.md)<br/> [**Очередь печати**](c-printqueue.md)<br/> [**комната**](c-room.md)<br/> [**Сайт**](c-site.md)<br/> [**Сетей**](c-subnet.md)<br/> |
 
 
 

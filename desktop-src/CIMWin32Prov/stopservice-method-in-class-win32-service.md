@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 90d979754a3d6f034c353229dbaa1b1dbaedea79
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1c8c055c260f4983622010ced5de652cf673391b7ae02a75b40fd28427a78827
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751884"
 ---
 # <a name="stopservice-method-of-the-win32_service-class-sdoiash"></a>Метод «начало» класса Win32_Service (Сдоиас. h)
 
@@ -179,7 +179,7 @@ uint32 StopService();
 
 </dd> <dt>
 
-**стр**
+**19**
 </dt> <dd>
 
 Служба выполняется с тем же именем.
@@ -221,7 +221,7 @@ uint32 StopService();
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Определив, какие службы могут быть остановлены или приостановлены, можно использовать **методы "** [**PauseService**](pauseservice-method-in-class-win32-systemdriver.md) " и "приостановить" для остановки и приостановки служб. Решение о прекращении работы службы, а не приостановке или наоборот, зависит от нескольких факторов, включая следующие:
 
@@ -336,7 +336,7 @@ WScript.Echo "Return value: " & Return
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -345,13 +345,13 @@ WScript.Echo "Return value: " & Return
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
 | Пространство имен<br/>                | Корневой \\ CIMV2<br/>                                                                  |
-| Header<br/>                   | <dl> <dt>Сдоиас. h</dt> </dl>     |
+| Заголовок<br/>                   | <dl> <dt>Сдоиас. h</dt> </dl>     |
 | MOF<br/>                      | <dl> <dt>CIMWin32. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

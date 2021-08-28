@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 804c7d2828723ee8da5dae28321faab62a32a0f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b465bb53fd031dff397ef0ddf39db39d5d9987f03e037becebcd8dd41a65b87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119640044"
 ---
 # <a name="swbemobjectspawninstance_-method"></a>SWbemObject. Спавнинстанце, \_ метод
 
@@ -94,7 +94,7 @@ objNewInstance = .SpawnInstance_( _
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -102,7 +102,7 @@ objNewInstance = .SpawnInstance_( _
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
 | Библиотека типов<br/>             | <dl> <dt>Wbemdisp. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | \_SWBEMOBJECT CLSID<br/>                                                           |
@@ -110,7 +110,7 @@ objNewInstance = .SpawnInstance_( _
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

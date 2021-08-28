@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 5d44d1c1ddd9b46f768f218250802562f9a36312
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 576da1ef42768fe8574fab5f965270134cad50d96f4b4e3fe0aaa7234af6d365
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119715444"
 ---
 # <a name="folderitemsize-property"></a>FolderItem. size, свойство
 
@@ -41,9 +41,9 @@ iSize = FolderItem.Size
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере **Размер** используется для получения размера исполняемого файла Notepad. Правильное использование показано в JScript, VBScript и Visual Basic.
+в следующем примере **размер** используется для получения размера исполняемого файла Блокнот. правильное использование отображается для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -142,13 +142,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

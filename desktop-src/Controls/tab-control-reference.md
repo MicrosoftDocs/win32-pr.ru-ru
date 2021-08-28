@@ -1,17 +1,17 @@
 ---
-title: Tab (элементы управления Windows)
+title: Tab (Windows элементы управления)
 description: В этом разделе содержатся сведения об элементах программирования, используемых в элементах управления "Вкладка".
 ms.assetid: vs|controls|~\controls\tab\reflist.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fb327f988dfee79b1af591af63a95b24c4ac6a8
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 85c4da2f0aeb05aea6bb671c395b151c7d69e2596d10a3564b8bbd8557c39877
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104488718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696384"
 ---
-# <a name="tab-windows-controls"></a>Tab (элементы управления Windows)
+# <a name="tab-windows-controls"></a>Tab (Windows элементы управления)
 
 В этом разделе содержатся сведения об элементах программирования, используемых в элементах управления "Вкладка".
 

@@ -7,12 +7,12 @@ keywords:
 - Ипропертистораже Стрктд STG, реализации, автономные
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f35965831b0105557044461236030e3543c13217
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 200d7f328670b8945807b7db7f742feabe58ad32847e3c56aa98a34278a71fbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119662554"
 ---
 # <a name="ipropertystorage-stand-alone-implementation"></a>Ипропертистораже — изолированная реализация
 
@@ -76,11 +76,11 @@ VT \_ Decimal
 
 \_вариант VT
 
- 
+ 
 
 
 
- 
+ 
 
 Когда VT \_ Variant сочетается с \_ массивом VT, сам массив SafeArray содержит структуры [**пропвариант**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) . Тем не менее типы этих элементов должны быть взяты из предыдущего списка, не могут быть VT \_ и не могут включать \_ векторы VT, VT \_ или VT \_ ByRef.
 
@@ -184,7 +184,7 @@ VT \_ Decimal
 
 </dd> </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -206,6 +206,6 @@ VT \_ Decimal
 [**стгкреатепропсетстг**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatepropsetstg)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

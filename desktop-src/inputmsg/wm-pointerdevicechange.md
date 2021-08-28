@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 38f570059f374f64e393e960a8458e605983d6c5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6d75a5afa245303952c5c6b1814b2f1ce77cd03da7c789d34bda2500c6bffee3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105719197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829584"
 ---
 # <a name="wm_pointerdevicechange-message"></a>Сообщение WM_POINTERDEVICECHANGE
 
@@ -67,9 +67,9 @@ ms.locfileid: "105719197"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                               |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                               |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a204ed44c90c60b327ceb201037c6758763b3a05
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 5cc7c7c9234d00343f91a3fcb137eed65b95515a07f765cf8fce6893e2d4998a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104998026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119788394"
 ---
 # <a name="consumestructuredbuffergetdimensions-function"></a>Функция Консуместруктуредбуффер:: Dimension
 
@@ -59,7 +59,7 @@ void GetDimensions(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта функция поддерживается для следующих типов шейдеров:
 

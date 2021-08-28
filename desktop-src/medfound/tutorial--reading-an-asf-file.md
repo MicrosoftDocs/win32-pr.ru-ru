@@ -4,12 +4,12 @@ ms.assetid: e3a55275-e8f0-4ab7-98db-a2f2c54d5a51
 title: Руководство. чтение файла ASF с помощью объектов Вмконтаинер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0225f434f650f0423771122e6fc345022e69ec1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e456f9e0061be97198623c2422801b5fd9fc196874cd8aa1a467692277319c9e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119713294"
 ---
 # <a name="tutorial-reading-an-asf-file-by-using-wmcontainer-objects"></a>Руководство. чтение файла ASF с помощью объектов Вмконтаинер
 
@@ -17,8 +17,8 @@ ms.locfileid: "105692778"
 
 Этот учебник содержит следующие действия.
 
--   [Предварительные условия](#prerequisites)
--   [1. Настройка проекта](#1-set-up-the-project)
+-   [Предварительные требования](#prerequisites)
+-   [1. Настройка Project](#1-set-up-the-project)
 -   [2. Открытие файла ASF](#2-open-an-asf-file)
 -   [3. чтение объекта заголовка ASF](#3-read-the-asf-header-object)
 -   [4. Создание разделителя ASF](#4-create-the-asf-splitter)
@@ -26,18 +26,18 @@ ms.locfileid: "105692778"
 -   [6. Создание сжатых образцов мультимедиа](#6-generate-compressed-media-samples)
 -   [7. Написание функции Entry-Point](#7-write-the-entry-point-function)
 -   [Список программ](#program-listing)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 В этом учебнике не рассматривается декодирование сжатых данных, которые приложение получает из разделителя ASF.
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Предварительные требования
 
 В этом учебнике предполагается следующее:
 
 -   Вы знакомы со структурой файла ASF и компонентами, предоставляемыми Media Foundation для работы с объектами ASF. К этим компонентам относятся объект Контентинфо, разделитель, мультиплексор и профиль. Дополнительные сведения см. в разделе [компоненты ASF вмконтаинер](wmcontainer-asf-components.md).
 -   Вы знакомы с [буферами мультимедиа](media-buffers.md) и потоками байтов: в частности, операции с файлами с использованием потока байтов, чтение из потока байтов в буфер мультимедиа и запись содержимого буфера мультимедиа в байтовый поток.
 
-## <a name="1-set-up-the-project"></a>1. Настройка проекта
+## <a name="1-set-up-the-project"></a>1. Настройка Project
 
 Включите в исходный файл следующие заголовки:
 
@@ -367,7 +367,7 @@ HRESULT SelectVideoStream(IMFASFContentInfo *pContentInfo,
     -   Параметр *пписампле* получает значение **null**.
     -   Параметр *пдвстатусфлагс* не получает флаг **ASF \_ статусфлагс \_ неполный** .
 
-Повторяйте эти шаги, пока не дойдете до конца файла. В следующем коде показаны следующие шаги.
+Повторяйте эти шаги, пока не дойдете до конца файла. Следующий код показывает эти действия.
 
 
 ```C++
@@ -981,7 +981,7 @@ int wmain(int argc, WCHAR* argv[])
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

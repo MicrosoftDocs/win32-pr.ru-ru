@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f7abf436311f8a3868b1471c2a10a7ee2e4a3b7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0d77290dfb3668e24d3586cf6d742b524e05fb07979de7c8d45f39998aca9708
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726084"
 ---
 # <a name="wm_choosefont_setflags-message"></a>\_Сообщение WM CHOOSEFONT \_ сетфлагс
 
@@ -55,13 +55,13 @@ ms.locfileid: "104136699"
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) создает диалоговое окно **шрифта** и использует структуру [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta) для указания начальных значений для элемента **flags** . Используйте сообщение **WM \_ CHOOSEFONT \_ сетфлагс** , чтобы указать различные значения для элемента **flags** , пока открыто диалоговое окно **Шрифт** .
 
 Как правило, вы должны отправить сообщение **WM \_ CHOOSEFONT \_ сетфлагс** из процедуры-обработчика [**кфхукпрок**](/windows/win32/api/commdlg/nc-commdlg-lpcfhookproc) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -69,11 +69,11 @@ ms.locfileid: "104136699"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Коммдлг. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>коммдлг. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

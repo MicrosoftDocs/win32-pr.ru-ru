@@ -4,12 +4,12 @@ ms.assetid: 14ddffe7-bdfe-4a35-82c7-b3401b5b720c
 title: Событие InkEdit. Селчанже (with. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66b51ef4edbf7d7fb02be17dc416c0a777a9519a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9677aafa254de3d834e9b947ad1b858b893d6a42e53336dd11ad5c54157c13dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119712654"
 ---
 # <a name="inkeditselchange-event"></a>Событие InkEdit. Селчанже
 
@@ -32,24 +32,24 @@ void SelChange();
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Событие **селчанже** можно использовать для проверки различных свойств, которые предоставляют сведения о текущем выделении (например, [**селболд**](/windows/desktop/api/inked/nf-inked-iinkedit-get_selbold)), что позволяет обновлять кнопки на панели инструментов, например.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                                                 |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                                                 |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                     |
-| Header<br/>                   | <dl> <dt>«С». h (также требует \_ ввода i. c)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>«С». h (также требует \_ ввода i. c)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>InkEd.dll</dt> </dl>                          |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

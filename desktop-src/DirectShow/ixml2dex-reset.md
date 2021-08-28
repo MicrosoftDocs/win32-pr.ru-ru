@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 59545c66bdc2cf3cce6bd343b975431446b76342
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1938965fa0cd104e7ba54c77701be63375bd62ac0a7d28ce53d4c5668c776ebc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108084377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119791824"
 ---
 # <a name="ixml2dexreset-method"></a>Метод IXml2Dex:: Reset
 
@@ -53,7 +53,7 @@ HRESULT Reset();
  
 
 > [!Note]  
-> Чтобы получить Кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (SP1).
+> чтобы получить кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (sp1).
 
  
 

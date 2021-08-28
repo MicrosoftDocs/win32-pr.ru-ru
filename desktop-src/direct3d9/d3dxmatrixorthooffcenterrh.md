@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 8519dca07a4475ff043491802ae173ecc61c0bd3
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 270ff91100e5f12239c741188368d131d542721ed1fd307ef4149b0c25940981
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108107462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119791664"
 ---
 # <a name="d3dxmatrixorthooffcenterrh-function-d3dx9mathh"></a>Функция D3DXMatrixOrthoOffCenterRH (D3dx9math. h)
 
@@ -135,13 +135,13 @@ D3DXMATRIX* D3DXMatrixOrthoOffCenterRH(
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

@@ -4,12 +4,12 @@ ms.assetid: e3bd219d-c593-4267-b77d-81fee7430a97
 title: Пример шаблона библиотеки DLL распознавателя
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1e50a3e9c8051dbe86761fc76c1625f622ac659
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b265e26c23020ce851f6d4a8d0dbc8e02011f69ae82d76c238224e362ef2af15
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119708164"
 ---
 # <a name="recognizer-dll-sample-template"></a>Пример шаблона библиотеки DLL распознавателя
 
@@ -21,7 +21,7 @@ ms.locfileid: "105702683"
 
 Пример использования распознавателей из API платформы Tablet PC см. в примере [расширенного распознавания](advanced-recognition-sample.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

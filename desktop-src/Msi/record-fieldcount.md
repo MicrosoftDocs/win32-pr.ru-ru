@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 548c1da4c2a0106cbcd667b5ce3c915ec17bf1ca
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 603b19ec3470587bb27733b8f0cd92b7d430cd773ad3ddd8a3a49b03d51a9a01
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828424"
 ---
 # <a name="recordfieldcount-property"></a>Свойство Record. FieldCount
 
@@ -43,7 +43,7 @@ propVal = Record.FieldCount
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. установщик Windows в Windows Server 2003 или Windows XP<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID \_ ирекорд определен как 000C1093-0000-0000-C000-000000000046<br/>                                                                                                                                                                              |
 

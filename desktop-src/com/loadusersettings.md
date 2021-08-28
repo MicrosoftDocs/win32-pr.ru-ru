@@ -6,12 +6,12 @@ keywords:
 - COM-значение реестра Лоадусерсеттингс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e14282b00bc2c2d9b989e19480047f115623d55
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e4b82bd89015baa4c73c9200013e49c76523951218dfde62bbe39300eefdfe0a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119731044"
 ---
 # <a name="loadusersettings"></a>лоадусерсеттингс
 
@@ -21,19 +21,19 @@ ms.locfileid: "103986672"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
-   {AppID_GUID}
-      LoadUserSettings = value
+   {AppID_GUID}
+      LoadUserSettings = value
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это значение **reg \_ DWORD** . Если *значение* не равно нулю, com загружает профиль учетной записи пользователя, с помощью которой он запускает COM-сервер. Если *значение* равно нулю или отсутствует, com не будет загружать профиль учетной записи пользователя, с помощью которой он запускает COM-сервер.
 
 Этот параметр игнорируется, если имеется запись [**запуска от имени**](runas.md) .
 
- 
+ 
 
- 
+ 
 
 
 

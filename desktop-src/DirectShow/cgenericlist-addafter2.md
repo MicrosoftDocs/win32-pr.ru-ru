@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c6bbe26e98acc999f067a7b0e96c3716e7e0c0c0
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 846e37b961af8d2492b3aff032193e87fb3603eb1751c25f0e3ca8e0c5d38618
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104548167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119697484"
 ---
 # <a name="cgenericlistaddafter-method-wxlisth---pos-plist-parameters"></a>Кженериклист. Аддафтер, метод (Вкслист. h) — параметры POS, plist
 
@@ -61,14 +61,14 @@ BOOL AddAfter(
 
 Возвращает **значение true** , если успешно, или **false** в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |-|-|
-| Header | Вкслист. h (включение Streams. h) |
+| Заголовок | вкслист. h (включает Потоки. h) |
 | Библиотека| Стрмбасе. lib (розничные сборки); Стрмбасд. lib (отладочные сборки) |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

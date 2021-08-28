@@ -6,12 +6,12 @@ keywords:
 - Ифилллоккбитес Стрктд STG, реализация
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c58737d02e3e6bc2511670178825aef8cbe2dcc0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 313c095d32bf9a932062b527cd486ee518e099d8de0f0d859caf2f1143e68237
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663024"
 ---
 # <a name="ifilllockbytes---implementation"></a>Ифилллоккбитес — реализация
 
@@ -23,7 +23,7 @@ ms.locfileid: "103986445"
 
 Сейчас моникеры URL-адресов являются единственными пользователями реализации асинхронного хранилища COM.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Ниже приведены четыре метода реализации [**ифилллоккбитес**](/windows/desktop/api/Objidl/nn-objidl-ifilllockbytes) .
 
@@ -57,9 +57,9 @@ ms.locfileid: "103986445"
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

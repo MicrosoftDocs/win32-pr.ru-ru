@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 236b26cc4cfcd10f1e6e6094e4b69928343a9ada
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e4b9f41521f1af8b4601faafce9674277b172ad4cde3f364fc2ab7a84cfcc0df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534625"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119739044"
 ---
 # <a name="action-object"></a>Объект Action
 
@@ -32,7 +32,7 @@ ms.locfileid: "104534625"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Объект **Action** имеет следующие свойства.
 
@@ -47,7 +47,7 @@ ms.locfileid: "104534625"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сведения о совместной работе действий и задач см. в разделе [действия задач](task-actions.md). В следующей таблице содержатся объекты скрипта, представляющие действия, которые могут быть выполнены.
 
@@ -76,8 +76,8 @@ ms.locfileid: "104534625"
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
 | Библиотека типов<br/>             | <dl> <dt>Тасксчд. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

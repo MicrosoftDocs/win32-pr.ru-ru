@@ -22,12 +22,12 @@ keywords:
 - диалоговые окна, цвет
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bb90150f49ea7bed4edac53af40ba89e0459946
-ms.sourcegitcommit: 56f8e4d5119e5018363fa2dc3472cdff203c6913
+ms.openlocfilehash: f2bdfb1543de80ac105d4a6012a0c95ff46cd8da1fef204ed573d14d05a6dfe9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "104571497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726418"
 ---
 # <a name="color-dialog-box"></a>Диалоговое окно "Цвет"
 
@@ -119,7 +119,7 @@ ms.locfileid: "104571497"
 
 
 
-| Цвет   | Значения RGB    |
+| Color   | Значения RGB    |
 |---------|---------------|
 | Красный     | 255, 0, 0     |
 | Зеленый   | 0, 255, 0     |
@@ -154,7 +154,7 @@ ms.locfileid: "104571497"
 
 
 
-| Цвет   | Значения HSL      | Значения RGB      |
+| Color   | Значения HSL      | Значения RGB      |
 |---------|-----------------|-----------------|
 | Красный     | (0, 240, 120)   | (255, 0, 0)     |
 | Желтый  | (40, 240, 120)  | (255, 255, 0)   |

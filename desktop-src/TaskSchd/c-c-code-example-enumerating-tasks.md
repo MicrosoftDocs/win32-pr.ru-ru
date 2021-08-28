@@ -4,12 +4,12 @@ description: В этом примере перечисляются все зад
 ms.assetid: 3a6a2262-cc5e-469e-b9f0-981879beb4ef
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34f7bd88f0e16cee7c3557154a4343671babf279
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b52a1dc50d8289418b230e4f65154f23bbf2fc601de2215eb132153e22703619
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104258555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119738904"
 ---
 # <a name="cc-code-example-enumerating-tasks"></a>Пример кода C/C++. Перечисление задач
 
@@ -99,16 +99,16 @@ int main(int argc, char **argv)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Примеры планировщик задач 1,0](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
