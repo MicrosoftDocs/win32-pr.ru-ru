@@ -4,12 +4,12 @@ ms.assetid: 0f47abc1-4e06-4ddc-9ea1-9afb9f27d499
 title: Таблица CustomAction
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75c8cbfa6500743e2a2ad89627447da1907f6f48
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 725ac6ad72b1f84da2c43c94a91cd4a466bd02a5af19261b4b07dfd1c496ae76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103810391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118947868"
 ---
 # <a name="customaction-table"></a>Таблица CustomAction
 
@@ -21,11 +21,11 @@ ms.locfileid: "103810391"
 
 | Столбец       | Type                               | Ключ | Допускает значения NULL |
 |--------------|------------------------------------|-----|----------|
-| Действие       | [Идентификатор](identifier.md)       | Да   | Нет        |
+| Действие       | [Идентификатор](identifier.md)       | Д   | Нет        |
 | Тип         | [Integer](integer.md)             | Нет   | Нет        |
-| Источник       | [кустомсаурце](customsource.md)   | Нет   | Да        |
-| Целевой объект       | [Формате](formatted.md)         | Нет   | Да        |
-| ExtendedType | [даублеинтежер](doubleinteger.md) | Нет   | Да        |
+| Источник       | [кустомсаурце](customsource.md)   | Нет   | Д        |
+| Целевой объект       | [Формате](formatted.md)         | Нет   | Д        |
+| ExtendedType | [даублеинтежер](doubleinteger.md) | Нет   | Д        |
 
 
 
@@ -92,7 +92,7 @@ ms.locfileid: "103810391"
 
 Введите значение **мсидбкустомактионтипепатчунинсталл** в этом поле, чтобы указать настраиваемое действие с [параметром удаления исправления настраиваемого действия](custom-action-patch-uninstall-option.md).
 
-**[Установщик Windows 4,0 и более ранних версий](not-supported-in-windows-installer-4-0.md):** Не поддерживается. Этот параметр доступен, начиная с установщик Windows 4,5.
+**[установщик Windows 4,0 и более ранних версий](not-supported-in-windows-installer-4-0.md):** Не поддерживается. этот параметр доступен, начиная с установщик Windows 4,5.
 
 </dd> </dl>
 

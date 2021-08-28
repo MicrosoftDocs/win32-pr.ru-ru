@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00e352a89ddadfc0a92e33e964afb5f0d9e9df6e
-ms.sourcegitcommit: 97d62bfd3213d9c4ce46c3cd2b1177caf720681a
+ms.openlocfilehash: 4c3b7845feb36cd09d96fc64cb7397e4daf001957f6ce7a6f5e797707caafd32
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "104414280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105655"
 ---
 # <a name="cpp_opt-switch"></a>/КПП \_ Неявное переключение
 
@@ -42,7 +42,7 @@ midl /cpp_opt "C_preprocessor_option" file.idl
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Не используйте этот параметр, если нет конкретной причины для этого. Дополнительные сведения о предварительной обработке см. [в документации C-требования к препроцессору для MIDL](c-preprocessor-requirements-for-midl.md) .
 
@@ -60,7 +60,7 @@ midl /cpp_opt "C_preprocessor_option" file.idl
 
 **MIDL/КПП \_ cmd "CL"/КПП \_ OPT "/e/ДФЛАГ = true/ИК: \\ Inc" имя_файла. idl**
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: eacc67d34d04502aa17eeaca78240a0a3e0e219d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3e78b577d52f0e40737f90186903aff9bfe2470d7050eac1ee00bc79ca7f596f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972013"
 ---
 # <a name="menuheader-structure"></a>Структура МЕНУХЕАДЕР
 
@@ -62,7 +62,7 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -73,7 +73,7 @@ typedef struct {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

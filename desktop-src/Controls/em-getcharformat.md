@@ -3,7 +3,7 @@ title: Сообщение EM_GETCHARFORMAT (RichEdit. h)
 description: Определяет форматирование символов в элементе управления Rich Edit.
 ms.assetid: 210b8719-5ed7-49f2-bd93-8a4e1efab1e8
 keywords:
-- Элементы управления Windows для EM_GETCHARFORMAT сообщений
+- элементы управления Windows сообщений EM_GETCHARFORMAT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd71db4d3a13f2acfe33c2843b0d9aad46c6f9fb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7fbd605aa82a1eb4c8219d5b2b73f797599c8018d056dff4ca6dd364d96790d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019812"
 ---
 # <a name="em_getcharformat-message"></a>\_Сообщение ЖЕТЧАРФОРМАТ EM
 
@@ -60,19 +60,19 @@ Microsoft Rich Edit 2,0 и более поздние версии: этот па
 
 Это сообщение возвращает значение элемента **двмаск** структуры [**чарформат**](/windows/win32/api/richedit/ns-richedit-charformata) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Методы Ивбемпас
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f1ae802fd7741e5b1317160991a50bd2a535a9c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e808840a3ec9fcd70438bfc7b030cee665001ce16f7e85d5de15e9553e49a9f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992984"
 ---
 # <a name="iwbempath-methods"></a>Методы Ивбемпас
 

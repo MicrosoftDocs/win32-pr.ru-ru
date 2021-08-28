@@ -1,6 +1,6 @@
 ---
 title: Класс MDM_PassportForWork_Remote03
-description: Класс MDM \_ пасспортфорворк \_ Remote03 определяет параметры удаленной политики Windows Hello для бизнеса.
+description: класс MDM \_ пасспортфорворк \_ Remote03 определяет Windows Hello для параметров удаленной политики для бизнеса.
 ms.assetid: 221701be-944f-42cd-847e-553d41281749
 keywords:
 - Класс MDM_PassportForWork_Remote03
@@ -17,18 +17,18 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae111389ad0f7c46b1f0b217bffc016e451ca9e5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3385a8bc2dee36bdfaa0707778ec0b1b40e0def22e9baea42eba2534c00b6be3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104284"
 ---
 # <a name="mdm_passportforwork_remote03-class"></a>\_Класс MDM пасспортфорворк \_ Remote03
 
-\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Майкрософт не дает никаких гарантий, явных или подразумеваемых, в отношении предоставленной здесь информации.\]
+\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, относительно предоставленной здесь информации.\]
 
-Класс **MDM \_ пасспортфорворк \_ Remote03** определяет параметры удаленной политики Windows Hello для бизнеса.
+класс **MDM \_ пасспортфорворк \_ Remote03** определяет Windows Hello для параметров удаленной политики для бизнеса.
 
 Следующий синтаксис упрощен из MOF-кода и включает все унаследованные свойства.
 
@@ -50,7 +50,7 @@ class MDM_PassportForWork_Remote03
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **MDM \_ пасспортфорворк \_ Remote03** имеет следующие свойства.
 
@@ -68,7 +68,7 @@ class MDM_PassportForWork_Remote03
 Квалификаторы: [ **ключ**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
-Внутренний узел для определения удаленных политик Windows Hello для бизнеса. Этот узел был добавлен в Windows 10 версии 1511.
+внутренний узел для определения удаленного Windows Hello для бизнес-политик. этот узел был добавлен в Windows 10 версии 1511.
 
 </dd> <dt>
 
@@ -84,7 +84,7 @@ class MDM_PassportForWork_Remote03
 Квалификаторы: [ **ключ**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
-Узел для определения параметров политики Windows Hello для бизнеса.
+узел для определения параметров политики Windows Hello для бизнеса.
 
 </dd> <dt>
 
@@ -99,13 +99,13 @@ class MDM_PassportForWork_Remote03
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                      |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ MDM \\ дммап<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>Дмвмибриджепров. mof</dt> </dl> |
@@ -113,7 +113,7 @@ class MDM_PassportForWork_Remote03
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

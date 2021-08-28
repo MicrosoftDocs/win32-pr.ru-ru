@@ -26,12 +26,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c0303f4696d1baa5129d93cd2e6a7703be611ed9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 75de4ab4d173b68f02eff73962fb198270770806
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655923"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882038"
 ---
 # <a name="cim_copyfileaction-class"></a>\_Класс CIM копифилеактион
 
@@ -82,7 +82,7 @@ class CIM_CopyFileAction : CIM_FileAction
 
 | Метод                                                      | Описание                                                                                                                                  |
 |:------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Вызвать**](invoke-method-in-class-cim-copyfileaction.md) | Выполняет определенное действие. Подробные сведения о том, как метод выполняет действие, зависит от реализации. Не реализовано инструментарием WMI.<br/> |
+| [**Invoke**](invoke-method-in-class-cim-copyfileaction.md) | Выполняет определенное действие. Подробные сведения о том, как метод выполняет действие, зависит от реализации. Не реализовано инструментарием WMI.<br/> |
 
 
 
@@ -112,7 +112,7 @@ class CIM_CopyFileAction : CIM_FileAction
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -205,7 +205,7 @@ class CIM_CopyFileAction : CIM_FileAction
 
 </dd> <dt>
 
-**Name**
+**имя**;
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -467,7 +467,7 @@ HP-UX
 
 </dt> <dd>
 
-Windows 3. x
+Windows 3
 
 </dd> <dt>
 
@@ -549,7 +549,7 @@ Windows CE
 
 <span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>
 
-<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**Зависящая от UNIX** (24)
+<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**зависящие UNIX** (24)
 
 
 </dt> <dd></dd> <dt>
@@ -677,7 +677,7 @@ BS2000/OSD
 
 <span id="Interactive_UNIX"></span><span id="interactive_unix"></span><span id="INTERACTIVE_UNIX"></span>
 
-<span id="Interactive_UNIX"></span><span id="interactive_unix"></span><span id="INTERACTIVE_UNIX"></span>**Интерактивная UNIX** (40)
+<span id="Interactive_UNIX"></span><span id="interactive_unix"></span><span id="INTERACTIVE_UNIX"></span>**интерактивный UNIX** (40)
 
 
 </dt> <dd></dd> <dt>
@@ -689,7 +689,7 @@ BS2000/OSD
 
 </dt> <dd>
 
-ОС BSD UNIX
+UNIX BSD
 
 </dd> <dt>
 
@@ -863,8 +863,8 @@ Mac OS 9
 
 Версия операции должна быть в одной из следующих форм:
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;основной &gt; . &lt; дополнительный номер &gt; . &lt; редакции&gt;
+-   &lt;основной &gt; . &lt; Дополнительная &gt; &lt; буква &gt; &lt; версии&gt;
 
 Это свойство наследуется [**от \_ действия CIM**](cim-action.md).
 

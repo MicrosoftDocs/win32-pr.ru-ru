@@ -4,12 +4,12 @@ ms.assetid: 9e8cfe5c-e17a-40d6-958f-a1bd1130c699
 title: numberFormat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6601e6647d8fa1ac8b8cb262d47192810583c93f
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 2e9db77cc68dab7038a1b5b9c50d49f5381ee948
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122622690"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883657"
 ---
 # <a name="numberformat"></a>numberFormat
 
@@ -61,7 +61,7 @@ ms.locfileid: "122622690"
 
 | Родительский элемент                                   | Дочерние элементы |
 |--------------------------------------------------|----------------|
-| [displayInfo](./propdesc-schema-displayinfo.md) | None           |
+| [displayInfo](./propdesc-schema-displayinfo.md) | Нет           |
 
 
 
@@ -79,7 +79,7 @@ ms.locfileid: "122622690"
 <thead>
 <tr class="header">
 <th>Атрибут</th>
-<th>Описание:</th>
+<th>Описание</th>
 </tr>
 </thead>
 <tbody>
@@ -136,7 +136,7 @@ ms.locfileid: "122622690"
 </tr>
 <tr class="odd">
 <td>Duration</td>
-<td>Форматирует значение как длительность. Используйте <formatDurationAs> для указания формата длительности. Свойство должно иметь значение UInt64.</td>
+<td>Форматирует значение как длительность. Используйте &lt; форматдуратионас &gt; для указания формата длительности. Свойство должно иметь значение UInt64.</td>
 </tr>
 </tbody>
 </table>

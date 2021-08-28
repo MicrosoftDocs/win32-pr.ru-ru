@@ -4,12 +4,12 @@ ms.assetid: cae7e5b3-8aaf-452d-80df-fb0ae04a342c
 title: Код уведомления IMR_QUERYCHARPOSITION (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 947eec9b3dd1f678d9266bb795214cf392629193
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c6a37679dce6a17d5687aeed1c8fbd1d5c8bf6651b3cfc597cfdfc2e419ecba3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118948771"
 ---
 # <a name="imr_querycharposition-notification-code"></a>\_Код уведомления КУЕРИЧАРПОСИТИОН IMR
 
@@ -44,7 +44,7 @@ LRESULT IMR_QUERYCHARPOSITION
 
 Функция возвращает ненулевое значение, если приложение заполняет структуру [**имечарпоситион**](/windows/win32/api/imm/ns-imm-imecharposition) . В противном случае команда возвращает значение 0.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение, которое рисует строку композиции, а не полагается на IME, отвечает за заполнение всех элементов структуры [**имечарпоситион**](/windows/win32/api/imm/ns-imm-imecharposition) . В противном случае приложение должно передать команду в [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) или [**иммисуимессаже**](/windows/desktop/api/Imm/nf-imm-immisuimessagea) , если она имеет собственное окно пользовательского интерфейса IME.
 
@@ -56,7 +56,7 @@ LRESULT IMR_QUERYCHARPOSITION
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                 |
-| Заголовок<br/>                   | <dl> <dt>IMM. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Imm. h (включает Windows. h)</dt> </dl> |
 
 
 

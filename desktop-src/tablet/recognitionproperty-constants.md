@@ -4,12 +4,12 @@ ms.assetid: 2bfb0cbf-73a3-4e83-a4e9-f0803bd3dee8
 title: Константы Рекогнитионпроперти (Мсинкаут. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d06d2eed3b28ed99d180dbe3971e9e018554ff5
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 242d48ee6d55dedd4f6b9e28816779300c0aa770
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122467991"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882340"
 ---
 # <a name="recognitionproperty-constants"></a>Константы Рекогнитионпроперти
 
@@ -35,7 +35,7 @@ ms.locfileid: "122467991"
 
 ## <a name="remarks"></a>Комментарии
 
-в C++ вы можете получить доступ к этим константам в файле заголовка мсинкаут. h, который находится в папке <systemdrive> : \\ Program files \\ Microsoft sdks \\ Windows \\ v 6.0 \\ Include, если пакет SDK установлен в расположение по умолчанию.
+в C++ вы можете получить доступ к этим константам в файле заголовка мсинкаут. h, который находится в папке &lt; systemdrive &gt; : \\ Program files \\ Microsoft sdks \\ Windows \\ v 6.0 \\ Include, если пакет SDK установлен в расположение по умолчанию.
 
 > [!Note]  
 > В C++ эти константы являются Вчарс, а не BSTRs. Преобразуйте их в BSTRs перед использованием. Дополнительные сведения о типе данных BSTR см. в разделе [Использование библиотеки COM](using-the-com-library.md).
@@ -54,7 +54,7 @@ ms.locfileid: "122467991"
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

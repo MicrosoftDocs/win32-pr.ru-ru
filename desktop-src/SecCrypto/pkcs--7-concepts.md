@@ -4,12 +4,12 @@ ms.assetid: 99b633fe-9898-4570-ba8b-16ee78d351da
 title: '\#Основные понятия синтаксиса криптографических сообщений PKCS 7'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ead1c5e75737db80adbca725a30cb730b547be4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d218fea2aecebb6ccdbd8e7bbf1d63aa897e48f4bb2a20eb4a22f14cca2c1b27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117978990"
 ---
 # <a name="pkcs-7-cryptographic-messaging-syntax-concepts"></a>\#Основные понятия синтаксиса криптографических сообщений PKCS 7
 

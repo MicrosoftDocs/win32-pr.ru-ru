@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 447601b61fb79cfa779ea0cab75962c835210c52
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2575fa346e350ef4bdb513e4775daf4f0fdd5a3bbdaf61606c8354074b9c323f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080618"
 ---
 # <a name="cim_export-class"></a>\_Класс экспорта CIM
 
@@ -53,7 +53,7 @@ class CIM_Export
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ экспорта CIM** имеет эти свойства.
 
@@ -101,7 +101,7 @@ class CIM_Export
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Инструментарий WMI не реализует этот класс.
 

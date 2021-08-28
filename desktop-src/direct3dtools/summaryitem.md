@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: b0ad0c468d2a9ec2c1f4f0c5ec8c7844e80ab2b1d2655781ae0dc6fa11d0ae05
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7cf9d299c40c6afae5539e98758193bbbbb0cd9f
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118985444"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625990"
 ---
 # <a name="span-idvspixenginesummaryitemspansummaryitem-structure"></a><span id="vspixengine.summaryitem"></span>Структура Суммаритем
 
@@ -35,9 +35,9 @@ ms.locfileid: "118985444"
 } SummaryItem;
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 
-**Имя**  
+**имя**;  
 Строка COM, содержащая имя события, суммированное.
 
 **Значение**  
@@ -49,9 +49,9 @@ ms.locfileid: "118985444"
 **ParentID**  
 Идентификатор родительского события, если таковой имеется.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

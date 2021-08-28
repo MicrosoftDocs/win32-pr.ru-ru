@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dxof.lib
 - d3dxof.dll
-ms.openlocfilehash: 30d2fb26e3752e302726edce51354369f3b067eb
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 72b3ffa54d9ec0362100b2e2f1ac54b417d1425d0e6e311da3f9b5b7d30a553a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118800214"
 ---
 # <a name="idirectxfiledata-interface"></a>Интерфейс Идиректксфиледата
 
@@ -50,7 +50,7 @@ ms.locfileid: "105713866"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Идентификатор GUID для интерфейса Идиректксфиледата — IID \_ идиректксфиледата.
 
@@ -69,7 +69,7 @@ typedef interface IDirectXFileData *LPDIRECTXFILEDATA;
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Дксфиле. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Дксфиле. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3dxof. lib</dt> </dl> |
 
 

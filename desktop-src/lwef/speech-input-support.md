@@ -4,16 +4,16 @@ description: Поддержка речевого ввода
 ms.assetid: 4702b941-fcc9-4d00-aba2-eca624b6d417
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8ecb6f2ddfbbe10f8b892ce922cd466eca96890
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: fd777f5dca0df91a4660249b0cdda380f2f20c37ba5c1c38a04264bb871ab3bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105654311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118746255"
 ---
 # <a name="speech-input-support"></a>Поддержка речевого ввода
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 Помимо поддержки взаимодействия мыши и клавиатуры, Microsoft Agent включает прямую поддержку речевого ввода. Поскольку поддержка Microsoft Agent для речевого ввода основана на Microsoft SAPI (интерфейс программирования речевых приложений), вы можете использовать Microsoft Agent с командами распознавания речи и механизмами управления, включающими поддержку SAPI. Дополнительные сведения о требованиях к речевому подсистеме см. в разделе [требования поддержки обработчика речи](requirements-for-speech-recognition-engines.md).
 
@@ -35,6 +35,6 @@ ms.locfileid: "105654311"
 
 Если пользователь отключает речевой ввод в дополнительных параметрах символов, клавиша прослушивания также будет отключена. Аналогичным образом, попытка вызова метода [**Listen**](listen-method.md) при отключенном речевом вводе приведет к сбою метода.
 
- 
+ 
 
- 
+ 

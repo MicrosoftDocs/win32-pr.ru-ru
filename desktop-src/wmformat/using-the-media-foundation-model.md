@@ -3,9 +3,9 @@ title: Использование модели событий Media Foundation
 description: Использование модели событий Media Foundation
 ms.assetid: c07425dc-25d0-430b-a1f6-6373303a0cc7
 keywords:
-- Windows Media Format SDK, модель событий DRM Media Foundation
-- Windows Media Format SDK, Media Foundation модель событий
-- Windows Media Format SDK, модель событий DRM
+- Windows Пакет SDK для формата мультимедиа, модель событий DRM Media Foundation
+- Windows Пакет SDK для формата мультимедиа, Media Foundation модель событий
+- Windows Пакет SDK для формата мультимедиа, модель событий DRM
 - Управление цифровыми правами (DRM), модель событий Media Foundation
 - DRM (Управление цифровыми правами), модель событий Media Foundation
 - Управление цифровыми правами (DRM), модель событий
@@ -16,16 +16,16 @@ keywords:
 - ивмдрмевентженератор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d58d48157072cf8814ff8ac74d97a965f9e772e3
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: c32c68d1d22c6b3d95c34efb5a919c82ecf5dd3755943e96f2507ae9f3391f48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104069638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119707394"
 ---
 # <a name="using-the-media-foundation-event-model"></a>Использование модели событий Media Foundation
 
-Асинхронные методы, поддерживаемые расширенными API клиента DRM Windows Media, используют ту же модель событий, которая используется пакетом SDK для Media Foundation. Каждый объект, поддерживающий асинхронные методы, реализует интерфейс [**ивмдрмевентженератор**](iwmdrmeventgenerator.md) , который можно использовать для получения события после завершения асинхронной операции.
+асинхронные методы, поддерживаемые расширенными api клиента DRM Windows Media, используют ту же модель событий, которая используется пакетом SDK для Media Foundation. Каждый объект, поддерживающий асинхронные методы, реализует интерфейс [**ивмдрмевентженератор**](iwmdrmeventgenerator.md) , который можно использовать для получения события после завершения асинхронной операции.
 
 Интерфейс **ивмдрмевентженератор** наследуется от интерфейса **имфмедиаевентженератор** , который описан в документации по Media Foundation SDK.
 
@@ -38,22 +38,22 @@ ms.locfileid: "104069638"
 -   Метод [**ивмдрмсекурити::P ерформсекуритюпдате**](iwmdrmsecurity-performsecurityupdate.md) , используемый для выполнения индивидуализации, создает события **мевмдрминдивидуализатионпрогресс** с связанными интерфейсами [**ивмдрминдивидуализатионстатус**](iwmdrmindividualizationstatus.md) .
 -   Метод [**ивмдрмлиценсеманажемент:: AcquireLicense**](iwmdrmlicensemanagement-acquirelicense.md) , используемый для подготовки данных к неавтоматическому приобретению лицензий, создает событие **мевмдрмлиценсеаккуиситионкомплетед** с связанным интерфейсом [**ивмдрмнонсилентлиценсеакуиситион**](iwmdrmnonsilentlicenseaquisition.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Пример индивидуализации DRM**](drm-individualization-example.md)
 </dt> <dt>
 
-[**Приступая к работе**](drm-getting-started.md)
+[**начало работы**](drm-getting-started.md)
 </dt> <dt>
 
 [Документация по Media Foundation SDK](https://www.microsoft.com/?ref=go)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

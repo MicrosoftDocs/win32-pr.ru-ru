@@ -1,32 +1,32 @@
 ---
 title: Регистрация расширения создания объекта
-description: При создании библиотеки DLL расширения создания объектов в домен Active Directory Services она должна быть зарегистрирована в реестре Windows и службах домен Active Directory для создания COM и оснасток Active Directory администрирования консоли MMC, осведомленных о расширении.
+description: при создании библиотеки DLL расширения создания объектов в домен Active Directory services она должна быть зарегистрирована в Windows реестре и домен Active Directory служб для создания COM и оснасток Active Directory администрирования MMC с учетом расширения.
 ms.assetid: 6e950c6c-1a4f-4de0-9be1-004c31d4734c
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c27d8e2a50c2340d678fd43e546d68525afbc8a7
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 2d99e83d718f98255a3f06e1a8de1c09fb88ae8582c107fce70a6963bdf5c38b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103987314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118184469"
 ---
 # <a name="registering-the-object-creation-extension"></a>Регистрация расширения создания объекта
 
-При создании библиотеки DLL расширения создания объектов в домен Active Directory Services она должна быть зарегистрирована в реестре Windows и службах домен Active Directory для создания COM и оснасток Active Directory администрирования консоли MMC, осведомленных о расширении.
+при создании библиотеки DLL расширения создания объектов в домен Active Directory services она должна быть зарегистрирована в Windows реестре и домен Active Directory служб для создания COM и оснасток Active Directory администрирования MMC с учетом расширения.
 
-## <a name="registering-in-the-windows-registry"></a>Регистрация в реестре Windows
+## <a name="registering-in-the-windows-registry"></a>регистрация в реестре Windows
 
-Как и все серверы COM, расширение создания объектов должно быть зарегистрировано в реестре Windows. Расширение регистрируется в следующем разделе:
+как и все серверы COM, расширение создания объектов должно быть зарегистрировано в реестре Windows. Расширение регистрируется в следующем разделе:
 
 ```
 HKEY_CLASSES_ROOT
-   CLSID
-      <extension CLSID>
-         InProcServer32
-            (Default) = <extension path>
-            ThreadingModel = Apartment
+   CLSID
+      <extension CLSID>
+         InProcServer32
+            (Default) = <extension path>
+            ThreadingModel = Apartment
 ```
 
 " &lt; Extension CLSID &gt; " — это строковое представление идентификатора CLSID, созданное функцией [**стрингфромклсид**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid) . " &lt; путь расширения &gt; " содержит путь и имя файла DLL расширения. Значение **ThreadingModel** для всех расширений создания объектов должно быть "апартаментом".
@@ -61,6 +61,6 @@ HKEY_CLASSES_ROOT
 
 " &lt; CLSID &gt; " — это строковое представление CLSID COM-объекта, созданное функцией [**стрингфромклсид**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid) .
 
- 
+ 
 
- 
+ 

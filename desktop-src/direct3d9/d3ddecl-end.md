@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3d9types.h
-ms.openlocfilehash: ad3a0a5085d8cacf11bae049cb21952a1aa73908
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a8e36f7e9e7103fcbbe4660fd16f89a56716c8142da2d8a390bfc7ef76299e0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118805444"
 ---
 # <a name="d3ddecl_end-macro"></a>\_Завершающий макрос D3DDECL
 
@@ -41,7 +41,7 @@ void D3DDECL_END(void);
 
 Этот макрос не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используется для инициализации последнего элемента вершины в массиве объявлений вершин.
 
@@ -51,7 +51,7 @@ void D3DDECL_END(void);
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3d9types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3d9types. h</dt> </dl> |
 
 
 

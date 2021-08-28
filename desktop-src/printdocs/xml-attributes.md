@@ -4,12 +4,12 @@ ms.assetid: 41bc10fe-6c00-44c5-ba9a-10414b31cbdf
 title: XML-атрибуты
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bf76889fdf38c6636b4beb5ba566b18af69e34c
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 20fa19a64dd5d3c59f7c5d26b86186912065a5f1
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122622980"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883481"
 ---
 # <a name="xml-attributes"></a>XML-атрибуты
 
@@ -32,7 +32,7 @@ ms.locfileid: "122622980"
 <tr class="header">
 <th>Имя атрибута</th>
 <th>Типы и значения данных</th>
-<th>Цель</th>
+<th>Назначение</th>
 <th>Примечания</th>
 </tr>
 </thead>
@@ -58,7 +58,7 @@ ms.locfileid: "122622980"
     <psf:ScoredProperty name=&quot;psk:SheetCapacity&quot; >
       <psf:Value xsi:type=&quot;xs:integer&quot;>_Undefined_</psf:Value>
     </psf:ScoredProperty>
-  </psf:Option></code></pre></td>
+  &lt;/psf:Option&gt;</code></pre></td>
 </tr>
 <tr class="even">
 <td>распространения <br/></td>
@@ -70,13 +70,13 @@ ms.locfileid: "122622980"
 <td>ограниченного <br/></td>
 <td>Перечисление<br/> Допустимые значения:<br/>
 <ul>
-<li>None <br/></li>
+<li>Нет <br/></li>
 <li>принттиккетсеттингс <br/></li>
 <li>админсеттингс <br/></li>
 <li>девицесеттингс <br/></li>
 </ul></td>
 <td>Указывает, доступен ли параметр для выбора или для использования. <br/></td>
-<td>Разрешенные значения атрибута CONSTRAINED имеют следующие значения. Обратите внимание, что эти значения перечислены по порядку, от минимально ограниченного (None) до наиболее ограниченного (Девицесеттингс).<br/> None <br/>
+<td>Разрешенные значения атрибута CONSTRAINED имеют следующие значения. Обратите внимание, что эти значения перечислены по порядку, от минимально ограниченного (None) до наиболее ограниченного (Девицесеттингс).<br/> Нет <br/>
 <ul>
 <li>Параметр не ограничен. <br/></li>
 </ul>

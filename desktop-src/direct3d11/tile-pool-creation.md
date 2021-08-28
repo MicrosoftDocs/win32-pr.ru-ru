@@ -4,12 +4,12 @@ description: Пул плиток создается через API ID3D11Device 
 ms.assetid: 751A64A6-C9B6-4797-BA1C-B3BEF655DF32
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f3b66a9a548d27382f8cbb4e447516beea6eca8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ec98038f2c58de0feae7fa491c45945e9e2a30d112ee45a6c3116209f126222e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104996734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124102"
 ---
 # <a name="tile-pool-creation"></a>Создание пула плиток
 
@@ -19,16 +19,16 @@ ms.locfileid: "104996734"
 
 Пул плиток состоит из плиток по 64 КБ, но операционная система (видеодрайвер) управляет всем пулом как одним или несколькими выделениями памяти незаметно — разбивка недоступна приложениям. Мозаичные ресурсы определяют содержимое, указывая плитки в пуле плиток. Отменить сопоставление плитки из мозаичного ресурса можно, поместив плитку в **значение NULL**. Такие несопоставленные плитки имеют правила поведения операций чтения или записи. Сведения см. в разделе [Отслеживание опасности и ресурсы пула плиток](hazard-tracking-versus-tile-pool-resources.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Сопоставления в пуле плиток](mappings-are-into-a-tile-pool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

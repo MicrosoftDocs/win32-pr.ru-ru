@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eafd33f268f2ef1ef87755b79aba6d5d0aa77bb7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9bdd984a2f65ab8c2eed8a77fffa56af1d94633c828196428a674c9eee78c3ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985364"
 ---
 # <a name="mb_getstring-function"></a>MB, \_ функция GetString
 
@@ -57,7 +57,7 @@ LPCWSTR WINAPI MB_GetString(
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>User. h</dt> </dl>     |
+| Заголовок<br/>  | <dl> <dt>User. h</dt> </dl>     |
 | Библиотека<br/> | <dl> <dt>User32. lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>User32.dll</dt> </dl> |
 
