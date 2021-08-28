@@ -3,7 +3,7 @@ title: Сообщение LVM_GETITEMINDEXRECT (Коммктрл. h)
 description: Извлекает ограничивающий прямоугольник для всей или части подэлемента в текущем представлении элемента управления "представление списка". Отправьте это сообщение явным образом или с помощью \_ макроса Жетитеминдексрект ListView.
 ms.assetid: 17704d24-c029-4d41-b198-04d1e78698e0
 keywords:
-- Элементы управления Windows для LVM_GETITEMINDEXRECT сообщений
+- элементы управления Windows сообщений LVM_GETITEMINDEXRECT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31ccd114713326c4796ca69f56fc2c38daf145db
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 91aa3e6d0420bfddb974d13f210c84241cefc5d79f0ee5a82920bdc2961879dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119770374"
 ---
 # <a name="lvm_getitemindexrect-message"></a>\_Сообщение LVM жетитеминдексрект
 
@@ -65,9 +65,9 @@ ms.locfileid: "104492414"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 6b1917a8-8685-40c3-983d-6bd2fed95642
 title: Состояние блокировки сохранения и восстановления (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9a56ed6490b0d81b7e643ef892e6a760f00b841531bd21dc69a4069f07b9aa3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 104010f2ea057870b70e9887e5b325f1de68c463
+ms.sourcegitcommit: 8d7ce0c4827f8a4fd501cc6487f1a8360e944577
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118291731"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122767658"
 ---
 # <a name="state-blocks-save-and-restore-state-direct3d-9"></a>Состояние блокировки сохранения и восстановления (Direct3D 9)
 
@@ -27,13 +27,13 @@ pd3dDevice->CreateStateBlock( D3DSBT_ALL, &pStateBlock );
 
 
 
-[**IDirect3DDevice9:: креатестатеблокк**](/windows/desktop/api) создает блок состояния и автоматически фиксирует состояние устройства. Состояние устройства определяется типом блока State в первом аргументе. Это состояние может быть одним из следующих: все состояние устройства (см. раздел [Сохранение всех состояний устройства с помощью статеблокк (Direct3D 9)](saving-all-device-states-with-a-stateblock.md)), состояние пикселей (см. раздел [Сохранение состояния пикселов с помощью статеблокк (Direct3D 9)](saving-pixel-states-with-a-stateblock.md)) или все состояние вершины (см. раздел [Сохранение состояний вершин с помощью статеблокк (Direct3D 9)](saving-vertex-states-with-a-stateblock.md)).
+[**IDirect3DDevice9:: креатестатеблокк**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createstateblock) создает блок состояния и автоматически фиксирует состояние устройства. Состояние устройства определяется типом блока State в первом аргументе. Это состояние может быть одним из следующих: все состояние устройства (см. раздел [Сохранение всех состояний устройства с помощью статеблокк (Direct3D 9)](saving-all-device-states-with-a-stateblock.md)), состояние пикселей (см. раздел [Сохранение состояния пикселов с помощью статеблокк (Direct3D 9)](saving-pixel-states-with-a-stateblock.md)) или все состояние вершины (см. раздел [Сохранение состояний вершин с помощью статеблокк (Direct3D 9)](saving-vertex-states-with-a-stateblock.md)).
 
 Система эффектов использует блок состояния для сохранения состояния. После вызова [**ID3DXEffect:: Begin**](id3dxeffect--begin.md) создается блок состояния, а состояние фиксируется. При вызове [**ID3DXEffect:: end**](id3dxeffect--end.md) состояние блока состояния повторно применяется к устройству.
 
 ## <a name="capture-individual-states"></a>Захватить отдельные состояния
 
-Чтобы сохранить пользовательскую последовательность состояния, заключите состояние, которое вы хотите сохранить, в паре [**IDirect3DDevice9:: бегинстатеблокк**](/windows/desktop/api) и [**IDirect3DDevice9:: ендстатеблокк**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-endstateblock) . Бегинстатеблокк сообщает текущему устройству о необходимости настроить блок состояния и добавить к нему все изменения состояния, происходящие до вызова Ендстатеблокк. Ниже приведен пример:
+Чтобы сохранить пользовательскую последовательность состояния, заключите состояние, которое вы хотите сохранить, в паре [**IDirect3DDevice9:: бегинстатеблокк**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-beginstateblock) и [**IDirect3DDevice9:: ендстатеблокк**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-endstateblock) . Бегинстатеблокк сообщает текущему устройству о необходимости настроить блок состояния и добавить к нему все изменения состояния, происходящие до вызова Ендстатеблокк. Ниже приведен пример:
 
 
 ```

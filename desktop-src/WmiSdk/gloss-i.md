@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: I (WMI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 888a6c701b2ff7b4083c9d493ceb9235c6bedc9d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e19fe50cc4ac24286eda2879589c45b24f532773ce2df8cc843c44d8f12f519
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119411854"
 ---
 # <a name="i-wmi"></a>I (WMI)
 
@@ -43,7 +43,7 @@ COM-сервер, предоставляющий экземпляры класс
 <span id="wmi.gloss_instrumentation"></span><span id="WMI.GLOSS_INSTRUMENTATION"></span>**инструментирования**
 </dt> <dd>
 
-Механизм, используемый для сообщения о состоянии оборудования и программного обеспечения системы. Инструментарий WMI реализует инструментирование, моделирующее систему с помощью классов на основе [*модель CIM (CIM)*](gloss-c.md). Инструментарий WMI в платформа .NET Framework создает инструментированные классы, добавляя атрибуты.
+Механизм, используемый для сообщения о состоянии оборудования и программного обеспечения системы. Инструментарий WMI реализует инструментирование, моделирующее систему с помощью классов на основе [*модель CIM (CIM)*](gloss-c.md). инструментарий WMI в платформа .NET Framework создает инструментированные классы, добавляя атрибуты.
 
 </dd> </dl>
 

@@ -3,7 +3,7 @@ title: Сообщение SBM_ENABLE_ARROWS (Winuser. h)
 description: Приложение отправляет \_ \_ сообщение со СТРЕЛКАми СБМ, чтобы включить или отключить одну или обе стрелки элемента управления "полоса прокрутки".
 ms.assetid: 9646826a-3a7c-490b-822d-7511e4ef2262
 keywords:
-- Элементы управления Windows для SBM_ENABLE_ARROWS сообщений
+- элементы управления Windows сообщений SBM_ENABLE_ARROWS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 78895b43ec7908172a6164917b33ac8549088db4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 85e7f3ef8728befe72ec4f2c4afe39caeb10bc0b58984612a5db2445963dc549
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119770024"
 ---
 # <a name="sbm_enable_arrows-message"></a>СБМ \_ включить \_ сообщение со стрелками
 
@@ -69,9 +69,9 @@ ms.locfileid: "103989070"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 964683eb-5dfc-4441-abb7-315be8b89a19
 title: Параметр SO_CONDITIONAL_ACCEPT Socket (Ws2def. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: badfdd1f8aac49ae05fa6b77dadb2561ba5ea02f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c1c9105e82bf70be4c62df09eaea5e132a5e540e7e57721dd649dd156cc7af0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118111244"
 ---
 # <a name="so_conditional_accept-socket-option"></a>Поэтому \_ Условный \_ вариант принятия сокета
 
@@ -88,7 +88,7 @@ int setsockopt(
 | <dl> <dt>**[WSANOTINITIALISED](windows-sockets-error-codes-2.md)**</dt> </dl> | Перед использованием этой функции должен быть выполнен успешный вызов [**сбой WSAStartup**](/windows/desktop/api/winsock/nf-winsock-wsastartup) .<br/>                                                                                                                                                     |
 | <dl> <dt>**[WSAENETDOWN](windows-sockets-error-codes-2.md)**</dt> </dl>             | Сбой сетевой подсистемы.<br/>                                                                                                                                                                                                               |
 | <dl> <dt>**[WSAEFAULT](windows-sockets-error-codes-2.md)**</dt> </dl>                 | Один из параметров *оптвал* или *оптлен* указывает на память, которая не находится в допустимой части адресного пространства пользователя. Эта ошибка также возвращается, если значение, на которое указывает параметр *оптлен* , меньше, чем размер значения **DWORD** .<br/> |
-| <dl> <dt>**[всаеинпрогресс](windows-sockets-error-codes-2.md)**</dt> </dl>       | Выполняется блокировка вызова Windows Sockets 1,1, или поставщик услуг все еще обрабатывает функцию обратного вызова.<br/>                                                                                                                            |
+| <dl> <dt>**[всаеинпрогресс](windows-sockets-error-codes-2.md)**</dt> </dl>       | выполняется блокировка Windows сокеты 1,1, или поставщик услуг все еще обрабатывает функцию обратного вызова.<br/>                                                                                                                            |
 | <dl> <dt>**[всаеинвал](windows-sockets-error-codes-2.md)**</dt> </dl>                 | Неизвестный или недопустимый параметр *уровня* . Эта ошибка также возвращается, если сокет уже находится в состоянии прослушивания.<br/>                                                                                                                        |
 | <dl> <dt>**[всаенопротупт](windows-sockets-error-codes-2.md)**</dt> </dl>       | Параметр неизвестен или не поддерживается указанным семейством протоколов.<br/>                                                                                                                                                                          |
 | <dl> <dt>**[всаенотсокк](windows-sockets-error-codes-2.md)**</dt> </dl>             | Дескриптор не является сокетом.<br/>                                                                                                                                                                                                                 |
@@ -97,7 +97,7 @@ int setsockopt(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция [**сетсоккопт**](/windows/desktop/api/winsock/nf-winsock-setsockopt) , вызываемая с применением **\_ условного \_** сокета Accept, позволяет приложению решить, принимать ли входящие подключения через сокет прослушивания. Параметр условного принятия для сокета по умолчанию отключен (имеет значение **false**).
 
@@ -121,13 +121,13 @@ int setsockopt(
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Ws2def. h (включение Winsock2. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Ws2def. h (включение Winsock2. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 56b610025d3012446daa7938e2f37c2efcf6c2ddb7edd2ee545db0a179953fad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1f4f20e248ae714e4ebd948e9b600be2152c3197
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119067459"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626610"
 ---
 # <a name="compiler-errors"></a>Ошибки компилятора
 
@@ -28,8 +28,8 @@ ms.locfileid: "119067459"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1499,7 +1499,7 @@ ms.locfileid: "119067459"
 </tr>
 <tr class="odd">
 <td><span id="MIDL2360"></span><span id="midl2360"></span><dl> <dt><strong>MIDL2360</strong></dt> </dl></td>
-<td><dl> <dt><span id="invalid_type_redefinition"></span><span id="INVALID_TYPE_REDEFINITION"></span>недопустимое переопределение типа</dt> <dd> Новый тип был рекурсивно определен для несуществующего типа.<br/> Пример<br/>
+<td><dl> <dt><span id="invalid_type_redefinition"></span><span id="INVALID_TYPE_REDEFINITION"></span>недопустимое переопределение типа</dt> <dd> Новый тип был рекурсивно определен для несуществующего типа.<br/> Пример.<br/>
 <pre class="syntax" data-space="preserve"><code>typedef roo roo[10];    //MIDL 2360</code></pre>
 </dd> </dl></td>
 </tr>
@@ -1533,7 +1533,7 @@ ms.locfileid: "119067459"
 </tr>
 <tr class="odd">
 <td><span id="MIDL2369"></span><span id="midl2369"></span><dl> <dt><strong>MIDL2369</strong></dt> </dl></td>
-<td><dl> <dt><span id="exceeded_stack_size_for__Oi__using__Os"></span><span id="exceeded_stack_size_for__oi__using__os"></span><span id="EXCEEDED_STACK_SIZE_FOR__OI__USING__OS"></span>Превышен размер стека для/OI с использованием/OS</dt> <dd> Режим оптимизации-Oi ограничен 128 байт пространства стека для параметров. Для обхода этого ограничения компилятор автоматически переключился на режим оптимизации ОС.<br/> Чтобы избежать этого предупреждения, используйте режимы оптимизации-Оикф или-OS. Режим оптимизации можно изменить в командной строке, указав параметр-Оикф или-OS вместо-Oi или добавив атрибут [optimize9 &quot; ICF &quot; )] или optimize [( &quot; s &quot; )] в функцию в файле ACF.<br/> Это предупреждение обычно происходит при передаче больших структур в качестве параметров по значению. Требуемый размер стека можно уменьшить, передав вместо него указатель на структуру.<br/> Пример<br/>
+<td><dl> <dt><span id="exceeded_stack_size_for__Oi__using__Os"></span><span id="exceeded_stack_size_for__oi__using__os"></span><span id="EXCEEDED_STACK_SIZE_FOR__OI__USING__OS"></span>Превышен размер стека для/OI с использованием/OS</dt> <dd> Режим оптимизации-Oi ограничен 128 байт пространства стека для параметров. Для обхода этого ограничения компилятор автоматически переключился на режим оптимизации ОС.<br/> Чтобы избежать этого предупреждения, используйте режимы оптимизации-Оикф или-OS. Режим оптимизации можно изменить в командной строке, указав параметр-Оикф или-OS вместо-Oi или добавив атрибут [optimize9 &quot; ICF &quot; )] или optimize [( &quot; s &quot; )] в функцию в файле ACF.<br/> Это предупреждение обычно происходит при передаче больших структур в качестве параметров по значению. Требуемый размер стека можно уменьшить, передав вместо него указатель на структуру.<br/> Пример.<br/>
 <pre class="syntax" data-space="preserve"><code>typedef struct
 {
 char a[127];
@@ -1551,7 +1551,7 @@ void bar (large *s, int a);</code></pre>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2371"></span><span id="midl2371"></span><dl> <dt><strong>MIDL2371</strong></dt> </dl></td>
-<td><dl> <dt><span id="incorrect_range_specified"></span><span id="INCORRECT_RANGE_SPECIFIED"></span>указан неверный диапазон</dt> <dd> Наибольшее значение, указанное в атрибуте [<a href="range.md"><strong>Range</strong></a>], меньше наименьшего значения.<br/> Пример<br/>
+<td><dl> <dt><span id="incorrect_range_specified"></span><span id="INCORRECT_RANGE_SPECIFIED"></span>указан неверный диапазон</dt> <dd> Наибольшее значение, указанное в атрибуте [<a href="range.md"><strong>Range</strong></a>], меньше наименьшего значения.<br/> Пример.<br/>
 <pre class="syntax" data-space="preserve"><code>void roo([range(3,2)] int a);    //MIDL 2371</code></pre>
 </dd> </dl></td>
 </tr>

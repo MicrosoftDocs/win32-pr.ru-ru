@@ -4,12 +4,12 @@ ms.assetid: e65c1b11-2222-4d15-aac1-5e034d3cfa3c
 title: System. Devices. Аепконтаинер. Суппортслимитеддисковери
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9181ec4ceb1c91cc12d6e1a1a81cc4c6a6ff8da0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b8cc2147c5eee525d8e5fe91e24030dcdfbdbe78b986d579c90b7fd720e0473
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105673914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775823"
 ---
 # <a name="systemdevicesaepcontainersupportslimiteddiscovery"></a>System. Devices. Аепконтаинер. Суппортслимитеддисковери
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

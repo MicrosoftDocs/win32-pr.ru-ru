@@ -4,12 +4,12 @@ ms.assetid: f0500856-18d0-45e5-992a-57e01fb2cca5
 title: Пример настраиваемого компонента
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 971b2a7c442acb96d7ba00a444c8c3a038c339f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9ff3e1567a19afd50a0ae2035893c027398816b535d5edfb233e89021ea9e59
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119500744"
 ---
 # <a name="configurable-component-example"></a>Пример настраиваемого компонента
 
@@ -21,8 +21,8 @@ ms.locfileid: "105662581"
 
 | Таблица   | Строка           | Столбец     | Значение                        |
 |---------|---------------|------------|------------------------------|
-| Control | Dialog1; Edit1 | Атрибуты | \[= Пароль\]                |
-| Файл    | Файл1         | Атрибуты | \[= CHECKSUM \] \[ = сжатый\] |
+| Элемент | Dialog1; Edit1 | Атрибуты | \[= Пароль\]                |
+| File    | Файл1         | Атрибуты | \[= CHECKSUM \] \[ = сжатый\] |
 
 
 

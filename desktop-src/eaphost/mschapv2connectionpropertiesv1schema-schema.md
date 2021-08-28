@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 27a049038f3405b5fafb59a14ccadb54032cca50
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 9d32c4c8c20f9f7efa281d5ff5c9323b4db385262af3ee1e219d86bd11c678a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104335731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118086239"
 ---
 # <a name="mschapv2connectionpropertiesv1-schema"></a>Схема mschapv2connectionpropertiesv1
 
@@ -22,16 +22,16 @@ ms.locfileid: "104335731"
 
 -   [Элементы схемы mschapv2connectionpropertiesv1](mschapv2connectionpropertiesv1schema-elements.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [EAPHost и схема прежних версий](eaphost-schemas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: Хранит имя предпочтительного отладч
 ms.assetid: c180f995-ec25-4239-ad61-7dde0080482e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93a0377a5f86ad1387b5ea8693a8c0cd100d7f12
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2f8e1325d894013260eaf1565cc1db91a213912be75db790fdf5f0773e115212
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104252807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119501324"
 ---
 # <a name="debugger"></a>Отладчик
 
@@ -19,14 +19,14 @@ ms.locfileid: "104252807"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\DebugObjectRPCEnabled\AeDebug
-   Debugger = value
+   Debugger = value
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это значение **reg \_ SZ** .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -39,9 +39,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\DebugObjectRPCEn
 [**ОРПК \_ dbg \_ ALL**](orpc-dbg-all.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

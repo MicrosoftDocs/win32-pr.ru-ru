@@ -4,12 +4,12 @@ ms.assetid: 4774308e-2f18-4a35-a769-56871f3c29a2
 title: Сообщение WM_FONTCHANGE (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e3b40650f0077ed854b87a6fd10e1dae610f0c3f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 12c88edaf2db356fea2b92ce05769360ac9c8664e913ff6e5a05daaf245d1204
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119399934"
 ---
 # <a name="wm_fontchange-message"></a>\_Сообщение ФОНТЧАНЖЕ WM
 
@@ -47,7 +47,7 @@ SendMessage(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Приложение, добавляющее или удаляющее шрифты из системы (например, с помощью функции [**аддфонтресаурце**](/windows/desktop/api/Wingdi/nf-wingdi-addfontresourcea) или [**ремовефонтресаурце**](/windows/desktop/api/Wingdi/nf-wingdi-removefontresourcea) ), должно отправить это сообщение всем окнам верхнего уровня.
 
@@ -61,7 +61,7 @@ SendMessage(
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

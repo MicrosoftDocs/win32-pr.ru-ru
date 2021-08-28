@@ -3,7 +3,7 @@ title: Сообщение DRV_REMOVE (Ммсистем. h)
 description: Уведомляет драйвер о том, что он собирается удалить из системы. Когда драйвер получает это сообщение, он должен удалить все разделы, созданные в реестре.
 ms.assetid: e4f6ce7c-29e5-4256-b08a-13571256207c
 keywords:
-- DRV_REMOVE сообщения Windows мультимедиа
+- сообщение DRV_REMOVE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ccfc94d648f83e618a20323ed7bbe3694616bc06
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0c08302d69e934ec77908b247f3c8f6368de8de4eab36809b6102b74858adde5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104072005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119496424"
 ---
 # <a name="drv_remove-message"></a>DRV \_ Удалить сообщение
 
@@ -47,11 +47,11 @@ ms.locfileid: "104072005"
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметры *lParam1* и *lParam2* не используются.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -59,11 +59,11 @@ ms.locfileid: "104072005"
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

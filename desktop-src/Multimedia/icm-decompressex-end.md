@@ -3,7 +3,7 @@ title: Сообщение ICM_DECOMPRESSEX_END (VFW. h)
 description: '\_ \_ Сообщение об окончании ICM декомпрессекс уведомляет драйвер распаковки о завершении распаковки и освобождения ресурсов, выделенных для распаковки. Это сообщение можно отправить явно или с помощью макроса Икдекомпрессексенд.'
 ms.assetid: 7ed63a4e-bb17-43a3-b593-25c4a51be942
 keywords:
-- ICM_DECOMPRESSEX_END сообщения Windows мультимедиа
+- сообщение ICM_DECOMPRESSEX_END Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c7e96f6a069e9ed2c9c52dc2f07f1ab4c5210ecd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e2e0467317725ba862d76c15735780dba1a32aea74722e945fa0c6dd8823075f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117987826"
 ---
 # <a name="icm_decompressex_end-message"></a>\_ \_ Сообщение об окончании ICM декомпрессекс
 
@@ -38,7 +38,7 @@ lParam = 0;
 
 Возвращает ИЦЕРР \_ ОК в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Драйвер освобождает все ресурсы, выделенные для сообщения [**о \_ \_ начале ICM декомпрессекс**](icm-decompressex-begin.md) .
 
@@ -56,7 +56,7 @@ lParam = 0;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

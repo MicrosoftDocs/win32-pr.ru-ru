@@ -17,12 +17,12 @@ keywords:
 - диски OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab766c661f89cbdec30b3295dfef8dc85b59f7fe
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4010a9cc1c0cfac58f1a99572ebae43233dce552237c17f42d66cc1c50013986
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776834"
 ---
 # <a name="rendering-simple-surfaces"></a>Отрисовка простых поверхностей
 
@@ -45,9 +45,9 @@ ms.locfileid: "104411425"
 
 Используйте *\* радиус*, *высоту* и аналогичные аргументы, а не функцию [**глскале**](glscale.md) , чтобы масштабировать куадрикс, чтобы не нужно было выполнять денормализацию всех создаваемых нормализованных символов. Чтобы принудительно выполнять вычисления освещения с большей степенью детализации, особенно если значение отражения материала велико, задайте для аргументов *Loops* и *Stack* значения, отличные от 1.
 
- 
+ 
 
- 
+ 
 
 
 

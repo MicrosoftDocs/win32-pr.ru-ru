@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d7a74838d9f6c532d3433240a5b8a70846b63776
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 582e255223b6eb971fd447c7884ff730662a1b344c107791b1a57a074c2c1354
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119504774"
 ---
 # <a name="create-method-of-the-win32_share-class"></a>Метод Create \_ класса общего ресурса Win32
 
@@ -51,7 +51,7 @@ uint32 Create(
 *Путь* \[ окне\]
 </dt> <dd>
 
-Локальный путь к общей папке Windows.
+локальный путь к Windows общему ресурсу.
 
 Например, "C: \\ Program Files".
 
@@ -60,7 +60,7 @@ uint32 Create(
 *Имя* \[ окне\]
 </dt> <dd>
 
-Передает псевдоним в путь, настроенный как общий ресурс в компьютерной системе под Windows.
+Передает псевдоним в путь, настроенный в качестве общего ресурса на компьютере, на котором выполняется Windows.
 
 Например, "Public".
 
@@ -198,7 +198,7 @@ uint32 Create(
 **Другие** (26 4294967295)
 </dt> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **CREATE** является статическим методом.
 
@@ -306,7 +306,7 @@ catch (SystemException e)
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -320,7 +320,7 @@ catch (SystemException e)
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

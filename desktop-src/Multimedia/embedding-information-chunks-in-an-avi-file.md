@@ -7,20 +7,20 @@ keywords:
 - макрос Капфилесетинфочунк
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fdcf601b51c7fd825a6e6ca2d592a2ad566c6f1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 907731452793a586954565bec31dd396be403199e462140d0c23ee327d12ba53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105650282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117988805"
 ---
 # <a name="embedding-information-chunks-in-an-avi-file"></a>Внедрение фрагментов сведений в файл AVI
 
 В AVI-файл можно вставлять фрагменты информации, такие как текст или пользовательские данные, с помощью сообщения [**\_ \_ \_ \_ Инфочунк с закреплениями WM**](wm-cap-file-set-infochunk.md) (или макроса [**капфилесетинфочунк**](/windows/desktop/api/Vfw/nf-vfw-capfilesetinfochunk) ). Это сообщение также можно использовать для очистки фрагментов данных из файла AVI.
 
- 
+ 
 
- 
+ 
 
 
 

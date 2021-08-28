@@ -36,18 +36,18 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b46f3b4bd37770a5f3a7c1a2d2faa93d49bc079a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b2ce4673b6739639475264f79a60a7fd1b1c7bc5a0f16153d22305a77812759a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104142508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119504374"
 ---
 # <a name="win32_baseservice-class"></a>\_Класс Win32 басесервице
 
 Абстрактный [класс WMI](/windows/desktop/WmiSdk/retrieving-a-class) **\_ басесервице Win32** представляет исполняемые объекты, установленные в базе данных реестра, обслуживаемой диспетчером управления службами. Исполняемый файл, связанный со службой, может запускаться во время загрузки программой загрузки или системой. Он также может быть запущен по запросу диспетчером управления службами. Любая служба или процесс, не принадлежащий определенному пользователю и предоставляющий интерфейс некоторой функциональности, поддерживаемой компьютерной системой, является потомком (или членом) этого класса.
 
-Пример. служба клиента DHCP на компьютере под управлением Windows Server.
+пример. служба клиента DHCP на компьютере, на котором работает Windows Server.
 
 Следующий пример синтаксиса — упрощенный MOF-код, который включает все наследуемые свойства. Свойства перечислены в алфавитном порядке, а не в MOF.
 
@@ -97,10 +97,10 @@ class Win32_BaseService : CIM_Service
 
 | Метод                                                                             | Описание                                                                   |
 |:-----------------------------------------------------------------------------------|:------------------------------------------------------------------------------|
-| [**Change**](change-method-in-class-win32-baseservice.md)                         | Изменяет службу.<br/>                                                |
+| [**Изменение**](change-method-in-class-win32-baseservice.md)                         | Изменяет службу.<br/>                                                |
 | [**чанжестартмоде**](changestartmode-method-in-class-win32-baseservice.md)       | Изменяет режим запуска службы.<br/>                              |
-| [**Создать**](create-method-in-class-win32-baseservice.md)                         | Создает новую службу.<br/>                                             |
-| [**Удалить**](delete-method-in-class-win32-baseservice.md)                         | Удаляет существующую службу.<br/>                                       |
+| [**Создание**](create-method-in-class-win32-baseservice.md)                         | Создает новую службу.<br/>                                             |
+| [**Удален**](delete-method-in-class-win32-baseservice.md)                         | Удаляет существующую службу.<br/>                                       |
 | [**интеррогатесервице**](interrogateservice-method-in-class-win32-baseservice.md) | Запрашивает обновление состояния службы до Service Manager.<br/> |
 | [**PauseService**](pauseservice-method-in-class-win32-baseservice.md)             | Пытается перевести службу в состояние приостановки.<br/>                 |
 | [**ResumeService**](resumeservice-method-in-class-win32-baseservice.md)           | Пытается перевести службу в состояние возобновления.<br/>                |
@@ -150,7 +150,7 @@ class Win32_BaseService : CIM_Service
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -347,7 +347,7 @@ class Win32_BaseService : CIM_Service
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -496,7 +496,7 @@ class Win32_BaseService : CIM_Service
 Квалификаторы: [**override**](/windows/desktop/WmiSdk/standard-qualifiers) ("StartMode"), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("режим запуска")
 </dt> </dl>
 
-Режим запуска базовой службы Windows.
+режим запуска базовой службы Windows.
 
 Это свойство наследуется [**от \_ службы CIM**](cim-service.md).
 
@@ -809,11 +809,11 @@ class Win32_BaseService : CIM_Service
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ басесервице** является производным от [**\_ службы CIM**](cim-service.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -827,7 +827,7 @@ class Win32_BaseService : CIM_Service
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

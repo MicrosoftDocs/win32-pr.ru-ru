@@ -3,9 +3,9 @@ title: IWMPMediaCollection2 Жетстрингколлектионбикуери
 description: Метод Жетстрингколлектионбикуери возвращает интерфейс Ивмпстрингколлектион, который предоставляет доступ к набору всех строковых значений для указанного атрибута, соответствующих условиям запроса.
 ms.assetid: 2d3b29af-0b6c-4405-8334-9a47a30ff6de
 keywords:
-- Жетстрингколлектионбикуери метод Windows Media Player
-- Жетстрингколлектионбикуери метод проигрывателя Windows Media Player, интерфейс IWMPMediaCollection2
-- Интерфейс IWMPMediaCollection2 Windows Media Player, метод Жетстрингколлектионбикуери
+- проигрыватель Windows Media метода жетстрингколлектионбикуери
+- проигрыватель Windows Media метода жетстрингколлектионбикуери, интерфейс IWMPMediaCollection2
+- проигрыватель Windows Media интерфейса IWMPMediaCollection2, метод жетстрингколлектионбикуери
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 322781bc9ddec3e6f8d74d7229f16ce38e519f05
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 054dd5b76cb6dcf3e6cb29ba624cd1f5c0f281d69c4b2b5e5125f5de9b4e7b04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745972"
 ---
 # <a name="iwmpmediacollection2getstringcollectionbyquery-method"></a>Метод IWMPMediaCollection2:: Жетстрингколлектионбикуери
 
@@ -100,7 +100,7 @@ Implements IWMPMediaCollection2.getStringCollectionByQuery
 
 Интерфейс **вмплиб. ивмпстрингколлектион** для полученного набора строковых значений.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В составных запросах, использующих **ивмпкуери** , регистр не учитывается.
 
@@ -112,7 +112,7 @@ Implements IWMPMediaCollection2.getStringCollectionByQuery
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 11.<br/>                                                                                    |
+| Версия<br/>   | проигрыватель Windows Media 11.<br/>                                                                                    |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

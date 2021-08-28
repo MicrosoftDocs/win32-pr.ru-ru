@@ -3,9 +3,9 @@ title: Ивмпнетворк Лостпаккетс, свойство
 description: Свойство Лостпаккетс возвращает число потерянных пакетов.
 ms.assetid: 611218d3-c4d3-4d4e-835c-1e7a956b2718
 keywords:
-- Проигрыватель Windows Media для свойства Лостпаккетс
-- Лостпаккетс свойство проигрывателя Windows Media Player, интерфейс Ивмпнетворк
-- Интерфейс Ивмпнетворк Windows Media Player, свойство Лостпаккетс
+- проигрыватель Windows Media свойства лостпаккетс
+- проигрыватель Windows Media свойства лостпаккетс, интерфейс ивмпнетворк
+- проигрыватель Windows Media интерфейса ивмпнетворк, свойство лостпаккетс
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd1adac5f4aa8b1f58c023a556af04b8eae4bd8e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a60c85920d647f99ed8ba8478da51183c3ba63efa733c0bc627c16b040b70965
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745915"
 ---
 # <a name="iwmpnetworklostpackets-property"></a>Свойство Ивмпнетворк:: Лостпаккетс
 
@@ -48,7 +48,7 @@ Public ReadOnly Property lostPackets As System.Int32
 
 Значение **System. Int32** , равное количеству потерянных пакетов.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство включает только пакеты потокового мультимедиа и возвращает нуль при использовании протокола HTTP, который не учитывается.
 
@@ -88,7 +88,7 @@ End Sub
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

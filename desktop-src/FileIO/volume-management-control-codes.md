@@ -4,12 +4,12 @@ ms.assetid: 87f39e1c-3ebf-4c6f-a842-699ec3c45e76
 title: Управляющие коды для управления томами
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cccb73559826b8b0b3001588458a4cf34863f7d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f5ddaa60b30b40891aa13868f46294cc81a197d81b77b076d5390a755bb0cefe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119431785"
 ---
 # <a name="volume-management-control-codes"></a>Управляющие коды для управления томами
 
@@ -86,7 +86,7 @@ ms.locfileid: "105684107"
 -   [**\_ \_ сведения о области запроса фсктл \_**](/windows/win32/api/winioctl/ni-winioctl-fsctl_query_region_info)
 -   [**ФСКТЛ \_ запрос \_ \_ журнала USN**](/windows/win32/api/winioctl/ni-winioctl-fsctl_query_usn_journal)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

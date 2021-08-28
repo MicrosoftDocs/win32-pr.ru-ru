@@ -64,12 +64,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb75467b35703420ce49fd99ea032b139d721505
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c4e55d5a1f529435f0cdf6db3dcf801e7f24dda1a69e0bc1cad393942b672d4a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119513104"
 ---
 # <a name="imstscaxdesktopheight-property"></a>Имстскакс: свойство Есктофеигхт:D
 
@@ -100,20 +100,20 @@ HRESULT get_DesktopHeight(
 
 В случае успеха возвратите значение **\_ ОК** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Задание свойства **десктофеигхт** является необязательным, но оно должно быть задано перед вызовом метода [**Connect**](imstscax-connect.md) . Если высота рабочего стола не указана или имеет значение 0, высота рабочего стола устанавливается равным высоте элемента управления. Минимальное и максимальное значения зависят от версии операционной системы клиента удаленный рабочий стол.
+задание свойства **десктофеигхт** является необязательным, но его необходимо задать перед вызовом метода [**Подключение**](imstscax-connect.md) . Если высота рабочего стола не указана или имеет значение 0, высота рабочего стола устанавливается равным высоте элемента управления. Минимальное и максимальное значения зависят от версии операционной системы клиента удаленный рабочий стол.
 
 <dl> <dt>
 
-<span id="_"></span>Windows 8 или Windows Server 2012
+<span id="_"></span>Windows 8 и Windows Server 2012
 </dt> <dd>
 
 200 минимум, максимум 8192
 
 </dd> <dt>
 
-<span id="_"></span>Windows 7 или Windows Server 2008
+<span id="_"></span>Windows 7/Windows Server 2008
 </dt> <dd>
 
 200 минимум, максимум 2048
@@ -131,7 +131,7 @@ Windows Vista
 
 Дополнительные сведения о веб-подключение к удаленному рабочему столу см. в разделе [требования для веб-подключение к удаленному рабочему столу](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -145,7 +145,7 @@ Windows Vista
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a2afde8ae06602933d6790c4fce33e9130a78cb
-ms.sourcegitcommit: 7ef31bf778e76ce4196205d4c4c632fbdc649805
+ms.openlocfilehash: 38c0917dae2ae21acd61b6931bcb683a4f3f85f88af45c20fe6137e464254f8a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "104566316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119493012"
 ---
 # <a name="glloadidentity-function"></a>Функция Гллоадидентити
 
@@ -54,7 +54,7 @@ void WINAPI glLoadIdentity(void);
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **гллоадидентити** заменяет текущую матрицу матрицей идентификаторов. Он семантически эквивалентен вызову [**гллоадматрикс**](glloadmatrix.md) со следующей матрицей идентификаторов.
 
@@ -72,7 +72,7 @@ void WINAPI glLoadIdentity(void);
 
 **глжет** с аргументом \_ \_ Матрица текстуры GL
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -86,7 +86,7 @@ void WINAPI glLoadIdentity(void);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

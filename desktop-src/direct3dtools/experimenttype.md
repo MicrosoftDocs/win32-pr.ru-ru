@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 2bfc626434674643834a25dec7e87532bcded26567b393ce673916c56b66f13a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1dfe10eb4e67b77b32df3a818a4572252564f032
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120095054"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122628936"
 ---
 # <a name="span-idvspixengineexperimenttypespanexperimenttype-enumeration"></a><span id="vspixengine.experimenttype"></span>Перечисление ЕКСПЕРИМЕНТТИПЕ
 
@@ -43,7 +43,7 @@ ms.locfileid: "120095054"
 
 ## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

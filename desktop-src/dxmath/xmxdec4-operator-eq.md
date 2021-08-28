@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: daa4025b6b807d5ac717fa2764c2df4ff2190a35
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca344f1799c55d6a9acbebd18339e4eca72a4f88
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711458"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626710"
 ---
 # <a name="xmxdec4-operator--operators"></a>Оператор XMXDEC4 = операторы
 
@@ -30,19 +30,19 @@ ms.locfileid: "105711458"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Оператор</th>
-<th style="text-align: left;">Описание</th>
+<th >Оператор</th>
+<th >Описание:</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmxdec4-operator-assign(uint32_t)"><strong>XMXDEC4:: operator = (const XMXDEC4&)</strong></a></td>
-<td style="text-align: left;">Назначает данные компонента вектора от одного экземпляра <code>XMXDEC4</code> к текущему экземпляру <code>XMXDEC4</code> . <br/> Этот оператор назначает данные компонента вектора от одного экземпляра <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdec4"><strong>XMXDEC4</strong></a> к текущему экземпляру <code>XMXDEC4</code> . <br/>
+<td ><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmxdec4-operator-assign(uint32_t)"><strong>XMXDEC4:: operator = (const XMXDEC4&)</strong></a></td>
+<td >Назначает данные компонента вектора от одного экземпляра <code>XMXDEC4</code> к текущему экземпляру <code>XMXDEC4</code> . <br/> Этот оператор назначает данные компонента вектора от одного экземпляра <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdec4"><strong>XMXDEC4</strong></a> к текущему экземпляру <code>XMXDEC4</code> . <br/>
 <blockquote>
 [!Note]<br />
 Этот оператор доступен только в C++.
@@ -50,8 +50,8 @@ ms.locfileid: "105711458"
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmxdec4-operator-assign(uint32_t)"><strong>XMXDEC4:: operator = (const uint32_t)</strong></a></td>
-<td style="text-align: left;">Назначает данные компонента вектора, Упакованные в экземпляре, в <code>uint32_t</code> текущий экземпляр <code>XMXDEC4</code> . <br/> Этот оператор назначает данные компонента вектора, Упакованные в экземпляре, в <code>uint32_t</code> текущий экземпляр <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdec4"><strong>XMXDEC4</strong></a>. <br/>
+<td ><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmxdec4-operator-assign(uint32_t)"><strong>XMXDEC4:: operator = (const uint32_t)</strong></a></td>
+<td >Назначает данные компонента вектора, Упакованные в экземпляре, в <code>uint32_t</code> текущий экземпляр <code>XMXDEC4</code> . <br/> Этот оператор назначает данные компонента вектора, Упакованные в экземпляре, в <code>uint32_t</code> текущий экземпляр <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdec4"><strong>XMXDEC4</strong></a>. <br/>
 <blockquote>
 [!Note]<br />
 Этот оператор доступен только в C++.
@@ -63,7 +63,7 @@ ms.locfileid: "105711458"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

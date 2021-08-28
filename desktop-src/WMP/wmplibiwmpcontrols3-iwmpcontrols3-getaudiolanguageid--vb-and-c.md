@@ -3,9 +3,9 @@ title: IWMPControls3 Жетаудиолангуажеид, метод
 description: Метод Жетаудиолангуажеид возвращает код локали (LCID) для указанного индекса языкового звука.
 ms.assetid: 880bbfca-6f69-41ce-a078-467c1939fae5
 keywords:
-- Жетаудиолангуажеид метод Windows Media Player
-- Жетаудиолангуажеид метод проигрывателя Windows Media Player, интерфейс IWMPControls3
-- Интерфейс IWMPControls3 Windows Media Player, метод Жетаудиолангуажеид
+- проигрыватель Windows Media метода жетаудиолангуажеид
+- проигрыватель Windows Media метода жетаудиолангуажеид, интерфейс IWMPControls3
+- проигрыватель Windows Media интерфейса IWMPControls3, метод жетаудиолангуажеид
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb8112eafec018b12012d20b37bfe30f7b464377
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2e853d5a13c40316341c0759899e06e7292c006c00068a1b527e5035ff10422b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105649052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119506214"
 ---
 # <a name="iwmpcontrols3getaudiolanguageid-method"></a>Метод IWMPControls3:: Жетаудиолангуажеид
 
@@ -64,27 +64,27 @@ Implements IWMPControls3.getAudioLanguageID
 
 Значение **System. Int32** , которое является LCID.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Код языка (LCID) однозначно определяет определенный диалект языка, который называется локальным языком.
 
-Для содержимого на основе Windows Media свойства и методы, связанные с выбором языка, поддерживают только один выход.
+для Windows содержимого на основе мультимедиа свойства и методы, связанные с выбором языка, поддерживают только один выход.
 
 Используйте свойство **аудиолангуажекаунт** , чтобы получить количество поддерживаемых аудио языков, а затем получите доступ к звуковому языку по отдельности с помощью индекса, основанного на единицах.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

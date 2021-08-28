@@ -4,19 +4,19 @@ ms.assetid: bca00825-32a7-40b2-9ca9-23475e3218a8
 title: Запись изображения по-прежнему из потоковой передачи видео
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf43acdb1bd472a9d5a5dca2344b2f4ad37f474a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7af209ec0261418ab18d01414d040c9015a2436e055675a94608b1089f66fa58
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105693087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119772873"
 ---
 # <a name="capturing-a-still-image-from-streaming-video"></a>Запись изображения по-прежнему из потоковой передачи видео
 
 В следующем примере используется интерфейс [**ивиавидео**](/windows/desktop/api/Wiavideo/nn-wiavideo-iwiavideo) для создания предварительной версии видео в потоковой передаче и получения изображения из этого потокового видео. В этом примере предполагается, что у вас есть допустимый дескриптор окна (HWND).
 
 > [!Note]  
-> Получение образа Windows (WIA) не поддерживает видеоустройства в Windows Server 2003, Windows Vista и более поздних версиях. Для этих версий Windows используйте [DirectShow](/previous-versions//ms783323(v=vs.85)) для получения изображений из видео.
+> Windows получение изображений (WIA) не поддерживает видео-устройства в Windows Server 2003, Windows Vista или более поздней версии. для этих версий Windows используйте [DirectShow](/previous-versions//ms783323(v=vs.85)) для получения изображений из видео.
 
  
 

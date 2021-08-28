@@ -3,7 +3,7 @@ title: Контекстпопуп. Минитулбарс, свойство
 description: Представляет контейнер для элементов Минитулбар.
 ms.assetid: 5c17e070-0520-44e6-a066-476107691205
 keywords:
-- Лента Windows для свойства Контекстпопуп. Минитулбарс
+- контекстпопуп. минитулбарс, свойство Windows лента
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ee1e85e6b170b4b7408a17687bd26725e9183161
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 18f4a083d894f798d83bd153fe74b9fb0560e2fbdb8132ec7874db0a2e533824
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119772134"
 ---
 # <a name="contextpopupminitoolbars-property"></a>Контекстпопуп. Минитулбарс, свойство
 
@@ -55,7 +55,7 @@ ms.locfileid: "104492501"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -160,8 +160,8 @@ ms.locfileid: "104492501"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 

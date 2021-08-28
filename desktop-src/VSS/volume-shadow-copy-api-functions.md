@@ -4,12 +4,12 @@ ms.assetid: 023a18bf-4a4c-441d-b6e2-e7cf3b7d7c52
 title: Функции API теневого копирования томов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28c9d2c427800a3ef66d8c986232e5a5d6b3c488
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8840cf372fbf2314402870e5142b6f5d2a47e99e8821fe7909ebd1afe31d6828
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117751636"
 ---
 # <a name="volume-shadow-copy-api-functions"></a>Функции API теневого копирования томов
 

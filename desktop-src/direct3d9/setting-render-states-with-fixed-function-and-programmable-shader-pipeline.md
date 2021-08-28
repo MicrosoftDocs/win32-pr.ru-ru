@@ -4,12 +4,12 @@ description: В этом разделе приведены основные ра
 ms.assetid: FF0F2A97-F75A-4AF0-8F5A-EA687523E753
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e2d5c0e0ba9e1ac890468654d348b0f8b316f64
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 90d0ddc6b6a58e7bee3e141d84e79328a911f152a3536aa1696c73a503db4db8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104262488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118092261"
 ---
 # <a name="set-device-state-on-fixed-function-shader-pipelines"></a>Установка состояния устройства для конвейеров с фиксированной функцией и шейдеров
 
@@ -37,7 +37,7 @@ ms.locfileid: "104262488"
 -   Спрайты для точек: D3DRS \_ POINTSIZE, D3DRS \_ POINTSIZE \_ min, D3DRS \_ поинтспритинабле, D3DRS \_ POINTSIZE \_ MAXD3DRS \_ поинтскалинабле, D3DRS \_ поинтскале \_ A, D3DRS \_ поинтскале \_ B, D3DRS \_ поинтскале \_ C
 -   N-патчs: D3DRS \_ патчеджестиле, D3DRS \_ ПОСИТИОНДЕГРИ, D3DRS \_ нормалдегри, D3DRS \_ минтесселлатионлевел, D3DRS \_ макстесселлатионлевел, D3DRS \_ ADAPTIVETESS \_ X, D3DRS \_ ADAPTIVETESS \_ Y, D3DRS \_ ADAPTIVETESS \_ Z, D3DRS \_ ADAPTIVETESS \_ W, D3DRS \_ ENABLEADAPTIVETESSELLATION
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

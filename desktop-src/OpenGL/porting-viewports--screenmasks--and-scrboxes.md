@@ -10,12 +10,12 @@ keywords:
 - функции окна просмотра
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b3429a0d154f4ef62a12d767c6497099ac09751
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fb1a01cfb038faf87e48381856fe281bf2c935d13fedb78b79266e2af4fe15e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105661527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776914"
 ---
 # <a name="porting-viewports-screenmasks-and-scrboxes"></a>Перенос окна просмотра, Скринмаскс и Скрбоксес
 
