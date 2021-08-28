@@ -7,12 +7,12 @@ MSHAttr:
 title: Простой тип Ивланаппликабилититипе
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c2ede1e4c360bfd88fa8ca0eb3494a9400f4dfc2a1eb70f7857156caabf7b469
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 529ae39c2b0e137825e7a80d41c43203b0a27de7
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119035752"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478960"
 ---
 # <a name="span-idwwan_profile_v4simpletype_iwlanapplicabilitytypespaniwlanapplicabilitytype-simple-type"></a><span id="WWAN_profile_v4.simpleType_iwlanApplicabilityType"></span>Простой тип Ивланаппликабилититипе
 
@@ -40,32 +40,13 @@ ms.locfileid: "119035752"
 
 Простой тип **ивланаппликабилититипе** определяет следующие значения.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Значение</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>целлуларонли</td>
-<td><p>Профиль действителен только для подключений по сотовой сети.</p></td>
-</tr>
-<tr class="even">
-<td>целлуларандивлан</td>
-<td><p>Профиль действителен для сотовой сети или Wi-Fi разгрузки подключений.</p></td>
-</tr>
-<tr class="odd">
-<td>ивланонли</td>
-<td><p>Профиль действителен только для Wi-Fi разгрузок подключений.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Значение | Описание | 
+|-------|-------------|
+| целлуларонли | <p>Профиль действителен только для подключений по сотовой сети.</p> | 
+| целлуларандивлан | <p>Профиль действителен для сотовой сети или Wi-Fi разгрузки подключений.</p> | 
+| ивланонли | <p>Профиль действителен только для Wi-Fi разгрузок подключений.</p> | 
+
 
  
 

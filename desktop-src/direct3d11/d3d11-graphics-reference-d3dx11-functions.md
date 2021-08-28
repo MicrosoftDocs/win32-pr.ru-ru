@@ -6,12 +6,12 @@ keywords:
 - функции, DirectX 11 D3DX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6b4c98dda5f85f03af1add120d22b95fa620d4a45e8e4db80d3b607f2c3e70e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: afc9525a580fe3df135cd1a2a4a859a4a64ea395
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119126058"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475090"
 ---
 # <a name="d3dx-functions-direct3d-11-graphics"></a>Функции D3DX (графика Direct3D 11)
 
@@ -27,402 +27,41 @@ ms.locfileid: "119126058"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Раздел</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="d3dx11compilefromfile.md"><strong>D3DX11CompileFromFile</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
-</blockquote>
-<br/>
-<blockquote>
-[!Note]<br />
-Вместо использования этой функции рекомендуется компилировать автономно с помощью Fxc.exe компилятора командной строки или использовать один из API-интерфейсов компиляции HLSL, таких как API <a href="/windows/desktop/direct3dhlsl/d3dcompilefromfile"><strong>D3DCompileFromFile</strong></a> .
-</blockquote>
-<br/> Скомпилируйте шейдер или результат из файла.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="d3dx11compilefrommemory.md"><strong>D3DX11CompileFromMemory</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
-</blockquote>
-<br/>
-<blockquote>
-[!Note]<br />
-Вместо использования этой функции рекомендуется компилировать автономно с помощью Fxc.exe компилятора командной строки или использовать один из API-интерфейсов компиляции HLSL, таких как API <a href="/windows/desktop/direct3dhlsl/d3dcompile"><strong>D3DCompile</strong></a> .
-</blockquote>
-<br/> Скомпилируйте шейдер или результат, который загружается в память.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="d3dx11compilefromresource.md"><strong>D3DX11CompileFromResource</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
-</blockquote>
-<br/>
-<blockquote>
-[!Note]<br />
-Вместо использования этой функции рекомендуется использовать <a href="/windows/desktop/menurc/resources-functions">функции ресурсов</a>, а затем компилировать автономно с помощью Fxc.exe компилятора командной строки или использовать один из API-интерфейсов компиляции HLSL, таких как API <a href="/windows/desktop/direct3dhlsl/d3dcompile"><strong>D3DCompile</strong></a> .
-</blockquote>
-<br/> Компиляция шейдера или воздействия ресурса.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="d3dx11computenormalmap.md"><strong>D3DX11ComputeNormalMap</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
-</blockquote>
-<br/>
-<blockquote>
-[!Note]<br />
-Вместо использования этой функции рекомендуется использовать библиотеку <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> , <strong>компутенормалмап</strong>.
-</blockquote>
-<br/> Преобразует карту высоты в обычную карту. Компоненты (x, y, z) каждой нормальной версии сопоставляются с каналами (r, g, b) выходной текстуры.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="d3dx11createasynccompilerprocessor.md"><strong>D3DX11CreateAsyncCompilerProcessor</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. См. заметки.
-</blockquote>
-<br/> Создайте обработчик асинхронных данных для шейдера.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="d3dx11createasyncfileloader.md"><strong>D3DX11CreateAsyncFileLoader</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. См. заметки.
-</blockquote>
-<br/> Создание загрузчика асинхронных файлов.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="d3dx11createasyncmemoryloader.md"><strong>D3DX11CreateAsyncMemoryLoader</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. См. заметки.
-</blockquote>
-<br/> Создание загрузчика с асинхронной памятью.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="d3dx11createasyncresourceloader.md"><strong>D3DX11CreateAsyncResourceLoader</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. См. заметки.
-</blockquote>
-<br/> Создайте загрузчик асинхронных ресурсов.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="d3dx11createasyncshaderpreprocessprocessor.md"><strong>D3DX11CreateAsyncShaderPreprocessProcessor</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. См. заметки.
-</blockquote>
-<br/> Асинхронно Создайте обработчик данных для шейдера.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="d3dx11createasynctextureinfoprocessor.md"><strong>D3DX11CreateAsyncTextureInfoProcessor</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. См. заметки.
-</blockquote>
-<br/> Создайте обработчик данных, который будет использоваться в <a href="id3dx11threadpump.md"><strong>конвейере потоков</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="d3dx11createasynctextureprocessor.md"><strong>D3DX11CreateAsyncTextureProcessor</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. См. заметки.
-</blockquote>
-<br/> Создайте обработчик данных, который будет использоваться в <a href="id3dx11threadpump.md"><strong>конвейере потоков</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="d3dx11createasyncshaderresourceviewprocessor.md"><strong>D3DX11CreateAsyncShaderResourceViewProcessor</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. См. заметки.
-</blockquote>
-<br/> Создайте обработчик данных, который загрузит ресурс, а затем создайте для него представление "шейдер — ресурс". Обработчики данных являются компонентом функции асинхронной загрузки данных в D3DX11, использующей <a href="id3dx11threadpump.md"><strong>потоки</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="d3dx11createshaderresourceviewfromfile.md"><strong>D3DX11CreateShaderResourceViewFromFile</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
-</blockquote>
-<br/>
-<blockquote>
-<p>[!Note]<br />
-Вместо использования этой функции рекомендуется использовать следующие средства:</p>
-<ul>
-<li>Библиотека <a href="https://github.com/Microsoft/DirectXTK">директкстк</a> (Runtime), <strong>КРЕАТЕКСКСКСТЕКСТУРЕФРОМФИЛЕ</strong> (где XXX — DDS или WIC)</li>
-<li>Библиотека <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> (Tools), <strong>ЛОАДФРОМКСКСКСФИЛЕ</strong> (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного изображения для игр), затем <strong>креатешадерресаурцевиев</strong></li>
-</ul>
-</blockquote>
-<br/> Создание представления "шейдер — представление ресурсов" из файла.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="d3dx11createshaderresourceviewfrommemory.md"><strong>D3DX11CreateShaderResourceViewFromMemory</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
-</blockquote>
-<br/>
-<blockquote>
-<p>[!Note]<br />
-Вместо использования этой функции рекомендуется использовать следующие средства:</p>
-<ul>
-<li>Библиотека <a href="https://github.com/Microsoft/DirectXTK">директкстк</a> (Runtime), <strong>КРЕАТЕКСКСКСТЕКСТУРЕФРОММЕМОРИ</strong> (где XXX — DDS или WIC)</li>
-<li>Библиотека <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> (Tools), <strong>ЛОАДФРОМКСКСКСМЕМОРИ</strong> (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного изображения для игр), затем <strong>креатешадерресаурцевиев</strong></li>
-</ul>
-</blockquote>
-<br/> Создание представления "шейдер — представление ресурсов" из файла в памяти.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="d3dx11createshaderresourceviewfromresource.md"><strong>D3DX11CreateShaderResourceViewFromResource</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
-</blockquote>
-<br/>
-<blockquote>
-<p>[!Note]<br />
-Вместо использования этой функции рекомендуется использовать <a href="/windows/desktop/menurc/resources-functions">функции ресурсов</a>, а затем:</p>
-<ul>
-<li>Библиотека <a href="https://github.com/Microsoft/DirectXTK">директкстк</a> (Runtime), <strong>КРЕАТЕКСКСКСТЕКСТУРЕФРОММЕМОРИ</strong> (где XXX — DDS или WIC)</li>
-<li>Библиотека <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> (Tools), <strong>ЛОАДФРОМКСКСКСМЕМОРИ</strong> (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного изображения для игр), затем <strong>креатешадерресаурцевиев</strong></li>
-</ul>
-</blockquote>
-<br/> Создание представления "шейдер — представление ресурсов" из ресурса.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="d3dx11createtexturefromfile.md"><strong>D3DX11CreateTextureFromFile</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
-</blockquote>
-<br/>
-<blockquote>
-<p>[!Note]<br />
-Вместо использования этой функции рекомендуется использовать следующие средства:</p>
-<ul>
-<li>Библиотека <a href="https://github.com/Microsoft/DirectXTK">директкстк</a> (Runtime), <strong>КРЕАТЕКСКСКСТЕКСТУРЕФРОМФИЛЕ</strong> (где XXX — DDS или WIC)</li>
-<li>Библиотека <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> (Tools), <strong>ЛОАДФРОМКСКСКСФИЛЕ</strong> (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного изображения для игр), затем <strong>креатетекстуре</strong></li>
-</ul>
-</blockquote>
-<br/> Создание ресурса текстуры из файла.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="d3dx11createtexturefrommemory.md"><strong>D3DX11CreateTextureFromMemory</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
-</blockquote>
-<br/>
-<blockquote>
-<p>[!Note]<br />
-Вместо использования этой функции рекомендуется использовать следующие средства:</p>
-<ul>
-<li>Библиотека <a href="https://github.com/Microsoft/DirectXTK">директкстк</a> (Runtime), <strong>КРЕАТЕКСКСКСТЕКСТУРЕФРОММЕМОРИ</strong> (где XXX — DDS или WIC)</li>
-<li>Библиотека <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> (Tools), <strong>ЛОАДФРОМКСКСКСМЕМОРИ</strong> (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного изображения для игр), затем <strong>креатетекстуре</strong></li>
-</ul>
-</blockquote>
-<br/> Создайте ресурс текстуры из файла, находящегося в системной памяти.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="d3dx11createtexturefromresource.md"><strong>D3DX11CreateTextureFromResource</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
-</blockquote>
-<br/>
-<blockquote>
-<p>[!Note]<br />
-Вместо использования этой функции рекомендуется использовать <a href="/windows/desktop/menurc/resources-functions">функции ресурсов</a>, а затем:</p>
-<ul>
-<li>Библиотека <a href="https://github.com/Microsoft/DirectXTK">директкстк</a> (Runtime), <strong>КРЕАТЕКСКСКСТЕКСТУРЕФРОММЕМОРИ</strong> (где XXX — DDS или WIC)</li>
-<li>Библиотека <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> (Tools), <strong>ЛОАДФРОМКСКСКСМЕМОРИ</strong> (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного изображения для игр), затем <strong>креатетекстуре</strong></li>
-</ul>
-</blockquote>
-<br/> Создание текстуры из другого ресурса.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="d3dx11createthreadpump.md"><strong>D3DX11CreateThreadPump</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. См. заметки.
-</blockquote>
-<br/> Создание конвейера потока.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="d3dx11filtertexture.md"><strong>D3DX11FilterTexture</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
-</blockquote>
-<br/>
-<blockquote>
-[!Note]<br />
-Вместо использования этой функции рекомендуется использовать библиотеку <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> , <strong>женератемипмапс</strong> и <strong>GenerateMipMaps3D</strong>.
-</blockquote>
-<br/> Создает цепочку mipmap с помощью определенного фильтра текстуры.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="d3dx11getimageinfofromfile.md"><strong>D3DX11GetImageInfoFromFile</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
-</blockquote>
-<br/>
-<blockquote>
-[!Note]<br />
-Вместо использования этой функции рекомендуется использовать библиотеку <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> , <strong>ЖЕТМЕТАДАТАФРОМКСКСКСФИЛЕ</strong> (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного кода для игр).
-</blockquote>
-<br/> Извлекает сведения о заданном файле изображения.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="d3dx11getimageinfofrommemory.md"><strong>D3DX11GetImageInfoFromMemory</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
-</blockquote>
-<br/>
-<blockquote>
-[!Note]<br />
-Вместо использования этой функции рекомендуется использовать библиотеку <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> , <strong>ЖЕТМЕТАДАТАФРОМКСКСКСМЕМОРИ</strong> (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного кода для игр).
-</blockquote>
-<br/> Получение сведений о изображении, которое уже загружено в память.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="d3dx11getimageinfofromresource.md"><strong>D3DX11GetImageInfoFromResource</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
-</blockquote>
-<br/>
-<blockquote>
-[!Note]<br />
-Вместо использования этой функции рекомендуется использовать <a href="/windows/desktop/menurc/resources-functions">функции ресурсов</a>, а затем использовать библиотеку <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> (Tools), <strong>лоадфромксксксмемори</strong> (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного кода для игр).
-</blockquote>
-<br/> Извлекает сведения об определенном изображении в ресурсе.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="d3dx11loadtexturefromtexture.md"><strong>D3DX11LoadTextureFromTexture</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
-</blockquote>
-<br/>
-<blockquote>
-[!Note]<br />
-Вместо использования этой функции рекомендуется использовать библиотеку <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> , <strong>изменить размер</strong>, <strong>преобразовать</strong>, <strong>Сжать</strong>, <strong>распаковать</strong>и (или) <strong>копиректангле</strong>.
-</blockquote>
-<br/> Загрузка текстуры из текстуры.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="d3dx11preprocessshaderfromfile.md"><strong>D3DX11PreprocessShaderFromFile</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
-</blockquote>
-<br/>
-<blockquote>
-[!Note]<br />
-Вместо использования этой функции рекомендуется использовать API <a href="/windows/desktop/direct3dhlsl/d3dpreprocess"><strong>D3DPreprocess</strong></a> .
-</blockquote>
-<br/> Создание шейдера из файла без его компиляции.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="d3dx11preprocessshaderfrommemory.md"><strong>D3DX11PreprocessShaderFromMemory</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
-</blockquote>
-<br/>
-<blockquote>
-[!Note]<br />
-Вместо использования этой функции рекомендуется использовать API <a href="/windows/desktop/direct3dhlsl/d3dpreprocess"><strong>D3DPreprocess</strong></a> .
-</blockquote>
-<br/> Создание шейдера из памяти без его компиляции.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="d3dx11preprocessshaderfromresource.md"><strong>D3DX11PreprocessShaderFromResource</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
-</blockquote>
-<br/>
-<blockquote>
-[!Note]<br />
-Вместо использования этой функции рекомендуется использовать API <a href="/windows/desktop/direct3dhlsl/d3dpreprocess"><strong>D3DPreprocess</strong></a> .
-</blockquote>
-<br/> Создание шейдера из ресурса без его компиляции.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="d3dx11savetexturetofile.md"><strong>D3DX11SaveTextureToFile</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
-</blockquote>
-<br/>
-<blockquote>
-[!Note]<br />
-Вместо использования этой функции рекомендуется использовать библиотеку <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> , <strong>каптуретекстуре</strong> затем <strong>саветоксксксфиле</strong> (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного кода для игр). Для упрощенного сценария создания снимка экрана из текстуры цели рендеринга рекомендуется использовать библиотеку <a href="https://github.com/Microsoft/DirectXTK">директкстк</a> , <strong>саведдстекстуретофиле</strong> или <strong>савевиктекстуретофиле</strong>.
-</blockquote>
-<br/> Сохранение текстуры в файл.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="d3dx11savetexturetomemory.md"><strong>D3DX11SaveTextureToMemory</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
-</blockquote>
-<br/>
-<blockquote>
-[!Note]<br />
-Вместо использования этой функции рекомендуется использовать библиотеку <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> , <strong>каптуретекстуре</strong> затем <strong>саветоксксксмемори</strong> (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного кода для игр).
-</blockquote>
-<br/> Сохранение текстуры в памяти.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="d3dx11shprojectcubemap.md"><strong>D3DX11SHProjectCubeMap</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
-</blockquote>
-<br/>
-<blockquote>
-[!Note]<br />
-Вместо использования этой функции рекомендуется использовать <a href="https://github.com/Microsoft/DirectXMath/tree/master/SHMath">математическую библиотеку "сферические гармонические колебания</a> ", <strong>шпрожекткубемап</strong>.
-</blockquote>
-<br/> Проецирует функцию, представленную в сопоставлении кубов, в сферические гармонические колебания.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="d3dx11unsetalldeviceobjects.md"><strong>D3DX11UnsetAllDeviceObjects</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
-</blockquote>
-<br/>
-<blockquote>
-[!Note]<br />
-Вместо использования этой функции рекомендуется использовать метод <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-clearstate"><strong>ссылку ID3D11DeviceContext:: клеарстате</strong></a> .
-</blockquote>
-<br/> Удаляет все ресурсы с устройства, присвоив их указателям <strong>значение NULL</strong>. Этот метод должен вызываться во время завершения работы приложения. Это гарантирует, что когда один из них освобождает все ресурсы, которые не привязаны к устройству.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Раздел | Описание | 
+|-------|-------------|
+| <a href="d3dx11compilefromfile.md"><strong>D3DX11CompileFromFile</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.</blockquote><br /><blockquote>[!Note]<br />Вместо использования этой функции рекомендуется компилировать автономно с помощью Fxc.exe компилятора командной строки или использовать один из API-интерфейсов компиляции HLSL, таких как API <a href="/windows/desktop/direct3dhlsl/d3dcompilefromfile"><strong>D3DCompileFromFile</strong></a> .</blockquote><br /> Скомпилируйте шейдер или результат из файла.<br /> | 
+| <a href="d3dx11compilefrommemory.md"><strong>D3DX11CompileFromMemory</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.</blockquote><br /><blockquote>[!Note]<br />Вместо использования этой функции рекомендуется компилировать автономно с помощью Fxc.exe компилятора командной строки или использовать один из API-интерфейсов компиляции HLSL, таких как API <a href="/windows/desktop/direct3dhlsl/d3dcompile"><strong>D3DCompile</strong></a> .</blockquote><br /> Скомпилируйте шейдер или результат, который загружается в память.<br /> | 
+| <a href="d3dx11compilefromresource.md"><strong>D3DX11CompileFromResource</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.</blockquote><br /><blockquote>[!Note]<br />Вместо использования этой функции рекомендуется использовать <a href="/windows/desktop/menurc/resources-functions">функции ресурсов</a>, а затем компилировать автономно с помощью Fxc.exe компилятора командной строки или использовать один из API-интерфейсов компиляции HLSL, таких как API <a href="/windows/desktop/direct3dhlsl/d3dcompile"><strong>D3DCompile</strong></a> .</blockquote><br /> Компиляция шейдера или воздействия ресурса.<br /> | 
+| <a href="d3dx11computenormalmap.md"><strong>D3DX11ComputeNormalMap</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.</blockquote><br /><blockquote>[!Note]<br />Вместо использования этой функции рекомендуется использовать библиотеку <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> , <strong>компутенормалмап</strong>.</blockquote><br /> Преобразует карту высоты в обычную карту. Компоненты (x, y, z) каждой нормальной версии сопоставляются с каналами (r, g, b) выходной текстуры.<br /> | 
+| <a href="d3dx11createasynccompilerprocessor.md"><strong>D3DX11CreateAsyncCompilerProcessor</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. См. заметки.</blockquote><br /> Создайте обработчик асинхронных данных для шейдера.<br /> | 
+| <a href="d3dx11createasyncfileloader.md"><strong>D3DX11CreateAsyncFileLoader</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. См. заметки.</blockquote><br /> Создание загрузчика асинхронных файлов.<br /> | 
+| <a href="d3dx11createasyncmemoryloader.md"><strong>D3DX11CreateAsyncMemoryLoader</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. См. заметки.</blockquote><br /> Создание загрузчика с асинхронной памятью.<br /> | 
+| <a href="d3dx11createasyncresourceloader.md"><strong>D3DX11CreateAsyncResourceLoader</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. См. заметки.</blockquote><br /> Создайте загрузчик асинхронных ресурсов.<br /> | 
+| <a href="d3dx11createasyncshaderpreprocessprocessor.md"><strong>D3DX11CreateAsyncShaderPreprocessProcessor</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. См. заметки.</blockquote><br /> Асинхронно Создайте обработчик данных для шейдера.<br /> | 
+| <a href="d3dx11createasynctextureinfoprocessor.md"><strong>D3DX11CreateAsyncTextureInfoProcessor</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. См. заметки.</blockquote><br /> Создайте обработчик данных, который будет использоваться в <a href="id3dx11threadpump.md"><strong>конвейере потоков</strong></a>.<br /> | 
+| <a href="d3dx11createasynctextureprocessor.md"><strong>D3DX11CreateAsyncTextureProcessor</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. См. заметки.</blockquote><br /> Создайте обработчик данных, который будет использоваться в <a href="id3dx11threadpump.md"><strong>конвейере потоков</strong></a>.<br /> | 
+| <a href="d3dx11createasyncshaderresourceviewprocessor.md"><strong>D3DX11CreateAsyncShaderResourceViewProcessor</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. См. заметки.</blockquote><br /> Создайте обработчик данных, который загрузит ресурс, а затем создайте для него представление "шейдер — ресурс". Обработчики данных являются компонентом функции асинхронной загрузки данных в D3DX11, использующей <a href="id3dx11threadpump.md"><strong>потоки</strong></a>.<br /> | 
+| <a href="d3dx11createshaderresourceviewfromfile.md"><strong>D3DX11CreateShaderResourceViewFromFile</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.</blockquote><br /><blockquote><p>[!Note]<br />Вместо использования этой функции рекомендуется использовать следующие средства:</p><ul><li>Библиотека <a href="https://github.com/Microsoft/DirectXTK">директкстк</a> (Runtime), <strong>КРЕАТЕКСКСКСТЕКСТУРЕФРОМФИЛЕ</strong> (где XXX — DDS или WIC)</li><li>Библиотека <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> (Tools), <strong>ЛОАДФРОМКСКСКСФИЛЕ</strong> (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного изображения для игр), затем <strong>креатешадерресаурцевиев</strong></li></ul></blockquote><br /> Создание представления "шейдер — представление ресурсов" из файла.<br /> | 
+| <a href="d3dx11createshaderresourceviewfrommemory.md"><strong>D3DX11CreateShaderResourceViewFromMemory</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.</blockquote><br /><blockquote><p>[!Note]<br />Вместо использования этой функции рекомендуется использовать следующие средства:</p><ul><li>Библиотека <a href="https://github.com/Microsoft/DirectXTK">директкстк</a> (Runtime), <strong>КРЕАТЕКСКСКСТЕКСТУРЕФРОММЕМОРИ</strong> (где XXX — DDS или WIC)</li><li>Библиотека <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> (Tools), <strong>ЛОАДФРОМКСКСКСМЕМОРИ</strong> (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного изображения для игр), затем <strong>креатешадерресаурцевиев</strong></li></ul></blockquote><br /> Создание представления "шейдер — представление ресурсов" из файла в памяти.<br /> | 
+| <a href="d3dx11createshaderresourceviewfromresource.md"><strong>D3DX11CreateShaderResourceViewFromResource</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.</blockquote><br /><blockquote><p>[!Note]<br />Вместо использования этой функции рекомендуется использовать <a href="/windows/desktop/menurc/resources-functions">функции ресурсов</a>, а затем:</p><ul><li>Библиотека <a href="https://github.com/Microsoft/DirectXTK">директкстк</a> (Runtime), <strong>КРЕАТЕКСКСКСТЕКСТУРЕФРОММЕМОРИ</strong> (где XXX — DDS или WIC)</li><li>Библиотека <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> (Tools), <strong>ЛОАДФРОМКСКСКСМЕМОРИ</strong> (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного изображения для игр), затем <strong>креатешадерресаурцевиев</strong></li></ul></blockquote><br /> Создание представления "шейдер — представление ресурсов" из ресурса.<br /> | 
+| <a href="d3dx11createtexturefromfile.md"><strong>D3DX11CreateTextureFromFile</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.</blockquote><br /><blockquote><p>[!Note]<br />Вместо использования этой функции рекомендуется использовать следующие средства:</p><ul><li>Библиотека <a href="https://github.com/Microsoft/DirectXTK">директкстк</a> (Runtime), <strong>КРЕАТЕКСКСКСТЕКСТУРЕФРОМФИЛЕ</strong> (где XXX — DDS или WIC)</li><li>Библиотека <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> (Tools), <strong>ЛОАДФРОМКСКСКСФИЛЕ</strong> (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного изображения для игр), затем <strong>креатетекстуре</strong></li></ul></blockquote><br /> Создание ресурса текстуры из файла.<br /> | 
+| <a href="d3dx11createtexturefrommemory.md"><strong>D3DX11CreateTextureFromMemory</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.</blockquote><br /><blockquote><p>[!Note]<br />Вместо использования этой функции рекомендуется использовать следующие средства:</p><ul><li>Библиотека <a href="https://github.com/Microsoft/DirectXTK">директкстк</a> (Runtime), <strong>КРЕАТЕКСКСКСТЕКСТУРЕФРОММЕМОРИ</strong> (где XXX — DDS или WIC)</li><li>Библиотека <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> (Tools), <strong>ЛОАДФРОМКСКСКСМЕМОРИ</strong> (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного изображения для игр), затем <strong>креатетекстуре</strong></li></ul></blockquote><br /> Создайте ресурс текстуры из файла, находящегося в системной памяти.<br /> | 
+| <a href="d3dx11createtexturefromresource.md"><strong>D3DX11CreateTextureFromResource</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.</blockquote><br /><blockquote><p>[!Note]<br />Вместо использования этой функции рекомендуется использовать <a href="/windows/desktop/menurc/resources-functions">функции ресурсов</a>, а затем:</p><ul><li>Библиотека <a href="https://github.com/Microsoft/DirectXTK">директкстк</a> (Runtime), <strong>КРЕАТЕКСКСКСТЕКСТУРЕФРОММЕМОРИ</strong> (где XXX — DDS или WIC)</li><li>Библиотека <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> (Tools), <strong>ЛОАДФРОМКСКСКСМЕМОРИ</strong> (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного изображения для игр), затем <strong>креатетекстуре</strong></li></ul></blockquote><br /> Создание текстуры из другого ресурса.<br /> | 
+| <a href="d3dx11createthreadpump.md"><strong>D3DX11CreateThreadPump</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. См. заметки.</blockquote><br /> Создание конвейера потока.<br /> | 
+| <a href="d3dx11filtertexture.md"><strong>D3DX11FilterTexture</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.</blockquote><br /><blockquote>[!Note]<br />Вместо использования этой функции рекомендуется использовать библиотеку <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> , <strong>женератемипмапс</strong> и <strong>GenerateMipMaps3D</strong>.</blockquote><br /> Создает цепочку mipmap с помощью определенного фильтра текстуры.<br /> | 
+| <a href="d3dx11getimageinfofromfile.md"><strong>D3DX11GetImageInfoFromFile</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.</blockquote><br /><blockquote>[!Note]<br />Вместо использования этой функции рекомендуется использовать библиотеку <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> , <strong>ЖЕТМЕТАДАТАФРОМКСКСКСФИЛЕ</strong> (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного кода для игр).</blockquote><br /> Извлекает сведения о заданном файле изображения.<br /> | 
+| <a href="d3dx11getimageinfofrommemory.md"><strong>D3DX11GetImageInfoFromMemory</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.</blockquote><br /><blockquote>[!Note]<br />Вместо использования этой функции рекомендуется использовать библиотеку <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> , <strong>ЖЕТМЕТАДАТАФРОМКСКСКСМЕМОРИ</strong> (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного кода для игр).</blockquote><br /> Получение сведений о изображении, которое уже загружено в память.<br /> | 
+| <a href="d3dx11getimageinfofromresource.md"><strong>D3DX11GetImageInfoFromResource</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.</blockquote><br /><blockquote>[!Note]<br />Вместо использования этой функции рекомендуется использовать <a href="/windows/desktop/menurc/resources-functions">функции ресурсов</a>, а затем использовать библиотеку <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> (Tools), <strong>лоадфромксксксмемори</strong> (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного кода для игр).</blockquote><br /> Извлекает сведения об определенном изображении в ресурсе.<br /> | 
+| <a href="d3dx11loadtexturefromtexture.md"><strong>D3DX11LoadTextureFromTexture</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.</blockquote><br /><blockquote>[!Note]<br />Вместо использования этой функции рекомендуется использовать библиотеку <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> , <strong>изменить размер</strong>, <strong>преобразовать</strong>, <strong>Сжать</strong>, <strong>распаковать</strong>и (или) <strong>копиректангле</strong>.</blockquote><br /> Загрузка текстуры из текстуры.<br /> | 
+| <a href="d3dx11preprocessshaderfromfile.md"><strong>D3DX11PreprocessShaderFromFile</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.</blockquote><br /><blockquote>[!Note]<br />Вместо использования этой функции рекомендуется использовать API <a href="/windows/desktop/direct3dhlsl/d3dpreprocess"><strong>D3DPreprocess</strong></a> .</blockquote><br /> Создание шейдера из файла без его компиляции.<br /> | 
+| <a href="d3dx11preprocessshaderfrommemory.md"><strong>D3DX11PreprocessShaderFromMemory</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.</blockquote><br /><blockquote>[!Note]<br />Вместо использования этой функции рекомендуется использовать API <a href="/windows/desktop/direct3dhlsl/d3dpreprocess"><strong>D3DPreprocess</strong></a> .</blockquote><br /> Создание шейдера из памяти без его компиляции.<br /> | 
+| <a href="d3dx11preprocessshaderfromresource.md"><strong>D3DX11PreprocessShaderFromResource</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.</blockquote><br /><blockquote>[!Note]<br />Вместо использования этой функции рекомендуется использовать API <a href="/windows/desktop/direct3dhlsl/d3dpreprocess"><strong>D3DPreprocess</strong></a> .</blockquote><br /> Создание шейдера из ресурса без его компиляции.<br /> | 
+| <a href="d3dx11savetexturetofile.md"><strong>D3DX11SaveTextureToFile</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.</blockquote><br /><blockquote>[!Note]<br />Вместо использования этой функции рекомендуется использовать библиотеку <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> , <strong>каптуретекстуре</strong> затем <strong>саветоксксксфиле</strong> (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного кода для игр). Для упрощенного сценария создания снимка экрана из текстуры цели рендеринга рекомендуется использовать библиотеку <a href="https://github.com/Microsoft/DirectXTK">директкстк</a> , <strong>саведдстекстуретофиле</strong> или <strong>савевиктекстуретофиле</strong>.</blockquote><br /> Сохранение текстуры в файл.<br /> | 
+| <a href="d3dx11savetexturetomemory.md"><strong>D3DX11SaveTextureToMemory</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.</blockquote><br /><blockquote>[!Note]<br />Вместо использования этой функции рекомендуется использовать библиотеку <a href="https://github.com/Microsoft/DirectXTex">директкстекс</a> , <strong>каптуретекстуре</strong> затем <strong>саветоксксксмемори</strong> (где XXX — это WIC, DDS или TGA; WIC не поддерживает DDS и TGA; D3DX 9 поддерживается TGA как общий формат исходного кода для игр).</blockquote><br /> Сохранение текстуры в памяти.<br /> | 
+| <a href="d3dx11shprojectcubemap.md"><strong>D3DX11SHProjectCubeMap</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.</blockquote><br /><blockquote>[!Note]<br />Вместо использования этой функции рекомендуется использовать <a href="https://github.com/Microsoft/DirectXMath/tree/master/SHMath">математическую библиотеку "сферические гармонические колебания</a> ", <strong>шпрожекткубемап</strong>.</blockquote><br /> Проецирует функцию, представленную в сопоставлении кубов, в сферические гармонические колебания.<br /> | 
+| <a href="d3dx11unsetalldeviceobjects.md"><strong>D3DX11UnsetAllDeviceObjects</strong></a><br /> | <blockquote>[!Note]<br />библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.</blockquote><br /><blockquote>[!Note]<br />Вместо использования этой функции рекомендуется использовать метод <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-clearstate"><strong>ссылку ID3D11DeviceContext:: клеарстате</strong></a> .</blockquote><br /> Удаляет все ресурсы с устройства, присвоив их указателям <strong>значение NULL</strong>. Этот метод должен вызываться во время завершения работы приложения. Это гарантирует, что когда один из них освобождает все ресурсы, которые не привязаны к устройству.<br /> | 
+
 
 
 

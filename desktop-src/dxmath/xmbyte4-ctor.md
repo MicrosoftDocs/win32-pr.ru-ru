@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 21be8c6df7b363efefe722c78b04027e541505b2880fe48cb42fccc455e0c399
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: afb3e2c7fd7a989b88d4adf040b20f4202b52605
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118984664"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475240"
 ---
 # <a name="xmbyte4-constructors"></a>Конструкторы XMBYTE4
 
@@ -33,78 +33,20 @@ ms.locfileid: "118984664"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Конструктор</th>
-<th style="text-align: left;">Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyte4-xmbyte4(constfloat)"><strong>XMBYTE4 ()</strong></a></td>
-<td style="text-align: left;">Конструктор по умолчанию для <code>XMBYTE4</code> .<br/> Конструктор по умолчанию для <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte4"><strong>XMBYTE4</strong></a>.<br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyte4-xmbyte4(uint32_t)"><strong>XMBYTE4 (uint32_t)</strong></a></td>
-<td style="text-align: left;">Инициализирует новый экземпляр <code>XMBYTE4</code> из <code>uint32_t</code> переменной, содержащей данные компонента, в упакованном формате.<br/> Этот конструктор инициализирует новый экземпляр <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte4"><strong>XMBYTE4</strong></a> из <code>uint32_t</code> переменной, содержащей данные компонента, в упакованном формате.<br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyte4-xmbyte4(constfloat)"><strong>XMBYTE4 (const float *)</strong></a></td>
-<td style="text-align: left;">Инициализирует новый экземпляр <code>XMBYTE4</code> из четырех <code>float</code> аргументов массива элементов.<br/> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte4"><strong>XMBYTE4</strong></a> из четырех <code>float</code> аргументов массива элементов.<br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyte4-xmbyte4(constint8_t)"><strong>XMBYTE4 (const int8_t *)</strong></a></td>
-<td style="text-align: left;">Инициализирует новый экземпляр <code>XMBYTE4</code> из четырех <code>int8_t</code> аргументов массива элементов. <br/> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte4"><strong>XMBYTE4</strong></a> из четырех <code>int8_t</code> аргументов массива элементов. <br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyte4-xmbyte4(float_float_float_float)"><strong>XMBYTE4 (float, float, float, float)</strong></a></td>
-<td style="text-align: left;">Инициализирует новый экземпляр <code>XMBYTE4</code> из четырех <code>float</code> аргументов. <br/> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte4"><strong>XMBYTE4</strong></a> из четырех <code>float</code> аргументов. <br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyte4-xmbyte4(int8_t_int8_t_int8_t_int8_t)"><strong>XMBYTE4 (int8_t, int8_t, int8_t, int8_t)</strong></a></td>
-<td style="text-align: left;">Инициализирует новый экземпляр <code>XMBYTE4</code> из четырех <code>int8_t</code> аргументов.<br/> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte4"><strong>XMBYTE4</strong></a> из четырех <code>int8_t</code> аргументов.<br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Конструктор | Описание | 
+|-------------|-------------|
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyte4-xmbyte4(constfloat)"><strong>XMBYTE4 ()</strong></a> | Конструктор по умолчанию для <code>XMBYTE4</code> .<br /> Конструктор по умолчанию для <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte4"><strong>XMBYTE4</strong></a>.<br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyte4-xmbyte4(uint32_t)"><strong>XMBYTE4 (uint32_t)</strong></a> | Инициализирует новый экземпляр <code>XMBYTE4</code> из <code>uint32_t</code> переменной, содержащей данные компонента, в упакованном формате.<br /> Этот конструктор инициализирует новый экземпляр <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte4"><strong>XMBYTE4</strong></a> из <code>uint32_t</code> переменной, содержащей данные компонента, в упакованном формате.<br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyte4-xmbyte4(constfloat)"><strong>XMBYTE4 (const float *)</strong></a> | Инициализирует новый экземпляр <code>XMBYTE4</code> из четырех <code>float</code> аргументов массива элементов.<br /> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte4"><strong>XMBYTE4</strong></a> из четырех <code>float</code> аргументов массива элементов.<br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyte4-xmbyte4(constint8_t)"><strong>XMBYTE4 (const int8_t *)</strong></a> | Инициализирует новый экземпляр <code>XMBYTE4</code> из четырех <code>int8_t</code> аргументов массива элементов. <br /> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte4"><strong>XMBYTE4</strong></a> из четырех <code>int8_t</code> аргументов массива элементов. <br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyte4-xmbyte4(float_float_float_float)"><strong>XMBYTE4 (float, float, float, float)</strong></a> | Инициализирует новый экземпляр <code>XMBYTE4</code> из четырех <code>float</code> аргументов. <br /> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte4"><strong>XMBYTE4</strong></a> из четырех <code>float</code> аргументов. <br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyte4-xmbyte4(int8_t_int8_t_int8_t_int8_t)"><strong>XMBYTE4 (int8_t, int8_t, int8_t, int8_t)</strong></a> | Инициализирует новый экземпляр <code>XMBYTE4</code> из четырех <code>int8_t</code> аргументов.<br /> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte4"><strong>XMBYTE4</strong></a> из четырех <code>int8_t</code> аргументов.<br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
 
 
 
-## <a name="see-also"></a>См. также раздел
+
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 58228dfd-1d4b-41e5-b423-a54525021c22
 title: элемент распределителя
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e9a27f768d0c9d854d13bd58c0c797234a0526c4abb95a0c5f4fb553466a6ba
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ba2617ce92dcd0c2763f77b0bc6f0fb5c1beea1c
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118991754"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881053"
 ---
 # <a name="deallocator-element"></a>элемент распределителя
 
@@ -39,9 +39,9 @@ ms.locfileid: "118991754"
 
 
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
-Тип дераспределителя должен быть заключен в пару <deallocator></deallocator> тегов. Следующие строки являются допустимыми значениями для дераспределения:
+Тип дераспределителя должен быть заключен в пару &lt; тегов дераспределителя &gt; </deallocator> . Следующие строки являются допустимыми значениями для дераспределения:
 
 -   нет
 -   всдфрилинкедмемори
@@ -49,7 +49,7 @@ ms.locfileid: "118991754"
 -   свободный
 -   удалить
 -   делетеаррай
--   Release
+-   Выпуск
 
 ## <a name="element-information"></a>Сведения об элементе
 

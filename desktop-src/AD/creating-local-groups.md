@@ -1,28 +1,28 @@
 ---
 title: Создание локальных групп
-description: Для рядовых серверов и Windows 2000 Professional можно создавать только локальные группы.
+description: для рядовых серверов можно создавать только локальные группы и Windows 2000 Professional.
 ms.assetid: 76cbac51-d8ba-4114-9951-060273be52f3
 ms.tgt_platform: multiple
 keywords:
 - Создание локальных групп AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 705902b0066913fcd6eed56ba7c74e299144595f
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 06410572e6e5897280b2a03c99b387dbf81b3cca
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104336812"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881586"
 ---
 # <a name="creating-local-groups"></a>Создание локальных групп
 
-Для рядовых серверов и Windows 2000 Professional можно создавать только локальные группы.
+для рядовых серверов можно создавать только локальные группы и Windows 2000 Professional.
 
-**Создание локальной группы для рядового сервера или компьютера с Windows 2000 Professional**
+**создание локальной группы для рядового сервера или компьютера, на котором работает Windows 2000 Professional**
 
 1.  Выполните привязку к компьютеру, используя следующие правила.
     1.  Используйте учетную запись с достаточными правами для доступа к этому компьютеру.
-    2.  Используйте следующий формат строки привязки с помощью поставщика WinNT, имени компьютера и дополнительного параметра, чтобы указать ADSI, что он привязывает к компьютеру: "WinNT:// <computer name> <computer> ".
+    2.  Используйте следующий формат строки привязки с помощью поставщика WinNT, имени компьютера и дополнительного параметра, чтобы указать ADSI, что он привязывает к компьютеру: "WinNT:// <computer name> , &lt; Computer &gt; ".
 
         &lt;Параметр Computer Name &gt; — это имя групп компьютеров для доступа.
 
@@ -32,12 +32,12 @@ ms.locfileid: "104336812"
 
 2.  Укажите "localGroup" в качестве класса с помощью [**иадсконтаинер. Create**](/windows/desktop/api/iads/nf-iads-iadscontainer-create) , чтобы добавить группу.
     > [!Note]  
-    > Если указать "Group" в качестве класса, ADSI использует "localGroup". Не указывайте класс как "Глобалграуп". Группы класса "Глобалграуп" нельзя создавать на рядовых серверах или на компьютере под управлением Windows NT Workstation или Windows 2000 Professional. Если указать "Глобалграуп", [**иадсконтаинер. Create**](/windows/desktop/api/iads/nf-iads-iadscontainer-create) создает группу в кэше свойств, но параметр [**iAds. сетинфо**](/windows/desktop/api/iads/nf-iads-iads-setinfo) не записывает группу в базу данных безопасности и не возвращает ошибку.
+    > Если указать "Group" в качестве класса, ADSI использует "localGroup". Не указывайте класс как "Глобалграуп". группы класса "глобалграуп" нельзя создавать на рядовых серверах или на компьютере с Windows NT Workstation/Windows 2000 Professional. Если указать "Глобалграуп", [**иадсконтаинер. Create**](/windows/desktop/api/iads/nf-iads-iadscontainer-create) создает группу в кэше свойств, но параметр [**iAds. сетинфо**](/windows/desktop/api/iads/nf-iads-iads-setinfo) не записывает группу в базу данных безопасности и не возвращает ошибку.
 
-     
+     
 
 3.  Запишите группу в базу данных безопасности компьютера с помощью метода [**iAds. сетинфо**](/windows/desktop/api/iads/nf-iads-iads-setinfo).
 
- 
+ 
 
- 
+ 

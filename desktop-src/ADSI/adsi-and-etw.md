@@ -1,22 +1,22 @@
 ---
 title: Трассировка событий в ADSI
-description: В Windows Server 2008 и Windows Vista появилась трассировка событий в Active Directory интерфейсах служб (ADSI).
+description: Windows сервер 2008 и Windows Vista предоставляют трассировку событий в Active Directory интерфейсах служб (ADSI).
 ms.assetid: 743aeeba-5b48-47c7-aaf5-0e9b48e206db
 ms.tgt_platform: multiple
 keywords:
 - интерфейс ADSI трассировки событий
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b26aee00404f5cf97d228698f64fec804c28e62
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 50ff881a408e2f6d7a6b661e7556c8d39366f726
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423719"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469201"
 ---
 # <a name="event-tracing-in-adsi"></a>Трассировка событий в ADSI
 
-В Windows Server 2008 и Windows Vista появилась [Трассировка событий](/windows/desktop/ETW/event-tracing-portal) в [Active Directory интерфейсах служб](active-directory-service-interfaces-adsi.md) (ADSI). Некоторые области поставщика ADSI LDAP имеют базовую реализацию, которая является сложной или включает последовательность действий, что затрудняет диагностику проблем. Для помощи в устранении неполадок, связанных с разработчиками приложений, в следующие области была добавлена трассировка событий.
+Windows сервер 2008 и Windows Vista предоставляют [трассировку событий](/windows/desktop/ETW/event-tracing-portal) в [Active Directory интерфейсах служб](active-directory-service-interfaces-adsi.md) (ADSI). Некоторые области поставщика ADSI LDAP имеют базовую реализацию, которая является сложной или включает последовательность действий, что затрудняет диагностику проблем. Для помощи в устранении неполадок, связанных с разработчиками приложений, в следующие области была добавлена трассировка событий.
 
 ## <a name="schema-parsing-and-downloading"></a>Синтаксический анализ и загрузка схемы
 
@@ -63,71 +63,9 @@ ADSI внутренне пытается повторно использоват
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>DEBUG_SCHEMA</strong><br/></td>
-<td><ul>
-<li>лдапжетсчема</li>
-<li>жетсчемаинфотиме</li>
-<li>лдапреадсчемаинфофромсервер</li>
-<li>процесссчемаинфо</li>
-<li>хелперреадлдапсчемаинфо</li>
-<li>процессклассинфоаррай</li>
-<li>реадсчемаинфофромрегистри</li>
-<li>сторесчемаинфофромрегистри</li>
-<li>аттрибутетипедескриптион</li>
-<li>обжектклассдескриптион</li>
-<li>дитконтентруледескриптион</li>
-<li>директористринг</li>
-<li>директористрингс</li>
-<li>дитконтентруледескриптион</li>
-</ul>
-<br/></td>
-</tr>
-<tr class="even">
-<td><strong>DEBUG_CHANGEPWD</strong><br/></td>
-<td><ul>
-<li>Кадсусер:: ChangePassword</li>
-</ul>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>DEBUG_SETPWD</strong><br/></td>
-<td><ul>
-<li>Кадсусер:: SetPassword</li>
-</ul>
-<br/></td>
-</tr>
-<tr class="even">
-<td><strong>DEBUG_BINDCACHE</strong><br/></td>
-<td><ul>
-<li>жетсервербаседобжект</li>
-<li>жетсерверлессбаседобжект</li>
-<li>жетгкдомаиннаме</li>
-<li>жетдефаултдомаиннаме</li>
-<li>жетусердомаинфлатнаме</li>
-<li>биндкачелукуп</li>
-<li>екуивалентпортнумберс</li>
-<li>канкредентиалсбереусед</li>
-<li>биндкачеадд</li>
-<li>биндкачеаддреф</li>
-<li>аддреферраллинк</li>
-<li>коммонремовинтри</li>
-<li>биндкачедерефхелпер</li>
-<li>нотифиневконнектион</li>
-<li>куерифорконнектион</li>
-<li>лдапопенбиндвискредентиалс</li>
-<li>лдапопенбиндвисдефаулткредентиалс</li>
-</ul>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| | | <strong>DEBUG_SCHEMA</strong><br /> | <ul><li>лдапжетсчема</li><li>жетсчемаинфотиме</li><li>лдапреадсчемаинфофромсервер</li><li>процесссчемаинфо</li><li>хелперреадлдапсчемаинфо</li><li>процессклассинфоаррай</li><li>реадсчемаинфофромрегистри</li><li>сторесчемаинфофромрегистри</li><li>аттрибутетипедескриптион</li><li>обжектклассдескриптион</li><li>дитконтентруледескриптион</li><li>директористринг</li><li>директористрингс</li><li>дитконтентруледескриптион</li></ul><br /> | | <strong>DEBUG_CHANGEPWD</strong><br /> | <ul><li>Кадсусер:: ChangePassword</li></ul><br /> | | <strong>DEBUG_SETPWD</strong><br /> | <ul><li>Кадсусер:: SetPassword</li></ul><br /> | | <strong>DEBUG_BINDCACHE</strong><br /> | <ul><li>жетсервербаседобжект</li><li>жетсерверлессбаседобжект</li><li>жетгкдомаиннаме</li><li>жетдефаултдомаиннаме</li><li>жетусердомаинфлатнаме</li><li>биндкачелукуп</li><li>екуивалентпортнумберс</li><li>канкредентиалсбереусед</li><li>биндкачеадд</li><li>биндкачеаддреф</li><li>аддреферраллинк</li><li>коммонремовинтри</li><li>биндкачедерефхелпер</li><li>нотифиневконнектион</li><li>куерифорконнектион</li><li>лдапопенбиндвискредентиалс</li><li>лдапопенбиндвисдефаулткредентиалс</li></ul><br /> | 
+
 
 
 

@@ -65,12 +65,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 04cf87a40b48e5f0fc505fe5bc921229ce208fe910d9418431ddae3187b2c5d0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9b1950431f79c8b41cc8fc29d14b66580f5fface
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118950703"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886976"
 ---
 # <a name="msvm_serialcontroller-class"></a>\_Класс мсвм сериалконтроллер
 
@@ -157,7 +157,7 @@ class Msvm_SerialController : CIM_SerialController
 | **онлинедевице**                                                       | Этот метод не поддерживается.<br/> |
 | **куиесцедевице**                                                      | Этот метод не поддерживается.<br/> |
 | [**Равен**](msvm-serialcontroller-requeststatechange.md) | Запрашивает изменение состояния.<br/>      |
-| [**Перезапуск**](msvm-serialcontroller-reset.md)                           | Выполняет сброс устройства.<br/>            |
+| [**Reset**](msvm-serialcontroller-reset.md)                           | Выполняет сброс устройства.<br/>            |
 | **ресторепропертиес**                                                  | Этот метод не поддерживается.<br/> |
 | **савепропертиес**                                                     | Этот метод не поддерживается.<br/> |
 | **SetPowerState**                                                      | Этот метод не поддерживается.<br/> |
@@ -381,7 +381,7 @@ class Msvm_SerialController : CIM_SerialController
 Тип доступа: только для чтения
 </dt> </dl>
 
-Это свойство наследуется [**от \_ CIM**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)-унаследованной модели и всегда имеет значение Microsoft: *<GUID>* .
+Это свойство наследуется от [**CIM \_ ",**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)" и всегда имеет значение "Microsoft:*&lt; GUID &gt;*".
 
 </dd> <dt>
 
@@ -577,7 +577,7 @@ class Msvm_SerialController : CIM_SerialController
 
 </dd> <dt>
 
-**Имя**
+**имя**;
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -972,7 +972,7 @@ class Msvm_SerialController : CIM_SerialController
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Доступ к классу **\_ сериалконтроллер мсвм** может быть ограничен фильтром контроля учетных записей. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 

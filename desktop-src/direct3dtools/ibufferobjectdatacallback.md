@@ -17,18 +17,18 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 24e0bbce1b42dfb5e23e3fdbbf43cb72cf3a5e75
-ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
+ms.openlocfilehash: 36a6c37eab6d6af45b1c22fc2a3f80f6313e301b
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "122786510"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624950"
 ---
 # <a name="span-idvspixengineibufferobjectdatacallbackspanibufferobjectdatacallback-interface"></a><span id="vspixengine.ibufferobjectdatacallback"></span>Интерфейс Ибуфферобжектдатакаллбакк
 
 Обратный вызов для возврата содержимого объекта в форме буфера для тех, которые его поддерживают (буферы, текстуры).
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Участники
 
 Интерфейс **ибуфферобжектдатакаллбакк** наследует от интерфейса [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) . **Ибуфферобжектдатакаллбакк** также имеет следующие типы членов:
 
@@ -38,7 +38,7 @@ ms.locfileid: "122786510"
 
 Интерфейс **ибуфферобжектдатакаллбакк** содержит следующие методы.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Метод</th><th >Описание</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/ibufferobjectdatacallback-resultcallback-bstr"><strong>ресулткаллбакк</strong></a></td><td ><p>Обратный вызов, уведомляющий узел о том, что сведения о буфере записаны в файл с помощью запроса связана.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Метод</th><th style="text-align: left;">Описание</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ibufferobjectdatacallback-resultcallback-bstr"><strong>ресулткаллбакк</strong></a></td><td style="text-align: left;"><p>Обратный вызов, уведомляющий узел о том, что сведения о буфере записаны в файл с помощью запроса связана.</p></td></tr></tbody></table>
 
  
 

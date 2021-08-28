@@ -21,12 +21,12 @@ keywords:
 - типы элементов управления, StatusBar
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f52f3f04db86a8c8ff0e9cad9a3938a17e996e8210960912c3abc5039468e178
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 032c0122bc472a8b2deace8cc48d41926778a11b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119614254"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473700"
 ---
 # <a name="statusbar-control-type"></a>Тип элемента управления StatusBar
 
@@ -51,40 +51,11 @@ ms.locfileid: "119614254"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Представление элемента управления</th>
-<th>Представление содержимого</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>StatusBar
-<ul>
-<li>Edit (0 или более)</li>
-<li>ProgressBar (0 или более)</li>
-<li>Image (0 или более)</li>
-<li>Button (0 или более)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>StatusBar
-<ul>
-<li>Edit (0 или более)</li>
-<li>ProgressBar (0 или более)</li>
-<li>Image (0 или более)</li>
-<li>Button (0 или более)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Представление элемента управления | Представление содержимого | 
+|--------------|--------------|
+| <ul><li>StatusBar<ul><li>Edit (0 или более)</li><li>ProgressBar (0 или более)</li><li>Image (0 или более)</li><li>Button (0 или более)</li></ul></li></ul> | <ul><li>StatusBar<ul><li>Edit (0 или более)</li><li>ProgressBar (0 или более)</li><li>Image (0 или более)</li><li>Button (0 или более)</li></ul></li></ul> | 
+
 
 
 
@@ -123,7 +94,7 @@ ms.locfileid: "119614254"
 
 | Шаблон элемента управления                               | Поддержка  | Примечания                                                                                                                                                                        |
 |-----------------------------------------------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IGridProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-igridprovider) | Необязательный | Элементы управления "строка состояния" должны поддерживать шаблон элемента управления [Grid](uiauto-implementinggrid.md) , чтобы отдельные элементы можно было отслеживать и легко ссылаться на них. |
+| [**IGridProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-igridprovider) | Необязательно | Элементы управления "строка состояния" должны поддерживать шаблон элемента управления [Grid](uiauto-implementinggrid.md) , чтобы отдельные элементы можно было отслеживать и легко ссылаться на них. |
 
 
 
@@ -147,7 +118,7 @@ ms.locfileid: "119614254"
 
  
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Рекомендуется использовать элементы управления "Правка" в качестве дочерних элементов сетки в строке состояния. Использование элементов управления "поле ввода" упрощает связывание назначения поля состояния с его значением с помощью свойства "имя элемента" и "значение". Поскольку элементы управления "текст" не должны поддерживать шаблон элемента управления **value** , они не должны использоваться как дочерние элементы сетки.
 

@@ -21,12 +21,12 @@ keywords:
 - типы элементов управления, RadioButton
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 358a71f74b40d8465c910f8afe258183c8ea4d5c322fb70e6b6ea946ef7d44ba
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a854eec792943a6fc094796de1e3ea6849c6a5e2
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118825488"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480640"
 ---
 # <a name="radiobutton-control-type"></a>Тип элемента управления RadioButton
 
@@ -56,28 +56,11 @@ ms.locfileid: "118825488"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Представление элемента управления</th>
-<th>Представление содержимого</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>RadioButton</li>
-</ul></td>
-<td><ul>
-<li>RadioButton</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Представление элемента управления | Представление содержимого | 
+|--------------|--------------|
+| <ul><li>RadioButton</li></ul> | <ul><li>RadioButton</li></ul> | 
+
 
 
 
@@ -144,7 +127,7 @@ ms.locfileid: "118825488"
 
  
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Переключатель представляет единственный Выбираемый параметр среди групп одноранговых переключателей. В идеале переключатели должны иметь элемент grouping, поясняющий границы одноранговых переключателей. Однако часто граница подразумевается структурой элементов пользовательского интерфейса. Например, меню может содержать набор последовательных переключателей вместо пунктов меню или набор переключателей, которые появляются после метки группы, но перед элементом, который может быть членом действия, таким как Button.
 

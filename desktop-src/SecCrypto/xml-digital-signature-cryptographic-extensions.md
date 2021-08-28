@@ -4,12 +4,12 @@ ms.assetid: b0625481-660a-4fd5-ba15-d532998f95a6
 title: Криптографические расширения цифровых подписей XML
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8747521913ca1d551f1a2d4fd5b1c79d80065832
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 41bf0f2d99b34d59e9817f8568b03be20e72dda1
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "103913947"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474940"
 ---
 # <a name="xml-digital-signature-cryptographic-extensions"></a>Криптографические расширения цифровых подписей XML
 
@@ -84,58 +84,21 @@ ms.locfileid: "103913947"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Имя</th>
-<th>Тип</th>
-<th>Данные</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>DLL<br/></td>
-<td>Расширяемая строка<br/></td>
-<td>Обязательный.<br/>Абсолютный путь к библиотеке DLL поставщика служб шифрования XML.
-<blockquote>
-<p><b>Примечание. </b> Рекомендуется размещать библиотеки DLL расширения шифрования в каталогах, которые могут быть записаны только приложениями с правами администратора.</p>
-<p><a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya"><strong>LoadLibrary</strong></a> используется для загрузки библиотеки DLL расширения шифрования.<br/></p>
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>Имя<br/></td>
-<td><strong>String</strong></td>
-<td>Необязательный элемент.<br/> Отображаемое имя, связанное с этим URI.<br/></td>
-</tr>
-<tr class="odd">
-<td>GroupId<br/></td>
-<td><strong>DWORD</strong></td>
-<td>Обязательный.<br/> Идентификатор группы, связанный с этим алгоритмом шифрования. Возможные значения включают следующие:<strong>CRYPT_XML_GROUP_ID_HASH</strong> \ <strong></strong> = 1.<br/><strong></strong> \ CRYPT_XML_GROUP_ID_SIGN <strong></strong> = 2<br/></td>
-</tr>
-<tr class="even">
-<td>кнгалгид<br/></td>
-<td><strong>String</strong></td>
-<td>Обязательный.<br/> Имя алгоритма CNG, которое будет передано функциям BCrypt или NCrypt.<br/></td>
-</tr>
-<tr class="odd">
-<td>кнжекстраалгид<br/></td>
-<td><strong>String</strong></td>
-<td>Необязательный элемент.<br/> Дополнительные строки алгоритма, отличные от строки в члене Кнгалгид, которые могут быть переданы в функции CNG.<br/> Для алгоритмов подписи (CRYPT_XML_GROUP_ID_SIGN) этот член является строкой алгоритма открытого ключа для передачи в функции CNG.<br/> Для других значений GroupId присвойте элементу <strong>пвсзкнжекстраалгид</strong> пустую строку L &quot; &quot; . <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Имя | Тип | Данные | 
+|------|------|------|
+| DLL<br /> | Расширяемая строка<br /> | Обязательный.<br />Абсолютный путь к библиотеке DLL поставщика служб шифрования XML.<blockquote><p><b>Примечание. </b> Рекомендуется размещать библиотеки DLL расширения шифрования в каталогах, которые могут быть записаны только приложениями с правами администратора.</p><p><a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya"><strong>LoadLibrary</strong></a> используется для загрузки библиотеки DLL расширения шифрования.<br /></p></blockquote><br /> | 
+| Имя<br /> | <strong>String</strong> | Необязательный элемент.<br /> Отображаемое имя, связанное с этим URI.<br /> | 
+| GroupId<br /> | <strong>DWORD</strong> | Обязательный.<br /> Идентификатор группы, связанный с этим алгоритмом шифрования. Возможные значения включают следующие:<strong>CRYPT_XML_GROUP_ID_HASH</strong> \<strong> </strong> = 1.<br /><strong></strong> \<strong> CRYPT_XML_GROUP_ID_SIGN </strong> = 2<br /> | 
+| кнгалгид<br /> | <strong>String</strong> | Обязательный.<br /> Имя алгоритма CNG, которое будет передано функциям BCrypt или NCrypt.<br /> | 
+| кнжекстраалгид<br /> | <strong>String</strong> | Необязательный элемент.<br /> Дополнительные строки алгоритма, отличные от строки в члене Кнгалгид, которые могут быть переданы в функции CNG.<br /> Для алгоритмов подписи (CRYPT_XML_GROUP_ID_SIGN) этот член является строкой алгоритма открытого ключа для передачи в функции CNG.<br /> Для других значений GroupId присвойте элементу <strong>пвсзкнжекстраалгид</strong> пустую строку L "". <br /> | 
+
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

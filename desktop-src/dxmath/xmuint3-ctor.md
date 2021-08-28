@@ -4,12 +4,12 @@ ms.assetid: f3737cb1-36a0-4dbc-94d5-237e7395670e
 title: Конструкторы XMUINT3 (Директксмас. h)
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 40dd1701cf984cab0e725b3b0fa5598c704cc28818756cc382e08ea2ead716fb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: de33d89165307f61c4de801ff93907d55ede4bb4
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118499599"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475180"
 ---
 # <a name="xmuint3-constructors"></a>Конструкторы XMUINT3
 
@@ -26,51 +26,17 @@ ms.locfileid: "118499599"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Конструктор</th>
-<th style="text-align: left;">Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">[<strong>XMUINT3 ()</strong>] (/Windows/Win32/API/DirectXMath/NF-DirectXMath-xmuint3-xmuint3 (constuint32_t))</td>
-<td style="text-align: left;">Конструктор по умолчанию для <code>XMUINT3</code> .<br/> Конструктор по умолчанию для [<strong>XMUINT3</strong>] (/Windows/Win32/API/DirectXMath/NS-DirectXMath-xmuint3).<br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">[<strong>XMUINT3 (const uint32_t *)</strong>] (/Windows/Win32/API/DirectXMath/NF-DirectXMath-xmuint3-xmuint3 (constuint32_t))</td>
-<td style="text-align: left;">Инициализирует новый экземпляр класса <code>XMUINT3</code> из трех <code>uint32_t</code> аргументов массива элементов.<br/> Этот конструктор инициализирует новый экземпляр [<strong>XMUINT3</strong>] (/Windows/Win32/API/DirectXMath/NS-DirectXMath-xmuint3) из аргумента массива из трех элементов <code>uint32_t</code> .<br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">[<strong>XMUINT3 (uint32_t, uint32_t, uint32_t)</strong>] (/Windows/Win32/API/DirectXMath/NF-DirectXMath-xmuint3-xmuint3 (uint32_t_uint32_t_uint32_t))</td>
-<td style="text-align: left;">Инициализирует новый экземпляр <code>XMUINT3</code> из трех <code>uint32_t</code> аргументов.<br/> Этот конструктор инициализирует новый экземпляр [<strong>XMUINT3</strong>] (/Windows/Win32/API/DirectXMath/NS-DirectXMath-xmuint3) из трех <code>uint32_t</code> аргументов.<br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Конструктор | Описание | 
+|-------------|-------------|
+| [<strong>XMUINT3 ()</strong>](/windows/win32/api/directxmath/nf-directxmath-xmuint3-xmuint3(constuint32_t)) | Конструктор по умолчанию для <code>XMUINT3</code> .<br /> Конструктор по умолчанию для [<strong>XMUINT3</strong>](/windows/win32/api/directxmath/ns-directxmath-xmuint3).<br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| [<strong>XMUINT3 (const uint32_t *)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmuint3-xmuint3(constuint32_t)) | Инициализирует новый экземпляр класса <code>XMUINT3</code> из трех <code>uint32_t</code> аргументов массива элементов.<br /> Этот конструктор инициализирует новый экземпляр [<strong>XMUINT3</strong>](/windows/win32/api/directxmath/ns-directxmath-xmuint3) из аргумента массива из трех элементов <code>uint32_t</code> .<br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| [<strong>XMUINT3 (uint32_t, uint32_t, uint32_t)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmuint3-xmuint3(uint32_t_uint32_t_uint32_t)) | Инициализирует новый экземпляр <code>XMUINT3</code> из трех <code>uint32_t</code> аргументов.<br /> Этот конструктор инициализирует новый экземпляр класса [<strong>XMUINT3</strong>](/windows/win32/api/directxmath/ns-directxmath-xmuint3) из трех <code>uint32_t</code> аргументов.<br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
 
 
 
-## <a name="requirements"></a>Requirements (Требования)
+
+## <a name="requirements"></a>Требования
 
 
 

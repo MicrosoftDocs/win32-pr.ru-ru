@@ -21,12 +21,12 @@ keywords:
 - типы элементов управления, HeaderItem
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6bbcd6d86e7401c3fa98d162e3aa273613dfd3a32705da891fc89d1f4ea003f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b26dcbc293beee3afec8ba0aa9da1359cbbe4c6b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120098214"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469131"
 ---
 # <a name="headeritem-control-type"></a>Тип элемента управления HeaderItem
 
@@ -50,26 +50,11 @@ ms.locfileid: "120098214"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Представление элемента управления</th>
-<th>Представление содержимого</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>HeaderItem</li>
-</ul></td>
-<td>(Неприменимо)</td>
-</tr>
-</tbody>
-</table>
+
+| Представление элемента управления | Представление содержимого | 
+|--------------|--------------|
+| <ul><li>HeaderItem</li></ul> | (Неприменимо) | 
+
 
 
 

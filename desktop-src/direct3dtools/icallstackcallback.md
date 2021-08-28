@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 6e39b2a66bda3345d505d48d0bf7953787d40b34413c231158e5afb9e72f03c1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 67cd6827e99450211b5a4b63d9c87912bfd9fedb
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120094904"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122787370"
 ---
 # <a name="span-idvspixengineicallstackcallbackspanicallstackcallback-interface"></a><span id="vspixengine.icallstackcallback"></span>Интерфейс Икаллстакккаллбакк
 
@@ -38,13 +38,13 @@ ms.locfileid: "120094904"
 
 Интерфейс **икаллстакккаллбакк** содержит следующие методы.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Метод</th><th style="text-align: left;">Описание</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/icallstackcallback-resultcallback-dword-callstackframe-arr"><strong>ресулткаллбакк</strong></a></td><td style="text-align: left;"><p>Функция обратного вызова, используемая для уведомления узла о стеке вызовов.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Метод</th><th >Описание</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/icallstackcallback-resultcallback-dword-callstackframe-arr"><strong>ресулткаллбакк</strong></a></td><td ><p>Функция обратного вызова, используемая для уведомления узла о стеке вызовов.</p></td></tr></tbody></table>
 
  
 
 ## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

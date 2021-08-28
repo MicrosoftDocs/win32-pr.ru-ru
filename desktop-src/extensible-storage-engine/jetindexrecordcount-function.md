@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3324ad2fe68d106c7f4d2dcdcd1c3dd6ddefd608
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4105dec0217c1fea2e00d92c9d217fcf2d7e40b4
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539978"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480440"
 ---
 # <a name="jetindexrecordcount-function"></a>Функция Жетиндексрекордкаунт
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetindexrecordcount-function"></a>Функция Жетиндексрекордкаунт
 
@@ -63,57 +63,20 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Код возврата</p></th>
-<th><p>Описание</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>Операция выполнена успешно.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>Операция не может быть завершена, так как все действия в экземпляре, связанном с сеансом, были прекращены в результате вызова <a href="gg269240(v=exchg.10).md">жетстопсервице</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>Операция не может быть завершена, так как экземпляр, связанный с сеансом, обнаружил неустранимую ошибку, которая требует, чтобы доступ ко всем данным был отозван для защиты целостности этих данных.</p>
-<p><strong>Windows XP:</strong>  Это возвращаемое значение введено в Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errNoCurrentRecord</p></td>
-<td><p>Курсор в настоящий момент не находится в записи, и таблица не пуста.</p>
-<p><strong>Windows XP, Windows Server 2003, windows 2000 Server и windows 2000 Professional:</strong>  Если курсор располагается на пустом индексе или диапазоне индекса, <strong>жетиндексрекордкаунт</strong> ошибочно возвращает JET_errNoCurrentRecord.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>Операция не может быть завершена, так как экземпляр, связанный с сеансом, еще не инициализирован.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>Операция не может быть завершена, так как выполняется операция восстановления на экземпляре, связанном с сеансом.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errSessionSharingViolation</p></td>
-<td><p>Один и тот же сеанс нельзя использовать одновременно для нескольких потоков.</p>
-<p><strong>Windows XP:</strong>  Это возвращаемое значение введено в Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>Не удается выполнить операцию, так как выполняется завершение работы экземпляра, связанного с сеансом.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Код возврата</p> | <p>Описание</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>Операция выполнена успешно.</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>Операция не может быть завершена, так как все действия в экземпляре, связанном с сеансом, были прекращены в результате вызова <a href="gg269240(v=exchg.10).md">жетстопсервице</a>.</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>Операция не может быть завершена, так как экземпляр, связанный с сеансом, обнаружил неустранимую ошибку, которая требует, чтобы доступ ко всем данным был отозван для защиты целостности этих данных.</p><p><strong>Windows XP:</strong>  это возвращаемое значение вводится в Windows XP.</p> | 
+| <p>JET_errNoCurrentRecord</p> | <p>Курсор в настоящий момент не находится в записи, и таблица не пуста.</p><p><strong>Windows XP, Windows server 2003, Windows 2000 server и Windows 2000 Professional:</strong>  Если курсор располагается на пустом индексе или диапазоне индекса, <strong>жетиндексрекордкаунт</strong> ошибочно возвращает JET_errNoCurrentRecord.</p> | 
+| <p>JET_errNotInitialized</p> | <p>Операция не может быть завершена, так как экземпляр, связанный с сеансом, еще не инициализирован.</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>Операция не может быть завершена, так как выполняется операция восстановления на экземпляре, связанном с сеансом.</p> | 
+| <p>JET_errSessionSharingViolation</p> | <p>Один и тот же сеанс нельзя использовать одновременно для нескольких потоков.</p><p><strong>Windows XP:</strong>  это возвращаемое значение вводится в Windows XP.</p> | 
+| <p>JET_errTermInProgress</p> | <p>Не удается выполнить операцию, так как выполняется завершение работы экземпляра, связанного с сеансом.</p> | 
+
 
 
 Если эта функция выполнена, точное число записей индекса, включая текущую и до *крекмакс* (если оно не равно 0), возвращается в неподписанном длинном виде, на который указывает *пкрек*.
@@ -130,38 +93,13 @@ _**Применимо к:** Windows | Windows Server_
 
 **Жетиндексрекордкаунт** обращается к конечным страницам индекса для точного подсчета записей. Следовательно, она может выполнять большую часть операций ввода-вывода и может быть достаточно высокой. Для предотвращения чрезмерной нагрузки следует использовать ограничение *крекмакс* . Если диапазон большой, то можно будет подсчитать диапазон приблизительным способом с помощью [жетжетрекордпоситион](./jetgetrecordposition-function.md).
 
-**Windows XP, Windows Server 2003, windows 2000 Server и windows 2000 Professional:**  Если курсор располагается на пустом индексе или диапазоне индекса, **жетиндексрекордкаунт** возвращает JET_errNoCurrentRecord, а не возвращается число записей, равное нулю. Приложение должно проверить, пуст ли индекс или диапазон индекса в этом случае.
+**Windows XP, Windows server 2003, Windows 2000 server и Windows 2000 Professional:**  Если курсор располагается на пустом индексе или диапазоне индекса, **жетиндексрекордкаунт** возвращает JET_errNoCurrentRecord, а не возвращается число записей, равное нулю. Приложение должно проверить, пуст ли индекс или диапазон индекса в этом случае.
 
 #### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Библиотека</strong></p></td>
-<td><p>Используйте ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>КОМПОНОВКИ</strong></p></td>
-<td><p>Требуется ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | | <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | | <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | 
+
 
 
 #### <a name="see-also"></a>См. также:

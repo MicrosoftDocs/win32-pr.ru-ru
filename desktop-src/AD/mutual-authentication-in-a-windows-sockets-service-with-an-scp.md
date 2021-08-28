@@ -8,12 +8,12 @@ keywords:
 - Active Directory, использование, взаимная проверка подлинности, Windows служба сокетов с SCP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be8f3e65b044198c5ebf703b1c62ac03eb07a4d57b6bc5dcf7c5463247815f1b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3ede3f05744e402cb483e46d6eb116f653e20d9e
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119025772"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881379"
 ---
 # <a name="mutual-authentication-in-a-windows-sockets-service-with-scp"></a>взаимная проверка подлинности в службе сокетов Windows с SCP
 
@@ -22,7 +22,7 @@ ms.locfileid: "119025772"
 **Регистрация имен участников-служб в каталоге при установке службы**
 
 1.  Вызовите функцию [**дсжетспн**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsgetspna) , чтобы создать имена субъектов-служб (SPN) для службы.
-2.  Вызовите функцию [**дсвритеаккаунтспн**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dswriteaccountspna) , чтобы зарегистрировать имена участников-служб в учетной записи службы или компьютера, в контексте которой будет выполняться служба. Этот шаг должен выполняться администратором домена. исключением является то, что служба, работающая под учетной записью LocalSystem, может зарегистрировать свое имя участника-службы в форме " <service class> / <host> " в учетной записи компьютера узла службы.
+2.  Вызовите функцию [**дсвритеаккаунтспн**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dswriteaccountspna) , чтобы зарегистрировать имена участников-служб в учетной записи службы или компьютера, в контексте которой будет выполняться служба. Этот шаг должен выполняться администратором домена. исключением является то, что служба, работающая под учетной записью LocalSystem, может зарегистрировать свое имя участника-службы в форме " <service class> / &lt; узел &gt; " в учетной записи компьютера узла службы.
 
 **Проверка конфигурации при запуске службы**
 

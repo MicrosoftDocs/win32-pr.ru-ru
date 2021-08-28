@@ -24,12 +24,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fecf452bd6f879773a3fe200f721afbda5d29f1c41ae816846c261608d38ddca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d0b1c36a1a44f38dac11a7e474d7fefb80a09948
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119138297"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122988297"
 ---
 # <a name="itssbtargetfarmname-property"></a>Свойство Итссбтаржет:: Фармнаме
 
@@ -60,34 +60,14 @@ HRESULT get_FarmName(
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Минимальная версия клиента<br/></td>
-<td>Ни одна версия не поддерживается<br/></td>
-</tr>
-<tr class="even">
-<td>Минимальная версия сервера<br/></td>
-<td>Windows Server 2012<br/></td>
-</tr>
-<tr class="odd">
-<td>IDL<br/></td>
-<td><dl> <dt>Сбтсв. idl</dt> </dl></td>
-</tr>
-<tr class="even">
-<td>IID<br/></td>
-<td>IID_ITsSbTarget определяется следующим образом:
-<ul>
-<li>16616ECC-272D-411D-B324-126893033856</li>
-<li>e85e10ea-db0b-4752-b456-5fd5840901c0 на сервере Windows 2008 R2</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Требование | Применение |
+|--------|-------|
+| Минимальная версия клиента<br /> | Ни одна версия не поддерживается<br /> | 
+| Минимальная версия сервера<br /> | Windows Server 2012<br /> | 
+| IDL<br /> | <dl><dt>Сбтсв. idl</dt></dl> | 
+| IID<br /> | IID_ITsSbTarget определяется следующим образом:<ul><li>16616ECC-272D-411D-B324-126893033856</li><li>e85e10ea-db0b-4752-b456-5fd5840901c0 на сервере Windows 2008 R2</li></ul> | 
+
 
 
 

@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: f0463a38623baa427a6ddaf3ea19b47704b90e3ef36cf91dea2469e0cd2baa00
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cc6715a63c86913d5a525805e6178b3230505d0b
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119884774"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122879540"
 ---
 # <a name="about-user-profiles"></a>О профилях пользователей
 
@@ -50,7 +50,7 @@ ms.locfileid: "119884774"
 -   % Папка ProgramData% \\ \\ изображений учетной записи пользователя Майкрософт \\Guest.bmp
 -   % Папка ProgramData% \\ \\ изображений учетной записи пользователя Майкрософт \\User.bmp
 
-Изображение плитки пользователя хранится в папке "% systemdrive% \\ Users \\ <username> \\ AppData \\ Local \\ TEMP" как <username>.bmp. Символы косой черты ( \\ ) преобразуются в знаки плюса (+). Например, пользователь домена \\ преобразуется в домен и пользователь.
+Изображение плитки пользователя хранится в папке% SystemDrive% \\ Users \\ &lt; username &gt; \\ AppData \\ Local TEMP в \\ качестве &lt; имени пользователя &gt;.bmp. Символы косой черты ( \\ ) преобразуются в знаки плюса (+). Например, пользователь домена \\ преобразуется в домен и пользователь.
 
 Файл изображения появится во **временной** папке пользователя:
 
