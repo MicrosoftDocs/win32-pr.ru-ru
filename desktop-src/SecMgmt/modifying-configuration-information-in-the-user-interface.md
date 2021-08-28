@@ -4,12 +4,12 @@ ms.assetid: fb36fcce-5a69-49cd-8cd3-b0b048f2f566
 title: Изменение сведений о конфигурации в пользовательском интерфейсе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c6158d76d0f5114bd2d7b483e0af3d00f8f2439
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 414e2ab1475ec1c3241d60b96d182a522c299a9f5cf6134f50339c2088c99d9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119005122"
 ---
 # <a name="modifying-configuration-information-in-the-user-interface"></a>Изменение сведений о конфигурации в пользовательском интерфейсе
 

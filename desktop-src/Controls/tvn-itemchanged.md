@@ -3,7 +3,7 @@ title: Код уведомления TVN_ITEMCHANGED (Коммктрл. h)
 description: Сообщает родительскому окну элемента управления иерархического представления о том, что атрибуты элемента изменились. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: b09164bc-54da-457a-9fb7-3beab3dae3e4
 keywords:
-- TVN_ITEMCHANGED кода уведомления элементы управления Windows
+- TVN_ITEMCHANGED кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d58501d02cc2058ac803c949cc7118d7f146a10
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d140346d66a87bd394bc5aa36555b8accedef56891e722a4b28272e22f804ed0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018652"
 ---
 # <a name="tvn_itemchanged-notification-code"></a>\_Код уведомления ТВН итемчанжед
 
@@ -57,9 +57,9 @@ TVN_ITEMCHANGED
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **ТВН \_ ИТЕМЧАНЖЕДВ** (Юникод) и **ТВН \_ итемчанжеда** (ANSI)<br/>           |
 
 

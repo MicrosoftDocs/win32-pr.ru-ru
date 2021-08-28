@@ -4,17 +4,17 @@ ms.assetid: caeb522e-d4f6-91e2-5e85-ea0af0f61300
 title: 'Руководство: загрузка файлов звуковых данных в XAudio2'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 659b4d8e106b6f0b2eb942505f99562f56fdada7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0bacf08e8f16e5cd9c42409776b02846990b9d66d685a0186314445742f23341
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104154611"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962663"
 ---
 # <a name="how-to-load-audio-data-files-in-xaudio2"></a>Руководство: загрузка файлов звуковых данных в XAudio2
 
 > [!Note]  
-> Это содержимое применимо только к классическим приложениям, и для работы в приложении Магазина Windows потребуется редакция. Обратитесь к документации по [**CreateFile2**](/windows/win32/api/fileapi/nf-fileapi-createfile2), [**креативентекс**](/windows/win32/api/synchapi/nf-synchapi-createeventexa), [**WaitForSingleObjectEx**](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobjectex), [**сетфилепоинтерекс**](/windows/win32/api/fileapi/nf-fileapi-setfilepointerex)и [**жетоверлаппедресултекс**](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresultex). См. Саундфилереадер. h/. cpp в образце Басиксаунд Windows 8 из [коллекции примеров Windows SDK](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/XAudio2%20audio%20file%20playback%20sample%20(Windows%208)).
+> это содержимое применяется только к классическим приложениям, и для работы в приложении для магазина Windows потребуется редакция. Обратитесь к документации по [**CreateFile2**](/windows/win32/api/fileapi/nf-fileapi-createfile2), [**креативентекс**](/windows/win32/api/synchapi/nf-synchapi-createeventexa), [**WaitForSingleObjectEx**](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobjectex), [**сетфилепоинтерекс**](/windows/win32/api/fileapi/nf-fileapi-setfilepointerex)и [**жетоверлаппедресултекс**](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresultex). см. саундфилереадер. h/. cpp в образце басиксаунд Windows 8 из [коллекции примеров Windows SDK](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/XAudio2%20audio%20file%20playback%20sample%20(Windows%208)).
 
  
 
@@ -207,7 +207,7 @@ ms.locfileid: "104154611"
 
     
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

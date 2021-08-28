@@ -37,7 +37,7 @@
           href: profiling-directx-applications.md
         - name: Сжатие блоков
           href: block-compression.md
-        - name: Произведенный эффект
+        - name: Эффекты
           href: effects-overview.md
           items:
             - name: Связывание шейдеров эффектов
@@ -3287,7 +3287,7 @@
                   href: d1158.md
                 - name: 'D1159: недопустимая топология Коммандлист'
                   href: d1159.md
-                - name: 'D1160: цикл в графе'
+                - name: 'D1160: цикл в Graph'
                   href: d1160.md
                 - name: 'D1161: для Копифроммемори требуется доступное для чтения растровое изображение ЦП'
                   href: d1161.md

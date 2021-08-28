@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84cbe5c1cd0cc68ee892d42fc60db05b6ae2bea6
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: bebf103a2476aa856b55319e0eca42b8708da169fcedb34e48362062689727ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105664871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118937887"
 ---
 # <a name="glubegintrim-function"></a>Функция Глубегинтрим
 
@@ -51,7 +51,7 @@ void WINAPI gluBeginTrim(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте **глубегинтрим** , чтобы пометить начало цикла усечения, и **глуендтрим** , чтобы отметить конец цикла обрезки. Цикл обрезки — это набор ориентированных сегментов кривой (формирующих замкнутую кривую), определяющий границы НУРБС поверхности. Эти циклы обрезки включаются в определение НУРБС поверхности между вызовами [**глубегинсурфаце**](glubeginsurface.md) и [**глуендсурфаце**](gluendsurface.md).
 
@@ -79,7 +79,7 @@ gluBeginTrim(nobj);
 gluEndTrim(nobj);
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -93,7 +93,7 @@ gluEndTrim(nobj);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

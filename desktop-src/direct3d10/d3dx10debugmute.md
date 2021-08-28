@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 6f331e3f074a4b77a1f1a7f1a8117cf660940f7d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f4cd6a7ade60bc59cb1e6cbd9d3a447fac5cb7364db1ca85dcf704acedaa645c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128386"
 ---
 # <a name="d3dx10debugmute-function"></a>Функция D3DX10DebugMute
 
@@ -55,7 +55,7 @@ HRESULT D3DX10DebugMute(
 
 Возвращаемое значение является одним из значений, перечисленных в [кодах возврата Direct3D 10](d3d10-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция используется для отключения сообщений об ошибках для API-интерфейсов D3DX10 во время отладки. Использование этой функции должно быть защищено \_ параметром компилятора debug D3D10.
 
@@ -76,7 +76,7 @@ HRESULT D3DX10DebugMute(
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10Core. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX10Core. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl>   |
 
 

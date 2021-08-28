@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb95427aee37053b6979cb1a12ce7b5d1942c2fe
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0dfc858e16371ec44ef965722c0d37bd388b060ce4d7ce75adbd904074df03b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059142"
 ---
 # <a name="iconnectionbrokerrequest-interface"></a>Интерфейс Иконнектионброкеррекуест
 
@@ -49,7 +49,7 @@ ms.locfileid: "103803898"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -57,14 +57,14 @@ ms.locfileid: "103803898"
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 8<br/>                                                                        |
 | Минимальная версия сервера<br/> | Windows Server 2012<br/>                                                              |
-| Header<br/>                   | <dl> <dt>Кбклиент. h</dt> </dl>       |
+| Заголовок<br/>                   | <dl> <dt>Кбклиент. h</dt> </dl>       |
 | Библиотека<br/>                  | <dl> <dt>Кбклиент. lib</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Cbclient.dll</dt> </dl>     |
 | IID<br/>                      | IID \_ иконнектионброкеррекуест определен как 25114427-ED5D-46A6-AF53-C62D33A4108E<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

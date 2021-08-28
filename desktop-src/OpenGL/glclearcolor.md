@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 34005ce34900f5fee8a4c9b2f1b963b7fe4bb6d0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1bd68590ab9221dd094265a54f3c69ca396f810fb1f716c194b627a675196edd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061922"
 ---
 # <a name="glclearcolor-function"></a>Функция Глклеарколор
 
@@ -64,7 +64,7 @@ void WINAPI glClearColor(
 
 </dd> <dt>
 
-*буквы* 
+*канал альфа-версии*; 
 </dt> <dd>
 
 Альфа-значение, используемое [**глклеар**](glclear.md) для очистки буферов цветов. Значение по умолчанию равно нулю.
@@ -87,7 +87,7 @@ void WINAPI glClearColor(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глклеарколор** задает красный, зеленый, синий и альфа-значения, используемые [**глклеар**](glclear.md) для очистки буферов цветов. Значения, заданные параметром **глклеарколор** , записываются в диапазон \[ 0, 1 \] .
 
@@ -97,7 +97,7 @@ void WINAPI glClearColor(
 
 **глжет** с аргументом \_ " \_ очистить \_ значение цвета GL"
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -111,7 +111,7 @@ void WINAPI glClearColor(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

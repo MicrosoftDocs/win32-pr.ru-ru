@@ -4,12 +4,12 @@ ms.assetid: 31b50c2a-68b5-4816-9a56-8cd9475e7beb
 title: Общие понятия диспетчер свойств COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9be55c4a83aa363c911564aefabbe1d85f3804fb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2f9ce190cb4f4e65e6ab5208dd2adec08f807d4f6d29d4cf99a3e70a1c0a7004
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105710779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129016"
 ---
 # <a name="com-shared-property-manager-concepts"></a>Общие понятия диспетчер свойств COM+
 
@@ -28,7 +28,7 @@ ms.locfileid: "105710779"
 
 Экземпляры объектов [**шаредпропертиграупманажер**](sharedpropertygroupmanager.md), [**шаредпропертиграуп**](sharedpropertygroup.md)и [**шаредпроперти**](sharedproperty.md) всегда следует создавать из компонентов COM+, а не из базового клиента. Если базовый клиент создает общие группы свойств и свойства, общие свойства находятся внутри процесса базового клиента, а не в серверном процессе. Это означает, что объекты COM+ не могут совместно использовать свойства, если только эти объекты не выполняются в клиентском процессе (как правило, это не хорошая идея).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

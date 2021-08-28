@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 32261a6fd8c5cf4382832d8286d63ce5d44fb542
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1b39c2be625ff88869d27e6210e49496352af868c73557d2657c509fd0e79f82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118897794"
 ---
 # <a name="storeload-method"></a>Метод Store. Load
 
@@ -80,7 +80,7 @@ Store.Load( _
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если метод **Load** вызывается в хранилище памяти, все создаваемые контейнеры ключей будут удалены при удалении хранилища памяти. Например, если PFX-файл загружается в хранилище памяти и позднее добавляется в системное хранилище (например, в хранилище My) из хранилища памяти, то сертификат в хранилище My не будет содержать ключ. В этом случае PFX-файл должен быть загружен непосредственно в хранилище My.
 
@@ -105,7 +105,7 @@ Store.Load( _
 
 <dl> <dt>
 
-[**Магазин**](store.md)
+[**Сообщений**](store.md)
 </dt> </dl>
 
  

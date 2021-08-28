@@ -4,12 +4,12 @@ ms.assetid: 105800d3-a191-c78f-316a-bf2daf7b27a6
 title: Новые возможности (Директксмас)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1df1e7f25789ca6f58205ce9f45482e0a49540d1
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: 7e94d4ba2433501fb5389b82dab4f5c3de4b8ed80904ed4629729537bbf264a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111827630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984714"
 ---
 # <a name="whats-new-directxmath"></a>Новые возможности (Директксмас)
 
@@ -23,34 +23,34 @@ ms.locfileid: "111827630"
 
 <table>
  <tr>
-  <td>Пакет SDK для Windows 10 (20348), версия 2104</td><td>Директксмас 3,16</td>
+  <td>Windows 10 Пакет SDK (20348), версия 2104</td><td>Директксмас 3,16</td>
  </td>
  <tr>
   <td>Windows 10 Май 2020 обновление пакета SDK</td><td>Директксмас 3,14</td>
  </tr>
  <tr>
-  <td>Пакет SDK для Windows 10 Октябрь 2018 с обновлением</td><td>Директксмас 3,13</td>
+  <td>обновление Windows 10 за октябрь 2018 г. Tool</td><td>Директксмас 3,13</td>
  </tr>
  <tr>
-  <td>Пакет SDK для Windows 10 от апреля 2018 с обновлением<br />Пакет SDK обновления Windows 10 для дизайнеров</td><td>Директксмас 3,11</td>
+  <td>Windows 10 Пакет SDK для обновления за Апрель 2018<br />Windows 10 Fall Creators Update Tool</td><td>Директксмас 3,11</td>
  </tr>
  <tr>
-  <td>Пакет SDK для Windows 10 Creators Update</td><td>Директксмас 3,10</td>
+  <td>Windows 10 Creators Update Tool</td><td>Директксмас 3,10</td>
  </tr>
  <tr>
-  <td>Windows 10 для юбилея SDK</td><td>Директксмас 3,09</td>
+  <td>Windows 10 Пакет SDK для годовщины</td><td>Директксмас 3,09</td>
  </tr>
  <tr>
-  <td>Пакет SDK для Windows 10 (Ноябрь 2015)</td><td>Директксмас 3,08</td>
+  <td>Windows 10 Пакет SDK (Ноябрь 2015)</td><td>Директксмас 3,08</td>
  </tr>
  <tr>
-  <td>Windows SDK для Windows 8.1 (пружинный 2015)</td><td>Директксмас 3,07</td>
+  <td>Windows пакет SDK для Windows 8.1 (пружины 2015)</td><td>Директксмас 3,07</td>
  </tr>
  <tr>
-  <td>Windows SDK для Windows 8.1</td><td>Директксмас 3,06</td>
+  <td>Windows Пакет SDK для Windows 8.1</td><td>Директксмас 3,06</td>
  </tr>
  <tr>
-  <td>Windows SDK для Windows 8</td><td>Директксмас 3,03</td>
+  <td>Windows Пакет SDK для Windows 8</td><td>Директксмас 3,03</td>
  </tr>
 </table>
 
@@ -62,7 +62,7 @@ ms.locfileid: "111827630"
 
 -   Директксмас имеет только C++ (пространства имен, перегрузки, новые шаблоны и т. д.).
 -   Требуется поддержка стандартной библиотеки C++ 11 (т. е. stdint. h и т. д.).
--   Поддержка встроенных функций ARM-NEON для платформы Windows RT.
+-   встроенная поддержка ARM-NEON для платформы Windows RT.
 -   Новые функции цвета (преобразования цветового пространства, константы цвета .NET).
 -   Ограничивающие типы томов (версия, которая ранее была в заголовке Кснаколлисион в примере конфликта SDK DirectX).
 -   Версия Xbox 360 недоступна. XDK Xbox 360 переходит на Кснамас v2. x; Удаление конкретных типов данных и вариантов функций Xbox 360.

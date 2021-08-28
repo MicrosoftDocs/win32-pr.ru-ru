@@ -1,10 +1,10 @@
 ---
-title: класс параметров MS-DS-Password
+title: класс ms-DS-Password-Параметры
 description: Объект параметров пароля для учетных записей.
 ms.assetid: 4e3a5a80-4f55-4c26-b5af-ace9dd853836
 ms.tgt_platform: multiple
 keywords:
-- Схема AD для класса параметров MS-DS-Password
+- схема AD для класса Параметры ms-DS-Password
 - Схема AD для класса msDS-PasswordSettings
 topic_type:
 - apiref
@@ -14,19 +14,19 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e19ca0eb7b04b7062c6efca32a31d6e7dcd52c1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 76459a04701bac5f7c6abad40d9cbc2222c8346c288f67a702958d85f2aa0d64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103989600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118959783"
 ---
-# <a name="ms-ds-password-settings-class"></a>класс параметров MS-DS-Password
+# <a name="ms-ds-password-settings-class"></a>класс ms-DS-Password-Параметры
 
 Объект параметров пароля для учетных записей.
 
 > [!Note]  
-> Этот объект classSchema создается со списком идентификаторов объектов Системмустконтаин. Это список атрибутов, которые должен содержать объект параметров пароля (PSO) или иначе, если создание PSO завершится ошибкой.
+> Этот объект classSchema создается со списком идентификаторов объектов Системмустконтаин. это список атрибутов, которые должен содержать объект пароля Параметры (PSO) или иначе, если создание PSO завершится ошибкой.
 
  
 
@@ -34,7 +34,7 @@ ms.locfileid: "103989600"
 
 | Ввод | Значение |
 |-------------------|--------------------------------------|
-| CN                | MS-DS-Password-параметры              |
+| CN                | ms-DS-Password-Параметры              |
 | LDAP-отображаемое имя | msDS-PasswordSettings                |
 | Привилегия обновления  | \-                                   |
 | Частота обновления  | \-                                   |
@@ -63,7 +63,7 @@ ms.locfileid: "103989600"
 | По умолчанию-скрытие значения        | 0                                                                             |
 | RDN-Атри-ID                  | [**Common-Name**](a-cn.md)<br/>                                        |
 | Подкласс                 | [**Вверх**](c-top.md)<br/>                                               |
-| Возможные старшие          | [**MS-DS-Password-Settings — контейнер**](c-msds-passwordsettingscontainer.md) |
+| Возможные старшие          | [**ms-DS-Password-Параметры — контейнер**](c-msds-passwordsettingscontainer.md) |
 | Вспомогательные классы           | \-                                                                            |
 | NT-Security-дескриптор      | О:БАГ: BAD: S:                                                                  |
 | Дескриптор безопасности по умолчанию | D: (A;; РПВПКРККДКЛКЛОРКВОВДСДДТСВ;;;D А) (A;; РПВПКРККДКЛКЛОРКВОВДСДДТСВ;;; SY    |
@@ -71,9 +71,9 @@ ms.locfileid: "103989600"
 
 
 
-## <a name="windows-server-2008-attributes"></a>Атрибуты Windows Server 2008
+## <a name="windows-server-2008-attributes"></a>Windows Атрибуты сервера 2008
 
-Этот класс содержит следующие атрибуты для Windows Server 2008:
+этот класс содержит следующие атрибуты для Windows Server 2008:
 
 
 
@@ -100,7 +100,7 @@ ms.locfileid: "103989600"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                                         | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Тип экземпляра**](a-instancetype.md)                                                            | True      | [**Вверх**](c-top.md)<br/> |
+| [**Тип экземпляра**](a-instancetype.md)                                                            | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Удалено**](a-isdeleted.md)                                                                  | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                                              | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -121,14 +121,14 @@ ms.locfileid: "103989600"
 | [**MS-DS-является-Full-реплика для**](a-msds-isfullreplicafor.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-является-partial-реплика для**](a-msds-ispartialreplicafor.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-KrbTgt-Link-BL**](a-msds-krbtgtlinkbl.md)                                                | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-DS-блокировка-длительность**](a-msds-lockoutduration.md)                                           | True      | **MS-DS-Password-параметры**     |
-| [**MS-DS-блокировка-наблюдение — окно**](a-msds-lockoutobservationwindow.md)                        | True      | **MS-DS-Password-параметры**     |
-| [**MS-DS-блокировка-порог**](a-msds-lockoutthreshold.md)                                         | True      | **MS-DS-Password-параметры**     |
+| [**MS-DS-блокировка-длительность**](a-msds-lockoutduration.md)                                           | Верно      | **ms-DS-Password-Параметры**     |
+| [**MS-DS-блокировка-наблюдение — окно**](a-msds-lockoutobservationwindow.md)                        | Верно      | **ms-DS-Password-Параметры**     |
+| [**MS-DS-блокировка-порог**](a-msds-lockoutthreshold.md)                                         | Верно      | **ms-DS-Password-Параметры**     |
 | [**MS-DS-Masterd-by**](a-msds-masteredby.md)                                                     | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-DS-максимальный — пароль — возраст**](a-msds-maximumpasswordage.md)                                    | True      | **MS-DS-Password-параметры**     |
+| [**MS-DS-максимальный — пароль — возраст**](a-msds-maximumpasswordage.md)                                    | Верно      | **ms-DS-Password-Параметры**     |
 | [**MS-DS-Members-for-AZ-Role-BL**](a-msds-membersforazrolebl.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-DS-минимальный-пароль — возраст**](a-msds-minimumpasswordage.md)                                    | True      | **MS-DS-Password-параметры**     |
-| [**MS-DS-минимальная длина пароля**](a-msds-minimumpasswordlength.md)                              | True      | **MS-DS-Password-параметры**     |
+| [**MS-DS-минимальный-пароль — возраст**](a-msds-minimumpasswordage.md)                                    | Верно      | **ms-DS-Password-Параметры**     |
+| [**MS-DS-минимальная длина пароля**](a-msds-minimumpasswordlength.md)                              | Верно      | **ms-DS-Password-Параметры**     |
 | [**MS-DS-NC-REPL-курсоры**](a-msds-ncreplcursors.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-NC-REPL-Inbound-соседи**](a-msds-ncreplinboundneighbors.md)                           | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-NC-REPL-Outbound-соседи**](a-msds-ncreploutboundneighbors.md)                         | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -138,13 +138,13 @@ ms.locfileid: "103989600"
 | [**MS-DS-Object-Reference-BL**](a-msds-objectreferencebl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Operations-для-AZ-Role-BL**](a-msds-operationsforazrolebl.md)                            | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Operations-for-AZ-Task-BL**](a-msds-operationsforaztaskbl.md)                            | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-DS-Password-с поддержкой сложности**](a-msds-passwordcomplexityenabled.md)                      | True      | **MS-DS-Password-параметры**     |
-| [**MS-DS-Password — журнал — длина**](a-msds-passwordhistorylength.md)                              | True      | **MS-DS-Password-параметры**     |
-| [**MS-DS-Password-обратимое шифрование — включено**](a-msds-passwordreversibleencryptionenabled.md) | True      | **MS-DS-Password-параметры**     |
-| [**MS-DS-Password-Settings — приоритет**](a-msds-passwordsettingsprecedence.md)                    | True      | **MS-DS-Password-параметры**     |
+| [**MS-DS-Password-с поддержкой сложности**](a-msds-passwordcomplexityenabled.md)                      | Верно      | **ms-DS-Password-Параметры**     |
+| [**MS-DS-Password — журнал — длина**](a-msds-passwordhistorylength.md)                              | Верно      | **ms-DS-Password-Параметры**     |
+| [**MS-DS-Password-обратимое шифрование — включено**](a-msds-passwordreversibleencryptionenabled.md) | Верно      | **ms-DS-Password-Параметры**     |
+| [**ms-DS-Password-Параметры — приоритет**](a-msds-passwordsettingsprecedence.md)                    | Верно      | **ms-DS-Password-Параметры**     |
 | [**MS-DS-Principal-Name**](a-msds-principalname.md)                                               | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-PSO — применяется**](a-msds-psoapplied.md)                                                     | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-DS-PSO — применяется к**](a-msds-psoappliesto.md)                                                | Неверно     | **MS-DS-Password-параметры**     |
+| [**MS-DS-PSO — применяется к**](a-msds-psoappliesto.md)                                                | Неверно     | **ms-DS-Password-Параметры**     |
 | [**MS-DS-REPL-Attribute-Meta-Data**](a-msds-replattributemetadata.md)                             | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-выявил-DSA**](a-msds-revealeddsas.md)                                                 | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -155,10 +155,10 @@ ms.locfileid: "103989600"
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                                           | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                           | True      | [**Вверх**](c-top.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                           | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                                       | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Объект — Категория**](a-objectcategory.md)                                                        | True      | [**Вверх**](c-top.md)<br/> |
-| [**Объектный класс**](a-objectclass.md)                                                              | True      | [**Вверх**](c-top.md)<br/> |
+| [**Объект — Категория**](a-objectcategory.md)                                                        | Верно      | [**Вверх**](c-top.md)<br/> |
+| [**Объектный класс**](a-objectclass.md)                                                              | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Объект — GUID**](a-objectguid.md)                                                                | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Версия объекта**](a-objectversion.md)                                                          | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -213,7 +213,7 @@ ms.locfileid: "103989600"
 | По умолчанию-скрытие значения        | 0                                                                             |
 | RDN-Атри-ID                  | [**Common-Name**](a-cn.md)<br/>                                        |
 | Подкласс                 | [**Вверх**](c-top.md)<br/>                                               |
-| Возможные старшие          | [**MS-DS-Password-Settings — контейнер**](c-msds-passwordsettingscontainer.md) |
+| Возможные старшие          | [**ms-DS-Password-Параметры — контейнер**](c-msds-passwordsettingscontainer.md) |
 | Вспомогательные классы           | \-                                                                            |
 | NT-Security-дескриптор      | О:БАГ: BAD: S:                                                                  |
 | Дескриптор безопасности по умолчанию | D: (A;; РПВПКРККДКЛКЛОРКВОВДСДДТСВ;;;D А) (A;; РПВПКРККДКЛКЛОРКВОВДСДДТСВ;;; SY    |
@@ -221,9 +221,9 @@ ms.locfileid: "103989600"
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Атрибуты Windows Server 2008 R2
+## <a name="windows-server-2008-r2-attributes"></a>Windows Атрибуты сервера 2008 R2
 
-Этот класс содержит следующие атрибуты для Windows Server 2008 R2:
+этот класс содержит следующие атрибуты для Windows Server 2008 R2:
 
 
 
@@ -250,7 +250,7 @@ ms.locfileid: "103989600"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                                         | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Тип экземпляра**](a-instancetype.md)                                                            | True      | [**Вверх**](c-top.md)<br/> |
+| [**Тип экземпляра**](a-instancetype.md)                                                            | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Удалено**](a-isdeleted.md)                                                                  | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                                              | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -277,14 +277,14 @@ ms.locfileid: "103989600"
 | [**MS-DS-Last-Known-RDN**](a-msds-lastknownrdn.md)                                                | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-локально-эффективное удаление — время**](a-msds-localeffectivedeletiontime.md)                   | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Local-эффективен — время перезапуска**](a-msds-localeffectiverecycletime.md)                     | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-DS-блокировка-длительность**](a-msds-lockoutduration.md)                                           | True      | **MS-DS-Password-параметры**     |
-| [**MS-DS-блокировка-наблюдение — окно**](a-msds-lockoutobservationwindow.md)                        | True      | **MS-DS-Password-параметры**     |
-| [**MS-DS-блокировка-порог**](a-msds-lockoutthreshold.md)                                         | True      | **MS-DS-Password-параметры**     |
+| [**MS-DS-блокировка-длительность**](a-msds-lockoutduration.md)                                           | Верно      | **ms-DS-Password-Параметры**     |
+| [**MS-DS-блокировка-наблюдение — окно**](a-msds-lockoutobservationwindow.md)                        | Верно      | **ms-DS-Password-Параметры**     |
+| [**MS-DS-блокировка-порог**](a-msds-lockoutthreshold.md)                                         | Верно      | **ms-DS-Password-Параметры**     |
 | [**MS-DS-Masterd-by**](a-msds-masteredby.md)                                                     | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-DS-максимальный — пароль — возраст**](a-msds-maximumpasswordage.md)                                    | True      | **MS-DS-Password-параметры**     |
+| [**MS-DS-максимальный — пароль — возраст**](a-msds-maximumpasswordage.md)                                    | Верно      | **ms-DS-Password-Параметры**     |
 | [**MS-DS-Members-for-AZ-Role-BL**](a-msds-membersforazrolebl.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-DS-минимальный-пароль — возраст**](a-msds-minimumpasswordage.md)                                    | True      | **MS-DS-Password-параметры**     |
-| [**MS-DS-минимальная длина пароля**](a-msds-minimumpasswordlength.md)                              | True      | **MS-DS-Password-параметры**     |
+| [**MS-DS-минимальный-пароль — возраст**](a-msds-minimumpasswordage.md)                                    | Верно      | **ms-DS-Password-Параметры**     |
+| [**MS-DS-минимальная длина пароля**](a-msds-minimumpasswordlength.md)                              | Верно      | **ms-DS-Password-Параметры**     |
 | [**MS-DS-NC-REPL-курсоры**](a-msds-ncreplcursors.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-NC-REPL-Inbound-соседи**](a-msds-ncreplinboundneighbors.md)                           | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-NC-REPL-Outbound-соседи**](a-msds-ncreploutboundneighbors.md)                         | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -295,13 +295,13 @@ ms.locfileid: "103989600"
 | [**MS-DS-Оидтограуп-Link-BL**](a-msds-oidtogrouplinkbl.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Operations-для-AZ-Role-BL**](a-msds-operationsforazrolebl.md)                            | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Operations-for-AZ-Task-BL**](a-msds-operationsforaztaskbl.md)                            | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-DS-Password-с поддержкой сложности**](a-msds-passwordcomplexityenabled.md)                      | True      | **MS-DS-Password-параметры**     |
-| [**MS-DS-Password — журнал — длина**](a-msds-passwordhistorylength.md)                              | True      | **MS-DS-Password-параметры**     |
-| [**MS-DS-Password-обратимое шифрование — включено**](a-msds-passwordreversibleencryptionenabled.md) | True      | **MS-DS-Password-параметры**     |
-| [**MS-DS-Password-Settings — приоритет**](a-msds-passwordsettingsprecedence.md)                    | True      | **MS-DS-Password-параметры**     |
+| [**MS-DS-Password-с поддержкой сложности**](a-msds-passwordcomplexityenabled.md)                      | Верно      | **ms-DS-Password-Параметры**     |
+| [**MS-DS-Password — журнал — длина**](a-msds-passwordhistorylength.md)                              | Верно      | **ms-DS-Password-Параметры**     |
+| [**MS-DS-Password-обратимое шифрование — включено**](a-msds-passwordreversibleencryptionenabled.md) | Верно      | **ms-DS-Password-Параметры**     |
+| [**ms-DS-Password-Параметры — приоритет**](a-msds-passwordsettingsprecedence.md)                    | Верно      | **ms-DS-Password-Параметры**     |
 | [**MS-DS-Principal-Name**](a-msds-principalname.md)                                               | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-PSO — применяется**](a-msds-psoapplied.md)                                                     | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-DS-PSO — применяется к**](a-msds-psoappliesto.md)                                                | Неверно     | **MS-DS-Password-параметры**     |
+| [**MS-DS-PSO — применяется к**](a-msds-psoappliesto.md)                                                | Неверно     | **ms-DS-Password-Параметры**     |
 | [**MS-DS-REPL-Attribute-Meta-Data**](a-msds-replattributemetadata.md)                             | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-выявил-DSA**](a-msds-revealeddsas.md)                                                 | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -312,10 +312,10 @@ ms.locfileid: "103989600"
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                                           | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                           | True      | [**Вверх**](c-top.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                           | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                                       | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Объект — Категория**](a-objectcategory.md)                                                        | True      | [**Вверх**](c-top.md)<br/> |
-| [**Объектный класс**](a-objectclass.md)                                                              | True      | [**Вверх**](c-top.md)<br/> |
+| [**Объект — Категория**](a-objectcategory.md)                                                        | Верно      | [**Вверх**](c-top.md)<br/> |
+| [**Объектный класс**](a-objectclass.md)                                                              | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Объект — GUID**](a-objectguid.md)                                                                | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Версия объекта**](a-objectversion.md)                                                          | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -370,7 +370,7 @@ ms.locfileid: "103989600"
 | По умолчанию-скрытие значения        | 0                                                                             |
 | RDN-Атри-ID                  | [**Common-Name**](a-cn.md)<br/>                                        |
 | Подкласс                 | [**Вверх**](c-top.md)<br/>                                               |
-| Возможные старшие          | [**MS-DS-Password-Settings — контейнер**](c-msds-passwordsettingscontainer.md) |
+| Возможные старшие          | [**ms-DS-Password-Параметры — контейнер**](c-msds-passwordsettingscontainer.md) |
 | Вспомогательные классы           | \-                                                                            |
 | NT-Security-дескриптор      | О:БАГ: BAD: S:                                                                  |
 | Дескриптор безопасности по умолчанию | D: (A;; РПВПКРККДКЛКЛОРКВОВДСДДТСВ;;;D А) (A;; РПВПКРККДКЛКЛОРКВОВДСДДТСВ;;; SY    |
@@ -378,7 +378,7 @@ ms.locfileid: "103989600"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Атрибуты Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Атрибута
 
 Этот класс содержит следующие атрибуты для Windows Server 2012:
 
@@ -407,7 +407,7 @@ ms.locfileid: "103989600"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                                         | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Тип экземпляра**](a-instancetype.md)                                                            | True      | [**Вверх**](c-top.md)<br/> |
+| [**Тип экземпляра**](a-instancetype.md)                                                            | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Удалено**](a-isdeleted.md)                                                                  | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                                              | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -436,15 +436,15 @@ ms.locfileid: "103989600"
 | [**MS-DS-Last-Known-RDN**](a-msds-lastknownrdn.md)                                                | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-локально-эффективное удаление — время**](a-msds-localeffectivedeletiontime.md)                   | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Local-эффективен — время перезапуска**](a-msds-localeffectiverecycletime.md)                     | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-DS-блокировка-длительность**](a-msds-lockoutduration.md)                                           | True      | **MS-DS-Password-параметры**     |
-| [**MS-DS-блокировка-наблюдение — окно**](a-msds-lockoutobservationwindow.md)                        | True      | **MS-DS-Password-параметры**     |
-| [**MS-DS-блокировка-порог**](a-msds-lockoutthreshold.md)                                         | True      | **MS-DS-Password-параметры**     |
+| [**MS-DS-блокировка-длительность**](a-msds-lockoutduration.md)                                           | Верно      | **ms-DS-Password-Параметры**     |
+| [**MS-DS-блокировка-наблюдение — окно**](a-msds-lockoutobservationwindow.md)                        | Верно      | **ms-DS-Password-Параметры**     |
+| [**MS-DS-блокировка-порог**](a-msds-lockoutthreshold.md)                                         | Верно      | **ms-DS-Password-Параметры**     |
 | [**MS-DS-Masterd-by**](a-msds-masteredby.md)                                                     | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-DS-максимальный — пароль — возраст**](a-msds-maximumpasswordage.md)                                    | True      | **MS-DS-Password-параметры**     |
+| [**MS-DS-максимальный — пароль — возраст**](a-msds-maximumpasswordage.md)                                    | Верно      | **ms-DS-Password-Параметры**     |
 | [**MS-DS-Members-for-AZ-Role-BL**](a-msds-membersforazrolebl.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Members-of-Resource-Property-List-BL**](a-msds-membersofresourcepropertylistbl.md)       | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-DS-минимальный-пароль — возраст**](a-msds-minimumpasswordage.md)                                    | True      | **MS-DS-Password-параметры**     |
-| [**MS-DS-минимальная длина пароля**](a-msds-minimumpasswordlength.md)                              | True      | **MS-DS-Password-параметры**     |
+| [**MS-DS-минимальный-пароль — возраст**](a-msds-minimumpasswordage.md)                                    | Верно      | **ms-DS-Password-Параметры**     |
+| [**MS-DS-минимальная длина пароля**](a-msds-minimumpasswordlength.md)                              | Верно      | **ms-DS-Password-Параметры**     |
 | [**MS-DS-NC-REPL-курсоры**](a-msds-ncreplcursors.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-NC-REPL-Inbound-соседи**](a-msds-ncreplinboundneighbors.md)                           | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-NC-REPL-Outbound-соседи**](a-msds-ncreploutboundneighbors.md)                         | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -455,30 +455,30 @@ ms.locfileid: "103989600"
 | [**MS-DS-Оидтограуп-Link-BL**](a-msds-oidtogrouplinkbl.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Operations-для-AZ-Role-BL**](a-msds-operationsforazrolebl.md)                            | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Operations-for-AZ-Task-BL**](a-msds-operationsforaztaskbl.md)                            | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-DS-Password-с поддержкой сложности**](a-msds-passwordcomplexityenabled.md)                      | True      | **MS-DS-Password-параметры**     |
-| [**MS-DS-Password — журнал — длина**](a-msds-passwordhistorylength.md)                              | True      | **MS-DS-Password-параметры**     |
-| [**MS-DS-Password-обратимое шифрование — включено**](a-msds-passwordreversibleencryptionenabled.md) | True      | **MS-DS-Password-параметры**     |
-| [**MS-DS-Password-Settings — приоритет**](a-msds-passwordsettingsprecedence.md)                    | True      | **MS-DS-Password-параметры**     |
+| [**MS-DS-Password-с поддержкой сложности**](a-msds-passwordcomplexityenabled.md)                      | Верно      | **ms-DS-Password-Параметры**     |
+| [**MS-DS-Password — журнал — длина**](a-msds-passwordhistorylength.md)                              | Верно      | **ms-DS-Password-Параметры**     |
+| [**MS-DS-Password-обратимое шифрование — включено**](a-msds-passwordreversibleencryptionenabled.md) | Верно      | **ms-DS-Password-Параметры**     |
+| [**ms-DS-Password-Параметры — приоритет**](a-msds-passwordsettingsprecedence.md)                    | Верно      | **ms-DS-Password-Параметры**     |
 | [**MS-DS-Principal-Name**](a-msds-principalname.md)                                               | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-PSO — применяется**](a-msds-psoapplied.md)                                                     | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-DS-PSO — применяется к**](a-msds-psoappliesto.md)                                                | Неверно     | **MS-DS-Password-параметры**     |
+| [**MS-DS-PSO — применяется к**](a-msds-psoappliesto.md)                                                | Неверно     | **ms-DS-Password-Параметры**     |
 | [**MS-DS-REPL-Attribute-Meta-Data**](a-msds-replattributemetadata.md)                             | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-выявил-DSA**](a-msds-revealeddsas.md)                                                 | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-выводит-List-BL**](a-msds-revealedlistbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-DS-TDO-исходящий трафик — BL**](a-msds-tdoegressbl.md)                                                  | Неверно     | [**Вверх**](c-top.md)<br/> |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                                  | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-TDO-входящий трафик — BL**](a-msds-tdoingressbl.md)                                                | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-value-type-Reference-BL**](a-msds-valuetypereferencebl.md)                               | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                                              | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                                           | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                           | True      | [**Вверх**](c-top.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                           | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                                       | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Объект — Категория**](a-objectcategory.md)                                                        | True      | [**Вверх**](c-top.md)<br/> |
-| [**Объектный класс**](a-objectclass.md)                                                              | True      | [**Вверх**](c-top.md)<br/> |
+| [**Объект — Категория**](a-objectcategory.md)                                                        | Верно      | [**Вверх**](c-top.md)<br/> |
+| [**Объектный класс**](a-objectclass.md)                                                              | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Объект — GUID**](a-objectguid.md)                                                                | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Версия объекта**](a-objectversion.md)                                                          | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/> |

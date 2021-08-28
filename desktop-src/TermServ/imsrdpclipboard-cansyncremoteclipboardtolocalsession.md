@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 12/16/2020
-ms.openlocfilehash: ebb20057e3a312dbe0b24856c47ad2a7ef1b7292
-ms.sourcegitcommit: 04e801237156e90b48111d60bddf437f87f5cdfe
+ms.openlocfilehash: 40a9fc5d6dcdc2e96d9ce916bce0567cccc90adf10fcacc5d797f61ed292c116
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "105719231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000844"
 ---
 # <a name="imsrdpclipboardcansyncremoteclipboardtolocalsession-method"></a>Метод Имсрдпклипбоард:: Кансинкремотеклипбоардтолокалсессион
 
@@ -43,7 +43,7 @@ HRESULT CanSyncRemoteClipboardToLocalSession(
 
 В случае успеха возвратите значение **\_ ОК** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------|
@@ -52,7 +52,7 @@ HRESULT CanSyncRemoteClipboardToLocalSession(
 | DLL                  | MsTscAx.dll     |
 | IID                      | IID \_ имсрдпклипбоард определен как 2E769EE8-00C7-43DC-AFD9-235D75B72A40          |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

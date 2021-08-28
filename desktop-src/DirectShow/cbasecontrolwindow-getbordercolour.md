@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0ba6e1be9babf96d03235c49d9cde0f11cae1b83
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9b5b94e0fa58c95e74fd140c04710e8aaacef9402397fa475983c0e01e586528
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119017372"
 ---
 # <a name="cbasecontrolwindowgetbordercolour-method"></a>Кбасеконтролвиндов. Жетбордерколаур, метод
 
@@ -44,7 +44,7 @@ COLORREF GetBorderColour();
 
 Возвращает цвет границы.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение может задать конечный прямоугольник для вывода видео. Этот прямоугольник должен относиться к клиентской области окна. Если это сделано (по умолчанию всегда закрашивать все окно), то есть область, окружающая видео; то есть граница. Цвет границы можно задать с помощью функции-члена [**кбасеконтролвиндов::p UT \_ BorderColor**](cbasecontrolwindow-put-bordercolor.md) . Это свойство влияет на цвет границы. Используйте эту функцию-член вместо [**кбасеконтролвиндов:: Get \_ BorderColor**](cbasecontrolwindow-get-bordercolor.md), если только вы не вызываете это внешне через метод [**ивидеовиндов:: Get \_ BorderColor**](/windows/desktop/api/Control/nf-control-ivideowindow-get_bordercolor) .
 
@@ -54,7 +54,7 @@ COLORREF GetBorderColour();
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ктлутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

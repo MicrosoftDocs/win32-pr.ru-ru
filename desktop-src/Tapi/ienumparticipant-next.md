@@ -1,21 +1,21 @@
 ---
-description: Следующий метод получает указанное число следующих элементов в последовательности перечисления. Этот метод скрыт от Visual Basic и языков сценариев.
+description: Следующий метод получает указанное число следующих элементов в последовательности перечисления. этот метод скрыт от Visual Basic и языков сценариев.
 ms.assetid: bd94f592-ac6f-48b7-8190-352a5e18f224
 title: 'Метод ИенумпартиЦипант:: Next (Конфприв. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89586370d01aaac54f05242e0eb3c53eb938c47b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d574f7c34bc48679ea679caf8ba07c881bcd1c692fa3215ae48a9ecf54d7cbfc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003592"
 ---
 # <a name="ienumparticipantnext-method"></a>Метод ИенумпартиЦипант:: Next
 
-\[Команда **Далее** недоступна для Windows Vista, windows Server 2008 и последующих версий операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[команда **далее** недоступна для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
-**Следующий** метод получает указанное число следующих элементов в последовательности перечисления. Этот метод скрыт от Visual Basic и языков сценариев.
+**Следующий** метод получает указанное число следующих элементов в последовательности перечисления. этот метод скрыт от Visual Basic и языков сценариев.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -72,7 +72,7 @@ HRESULT Next(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 TAPI вызывает метод [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) в интерфейсе [**итаженсандлер**](/windows/win32/api/tapi3cc/nn-tapi3cc-itagenthandler) , возвращенном методом **иенумпартиЦипант:: Next**. Приложение должно вызвать [**выпуск**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) в интерфейсе **итаженсандлер** , чтобы освободить ресурсы, связанные с ним.
 
@@ -83,7 +83,7 @@ TAPI вызывает метод [**AddRef**](/windows/win32/api/unknwn/nf-unknw
 | Требование | Значение |
 |-------------------------|---------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,0 или более поздней версии<br/>                                                 |
-| Header<br/>       | <dl> <dt>Конфприв. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>Конфприв. h</dt> </dl> |
 | Библиотека<br/>      | <dl> <dt>UUID. lib</dt> </dl>   |
 | DLL<br/>          | <dl> <dt>Tapi3.dll</dt> </dl>  |
 

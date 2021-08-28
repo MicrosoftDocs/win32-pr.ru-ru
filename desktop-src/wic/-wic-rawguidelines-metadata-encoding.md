@@ -1,17 +1,17 @@
 ---
 description: Кодирование
 ms.assetid: 501e63bf-26ef-42fb-b181-f1a8b26c122c
-title: Кодировка (компонент Windows Imaging)
+title: кодирование (компонент обработки изображений Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d6d15b983b7455d0fe0c406cbad64dbbb77588b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0b3d6eef499379bbdc668e70d5d0ec4326b390372da910934a6e7c7f547d177
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964653"
 ---
-# <a name="encoding-windows-imaging-component"></a>Кодировка (компонент Windows Imaging)
+# <a name="encoding-windows-imaging-component"></a>кодирование (компонент обработки изображений Windows)
 
 Автор кодировщика должен выполнить следующие действия:
 
@@ -22,14 +22,14 @@ ms.locfileid: "105712543"
 -   При кодировании потока изображения вызовите [**виксериализеметадатаконтент**](/windows/desktop/api/wincodecsdk/nf-wincodecsdk-wicserializemetadatacontent) для сериализации содержимого каждого модуля записи метаданных в поток. Если блок метаданных содержит метаданные "критическое", кодировщику необходимо задать критические элементы метаданных, прежде чем запрашивать у автора метаданных сериализацию содержимого.
 -   Проверьте наличие неизвестных обработчиков метаданных, чтобы убедиться, что избыточные блоки метаданных отсутствуют. Это важно, поскольку при сохранении метаданных в сценарии декодирования или кодирования неизвестные блоки могут быть дубликатами обязательных блоков метаданных.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 **Зрения**
 </dt> <dt>
 
-[Общие сведения о компоненте создания образов Windows](-wic-about-windows-imaging-codec.md)
+[Windows Общие сведения о компонентах обработки изображений](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [Рекомендации по WIC для форматов необработанных изображений Camera](-wic-rawguidelines.md)

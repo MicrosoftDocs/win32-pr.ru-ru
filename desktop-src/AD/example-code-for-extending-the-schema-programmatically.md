@@ -8,12 +8,12 @@ keywords:
 - Программное расширение схемы AD, пример кода для
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c76264267c4ea97e4cf7998c19442a28483b4758
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b1ee2331fa31946691d0906eb9abd4942c037044b2d9f7891182ed8e2f890abb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104252785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962333"
 ---
 # <a name="example-code-for-extending-the-schema-programmatically"></a>Пример кода для программного расширения схемы
 
@@ -863,9 +863,9 @@ void ReportErrorW(LPCWSTR pwszDefaultMsg, DWORD dwErr)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

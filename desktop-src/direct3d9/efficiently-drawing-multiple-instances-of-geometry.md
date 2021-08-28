@@ -4,12 +4,12 @@ ms.assetid: d8d9b0c8-b1c4-406d-bf2a-9716d725aec7
 title: Эффективная прорисовка нескольких экземпляров геометрии (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9981dff913b704fca5e6b211b57e3647fddd28c2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 70586142b58076e5010083f61aeff360aa245a298e5d010fb487aed8b5843ec8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103894325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119122379"
 ---
 # <a name="efficiently-drawing-multiple-instances-of-geometry-direct3d-9"></a>Эффективная прорисовка нескольких экземпляров геометрии (Direct3D 9)
 
@@ -21,7 +21,7 @@ ms.locfileid: "103894325"
     -   [Сравнение производительности индексированных геометрических объектов](#indexed-geometry-performance-comparison)
 -   [Рисование неиндексированной геометрии](#drawing-non-indexed-geometry)
     -   [Сравнение производительности неиндексированных геометрических объектов](#non-indexed-geometry-performance-comparison)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="drawing-indexed-geometry"></a>Рисование индексированной геометрии
 
@@ -291,7 +291,7 @@ if( SUCCEEDED( pd3dDevice->BeginScene() ) )
 
 В целом, разумно рассчитывать на то, что индексированный метод ([Рисование индексированной геометрии](#drawing-indexed-geometry)) будет работать лучше, чем неиндексированный метод ([Рисование неиндексированной геометрии](#drawing-non-indexed-geometry)), так как индексированный метод выполняет только потоковую передачу только одной копии данных геометрии. Обратите внимание, что параметры для [**дравиндекседпримитиве**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-drawindexedprimitive) не изменялись для всех последовательностей отрисовки.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

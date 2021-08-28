@@ -3,7 +3,7 @@ title: Амбиентаттрибутес. moveTo
 description: Метод moveTo перемещает элемент управления в новое расположение с линейной скоростью.
 ms.assetid: 8670aa7b-a5c1-4d93-9f48-452bc53e65e6
 keywords:
-- Проигрыватель Windows Media Амбиентаттрибутес. moveTo
+- проигрыватель Windows Media амбиентаттрибутес. moveTo
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af481526c0923c527bb14aa4700a6c6fe5ea3613
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bf05beedad4fe4abb839e957519384b58102253cd0ab6a292d629df23a7bef98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055052"
 ---
 # <a name="ambientattributesmoveto"></a>Амбиентаттрибутес. moveTo
 
@@ -56,23 +56,23 @@ ms.locfileid: "105694917"
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод полезен для анимированных элементов вложенного **представления** (например, если пользователь щелкает табло и элементы управления просматриваются вниз).
 
 Этот метод создает линейное движение при перемещении элемента управления. Это отличается от **слидето**, который создает нелинейное движение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

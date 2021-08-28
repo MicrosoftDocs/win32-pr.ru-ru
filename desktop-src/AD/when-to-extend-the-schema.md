@@ -8,12 +8,12 @@ keywords:
 - схема AD, когда следует расширять
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18c182b346fd1e31bc549325260d9b57d75bbb63
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 042665069b06804dd648798debca6e0cee5628e115f5f512718ea0a51cc765ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105654165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024332"
 ---
 # <a name="when-to-extend-the-schema"></a>Когда следует расширять схему
 
@@ -33,9 +33,9 @@ ms.locfileid: "105654165"
 
 Независимо от того, подкласс ли вы существующий класс или изменяете существующий, вам потребуется расширить средства, такие как оснастка «Active Directory пользователи и компьютеры», для управления расширенными атрибутами объектов. Дополнительные сведения см. [в разделе Расширение пользовательского интерфейса для объектов каталога](extending-the-user-interface-for-directory-objects.md).
 
- 
+ 
 
- 
+ 
 
 
 

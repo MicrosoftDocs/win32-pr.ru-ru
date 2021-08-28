@@ -3,12 +3,12 @@ title: Интерфейс IUniversalOrchestrator
 description: COM-интерфейс, предоставляющий методы, позволяющие клиенту обмениваться данными с универсальной Orchestrator.
 ms.date: 01/14/2021
 ms.topic: reference
-ms.openlocfilehash: 5dbbaafb38ab9d790d32beca9b014f933d5d53d5
-ms.sourcegitcommit: 3cea99a2ed9579a94236fa7924abd6149db51a58
+ms.openlocfilehash: f3635f76236eb6c7a11bfa62311003b7d76357a9fbacc9fde85f0bdffed0c129
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2021
-ms.locfileid: "114991851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966143"
 ---
 # <a name="iuniversalorchestrator-interface"></a>Интерфейс IUniversalOrchestrator
 
@@ -26,7 +26,7 @@ ms.locfileid: "114991851"
 |[:: Хасмораториумпассед](universalorchestrator-hasmoratoriumpassed.md) | Запрашивает универсальную Orchestrator, чтобы определить, работает ли она сразу после завершения работы нового устройства. |
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Версия |
 |---|---|

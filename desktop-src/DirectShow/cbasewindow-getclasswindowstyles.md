@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a34332f84a91ee88d61ee5f29f0b6a0b0cc44714
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ba7042069d4f1190a88b25ea4cc349e8230c149dd61d2d06fc91fa3439a9e55f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074637"
 ---
 # <a name="cbasewindowgetclasswindowstyles-method"></a>Кбасевиндов. Жетклассвиндовстилес, метод
 
@@ -69,7 +69,7 @@ virtual LPTSTR GetClassWindowStyles(
 
 Возвращает статическую текстовую строку, содержащую имя класса.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод [**кбасевиндов::P репаревиндов**](cbasewindow-preparewindow.md) вызывает этот метод, чтобы получить стили окна и стили окон.
 
@@ -98,7 +98,7 @@ LPTSTR CMyWindowClass::GetClassWindowStyles(DWORD *pClassStyles,
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Винутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>винутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

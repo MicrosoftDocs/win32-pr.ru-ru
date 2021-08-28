@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1572919d0ac0b5c18a6fc5084636c52b9b3ea1c6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b8621c1977c4553f610299695c2c68a72f5a9d6f2ecfcbe6df46b8646c379c2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958962"
 ---
 # <a name="setsecuritydescriptor-method-of-the-win32_printer-class"></a>Метод Сетсекуритидескриптор \_ класса принтера Win32
 
@@ -90,7 +90,7 @@ uint32 SetSecurityDescriptor(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Экземпляр [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) представляет тип данных [**\_ \_ элемента управления дескриптора безопасности**](/windows/desktop/SecAuthZ/security-descriptor-control) и содержит [*список управления доступом на уровне пользователей*](/windows/desktop/SecGloss/d-gly) (DACL) и [*системный список управления доступом*](/windows/desktop/SecGloss/s-gly) (SACL). Дополнительные сведения см. в разделе [списки управления доступом](/windows/desktop/SecAuthZ/access-control-lists).
 
@@ -100,11 +100,11 @@ uint32 SetSecurityDescriptor(
 
 Следующие значения в [**\_ \_ элементе управления дескриптора безопасности**](/windows/desktop/SecAuthZ/security-descriptor-control) определяют, обновляются ли списки DACL, SACL или и то, и другое.
 
--   **\_присутствие DACL \_ SE**
+-   **SE \_ \_имеется DACL**
 
     Указывает, что список DACL должен быть обновлен. Если значение не задано, Инструментарий WMI сохраняет исходное значение DACL.
 
--   **\_имеется список SACL для SE \_**
+-   **SE \_ Список SACL \_ имеется**
 
     Указывает, что список SACL должен быть обновлен. Если этот параметр не задан, Инструментарий WMI сохраняет исходное значение списка SACL. Для обновления списка SACL учетная запись должна иметь права **SeSecurityPrivilege** . Для сценариев имя привилегии — **SeSecurityPrivilege**. Дополнительные сведения см. в разделе [**константы прав доступа**](/windows/desktop/WmiSdk/privilege-constants).
 

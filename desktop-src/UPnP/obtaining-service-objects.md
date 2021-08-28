@@ -4,12 +4,12 @@ description: Объекты устройств предоставляют сво
 ms.assetid: 8ef12b6e-cb9b-4406-95be-002117b8fc3f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bf951c9c620c23c2d4919dc4a8bcf082159fa7a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8b7fca24bfc79a9458cfb964af28edba813a90ef17924a68fd0d1689e047884c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103890920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999574"
 ---
 # <a name="obtaining-service-objects"></a>Получение объектов службы
 
@@ -74,6 +74,6 @@ HRESULT ExtractServices(IUPnPDevice * pDevice)
 
 
 
- 
+ 
 
- 
+ 

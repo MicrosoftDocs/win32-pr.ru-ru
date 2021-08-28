@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 44e5b502c7ae8b766363956920d7922858b4d771
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: d2c11ef313531adb9b129ffb99103ea6c7778462eddf8c1c76f4b235c92951c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104134950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985914"
 ---
 # <a name="texture1doperator--function"></a>Функция Texture1D:: operator
 
@@ -51,7 +51,7 @@ R Operator[](
 
 Переменная ресурса, доступная только для чтения.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот метод всегда обращается к первому MIP уровню. Чтобы указать другие уровни MIP, используйте вместо него [**\[ \] \[ \] оператор MIP.**](sm5-object-texture1d-mipsoperatorindex.md)
 

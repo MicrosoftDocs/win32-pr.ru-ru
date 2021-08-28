@@ -1,25 +1,25 @@
 ---
-title: Константы пакета SDK для формата Windows Media
-description: В этих статьях описываются константы, используемые объектами расширенных API клиента DRM Windows Media.
+title: Windows Константы пакета SDK формата мультимедиа
+description: в этих статьях описываются константы, используемые объектами расширенных api-интерфейсов клиента DRM Windows Media.
 ms.assetid: 4a481813-c876-4603-85e3-7652e3e20c02
 keywords:
-- Windows Media Format SDK, константы
+- Windows Пакет SDK для формата мультимедиа, константы
 - Управление цифровыми правами (DRM), константы
 - DRM (Управление цифровыми правами), константы
 - Расширенные API клиента DRM, константы
 - Расширенные API клиента, константы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79e246665761d8d85afef03641d1f9f0c20b1f69
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 1f18ea308afd33be67fa19d30ee60b629bf12192b6cc53fc26cc6569d52f8dd6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964153"
 ---
-# <a name="windows-media-format-sdk-constants"></a>Константы пакета SDK для формата Windows Media
+# <a name="windows-media-format-sdk-constants"></a>Windows Константы пакета SDK формата мультимедиа
 
-В этом разделе описываются константы, используемые объектами расширенных API клиента DRM Windows Media. Он включает в себя разделы, перечисленные в следующей таблице.
+в этом разделе описываются константы, используемые объектами расширенных api-интерфейсов клиента DRM Windows Media. Он включает в себя разделы, перечисленные в следующей таблице.
 
 
 

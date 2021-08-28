@@ -3,17 +3,17 @@ title: Обзор уровня модели службы
 description: API-интерфейс модели службы ВВСАПИ моделирует связь между клиентом и службой в качестве вызовов метода, а не сообщений данных.
 ms.assetid: a1ed1e3c-94ae-4383-9251-83caf2e3ebf3
 keywords:
-- Обзор уровня модели службы веб-службы для Windows
+- Обзор веб-служб для Windows уровня модели службы
 - ввсапи
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c74861f0e2ed13b35e308d1314aec2a33dc28c31
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: 0b182678568c7825cbf0b18bbbfd132dd5287d3f05b9ae6a372e6e5c70cd06d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104351115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962971"
 ---
 # <a name="service-model-layer-overview"></a>Обзор уровня модели службы
 

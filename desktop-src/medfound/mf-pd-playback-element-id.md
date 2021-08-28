@@ -4,12 +4,12 @@ ms.assetid: 355818cf-1e00-46ad-9ce1-ab3a178164f9
 title: Атрибут MF_PD_PLAYBACK_ELEMENT_ID (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 744a1d164c71cbd7eb8bb47ef12be68d47b8351d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 775aca29ab1cea36be9a2b87d64566210c03f6d6771d3493c73d34572975671e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105656703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119102891"
 ---
 # <a name="mf_pd_playback_element_id-attribute"></a>\_ \_ \_ Атрибут идентификатора элемента воспроизведения MF PD \_
 
@@ -29,7 +29,7 @@ ms.locfileid: "105656703"
 
 [**имфпресентатиондескриптор**](/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Источники мультимедиа, доставляющие списки воспроизведения, при необходимости могут устанавливать этот атрибут в дескрипторах презентации.
 
@@ -47,8 +47,8 @@ ms.locfileid: "105656703"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/>                                  |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 R2 \|\]<br/>                     |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/>                                  |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для настольных приложений Server 2008 R2 \|\]<br/>                     |
 | Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 

@@ -7,12 +7,12 @@ keywords:
 - Точки подключения службы для реплицированных, размещенных на узлах служб и службы баз данных AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63b69491dd84a9367f8fd05e9d23ca771551dfbb
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 8a7658cc60704dbfc37009272e5f14f997d213ea993054fa22c1c5e0c307794b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104069745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024902"
 ---
 # <a name="service-connection-points-for-replicated-host-based-and-database-services"></a>Точки подключения службы для реплицированных, основанных на узлах служб и баз данных
 
@@ -38,6 +38,6 @@ ms.locfileid: "104069745"
 
 Каждый экземпляр службы на основе узла должен создать собственную SCP в объекте Computer своего узла. Клиенты, использующие идентификатор GUID продукта для поиска точки подключения службы на основе узла, обычно находят много экземпляров класса службы в пределах леса предприятия. Затем клиенты могут использовать атрибут **serviceDNSName** объекта запрашивая, чтобы найти SCP для экземпляра службы на нужном главном компьютере.
 
- 
+ 
 
- 
+ 

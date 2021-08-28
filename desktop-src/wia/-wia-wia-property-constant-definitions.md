@@ -1,5 +1,5 @@
 ---
-description: Ниже приведен список понятных имен и числовых идентификаторов свойств для получения образа Windows (WIA). Они представлены в виде определений констант Microsoft Visual Basic для удобного включения в приложения или сценарии.
+description: ниже приведен список понятных имен и числовых идентификаторов для свойств Windowsного получения изображений (WIA). они представлены в виде определений констант Microsoft Visual Basic для удобного включения в приложения или сценарии.
 ms.assetid: 6cacb7ce-1f41-4d24-adcb-c7aa9049f846
 title: Определения констант свойств WIA
 ms.topic: article
@@ -9,18 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0fec89e2e10b019b7186482609d3ab4089ede692
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6539e14daf6a1fc124c177713f3056b981fd6c00ac9a41392ed03ae8759319cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965453"
 ---
 # <a name="wia-property-constant-definitions"></a>Определения констант свойств WIA
 
-Ниже приведен список понятных имен и числовых идентификаторов свойств для получения образа Windows (WIA). Они представлены в виде определений констант Microsoft Visual Basic для удобного включения в приложения или сценарии.
+ниже приведен список понятных имен и числовых идентификаторов для свойств Windowsного получения изображений (WIA). они представлены в виде определений констант Microsoft Visual Basic для удобного включения в приложения или сценарии.
 
-Для Visual Basic приложений добавьте ссылку на «библиотеку типов получения изображений Microsoft Windows 1,01», где эти константы предоставляются в качестве типов перечисления.
+для Visual Basic приложений добавьте ссылку на библиотеку типов Microsoft Windows Image add 1,01, где эти константы предоставляются в качестве типов перечисления.
 
 
 ```
