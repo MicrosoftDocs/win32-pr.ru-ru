@@ -21,18 +21,18 @@ keywords:
 - типы элементов управления, DataGrid
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8af1e35e062c778285d1cb7edcca9ac6192792b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7fa37093402fc3c4c195b4b68ecc74652af2d6a6
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986411"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475600"
 ---
 # <a name="datagrid-control-type"></a>Тип элемента управления DataGrid
 
 В этом разделе содержатся сведения о поддержке автоматизации пользовательского интерфейса Майкрософт для типа элемента управления **DataGrid** .
 
-Тип элемента управления **DataGrid** позволяет пользователю легко работать с элементами, содержащими данные или элементы автоматизации, представленные в столбцах или строках. Элементы управления DataGrid имеют строки элементов и столбцы сведений об этих элементах. Элемент управления "представление списка" в проводнике Windows Vista — это пример, который поддерживает тип элемента управления **DataGrid** .
+Тип элемента управления **DataGrid** позволяет пользователю легко работать с элементами, содержащими данные или элементы автоматизации, представленные в столбцах или строках. Элементы управления DataGrid имеют строки элементов и столбцы сведений об этих элементах. элемент управления "представление списка" в Windows Vista Explorer является примером, поддерживающим тип элемента управления **DataGrid** .
 
 В следующих разделах определяется необходимая древовидная структура модели автоматизации пользовательского интерфейса, свойства, шаблоны элементов управления и события для типа элемента управления **DataGrid** . Требования к автоматизации пользовательского интерфейса применяются ко всем элементам управления "Сетка данных", в которых платформа или платформа пользовательского интерфейса интегрирует поддержку автоматизации пользовательского интерфейса для типов элементов управления и шаблонов элементов управления.
 
@@ -43,7 +43,7 @@ ms.locfileid: "103986411"
 -   [Обязательные шаблоны элементов управления](#required-control-patterns)
 -   [Обязательные события](#required-events)
 -   [Пример типа элемента управления DataGrid](#datagrid-control-type-example)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="typical-tree-structure"></a>Типичная древовидная структура
 
@@ -51,42 +51,15 @@ ms.locfileid: "103986411"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Представление элемента управления</th>
-<th>Представление содержимого</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>DataGrid
-<ul>
-<li>Заголовок {0, 1 или 2}
-<ul>
-<li>HeaderItem (количество столбцов или строк)</li>
-</ul></li>
-<li>DataItem (0 или более; может быть структурирован в иерархии)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>DataGrid
-<ul>
-<li>DataItem (0 или более; может быть структурирован в иерархии)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Представление элемента управления | Представление содержимого | 
+|--------------|--------------|
+| <ul><li>DataGrid<ul><li>Заголовок {0, 1 или 2}<ul><li>HeaderItem (количество столбцов или строк)</li></ul></li><li>DataItem (0 или более; может быть структурирован в иерархии)</li></ul></li></ul> | <ul><li>DataGrid<ul><li>DataItem (0 или более; может быть структурирован в иерархии)</li></ul></li></ul> | 
 
 
 
- 
+
+ 
 
 ## <a name="relevant-properties"></a>Соответствующие свойства
 
@@ -100,8 +73,8 @@ ms.locfileid: "103986411"
 | [**UIA \_ баундингректанглепропертид**](uiauto-automation-element-propids.md)       | См. примечания.   | Внешний прямоугольник, содержащий весь элемент управления.                                                                                                                                                                                                                                                     |
 | [**UIA \_ кликкаблепоинтпропертид**](uiauto-automation-element-propids.md)             | См. примечания.   | Поддерживается при наличии ограничивающего прямоугольника. Если не все точки внутри ограничивающего прямоугольника являются щелчками, а элемент выполняет специализированное тестирование нажатия, переопределите и предоставьте точку для щелчка.                                                                                                         |
 | [**UIA \_ контролтипепропертид**](uiauto-automation-element-propids.md)                   | **DataGrid** |                                                                                                                                                                                                                                                                                                              |
-| [**UIA \_ исконтентелементпропертид**](uiauto-automation-element-propids.md)         | true         | Значение этого свойства всегда должно быть **true**. Это означает, что элемент управления "Сетка данных" всегда должен находиться в представлении содержимого дерева модели автоматизации пользовательского интерфейса.                                                                                                                                                      |
-| [**UIA \_ исконтролелементпропертид**](uiauto-automation-element-propids.md)         | true         | Значение этого свойства всегда должно быть **true**. Это означает, что элемент управления "Сетка данных" всегда должен включаться в представление элемента управления дерева модели автоматизации пользовательского интерфейса.                                                                                                                                                |
+| [**UIA \_ исконтентелементпропертид**](uiauto-automation-element-propids.md)         | TRUE         | Значение этого свойства всегда должно быть **true**. Это означает, что элемент управления "Сетка данных" всегда должен находиться в представлении содержимого дерева модели автоматизации пользовательского интерфейса.                                                                                                                                                      |
+| [**UIA \_ исконтролелементпропертид**](uiauto-automation-element-propids.md)         | TRUE         | Значение этого свойства всегда должно быть **true**. Это означает, что элемент управления "Сетка данных" всегда должен включаться в представление элемента управления дерева модели автоматизации пользовательского интерфейса.                                                                                                                                                |
 | [**UIA \_ искэйбоардфокусаблепропертид**](uiauto-automation-element-propids.md)   | См. примечания.   | Если элемент управления может получать фокус клавиатуры, он должен поддерживать это свойство.                                                                                                                                                                                                                                    |
 | [**UIA \_ лабеледбипропертид**](uiauto-automation-element-propids.md)                       | См. примечания.   | Если имеется статическая текстовая метка, это свойство должно предоставлять ссылку на этот элемент управления.                                                                                                                                                                                                                      |
 | [**UIA \_ локализедконтролтипепропертид**](uiauto-automation-element-propids.md) | См. примечания.   | Локализованная строка, соответствующая типу элемента управления **DataGrid** . Значение по умолчанию — "Сетка данных" для en-US или English (США).                                                                                                                                                                      |
@@ -109,7 +82,7 @@ ms.locfileid: "103986411"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Обязательные шаблоны элементов управления
 
@@ -126,7 +99,7 @@ ms.locfileid: "103986411"
 
 
 
- 
+ 
 
 Элементы данных в контейнерах DataGrid будут поддерживать как минимум следующие шаблоны:
 
@@ -160,7 +133,7 @@ ms.locfileid: "103986411"
 
 
 
- 
+ 
 
 ## <a name="datagrid-control-type-example"></a>Пример типа элемента управления DataGrid
 
@@ -172,52 +145,19 @@ ms.locfileid: "103986411"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Дерево модели автоматизации пользовательского интерфейса — представление элемента управления</th>
-<th>Дерево модели автоматизации пользовательского интерфейса — представление содержимого</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>DataGrid (сортировка, таблица, выбор, сетка)
-<ul>
-<li>Header
-<ul>
-<li>&quot;Имя HeaderItem &quot; (Invoke)</li>
-<li>HeaderItem &quot; Дата изменения &quot; (вызов)</li>
-<li>&quot;Размер HeaderItem &quot; (Invoke)</li>
-</ul></li>
-<li>Группа &quot; contoso &quot; (TableItem, GridItem, SelectionItem, таблица *, сетка*)
-<ul>
-<li>&quot;Receivable.docучетных записей DataItem &quot; (SelectionItem, Invoke, TableItem *, GridItem*)</li>
-<li>&quot;Payable.docучетных записей DataItem &quot; (SelectionItem, Invoke, TableItem *, GridItem*)</li>
-</ul></li>
-</ul></td>
-<td>DataGrid (Table, Grid, Selection)
-<ul>
-<li>Группа &quot; contoso &quot; (TableItem, GridItem, SelectionItem, таблица *, сетка*)
-<ul>
-<li>&quot;Receivable.docучетных записей DataItem &quot; (SelectionItem, Invoke, TableItem *, GridItem*)</li>
-<li>&quot;Payable.docучетных записей DataItem &quot; (SelectionItem, Invoke, TableItem *, GridItem*)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Дерево модели автоматизации пользовательского интерфейса — представление элемента управления | Дерево модели автоматизации пользовательского интерфейса — представление содержимого | 
+|-----------------------------------|-----------------------------------|
+| DataGrid (сортировка, таблица, выбор, сетка)<ul><li>Заголовок<ul><li>HeaderItem "Name" (Invoke)</li><li>HeaderItem "Date Modified" (Invoke)</li><li>HeaderItem "Size" (Invoke)</li></ul></li><li>Группа Contoso (TableItem, GridItem, SelectionItem, таблица *, сетка*)<ul><li>DataItem "Accounts Receivable.doc" (SelectionItem, Invoke, TableItem *, GridItem*)</li><li>DataItem "Accounts Payable.doc" (SelectionItem, Invoke, TableItem *, GridItem*)</li></ul></li></ul> | DataGrid (Table, Grid, Selection)<ul><li>Группа Contoso (TableItem, GridItem, SelectionItem, таблица *, сетка*)<ul><li>DataItem "Accounts Receivable.doc" (SelectionItem, Invoke, TableItem *, GridItem*)</li><li>DataItem "Accounts Payable.doc" (SelectionItem, Invoke, TableItem *, GridItem*)</li></ul></li></ul> | 
 
 
 
- 
+
+ 
 
 \*В предыдущем примере показана сетка данных, содержащая несколько уровней элементов управления. Элемент управления **Group** ("contoso") содержит два элемента управления **DataItem** ("учетные записи Receivable.doc" и "учетные записи Payable.doc"). Пара элементов **управления DataGrid** /  не зависит от пары на другом уровне. Элементы управления **DataItem** в **группе** также могут быть представлены как тип элемента управления [ListItem](uiauto-supportlistitemcontroltype.md) , что позволяет более четко представить их как выбираемые объекты, а не как простые элементы данных. Этот пример не включает дочерние элементы сгруппированных элементов данных. Еще один пример нескольких уровней элементов управления см. в разделе Тип элемента управления [DataItem](uiauto-supportdataitemcontroltype.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -230,9 +170,9 @@ ms.locfileid: "103986411"
 [Общие сведения о модели автоматизации пользовательского интерфейса](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

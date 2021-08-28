@@ -4,12 +4,12 @@ ms.assetid: 7a0f5118-be6d-443d-8b01-596dc4030b3b
 title: Функция AcceptSecurityContext (NTLM) (SSPI. h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: cd3a3aa27776cd1922539dc4104eb246accfbed2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6909f5469bfb29e7a38e13cd4da45d93fcf32111
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104423909"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122628682"
 ---
 # <a name="acceptsecuritycontext-ntlm-function"></a>Функция AcceptSecurityContext (NTLM)
 
@@ -135,13 +135,13 @@ SECURITY_STATUS SEC_Entry AcceptSecurityContext(
 
 
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Возвращаемый код и значение</th><th>Описание</th></tr></thead><tbody><tr class="odd"><td><dl> <dt><strong>SEC_E_INSUFFICIENT_MEMORY</strong></dt> <dt>0x80090300L</dt> </dl></td><td>Ошибка при выполнении функции. Недостаточно доступной памяти для завершения запрошенного действия.<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_E_INTERNAL_ERROR</strong></dt> <dt>0x80090304L</dt> </dl></td><td>Ошибка при выполнении функции. Произошла ошибка, которая не сопоставлена с кодом ошибки SSPI.<br/></td></tr><tr class="odd"><td><dl> <dt><strong>SEC_E_INVALID_HANDLE</strong></dt> <dt>0x80100003L</dt> </dl></td><td>Ошибка при выполнении функции. В функцию передан недопустимый маркер.<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_E_INVALID_TOKEN</strong></dt> <dt>0x80090308L</dt> </dl></td><td>Ошибка при выполнении функции. В функцию передан недопустимый токен.<br/></td></tr><tr class="odd"><td><dl> <dt><strong>SEC_E_LOGON_DENIED</strong></dt> <dt>0x8009030CL</dt> </dl></td><td>Ошибка входа в систему.<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_E_NO_AUTHENTICATING_AUTHORITY</strong></dt> <dt>0x80090311L</dt> </dl></td><td>Ошибка при выполнении функции. Не удалось связаться с центром сертификации для проверки подлинности. Это может быть вызвано следующими причинами.<br/><ul><li>Неверное доменное имя субъекта проверки подлинности.</li><li>Домен недоступен.</li><li>Не удалось установить отношение доверия.</li></ul></td></tr><tr class="odd"><td><dl> <dt><strong>SEC_E_OK</strong></dt> <dt>0x00000000</dt> </dl></td><td>Функция выполнена успешно. Был принят [*контекст безопасности*](../secgloss/s-gly.md) , полученный от клиента. Если выходная лексема была создана функцией, она должна быть отправлена в клиентский процесс.<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_I_COMPLETE_AND_CONTINUE</strong></dt> <dt>0x00090314L</dt> </dl></td><td>Функция выполнена успешно. Сервер должен вызвать [<strong>CompleteAuthToken</strong>] (/Windows/Win32/API/SSPI/NF-SSPI-completeauthtoken) и передать выходной токен клиенту. Затем сервер ждет возврата токена от клиента, а затем выполняет еще один вызов [<strong>AcceptSecurityContext (NTLM)</strong>] (AcceptSecurityContext--NTLM.md).<br/></td></tr><tr class="odd"><td><dl> <dt><strong>SEC_I_COMPLETE_NEEDED</strong></dt> <dt>0x00090313L</dt> </dl></td><td>Функция выполнена успешно. Сервер должен завершить создание сообщения от клиента, а затем вызвать функцию [<strong>CompleteAuthToken</strong>] (/Windows/Win32/API/SSPI/NF-SSPI-completeauthtoken).<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_I_CONTINUE_NEEDED</strong></dt> <dt>0x00090312L</dt> </dl></td><td>Функция выполнена успешно. Сервер должен отправить выходной токен клиенту и дождаться возвращенного маркера. Возвращаемый токен должен передаваться в <em>пинпут</em> для другого вызова [<strong>AcceptSecurityContext (NTLM)</strong>] (AcceptSecurityContext--NTLM.md).<br/></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th>Возвращаемый код и значение</th><th>Описание:</th></tr></thead><tbody><tr class="odd"><td><dl> <dt><strong>SEC_E_INSUFFICIENT_MEMORY</strong></dt> <dt>0x80090300L</dt> </dl></td><td>Ошибка при выполнении функции. Недостаточно доступной памяти для завершения запрошенного действия.<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_E_INTERNAL_ERROR</strong></dt> <dt>0x80090304L</dt> </dl></td><td>Ошибка при выполнении функции. Произошла ошибка, которая не сопоставлена с кодом ошибки SSPI.<br/></td></tr><tr class="odd"><td><dl> <dt><strong>SEC_E_INVALID_HANDLE</strong></dt> <dt>0x80100003L</dt> </dl></td><td>Ошибка при выполнении функции. В функцию передан недопустимый маркер.<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_E_INVALID_TOKEN</strong></dt> <dt>0x80090308L</dt> </dl></td><td>Ошибка при выполнении функции. В функцию передан недопустимый токен.<br/></td></tr><tr class="odd"><td><dl> <dt><strong>SEC_E_LOGON_DENIED</strong></dt> <dt>0x8009030CL</dt> </dl></td><td>Ошибка входа в систему.<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_E_NO_AUTHENTICATING_AUTHORITY</strong></dt> <dt>0x80090311L</dt> </dl></td><td>Ошибка при выполнении функции. Не удалось связаться с центром сертификации для проверки подлинности. Это может быть вызвано следующими причинами.<br/><ul><li>Неверное доменное имя субъекта проверки подлинности.</li><li>Домен недоступен.</li><li>Не удалось установить отношение доверия.</li></ul></td></tr><tr class="odd"><td><dl> <dt><strong>SEC_E_OK</strong></dt> <dt>0x00000000</dt> </dl></td><td>Функция выполнена успешно. Был принят [*контекст безопасности*](../secgloss/s-gly.md) , полученный от клиента. Если выходная лексема была создана функцией, она должна быть отправлена в клиентский процесс.<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_I_COMPLETE_AND_CONTINUE</strong></dt> <dt>0x00090314L</dt> </dl></td><td>Функция выполнена успешно. Сервер должен вызвать [<strong>CompleteAuthToken</strong>] (/Windows/Win32/API/SSPI/NF-SSPI-completeauthtoken) и передать выходной токен клиенту. Затем сервер ждет возврата токена от клиента, а затем выполняет еще один вызов [<strong>AcceptSecurityContext (NTLM)</strong>] (AcceptSecurityContext--NTLM.md).<br/></td></tr><tr class="odd"><td><dl> <dt><strong>SEC_I_COMPLETE_NEEDED</strong></dt> <dt>0x00090313L</dt> </dl></td><td>Функция выполнена успешно. Сервер должен завершить создание сообщения от клиента, а затем вызвать функцию [<strong>CompleteAuthToken</strong>] (/Windows/Win32/API/SSPI/NF-SSPI-completeauthtoken).<br/></td></tr><tr class="even"><td><dl> <dt><strong>SEC_I_CONTINUE_NEEDED</strong></dt> <dt>0x00090312L</dt> </dl></td><td>Функция выполнена успешно. Сервер должен отправить выходной токен клиенту и дождаться возвращенного маркера. Возвращаемый токен должен передаваться в <em>пинпут</em> для другого вызова [<strong>AcceptSecurityContext (NTLM)</strong>] (AcceptSecurityContext--NTLM.md).<br/></td></tr></tbody></table>
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **AcceptSecurityContext (NTLM)** является аналогом сервера функции [**InitializeSecurityContext (NTLM)**](initializesecuritycontext--ntlm.md) .
 
@@ -170,15 +170,15 @@ SECURITY_STATUS SEC_Entry AcceptSecurityContext(
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                   |
-| Header<br/>                   | <dl> <dt>SSPI. h (включая Security. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                   |
+| Заголовок<br/>                   | <dl> <dt>SSPI. h (включая Security. h)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Secur32. lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

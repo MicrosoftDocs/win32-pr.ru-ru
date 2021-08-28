@@ -7,12 +7,12 @@ keywords:
 - группы AD, получение имени группы в стиле учетной записи домена
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cc1b5a076ab3e63059fb79fa784039a8fb2ffb0b1c6396392140b64fa36e16f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eac1a93689ab91d0fe4e349fefd99355a9273912
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118189093"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881417"
 ---
 # <a name="getting-the-domain-account-style-name-of-a-group"></a>Получение имени домена Account-Style группы
 
@@ -25,7 +25,7 @@ ms.locfileid: "118189093"
 
 
 
-где " <domain> " — имя домена Windows NT, содержащего пользователя, а " <account> " — свойство **samAccountName** указанного пользователя. Например: "Fabrikam \\ жеффсмис".
+где " &lt; домен &gt; " — имя домена Windows NT, содержащего пользователя, а " &lt; account &gt; " — свойство **samAccountName** указанного пользователя. Например: "Fabrikam \\ жеффсмис".
 
 В форме учетной записи домена можно указать доверенное лицо в элементе управления доступом в дескрипторе безопасности. он также используется для имени входа на компьютерах под управлением Windows версии NT 4,0 и более ранних версий.
 

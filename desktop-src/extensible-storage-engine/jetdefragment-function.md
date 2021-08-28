@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 88495f90e726f8c28128a6456566124f23a17381
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f9fdce5268e6981fa018f58ed14b31c2c078cce
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104349935"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122985951"
 ---
 # <a name="jetdefragment-function"></a>Функция Жетдефрагмент
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetdefragment-function"></a>Функция Жетдефрагмент
 
@@ -83,108 +83,37 @@ _**Применимо к:** Windows | Windows Server_
 
 Группа битов, задающая ноль или более следующих параметров.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Значение</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitDefragmentAvailSpaceTreesOnly</p></td>
-<td><p>Дефрагментация доступного места в выделенном пространстве базы данных ESE. Пространство базы данных делится на два типа: пространство и доступное пространство. Владельцем пространства выделяется таблица или индекс, в то время как доступное место может быть готово к использованию в таблице или индексе соответственно. Доступное пространство является гораздо более динамичным в поведении и требует дополнительной дефрагментации, что больше, чем принадлежащие пространства или данные таблицы или индекса.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitDefragmentBatchStart</p></td>
-<td><p>Запускает новую задачу дефрагментации.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitDefragmentBatchStop</p></td>
-<td><p>Останавливает задачу дефрагментации.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Значение</p> | <p>Значение</p> | 
+|--------------|----------------|
+| <p>JET_bitDefragmentAvailSpaceTreesOnly</p> | <p>Дефрагментация доступного места в выделенном пространстве базы данных ESE. Пространство базы данных делится на два типа: пространство и доступное пространство. Владельцем пространства выделяется таблица или индекс, в то время как доступное место может быть готово к использованию в таблице или индексе соответственно. Доступное пространство является гораздо более динамичным в поведении и требует дополнительной дефрагментации, что больше, чем принадлежащие пространства или данные таблицы или индекса.</p> | 
+| <p>JET_bitDefragmentBatchStart</p> | <p>Запускает новую задачу дефрагментации.</p> | 
+| <p>JET_bitDefragmentBatchStop</p> | <p>Останавливает задачу дефрагментации.</p> | 
+
 
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Код возврата</p></th>
-<th><p>Описание</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>Операция выполнена успешно.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>Невозможно выполнить операцию, так как все действия в экземпляре, связанном с сеансом, были прекращены в результате вызова <a href="gg269240(v=exchg.10).md">жетстопсервице</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errDatabaseFileReadOnly</p></td>
-<td><p>База данных, выбранная для дефрагментации, доступна только для чтения и не может быть обновлена каким-либо образом, включая дефрагментацию.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errDistributedTransactionAlreadyPreparedToCommit</p></td>
-<td><p>Данный сеанс находится в состоянии "подготовлено к фиксации" и не может начинать новые обновления до фиксации или отката текущей транзакции.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>Невозможно выполнить операцию, поскольку экземпляр, связанный с сеансом, обнаружил неустранимую ошибку, которая требует, чтобы доступ ко всем данным был отозван для защиты целостности этих данных. Эта ошибка будет возвращена только Windows XP и более поздних версий.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidDatabaseId</p></td>
-<td><p>Заданный идентификатор базы данных не соответствует известной базе данных в экземпляре.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>Невозможно выполнить операцию, так как экземпляр, связанный с сеансом, еще не инициализирован.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>Невозможно выполнить операцию, так как в экземпляре, связанном с сеансом, выполняется операция восстановления.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errSessionSharingViolation</p></td>
-<td><p>Один и тот же сеанс нельзя использовать одновременно для нескольких потоков. Эта ошибка будет возвращена только Windows XP и более поздних версий.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>Невозможно выполнить операцию, так как выполняется завершение работы экземпляра, связанного с сеансом.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTransReadOnly</p></td>
-<td><p>Данный сеанс имеет только права доступа только для чтения и не может запустить задачу, которая может выполнить обновление, включая дефрагментацию.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errVersionStoreOutOfMemory</p></td>
-<td><p>Эта ошибка возникает, если настроенный размер хранилища версий недостаточно для хранения всех необработанных обновлений.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_wrnDefragAlreadyRunning</p></td>
-<td><p>Параметр JET_bitDefragmentBatchStart был передан, но задача дефрагментации уже выполняет дефрагментацию данной базы данных.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_wrnDefragNotRunning</p></td>
-<td><p>Параметр JET_bitDefragmentBatchStop был передан, но в данный момент задача дефрагментации не выполняется.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Код возврата</p> | <p>Описание</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>Операция выполнена успешно.</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>Невозможно выполнить операцию, так как все действия в экземпляре, связанном с сеансом, были прекращены в результате вызова <a href="gg269240(v=exchg.10).md">жетстопсервице</a>.</p> | 
+| <p>JET_errDatabaseFileReadOnly</p> | <p>База данных, выбранная для дефрагментации, доступна только для чтения и не может быть обновлена каким-либо образом, включая дефрагментацию.</p> | 
+| <p>JET_errDistributedTransactionAlreadyPreparedToCommit</p> | <p>Данный сеанс находится в состоянии "подготовлено к фиксации" и не может начинать новые обновления до фиксации или отката текущей транзакции.</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>Невозможно выполнить операцию, поскольку экземпляр, связанный с сеансом, обнаружил неустранимую ошибку, которая требует, чтобы доступ ко всем данным был отозван для защиты целостности этих данных. эта ошибка будет возвращена только Windows XP и более поздних выпусках.</p> | 
+| <p>JET_errInvalidDatabaseId</p> | <p>Заданный идентификатор базы данных не соответствует известной базе данных в экземпляре.</p> | 
+| <p>JET_errNotInitialized</p> | <p>Невозможно выполнить операцию, так как экземпляр, связанный с сеансом, еще не инициализирован.</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>Невозможно выполнить операцию, так как в экземпляре, связанном с сеансом, выполняется операция восстановления.</p> | 
+| <p>JET_errSessionSharingViolation</p> | <p>Один и тот же сеанс нельзя использовать одновременно для нескольких потоков. эта ошибка будет возвращена только Windows XP и более поздних выпусках.</p> | 
+| <p>JET_errTermInProgress</p> | <p>Невозможно выполнить операцию, так как выполняется завершение работы экземпляра, связанного с сеансом.</p> | 
+| <p>JET_errTransReadOnly</p> | <p>Данный сеанс имеет только права доступа только для чтения и не может запустить задачу, которая может выполнить обновление, включая дефрагментацию.</p> | 
+| <p>JET_errVersionStoreOutOfMemory</p> | <p>Эта ошибка возникает, если настроенный размер хранилища версий недостаточно для хранения всех необработанных обновлений.</p> | 
+| <p>JET_wrnDefragAlreadyRunning</p> | <p>Параметр JET_bitDefragmentBatchStart был передан, но задача дефрагментации уже выполняет дефрагментацию данной базы данных.</p> | 
+| <p>JET_wrnDefragNotRunning</p> | <p>Параметр JET_bitDefragmentBatchStop был передан, но в данный момент задача дефрагментации не выполняется.</p> | 
+
 
 
 При успешном выполнении запрошенное действие либо запуск задачи дефрагментации для заданных параметров с заданными параметрами, либо выполнение действия остановка существующей задачи дефрагментации.
@@ -201,38 +130,16 @@ _**Применимо к:** Windows | Windows Server_
 
 #### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Библиотека</strong></p></td>
-<td><p>Используйте ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>КОМПОНОВКИ</strong></p></td>
-<td><p>Требуется ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Юникод</strong></p></td>
-<td><p>Реализуется как <strong>жетдефрагментв</strong> (Юникод) и <strong>жетдефрагмента</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Требование | Применение |
+|------------|----------|
+| <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | 
+| <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+| <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | 
+| <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | 
+| <p><strong>Юникод</strong></p> | <p>Реализуется как <strong>жетдефрагментв</strong> (Юникод) и <strong>жетдефрагмента</strong> (ANSI).</p> | 
+
 
 
 #### <a name="see-also"></a>См. также:

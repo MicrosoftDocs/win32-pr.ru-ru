@@ -7,12 +7,12 @@ MSHAttr:
 title: субскриберид
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ce668bd17b0d1579e8458c9dd378485c1fe1cc3
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 71a97eb32d38e058189a6523b0c8c77fb5b006d2
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122473940"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122985407"
 ---
 # <a name="span-idwwan_profile_v4element_subscriberidspansubscriberid"></a><span id="WWAN_profile_v4.element_SubscriberID"></span>субскриберид
 
@@ -24,8 +24,8 @@ ms.locfileid: "122473940"
 
 ## <a name="element-hierarchy"></a>Иерархия элементов
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-**<SubscriberID>**
+[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
+**&lt;субскриберид&gt;**
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -41,11 +41,11 @@ ms.locfileid: "122473940"
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Атрибуты
 
-Нет.
+Отсутствует.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Дочерние элементы
 
-Нет.
+Отсутствует.
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Родительские элементы
 
@@ -60,7 +60,9 @@ ms.locfileid: "122473940"
 ## <a name="requirements"></a>Требования
 
 
-| | | <p>Пространство имен</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+| Требование | Применение |
+|------------|----------|
+| <p>Пространство имен</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 
  

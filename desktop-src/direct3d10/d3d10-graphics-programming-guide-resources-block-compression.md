@@ -4,12 +4,12 @@ ms.assetid: add98d8f-6846-4dd6-b0e2-a4b6e89cbcc5
 title: Блочное сжатие (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: edf93a9d475b21b54baa59f9324a7f69b043bb0c21787c0c2892bfdbe2f6c66d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 90068e932d94a7b76e871313e60a50260dbaf479
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118101305"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480560"
 ---
 # <a name="block-compression-direct3d-10"></a>Блочное сжатие (Direct3D 10)
 
@@ -159,20 +159,9 @@ color_3 = 0;
 
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Различия между Direct3D 9 и Direct3D 10:<br/> Этот формат существует как в Direct3D 9, так и в 10.<br/>
-<ul>
-<li>В Direct3D 9 формат BC1 называется D3DFMT_DXT1.</li>
-<li>В Direct3D 10 формат BC1 представлен DXGI_FORMAT_BC1_UNORM или DXGI_FORMAT_BC1_UNORM_SRGB.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| | | Различия между Direct3D 9 и Direct3D 10:<br /> Этот формат существует как в Direct3D 9, так и в 10.<br /><ul><li>В Direct3D 9 формат BC1 называется D3DFMT_DXT1.</li><li>В Direct3D 10 формат BC1 представлен DXGI_FORMAT_BC1_UNORM или DXGI_FORMAT_BC1_UNORM_SRGB.</li></ul> | 
+
 
 
 
@@ -186,20 +175,9 @@ color_3 = 0;
 
 ![Схема макета для сжатия BC2](images/d3d10-compression-bc2.png)
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Различия между Direct3D 9 и Direct3D 10:<br/> Этот формат существует как в Direct3D 9, так и в 10.<br/>
-<ul>
-<li>В Direct3D 9 формат BC2 называется D3DFMT_DXT2 и D3DFMT_DXT3.</li>
-<li>В Direct3D 10 формат BC2 представлен DXGI_FORMAT_BC2_UNORM или DXGI_FORMAT_BC2_UNORM_SRGB.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| | | Различия между Direct3D 9 и Direct3D 10:<br /> Этот формат существует как в Direct3D 9, так и в 10.<br /><ul><li>В Direct3D 9 формат BC2 называется D3DFMT_DXT2 и D3DFMT_DXT3.</li><li>В Direct3D 10 формат BC2 представлен DXGI_FORMAT_BC2_UNORM или DXGI_FORMAT_BC2_UNORM_SRGB.</li></ul> | 
+
 
 
 
@@ -247,20 +225,9 @@ else
 
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Различия между Direct3D 9 и Direct3D 10:<br/>
-<ul>
-<li>В Direct3D 9 формат BC3 называется D3DFMT_DXT4 и D3DFMT_DXT5.</li>
-<li>В Direct3D 10 формат BC3 представлен DXGI_FORMAT_BC3_UNORM или DXGI_FORMAT_BC3_UNORM_SRGB.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| | | Различия между Direct3D 9 и Direct3D 10:<br /><ul><li>В Direct3D 9 формат BC3 называется D3DFMT_DXT4 и D3DFMT_DXT5.</li><li>В Direct3D 10 формат BC3 представлен DXGI_FORMAT_BC3_UNORM или DXGI_FORMAT_BC3_UNORM_SRGB.</li></ul> | 
+
 
 
 

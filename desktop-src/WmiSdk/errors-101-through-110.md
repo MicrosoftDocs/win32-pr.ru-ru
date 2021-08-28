@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Ошибки с 101 по 110
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21874ada13d15920e755e5061ec638ad51fa0f8a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1a33a4bc1aee7d9357c0dd46c7bae2e70390f892
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662784"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884410"
 ---
 # <a name="errors-101-through-110"></a>Ошибки с 101 по 110
 
@@ -43,13 +43,13 @@ ms.locfileid: "105662784"
 <span id="_101__Fatal____Usage_"></span><span id="_101__fatal____usage_"></span><span id="_101__FATAL____USAGE_"></span>**<101, Неустранимая>: "использование:**
 </dt> <dd></dd> <dt>
 
-<span id="smi2smir__DiagnosticArgs___VersionArgs___CommandArgs_"></span><span id="smi2smir__diagnosticargs___versionargs___commandargs_"></span><span id="SMI2SMIR__DIAGNOSTICARGS___VERSIONARGS___COMMANDARGS_"></span>**smi2smir <DiagnosticArgs> <VersionArgs><CommandArgs>**
+<span id="smi2smir__DiagnosticArgs___VersionArgs___CommandArgs_"></span><span id="smi2smir__diagnosticargs___versionargs___commandargs_"></span><span id="SMI2SMIR__DIAGNOSTICARGS___VERSIONARGS___COMMANDARGS_"></span>**smi2smir &lt; диагностикаргс &gt; &lt; версионаргс &gt; &lt; CommandArgs&gt;**
 </dt> <dd></dd> <dt>
 
-<span id="smi2smir__DiagnosticArgs___RegistryArgs_"></span><span id="smi2smir__diagnosticargs___registryargs_"></span><span id="SMI2SMIR__DIAGNOSTICARGS___REGISTRYARGS_"></span>**smi2smir <DiagnosticArgs><RegistryArgs>**
+<span id="smi2smir__DiagnosticArgs___RegistryArgs_"></span><span id="smi2smir__diagnosticargs___registryargs_"></span><span id="SMI2SMIR__DIAGNOSTICARGS___REGISTRYARGS_"></span>**smi2smir &lt; диагностикаргс &gt; &lt; регистряргс&gt;**
 </dt> <dd></dd> <dt>
 
-<span id="smi2smir__HelpArgs__"></span><span id="smi2smir__helpargs__"></span><span id="SMI2SMIR__HELPARGS__"></span>**smi2smir <HelpArgs> "**
+<span id="smi2smir__HelpArgs__"></span><span id="smi2smir__helpargs__"></span><span id="SMI2SMIR__HELPARGS__"></span>**smi2smir &lt; хелпаргс &gt; "**
 </dt> <dd>
 
 Ошибка в синтаксисе командной строки. Далее следует описание параметров.
@@ -104,7 +104,7 @@ ms.locfileid: "105662784"
 
 <dl> <dt>
 
-<span id="_106__Fatal_____argument__is_not_a_valid_diagnostic_count_"></span><span id="_106__fatal_____argument__is_not_a_valid_diagnostic_count_"></span><span id="_106__FATAL_____ARGUMENT__IS_NOT_A_VALID_DIAGNOSTIC_COUNT_"></span>**<106, Неустранимая>: "не является <argument> допустимым счетчиком диагностики"**
+<span id="_106__Fatal_____argument__is_not_a_valid_diagnostic_count_"></span><span id="_106__fatal_____argument__is_not_a_valid_diagnostic_count_"></span><span id="_106__FATAL_____ARGUMENT__IS_NOT_A_VALID_DIAGNOSTIC_COUNT_"></span>**<106, Неустранимая>: "аргумент не является &lt; &gt; допустимым счетчиком диагностики"**
 </dt> <dd>
 
 Ошибка в синтаксисе командной строки. Если указан параметр **/c** , необходимо также указать неотрицательное целое число в качестве максимального числа.
@@ -155,7 +155,7 @@ ms.locfileid: "105662784"
 
 </dd> </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

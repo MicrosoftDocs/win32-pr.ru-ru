@@ -1,19 +1,19 @@
 ---
-description: <url>Элемент указывает URL-адрес, представляющий область соединителя поиска. Этот элемент не имеет дочерних элементов и не имеет атрибутов.
+description: '&lt;Элемент URL &gt; задает URL-адрес, представляющий область соединителя поиска. Этот элемент не имеет дочерних элементов и не имеет атрибутов.'
 ms.assetid: 5afd84aa-98e3-4118-845a-d4efad19a488
 title: Элемент URL-адреса Скопеитем (схема соединителя поиска)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c573308fe406fe4500f6bb8e88b3762fa0bbac05
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 63a1db669f7365f04bed49c769ab695ab674b20b
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896910"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886705"
 ---
 # <a name="scopeitem-url-element-search-connector-schema"></a>Элемент URL-адреса Скопеитем (схема соединителя поиска)
 
-<url>Элемент указывает URL-адрес, представляющий область соединителя поиска. Этот элемент не имеет дочерних элементов и не имеет атрибутов.
+&lt;Элемент URL &gt; задает URL-адрес, представляющий область соединителя поиска. Этот элемент не имеет дочерних элементов и не имеет атрибутов.
 
 ## <a name="syntax"></a>Синтаксис
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 508a82dfa21f7f4f3c17bd33b093ea8f558d9f47015b05f5141ddcfe30ac9b7d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 32d0d477459dbc7352d1d8f6779c5c76cfbd537d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118892422"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475360"
 ---
 # <a name="gethardwareteststatus-method-of-the-win32_encryptablevolume-class"></a>Метод Жесардваретестстатус \_ класса Win32 енкриптаблеволуме
 
@@ -51,36 +51,13 @@ uint32 GetHardwareTestStatus(
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Значение</th>
-<th>Значение</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="NotFailed_and_NonePending"></span><span id="notfailed_and_nonepending"></span><span id="NOTFAILED_AND_NONEPENDING"></span><dl> <dt><strong>NotFailed_and_NonePending</strong></dt> <dt>0</dt> </dl></td>
-<td>Если тест был запрошен, то тест был успешно выполнен на последнем перезапуске компьютера и теперь выполняется шифрование тома. Сведения о состоянии шифрования см. в описании метода <a href="getconversionstatus-win32-encryptablevolume.md"><strong>жетконверсионстатус</strong></a> . В противном случае тест не выполнялся при последнем перезапуске компьютера, а ожидание отсутствует. <br/></td>
-</tr>
-<tr class="even">
-<td><span id="Failed"></span><span id="failed"></span><span id="FAILED"></span><dl> <dt><strong>Сбой</strong></dt> <dt>1</dt> </dl></td>
-<td>Шифрование тома не запущено. Все предохранители ключа удалены.<br/> Чтобы разрешить неудачный тест:<br/>
-<ul>
-<li>Просмотрите сведения в параметре <em>тестеррор</em> .</li>
-<li>Добавьте предохранители ключа и снова используйте метод <a href="encryptafterhardwaretest-win32-encryptablevolume.md"><strong>енкриптафтерхардваретест</strong></a> .</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><span id="Pending"></span><span id="pending"></span><span id="PENDING"></span><dl> <dt><strong>Ожидание</strong></dt> <dt>2</dt> </dl></td>
-<td>Тест был запрошен и будет выполнен при следующем перезапуске компьютера.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Значение | Значение | 
+|-------|---------|
+| <span id="NotFailed_and_NonePending"></span><span id="notfailed_and_nonepending"></span><span id="NOTFAILED_AND_NONEPENDING"></span><dl><dt><strong>NotFailed_and_NonePending</strong></dt><dt>0</dt></dl> | Если тест был запрошен, то тест был успешно выполнен на последнем перезапуске компьютера и теперь выполняется шифрование тома. Сведения о состоянии шифрования см. в описании метода <a href="getconversionstatus-win32-encryptablevolume.md"><strong>жетконверсионстатус</strong></a> . В противном случае тест не выполнялся при последнем перезапуске компьютера, а ожидание отсутствует. <br /> | 
+| <span id="Failed"></span><span id="failed"></span><span id="FAILED"></span><dl><dt><strong>Сбой</strong></dt><dt>1</dt></dl> | Шифрование тома не запущено. Все предохранители ключа удалены.<br /> Чтобы разрешить неудачный тест:<br /><ul><li>Просмотрите сведения в параметре <em>тестеррор</em> .</li><li>Добавьте предохранители ключа и снова используйте метод <a href="encryptafterhardwaretest-win32-encryptablevolume.md"><strong>енкриптафтерхардваретест</strong></a> .</li></ul> | 
+| <span id="Pending"></span><span id="pending"></span><span id="PENDING"></span><dl><dt><strong>Ожидание</strong></dt><dt>2</dt></dl> | Тест был запрошен и будет выполнен при следующем перезапуске компьютера.<br /> | 
+
 
 
 
@@ -129,7 +106,7 @@ uint32 GetHardwareTestStatus(
 
  
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Чтобы запросить тест оборудования, используйте метод [**енкриптафтерхардваретест**](encryptafterhardwaretest-win32-encryptablevolume.md) .
 
@@ -162,7 +139,7 @@ uint32 GetHardwareTestStatus(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

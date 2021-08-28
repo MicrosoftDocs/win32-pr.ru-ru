@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 478b4617f56c73e425d833842b313767f85c385e9142314a7ca8978b5783f492
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 41af5f29f54dc0b5c7e63203c43160539bcaa870
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118950233"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886584"
 ---
 # <a name="msvm_storagealert-class"></a>\_Класс мсвм сторажеалерт
 
@@ -83,7 +83,7 @@ class Msvm_StorageAlert : CIM_AlertIndication
 Квалификаторы: **моделкорреспонденце** ("CIM \_ алертиндикатион. алертингманажеделемент", "CIM \_ алертиндикатион. осералертинжелементформат")
 </dt> </dl>
 
-Задает формат свойства **алертингманажеделемент** . Формат — Цимобжектпас с форматом *<NamespacePath> : <ClassName> . <Prop1> = \\ " <Value1> \\ ", " <Prop2> = \\ " <Value2> \\ "*, который указывает экземпляр в схеме CIM.
+Задает формат свойства **алертингманажеделемент** . Формат — Цимобжектпас с форматом *&lt; намеспацепас &gt; : &lt; className &gt; . &lt; Prop1 &gt; = \\ " &lt; Значение1 &gt; \\ ", " &lt; Prop2 &gt; = \\ " &lt; Значение2 &gt; \\ "*, который указывает экземпляр в схеме CIM.
 
 Это свойство наследуется от класса **CIM \_ алертиндикатион** .
 
@@ -272,7 +272,7 @@ class Msvm_StorageAlert : CIM_AlertIndication
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Поставщик WMI Hyper-V не будет создавать события для отдельных виртуальных дисков, чтобы избежать перегрузки клиентов с событиями в случае крупномасштабных неисправностей базовых систем хранения.
 
@@ -281,7 +281,7 @@ class Msvm_StorageAlert : CIM_AlertIndication
 -   Запросите все экземпляры [**мсвм \_ LogicalDisk**](msvm-logicaldisk.md) , которые были выделены из пула ресурсов, для которого было создано событие. Эти экземпляры **мсвм \_ LogicalDisk** связаны с пулом ресурсов через ассоциацию [**мсвм \_ елементаллокатедфромпул**](msvm-elementallocatedfrompool.md) .
 -   Отфильтруйте список результатов, выбрав экземпляры, для которых параметр OperationalStatus содержит недостаточную пропускную способность.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
@@ -295,7 +295,7 @@ class Msvm_StorageAlert : CIM_AlertIndication
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

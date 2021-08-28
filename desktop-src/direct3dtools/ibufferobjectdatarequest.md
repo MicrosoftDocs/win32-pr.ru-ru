@@ -17,18 +17,18 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 7f695e1a5079f37b44fbd370b8eebd38a771eb58
-ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
+ms.openlocfilehash: 82c5ef3f3b696ddcb0c8198ff81372aff0b44ca4
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "122787380"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624960"
 ---
 # <a name="span-idvspixengineibufferobjectdatarequestspanibufferobjectdatarequest-interface"></a><span id="vspixengine.ibufferobjectdatarequest"></span>Интерфейс Ибуфферобжектдатарекуест
 
 Запросите содержимое объекта в форме буфера для тех, которые его поддерживают.
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Участники
 
 Интерфейс **ибуфферобжектдатарекуест** наследует от интерфейса [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) . **Ибуфферобжектдатарекуест** также имеет следующие типы членов:
 
@@ -38,7 +38,7 @@ ms.locfileid: "122787380"
 
 Интерфейс **ибуфферобжектдатарекуест** содержит следующие методы.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Метод</th><th >Описание</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/ibufferobjectdatarequest-requestasync-eventid-dword-bstr-bstr-ibufferobjectdatacallback-ptr-dword-dword"><strong>рекуестасинк</strong></a></td><td ><p>Запросы на получение необработанного содержимого объекта (буфер, текстура, представление целевого объекта прорисовки и т. д.)</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Метод</th><th style="text-align: left;">Описание</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ibufferobjectdatarequest-requestasync-eventid-dword-bstr-bstr-ibufferobjectdatacallback-ptr-dword-dword"><strong>рекуестасинк</strong></a></td><td style="text-align: left;"><p>Запросы на получение необработанного содержимого объекта (буфер, текстура, представление целевого объекта прорисовки и т. д.)</p></td></tr></tbody></table>
 
  
 

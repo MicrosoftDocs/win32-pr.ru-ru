@@ -6,12 +6,12 @@ ms.localizationpriority: low
 ms.topic: article
 ms.date: 04/19/2019
 ms.custom: 19H1
-ms.openlocfilehash: 0cc8fcecec2e2a0966ed34e23eb65ed9acd37e76
-ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
+ms.openlocfilehash: f204484b3565564f72e815bd21cf8e449ee55e4c
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "121812890"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884298"
 ---
 # <a name="core-interfaces"></a>Базовые интерфейсы
 
@@ -59,6 +59,7 @@ ms.locfileid: "121812890"
 | [**ID3D12Resource**](/windows/win32/api/d3d12/nn-d3d12-id3d12resource) | Инкапсулирует обобщенные возможности ЦП и GPU для чтения и записи в физическую память или кучи. Он содержит абстракции для Организации и управления простыми массивами данных, а также многомерные данные, оптимизированные для выборки шейдера. |
 | [**ID3D12RootSignature**](/windows/win32/api/d3d12/nn-d3d12-id3d12rootsignature) | Корневая подпись определяет, какие ресурсы привязаны к графическому конвейеру. Корневая подпись настраивается приложением и связывает списки команд с ресурсами, которые требуются шейдеру. В настоящее время для каждого приложения существует одна графика и одна из корневых подписей вычислений. |
 | [**ID3D12RootSignatureDeserializer**](/windows/win32/api/d3d12/nn-d3d12-id3d12rootsignaturedeserializer) | Содержит метод, возвращающий десериализованную структуру данных [**D3D12-root-Signature-DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_root_signature_desc) для сериализованной корневой сигнатуры версии 1,0.  |
+| [**ID3D12SDKConfiguration**](/windows/win32/api/d3d12/nn-d3d12-id3d12sdkconfiguration) | Предоставляет методы конфигурации пакета SDK. |
 | [**ID3D12ShaderCacheSession**](/windows/win32/api/d3d12/nn-d3d12-id3d12shadercachesession) | Представляет сеанс кэша шейдера. |
 | [**ID3D12StateObject**](/windows/win32/api/d3d12/nn-d3d12-id3d12stateobject) | Представляет переменный объем состояния конфигурации, включая шейдеры, которые приложение управляет как единое целое и которое предоставляется драйверу для атомарного выполнения, например для компиляции или оптимизации.  |
 | [**ID3D12StateObjectProperties**](/windows/win32/api/d3d12/nn-d3d12-id3d12stateobjectproperties) | Предоставляет методы для получения и установки свойств объекта [**ID3D12StateObject**](/windows/win32/api/d3d12/nn-d3d12-id3d12stateobject).  |

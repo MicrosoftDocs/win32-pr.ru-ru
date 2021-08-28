@@ -25,12 +25,12 @@ keywords:
 - Direct2D, примитивы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54f318e3542d54ee92817193ef6b749a3ba1cf4678407ca7a12f28c6c187ae86
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f757ea6f1dd2b5db0d0c96297098bc6a8443bf25
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119074998"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882844"
 ---
 # <a name="direct2d-api-overview"></a>Обзор API Direct2D
 
@@ -58,7 +58,7 @@ Direct2D предоставляет API, аналогичный Direct3D, для
     -   [Растровые изображения](#bitmaps)
 -   [Рисование текста](#drawing-text)
 -   [Примитивы Direct2D](#direct2d-primitives)
--   [Связанные темы](#related-topics)
+-   [См. также](#related-topics)
 
 ## <a name="direct2d-header-files"></a>Файлы заголовков Direct2D
 
@@ -161,7 +161,7 @@ Direct2D использует левую систему координат: по
 -   [**ID2D1RadialGradientBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1radialgradientbrush) закрашивает область с радиальным градиентом, который смешивает два или более цветов вокруг эллипса.
 -   [**ID2D1BitmapBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush) закрашивает область с растровым изображением.
 
-Чтобы создать кисть, используйте один из методов [**ID2D1RenderTarget::**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget)Create *<Type>* Brush, например [**креатерадиалградиентбруш**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createradialgradientbrush(constd2d1_radial_gradient_brush_properties__constd2d1_brush_properties__id2d1gradientstopcollection_id2d1radialgradientbrush)). Кисти можно использовать с целевыми методами прорисовки и заливки, чтобы закрасить штрих или контур фигуры либо как маску непрозрачности.
+Чтобы создать кисть, используйте один из методов [**ID2D1RenderTarget::**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget)Create *&lt; Type &gt;* кисти, например [**креатерадиалградиентбруш**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createradialgradientbrush(constd2d1_radial_gradient_brush_properties__constd2d1_brush_properties__id2d1gradientstopcollection_id2d1radialgradientbrush)). Кисти можно использовать с целевыми методами прорисовки и заливки, чтобы закрасить штрих или контур фигуры либо как маску непрозрачности.
 
 Дополнительные сведения о кистях см. в разделе [Общие сведения о кистях](direct2d-brushes-overview.md).
 
@@ -173,7 +173,7 @@ Direct2D использует левую систему координат: по
 
 Геометрические интерфейсы предоставляют методы для управления фигурами путем расширения или упрощения существующих геометрических объектов или путем создания пересечения или объединения нескольких геометрических объектов. Они также предоставляют методы для определения того, пересекаются геометрические или перекрывающиеся, извлекаются сведения о границах, выполняется вычисление области или длины геометрии и интерполяция расположений вдоль геометрии. Direct2D также предоставляет возможность создания сетки треугольников, тесселяции из геометрии.
 
-Чтобы создать геометрию, используйте один из методов [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory):: Create *<Type>* Geometry, например [**креатепасжеометри**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createpathgeometry). Геометрия является аппаратно-независимым ресурсом.
+Для создания геометрии используется один из методов [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory):: Create *&lt; &gt; типа* Geometry, например [**креатепасжеометри**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createpathgeometry). Геометрия является аппаратно-независимым ресурсом.
 
 Для визуализации геометрии используются методы [**DrawGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawgeometry) и [**филлжеометри**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) целевого объекта прорисовки.
 

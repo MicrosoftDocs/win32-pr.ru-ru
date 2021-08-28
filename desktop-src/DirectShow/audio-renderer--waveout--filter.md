@@ -4,12 +4,12 @@ ms.assetid: a3f2776b-974b-4886-82a3-38e00b607a07
 title: Фильтр модуля подготовки звука (звук)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eef79acb21221c1a0b91efc2da67773534fe54ca
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 5d66d92357b41b6fa23018acf6d44b966eb77fab
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122470161"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122987657"
 ---
 # <a name="audio-renderer-waveout-filter"></a>Фильтр модуля подготовки звука (звук)
 
@@ -22,7 +22,18 @@ ms.locfileid: "122470161"
 
 
 
-| | | Интерфейсы фильтра | <ul><li><a href="/windows/desktop/api/Strmif/nn-strmif-iamaudiorendererstats"><strong>иамаудиорендерерстатс</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-iamclockslave"><strong>иамклоккславе</strong></a></li><li><a href="/previous-versions/windows/desktop/api/Amaudio/nn-amaudio-iamdirectsound"><strong>иамдиректсаунд</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-iamresourcecontrol"><strong>иамресаурцеконтрол</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>ибасефилтер</strong></a></li><li><a href="/windows/desktop/api/Control/nn-control-ibasicaudio"><strong>ибасикаудио</strong></a></li><li><a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>имедиапоситион</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>имедиасикинг</strong></a></li><li>IPersistPropertyBag</li><li>IPersistStream</li><li><a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>икуалитиконтрол</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-ireferenceclock"><strong>иреференцеклокк</strong></a></li></ul> | | Типы входных закрепления <strong>MEDIATYPE_Audio</strong> | | Интерфейсы входных закрепления | <ul><li><a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>имеминпутпин</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>ипин</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>икуалитиконтрол</strong></a></li></ul> | | Типы выходных закрепления Неприменимо. | | Интерфейсы выходного ПИН-кода | Неприменимо. | | Фильтровать CLSID | <strong>CLSID_AudioRender</strong> | | CLSID страницы свойств | <strong>CLSID_AudioProperties</strong>, <strong>CLSID_AudioRendererAdvancedProperties</strong> | | Исполняемый файл | quartz.dll | | <a href="merit.md">Неуспешный</a>  |  <strong>MERIT_DO_NOT_USE</strong> | | <a href="filter-categories.md">Категория фильтра</a>  |  <strong>CLSID_AudioRendererCategory</strong> | 
+| Метка | Применение |
+|--------|-------|
+| Интерфейсы фильтра | <ul><li><a href="/windows/desktop/api/Strmif/nn-strmif-iamaudiorendererstats"><strong>иамаудиорендерерстатс</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-iamclockslave"><strong>иамклоккславе</strong></a></li><li><a href="/previous-versions/windows/desktop/api/Amaudio/nn-amaudio-iamdirectsound"><strong>иамдиректсаунд</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-iamresourcecontrol"><strong>иамресаурцеконтрол</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>ибасефилтер</strong></a></li><li><a href="/windows/desktop/api/Control/nn-control-ibasicaudio"><strong>ибасикаудио</strong></a></li><li><a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>имедиапоситион</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>имедиасикинг</strong></a></li><li>IPersistPropertyBag</li><li>IPersistStream</li><li><a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>икуалитиконтрол</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-ireferenceclock"><strong>иреференцеклокк</strong></a></li></ul> | 
+| Типы носителей входных закрепления | <strong>MEDIATYPE_Audio</strong> | 
+| Интерфейсы входных закрепления | <ul><li><a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>имеминпутпин</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>ипин</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>икуалитиконтрол</strong></a></li></ul> | 
+| Типы носителей для выходного ПИН-кода | Не применяется | 
+| Интерфейсы выходного ПИН-кода | Не применяется | 
+| Фильтровать CLSID | <strong>CLSID_AudioRender</strong> | 
+| CLSID страницы свойств | <strong>CLSID_AudioProperties</strong>, <strong>CLSID_AudioRendererAdvancedProperties</strong> | 
+| Исполняемый объект | quartz.dll | 
+| <a href="merit.md">Заслуживают</a> | <strong>MERIT_DO_NOT_USE</strong> | 
+| <a href="filter-categories.md">Категория фильтра</a> | <strong>CLSID_AudioRendererCategory</strong> | 
 
 
 

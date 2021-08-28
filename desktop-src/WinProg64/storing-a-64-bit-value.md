@@ -3,21 +3,21 @@ title: Сохранение 64-разрядного значения
 description: Чтобы сохранить 64-разрядное значение указателя, используйте ULONG \_ ptr. При компиляции с помощью компилятора с \_ 64-разрядным компилятором значение типа ULONG 32 бит при компиляции с 32-разрядным компилятором и 64 бит.
 ms.assetid: 0712e084-cf5e-470a-8f5d-0db2ef638f42
 keywords:
-- хранение 64-битных значений в 64-разрядном программировании Windows
+- хранение 64-разрядных значений 64-bit Windows программирование
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6cee4826caf93dbd464957fb5fb76f024bd9f41
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ac6be70aba73af9640a69aa60055afcfb03ade7a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104330032"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469071"
 ---
 # <a name="storing-a-64-bit-value"></a>Сохранение 64-разрядного значения
 
 Чтобы сохранить 64-разрядное значение указателя, используйте **ulong \_ ptr**. При компиляции с помощью компилятора с 64-разрядным компилятором значение **\_ типа ulong** 32 бит при компиляции с 32-разрядным компилятором и 64 бит.
 
-В следующих примерах используется реальный код, перенесенный в 64-разрядную версию Windows. Комментирование действий по добавлению кода, совместимого с 64-разрядной версией.
+В следующих примерах используется реальный код, перенесенный в 64-разрядный Windows. Комментирование действий по добавлению кода, совместимого с 64-разрядной версией.
 
 ## <a name="example-1-getting-an-address"></a>Пример 1. получение адреса
 
@@ -25,30 +25,13 @@ ms.locfileid: "104330032"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Использование ULONG (только 32-разрядный метод)</td>
-<td><pre class="syntax" data-space="preserve"><code>ULONG getAnAddress( )
-Int *somePointer
-Return( (ULONG) somePointer );</code></pre></td>
-</tr>
-<tr class="even">
-<td>Использование ULONG_PTR (переносимый метод)</td>
-<td><pre class="syntax" data-space="preserve"><code>ULONG_PTR getAnAddress( )
-Int *somePointer
-Return( (ULONG_PTR) somePointer );</code></pre></td>
-</tr>
-</tbody>
-</table>
+
+| | | Использование ULONG (только 32-разрядный метод) | <pre class="syntax" data-space="preserve"><code>ULONG getAnAddress( )Int *somePointerReturn( (ULONG) somePointer );</code></pre> | | Использование ULONG_PTR (переносимый метод) | <pre class="syntax" data-space="preserve"><code>ULONG_PTR getAnAddress( )Int *somePointerReturn( (ULONG_PTR) somePointer );</code></pre> | 
 
 
 
- 
+
+ 
 
 ## <a name="example-2-calculating-an-address"></a>Пример 2. Вычисление адреса
 
@@ -56,34 +39,17 @@ Return( (ULONG_PTR) somePointer );</code></pre></td>
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Использование ULONG (только 32-разрядный метод)</td>
-<td><pre class="syntax" data-space="preserve"><code>Int *somePointer;
-Int *someOtherPointer;
-somePointer = (int *)( (ULONG)someOtherPointer + 0x20 );</code></pre></td>
-</tr>
-<tr class="even">
-<td>Использование ULONG_PTR (переносимый метод)</td>
-<td><pre class="syntax" data-space="preserve"><code>Int *somePointer;
-Int *someOtherPointer;
-somePointer = (int *)( (ULONG_PTR)someOtherPointer + 0x20 );</code></pre></td>
-</tr>
-</tbody>
-</table>
+
+| | | Использование ULONG (только 32-разрядный метод) | <pre class="syntax" data-space="preserve"><code>Int *somePointer;Int *someOtherPointer;somePointer = (int *)( (ULONG)someOtherPointer + 0x20 );</code></pre> | | Использование ULONG_PTR (переносимый метод) | <pre class="syntax" data-space="preserve"><code>Int *somePointer;Int *someOtherPointer;somePointer = (int *)( (ULONG_PTR)someOtherPointer + 0x20 );</code></pre> | 
 
 
 
- 
 
- 
+ 
 
- 
+ 
+
+ 
 
 
 

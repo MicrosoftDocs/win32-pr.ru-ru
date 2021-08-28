@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98354d5e1e4f796442dd0347a4ed2796cafdf7297d3829af9b8839d48df00c3a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a9577f7d9030a12a12596fe2cdc2a999922658ce
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117930317"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887181"
 ---
 # <a name="iwmpclosedcaptionsamilang-property"></a>Свойство Ивмпклоседкаптион:: Самиланг
 
@@ -48,9 +48,9 @@ Public Property SAMILang As System.String
 
 **Строка System. String** , которая является именем, указанным в идентификаторе языка файла Sami.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
-Файл SAMI может содержать текст для одного или нескольких языков. Языки, доступные для скрытых титров, определяются между тегами <STYLE> и </STYLE> в файле Sami. Идентификатор языка указывается с уникальной буквенно-цифровой строкой, которой предшествует точка (.). Имя, указанное для языка, может быть любой строкой. Например, для определения английского языка (США) можно использовать следующую команду:
+Файл SAMI может содержать текст для одного или нескольких языков. Языки, доступные для скрытых титров, определяются между &lt; стилями &gt; и </STYLE> ТЕГАМИ в файле Sami. Идентификатор языка указывается с уникальной буквенно-цифровой строкой, которой предшествует точка (.). Имя, указанное для языка, может быть любой строкой. Например, для определения английского языка (США) можно использовать следующую команду:
 
 
 ```
@@ -63,7 +63,7 @@ Public Property SAMILang As System.String
 
 Строка, заданная с помощью **самиланг** , должна соответствовать атрибуту **Name** в описателе языка.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
@@ -75,7 +75,7 @@ Public Property SAMILang As System.String
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

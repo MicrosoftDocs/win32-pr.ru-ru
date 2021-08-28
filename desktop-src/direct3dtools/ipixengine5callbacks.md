@@ -17,18 +17,18 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 0bb07a283befc071435df8d4199409cb00d3c3c1d4efa3e58c2f53403d8e3527
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e4d672909d0d0bc332f40d672d7c658ecb5d3049
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118985964"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122628080"
 ---
 # <a name="span-idvspixengineipixengine5callbacksspanipixengine5callbacks-interface"></a><span id="vspixengine.ipixengine5callbacks"></span>Интерфейс IPixEngine5Callbacks
 
 Обратные вызовы, используемые для просмотра текстур.
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Участники
 
 Интерфейс **IPixEngine5Callbacks** наследует от интерфейса [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) . **IPixEngine5Callbacks** также имеет следующие типы членов:
 
@@ -38,13 +38,13 @@ ms.locfileid: "118985964"
 
 Интерфейс **IPixEngine5Callbacks** содержит следующие методы.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Метод</th><th style="text-align: left;">Описание</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixengine5callbacks-freetexturecomplete"><strong>фритекстурекомплете</strong></a></td><td style="text-align: left;"><p>Функция обратного вызова, используемая для уведомления узла при освобождении текстуры.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixengine5callbacks-loadhistogramcomplete-pixenginehistogram-ptr"><strong>лоадхистограмкомплете</strong></a></td><td style="text-align: left;"><p>Функция обратного вызова, используемая для уведомления узла о завершении загрузки гистограммы.</p></td></tr><tr class="odd"><td style="text-align: left;"><a href="/previous-versions/windows/desktop/legacy/mt432759(v=vs.85)"><strong>лоадтекстурефромфилекомплете</strong></a></td><td style="text-align: left;"><p>Функция обратного вызова, используемая для уведомления узла о завершении загрузки текстуры.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixengine5callbacks-loadtextureslicecomplete-pixenginetextureslicedescriptor-pixenginehistogram-ptr"><strong>лоадтекстуреслицекомплете</strong></a></td><td style="text-align: left;"><p>Функция обратного вызова, используемая для уведомления узла о завершении загрузки среза текстуры.</p></td></tr><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixengine5callbacks-readtexelvaluecomplete-uint-bstr-arr-double-arr"><strong>реадтекселвалуекомплете</strong></a></td><td style="text-align: left;"><p>Функция обратного вызова, используемая для уведомления узла о завершении считывания значения шаг текселя.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixengine5callbacks-rendertexturecomplete"><strong>рендертекстурекомплете</strong></a></td><td style="text-align: left;"><p>Функция обратного вызова, используемая для уведомления узла о завершении прорисовки текстуры.</p></td></tr><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixengine5callbacks-savetexturecomplete"><strong>саветекстурекомплете</strong></a></td><td style="text-align: left;"><p>Функция обратного вызова, используемая для уведомления узла о завершении сохранения текстуры.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Метод</th><th style="text-align: left;">Описание</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixengine5callbacks-freetexturecomplete"><strong>фритекстурекомплете</strong></a></td><td style="text-align: left;"><p>Функция обратного вызова, используемая для уведомления узла при освобождении текстуры.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixengine5callbacks-loadhistogramcomplete-pixenginehistogram-ptr"><strong>лоадхистограмкомплете</strong></a></td><td style="text-align: left;"><p>Функция обратного вызова, используемая для уведомления узла о завершении загрузки гистограммы.</p></td></tr><tr class="odd"><td style="text-align: left;"><a href="/previous-versions/windows/desktop/legacy/mt432759(v=vs.85)"><strong>лоадтекстурефромфилекомплете</strong></a></td><td style="text-align: left;"><p>Функция обратного вызова, используемая для уведомления узла о завершении загрузки текстуры.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixengine5callbacks-loadtextureslicecomplete-pixenginetextureslicedescriptor-pixenginehistogram-ptr"><strong>лоадтекстуреслицекомплете</strong></a></td><td style="text-align: left;"><p>Функция обратного вызова, используемая для уведомления узла о завершении загрузки среза текстуры.</p></td></tr><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixengine5callbacks-readtexelvaluecomplete-uint-bstr-arr-double-arr"><strong>реадтекселвалуекомплете</strong></a></td><td style="text-align: left;"><p>Функция обратного вызова, используемая для уведомления узла о завершении считывания значения шаг текселя.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixengine5callbacks-rendertexturecomplete"><strong>рендертекстурекомплете</strong></a></td><td style="text-align: left;"><p>Функция обратного вызова, используемая для уведомления узла о завершении прорисовки текстуры.</p></td></tr><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixengine5callbacks-savetexturecomplete"><strong>саветекстурекомплете</strong></a></td><td style="text-align: left;"><p>Функция обратного вызова, используемая для уведомления узла о завершении сохранения текстуры.</p></td></tr></tbody></table>
 
  
 
 ## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

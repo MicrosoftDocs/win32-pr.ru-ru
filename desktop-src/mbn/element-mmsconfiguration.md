@@ -7,12 +7,12 @@ MSHAttr:
 title: ммсконфигуратион
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 843cb0fc67211bec13295a92e467e8358d407312
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 0217dae3aad8afb70997d27db3053a6bac9f41b2
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122480290"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882941"
 ---
 # <a name="span-idwwan_profile_v4element_mmsconfigurationspanmmsconfiguration"></a><span id="WWAN_profile_v4.element_MmsConfiguration"></span>ммсконфигуратион
 
@@ -29,8 +29,8 @@ ms.locfileid: "122480290"
 
 ## <a name="element-hierarchy"></a>Иерархия элементов
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-**<MmsConfiguration>**
+[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
+**&lt;ммсконфигуратион&gt;**
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -45,7 +45,7 @@ ms.locfileid: "122480290"
 </MmsConfiguration>
 ```
 
-### <a name="key"></a>Клавиши
+### <a name="key"></a>Ключ
 
 `?`   необязательно (ноль или один)
 
