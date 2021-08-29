@@ -3,9 +3,9 @@ title: Свойство отключения Ивмпсеттингс
 description: Свойство выкл. Получает или задает значение, указывающее, отключено ли звуковое сопровождение.
 ms.assetid: d99e47db-70cc-41e0-aca9-b765b075e7b4
 keywords:
-- выключить проигрыватель Windows Media Player
-- отключить звук свойства проигрыватель Windows Media Player, интерфейс Ивмпсеттингс
-- Интерфейс Ивмпсеттингс Windows Media Player, выключение свойства
+- выключить проигрыватель Windows Media свойств
+- выключить проигрыватель Windows Media свойств, интерфейс ивмпсеттингс
+- интерфейс ивмпсеттингс проигрыватель Windows Media, выключение свойства
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67518bb9a6eccee13e4cc262f37341d30689439e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f6d4cb13fd8884df7779b2780fd7014d058f32086d67ace286d9d8a9fd57cb8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105718175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053412"
 ---
 # <a name="iwmpsettingsmute-property"></a>Свойство Ивмпсеттингс:: выкл.
 
@@ -94,19 +94,19 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

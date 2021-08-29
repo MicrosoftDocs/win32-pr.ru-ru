@@ -3,7 +3,7 @@ title: Сообщение LVM_DELETEITEM (Коммктрл. h)
 description: Удаляет элемент из элемента управления "представление списка". Это сообщение можно отправить явно или с помощью \_ макроса DeleteItem ListView.
 ms.assetid: 0eddd4c1-7786-4a8c-a16d-9fd83cce98b3
 keywords:
-- Элементы управления Windows для LVM_DELETEITEM сообщений
+- элементы управления Windows сообщений LVM_DELETEITEM
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 19fce5afbbaa6702f296df12acf7dad4edac16fa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 88520e7d4f9d0d3ff22f90d7cea033b7674cfcbadbf55358f7ced8cc36c2399a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958423"
 ---
 # <a name="lvm_deleteitem-message"></a>\_Сообщение LVM DELETEITEM
 
@@ -43,14 +43,14 @@ ms.locfileid: "104135138"
 
 Возвращает **значение true** , если успешно, или **false** в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: edfca20d756edb5e75d5127e62574b70dfbdd106
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1f6abad2f531d1dc87c73fc5b6098bf1669190984f96107185836188442322b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103804493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118959793"
 ---
 # <a name="ntfrs-settings-class"></a>Класс NTFRS-Settings
 
@@ -61,7 +61,7 @@ ms.locfileid: "103804493"
 | По умолчанию-скрытие значения        | 1                                                                                                                                           |
 | RDN-Атри-ID                  | [**Common-Name**](a-cn.md)<br/>                                                                                                      |
 | Подкласс                 | [**Параметры приложения**](c-applicationsettings.md)<br/>                                                                            |
-| Возможные старшие          | [](c-organization.md)[**Организационный**](c-organizationalunit.md)[**контейнер**](c-container.md)организации —**Параметры** |
+| Возможные старшие          | [](c-organization.md)[**организационный**](c-organizationalunit.md)[**контейнер**](c-container.md)организации — служба **NTFRS — Параметры** |
 | Вспомогательные классы           | \-                                                                                                                                          |
 | NT-Security-дескриптор      | О:БАГ: BAD: S:                                                                                                                                |
 | Дескриптор безопасности по умолчанию | D: (A;; РПЛКЛОРК;;; AU) (A;; РПВПКРЛКЛОККДКРКВДВОСДДТСВ;;;D А) (A;; РПВПКРЛКЛОККДКРКВДВОСДДТСВ;;; CO) (A;; РПВПКРЛКЛОККДКРКВДВОСДДТСВ;;; SY            |
@@ -69,9 +69,9 @@ ms.locfileid: "103804493"
 
 
 
-## <a name="windows-2000-server-attributes"></a>Атрибуты сервера Windows 2000
+## <a name="windows-2000-server-attributes"></a>атрибуты сервера Windows 2000
 
-Этот класс содержит следующие атрибуты для сервера Windows 2000:
+этот класс содержит следующие атрибуты для сервера Windows 2000:
 
 
 
@@ -97,16 +97,16 @@ ms.locfileid: "103804493"
 | [**Метки**](a-flags.md)                                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Из записи**](a-fromentry.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)             | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Расширения FRS**](a-frsextensions.md)                                 | Неверно     | **NTFRS — параметры**                                               |
+| [**Расширения FRS**](a-frsextensions.md)                                 | Неверно     | **NTFRS — Параметры**                                               |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Тип экземпляра**](a-instancetype.md)                                   | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Тип экземпляра**](a-instancetype.md)                                   | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)             | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Удалено**](a-isdeleted.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Имеет права владельца**](a-isprivilegeholder.md)                        | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Последний-известный-родительский**](a-lastknownparent.md)                            | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Под управлением**](a-managedby.md)                                         | Неверно     | **NTFRS — параметры**                                               |
+| [**Под управлением**](a-managedby.md)                                         | Неверно     | **NTFRS — Параметры**                                               |
 | [**Управляемые объекты**](a-managedobjects.md)                               | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**В основном**](a-masteredby.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Метка времени изменения**](a-modifytimestamp.md)                            | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
@@ -115,10 +115,10 @@ ms.locfileid: "103804493"
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                   | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Список уведомлений**](a-notificationlist.md)                           | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                  | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                  | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Obj-расп-имя**](a-distinguishedname.md)                              | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Объект — Категория**](a-objectcategory.md)                               | True      | [**Вверх**](c-top.md)<br/>                                  |
-| [**Объектный класс**](a-objectclass.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Объект — Категория**](a-objectcategory.md)                               | Верно      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Объектный класс**](a-objectclass.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Объект — GUID**](a-objectguid.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Версия объекта**](a-objectversion.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
@@ -172,7 +172,7 @@ ms.locfileid: "103804493"
 | По умолчанию-скрытие значения        | 1                                                                                                                                           |
 | RDN-Атри-ID                  | [**Common-Name**](a-cn.md)<br/>                                                                                                      |
 | Подкласс                 | [**Параметры приложения**](c-applicationsettings.md)<br/>                                                                            |
-| Возможные старшие          | [](c-organization.md)[**Организационный**](c-organizationalunit.md)[**контейнер**](c-container.md)организации —**Параметры** |
+| Возможные старшие          | [](c-organization.md)[**организационный**](c-organizationalunit.md)[**контейнер**](c-container.md)организации — служба **NTFRS — Параметры** |
 | Вспомогательные классы           | \-                                                                                                                                          |
 | NT-Security-дескриптор      | О:БАГ: BAD: S:                                                                                                                                |
 | Дескриптор безопасности по умолчанию | D: (A;; РПЛКЛОРК;;; AU) (A;; РПВПКРЛКЛОККДКРКВДВОСДДТСВ;;;D А) (A;; РПВПКРЛКЛОККДКРКВДВОСДДТСВ;;; CO) (A;; РПВПКРЛКЛОККДКРКВДВОСДДТСВ;;; SY            |
@@ -180,9 +180,9 @@ ms.locfileid: "103804493"
 
 
 
-## <a name="windows-server-2003-attributes"></a>Атрибуты Windows Server 2003
+## <a name="windows-server-2003-attributes"></a>Windows Атрибуты сервера 2003
 
-Этот класс содержит следующие атрибуты для Windows Server 2003:
+этот класс содержит следующие атрибуты для Windows Server 2003:
 
 
 
@@ -208,16 +208,16 @@ ms.locfileid: "103804493"
 | [**Метки**](a-flags.md)                                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Из записи**](a-fromentry.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Расширения FRS**](a-frsextensions.md)                                   | Неверно     | **NTFRS — параметры**                                               |
+| [**Расширения FRS**](a-frsextensions.md)                                   | Неверно     | **NTFRS — Параметры**                                               |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                   | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Тип экземпляра**](a-instancetype.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Тип экземпляра**](a-instancetype.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Удалено**](a-isdeleted.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Имеет права владельца**](a-isprivilegeholder.md)                          | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Последний-известный-родительский**](a-lastknownparent.md)                              | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Под управлением**](a-managedby.md)                                           | Неверно     | **NTFRS — параметры**                                               |
+| [**Под управлением**](a-managedby.md)                                           | Неверно     | **NTFRS — Параметры**                                               |
 | [**Управляемые объекты**](a-managedobjects.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**В основном**](a-masteredby.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Метка времени изменения**](a-modifytimestamp.md)                              | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
@@ -237,17 +237,17 @@ ms.locfileid: "103804493"
 | [**MS-DS-Operations-for-AZ-Task-BL**](a-msds-operationsforaztaskbl.md)     | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-REPL-Attribute-Meta-Data**](a-msds-replattributemetadata.md)      | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)              | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**MS-DS-параметры**](a-msds-settings.md)                                   | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
+| [**ms-DS-Параметры**](a-msds-settings.md)                                   | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                     | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Список уведомлений**](a-notificationlist.md)                             | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Объект — Категория**](a-objectcategory.md)                                 | True      | [**Вверх**](c-top.md)<br/>                                  |
-| [**Объектный класс**](a-objectclass.md)                                       | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Объект — Категория**](a-objectcategory.md)                                 | Верно      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Объектный класс**](a-objectclass.md)                                       | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Объект — GUID**](a-objectguid.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Версия объекта**](a-objectversion.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
@@ -302,7 +302,7 @@ ms.locfileid: "103804493"
 | По умолчанию-скрытие значения        | 1                                                                                                                                           |
 | RDN-Атри-ID                  | [**Common-Name**](a-cn.md)<br/>                                                                                                      |
 | Подкласс                 | [**Параметры приложения**](c-applicationsettings.md)<br/>                                                                            |
-| Возможные старшие          | [](c-organization.md)[**Организационный**](c-organizationalunit.md)[**контейнер**](c-container.md)организации —**Параметры** |
+| Возможные старшие          | [](c-organization.md)[**организационный**](c-organizationalunit.md)[**контейнер**](c-container.md)организации — служба **NTFRS — Параметры** |
 | Вспомогательные классы           | \-                                                                                                                                          |
 | NT-Security-дескриптор      | О:БАГ: BAD: S:                                                                                                                                |
 | Дескриптор безопасности по умолчанию | D: (A;; РПЛКЛОРК;;; AU) (A;; РПВПКРЛКЛОККДКРКВДВОСДДТСВ;;;D А) (A;; РПВПКРЛКЛОККДКРКВДВОСДДТСВ;;; CO) (A;; РПВПКРЛКЛОККДКРКВДВОСДДТСВ;;; SY            |
@@ -310,9 +310,9 @@ ms.locfileid: "103804493"
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Атрибуты Windows Server 2003 R2
+## <a name="windows-server-2003-r2-attributes"></a>Windows Атрибуты сервера 2003 R2
 
-Этот класс содержит следующие атрибуты для Windows Server 2003 R2:
+этот класс содержит следующие атрибуты для Windows Server 2003 R2:
 
 
 
@@ -338,16 +338,16 @@ ms.locfileid: "103804493"
 | [**Метки**](a-flags.md)                                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Из записи**](a-fromentry.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Расширения FRS**](a-frsextensions.md)                                   | Неверно     | **NTFRS — параметры**                                               |
+| [**Расширения FRS**](a-frsextensions.md)                                   | Неверно     | **NTFRS — Параметры**                                               |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                   | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Тип экземпляра**](a-instancetype.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Тип экземпляра**](a-instancetype.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Удалено**](a-isdeleted.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Имеет права владельца**](a-isprivilegeholder.md)                          | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Последний-известный-родительский**](a-lastknownparent.md)                              | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Под управлением**](a-managedby.md)                                           | Неверно     | **NTFRS — параметры**                                               |
+| [**Под управлением**](a-managedby.md)                                           | Неверно     | **NTFRS — Параметры**                                               |
 | [**Управляемые объекты**](a-managedobjects.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**В основном**](a-masteredby.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Метка времени изменения**](a-modifytimestamp.md)                              | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
@@ -369,7 +369,7 @@ ms.locfileid: "103804493"
 | [**MS-DS-Operations-for-AZ-Task-BL**](a-msds-operationsforaztaskbl.md)     | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-REPL-Attribute-Meta-Data**](a-msds-replattributemetadata.md)      | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)              | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**MS-DS-параметры**](a-msds-settings.md)                                   | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
+| [**ms-DS-Параметры**](a-msds-settings.md)                                   | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
@@ -377,10 +377,10 @@ ms.locfileid: "103804493"
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                     | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Список уведомлений**](a-notificationlist.md)                             | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Объект — Категория**](a-objectcategory.md)                                 | True      | [**Вверх**](c-top.md)<br/>                                  |
-| [**Объектный класс**](a-objectclass.md)                                       | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Объект — Категория**](a-objectcategory.md)                                 | Верно      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Объектный класс**](a-objectclass.md)                                       | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Объект — GUID**](a-objectguid.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Версия объекта**](a-objectversion.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
@@ -435,7 +435,7 @@ ms.locfileid: "103804493"
 | По умолчанию-скрытие значения        | 1                                                                                                                                           |
 | RDN-Атри-ID                  | [**Common-Name**](a-cn.md)<br/>                                                                                                      |
 | Подкласс                 | [**Параметры приложения**](c-applicationsettings.md)<br/>                                                                            |
-| Возможные старшие          | [](c-organization.md)[**Организационный**](c-organizationalunit.md)[**контейнер**](c-container.md)организации —**Параметры** |
+| Возможные старшие          | [](c-organization.md)[**организационный**](c-organizationalunit.md)[**контейнер**](c-container.md)организации — служба **NTFRS — Параметры** |
 | Вспомогательные классы           | \-                                                                                                                                          |
 | NT-Security-дескриптор      | О:БАГ: BAD: S:                                                                                                                                |
 | Дескриптор безопасности по умолчанию | D: (A;; РПЛКЛОРК;;; AU) (A;; РПВПКРЛКЛОККДКРКВДВОСДДТСВ;;;D А) (A;; РПВПКРЛКЛОККДКРКВДВОСДДТСВ;;; CO) (A;; РПВПКРЛКЛОККДКРКВДВОСДДТСВ;;; SY            |
@@ -443,9 +443,9 @@ ms.locfileid: "103804493"
 
 
 
-## <a name="windows-server-2008-attributes"></a>Атрибуты Windows Server 2008
+## <a name="windows-server-2008-attributes"></a>Windows Атрибуты сервера 2008
 
-Этот класс содержит следующие атрибуты для Windows Server 2008:
+этот класс содержит следующие атрибуты для Windows Server 2008:
 
 
 
@@ -471,16 +471,16 @@ ms.locfileid: "103804493"
 | [**Метки**](a-flags.md)                                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Из записи**](a-fromentry.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Расширения FRS**](a-frsextensions.md)                                      | Неверно     | **NTFRS — параметры**                                               |
+| [**Расширения FRS**](a-frsextensions.md)                                      | Неверно     | **NTFRS — Параметры**                                               |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                      | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Тип экземпляра**](a-instancetype.md)                                        | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Тип экземпляра**](a-instancetype.md)                                        | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Удалено**](a-isdeleted.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Имеет права владельца**](a-isprivilegeholder.md)                             | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Последний-известный-родительский**](a-lastknownparent.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Под управлением**](a-managedby.md)                                              | Неверно     | **NTFRS — параметры**                                               |
+| [**Под управлением**](a-managedby.md)                                              | Неверно     | **NTFRS — Параметры**                                               |
 | [**Управляемые объекты**](a-managedobjects.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**В основном**](a-masteredby.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Метка времени изменения**](a-modifytimestamp.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
@@ -513,7 +513,7 @@ ms.locfileid: "103804493"
 | [**MS-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-выявил-DSA**](a-msds-revealeddsas.md)                             | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-выводит-List-BL**](a-msds-revealedlistbl.md)                        | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**MS-DS-параметры**](a-msds-settings.md)                                      | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
+| [**ms-DS-Параметры**](a-msds-settings.md)                                      | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
@@ -521,10 +521,10 @@ ms.locfileid: "103804493"
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                        | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Список уведомлений**](a-notificationlist.md)                                | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                       | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                       | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Объект — Категория**](a-objectcategory.md)                                    | True      | [**Вверх**](c-top.md)<br/>                                  |
-| [**Объектный класс**](a-objectclass.md)                                          | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Объект — Категория**](a-objectcategory.md)                                    | Верно      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Объектный класс**](a-objectclass.md)                                          | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Объект — GUID**](a-objectguid.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Версия объекта**](a-objectversion.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
@@ -579,7 +579,7 @@ ms.locfileid: "103804493"
 | По умолчанию-скрытие значения        | 1                                                                                                                                           |
 | RDN-Атри-ID                  | [**Common-Name**](a-cn.md)<br/>                                                                                                      |
 | Подкласс                 | [**Параметры приложения**](c-applicationsettings.md)<br/>                                                                            |
-| Возможные старшие          | [](c-organization.md)[**Организационный**](c-organizationalunit.md)[**контейнер**](c-container.md)организации —**Параметры** |
+| Возможные старшие          | [](c-organization.md)[**организационный**](c-organizationalunit.md)[**контейнер**](c-container.md)организации — служба **NTFRS — Параметры** |
 | Вспомогательные классы           | \-                                                                                                                                          |
 | NT-Security-дескриптор      | О:БАГ: BAD: S:                                                                                                                                |
 | Дескриптор безопасности по умолчанию | D: (A;; РПЛКЛОРК;;; AU) (A;; РПВПКРЛКЛОККДКРКВДВОСДДТСВ;;;D А) (A;; РПВПКРЛКЛОККДКРКВДВОСДДТСВ;;; CO) (A;; РПВПКРЛКЛОККДКРКВДВОСДДТСВ;;; SY            |
@@ -587,9 +587,9 @@ ms.locfileid: "103804493"
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Атрибуты Windows Server 2008 R2
+## <a name="windows-server-2008-r2-attributes"></a>Windows Атрибуты сервера 2008 R2
 
-Этот класс содержит следующие атрибуты для Windows Server 2008 R2:
+этот класс содержит следующие атрибуты для Windows Server 2008 R2:
 
 
 
@@ -615,17 +615,17 @@ ms.locfileid: "103804493"
 | [**Метки**](a-flags.md)                                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Из записи**](a-fromentry.md)                                                | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Расширения FRS**](a-frsextensions.md)                                        | Неверно     | **NTFRS — параметры**                                               |
+| [**Расширения FRS**](a-frsextensions.md)                                        | Неверно     | **NTFRS — Параметры**                                               |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                        | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Тип экземпляра**](a-instancetype.md)                                          | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Тип экземпляра**](a-instancetype.md)                                          | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Удалено**](a-isdeleted.md)                                                | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Имеет права владельца**](a-isprivilegeholder.md)                               | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Является перезапущенным**](a-isrecycled.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Последний-известный-родительский**](a-lastknownparent.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Под управлением**](a-managedby.md)                                                | Неверно     | **NTFRS — параметры**                                               |
+| [**Под управлением**](a-managedby.md)                                                | Неверно     | **NTFRS — Параметры**                                               |
 | [**Управляемые объекты**](a-managedobjects.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**В основном**](a-masteredby.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Метка времени изменения**](a-modifytimestamp.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
@@ -664,7 +664,7 @@ ms.locfileid: "103804493"
 | [**MS-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)                   | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-выявил-DSA**](a-msds-revealeddsas.md)                               | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-выводит-List-BL**](a-msds-revealedlistbl.md)                          | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**MS-DS-параметры**](a-msds-settings.md)                                        | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
+| [**ms-DS-Параметры**](a-msds-settings.md)                                        | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
@@ -672,10 +672,10 @@ ms.locfileid: "103804493"
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                          | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Список уведомлений**](a-notificationlist.md)                                  | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                         | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                         | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Объект — Категория**](a-objectcategory.md)                                      | True      | [**Вверх**](c-top.md)<br/>                                  |
-| [**Объектный класс**](a-objectclass.md)                                            | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Объект — Категория**](a-objectcategory.md)                                      | Верно      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Объектный класс**](a-objectclass.md)                                            | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Объект — GUID**](a-objectguid.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Версия объекта**](a-objectversion.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                      | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
@@ -730,7 +730,7 @@ ms.locfileid: "103804493"
 | По умолчанию-скрытие значения        | 1                                                                                                                                           |
 | RDN-Атри-ID                  | [**Common-Name**](a-cn.md)<br/>                                                                                                      |
 | Подкласс                 | [**Параметры приложения**](c-applicationsettings.md)<br/>                                                                            |
-| Возможные старшие          | [](c-organization.md)[**Организационный**](c-organizationalunit.md)[**контейнер**](c-container.md)организации —**Параметры** |
+| Возможные старшие          | [](c-organization.md)[**организационный**](c-organizationalunit.md)[**контейнер**](c-container.md)организации — служба **NTFRS — Параметры** |
 | Вспомогательные классы           | \-                                                                                                                                          |
 | NT-Security-дескриптор      | О:БАГ: BAD: S:                                                                                                                                |
 | Дескриптор безопасности по умолчанию | D: (A;; РПЛКЛОРК;;; AU) (A;; РПВПКРЛКЛОККДКРКВДВОСДДТСВ;;;D А) (A;; РПВПКРЛКЛОККДКРКВДВОСДДТСВ;;; CO) (A;; РПВПКРЛКЛОККДКРКВДВОСДДТСВ;;; SY            |
@@ -738,7 +738,7 @@ ms.locfileid: "103804493"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Атрибуты Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Атрибута
 
 Этот класс содержит следующие атрибуты для Windows Server 2012:
 
@@ -766,17 +766,17 @@ ms.locfileid: "103804493"
 | [**Метки**](a-flags.md)                                                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Из записи**](a-fromentry.md)                                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Расширения FRS**](a-frsextensions.md)                                                    | Неверно     | **NTFRS — параметры**                                               |
+| [**Расширения FRS**](a-frsextensions.md)                                                    | Неверно     | **NTFRS — Параметры**                                               |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Тип экземпляра**](a-instancetype.md)                                                      | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Тип экземпляра**](a-instancetype.md)                                                      | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Удалено**](a-isdeleted.md)                                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Имеет права владельца**](a-isprivilegeholder.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Является перезапущенным**](a-isrecycled.md)                                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Последний-известный-родительский**](a-lastknownparent.md)                                               | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Под управлением**](a-managedby.md)                                                            | Неверно     | **NTFRS — параметры**                                               |
+| [**Под управлением**](a-managedby.md)                                                            | Неверно     | **NTFRS — Параметры**                                               |
 | [**Управляемые объекты**](a-managedobjects.md)                                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**В основном**](a-masteredby.md)                                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Метка времени изменения**](a-modifytimestamp.md)                                               | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
@@ -818,10 +818,10 @@ ms.locfileid: "103804493"
 | [**MS-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)                               | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-выявил-DSA**](a-msds-revealeddsas.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-выводит-List-BL**](a-msds-revealedlistbl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**MS-DS-параметры**](a-msds-settings.md)                                                    | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
+| [**ms-DS-Параметры**](a-msds-settings.md)                                                    | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**MS-DS-TDO-исходящий трафик — BL**](a-msds-tdoegressbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-TDO-входящий трафик — BL**](a-msds-tdoingressbl.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-value-type-Reference-BL**](a-msds-valuetypereferencebl.md)                         | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
@@ -829,10 +829,10 @@ ms.locfileid: "103804493"
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Список уведомлений**](a-notificationlist.md)                                              | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Объект — Категория**](a-objectcategory.md)                                                  | True      | [**Вверх**](c-top.md)<br/>                                  |
-| [**Объектный класс**](a-objectclass.md)                                                        | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Объект — Категория**](a-objectcategory.md)                                                  | Верно      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Объектный класс**](a-objectclass.md)                                                        | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Объект — GUID**](a-objectguid.md)                                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Версия объекта**](a-objectversion.md)                                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                  |

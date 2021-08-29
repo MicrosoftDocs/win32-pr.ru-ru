@@ -4,12 +4,12 @@ ms.assetid: 0791888B-7215-475B-95C8-B558A1E57783
 title: Элементы Кксапобасе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9ab63cf7e8ac6e4d0fa14ec412b53682aff2ba5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e76e1846b5dd9c28bec4f5cfe8e0168f5afbca012459b5860c4a5e23c610f6ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962743"
 ---
 # <a name="cxapobase-members"></a>Элементы Кксапобасе
 
@@ -67,7 +67,7 @@ ms.locfileid: "104081093"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: c04554cd-d68d-455e-afa3-29d4186dad65
 title: События расширения MTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10389df9105615befa9ba0f32824615977cc3cb7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1a95999557e67ee8929fddc56dd7fd8eb43e6831af9f81f884303a2089bbe3fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105719726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806714"
 ---
 # <a name="mtp-extension-events"></a>События расширения MTP
 
@@ -39,7 +39,7 @@ ms.locfileid: "105719726"
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

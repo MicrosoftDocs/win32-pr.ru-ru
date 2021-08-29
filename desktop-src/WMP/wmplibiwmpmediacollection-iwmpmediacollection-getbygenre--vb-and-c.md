@@ -3,9 +3,9 @@ title: Ивмпмедиаколлектион Жетбиженре, метод
 description: Метод Жетбиженре возвращает интерфейс Ивмпплайлист, предоставляющий доступ к элементам мультимедиа указанного жанра.
 ms.assetid: 0681e5a2-b56d-4c33-95ce-d9ef3cd5473d
 keywords:
-- Жетбиженре метод Windows Media Player
-- Жетбиженре метод проигрывателя Windows Media Player, интерфейс Ивмпмедиаколлектион
-- Интерфейс Ивмпмедиаколлектион Windows Media Player, метод Жетбиженре
+- проигрыватель Windows Media метода жетбиженре
+- проигрыватель Windows Media метода жетбиженре, интерфейс ивмпмедиаколлектион
+- проигрыватель Windows Media интерфейса ивмпмедиаколлектион, метод жетбиженре
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4eb6477a4cd212f354f5af3ab7e50fc2a87092cb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d72f20182f2bfb3bef0d4de2907165a571009072d234add3b8f89ae2db859c7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053602"
 ---
 # <a name="iwmpmediacollectiongetbygenre-method"></a>Метод Ивмпмедиаколлектион:: Жетбиженре
 
@@ -64,7 +64,7 @@ Implements IWMPMediaCollection.getByGenre
 
 Интерфейс **вмплиб. ивмпплайлист** для извлеченных элементов мультимедиа.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Перед вызовом этого метода необходимо иметь доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
@@ -120,19 +120,19 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

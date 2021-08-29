@@ -3,7 +3,7 @@ title: Атрибут WM/Медиаоригиналчаннел
 description: Атрибут WM/Медиаоригиналчаннел указывает канал, на котором была выполнена предварительная трансляция данной демонстрации.
 ms.assetid: b183312d-bd48-46e4-832c-724c9770a9c9
 keywords:
-- Windows Media Player для атрибута WM/Медиаоригиналчаннел
+- проигрыватель Windows Media атрибута WM/медиаоригиналчаннел
 topic_type:
 - apiref
 api_name:
@@ -12,38 +12,38 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd3a8f6fb860f5256d21bb0b9842855b55f1a748
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1c66f8808ea22e8c8efa5d43e2cd68b9dd0ea2a46a941046b9681089ba665790
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053872"
 ---
 # <a name="wmmediaoriginalchannel-attribute"></a>Атрибут WM/Медиаоригиналчаннел
 
 Атрибут **WM/медиаоригиналчаннел** указывает канал, на котором была выполнена предварительная трансляция данной демонстрации.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Элементы видео](video-item-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Константа Windows Media Format SDK для этого атрибута — g \_ всзвммедиаоригиналчаннел.
+константа пакета SDK Windows Media Format для этого атрибута — g \_ всзвммедиаоригиналчаннел.
 
 Чтобы определить, можно ли изменить значение этого атрибута, используйте метод [Media. исреадонлитем](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 10 или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 10 или более поздней версии<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,15 +1,15 @@
 ---
-description: Интерфейс поставщика службы Windows Sockets (Winsock).
+description: Windows Интерфейс (SPI) поставщика услуг сокетов (Winsock).
 ms.assetid: 59ac7ce6-10e7-40ac-bdce-dc01251b0bc5
 title: Winsock SPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ecf63a45f5175a86b8f5eb2a77ef0293182e38f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ec29ad26d97b62c884d2944b31d54c94ea1f61b02f74de28c6ff4c84acc6a52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105650834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051332"
 ---
 # <a name="winsock-spi"></a>Winsock SPI
 
@@ -25,9 +25,9 @@ ms.locfileid: "105650834"
 
 | Prefix | Значение                          | Описание                                       |
 |--------|----------------------------------|---------------------------------------------------|
-| WPS    | Поставщик службы сокетов Windows | Точки входа поставщика услуг транспорта           |
-| впу    | Вызов поставщика сокетов Windows  | Ws2 \_32.dll точки входа для поставщиков услуг    |
-| WSC    | Конфигурация сокетов Windows    | WS2 \_32.dll точки входа для приложений установки |
+| WPS    | Windows Поставщик услуг сокетов | Точки входа поставщика услуг транспорта           |
+| впу    | Windows Вызов поставщика сокетов  | Ws2 \_32.dll точки входа для поставщиков услуг    |
+| WSC    | Windows Конфигурация сокетов    | WS2 \_32.dll точки входа для приложений установки |
 | NSP    | Поставщик пространства имен               | Точки входа поставщика пространства имен                   |
 
 

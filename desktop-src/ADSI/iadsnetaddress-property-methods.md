@@ -21,12 +21,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 073033c703db8eaa55b05058d6d2bbc3d3167f4b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7b3a6d7076350df339df9c3657635af8aed9ca0ad0dd21638155ff074efca312
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961913"
 ---
 # <a name="iadsnetaddress-property-methods"></a>Методы свойств Иадснетаддресс
 
@@ -102,7 +102,7 @@ HRESULT put_AddressType(
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>IAds. h</dt> </dl>       |
+| Заголовок<br/>                   | <dl> <dt>IAds. h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID \_ иадснетаддресс определен как B21A50A9-4080-11D1-A3AC-00C04FB950DC<br/>       |
 

@@ -4,12 +4,12 @@ ms.assetid: 327304c4-fdb9-47c6-9b19-49100b933590
 description: 'Дополнительные сведения: создание многосеансового диска'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2db17b8a16f46797fc0f6de2bf94850e3b3039bc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 95147cbadedc76487ae64797c342eb256df0967bf99efecb9e9cda443b5d3010
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104497829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118758580"
 ---
 # <a name="creating-a-multisession-disc"></a>Создание многосеансового диска
 
@@ -19,11 +19,11 @@ API-интерфейс для работы с [образами](about-imapi.md)
 -   Single-Layer DVD + R/DVD-R
 -   Двойной слой DVD + R
 -   BD-R
--   DVD-RW/DVD + RW (**только Windows 7**)
+-   dvd-rw/dvd + RW (**только Windows 7**)
 -   DVD-RAM (**только Windows 7**)
 -   BD-RE (**только Windows 7**)
 
-Создание многосеансового диска с помощью IMAPI состоит из следующих шагов. Каждый из описанных шагов содержит соответствующую часть полного примера сценария Visual Basic, приведенного в последнем разделе.
+Создание многосеансового диска с помощью IMAPI состоит из следующих шагов. каждый из описанных шагов содержит соответствующую часть полного примера сценария Visual Basic, приведенного в последнем разделе.
 
 ## <a name="initializing-the-disc-recorder"></a>Инициализация записи на диск
 
@@ -40,7 +40,7 @@ API-интерфейс для работы с [образами](about-imapi.md)
 
 
 ```VB
-' **_ CD/DVD disc file system types
+' *** CD/DVD disc file system types
 Const FsiFileSystemISO9660 = 1
 Const FsiFileSystemJoliet  = 2
 Const FsiFileSystemUDF102  = 4
@@ -71,7 +71,7 @@ Function Main
 
 ## <a name="creating-a-data-writer"></a>Создание модуля записи данных
 
-Объект _ *MsftDiscFormat2Data** предоставляет метод записи, его свойства, а также свойства, относящиеся к носителю. Интерфейс [**IDiscFormat2Data**](/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data) предоставляет доступ к этому объекту.
+Объект **MsftDiscFormat2Data** предоставляет метод записи, его свойства, а также свойства, относящиеся к носителю. Интерфейс [**IDiscFormat2Data**](/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data) предоставляет доступ к этому объекту.
 
 Устройство записи дисков привязывается к модулю записи формата с помощью свойства [**IDiscFormat2Data::p UT \_ Record**](/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_recorder) . После привязки модуля записи к модулю записи формата для записи образа на диск с помощью метода [**IDiscFormat2Data:: Write**](/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-write) можно выполнить запросы свойств мультимедиа и записи.
 
@@ -187,7 +187,7 @@ Function Main
 
 ## <a name="example-summary"></a>Пример сводки
 
-В следующем примере скрипта Visual Basic показано, как использовать объекты IMAPI для создания многосеансовых дисков. В этом примере создается новый сеанс и добавляется каталог на диск. В целях простоты код не выполняет расширенную проверку на наличие ошибок и предполагает следующее:
+в следующем примере скрипта Visual Basic показано, как использовать объекты IMAPI для создания многосеансовых дисков. В этом примере создается новый сеанс и добавляется каталог на диск. В целях простоты код не выполняет расширенную проверку на наличие ошибок и предполагает следующее:
 
 -   В системе установлено совместимое устройство чтения.
 -   Устройство является первым диском в системе.
@@ -205,7 +205,7 @@ Function Main
 
 Option Explicit
 
-' **_ CD/DVD disc file system types
+' *** CD/DVD disc file system types
 Const FsiFileSystemISO9660 = 1
 Const FsiFileSystemJoliet  = 2
 Const FsiFileSystemUDF102  = 4
@@ -282,14 +282,14 @@ End Function
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование IMAPI](using-imapi.md)
 </dt> <dt>
 
-[_ *IStream**](/windows/desktop/api/objidl/nn-objidl-istream)
+[**IStream**](/windows/desktop/api/objidl/nn-objidl-istream)
 </dt> <dt>
 
 [**IDiscMaster2**](/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2)

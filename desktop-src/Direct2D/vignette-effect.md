@@ -4,12 +4,12 @@ description: Постепенно уменьшает входной рисуно
 ms.assetid: 34da221f-44a2-1d01-d88d-d7846b9770b9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3fe9302a86a49b060aa05ecb856ce43122d946d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b0c4f955595cfcf081b6de20d7bf81427f83df82806d9eb64e6046921503782f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074976"
 ---
 # <a name="vignette-effect"></a>Вигнетте, результат
 
@@ -21,7 +21,7 @@ ms.locfileid: "104136735"
 -   [Образец кода](#sample-code)
 -   [Свойства эффектов](#effect-properties)
 -   [Требования](#requirements)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="example-image"></a>Пример изображения
 
@@ -51,11 +51,11 @@ m_d2dContext->EndDraw();
 
 | Требование | Значение |
 |--------------------------|---------------------------------------------------|
-| Минимальная версия клиента | Приложения для \[ магазина Windows для классических приложений Windows 10 \|\] |
-| Минимальная версия сервера | Приложения для \[ магазина Windows для классических приложений Windows 10 \|\] |
-| Header                   | d2d1effects \_ 2. h                                  |
+| Минимальная версия клиента | Windows 10 \[ классические приложения \| Windows приложения магазина\] |
+| Минимальная версия сервера | Windows 10 \[ классические приложения \| Windows приложения магазина\] |
+| Заголовок                   | d2d1effects \_ 2. h                                  |
 | Библиотека                  | D2D1. lib, дксгуид. lib                              |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 * [Интерфейс ID2D1Effect](/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect)

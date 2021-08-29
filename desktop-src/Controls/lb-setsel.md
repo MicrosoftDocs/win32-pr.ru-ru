@@ -3,7 +3,7 @@ title: Сообщение LB_SETSEL (Winuser. h)
 description: Выбирает элемент в списке с множественным выбором и при необходимости прокручивает его до представления.
 ms.assetid: 643783f2-0e00-4b79-b957-47938bb9f8da
 keywords:
-- Элементы управления Windows для LB_SETSEL сообщений
+- элементы управления Windows сообщений LB_SETSEL
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd50f12c4190ba9ecafad11b167c1ac60adf691d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4830dc83a2b62fa87a222be276cdd9db55720014adeaa03362f4965bc0ecf246
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958533"
 ---
 # <a name="lb_setsel-message"></a>Сообщение сетсел балансировки нагрузки \_
 
@@ -47,19 +47,19 @@ ms.locfileid: "104492429"
 
 Если возникает ошибка, возвращается значение фунтов \_ Err.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это сообщение следует использовать только в списках с множественным выбором.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Header<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

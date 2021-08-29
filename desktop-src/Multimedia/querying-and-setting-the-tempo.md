@@ -11,12 +11,12 @@ keywords:
 - темп
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3927d2f04e1b073b25c262437620325dc5cd040
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c5db1c703272a477b36399335b68a81ce1e8711618acf205e702045704b24974
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103780114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805724"
 ---
 # <a name="querying-and-setting-the-tempo"></a>Запрос и установка темп
 
@@ -26,9 +26,9 @@ ms.locfileid: "103780114"
 
 Способ представления темп зависит от типа деления последовательности. Если тип деления — ППКН, темп представляется в виде ритма в минуту. Если тип деления является одним из типов деления SMPTE, темп представляется в кадрах в секунду. Дополнительные сведения об определении типа деления последовательности см. [в разделе Получение типа деления последовательности](retrieving-the-sequence-division-type.md).
 
- 
+ 
 
- 
+ 
 
 
 

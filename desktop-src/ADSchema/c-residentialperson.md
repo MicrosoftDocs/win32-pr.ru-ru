@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f6292832757a303e4fc7a184ce256b7e791300a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 3684c2b8b28a4868f349fa5a74a4856cb9d7f45fc94d83c33211abb4529631cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104137943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118959673"
 ---
 # <a name="residential-person-class"></a>Класс Residential-Person
 
@@ -69,9 +69,9 @@ ms.locfileid: "104137943"
 
 
 
-## <a name="windows-2000-server-attributes"></a>Атрибуты сервера Windows 2000
+## <a name="windows-2000-server-attributes"></a>атрибуты сервера Windows 2000
 
-Этот класс содержит следующие атрибуты для сервера Windows 2000:
+этот класс содержит следующие атрибуты для сервера Windows 2000:
 
 
 
@@ -86,7 +86,7 @@ ms.locfileid: "104137943"
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)             | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Бизнес — Категория**](a-businesscategory.md)                           | Неверно     | **Частный пользователь**                                                |
 | [**Каноническое имя**](a-canonicalname.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**Common-Name**](a-cn.md)                                               | True      | [**Человек**](c-person.md)<br/> [**Вверх**](c-top.md)<br/> |
+| [**Common-Name**](a-cn.md)                                               | Верно      | [**Человек**](c-person.md)<br/> [**Вверх**](c-top.md)<br/> |
 | [**Метка времени создания**](a-createtimestamp.md)                            | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Описание**](a-description.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Целевой индикатор**](a-destinationindicator.md)                   | Неверно     | **Частный пользователь**                                                |
@@ -101,7 +101,7 @@ ms.locfileid: "104137943"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)             | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**Тип экземпляра**](a-instancetype.md)                                   | True      | [**Вверх**](c-top.md)<br/>                                       |
+| [**Тип экземпляра**](a-instancetype.md)                                   | Верно      | [**Вверх**](c-top.md)<br/>                                       |
 | [**Международный-ISDN-номер**](a-internationalisdnnumber.md)            | Неверно     | **Частный пользователь**                                                |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)             | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Удалено**](a-isdeleted.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
@@ -116,21 +116,21 @@ ms.locfileid: "104137943"
 | [**MS-DS-Consistencу-Guid**](a-ms-ds-consistencyguid.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                   | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                  | True      | [**Вверх**](c-top.md)<br/>                                       |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                  | Верно      | [**Вверх**](c-top.md)<br/>                                       |
 | [**Obj-расп-имя**](a-distinguishedname.md)                              | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**Объект — Категория**](a-objectcategory.md)                               | True      | [**Вверх**](c-top.md)<br/>                                       |
-| [**Объектный класс**](a-objectclass.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                       |
+| [**Объект — Категория**](a-objectcategory.md)                               | Верно      | [**Вверх**](c-top.md)<br/>                                       |
+| [**Объектный класс**](a-objectclass.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                       |
 | [**Объект — GUID**](a-objectguid.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Версия объекта**](a-objectversion.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Организация — имя подразделения**](a-ou.md)                                  | Неверно     | **Частный пользователь**                                                |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Разделяемый атрибут-удаление-список**](a-partialattributedeletionlist.md) | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Разделяемый атрибут-set**](a-partialattributeset.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**Физическая доставка — офис — имя**](a-physicaldeliveryofficename.md)     | Неверно     | **Частный пользователь**                                                |
+| [**физическая доставка — Office-имя**](a-physicaldeliveryofficename.md)     | Неверно     | **Частный пользователь**                                                |
 | [**Возможно — подстрочные**](a-possibleinferiors.md)                         | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Почтовый адрес**](a-postaladdress.md)                                 | Неверно     | **Частный пользователь**                                                |
 | [**Почтовый код**](a-postalcode.md)                                       | Неверно     | **Частный пользователь**                                                |
-| [**Пост-Office-Box**](a-postofficebox.md)                                | Неверно     | **Частный пользователь**                                                |
+| [**флажок после Office**](a-postofficebox.md)                                | Неверно     | **Частный пользователь**                                                |
 | [**Предпочтительный метод доставки**](a-preferreddeliverymethod.md)            | Неверно     | **Частный пользователь**                                                |
 | [**Прокси-объект-имя**](a-proxiedobjectname.md)                        | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Прокси-адреса**](a-proxyaddresses.md)                               | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
@@ -157,7 +157,7 @@ ms.locfileid: "104137943"
 | [**Номер телефона**](a-telephonenumber.md)                             | Неверно     | [**Человек**](c-person.md)<br/>                                 |
 | [**Teletex — идентификатор терминала**](a-teletexterminalidentifier.md)        | Неверно     | **Частный пользователь**                                                |
 | [**Номер телекса**](a-telexnumber.md)                                     | Неверно     | **Частный пользователь**                                                |
-| [**Заголовок**](a-title.md)                                                  | Неверно     | **Частный пользователь**                                                |
+| [**Название**](a-title.md)                                                  | Неверно     | **Частный пользователь**                                                |
 | [**Пароль пользователя**](a-userpassword.md)                                   | Неверно     | [**Человек**](c-person.md)<br/>                                 |
 | [**USN-изменено**](a-usnchanged.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Созданный USN**](a-usncreated.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
@@ -198,9 +198,9 @@ ms.locfileid: "104137943"
 
 
 
-## <a name="windows-server-2003-attributes"></a>Атрибуты Windows Server 2003
+## <a name="windows-server-2003-attributes"></a>Windows Атрибуты сервера 2003
 
-Этот класс содержит следующие атрибуты для Windows Server 2003:
+этот класс содержит следующие атрибуты для Windows Server 2003:
 
 
 
@@ -216,7 +216,7 @@ ms.locfileid: "104137943"
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Бизнес — Категория**](a-businesscategory.md)                             | Неверно     | **Частный пользователь**                                                |
 | [**Каноническое имя**](a-canonicalname.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**Common-Name**](a-cn.md)                                                 | True      | [**Человек**](c-person.md)<br/> [**Вверх**](c-top.md)<br/> |
+| [**Common-Name**](a-cn.md)                                                 | Верно      | [**Человек**](c-person.md)<br/> [**Вверх**](c-top.md)<br/> |
 | [**Метка времени создания**](a-createtimestamp.md)                              | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Описание**](a-description.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Целевой индикатор**](a-destinationindicator.md)                     | Неверно     | **Частный пользователь**                                                |
@@ -231,7 +231,7 @@ ms.locfileid: "104137943"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                   | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**Тип экземпляра**](a-instancetype.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                       |
+| [**Тип экземпляра**](a-instancetype.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                       |
 | [**Международный-ISDN-номер**](a-internationalisdnnumber.md)              | Неверно     | **Частный пользователь**                                                |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Удалено**](a-isdeleted.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
@@ -263,21 +263,21 @@ ms.locfileid: "104137943"
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                     | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | True      | [**Вверх**](c-top.md)<br/>                                       |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | Верно      | [**Вверх**](c-top.md)<br/>                                       |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**Объект — Категория**](a-objectcategory.md)                                 | True      | [**Вверх**](c-top.md)<br/>                                       |
-| [**Объектный класс**](a-objectclass.md)                                       | True      | [**Вверх**](c-top.md)<br/>                                       |
+| [**Объект — Категория**](a-objectcategory.md)                                 | Верно      | [**Вверх**](c-top.md)<br/>                                       |
+| [**Объектный класс**](a-objectclass.md)                                       | Верно      | [**Вверх**](c-top.md)<br/>                                       |
 | [**Объект — GUID**](a-objectguid.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Версия объекта**](a-objectversion.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Организация — имя подразделения**](a-ou.md)                                    | Неверно     | **Частный пользователь**                                                |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Разделяемый атрибут-удаление-список**](a-partialattributedeletionlist.md)   | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Разделяемый атрибут-set**](a-partialattributeset.md)                      | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**Физическая доставка — офис — имя**](a-physicaldeliveryofficename.md)       | Неверно     | **Частный пользователь**                                                |
+| [**физическая доставка — Office-имя**](a-physicaldeliveryofficename.md)       | Неверно     | **Частный пользователь**                                                |
 | [**Возможно — подстрочные**](a-possibleinferiors.md)                           | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Почтовый адрес**](a-postaladdress.md)                                   | Неверно     | **Частный пользователь**                                                |
 | [**Почтовый код**](a-postalcode.md)                                         | Неверно     | **Частный пользователь**                                                |
-| [**Пост-Office-Box**](a-postofficebox.md)                                  | Неверно     | **Частный пользователь**                                                |
+| [**флажок после Office**](a-postofficebox.md)                                  | Неверно     | **Частный пользователь**                                                |
 | [**Предпочтительный метод доставки**](a-preferreddeliverymethod.md)              | Неверно     | **Частный пользователь**                                                |
 | [**Прокси-объект-имя**](a-proxiedobjectname.md)                          | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Прокси-адреса**](a-proxyaddresses.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
@@ -306,7 +306,7 @@ ms.locfileid: "104137943"
 | [**Номер телефона**](a-telephonenumber.md)                               | Неверно     | [**Человек**](c-person.md)<br/>                                 |
 | [**Teletex — идентификатор терминала**](a-teletexterminalidentifier.md)          | Неверно     | **Частный пользователь**                                                |
 | [**Номер телекса**](a-telexnumber.md)                                       | Неверно     | **Частный пользователь**                                                |
-| [**Заголовок**](a-title.md)                                                    | Неверно     | **Частный пользователь**                                                |
+| [**Название**](a-title.md)                                                    | Неверно     | **Частный пользователь**                                                |
 | [**Пароль пользователя**](a-userpassword.md)                                     | Неверно     | [**Человек**](c-person.md)<br/>                                 |
 | [**USN-изменено**](a-usnchanged.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Созданный USN**](a-usncreated.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
@@ -347,9 +347,9 @@ ms.locfileid: "104137943"
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Атрибуты Windows Server 2003 R2
+## <a name="windows-server-2003-r2-attributes"></a>Windows Атрибуты сервера 2003 R2
 
-Этот класс содержит следующие атрибуты для Windows Server 2003 R2:
+этот класс содержит следующие атрибуты для Windows Server 2003 R2:
 
 
 
@@ -365,7 +365,7 @@ ms.locfileid: "104137943"
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Бизнес — Категория**](a-businesscategory.md)                             | Неверно     | **Частный пользователь**                                                |
 | [**Каноническое имя**](a-canonicalname.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**Common-Name**](a-cn.md)                                                 | True      | [**Человек**](c-person.md)<br/> [**Вверх**](c-top.md)<br/> |
+| [**Common-Name**](a-cn.md)                                                 | Верно      | [**Человек**](c-person.md)<br/> [**Вверх**](c-top.md)<br/> |
 | [**Метка времени создания**](a-createtimestamp.md)                              | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Описание**](a-description.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Целевой индикатор**](a-destinationindicator.md)                     | Неверно     | **Частный пользователь**                                                |
@@ -380,7 +380,7 @@ ms.locfileid: "104137943"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                   | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**Тип экземпляра**](a-instancetype.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                       |
+| [**Тип экземпляра**](a-instancetype.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                       |
 | [**Международный-ISDN-номер**](a-internationalisdnnumber.md)              | Неверно     | **Частный пользователь**                                                |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Удалено**](a-isdeleted.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
@@ -415,21 +415,21 @@ ms.locfileid: "104137943"
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                     | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | True      | [**Вверх**](c-top.md)<br/>                                       |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | Верно      | [**Вверх**](c-top.md)<br/>                                       |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**Объект — Категория**](a-objectcategory.md)                                 | True      | [**Вверх**](c-top.md)<br/>                                       |
-| [**Объектный класс**](a-objectclass.md)                                       | True      | [**Вверх**](c-top.md)<br/>                                       |
+| [**Объект — Категория**](a-objectcategory.md)                                 | Верно      | [**Вверх**](c-top.md)<br/>                                       |
+| [**Объектный класс**](a-objectclass.md)                                       | Верно      | [**Вверх**](c-top.md)<br/>                                       |
 | [**Объект — GUID**](a-objectguid.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Версия объекта**](a-objectversion.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Организация — имя подразделения**](a-ou.md)                                    | Неверно     | **Частный пользователь**                                                |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Разделяемый атрибут-удаление-список**](a-partialattributedeletionlist.md)   | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Разделяемый атрибут-set**](a-partialattributeset.md)                      | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**Физическая доставка — офис — имя**](a-physicaldeliveryofficename.md)       | Неверно     | **Частный пользователь**                                                |
+| [**физическая доставка — Office-имя**](a-physicaldeliveryofficename.md)       | Неверно     | **Частный пользователь**                                                |
 | [**Возможно — подстрочные**](a-possibleinferiors.md)                           | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Почтовый адрес**](a-postaladdress.md)                                   | Неверно     | **Частный пользователь**                                                |
 | [**Почтовый код**](a-postalcode.md)                                         | Неверно     | **Частный пользователь**                                                |
-| [**Пост-Office-Box**](a-postofficebox.md)                                  | Неверно     | **Частный пользователь**                                                |
+| [**флажок после Office**](a-postofficebox.md)                                  | Неверно     | **Частный пользователь**                                                |
 | [**Предпочтительный метод доставки**](a-preferreddeliverymethod.md)              | Неверно     | **Частный пользователь**                                                |
 | [**Прокси-объект-имя**](a-proxiedobjectname.md)                          | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Прокси-адреса**](a-proxyaddresses.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
@@ -458,7 +458,7 @@ ms.locfileid: "104137943"
 | [**Номер телефона**](a-telephonenumber.md)                               | Неверно     | [**Человек**](c-person.md)<br/>                                 |
 | [**Teletex — идентификатор терминала**](a-teletexterminalidentifier.md)          | Неверно     | **Частный пользователь**                                                |
 | [**Номер телекса**](a-telexnumber.md)                                       | Неверно     | **Частный пользователь**                                                |
-| [**Заголовок**](a-title.md)                                                    | Неверно     | **Частный пользователь**                                                |
+| [**Название**](a-title.md)                                                    | Неверно     | **Частный пользователь**                                                |
 | [**Пароль пользователя**](a-userpassword.md)                                     | Неверно     | [**Человек**](c-person.md)<br/>                                 |
 | [**USN-изменено**](a-usnchanged.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Созданный USN**](a-usncreated.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
@@ -499,9 +499,9 @@ ms.locfileid: "104137943"
 
 
 
-## <a name="windows-server-2008-attributes"></a>Атрибуты Windows Server 2008
+## <a name="windows-server-2008-attributes"></a>Windows Атрибуты сервера 2008
 
-Этот класс содержит следующие атрибуты для Windows Server 2008:
+этот класс содержит следующие атрибуты для Windows Server 2008:
 
 
 
@@ -517,7 +517,7 @@ ms.locfileid: "104137943"
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Бизнес — Категория**](a-businesscategory.md)                                | Неверно     | **Частный пользователь**                                                |
 | [**Каноническое имя**](a-canonicalname.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**Common-Name**](a-cn.md)                                                    | True      | [**Человек**](c-person.md)<br/> [**Вверх**](c-top.md)<br/> |
+| [**Common-Name**](a-cn.md)                                                    | Верно      | [**Человек**](c-person.md)<br/> [**Вверх**](c-top.md)<br/> |
 | [**Метка времени создания**](a-createtimestamp.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Описание**](a-description.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Целевой индикатор**](a-destinationindicator.md)                        | Неверно     | **Частный пользователь**                                                |
@@ -532,7 +532,7 @@ ms.locfileid: "104137943"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                      | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**Тип экземпляра**](a-instancetype.md)                                        | True      | [**Вверх**](c-top.md)<br/>                                       |
+| [**Тип экземпляра**](a-instancetype.md)                                        | Верно      | [**Вверх**](c-top.md)<br/>                                       |
 | [**Международный-ISDN-номер**](a-internationalisdnnumber.md)                 | Неверно     | **Частный пользователь**                                                |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Удалено**](a-isdeleted.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
@@ -578,21 +578,21 @@ ms.locfileid: "104137943"
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                     | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                        | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                       | True      | [**Вверх**](c-top.md)<br/>                                       |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                       | Верно      | [**Вверх**](c-top.md)<br/>                                       |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**Объект — Категория**](a-objectcategory.md)                                    | True      | [**Вверх**](c-top.md)<br/>                                       |
-| [**Объектный класс**](a-objectclass.md)                                          | True      | [**Вверх**](c-top.md)<br/>                                       |
+| [**Объект — Категория**](a-objectcategory.md)                                    | Верно      | [**Вверх**](c-top.md)<br/>                                       |
+| [**Объектный класс**](a-objectclass.md)                                          | Верно      | [**Вверх**](c-top.md)<br/>                                       |
 | [**Объект — GUID**](a-objectguid.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Версия объекта**](a-objectversion.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Организация — имя подразделения**](a-ou.md)                                       | Неверно     | **Частный пользователь**                                                |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Разделяемый атрибут-удаление-список**](a-partialattributedeletionlist.md)      | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Разделяемый атрибут-set**](a-partialattributeset.md)                         | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**Физическая доставка — офис — имя**](a-physicaldeliveryofficename.md)          | Неверно     | **Частный пользователь**                                                |
+| [**физическая доставка — Office-имя**](a-physicaldeliveryofficename.md)          | Неверно     | **Частный пользователь**                                                |
 | [**Возможно — подстрочные**](a-possibleinferiors.md)                              | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Почтовый адрес**](a-postaladdress.md)                                      | Неверно     | **Частный пользователь**                                                |
 | [**Почтовый код**](a-postalcode.md)                                            | Неверно     | **Частный пользователь**                                                |
-| [**Пост-Office-Box**](a-postofficebox.md)                                     | Неверно     | **Частный пользователь**                                                |
+| [**флажок после Office**](a-postofficebox.md)                                     | Неверно     | **Частный пользователь**                                                |
 | [**Предпочтительный метод доставки**](a-preferreddeliverymethod.md)                 | Неверно     | **Частный пользователь**                                                |
 | [**Прокси-объект-имя**](a-proxiedobjectname.md)                             | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Прокси-адреса**](a-proxyaddresses.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
@@ -621,7 +621,7 @@ ms.locfileid: "104137943"
 | [**Номер телефона**](a-telephonenumber.md)                                  | Неверно     | [**Человек**](c-person.md)<br/>                                 |
 | [**Teletex — идентификатор терминала**](a-teletexterminalidentifier.md)             | Неверно     | **Частный пользователь**                                                |
 | [**Номер телекса**](a-telexnumber.md)                                          | Неверно     | **Частный пользователь**                                                |
-| [**Заголовок**](a-title.md)                                                       | Неверно     | **Частный пользователь**                                                |
+| [**Название**](a-title.md)                                                       | Неверно     | **Частный пользователь**                                                |
 | [**Пароль пользователя**](a-userpassword.md)                                        | Неверно     | [**Человек**](c-person.md)<br/>                                 |
 | [**USN-изменено**](a-usnchanged.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Созданный USN**](a-usncreated.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
@@ -662,9 +662,9 @@ ms.locfileid: "104137943"
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Атрибуты Windows Server 2008 R2
+## <a name="windows-server-2008-r2-attributes"></a>Windows Атрибуты сервера 2008 R2
 
-Этот класс содержит следующие атрибуты для Windows Server 2008 R2:
+этот класс содержит следующие атрибуты для Windows Server 2008 R2:
 
 
 
@@ -680,7 +680,7 @@ ms.locfileid: "104137943"
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Бизнес — Категория**](a-businesscategory.md)                                  | Неверно     | **Частный пользователь**                                                |
 | [**Каноническое имя**](a-canonicalname.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**Common-Name**](a-cn.md)                                                      | True      | [**Человек**](c-person.md)<br/> [**Вверх**](c-top.md)<br/> |
+| [**Common-Name**](a-cn.md)                                                      | Верно      | [**Человек**](c-person.md)<br/> [**Вверх**](c-top.md)<br/> |
 | [**Метка времени создания**](a-createtimestamp.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Описание**](a-description.md)                                             | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Целевой индикатор**](a-destinationindicator.md)                          | Неверно     | **Частный пользователь**                                                |
@@ -695,7 +695,7 @@ ms.locfileid: "104137943"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                        | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**Тип экземпляра**](a-instancetype.md)                                          | True      | [**Вверх**](c-top.md)<br/>                                       |
+| [**Тип экземпляра**](a-instancetype.md)                                          | Верно      | [**Вверх**](c-top.md)<br/>                                       |
 | [**Международный-ISDN-номер**](a-internationalisdnnumber.md)                   | Неверно     | **Частный пользователь**                                                |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Удалено**](a-isdeleted.md)                                                | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
@@ -748,21 +748,21 @@ ms.locfileid: "104137943"
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                       | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                          | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                         | True      | [**Вверх**](c-top.md)<br/>                                       |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                         | Верно      | [**Вверх**](c-top.md)<br/>                                       |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**Объект — Категория**](a-objectcategory.md)                                      | True      | [**Вверх**](c-top.md)<br/>                                       |
-| [**Объектный класс**](a-objectclass.md)                                            | True      | [**Вверх**](c-top.md)<br/>                                       |
+| [**Объект — Категория**](a-objectcategory.md)                                      | Верно      | [**Вверх**](c-top.md)<br/>                                       |
+| [**Объектный класс**](a-objectclass.md)                                            | Верно      | [**Вверх**](c-top.md)<br/>                                       |
 | [**Объект — GUID**](a-objectguid.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Версия объекта**](a-objectversion.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Организация — имя подразделения**](a-ou.md)                                         | Неверно     | **Частный пользователь**                                                |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                      | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Разделяемый атрибут-удаление-список**](a-partialattributedeletionlist.md)        | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Разделяемый атрибут-set**](a-partialattributeset.md)                           | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**Физическая доставка — офис — имя**](a-physicaldeliveryofficename.md)            | Неверно     | **Частный пользователь**                                                |
+| [**физическая доставка — Office-имя**](a-physicaldeliveryofficename.md)            | Неверно     | **Частный пользователь**                                                |
 | [**Возможно — подстрочные**](a-possibleinferiors.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Почтовый адрес**](a-postaladdress.md)                                        | Неверно     | **Частный пользователь**                                                |
 | [**Почтовый код**](a-postalcode.md)                                              | Неверно     | **Частный пользователь**                                                |
-| [**Пост-Office-Box**](a-postofficebox.md)                                       | Неверно     | **Частный пользователь**                                                |
+| [**флажок после Office**](a-postofficebox.md)                                       | Неверно     | **Частный пользователь**                                                |
 | [**Предпочтительный метод доставки**](a-preferreddeliverymethod.md)                   | Неверно     | **Частный пользователь**                                                |
 | [**Прокси-объект-имя**](a-proxiedobjectname.md)                               | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Прокси-адреса**](a-proxyaddresses.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
@@ -791,7 +791,7 @@ ms.locfileid: "104137943"
 | [**Номер телефона**](a-telephonenumber.md)                                    | Неверно     | [**Человек**](c-person.md)<br/>                                 |
 | [**Teletex — идентификатор терминала**](a-teletexterminalidentifier.md)               | Неверно     | **Частный пользователь**                                                |
 | [**Номер телекса**](a-telexnumber.md)                                            | Неверно     | **Частный пользователь**                                                |
-| [**Заголовок**](a-title.md)                                                         | Неверно     | **Частный пользователь**                                                |
+| [**Название**](a-title.md)                                                         | Неверно     | **Частный пользователь**                                                |
 | [**Пароль пользователя**](a-userpassword.md)                                          | Неверно     | [**Человек**](c-person.md)<br/>                                 |
 | [**USN-изменено**](a-usnchanged.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Созданный USN**](a-usncreated.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
@@ -832,7 +832,7 @@ ms.locfileid: "104137943"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Атрибуты Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Атрибута
 
 Этот класс содержит следующие атрибуты для Windows Server 2012:
 
@@ -850,7 +850,7 @@ ms.locfileid: "104137943"
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Бизнес — Категория**](a-businesscategory.md)                                              | Неверно     | **Частный пользователь**                                                |
 | [**Каноническое имя**](a-canonicalname.md)                                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**Common-Name**](a-cn.md)                                                                  | True      | [**Человек**](c-person.md)<br/> [**Вверх**](c-top.md)<br/> |
+| [**Common-Name**](a-cn.md)                                                                  | Верно      | [**Человек**](c-person.md)<br/> [**Вверх**](c-top.md)<br/> |
 | [**Метка времени создания**](a-createtimestamp.md)                                               | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Описание**](a-description.md)                                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Целевой индикатор**](a-destinationindicator.md)                                      | Неверно     | **Частный пользователь**                                                |
@@ -865,7 +865,7 @@ ms.locfileid: "104137943"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**Тип экземпляра**](a-instancetype.md)                                                      | True      | [**Вверх**](c-top.md)<br/>                                       |
+| [**Тип экземпляра**](a-instancetype.md)                                                      | Верно      | [**Вверх**](c-top.md)<br/>                                       |
 | [**Международный-ISDN-номер**](a-internationalisdnnumber.md)                               | Неверно     | **Частный пользователь**                                                |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Удалено**](a-isdeleted.md)                                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
@@ -917,28 +917,28 @@ ms.locfileid: "104137943"
 | [**MS-DS-выводит-List-BL**](a-msds-revealedlistbl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**MS-DS-TDO-исходящий трафик — BL**](a-msds-tdoegressbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**MS-DS-TDO-входящий трафик — BL**](a-msds-tdoingressbl.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**MS-DS-value-type-Reference-BL**](a-msds-valuetypereferencebl.md)                         | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                       |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                       |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**Объект — Категория**](a-objectcategory.md)                                                  | True      | [**Вверх**](c-top.md)<br/>                                       |
-| [**Объектный класс**](a-objectclass.md)                                                        | True      | [**Вверх**](c-top.md)<br/>                                       |
+| [**Объект — Категория**](a-objectcategory.md)                                                  | Верно      | [**Вверх**](c-top.md)<br/>                                       |
+| [**Объектный класс**](a-objectclass.md)                                                        | Верно      | [**Вверх**](c-top.md)<br/>                                       |
 | [**Объект — GUID**](a-objectguid.md)                                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Версия объекта**](a-objectversion.md)                                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Организация — имя подразделения**](a-ou.md)                                                     | Неверно     | **Частный пользователь**                                                |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Разделяемый атрибут-удаление-список**](a-partialattributedeletionlist.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Разделяемый атрибут-set**](a-partialattributeset.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
-| [**Физическая доставка — офис — имя**](a-physicaldeliveryofficename.md)                        | Неверно     | **Частный пользователь**                                                |
+| [**физическая доставка — Office-имя**](a-physicaldeliveryofficename.md)                        | Неверно     | **Частный пользователь**                                                |
 | [**Возможно — подстрочные**](a-possibleinferiors.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Почтовый адрес**](a-postaladdress.md)                                                    | Неверно     | **Частный пользователь**                                                |
 | [**Почтовый код**](a-postalcode.md)                                                          | Неверно     | **Частный пользователь**                                                |
-| [**Пост-Office-Box**](a-postofficebox.md)                                                   | Неверно     | **Частный пользователь**                                                |
+| [**флажок после Office**](a-postofficebox.md)                                                   | Неверно     | **Частный пользователь**                                                |
 | [**Предпочтительный метод доставки**](a-preferreddeliverymethod.md)                               | Неверно     | **Частный пользователь**                                                |
 | [**Прокси-объект-имя**](a-proxiedobjectname.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Прокси-адреса**](a-proxyaddresses.md)                                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
@@ -967,7 +967,7 @@ ms.locfileid: "104137943"
 | [**Номер телефона**](a-telephonenumber.md)                                                | Неверно     | [**Человек**](c-person.md)<br/>                                 |
 | [**Teletex — идентификатор терминала**](a-teletexterminalidentifier.md)                           | Неверно     | **Частный пользователь**                                                |
 | [**Номер телекса**](a-telexnumber.md)                                                        | Неверно     | **Частный пользователь**                                                |
-| [**Заголовок**](a-title.md)                                                                     | Неверно     | **Частный пользователь**                                                |
+| [**Название**](a-title.md)                                                                     | Неверно     | **Частный пользователь**                                                |
 | [**Пароль пользователя**](a-userpassword.md)                                                      | Неверно     | [**Человек**](c-person.md)<br/>                                 |
 | [**USN-изменено**](a-usnchanged.md)                                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                       |
 | [**Созданный USN**](a-usncreated.md)                                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                       |

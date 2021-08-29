@@ -4,12 +4,12 @@ description: Приложение Впдсервицеаписампле дем�
 ms.assetid: 7fbd6f65-366a-49ea-a680-be77ca0d64f2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98e57258993d0a81f68042195db2caf338c97c53
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: b56b164980249911ce267050143611dc599520fc841e33157bd6ac84718c1728
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806694"
 ---
 # <a name="retrieving-wpd-object-properties"></a>Получение свойств объекта WPD
 

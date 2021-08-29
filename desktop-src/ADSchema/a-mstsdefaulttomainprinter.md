@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bce24afc715ec838ec0e4a5bd559cef4ff3658a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 758d088429549d4e79ba05ff46d4baa81c64e19dbc6bae072c1b08553cdbb5af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802744"
 ---
 # <a name="ms-ts-default-to-main-printer-attribute"></a>атрибут MS-TS-Default-to-Main-Printer
 
@@ -36,7 +36,7 @@ ms.locfileid: "105655121"
 | Частота обновления  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1988              |
 | System-ID — GUID    | c0ffe2bd-cacf-4dc7-88d5-61e9e95766f6 |
-| Синтаксис            | [**Логическая**](s-boolean.md)         |
+| Синтаксис            | [**Логическое**](s-boolean.md)         |
 
 
 
@@ -54,16 +54,16 @@ ms.locfileid: "105655121"
 |------------------------|-----------------------------------|
 | Идентификатор ссылки                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | Неверно                             |
-| Является однозначным       | True                              |
-| Индексируется             | Неверно                             |
-| В глобальном каталоге      | Неверно                             |
+| System-Only            | Нет                             |
+| Является однозначным       | Верно                              |
+| Индексируется             | Нет                             |
+| В глобальном каталоге      | Нет                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -75,16 +75,16 @@ ms.locfileid: "105655121"
 |------------------------|-----------------------------------|
 | Идентификатор ссылки                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | Неверно                             |
-| Является однозначным       | True                              |
-| Индексируется             | Неверно                             |
-| В глобальном каталоге      | Неверно                             |
+| System-Only            | Нет                             |
+| Является однозначным       | Верно                              |
+| Индексируется             | Нет                             |
+| В глобальном каталоге      | Нет                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -96,10 +96,10 @@ ms.locfileid: "105655121"
 |------------------------|-----------------------------------|
 | Идентификатор ссылки                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | Неверно                             |
-| Является однозначным       | True                              |
-| Индексируется             | Неверно                             |
-| В глобальном каталоге      | Неверно                             |
+| System-Only            | Нет                             |
+| Является однозначным       | Верно                              |
+| Индексируется             | Нет                             |
+| В глобальном каталоге      | Нет                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |

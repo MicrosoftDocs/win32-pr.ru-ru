@@ -4,12 +4,12 @@ ms.assetid: 48aa6be8-e8a2-48a5-aa71-3e5ed7032551
 title: IP версии 6 (IPv6)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9647b70571b0bc81cbea508cf2e3bb55662efdf0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 638a92227ca0f8f84b5f63cc7f2a5d3a2c13eb38b3c0dced1c241933815ef46e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051512"
 ---
 # <a name="internet-protocol-version-6-ipv6"></a>IP версии 6 (IPv6)
 
@@ -17,7 +17,7 @@ ms.locfileid: "103897333"
 
 По адресу IPv6 доступны новые веб-сайты и службы с растущим процентом. Многие пользователи Интернета на новых рынках зависят от IPv6 для доступа к Интернету.
 
-Корпорация Майкрософт обладает долгим обязательством по поддержке IPv6. Полная поддержка IPv6 предоставляется в Windows XP с пакетом обновления 1 (SP1) и более поздних версий.
+Корпорация Майкрософт обладает долгим обязательством по поддержке IPv6. полная поддержка IPv6 предоставляется в Windows XP с пакетом обновления 1 (SP1) и более поздних версий.
 
 В этом документе содержатся сведения о поддержке Winsock для IPv6:
 
@@ -26,21 +26,21 @@ ms.locfileid: "103897333"
 -   [Рекомендуемые конфигурации для IPv6](recommended-configurations-2.md)
 -   [Дополнительные разделы по IPv6](additional-topics-2.md)
 
-Дополнительные сведения о добавлении возможностей IPv6 в приложения Windows Sockets см. в разделе [рекомендации по IPv6 для приложений Windows Sockets](ipv6-guide-for-windows-sockets-applications-2.md).
+дополнительные сведения о добавлении возможностей IPv6 в приложения Windows sockets см. в разделе [рекомендации по ipv6 для приложений Windows sockets](ipv6-guide-for-windows-sockets-applications-2.md).
 
 Общие сведения о протоколе IPv6, а также обзорные технологии развертывания и туннелирования IPv6 доступны в TechNet по [протоколу Microsoft Internet Protocol версии 6 (IPv6)](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd379473(v=ws.10)).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Рекомендации по IPv6 для приложений Windows Sockets](ipv6-guide-for-windows-sockets-applications-2.md)
+[рекомендации по IPv6 для приложений Windows sockets](ipv6-guide-for-windows-sockets-applications-2.md)
 </dt> <dt>
 
 [Поддержка IPv6](ipv6-support-2.md)
 </dt> <dt>
 
-[Предварительный просмотр технологии IPv6 для Windows 2000](https://www.microsoft.com/downloads/details.aspx?FamilyID=27b1e6a6-bbdd-43c9-af57-dae19795a088)
+[предварительный просмотр технологии IPv6 для Windows 2000](https://www.microsoft.com/downloads/details.aspx?FamilyID=27b1e6a6-bbdd-43c9-af57-dae19795a088)
 </dt> <dt>
 
 [Протокол Microsoft IP версии 6 (IPv6)](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd379473(v=ws.10))

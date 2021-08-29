@@ -32,7 +32,7 @@
                   href: /windows/desktop/api/Winbase/nf-winbase-getmailslotinfo
                 - name: сетмаилслотинфо
                   href: /windows/desktop/api/Winbase/nf-winbase-setmailslotinfo
-    - name: Сетевой платформа динамических данных Exchange
+    - name: Сетевые платформа динамических данных Exchange
       href: network-dynamic-data-exchange.md
       items:
         - name: О сетевом DDE
