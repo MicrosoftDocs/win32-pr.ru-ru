@@ -6,12 +6,12 @@ keywords:
 - Ключ реестра FileType-COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a2e331588b627ee5ce9a9c1b69631f1e8a1dbe4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2899b69c2f433fbd3587bdd7baa6c17c4f8cc4c9cd32100dcd672f9d213d4d3b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119462503"
 ---
 # <a name="filetype-key"></a>Ключ FileType
 
@@ -21,8 +21,8 @@ ms.locfileid: "104068540"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FileType
-   {CLSID}
-      n = offset, cb, mask, value
+   {CLSID}
+      n = offset, cb, mask, value
 ```
 
 <dl> <dt>
@@ -55,13 +55,13 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FileType
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Записи используются функцией [**жетклассфиле**](/windows/desktop/api/Objbase/nf-objbase-getclassfile) для сопоставления шаблонов с различными байтами файлов в несоставном файле. **Тип_файла** имеет подразделы CLSID, каждый из которых имеет ряд подразделов **0**, **1**, **2**, **3**. Эти значения содержат закономерности, которые, если таковые совпадают, дают указанный идентификатор CLSID. Например, значение "0, 4, FFFFFFFF, ABCD1234" указывает, что первые 4 байта должны быть ABCD1234 в указанном порядке. Значение "-4, 4, ФЕФЕФЕФЕ" указывает, что последние четыре байта в файле должны быть ФЕФЕФЕФЕ. Если любой из шаблонов соответствует, возвращается идентификатор CLSID.
 
 Ключ **\_ \_ \\ \\ классов программного обеспечения файла hKey на локальном компьютере** соответствует **\_ \_ корневому ключу classes** , который был сохранен для совместимости с предыдущими версиями com.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -71,9 +71,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FileType
 [**жетклассфиле**](/windows/desktop/api/Objbase/nf-objbase-getclassfile)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

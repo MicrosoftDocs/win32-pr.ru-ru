@@ -4,12 +4,12 @@ ms.assetid: 5ab7c74b-8a5e-4329-8a49-291470d406cc
 title: Политика метаданных фотографии System. subject
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ceabbab95a52a1155db949dbc60b4525dd5f9d73
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9321e866c34027df3e932f84d532162def959cbaf365bb4020c19647d547adea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119881974"
 ---
 # <a name="systemsubject-photo-metadata-policy"></a>Политика метаданных фотографии System. subject
 
@@ -45,7 +45,7 @@ VT \_ LPWSTR или VT \_ LPWSTR
 
 
 
-| Заказ | Путь                     | Формат диска    |
+| Номер | Путь                     | Формат диска    |
 |-------|--------------------------|----------------|
 | 1     | /APP1/IFD/{ushort = 40095} | байт в Юникоде \_ |
 | 2     | /APP1/IFD/{ushort = 270}   | ascii          |
@@ -58,7 +58,7 @@ VT \_ LPWSTR или VT \_ LPWSTR
 
 
 
-| Заказ | Путь                     | Формат диска    |
+| Номер | Путь                     | Формат диска    |
 |-------|--------------------------|----------------|
 | 1     | /APP1/IFD/{ushort = 40095} | байт в Юникоде \_ |
 
@@ -70,7 +70,7 @@ VT \_ LPWSTR или VT \_ LPWSTR
 
 
 
-| Заказ | Путь                     |
+| Номер | Путь                     |
 |-------|--------------------------|
 | 1     | /APP1/IFD/{ushort = 40095} |
 | 2     | /APP1/IFD/{ushort = 270}   |
@@ -85,7 +85,7 @@ VT \_ LPWSTR или VT \_ LPWSTR
 
 
 
-| Заказ | Путь                | Формат диска    |
+| Номер | Путь                | Формат диска    |
 |-------|---------------------|----------------|
 | 1     | /ИФД/{ушорт = 40095} | байт в Юникоде \_ |
 | 2     | /ИФД/{ушорт = 270}   | ascii          |
@@ -98,7 +98,7 @@ VT \_ LPWSTR или VT \_ LPWSTR
 
 
 
-| Заказ | Путь                | Формат диска    |
+| Номер | Путь                | Формат диска    |
 |-------|---------------------|----------------|
 | 1     | /ИФД/{ушорт = 40095} | байт в Юникоде \_ |
 
@@ -110,7 +110,7 @@ VT \_ LPWSTR или VT \_ LPWSTR
 
 
 
-| Заказ | Путь                |
+| Номер | Путь                |
 |-------|---------------------|
 | 1     | /ИФД/{ушорт = 40095} |
 | 2     | /ИФД/{ушорт = 270}   |
@@ -119,9 +119,9 @@ VT \_ LPWSTR или VT \_ LPWSTR
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

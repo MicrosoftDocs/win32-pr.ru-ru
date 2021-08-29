@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Setupapi.dll
-ms.openlocfilehash: 625e84e9ee88edb1ede310ec4459e89ef2e44be6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e5b4ceedc81af400d670a586df6aa0b8fcbb830e816c32e37113ab18d99028f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119690884"
 ---
 # <a name="psetupgetglobalflags-function"></a>Функция Псетупжетглобалфлагс
 
-\[Эта функция недоступна в Windows Vista и Windows Server 2008.\]
+\[эта функция недоступна в Windows Vista или Windows Server 2008.\]
 
 Функция **псетупжетглобалфлагс** является неподдерживаемой программой.
 
@@ -43,11 +43,11 @@ VOID WINAPI pSetupGetGlobalFlags(void);
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

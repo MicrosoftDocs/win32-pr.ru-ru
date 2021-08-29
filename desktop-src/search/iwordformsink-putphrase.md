@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - search.h
-ms.openlocfilehash: 43539bbf67e23bc37ca92f6a961b945ae581e746
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 874428ed435d2336398f6e72c58b70de275565cce2e606f1fdddea54f0684742
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103808920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119944414"
 ---
 # <a name="iwordformsinkputaltword-method"></a>Ивордформсинк: метод:P Уталтворд
 
@@ -69,11 +69,11 @@ HRESULT PutAltWord(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод вызывается из метода [**женератевордформс**](/windows/win32/api/indexsrv/nf-indexsrv-istemmer-generatewordforms) реализации [**истеммер**](/windows/win32/api/indexsrv/nn-indexsrv-istemmer) . Все альтернативные формы для слова, за исключением последнего, помещаются в объект [**ивордформсинк**](/windows/desktop/api/Indexsrv/nn-indexsrv-iwordformsink) путем вызова **Ивордформсинк::P уталтворд**. Последняя альтернативная форма слова, которая всегда является исходной формой слова, обрабатывается путем вызова [**ивордформсинк::P утворд**](iwordformsink-putword.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -85,7 +85,7 @@ HRESULT PutAltWord(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

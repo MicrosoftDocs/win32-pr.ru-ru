@@ -4,12 +4,12 @@ ms.assetid: d87db173-6de0-09eb-7767-df619c88acfd
 title: Как сдвигать звук
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4136d6e30cba1e6b0bc669fef5518d2a56f868f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a1e91ff27dfe7c951f95c37fed194a83dac09de8ccec7e37ebc5ad35ca548199
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118696273"
 ---
 # <a name="how-to-pan-a-sound"></a>Как сдвигать звук
 
@@ -99,7 +99,7 @@ ms.locfileid: "103911100"
 
     
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

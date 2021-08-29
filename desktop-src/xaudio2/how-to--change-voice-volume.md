@@ -4,12 +4,12 @@ ms.assetid: 40004128-4abb-4bcd-fe76-91276be8abec
 title: Как изменить громкость голоса
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a307c5585e56fb6dc4dbdc40386c6844607498ff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab433cc0e5c0e3ddc4bea3c58f49afae36cf8833fa8f003c99f1c45b237c70a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103815281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118696261"
 ---
 # <a name="how-to-change-voice-volume"></a>Как изменить громкость голоса
 
@@ -70,7 +70,7 @@ ms.locfileid: "103815281"
 
     
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

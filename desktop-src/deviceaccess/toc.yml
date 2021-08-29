@@ -14,7 +14,7 @@
           href: declaring-the-device-capability.md
         - name: Зарегистрируйте интерфейс устройства как ограниченные для привилегированных приложений
           href: register-the-device-interface-class-as-privileged.md
-        - name: Создание расширения среда выполнения Windows
+        - name: создание расширения среда выполнения Windows
           href: create-a-windows-runtime-extension.md
     - name: Справочник по программированию API доступа к устройствам C++
       href: device-access-api-c---programming-reference.md

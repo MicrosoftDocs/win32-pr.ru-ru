@@ -10,12 +10,12 @@ keywords:
 - асинхронные читатели, получение примеров мультимедиа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb0419619ea99bd3734db67f8e658b1f3ff058a3
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 896fa4a023dc0cbcce3db6e0b0fc5101347f12fd65a4294a608823e511a55e77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104069553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118699125"
 ---
 # <a name="to-retrieve-media-samples-with-the-asynchronous-reader"></a>Получение примеров мультимедиа с помощью асинхронного модуля чтения
 
@@ -23,7 +23,7 @@ ms.locfileid: "104069553"
 
 **Start** — это асинхронный вызов. Он возвратит практически сразу и продолжит работу в отдельных потоках. Асинхронный модуль чтения использует несколько потоков при декодировании содержимого и доставке образцов. По достижении конца файла средство чтения отправляет \_ сообщение о состоянии ВМТ EOF в реализацию обратного вызова **OnStatus** . При \_ отправке ВМТ EOF модуль чтения останавливает собственную обработку; вам не нужно отвечать на ВМТ \_ EOF с вызовом [**Ивмреадер:: Stop**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-stop).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -36,9 +36,9 @@ ms.locfileid: "104069553"
 [**Реализация обратного вызова OnSample**](to-implement-the-onsample-callback.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e5ced89463eea8906fd46f83a0677b8703acf200
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ebb410234be4784efa6e2eb53932977c55ca23c0c33e35506804752fce1ce099
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989103"
 ---
 # <a name="d3dcolor"></a>D3DCOLOR
 
@@ -27,7 +27,7 @@ typedef DWORD D3DCOLOR;
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 4-байтовое значение, которое обычно представляет альфа-, красный, зеленый и синий компоненты цвета. Он также может представлять светимость и яркость.
 
@@ -46,7 +46,7 @@ typedef DWORD D3DCOLOR;
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
 
 
 

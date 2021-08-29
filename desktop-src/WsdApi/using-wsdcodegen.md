@@ -4,12 +4,12 @@ ms.assetid: 8f172e2c-4cd1-4108-9c8d-01a731aca83b
 title: Использование Всдкодежен
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e09bd2b0c8f96d51751aa90bc3206a0824f19b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b6395d39a84415cc56e66949ea82ef7a1acd9fc009b7e1b2c93fa2712e8a81a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119463174"
 ---
 # <a name="using-wsdcodegen"></a>Использование Всдкодежен
 
@@ -21,9 +21,9 @@ ms.locfileid: "105702285"
 4.  Создайте код с помощью Всдкодежен, указав файл конфигурации в качестве входных данных. Дополнительные сведения см. в описании [синтаксиса командной строки всдкодежен](wsdcodegen-command-line-syntax.md).
 5.  Используйте созданный код для создания клиента, узла или и того и другого.
 
-В Windows SDK содержатся примеры WSDL-файлов, файлы конфигурации Всдкодежен и созданный код. Дополнительные сведения см. в разделе [примеры WSDAPI](wsdapi-samples.md).
+в Windows SDK содержатся примеры WSDL-файлов, файлы конфигурации всдкодежен и созданный код. Дополнительные сведения см. в разделе [примеры WSDAPI](wsdapi-samples.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

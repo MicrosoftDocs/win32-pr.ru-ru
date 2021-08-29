@@ -4,12 +4,12 @@ ms.assetid: 33c99620-7381-4719-9fc6-4c8284481411
 title: Обработчики протокола отладки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 321d59c0c7915f9bbf84a80091408ba88a9a75ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b8946b0203c7bc56dd16606ca28e4811bc6328d0cfa87ae55eb2e752657e7da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104144050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119944494"
 ---
 # <a name="debugging-protocol-handlers"></a>Обработчики протокола отладки
 
@@ -20,7 +20,7 @@ ms.locfileid: "104144050"
 -   [Сведения о обработчиках протокола отладки](#about-debugging-protocol-handlers)
 -   [Настройка отладки](#setting-up-debugging)
 -   [Дополнительные ресурсы](#additional-resources)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="about-debugging-protocol-handlers"></a>Сведения о обработчиках протокола отладки
 
@@ -74,7 +74,7 @@ ms.locfileid: "104144050"
 
 -   Сведения о создании обработчиков см. в разделе [Регистрация расширений оболочки](../shell/reg-shell-exts.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>**Основные**</dt> <dt><a href="-search-3x-wds-phaddins.md">обработчики протокола разработки</a></dt> <dt><a href="-search-3x-wds-extidx-prot-implementing.md">Основные сведения об обработчиках протоколов</a></dt> <dt><a href="-search-3x-wds-notifyingofchanges.md">уведомление об изменении индекса изменений</a></dt> <dt><a href="-search-3x-wds-ph-ui-extensions.md">Добавление значков и контекстных меню</a></dt> <dt><a href="-search-3x-wds-ph-ui-samplecode.md">пример кода: расширения оболочки для обработчиков протоколов</a></dt> <dt><a href="-search-3x-wds-ph-search-connector.md">Создание соединителя поиска для обработчика протокола</a></dt> <dt><a href="-search-3x-wds-ph-install-registration.md">Установка и регистрация обработчиков протоколов</a></dt> </dl>
 

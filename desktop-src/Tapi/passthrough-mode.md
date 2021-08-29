@@ -4,12 +4,12 @@ ms.assetid: 75e31241-c782-4d50-9590-cf68c0505add
 title: Сквозной режим
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 985e1caf666fcb3278bacf5c5cfe9d8a4e847dbb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 69480fb05b0a86c783b983dcf43f5e241dff865ea6bea16ad4a3744ad06a1fb1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959724"
 ---
 # <a name="passthrough-mode"></a>Сквозной режим
 
@@ -29,7 +29,7 @@ struct {
 }
 ```
 
-Пример:
+Например:
 
 ``` syntax
     00000001 00000008 74737953 435c6d65  ........System\C

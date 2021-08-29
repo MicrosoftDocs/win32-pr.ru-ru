@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: cd630bdc0c09a6bb57a9163ec972451011f3e826
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 52f205717f3ba361c2c15dafc6e53f6cef3cd9d41cbbbf2ed243c60a74c2ca62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879444"
 ---
 # <a name="capicom_active_directory_search_location-enumeration"></a>\_ \_ \_ \_ Перечисление расположения поиска CAPICOM Active Directory
 
@@ -36,20 +36,20 @@ ms.locfileid: "105665354"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот тип перечисления используется следующим свойством:
 
--   [**Settings. Активедиректорисеарчлокатион**](settings-activedirectorysearchlocation.md)
+-   [**Параметры. активедиректорисеарчлокатион**](settings-activedirectorysearchlocation.md)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------------|--------------------------------------------------------------------------------------|
 | Распространяемые компоненты<br/> | CAPICOM 2,0 или более поздней версии на Windows Server 2003 и Windows XP<br/>                |
-| Header<br/>          | <dl> <dt>CAPICOM. h</dt> </dl> |
+| Заголовок<br/>          | <dl> <dt>CAPICOM. h</dt> </dl> |
 
 
 

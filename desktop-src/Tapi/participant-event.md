@@ -4,16 +4,16 @@ ms.assetid: 678165f2-ad0b-415f-86bf-8c4e3bd8d793
 title: Перечисление PARTICIPANT_EVENT (Ипмсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 225b1b9901efa5648dfaa326c53ed69cff2c4295
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ef5eb7a98a445ecb89b25fe2d18ef77be31aa54b5fac2920814fba2c4a3f6b08
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959774"
 ---
 # <a name="participant_event-enumeration"></a>\_Перечисление событий участников
 
-\[ Это перечисление недоступно для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[это перечисление недоступно для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Перечисление **\_ событий участника** описывает события участников. Метод [**\_ события итпартиЦипантевент:: Get**](itparticipantevent-get-event.md) возвращает член этого перечисления для указания типа произошедшего события участника конференции. Это перечисление используется приложениями, которые обращаются к [ИПКОНФ MSP](ipconf-msp.md).
 
@@ -121,18 +121,18 @@ ms.locfileid: "105685444"
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------|------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,0 или более поздней версии<br/>                                              |
-| Header<br/>       | <dl> <dt>Ипмсп. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>Ипмсп. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

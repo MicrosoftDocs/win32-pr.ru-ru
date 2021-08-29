@@ -4,12 +4,12 @@ ms.assetid: C99C5E92-78DA-4709-BF6C-6CE04E8EB36E
 title: Атрибут MF_STF_VERSION_DATE (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9db7e75fa2f7cf17920fc980f13c75539c5f8ced
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d39a53aaf3bc11637fd7bf996ee62f10f72636f0ef221537da14284f9983b3fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104343322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119605008"
 ---
 # <a name="mf_stf_version_date-attribute"></a>\_ \_ Атрибут даты версии MF СТФ \_
 
@@ -19,15 +19,15 @@ ms.locfileid: "104343322"
 
 **UINT64**
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только для настольных приложений Windows 10 версии 1703\]<br/>                          |
+| Минимальная версия клиента<br/> | Windows 10, только для \[ настольных приложений версии 1703\]<br/>                          |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 

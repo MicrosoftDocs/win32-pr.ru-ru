@@ -4,18 +4,18 @@ ms.assetid: 4c4442b2-b2da-4b0e-9bfd-b1ad9613a095
 title: Перечисления на панели ввода текста
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fcc6acf24ddb61ba75d6b97fb37a46d99b34c1c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94f0e29b1ba92d88de537c277e80e4ef1f431add89a2d0f5c41e75dbe5bb137e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119819924"
 ---
 # <a name="text-input-panel-enumerations"></a>Перечисления на панели ввода текста
 
 В этом разделе содержатся перечисления, используемые [**интерфейсом итекстинпутпанел**](/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel).
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 
 
@@ -33,7 +33,7 @@ ms.locfileid: "105684403"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

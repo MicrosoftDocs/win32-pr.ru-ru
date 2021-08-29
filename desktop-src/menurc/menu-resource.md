@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a5cdb564c7bf012255b339a13691d2ecf214a86
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 3c2b73afb5ef0547cbbccd8e5fdd87d7581edcaf19d5d73bc49ea3151166d882
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105713422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119601944"
 ---
 # <a name="menu-resource"></a>Ресурс меню
 
@@ -82,7 +82,7 @@ sample MENU
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -113,7 +113,7 @@ sample MENU
 [**STRINGTABLE**](stringtable-resource.md)
 </dt> <dt>
 
-[**Версия**](version-statement.md)
+[**ВЕРСИЯ**](version-statement.md)
 </dt> </dl>
 
  

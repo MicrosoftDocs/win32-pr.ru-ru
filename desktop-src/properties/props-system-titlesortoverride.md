@@ -4,12 +4,12 @@ ms.assetid: 1ed18c7f-2dde-4347-a53c-30dfacbabb40
 title: System. Титлесортоверриде
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a83713f5cd2f741d52c19303dee1bb4d2026163c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: faf55520b4085fec55e668bb44dec259d5e8e43077b3438a247661c1c2999776
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119945024"
 ---
 # <a name="systemtitlesortoverride"></a>System. Титлесортоверриде
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

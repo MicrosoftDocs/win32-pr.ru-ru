@@ -362,7 +362,7 @@ Response.Write "PDC Role Owner: " & sys.PDCRoleOwner
 
 
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

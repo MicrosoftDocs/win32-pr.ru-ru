@@ -1,5 +1,5 @@
 ---
-description: 'Отображает диалоговое окно Поиск: все файлы. Это то же самое, что и при щелчке в меню Пуск, а затем выбрав поиск.'
+description: 'Отображает диалоговое окно Поиск: все файлы. это то же самое, что и при щелчке меню и выборе поиска.'
 ms.assetid: 6F588D5E-5B6E-4000-BAD5-B557FB975FCA
 title: Ишеллдиспатч. Финдфилес, метод (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 9a9ea407d0ceccfe7706ed481aa80bcda9405ec4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6cc390ea0ff4ba328bd0061ed03d973bff9e32054713a793ebe29ef9be2650ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119942384"
 ---
 # <a name="ishelldispatchfindfiles-method"></a>Ишеллдиспатч. Финдфилес, метод
 
@@ -55,15 +55,15 @@ IShellDispatch.FindFiles()
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот метод реализован и доступен через метод [**Shell. финдфилес**](shell-findfiles.md) .
 
 ## <a name="examples"></a>Примеры
 
-В следующих примерах показано использование **финдфилес** в JScript, VBScript и Visual Basic.
+в следующих примерах показано использование **финдфилес** в JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -113,13 +113,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

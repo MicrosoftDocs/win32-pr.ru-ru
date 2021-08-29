@@ -4,12 +4,12 @@ ms.assetid: 35e1ccc2-ffc1-47a6-aba8-5a5cb442e8ae
 title: ParameterRef
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb3655ab62c8d11b4e9ee777d01a8e6bf5d63a1f
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 1030dcaa40e0fe0d5ccd8c3963cee8a2bda57b9b849e1fa7c0547f025b5f8955
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122884116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119947824"
 ---
 # <a name="parameterref"></a>ParameterRef
 
@@ -19,7 +19,7 @@ ms.locfileid: "122884116"
 
 ## <a name="element-tag"></a>Тег элемента
 
-&lt;ParameterRef&gt;
+<ParameterRef>
 
 ## <a name="xml-attributes"></a>XML-атрибуты
 

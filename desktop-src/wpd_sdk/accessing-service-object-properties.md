@@ -4,12 +4,12 @@ ms.assetid: 66d9802b-ad28-47a4-8151-9df7aff07d61
 title: Доступ к свойствам объекта службы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 028ffc178f29f21aa60295b137b48c0fa2357a28
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f1e47d559175c831a6a80e11a1cf5bc8812806bf7957ec64dbd77b85a2f14bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118697640"
 ---
 # <a name="accessing-service-object-properties"></a>Доступ к свойствам объекта службы
 
@@ -31,7 +31,7 @@ ms.locfileid: "105692222"
 
 Большинство приложений WPD должны относиться к первой или второй категории.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

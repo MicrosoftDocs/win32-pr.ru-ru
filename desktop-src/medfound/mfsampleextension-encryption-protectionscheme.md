@@ -4,12 +4,12 @@ ms.assetid: 04E9F908-C61C-43DC-8CF5-9A629FCDD82C
 title: Атрибут MFSampleExtension_Encryption_ProtectionScheme (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de298eb310e1258274a4ce24d49e9b53def38cde
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a9db7d00d67b0e9806167ea574d10c3dca5f199293c03f5e055d60430c2dd75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119603184"
 ---
 # <a name="mfsampleextension_encryption_protectionscheme-attribute"></a>\_ \_ Атрибут Протектионсчеме Encryption мфсампликстенсион
 
@@ -19,7 +19,7 @@ ms.locfileid: "104155967"
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение этого атрибута является членом перечисления [**мфсамплинкриптионпротектионсчеме**](/windows/win32/api/mfapi/ne-mfapi-mfsampleencryptionprotectionscheme) . В случаях, когда источник мультимедиа основан на MP4, значение устанавливается на основе значения поля **\_ тип схемы** в поле Тип схемы ("счм") в заголовке MP4 ("Moov" или "moof").
 
@@ -68,15 +68,15 @@ HRESULT AddEncryptionAttributes(_In_ IMFSample* pSample, _In_ bool fIsEncrypted)
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только для настольных приложений Windows 10 версии 1709\]<br/>                          |
+| Минимальная версия клиента<br/> | Windows 10, только для \[ настольных приложений версии 1709\]<br/>                          |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 

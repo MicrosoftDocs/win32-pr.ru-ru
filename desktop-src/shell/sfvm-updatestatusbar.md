@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 14045c797d7292099c1c7b2c67f5958609d8d6b5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 106782383b90af85dca82e445dfc21f77e0f3def73174da9147aadc988f2694e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104997774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883904"
 ---
 # <a name="sfvm_updatestatusbar-message"></a>\_Сообщение сфвм упдатестатусбар
 
@@ -46,7 +46,7 @@ SFVM_UPDATESTATUSBAR
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 При получении этого уведомления:
 

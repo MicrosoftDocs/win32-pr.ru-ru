@@ -4,12 +4,12 @@ ms.assetid: b6f4f5d6-7f12-4104-95ad-b163445d198b
 title: System.Devices.BatТерилифе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe8f24f5ecaa78231fdc463b718046adc42fc681
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3c224d3d799130e5e453a3b9c83187de8aaa6e02dc1fcf2682300ecbd8c9b94
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119458794"
 ---
 # <a name="systemdevicesbatterylife"></a>System.Devices.BatТерилифе
 
@@ -63,11 +63,11 @@ propertyDescription
             defineToken = BATTERYLIFE_UNKNOWN_STATUS
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

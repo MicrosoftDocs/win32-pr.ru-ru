@@ -4,12 +4,12 @@ ms.assetid: d4050920-1dfe-4137-939a-6ec8f269778b
 title: Визуализация Direct3D (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 490bcf438e88285ad3e7f98e87da60d1e4f20e5b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 424b49bcd618cc7b676798bf824e440d68673a9d8263b49574d7c6984abb7f47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104416676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988194"
 ---
 # <a name="direct3d-rendering-direct3d-9"></a>Визуализация Direct3D (Direct3D 9)
 
@@ -23,7 +23,7 @@ ms.locfileid: "104416676"
 -   [Альфа-смешение (Direct3D 9)](alpha-blending.md)
 -   [Поддержка рисования линий в D3DX (Direct3D 9)](line-drawing-support-in-d3dx.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

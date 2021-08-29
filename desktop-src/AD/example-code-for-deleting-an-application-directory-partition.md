@@ -8,12 +8,12 @@ keywords:
 - разделы каталога приложений Active Directory, пример кода для удаления
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b04be132d9a9ea58b72f732efd5e5fcc9f370b4
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: fa41e98fcc90e9f4af1c9f46ed7c414b723daedc1d600d5899c941f88a393871
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103890427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118694083"
 ---
 # <a name="example-code-for-deleting-an-application-directory-partition"></a>Пример кода для удаления раздела каталога приложений
 
@@ -218,7 +218,7 @@ HRESULT DeleteAppPartition( LPCWSTR pwszPartitionDN,
 
 
 
-Следующий пример кода Visual Basic Scripting Edition можно использовать для удаления раздела каталога приложений с помощью ADSI. В этом примере используется одна из **жетпартитионсдн \*** примеров функций, описанных в [примере кода для поиска контейнера секций](example-code-for-locating-the-partitions-container.md).
+следующий пример кода Visual Basic scripting Edition можно использовать для удаления раздела каталога приложений с помощью ADSI. В этом примере используется одна из **жетпартитионсдн \*** примеров функций, описанных в [примере кода для поиска контейнера секций](example-code-for-locating-the-partitions-container.md).
 
 
 ```VB
@@ -414,7 +414,7 @@ static void DeleteAppPartition(
 
 
 
-Следующий пример кода .NET Visual Basic можно использовать для удаления раздела каталога приложений с помощью [System. DirectoryServices](/dotnet/api/system.directoryservices). В этом примере используется одна из **жетпартитионсдн \*** примеров функций, описанных в [примере кода для поиска контейнера секций](example-code-for-locating-the-partitions-container.md).
+следующий пример кода .net Visual Basic можно использовать для удаления раздела каталога приложений с помощью [System. DirectoryServices](/dotnet/api/system.directoryservices). В этом примере используется одна из **жетпартитионсдн \*** примеров функций, описанных в [примере кода для поиска контейнера секций](example-code-for-locating-the-partitions-container.md).
 
 
 ```VB
@@ -511,6 +511,6 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
