@@ -4,12 +4,12 @@ ms.assetid: e636c2eb-3c11-45bf-ab0b-a14ec878742c
 title: Данные (формат файла X)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efdf799b9f7f155c8d2a0e883c8d5e79f8091156
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 28a520d05571f592243e71799ad21a7da3a8d8bea6a3f5819508a194eaca90ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104139230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986004"
 ---
 # <a name="data-x-file-format-binary-encoding"></a>Данные (формат файла X, двоичное кодирование)
 
@@ -55,7 +55,7 @@ data_reference        : TOKEN_OBRACE name optional_class_id TOKEN_CBRACE
 
 Обратите внимание, что в \_ списке число и данные с плавающей запятой \_ в двоичных файлах \_ не используются разделители и \_ точка с запятой маркера. Запятая и точка с запятой используются в \_ данных списка строк. Также обратите внимание, что можно использовать только \_ ссылку на данные для необязательных элементов данных.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

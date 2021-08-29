@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - Netmon.h
-ms.openlocfilehash: bc49cc083cf6ba46594473a041d9a1ad138efa22
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c24f719018f155fab26df4673b7dc3be18546675532657cb8fb3a0271763af2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128924"
 ---
 # <a name="register-parser-callback-function"></a>Регистрация функции обратного вызова средства синтаксического анализа
 
@@ -65,7 +65,7 @@ VOID Register(
 
 | Дополнительные сведения о                                        | См.                                                    |
 |-----------------------------------------------------------|--------------------------------------------------------|
-| Какие анализаторы и как они работают с сетевой монитор. | [Анализаторы](parsers.md)                                 |
+| Какие анализаторы и как они работают с сетевой монитор. | [Средства синтаксического анализа](parsers.md)                                 |
 | Какие точки входа включены в библиотеку DLL средства синтаксического анализа.        | [Архитектура библиотеки DLL средства синтаксического анализа](parser-dll-architecture.md) |
 | Реализация **регистра**  включает пример.       | [Реализация регистра](implementing-register.md)     |
 
@@ -85,7 +85,7 @@ VOID Register(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

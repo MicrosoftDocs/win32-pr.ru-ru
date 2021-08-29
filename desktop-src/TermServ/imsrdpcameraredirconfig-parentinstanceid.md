@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 12/16/2020
-ms.openlocfilehash: e4a399659c33000207930bfe7d17818a2ad8438f
-ms.sourcegitcommit: 04e801237156e90b48111d60bddf437f87f5cdfe
+ms.openlocfilehash: 149e4f536996376193596db6c4fd4cf659637c05bb92e3afcdb7ee78c480b893
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "105719224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119574564"
 ---
 # <a name="imsrdpcameraredirconfigparentinstanceid-property"></a>Имсрдпкамераредирконфиг: свойство Арентинстанцеид:P
 
@@ -42,7 +42,7 @@ HRESULT get_ParentInstanceId(
 
 Идентификатор родительского экземпляра устройства камеры.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------|
@@ -51,7 +51,7 @@ HRESULT get_ParentInstanceId(
 | DLL                  | MsTscAx.dll     |
 | IID                      | IID \_ имсрдпкамераредирконфиг определен как 09750604-D625-47C1-9FCD-F09F735705D7            |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

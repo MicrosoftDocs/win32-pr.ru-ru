@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - search.h
-ms.openlocfilehash: e4e35c5ed75016292dd420e7a832c6cfb780284a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c3b32e20fa00838c4562de4ab56d5f4e982d4b3db2a9a6d9e53af3742bb2683
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118051573"
 ---
 # <a name="iwordsinkstartaltphrase-method"></a>Метод Ивордсинк:: Старталтфрасе
 
@@ -51,7 +51,7 @@ HRESULT StartAltPhrase();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Каждая альтернативная фраза начинается с вызова **старталтфрасе** . Фраза помещается в объект [**ивордсинк**](iwordsink.md) посредством последующих вызовов метода [**Ивордсинк::P утворд**](iwordsink-putword.md) или [**ивордсинк::P уталтворд**](iwordsink-putaltword.md) . Последняя альтернативная фраза в последовательности фраз завершается вызовом метода [**ивордсинк:: ендалтфрасе**](iwordsink-endaltphrase.md) .
 
@@ -67,7 +67,7 @@ HRESULT StartAltPhrase();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

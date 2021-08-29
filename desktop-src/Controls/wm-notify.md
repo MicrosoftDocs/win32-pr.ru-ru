@@ -3,7 +3,7 @@ title: Сообщение WM_NOTIFY (Winuser. h)
 description: Посылается обычным элементом управления в его родительское окно, когда произошло событие или для элемента управления требуются некоторые сведения.
 ms.assetid: vs|controls|~\controls\common\messages\wm_notify.htm
 keywords:
-- Элементы управления Windows для WM_NOTIFY сообщений
+- элементы управления Windows сообщений WM_NOTIFY
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1905954e7fb164f8436216fa918cc6f243f4b17
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9139f2dab6410eeb2bacbde93b5e163c0591f350626046861426ddc53beab389
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119539714"
 ---
 # <a name="wm_notify-message"></a>\_Уведомить сообщение WM
 
@@ -47,7 +47,7 @@ ms.locfileid: "103988898"
 
 Возвращаемое значение игнорируется, за исключением сообщений уведомления, в которых указано иное.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Место назначения сообщения должно быть **HWND** родительского элемента управления. Это значение можно получить с помощью функции- [**родителя**](/windows/desktop/api/winuser/nf-winuser-getparent), как показано в следующем примере, где *m \_ контролхвнд* — это **HWND** самого элемента управления.
 
@@ -98,23 +98,23 @@ INT_PTR CALLBACK DlgProc(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 
 Если обработчик сообщений находится в процедуре диалогового окна, необходимо использовать функцию [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) с DWL \_ мсгресулт, чтобы задать возвращаемое значение.
 
-Для систем Windows Vista и более поздних версий сообщение **WM \_ Notify** не может быть отправлено между процессами.
+для Windows Vista и более поздних систем сообщение **WM \_ NOTIFY** не может быть отправлено между процессами.
 
 Многие уведомления доступны в форматах ANSI и Юникод. Окно, отправляющее сообщение **WM \_ Notify** , использует сообщение [**WM \_ нотифиформат**](wm-notifyformat.md) для определения формата, который следует использовать. Дополнительные сведения см. в разделе **WM \_ нотифиформат** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                 |
-| Header<br/>                   | <dl> <dt>Winuser. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                 |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

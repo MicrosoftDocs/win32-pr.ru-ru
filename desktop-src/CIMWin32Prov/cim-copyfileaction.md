@@ -26,12 +26,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 75de4ab4d173b68f02eff73962fb198270770806
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 6e64674c9871f79f985f386cec1c155803fc481021419059ee5168e23842c79d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122882038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924774"
 ---
 # <a name="cim_copyfileaction-class"></a>\_Класс CIM копифилеактион
 
@@ -205,7 +205,7 @@ class CIM_CopyFileAction : CIM_FileAction
 
 </dd> <dt>
 
-**имя**;
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -863,14 +863,14 @@ Mac OS 9
 
 Версия операции должна быть в одной из следующих форм:
 
--   &lt;основной &gt; . &lt; дополнительный номер &gt; . &lt; редакции&gt;
--   &lt;основной &gt; . &lt; Дополнительная &gt; &lt; буква &gt; &lt; версии&gt;
+-   <major>.<minor>.<revision>
+-   <major>.<minor><letter><revision>
 
 Это свойство наследуется [**от \_ действия CIM**](cim-action.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ копифилеактион** является производным от [**CIM \_ филеактион**](cim-fileaction.md).
 

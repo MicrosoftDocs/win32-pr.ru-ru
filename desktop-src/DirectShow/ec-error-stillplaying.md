@@ -4,12 +4,12 @@ ms.assetid: 0bfcf4b4-b35a-4593-9956-8e1e8c9139cb
 title: EC_ERROR_STILLPLAYING (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d1c99db8c6b332ad4531f04171d960c5cfa9824
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b82383c541f2ba5294cf4d45844f096ff510f25444ce87a54b956d0a777a7fc4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105674961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051784"
 ---
 # <a name="ec_error_stillplaying"></a>EC \_ об ошибке \_ стиллплайинг
 
@@ -47,7 +47,7 @@ ms.locfileid: "105674961"
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>DShow. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>DShow. h</dt> </dl> |
 
 
 

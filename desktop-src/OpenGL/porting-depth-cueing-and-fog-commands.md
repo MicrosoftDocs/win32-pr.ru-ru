@@ -15,12 +15,12 @@ keywords:
 - туман
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fd9f65a29e0ae594bf9344cd960d3fc2b9aa646
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 05cb71e15b109b792f892f00f506f654ddd0bfd25118c3bef268e245c6588777
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104258809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144117"
 ---
 # <a name="porting-depth-cueing-and-fog-commands"></a>Перенос команд cueing и туман глубины
 
@@ -58,7 +58,7 @@ ms.locfileid: "104258809"
 
 
 
-| Параметр тумана    | Значение                       | Значение по умолчанию                  |
+| Параметр тумана    | Значение                       | По умолчанию                  |
 |------------------|-------------------------------|--------------------------|
 | \_плотность тумана GL \_ | Плотность тумана.                  | 1.0                      |
 | Начало работы с \_ туманом GL \_   | Близкое расстояние для линейного тумана. | 0,0                      |

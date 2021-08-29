@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 54c2421250e638ad05c545978ca7649285b01836
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9cccbba728e8a76024f79bf95711de11573e84310a463680b29ca91dbeafd00c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119983714"
 ---
 # <a name="cbasecontrolvideoput_destinationleft-method"></a>Кбасеконтролвидео. размещение \_ метода дестинатионлефт
 
@@ -67,7 +67,7 @@ HRESULT put_DestinationLeft(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение может изменить исходный и конечный прямоугольники видео через интерфейс [**ибасиквидео**](/windows/desktop/api/Control/nn-control-ibasicvideo) . Исходный прямоугольник влияет на то, какой раздел исходного видео будет отображаться на экране. прямоугольник назначения влияет на то, где будет отображаться видео при его воспроизведении. Прямоугольник назначения задается относительно клиентской области окна, в котором оно воспроизводится. Левый верхний угол окна имеет координаты (0, 0).
 
@@ -77,7 +77,7 @@ HRESULT put_DestinationLeft(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ктлутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

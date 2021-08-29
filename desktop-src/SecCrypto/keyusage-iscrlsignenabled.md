@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 39bd8509ebc89719e5d06e5e60a300ec2cd9949a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 47efa230eafe21918f33abcf409d8e1bba73a2c0d7ae0a3e9d1096018e33a11e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867694"
 ---
 # <a name="keyusageiscrlsignenabled-property"></a>Кэйусаже. Искрлсигненаблед, свойство
 
@@ -39,7 +39,7 @@ KeyUsage.IsCRLSignEnabled As Boolean
 
 Если **значение равно true**, бит крлсигн установлен.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -50,7 +50,7 @@ KeyUsage.IsCRLSignEnabled As Boolean
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

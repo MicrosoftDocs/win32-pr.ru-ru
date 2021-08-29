@@ -44,18 +44,18 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ccf986957d73dd93837b0ab7a1e10b50aec5e8f9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1c4f0c108c397668dce915f5d5993881e66c3524025ef0545c40e00ed2563d78
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986394"
 ---
 # <a name="win32_desktopmonitor-class"></a>\_Класс Win32 десктопмонитор
 
 [Класс WMI](/windows/desktop/WmiSdk/retrieving-a-class) **\_ десктопмонитор для Win32** представляет тип монитора или устройства отображения, подключенного к компьютерной системе.
 
-Оборудование, несовместимое с моделью драйвера Windows (WDDM), возвращает неточные значения свойств для экземпляров этого класса.
+оборудование, несовместимое с Windows модели драйвера (WDDM), возвращает неточные значения свойств для экземпляров этого класса.
 
 Следующий пример синтаксиса — упрощенный MOF-код, который включает все наследуемые свойства. Свойства перечислены в алфавитном порядке, а не в MOF.
 
@@ -345,7 +345,7 @@ class Win32_DesktopMonitor : CIM_DesktopMonitor
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -434,12 +434,12 @@ class Win32_DesktopMonitor : CIM_DesktopMonitor
 
 <span id="The_driver_for_this_device_needs_a_resource_that_Windows_cannot_manage."></span><span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>
 
-<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**Драйверу для этого устройства требуется ресурс, который Windows не может управлять.** (5)
+<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**драйверу для этого устройства нужен ресурс, который Windows не может управлять.** (5)
 
 
 </dt> <dd>
 
-Драйверу для устройства требуется ресурс, который Windows не может управлять.
+драйверу для устройства требуется ресурс, который Windows не может управляться.
 
 </dd> <dt>
 
@@ -646,23 +646,23 @@ Windows не удается найти все ресурсы, используе
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Это устройство все еще настраивается Windows.** (25)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows все еще настраивает это устройство.** (25)
 
 
 </dt> <dd>
 
-Устройство все еще настраивается.
+Windows все еще настраивает устройство.
 
 </dd> <dt>
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Это устройство все еще настраивается Windows.** (26)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows все еще настраивает это устройство.** (26)
 
 
 </dt> <dd>
 
-Устройство все еще настраивается.
+Windows все еще настраивает устройство.
 
 </dd> <dt>
 
@@ -712,7 +712,7 @@ Windows не удается найти все ресурсы, используе
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**Это устройство работает неправильно, так как Windows не может загрузить драйверы, необходимые для этого устройства.** 1-31
+<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**это устройство работает неправильно, так как Windows не может загрузить драйверы, необходимые для этого устройства.** 1-31
 
 
 </dt> <dd>
@@ -786,7 +786,7 @@ Windows не удается найти все ресурсы, используе
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**ключ**](/windows/desktop/WmiSdk/key-qualifier), [**Переопределение**](/windows/desktop/WmiSdk/standard-qualifiers) ("DeviceID"), [**МАППИНГСТРИНГС**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API \| Windows GDI \| хмонитор")
+квалификаторы: [**ключ**](/windows/desktop/WmiSdk/key-qualifier), [**переопределение**](/windows/desktop/WmiSdk/standard-qualifiers) ("DeviceId"), [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API \| Windows GDI \| хмонитор")
 </dt> </dl>
 
 Уникальный идентификатор монитора рабочего стола.
@@ -968,7 +968,7 @@ Windows не удается найти все ресурсы, используе
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1030,7 +1030,7 @@ Windows не удается найти все ресурсы, используе
 Квалификаторы: [**схема**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
 </dt> </dl>
 
-Идентификатор устройства Windows самонастраивающийся логического устройства.
+Windows Самонастраивающийся идентификатор устройства логического устройства.
 
 Это свойство наследуется [**от \_ CIM**](cim-logicaldevice.md)-унаследованной модели.
 
@@ -1377,15 +1377,15 @@ Windows не удается найти все ресурсы, используе
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ десктопмонитор** является производным от [**CIM \_ десктопмонитор**](cim-desktopmonitor.md), который является производным от [**CIM- \_ дисплеев**](cim-display.md). **Модель CIM \_ Отображение** является производным от [**CIM \_ усердевице**](cim-userdevice.md), который является производным от CIM-класса. [**\_**](cim-logicaldevice.md)
 
 ## <a name="examples"></a>Примеры
 
-С [помощью примера Visio](https://Gallery.TechNet.Microsoft.Com/84e2c31a-e644-4f79-83cd-e2b1a0ef8557) PowerShell в коллекции TechNet для взаимодействия с моделью автоматизации Visio для создания рисунка Visio используется **Win32 \_ десктопмонитор** .
+с помощью примера Visio PowerShell в галерее TechNet для взаимодействия с моделью автоматизации Visio для создания Visioного рисования используется [рисунок PS создание конфигурации компьютера с использованием](https://Gallery.TechNet.Microsoft.Com/84e2c31a-e644-4f79-83cd-e2b1a0ef8557) образца " **\_ десктопмонитор** ".
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -1399,7 +1399,7 @@ Windows не удается найти все ресурсы, используе
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

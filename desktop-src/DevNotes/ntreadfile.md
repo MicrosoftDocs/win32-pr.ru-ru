@@ -13,18 +13,18 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: be1a73c6451012dfd97d7d4c55c23f0842cf1551
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 57eacec05ec56fe3b174ee58569adca4c0f644e698aae3b603c7db5ab8f25f57
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104538534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984174"
 ---
 # <a name="ntreadfile-function"></a>Функция Нтреадфиле
 
 Считывает данные из открытого файла.
 
-Эта функция является аналогом пользовательского режима функции [**звреадфиле**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile) , документированной в комплекте драйверов Windows (WDK).
+эта функция является аналогом пользовательского режима функции [**звреадфиле**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile) , документированной в комплекте Windows Driver Kit (WDK).
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -126,7 +126,7 @@ NTSTATUS NtReadFile(
 
 **Нтреадфиле** ВОЗВРАЩАЕТ либо состояние \_ Success, либо соответствующий код ошибки NTSTATUS.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вызывающие объекты **нтреадфиле** должны уже называться [**NtCreateFile**](/windows/desktop/api/Winternl/nf-winternl-ntcreatefile) с ФАЙЛОМ \_ Read \_ Data или универсальным \_ чтением значения, заданным в параметре *десиредакцесс* .
 
@@ -170,8 +170,8 @@ NTSTATUS NtReadFile(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                                              |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                                                    |
-| Целевая платформа<br/>          | <dl> <dt>[Универсальной](https://msdn.microsoft.com/Library/Windows/Hardware/EB2264A4-BAE8-446B-B9A5-19893936DDCA)</dt> </dl> |
-| Header<br/>                   | <dl> <dt>WDM. h (включает WDM. h, Нтддк. h или Нтифс. h)</dt> </dl>                   |
+| Целевая платформа<br/>          | <dl> <dt>[Универсальное](https://msdn.microsoft.com/Library/Windows/Hardware/EB2264A4-BAE8-446B-B9A5-19893936DDCA)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>WDM. h (включает WDM. h, Нтддк. h или Нтифс. h)</dt> </dl>                   |
 | Библиотека<br/>                  | <dl> <dt>NTDLL. lib</dt> </dl>                                                    |
 | DLL<br/>                      | <dl> <dt>Ntdll.dll (пользовательский режим)</dt> </dl>                                        |
 

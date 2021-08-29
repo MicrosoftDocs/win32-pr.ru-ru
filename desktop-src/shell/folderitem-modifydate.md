@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: b9ea5fa6b611a0311840507fb2068d08801a5bfd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 06e6c0b4d8254b4e67ccf4f7d09afbedb662c122584f71bf2dea7e25005031aa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119937084"
 ---
 # <a name="folderitemmodifydate-property"></a>FolderItem. ModifyDate, свойство
 
@@ -42,9 +42,9 @@ FolderItem.ModifyDate = iModifyDate
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере **ModifyDate** используется для получения даты последнего изменения блокнота, а затем для ее сброса в очень давное время. Правильное использование показано в JScript, VBScript и Visual Basic.
+в следующем примере **ModifyDate** используется для получения даты последнего изменения Блокнот, а затем для ее сброса в очень давное время. правильное использование отображается для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -146,13 +146,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

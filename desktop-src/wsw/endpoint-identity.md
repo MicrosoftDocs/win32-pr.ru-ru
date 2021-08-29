@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a7a3f7b95d5fc1b926d8bafb49b06f96c7d68fe
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 819fd2b33f1c74f88ef9032a49bd9aa4f04e34f1dcd4e599120951afabb6e167
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927594"
 ---
 # <a name="endpoint-identity"></a>Удостоверение конечной точки
 
@@ -29,7 +29,7 @@ ms.locfileid: "104410643"
 
 
 
- 
+ 
 
 
 
@@ -45,11 +45,11 @@ ms.locfileid: "104410643"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

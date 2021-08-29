@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 757b1c469a528de3ea02cdccd07f8c6b99304b90
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 310e75063c00876e38fe5d5dce35bebd4778874f5395daa77c2b8e8b29c1cd11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104072058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119925764"
 ---
 # <a name="frs-computer-reference-attribute"></a>Атрибут FRS-Computer-Reference
 
@@ -58,9 +58,9 @@ ms.locfileid: "104072058"
 | Идентификатор ссылки                | 102                                              |
 | MAPI-Id                | \-                                               |
 | System-Only            | Неверно                                            |
-| Является однозначным       | True                                             |
+| Является однозначным       | Верно                                             |
 | Индексируется             | Неверно                                            |
-| В глобальном каталоге      | True                                             |
+| В глобальном каталоге      | Верно                                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                     |
 | Range-Lower            | \-                                               |
 | Range-Upper            | \-                                               |
@@ -79,9 +79,9 @@ ms.locfileid: "104072058"
 | Идентификатор ссылки                | 102                                              |
 | MAPI-Id                | \-                                               |
 | System-Only            | Неверно                                            |
-| Является однозначным       | True                                             |
+| Является однозначным       | Верно                                             |
 | Индексируется             | Неверно                                            |
-| В глобальном каталоге      | True                                             |
+| В глобальном каталоге      | Верно                                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                     |
 | Range-Lower            | \-                                               |
 | Range-Upper            | \-                                               |
@@ -100,9 +100,9 @@ ms.locfileid: "104072058"
 | Идентификатор ссылки                | 102                                              |
 | MAPI-Id                | \-                                               |
 | System-Only            | Неверно                                            |
-| Является однозначным       | True                                             |
+| Является однозначным       | Верно                                             |
 | Индексируется             | Неверно                                            |
-| В глобальном каталоге      | True                                             |
+| В глобальном каталоге      | Верно                                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                     |
 | Range-Lower            | \-                                               |
 | Range-Upper            | \-                                               |
@@ -121,9 +121,9 @@ ms.locfileid: "104072058"
 | Идентификатор ссылки                | 102                                              |
 | MAPI-Id                | \-                                               |
 | System-Only            | Неверно                                            |
-| Является однозначным       | True                                             |
+| Является однозначным       | Верно                                             |
 | Индексируется             | Неверно                                            |
-| В глобальном каталоге      | True                                             |
+| В глобальном каталоге      | Верно                                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                     |
 | Range-Lower            | \-                                               |
 | Range-Upper            | \-                                               |
@@ -142,9 +142,9 @@ ms.locfileid: "104072058"
 | Идентификатор ссылки                | 102                                              |
 | MAPI-Id                | \-                                               |
 | System-Only            | Неверно                                            |
-| Является однозначным       | True                                             |
+| Является однозначным       | Верно                                             |
 | Индексируется             | Неверно                                            |
-| В глобальном каталоге      | True                                             |
+| В глобальном каталоге      | Верно                                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                     |
 | Range-Lower            | \-                                               |
 | Range-Upper            | \-                                               |
@@ -163,9 +163,9 @@ ms.locfileid: "104072058"
 | Идентификатор ссылки                | 102                                              |
 | MAPI-Id                | \-                                               |
 | System-Only            | Неверно                                            |
-| Является однозначным       | True                                             |
+| Является однозначным       | Верно                                             |
 | Индексируется             | Неверно                                            |
-| В глобальном каталоге      | True                                             |
+| В глобальном каталоге      | Верно                                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                     |
 | Range-Lower            | \-                                               |
 | Range-Upper            | \-                                               |

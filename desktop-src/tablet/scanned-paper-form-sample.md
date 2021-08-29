@@ -4,12 +4,12 @@ ms.assetid: fc9a39c2-9e4b-4d22-a118-3d24544897dd
 title: Образец печатной формы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d60e1d62a4e023ba38e9a1fd2c4890288a542d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8493384cecdfdbf0186692d52642307f720502f4b953724f444df400cc83c96a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934704"
 ---
 # <a name="scanned-paper-form-sample"></a>Образец печатной формы
 
@@ -102,9 +102,9 @@ ms.locfileid: "105712355"
 
 ## <a name="closing-the-form"></a>Закрытие формы
 
-В коде, созданном конструктором форм Windows Forms, элемент управления [InkPicture](/previous-versions/aa514604(v=msdn.10)) добавляется в список компонентов формы при инициализации формы. При закрытии формы элемент управления InkPicture удаляется, а также другие компоненты формы с помощью метода [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1) формы.
+в коде, созданном конструктором форм Windows, элемент управления [InkPicture](/previous-versions/aa514604(v=msdn.10)) добавляется в список компонентов формы при инициализации формы. При закрытии формы элемент управления InkPicture удаляется, а также другие компоненты формы с помощью метода [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1) формы.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

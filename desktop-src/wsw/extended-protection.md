@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 895bdfecf994f6673c2ed7e7367bc3a7b5bd70c9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e327d929b77108c1b675e6f42a311e4cad6dd9a056e5ac38b6d7e7f4558788c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105681478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927545"
 ---
 # <a name="extended-protection"></a>расширенную защиту
 
@@ -25,7 +25,7 @@ ms.locfileid: "105681478"
 
 ## <a name="supported-configurations"></a>Поддерживаемые конфигурации
 
-Расширенная защита поддерживается при использовании [**\_ \_ \_ привязки канала WS HTTP**](/windows/desktop/api/WebServices/ne-webservices-ws_channel_binding) с привязками безопасности с помощью встроенных протоколов проверки подлинности Windows, таких как [**\_ \_ \_ \_ \_ Привязка безопасности HTTP-заголовка**](/windows/desktop/api/WebServices/ns-webservices-ws_http_header_auth_security_binding) Authentication и [**\_ \_ \_ \_ \_ Привязка безопасности сообщений WS Kerberos апрек**](/windows/desktop/api/WebServices/ns-webservices-ws_kerberos_apreq_message_security_binding). Он настраивается с помощью следующих [**свойств безопасности**](/windows/desktop/api/WebServices/ns-webservices-ws_security_property):
+расширенная защита поддерживается при использовании [**\_ \_ \_ привязки канала WS http**](/windows/desktop/api/WebServices/ne-webservices-ws_channel_binding) с привязками безопасности с помощью Windows встроенных протоколов проверки подлинности, таких как [**\_ \_ \_ \_ \_ привязка безопасности HTTP-заголовка**](/windows/desktop/api/WebServices/ns-webservices-ws_http_header_auth_security_binding) authentication и [**\_ \_ \_ \_ \_ привязка безопасности сообщений ws KERBEROS апрек**](/windows/desktop/api/WebServices/ns-webservices-ws_kerberos_apreq_message_security_binding). Он настраивается с помощью следующих [**свойств безопасности**](/windows/desktop/api/WebServices/ns-webservices-ws_security_property):
 
 -   [**\_ \_ \_ Расширенная \_ Политика защиты в свойстве WS Security \_**](/windows/desktop/api/WebServices/ne-webservices-ws_security_property_id)
 -   [**\_ \_ \_ сценарий расширенной \_ защиты свойства WS Security \_**](/windows/desktop/api/WebServices/ne-webservices-ws_security_property_id)
@@ -55,7 +55,7 @@ ms.locfileid: "105681478"
 
 ## <a name="interoperability"></a>Совместимость
 
-Сервер, настроенный по умолчанию, может взаимодействовать с клиентами SOAP независимо от того, использует ли они расширенную защиту или нет. Единственным исключением являются клиенты Windows XP и Windows Server 2003 ВВСАПИ, которые были обновлены для поддержки расширенной защиты и используют привязку [**\_ \_ \_ \_ безопасности \_ сообщений WS Kerberos Апрек**](/windows/desktop/api/WebServices/ns-webservices-ws_kerberos_apreq_message_security_binding) и [**\_ \_ \_ \_ привязку безопасности транспорта WS SSL**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding). Для поддержки таких клиентов [**\_ политика расширенной \_ защиты WS \_ \_ не**](/windows/desktop/api/WebServices/ne-webservices-ws_extended_protection_policy) должна быть указана сервером. Серверы, настроенные с помощью **\_ политики расширенной защиты WS, \_ \_ \_ всегда** будут отклонять связь с клиентами, которые не используют расширенную защиту. На клиенте **\_ \_ \_ \_ \_ Привязка безопасности сообщений WS Kerberos апрек** , Объединенная с **\_ \_ \_ \_ привязкой безопасности транспорта WS SSL** , приведет к отправке сообщения с использованием кодирования передачи фрагмента HTTP в Vista и более поздних версиях. Это может вызвать проблемы взаимодействия с серверами, которые не поддерживают поблочную пересылку.
+Сервер, настроенный по умолчанию, может взаимодействовать с клиентами SOAP независимо от того, использует ли они расширенную защиту или нет. единственным исключением являются Windows XP и Windows Server 2003 ввсапи, которые были обновлены для поддержки расширенной защиты и используют привязку [**\_ \_ \_ \_ безопасности \_ сообщений ws KERBEROS апрек**](/windows/desktop/api/WebServices/ns-webservices-ws_kerberos_apreq_message_security_binding) и [**\_ \_ \_ \_ привязку безопасности транспорта ws SSL**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding). Для поддержки таких клиентов [**\_ политика расширенной \_ защиты WS \_ \_ не**](/windows/desktop/api/WebServices/ne-webservices-ws_extended_protection_policy) должна быть указана сервером. Серверы, настроенные с помощью **\_ политики расширенной защиты WS, \_ \_ \_ всегда** будут отклонять связь с клиентами, которые не используют расширенную защиту. На клиенте **\_ \_ \_ \_ \_ Привязка безопасности сообщений WS Kerberos апрек** , Объединенная с **\_ \_ \_ \_ привязкой безопасности транспорта WS SSL** , приведет к отправке сообщения с использованием кодирования передачи фрагмента HTTP в Vista и более поздних версиях. Это может вызвать проблемы взаимодействия с серверами, которые не поддерживают поблочную пересылку.
 
 Следующие перечисления/константы являются частью расширенной защиты:
 
@@ -66,9 +66,9 @@ ms.locfileid: "105681478"
 
 -   [**\_ \_ удостоверения безопасности службы \_ WS**](/windows/desktop/api/WebServices/ns-webservices-ws_service_security_identities)
 
- 
+ 
 
- 
+ 
 
 
 
